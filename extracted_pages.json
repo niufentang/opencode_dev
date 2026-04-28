@@ -1,5 +1,0 @@
-{
-  "page_12": "AI Coder 全景图 · 2025~2026\n工具 类型 开源 国产模型 Memory Agent 编排\nOpenCode 终端 Agent MIT 开源 原生支持 AGENTS.md 原生支持\nClaude Code 终端 Agent 闭源 不支持 CLAUDE.md 原生支持\nCursor IDE 插件 闭源 部分支持 .cursorrules Composer\nWindsurf IDE 插件 闭源 部分支持 Rules Cascade\nCopilot IDE 插件 闭源 不支持 .github/copilot 有限\nTrae IDE 插件 闭源 原生支持 Rules Builder",
-  "page_13": "工程化能力 6 维对比\n能力维度 OpenCode Claude Code Cursor 说明\nMemory 记忆 AGENTS.md CLAUDE.md .cursorrules 持久化项目上下文\nSub-Agents 委派 原生支持 原生支持 Composer 任务分解与委派\nSkills 技能 原生支持 原生支持 自定义命令 可复用能力封装\nHooks 事件 原生支持 原生支持 有限 事件驱动自动化\nMCP 协议 原生支持 原生支持 部分支持 外部工具集成\nHeadless CI/CD 原生支持 原生支持 不支持 无人值守运行",
-  "page_15": "OpenCode vs Claude Code · 概念映射表\n概念 OpenCode Claude Code 本质\n项目记忆 AGENTS.md CLAUDE.md 持久化上下文注入\n子 Agent Sub-Agent 原语 SubAgent 原语 隔离上下文的任务委派\n技能包 Skill 文件 SKILL.md 声明式能力封装\n快捷命令 Slash Command Slash Command 用户触发的预定义流程\n事件钩子 Hook 配置 Hook 配置 工具执行前后的自动化\n外部工具 MCP Server MCP Server 标准化外部能力接入\n无人值守 Headless 模式 Headless 模式 CI/CD 集成\n编程 SDK API / SDK Agent SDK 程序化调用 Agent"
-}
