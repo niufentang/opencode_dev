@@ -38,10 +38,10 @@ ai-knowledge-base/
 ├── opencode.json                — OpenCode 配置
 ├── .opencode/
 │   ├── agents/                  — Agent 角色定义文件
-│   │   ├── collector.md
-│   │   ├── parser.md
-│   │   ├── analyzer.md
-│   │   └── organizer.md
+│   │   ├── collector.md         — 采集 Agent 
+│   │   ├── parser.md            — 解析 Agent  
+│   │   ├── analyzer.md          — 分析 Agent
+│   │   └── organizer.md         — 整理 Agent
 │   └── skills/                  — 可复用技能包
 │       ├── ...
 │       └── ...
