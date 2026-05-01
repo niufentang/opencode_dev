@@ -47,10 +47,11 @@ ai-knowledge-base/
 │       └── ...
 ├── knowledge/
 │   ├── raw/                     — 原始爬取数据（PDF/Word/ZIP/HTML，只读归档）
-│   └── articles/                — 解析产物 + 最终结构化知识条目
+│   └── articles/                — 解析 + 分析 + 整理产物
 │       ├── sse/                 — 上交所
 │       │   ├── markdown/        — 全文转 Markdown（解析 Agent 产出）
 │       │   ├── metadata/        — 元数据 JSON（解析 Agent 产出）
+│       │   ├── analyzed/        — 变更分析与关联发现结果（分析 Agent 产出）
 │       │   └── entries/         — 最终标准知识条目 JSON（整理 Agent 产出）
 │       ├── szse/                — 深交所（同上）
 │       └── chinaclear/          — 中国结算（同上）
@@ -77,6 +78,7 @@ ai-knowledge-base/
   "crawl_date": "2025-04-28T10:30:00",
   "effective_date": "2025-05-15",
   "deprecated_date": null,
+  "superseded_by": null,
   "related_ids": ["csdc-rule-20250420-015"],
   "file_format": "pdf",
   "file_hash": "sha256:abc123...",
@@ -100,6 +102,7 @@ ai-knowledge-base/
 | crawl_date | 采集时间 |
 | effective_date | 生效日期 |
 | deprecated_date | 废止日期（status=deprecated 时必填） |
+| superseded_by | 被替代此条目的新条目 ID（仅 status=superseded 时有值） |
 | related_ids | 关联知识条目 ID 列表 |
 | file_format | 原始格式：html / pdf / doc / docx / zip |
 | file_hash | 文件哈希（去重校验） |

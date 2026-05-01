@@ -26,3 +26,28 @@
 
 ```
 
+## 步骤 3：用 AI 编程工具生成分析 Agent 和整理 Agent
+
+**提示词：**
+
+```plain
+参考 .opencode/agents/collector.md 的格式，帮我创建另外三个 Agent 定义文件：
+
+1. .opencode/agents/parser.md — 解析 Agent
+   - 权限同 collector（Read/Grep/Glob/WebFetch，禁止 Write/Edit/Bash）
+   - 职责：读取 knowledge/raw/sse|szse|chinaclear/ 的数据，异构文件解析, PDF/Word/ZIP 解析、HTML 结构化提取、全文转 Markdown、元数据抽取，并保存到 knowledge/parser/sse|szse|chinaclear/ 目录下,注意标注出原文技术和规则变更，统一用红颜色标注4
+
+2. .opencode/agents/analyzer.md — 分析 Agent
+   - 权限同 collector（Read/Grep/Glob/WebFetch，禁止 Write/Edit/Bash）
+   - 职责：读取 knowledge/articles/sse|szse|chinaclear/ 的数据，进行语义分析，做变更分析与关联发现 ，技术变更和规则变更分析、版本差异比对、废止/替代检测、跨站关联发现、标签自动分类 等，并保存到 knowledge/analyzed/sse|szse|chinaclear/ 目录下
+
+3. .opencode/agents/organizer.md — 整理 Agent
+   - 权限：允许 Read/Grep/Glob/Write/Edit，禁止 WebFetch/Bash
+   - 职责：知识条目结构化, 分析后原始数据去重、过滤、格式化，输出为标准知识条目 JSON，并保存到 knowledge/entries/sse|szse|chinaclear/ 目录下
+
+注意：
+1 生成parser.md|analyzer.md|organizer.md  结合主AGENTS.md规划
+2 parser.md和analyzer.md对于职能划分， 是否可以直接合并成一个analyzer.md，并给出说明合并和不合并的有缺陷，说重点明合并和拆分的理由
+
+```
+
