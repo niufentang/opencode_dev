@@ -30,19 +30,20 @@ from utils.csdc_biz_rule_doc_api import (
     fetch_subcategory,
 )
 
+# 日志：同时写文件与控制台
 LOG_DIR = Path(__file__).resolve().parent.parent / "log"
 LOG_DIR.mkdir(parents=True, exist_ok=True)
 
 logging.basicConfig(
-    level=logging.INFO,
-    format="%(asctime)s [%(levelname)s] %(message)s",
+    level=logging.INFO,                                     # 只输出 INFO 及以上级别
+    format="%(asctime)s [%(levelname)s] %(message)s",       # 时间 [级别] 消息
     datefmt="%H:%M:%S",
     handlers=[
-        logging.FileHandler(LOG_DIR / "test_csdc.log", encoding="utf-8"),
-        logging.StreamHandler(),
+        logging.FileHandler(LOG_DIR / "test_csdc.log", encoding="utf-8"),  # 写盘
+        logging.StreamHandler(),                                            # 输出到终端
     ],
 )
-logger = logging.getLogger("test_csdc")
+logger = logging.getLogger("test_csdc")   # 模块级 logger，API 层用 __name__ 自动继承此配置
 
 
 def run(args: argparse.Namespace) -> None:
