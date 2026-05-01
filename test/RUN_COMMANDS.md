@@ -21,3 +21,8 @@ python test/test_csdc.py
 ```
 全部 12 个子栏目 × 全部分页 × 全部下载
 - 注意：当前劳动节维护中（5月1日-4日），5 月 5 日后恢复
+
+## 数据归档
+`knowledge/raw/bak/` 存放 2024 年及之前的旧版本文件，目录结构与 `sse/`、`szse/` 保持一致
+- SSE: bak/sse/{栏目}/{文件}
+- SZSE: bak/szse/{栏目}/{文件}
