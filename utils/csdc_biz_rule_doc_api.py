@@ -172,14 +172,15 @@ def _get_total_pages(html: str) -> int:
 def _fetch_paginated(
     sub_category_name: str,
     sub_path: str,
-    max_pages: int,
+    max_pages: int | None,
     max_items: int | None,
     request_delay: float,
 ) -> list[CsdcDocItem]:
     """带分页的内部采集逻辑。"""
     all_items: list[CsdcDocItem] = []
     with httpx.Client(timeout=15, follow_redirects=False) as client:
-        for page in range(1, max_pages + 1):
+        page = 1
+        while True:
             url = _build_page_url(sub_path, page)
             try:
                 resp = client.get(url, headers={"User-Agent": "Mozilla/5.0"})
@@ -220,15 +221,23 @@ def _fetch_paginated(
 
             total_pages = _get_total_pages(resp.text)
             if page >= total_pages:
+                logger.info(
+                    "已达最后一页 [%s] page=%d/%d",
+                    sub_category_name, page, total_pages,
+                )
+                break
+
+            if max_pages is not None and page >= max_pages:
                 break
 
             time.sleep(request_delay)
+            page += 1
     return all_items
 
 
 def fetch_subcategory(
     sub_category_name: str,
-    max_pages: int = 10,
+    max_pages: int | None = None,
     max_items: int | None = None,
     request_delay: float = 1.0,
 ) -> list[CsdcDocItem]:
@@ -236,7 +245,7 @@ def fetch_subcategory(
 
     Args:
         sub_category_name: 子栏目中文名（如 "账户管理"），需在 SUBCATEGORIES 中。
-        max_pages: 最大爬取页数。
+        max_pages: 最大爬取页数。不指定则爬取所有页。
         max_items: 最大爬取条目数。
         request_delay: 请求间隔（秒）。
 
@@ -262,7 +271,7 @@ def fetch_subcategory(
 
 
 def fetch_all_subcategories(
-    max_pages_per_sub: int = 5,
+    max_pages_per_sub: int | None = None,
     max_items_per_sub: int | None = None,
     request_delay: float = 1.0,
 ) -> dict[str, list[CsdcDocItem]]:

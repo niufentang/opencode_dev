@@ -26,10 +26,17 @@ from utils.szse_tech_service_doc_api import (
     fetch_category,
 )
 
+LOG_DIR = Path(__file__).resolve().parent.parent / "log"
+LOG_DIR.mkdir(parents=True, exist_ok=True)
+
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s [%(levelname)s] %(message)s",
     datefmt="%H:%M:%S",
+    handlers=[
+        logging.FileHandler(LOG_DIR / "test_szse.log", encoding="utf-8"),
+        logging.StreamHandler(),
+    ],
 )
 logger = logging.getLogger("test_szse")
 
