@@ -1,9 +1,9 @@
 """上交所交易技术支持专区 — 采集与下载验证脚本。
 
 用法：
-    python test/test_sse.py                  # 默认：采集 2 页 + 下载 3 个文件
+    python test/test_sse.py                  # 默认：采集全部栏目、每栏 5 页、全部下载
     python test/test_sse.py --category 技术通知
-    python test/test_sse.py --max-pages 5 --max-items 50
+    python test/test_sse.py --max-pages 3 --download-n 10
     python test/test_sse.py --download-only
     python test/test_sse.py --no-download
 """
@@ -36,6 +36,7 @@ logger = logging.getLogger("test_sse")
 
 def run(args: argparse.Namespace) -> None:
     """执行采集与下载流程。"""
+    max_pages = args.max_pages if args.max_pages > 0 else None
     if args.download_only:
         metadata_file = Path("knowledge/raw/sse/metadata.json")
         if not metadata_file.exists():
@@ -45,13 +46,13 @@ def run(args: argparse.Namespace) -> None:
     elif args.category:
         logger.info("采集栏目: %s", args.category)
         items = fetch_category(
-            args.category, max_pages=args.max_pages, max_items=args.max_items
+            args.category, max_pages=max_pages, max_items=args.max_items
         )
         all_items = {args.category: [it.to_dict() for it in items]}
     else:
         logger.info("采集全部 %d 个栏目", len(CATEGORIES))
         result = fetch_all_categories(
-            max_pages_per_category=args.max_pages,
+            max_pages_per_category=max_pages,
             max_items_per_category=args.max_items,
         )
         all_items = {k: [it.to_dict() for it in v] for k, v in result.items()}
@@ -77,14 +78,11 @@ def run(args: argparse.Namespace) -> None:
         flat.extend(cat_items)
 
     dl_items = [it for it in flat if it.file_format != "html"]
-    logger.info(
-        "可下载文件 %d 个，开始下载 %d 个",
-        len(dl_items),
-        min(args.download_n, len(dl_items)),
-    )
+    dl_n = args.download_n if args.download_n > 0 else len(dl_items)
+    logger.info("可下载文件 %d 个，开始下载 %d 个", len(dl_items), min(dl_n, len(dl_items)))
 
     results = download_category(
-        dl_items[: args.download_n],
+        dl_items[:dl_n],
         request_delay=args.request_delay,
         max_workers=args.max_workers,
     )
@@ -99,10 +97,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="上交所交易技术支持专区 验证脚本")
     parser.add_argument("--category", choices=list(CATEGORIES), help="指定栏目")
     parser.add_argument(
-        "--max-pages", type=int, default=2, help="每栏目最大页数 (默认 2)"
+        "--max-pages", type=int, default=0, help="每栏目最大页数 (0=全部)"
     )
     parser.add_argument("--max-items", type=int, help="每栏目最大条目数")
-    parser.add_argument("--download-n", type=int, default=3, help="下载文件数 (默认 3)")
+    parser.add_argument("--download-n", type=int, default=0, help="下载文件数 (0=全部下载)")
     parser.add_argument(
         "--request-delay", type=float, default=0.5, help="请求间隔秒数 (默认 0.5)"
     )

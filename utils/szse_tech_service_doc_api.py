@@ -111,11 +111,19 @@ def _resolve_url(href: str) -> str:
     return resolved
 
 
-def _parse_article_list(soup: BeautifulSoup, category: str) -> list[SzseDocItem]:
-    """从页面中提取文章列表。."""
+def _parse_article_list(
+    soup: BeautifulSoup, category: str, page_url: str | None = None
+) -> list[SzseDocItem]:
+    """从页面中提取文章列表。
+
+    支持两种页面结构：
+    1. 传统 <a> 标签结构
+    2. JS 变量嵌入结构（curHref / curTitle 在 <script> 中）
+    """
+    import re
+
     items: list[SzseDocItem] = []
 
-    # 尝试多种列表容器
     for container_sel in (
         "ul.newslist.date-right",
         "ul.newslist",
@@ -129,21 +137,50 @@ def _parse_article_list(soup: BeautifulSoup, category: str) -> list[SzseDocItem]
         return items
 
     for li in ul.find_all("li", recursive=False):
-        a_tag = li.find("a")
         time_span = li.find("span", class_="time")
-
-        if not isinstance(a_tag, Tag):
-            continue
-
-        title = (a_tag.get("title") or a_tag.get_text(strip=True) or "").strip()
-        if not title:
-            continue
-
-        href = a_tag.get("href", "")
-        url = _resolve_url(href)
         publish_date = (
             time_span.get_text(strip=True) if isinstance(time_span, Tag) else ""
         )
+
+        # 先尝试传统 <a> 标签结构
+        a_tag = li.find("a")
+        if isinstance(a_tag, Tag):
+            title = (a_tag.get("title") or a_tag.get_text(strip=True) or "").strip()
+            href = a_tag.get("href", "")
+            if title:
+                url = _resolve_url(href)
+                items.append(
+                    SzseDocItem(
+                        title=title,
+                        publish_date=publish_date,
+                        url=url,
+                        category=category,
+                        file_format=_infer_file_format(url),
+                    )
+                )
+                continue
+
+        # 再尝试 JS 变量嵌入结构
+        script = li.find("script")
+        if not isinstance(script, Tag) or not script.string:
+            continue
+
+        text = script.string.strip()
+        href_m = re.search(r"curHref\s*=\s*['\"]([^'\"]+)['\"]", text)
+        title_m = re.search(r"curTitle\s*=\s*['\"]([^'\"]+)['\"]", text)
+
+        if not href_m or not title_m:
+            continue
+
+        title = title_m.group(1).strip()
+        if not title:
+            continue
+
+        href = href_m.group(1).strip()
+        if page_url:
+            url = urljoin(page_url, href)
+        else:
+            url = _resolve_url(href)
         file_format = _infer_file_format(url)
 
         items.append(
@@ -159,18 +196,39 @@ def _parse_article_list(soup: BeautifulSoup, category: str) -> list[SzseDocItem]
     return items
 
 
+def _get_page_count(html: str) -> int:
+    """从 HTML 中提取总页数。"""
+    import re
+    match = re.search(r"pageCount\s*:\s*(\d+)", html)
+    return int(match.group(1)) if match else 1
+
+
+def _build_page_url(category_path: str, page: int) -> str:
+    """构建分页 URL。
+
+    Page 1: {path}/
+    Page N: {path}/index_{N-1}.html
+    """
+    path = category_path.rstrip("/")
+    if page <= 1:
+        return _resolve_url(f"{path}/")
+    return _resolve_url(f"{path}/index_{page - 1}.html")
+
+
 def fetch_category(
     category_name: str,
+    max_pages: int | None = None,
     max_items: int | None = None,
     request_delay: float = 0.5,
 ) -> list[SzseDocItem]:
     """采集指定栏目的文档列表。.
 
-    深交所技术服务页面将所有数据渲染在首屏 HTML 中（包含所有历史条目），
-    前端通过 JS 实现客户端分页。本函数一次请求即可获取全量数据。
+    深交所技术服务页面使用 JS 分页（每页 20 条），分页 URL 模式：
+      {path}/index_{N}.html
 
     Args:
         category_name: 栏目中文名（如 "技术公告"），需在 CATEGORIES 中。
+        max_pages: 最大爬取页数。不指定则爬取所有页。
         max_items: 最大爬取条目数。
         request_delay: 请求间隔（秒）。
 
@@ -185,8 +243,12 @@ def fetch_category(
     if category_name not in CATEGORIES:
         raise ValueError(f"未知栏目: {category_name}，可选: {list(CATEGORIES.keys())}")
 
-    url = _resolve_url(CATEGORIES[category_name])
+    all_items: list[SzseDocItem] = []
+    category_path = CATEGORIES[category_name]
+
     with httpx.Client(timeout=30, follow_redirects=True) as client:
+        # 获取第 1 页，同时得到总页数
+        url = _build_page_url(category_path, 1)
         try:
             resp = client.get(url, headers={"User-Agent": "Mozilla/5.0"})
             resp.encoding = "utf-8"
@@ -195,19 +257,54 @@ def fetch_category(
             logger.error("请求失败 [%s]: %s", category_name, exc)
             raise
 
+        total_pages = _get_page_count(resp.text)
+
         soup = BeautifulSoup(resp.text, "html.parser")
-        items = _parse_article_list(soup, category_name)
+        page_items = _parse_article_list(soup, category_name, page_url=url)
+        all_items.extend(page_items)
+        logger.info(
+            "采集 [%s] page=1 -> %d 条 (累计 %d，共 %d 页)",
+            category_name, len(page_items), len(all_items), total_pages,
+        )
 
-        if max_items:
-            items = items[:max_items]
+        if max_items and len(all_items) >= max_items:
+            return all_items[:max_items]
 
-        logger.info("采集 [%s] → %d 条", category_name, len(items))
         time.sleep(request_delay)
 
-    return items
+        # 爬取后续页面
+        max_pages_to_fetch = total_pages if max_pages is None else min(max_pages, total_pages)
+        for page in range(2, max_pages_to_fetch + 1):
+            url = _build_page_url(category_path, page)
+            try:
+                resp = client.get(url, headers={"User-Agent": "Mozilla/5.0"})
+                resp.encoding = "utf-8"
+                resp.raise_for_status()
+            except httpx.HTTPError as exc:
+                logger.warning("请求失败 [%s] page=%d: %s", category_name, page, exc)
+                break
+
+            soup = BeautifulSoup(resp.text, "html.parser")
+            page_items = _parse_article_list(soup, category_name, page_url=url)
+            if not page_items:
+                break
+
+            all_items.extend(page_items)
+            logger.info(
+                "采集 [%s] page=%d -> %d 条 (累计 %d)",
+                category_name, page, len(page_items), len(all_items),
+            )
+
+            if max_items and len(all_items) >= max_items:
+                return all_items[:max_items]
+
+            time.sleep(request_delay)
+
+    return all_items
 
 
 def fetch_all_categories(
+    max_pages_per_category: int | None = None,
     max_items_per_category: int | None = None,
     request_delay: float = 0.5,
 ) -> dict[str, list[SzseDocItem]]:
@@ -221,7 +318,10 @@ def fetch_all_categories(
     for name in CATEGORIES:
         logger.info("开始采集栏目: %s", name)
         result[name] = fetch_category(
-            name, max_items=max_items_per_category, request_delay=request_delay
+            name,
+            max_pages=max_pages_per_category,
+            max_items=max_items_per_category,
+            request_delay=request_delay,
         )
     return result
 

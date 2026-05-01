@@ -178,18 +178,28 @@ def _fetch_paginated(
 ) -> list[CsdcDocItem]:
     """带分页的内部采集逻辑。"""
     all_items: list[CsdcDocItem] = []
-    with httpx.Client(timeout=30, follow_redirects=True) as client:
+    with httpx.Client(timeout=15, follow_redirects=False) as client:
         for page in range(1, max_pages + 1):
             url = _build_page_url(sub_path, page)
             try:
                 resp = client.get(url, headers={"User-Agent": "Mozilla/5.0"})
                 resp.encoding = "utf-8"
-                resp.raise_for_status()
             except httpx.HTTPError as exc:
                 logger.warning(
                     "请求失败 [%s] page=%d: %s", sub_category_name, page, exc
                 )
                 break
+
+            # 检测重定向（如假期维护跳转），首次遇到即停止
+            if resp.status_code in (301, 302, 303, 307, 308):
+                location = resp.headers.get("location", "")
+                logger.warning(
+                    "网站返回重定向 [%s] page=%d → %s，可能为临时维护，停止采集",
+                    sub_category_name, page, location,
+                )
+                break
+
+            resp.raise_for_status()
 
             items = _parse_list_html(resp.text, sub_category_name, max_items)
             if not items:

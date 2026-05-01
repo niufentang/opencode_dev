@@ -169,14 +169,15 @@ def _get_total_pages(html: str) -> int:
 def _fetch_paginated(
     category_name: str,
     category_path: str,
-    max_pages: int,
+    max_pages: int | None,
     max_items: int | None,
     request_delay: float,
 ) -> list[SseDocItem]:
     """带分页的内部采集逻辑。"""
     all_items: list[SseDocItem] = []
     with httpx.Client(timeout=30, follow_redirects=True) as client:
-        for page in range(1, max_pages + 1):
+        page = 1
+        while True:
             url = _build_page_url(category_path, page)
             resp = _request_page(client, url, category_name, page)
             if resp is None:
@@ -201,9 +202,17 @@ def _fetch_paginated(
 
             total_pages = _get_total_pages(resp.text)
             if page >= total_pages:
+                logger.info(
+                    "已达最后一页 [%s] page=%d/%d",
+                    category_name, page, total_pages,
+                )
+                break
+
+            if max_pages is not None and page >= max_pages:
                 break
 
             time.sleep(request_delay)
+            page += 1
     return all_items
 
 
@@ -223,7 +232,7 @@ def _request_page(
 
 def fetch_category(
     category_name: str,
-    max_pages: int = 10,
+    max_pages: int | None = None,
     max_items: int | None = None,
     request_delay: float = 1.0,
 ) -> list[SseDocItem]:
@@ -231,7 +240,7 @@ def fetch_category(
 
     Args:
         category_name: 栏目中文名（如 "技术通知"），需在 CATEGORIES 中。
-        max_pages: 最大爬取页数。
+        max_pages: 最大爬取页数。不指定则爬取所有页。
         max_items: 最大爬取条目数。
         request_delay: 请求间隔（秒）。
 
@@ -255,7 +264,7 @@ def fetch_category(
 
 
 def fetch_all_categories(
-    max_pages_per_category: int = 5,
+    max_pages_per_category: int | None = None,
     max_items_per_category: int | None = None,
     request_delay: float = 1.0,
 ) -> dict[str, list[SseDocItem]]:
