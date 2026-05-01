@@ -1,11 +1,15 @@
 """中国结算业务规则 — 采集与下载验证脚本。
 
 用法：
-    python test/test_csdc.py                  # 默认：采集全部子栏目、每栏 5 页、全部下载
-    python test/test_csdc.py --sub-category 账户管理
-    python test/test_csdc.py --max-pages 3 --download-n 10
-    python test/test_csdc.py --no-download
-    python test/test_csdc.py --download-only
+    python test/test_csdc.py                           # 全部子栏目 × 全部分页 × 全部下载
+    python test/test_csdc.py --sub-category 账户管理    # 仅采集指定子栏目
+    python test/test_csdc.py --max-pages 3 --download-n 10    # 限制页数与下载数
+    python test/test_csdc.py --no-download              # 仅采集元数据，不下载
+    python test/test_csdc.py --download-only            # 仅从已有元数据下载
+
+日志输出：log/test_csdc.log（同时输出到控制台）
+
+注意：每年劳动节（5月1日-4日）官网暂停服务，届时 HTTP 返回 302 跳转
 """
 
 from __future__ import annotations
@@ -43,14 +47,19 @@ logger = logging.getLogger("test_csdc")
 
 def run(args: argparse.Namespace) -> None:
     """执行采集与下载流程。"""
+    # 参数转换：0 表示不限制（传给 API 时变为 None）
     max_pages = args.max_pages if args.max_pages > 0 else None
+
+    # --- 阶段 1：采集元数据 ---
     if args.download_only:
+        # 仅下载模式：从已有 metadata.json 读取
         metadata_file = Path("knowledge/raw/chinaclear/metadata.json")
         if not metadata_file.exists():
             logger.error("--download-only 需要先运行采集生成 metadata.json")
             sys.exit(1)
         all_items = json.loads(metadata_file.read_text(encoding="utf-8"))
     elif args.sub_category:
+        # 指定单个子栏目
         logger.info("采集子栏目: %s", args.sub_category)
         items = fetch_subcategory(
             args.sub_category,
@@ -59,6 +68,7 @@ def run(args: argparse.Namespace) -> None:
         )
         all_items = {args.sub_category: [it.to_dict() for it in items]}
     else:
+        # 全部子栏目
         logger.info("采集全部 %d 个子栏目", len(SUBCATEGORIES))
         result = fetch_all_subcategories(
             max_pages_per_sub=max_pages,
@@ -69,6 +79,7 @@ def run(args: argparse.Namespace) -> None:
     total = sum(len(v) for v in all_items.values())
     logger.info("元数据合计 %d 条", total)
 
+    # 保存元数据到文件
     meta_dir = Path("knowledge/raw/chinaclear")
     meta_dir.mkdir(parents=True, exist_ok=True)
     meta_file = meta_dir / "metadata.json"
@@ -80,10 +91,13 @@ def run(args: argparse.Namespace) -> None:
     if args.no_download:
         return
 
+    # --- 阶段 2：下载文件 ---
+    # 将所有条目展平为一维列表
     flat: list[CsdcDocItem] = []
     for cat_items in all_items.values():
         flat.extend(CsdcDocItem(**it) for it in cat_items)
 
+    # 过滤掉 HTML 页面（只下载 PDF/DOCX/ZIP 等实体文件）
     dl_items = [it for it in flat if it.file_format != "html"]
     dl_n = args.download_n if args.download_n > 0 else len(dl_items)
     logger.info("可下载文件 %d 个，开始下载 %d 个", len(dl_items), min(dl_n, len(dl_items)))
@@ -94,6 +108,7 @@ def run(args: argparse.Namespace) -> None:
         max_workers=args.max_workers,
     )
 
+    # 统计下载结果
     ok = sum(1 for r in results if r.local_path)
     fail = sum(1 for r in results if not r.local_path)
     logger.info("下载完成: 成功 %d, 失败 %d", ok, fail)
