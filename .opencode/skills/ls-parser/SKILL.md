@@ -23,10 +23,10 @@ allowed-tools: [Read, Grep, Glob, WebFetch]
 
 | 格式 | 解析策略 | 依赖库 |
 |------|----------|--------|
-| PDF | 提取文本 + 表格，扫描件需 OCR | PyMuPDF (fitz), pdfplumber |
+| PDF | 提取文本 + 表格，扫描件需 OCR | PyMuPDF (fitz) |
 | DOC/DOCX | 提取正文 + 样式，保留标题层级 | python-docx |
 | XLS/XLSX | 提取表格内容，转为 Markdown 表格 | openpyxl |
-| ZIP | 解压后递归解析内部文件 | zipfile |
+| ZIP | 标记为压缩包，暂不递归解压（返回占位内容） | zipfile |
 | HTML/SHTML | 清理标签，提取正文（BeautifulSoup） | beautifulsoup4 + lxml |
 
 ### Step 2: 元数据抽取
@@ -70,8 +70,8 @@ allowed-tools: [Read, Grep, Glob, WebFetch]
 ```
 knowledge/articles/
 ├── {source}/
-│   ├── markdown/{category}/{title}.md        ← 全文 Markdown（含 metadata 块）
-│   └── metadata/{category}/{title}_meta.json ← 元数据 JSON
+│   ├── markdown/{category}/{safe_name}.md              ← 全文 Markdown（含 metadata 块），文件名取自原始文件 stem 去日期前缀后截取 60 字符
+│   └── metadata/{category}/{safe_name}_meta.json       ← 元数据 JSON
 ```
 
 ### _meta.json 格式

@@ -28,11 +28,26 @@ allowed-tools: [Read, Grep, Glob, WebFetch]
 
 **目标 URL：** `https://www.sse.com.cn/services/tradingtech/home/`
 
-**8 个栏目：** 技术通知、服务指引、技术接口、技术指南、软件下载、测试文档、技术杂志、历史资料
+**8 个栏目及对应路径（从首页 `<a href>` 获取）：**
+
+| 栏目 | 路径 | 页数 | 总数 |
+|------|------|------|------|
+| 技术通知 | `/services/tradingtech/notice/` | 20 | 390 |
+| 服务指引 | `/services/tradingtech/services/` | 1 | 7 |
+| 技术接口 | `/services/tradingtech/data/` | 2 | 28 |
+| 技术指南 | `/services/tradingtech/policy/` | 1 | 8 |
+| 软件下载 | `/services/tradingtech/download/` | 1 | 1 |
+| 测试文档 | `/services/tradingtech/development/` | 5 | 90 |
+| 技术杂志 | `/services/tradingtech/transaction/` | 3 | 49 |
+| 历史资料 | `/services/tradingtech/historicaldata/` | 1 | 1 |
 
 **分页 URL 模式：**
-- 第 1 页：`{category_path}/s_list.shtml`
-- 第 N 页：`{category_path}/s_list_{N}.shtml`
+- 第 1 页：`https://www.sse.com.cn{category_path}s_list.shtml`
+- 第 N 页：`https://www.sse.com.cn{category_path}s_list_{N}.shtml`
+
+**总条目数** 可从列表页底部 `<script>createPageHTML('paging',{per_page},{current_page},'s_list','shtml',{total})</script>` 提取 `{total}`。
+
+**注意：** `{category_path}` 必须包含尾部斜杠后的路径（如 `/services/tradingtech/notice/` 拼接后为 `/services/tradingtech/notice/s_list.shtml`），构造时注意去掉路径末尾的 `/` 再拼接 `s_list.shtml`。
 
 **提取方法：** 用 `WebFetch` 获取列表页 HTML，从 `<dl><dd>` 中解析 `<a>`（title 属性）和 `<span>` 文本。
 
