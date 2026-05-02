@@ -22,3 +22,24 @@ Skill 与对应 agent 将合并为单一文档，以 agent 作为唯一参考源
 ## 对照实验说明
 
 `parseranalyzer` 是对照实验用的独立 agent（无对应 skill），其设计目的已在 `agents/parseranalyzer.md` 中描述，不受本次合并影响。
+
+## Agent ↔ Skill 关系总览
+
+```markdown
+AGENTS.md (项目 Memory · 共享规范)
+        │
+        ├── collector（采集 Agent）
+        │       └── ls-collector（Skill）
+        │
+        ├── parser（解析 Agent）
+        │       └── ls-parser（Skill）
+        │
+        ├── analyzer（分析 Agent）
+        │       └── ls-analyzer（Skill）
+        │
+        ├── organizer（整理 Agent）
+        │       └── ls-organizer（Skill）
+        │
+        └── parseranalyzer（解析分析合并 Agent · 对照实验）
+                └── 无独立 Skill（复用 ls-parser + ls-analyzer 逻辑）
+```
