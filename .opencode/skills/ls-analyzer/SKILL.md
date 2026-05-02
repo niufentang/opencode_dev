@@ -1,5 +1,5 @@
 ---
-name: ls_analyzer
+name: ls-analyzer
 description: "Use this skill when the task involves semantic analysis of parsed Markdown documents for change detection, version diffing, deprecation detection, cross-source correlation, or tag classification. Triggers include: @analyzer, mentions of analysis/分析/变更检测/版本比对/跨站关联, references to knowledge/articles/analyzed, requests to identify what changed between document versions, detect deprecated/obsolete rules, find related documents across SSE/SZSE/ChinaClear, or auto-generate tags/keywords. Also use when generating doc_id, classifying changes (interface field / business process / rule clause / technical architecture), or assigning confidence scores. Do NOT use for parsing raw files (use parser skill), for crawling (use collector skill), or for final entry formatting (use organizer skill)."
 allowed-tools: [Read, Grep, Glob, WebFetch]
 ---
