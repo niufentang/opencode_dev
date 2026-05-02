@@ -18,12 +18,12 @@
   "version": "1",
   "previous_version": null,
   "public_date": null,
-  "crawl_date": null,
+  "crawl_date": "2026-05-02T02:03:05.560218+00:00",
   "effective_date": null,
   "deprecated_date": null,
   "superseded_by": "sse-guide-00000000-051",
   "related_ids": [],
   "file_format": "pdf",
-  "file_hash": null,
+  "file_hash": "sha256:9e254c43e8ed63662fbaebbd1dc6c7e308bba5c3b23facb57ff48bd7af569ae9",
   "content_markdown": "上海证券交易所技术文档\n上海证券交易所\n调整主板风险警示股票价格涨跌幅限制比例\n市场参与者技术实施指南\n1.0 版\n上海证券交易所\n二〇二五年六月\n\n技术文档\n文档摘要\n本文档是上海证券交易所（以下简称 “ 本所 ” ）调整主板风险警示股票价格涨\n跌幅限制比例市场参与者技术实施指南 。\n特别申明\n 本指南为技术实施指南，所涉相关业务规定以本所业务规则为准。\n 本指南根据本所相关规则、业务方案、公告通知制定。\n 本所保留对本指南的解释与修改权。\n联系方式\n技术服务 QQ 群：\n298643611\n技术服务电话：\n4008888400-2\n电子邮件：\ntech_support@sse.com.cn\n技术服务微信公众号： SSE-TechService\n\n技术文档\n1 简介\n本文档为上海证券交易所调整主板风险警示股票价格涨跌幅限制比例市场参与者\n技术实施指南，对市场参与者相关的技术实施提出建议 。\n2 市场接口调整说明\n无。\n第 1 页 共 3 页\n\n技术文档\n3 市场参与者技术实施建议及注意事项\n根据本所发布的《关于调整主板风险警示股票价格涨跌幅限制比例及有关事项的通\n知（征求意见稿）》内容，待相关规则生效后，主板风险警示股票的价格涨跌幅限制比\n例由 5% 调整为 10% 。技术接口方面， cpxx0201MMDD.txt 文件中相关主板风险警示股票\n的“涨幅上限价格”“跌幅下限价格”的取值，将按照最新规则计算。\n市场参与者应做好主板风险警示股票交易申报价格前端控制的技术调整工作， <span style=\"color:red\">按照</span>\n<span style=\"color:red\">最新的主板风险警示股票价格涨跌幅限制比例（</span> <span style=\"color:red\">10%</span> <span style=\"color:red\">）进行订单价格校验</span> 。对于使用\ncpxx0201MMDD.txt 文件进行前端控制的，应确认系统已支持本次规则调整内容。对于\n自行计算“涨幅上限价格”“跌幅下限价格”进行前端控制的，应根据规则进行相应技\n术调整。\n市场参与者应充分评估上述变更对申赎、交易、行情等相关技术系统的影响，做好\n相关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测试验\n证，同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常运行。\n第 2 页 共 3 页\n\n技术文档\n4 相关技术文档\n《 IS101_ 上海证券交易所竞价撮合平台市场参与者接口规格说明书 1.70 版》\n第 3 页 共 3 页\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20250627_上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术指南\\\\20250627_上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1.0.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术指南\\\\上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1.0.md\",\n  \"file_hash\": \"sha256:9e254c43e8ed63662fbaebbd1dc6c7e308bba5c3b23facb57ff48bd7af569ae9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 5,\n  \"doc_type\": \"guide\",\n  \"version\": \"1\",\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:01.178941+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
 }
