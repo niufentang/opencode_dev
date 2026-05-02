@@ -1,0 +1,30 @@
+{
+  "id": "sse-tech-00000000-064",
+  "type": "technical_notice",
+  "title": "关于发布固收迁移及债券借贷业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10770036/files/51262c11b47240aa9f11b35c80771ad0.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "债券",
+    "融资融券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:e326e25b6d68605b56b128cb2bfe738a97f093784ea1d88bfd09d637039cb7a3",
+  "content_markdown": "关于发布债券借贷业务市场接口\n技术开发稿的通知\n各市场参与人：\n上海证券交易所（以下简称本所），拟发布《 IS122_ 上\n海证券交易所交易网关 STEP 接口规格说明书（互联网交易\n平台） 2.05 版 _20250106 （固收迁移技术开发稿）》《 IS124_\n上海证券交易所市场数据文件交换接口规格说明书 2.42 版\n_20241224 （固收迁移互联网交易平台开发稿）》《上海证\n券交易所互联网交易平台一债通业务市场参与人技术实施\n指南（固收迁移互联网交易平台开发稿）》，请各市场参与\n人做好技术就绪相关准备工作。\n本次主要变更内容有：在交易网关 STEP 接口规格说明\n书中，对成交申报、转发成交申报、成交申报响应、成交确\n认增加债券借贷业务相关字段及填报说明（预留，暂不启用）；\n询价报价处理消息流图、报价处理消息流图、意向申报撤销\n请求处理（转发请求）、成交请求模式 - 撤单处理中根据实际\n协议字段统一了 QuoteReqID 、 QuoteRespID 、 QuoteID 、\nOrderID 、 TradeID 等字段的描述方式；报价状态回报中增加\n了报价回复响应中 QuoteID 填写方式的说明；执行报告中对\n于 OrderID 删除了“仅订单申报成功 ExecType=0 时有效”\n字样；成交确认中增加 TotalValueTraded （ 8504 ）字段。在\n市场数据文件交换接口规格说明书中，债券非匹配成交汇总\n文件 (zghXXXXX.txt ）增加债券借贷业务填写说明（业务暂\n\n不启用），并明确通过 zghXXXXX.zip 解压获取；证券产品\n基础信息文件（ products_yyyymmdd.xml ）中增加了融资融券\n可冲抵保证金证券标的标志（ GageFlag ）字段。\n相关文件电子版本可通过本所官方网站 “ 交易技术支持\n专区 ” 或登录市场技术服务平台“产品服务 - 交易支持软件专\n区”相关栏目下载。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 1 月 10 日\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20250110_关于发布固收迁移及债券借贷业务市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250110_关于发布固收迁移及债券借贷业务市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固收迁移及债券借贷业务市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:e326e25b6d68605b56b128cb2bfe738a97f093784ea1d88bfd09d637039cb7a3\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:31.318899+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,51 @@
+{
+  "doc_id": "sse-guide-20250825-161",
+  "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20250825",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10795900/files/a9873e71c60f4597b8f10589de5c6c7e.pdf",
+  "analysis_date": "2026-05-02T02:03:06.809459+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "特殊的，新增加载要求：数据接收方在加载时（包括读取、稽核、比较等场景）应按 标签进行读取，不应受 标签顺序（字段顺序）影响。",
+      "detail": "特殊的，新增加载要求：数据接收方在加载时（包括读取、稽核、比较等场景）应按\n标签进行读取，不应受\n标签顺序（字段顺序）影响。",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增加载要求：数据接收方在加载时（包括读取、稽核、比较等场景）应按照",
+      "detail": "新增加载要求：数据接收方在加载时（包括读取、稽核、比较等场景）应按照",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS118_ _20250825 申赎清单 技术开发稿）》《 （基金公司卷） _20250722 技术开发稿）》",
+      "detail": "IS118_\n_20250825\n申赎清单\n技术开发稿）》《\n（基金公司卷）\n_20250722\n技术开发稿）》",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "ETF申赎清单",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS120",
+    "STEP",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 2项。 新增: 1项。 其中重大变更2项。",
+  "confidence": 0.95
+}

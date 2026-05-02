@@ -1,0 +1,72 @@
+{
+  "doc_id": "sse-iface-20260327-006",
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范0.60版_20250327",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+  "analysis_date": "2026-05-02T05:41:51.049307+00:00",
+  "metadata": {
+    "file_hash": "sha256:e69f19fb26f56260b7936cd7c50d6fd21921d1cb1937a70bddf937ccade8d1b1",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "0.60",
+    "previous_version": null,
+    "public_date": "2026-03-27",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "0.60",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026-03-20",
+      "detail": "2026-03-20",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.60",
+      "detail": "0.60",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版，配合",
+      "detail": "版，配合",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "定义文件下线，删除相关描述。",
+      "detail": "定义文件下线，删除相关描述。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Publish",
+      "detail": "Publish",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS120",
+    "STEP",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及5项变更。 废止: 1项。 规则条款变更: 4项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "1\n位\n-\n第\n8\n位\n全空格\n- 18 -\n技术文档\n5.\n对行情条目循环体说明如下：\na)\n行情条目类别为\n0\n或\n1\n时，表示该条目为买卖盘档位，此时\nMDEntryPx\n、\nMDEntrySize\n、\nMDEntryPositionNo\n分别表示买卖价格、数量和档位序号，\nMDEntryPositionNo\n从\n0\n开始计数；\nb)\n行情条目类别为\nw\n时，\nMDEntryPx\n表示基金\nT-1\n日收盘时刻\nIOPV\n4\n，此条目仅当\nMDStreamID=\nMD004\n时有意义，当\nMDStreamID= MDE01\n时无意义；行情条目类别为\nv\n时，\nMDEntryPx\n表示\n基金\nIOPV\n5\n，此条目仅当\nMDStreamID=MD004\n或\nMDE01\n时有意义；\nc)\n行情条目类别为\nx\n时\n, MDEntryPx\n表示动态参考价格、\nMDEntrySize\n表示虚拟匹配数量，仅当\nMDStreamID=MD301\n时有意义；\nd)\n行情条目类别为\nz2\n时，\nMDEntrySize\n表示期权合约总持仓量，单位是\n(\n张\n)\n，仅当\nMDStreamID=MD301\n时有意义；\ne)\n其他行情条目类别，将仅通过\nMDEntryPx\n表示相应值，其他字段无意义；\nf)\n在集合竞价时段内，当前买入价和当前卖出价中同时为虚拟开盘参考价格，即根据集合竞价算法\n计算得出的虚拟撮合价格。同时申买量一和申卖量一为行情发布时刻的虚拟匹配量。申买量二为\n行情发布时刻的买方虚拟未匹配量。申卖量二为行情发布时刻的卖方虚拟未匹配量；\ng)\n对期权产品（\nMDStreamID=MD301\n），今日结算价通过期权收盘价格文件（\nclpr03MMDD.txt\n）揭\n示。\nh)\n对盘后固定价格行情（\nMDStreamID=MD102\n）\n,\n仅今日收盘价、买一数量、卖一数量有意义。其中，\n买一数量表示当前未成交的买入申报总股数，卖一数量表示当前未成交的卖出申报总股数；\n4\n仅对\nETF\n产品，此字段有效。该字段取\n0\n时，无意义。该字段不作除权除息等调整。\n5\n仅对\nETF\n产品，此字段有效。该字段取\n0\n时，无意义。当\nETF\n公告文件\nPublish\n（\nTXT\n版）\n/\nPublishIOPVFlag\n（\nXML\n版）\n字\n段（是否需要发布\nIOPV\n）取值为\n1\n时，此字段为对应产品的\nIOPV\n值；当\nETF\n公告文件\nPublish\n（\nTXT\n版）\n/\nPublishIOPVFlag\n（\nXML\n版）\n字段取值为\n0\n时，此字段固定取\n0\n，无意义；\n- 19 -\n技术文档\n3\n文件接收\n同《\nIS120\n上海证券交易所行情网关\nBINARY\n数据接口规范》中的文件接收章节。\n- 20 -\n技术文档\n4\n转发行情\n同《\nIS120\n上海证券交易所行情网关\nBINARY\n数据接口规范》中的转发行情章节。\n- 21 -\n技术文档\n5\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不\n得将本文档用于其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评\n指正意见，可通过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号\n上交所技术公司技术开发总部\n- 22 -\n技术文档\n附录一\n计算校验和\n以下为计算校验和的代码段：\nconst char* CalcChecksum(const char* buffer, uint32 len, char buffChecksum[4])\n{\nuint8 checksum = 0;\nuint32 i = 0;\nfor (i = 0; i < len; i++)\n{\nchecksum += (uint8)buffer[i];\n}\nsprintf(buffChecksum, “%03d”, checksum );\nreturn bufCheckSum;\n}\n- 23 -"
+}

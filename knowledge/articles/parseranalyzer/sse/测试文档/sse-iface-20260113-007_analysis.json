@@ -1,0 +1,140 @@
+{
+  "doc_id": "sse-iface-20260113-007",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书2.47版_20260113（新固收技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T05:42:17.621064+00:00",
+  "metadata": {
+    "file_hash": "sha256:49e5b719d07b25c48601ce3e723fed38707417004ecfc216c9908be540d18b0c",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "2.47",
+    "previous_version": null,
+    "public_date": "2026-01-13",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "2.47",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "、债券非匹配成交汇总文件",
+      "detail": "、债券非匹配成交汇总文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "(zghXXXXX.txt",
+      "detail": "(zghXXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）附注说明中调整了三方回购部分业务",
+      "detail": "）附注说明中调整了三方回购部分业务",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "子类型数据说明",
+      "detail": "子类型数据说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.47",
+      "detail": "2.47",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026-01",
+      "detail": "2026-01",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "明确本次固收迁移后的系统名称：新固定收益系统",
+      "detail": "明确本次固收迁移后的系统名称：新固定收益系统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "互联网交易平台新固定收益",
+      "detail": "互联网交易平台新固定收益",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易平台新固定收益系统",
+      "detail": "交易平台新固定收益系统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本文件中的试算结算价",
+      "detail": "本文件中的试算结算价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格信",
+      "detail": "为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格信",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "息以期权收盘价格文件",
+      "detail": "息以期权收盘价格文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为准。文",
+      "detail": "为准。文",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "互联网交易平台新固定收益系统一债通模块",
+      "detail": "互联网交易平台新固定收益系统一债通模块",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券质押式三方回购到期续作",
+      "detail": "债券质押式三方回购到期续作",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS124",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及15项变更。 规则条款变更: 15项。",
+  "confidence": 0.92,
+  "raw_text": "对转托管，填写银行间托管账户\n;\n其他无效。\n说明：\n1.\n如某字段在某场景下无效，若该字段为\nCX\n类型字符型字段，填空格；若为\nNX\n类型十进制整数型字段，填\n0\n；\n若为\nNX (Y)\n类型十进制浮点数字型字段，则填\n0.00...\n（小数位数共\nY\n位）。\n2.\n对于转托管、转股、换股、回售和回售撤销类有效申报数据，本方证券账户名称、结算方式字段及对手方相\n关字段无意义，如已撤销成功，则不包含在此文件中。对于协议回购、三方回购、债券借贷和三方回购转入转出，\n结算方式字段无意义。\n3.\n对于一债通网页端申报的各类通道业务（包括新债券交易系统的匹配成交申报和综合业务系统的非交易备用\n通道等）不包含在此文件中。\n4.\n对于各类债券非匹配成交（点击成交、询价成交、协商成交和竞买成交等），将在成交回报中返回对手方的\n一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此字段将填写\n‘\nanonymous\n’，如结算方式为净额结算且双方均显名或者结算方式‘\nRTGS\n’，则将发送实际的交易信息，但\n如账户名称未申报或者无法自动匹配，将填空格。\n如交易双方均采用同一业务单元进行申报，则将有两条买卖方向相反的成交记录。特别地，对三方回购转入转出，\n转入时本方为专户填\n1\n，本方为普通账户时填\n2\n；转出时本方为专户填\n2\n，本方为普通账户时填\n1\n；其账户名称填\n写对应的普通账户或专用账户名称。\n5.\n成交汇总中的业务类型及业务子类型数据说明：\n业务类型\n业务子类型\n业务描述\n131\n债券质押式协议回购成交申报\n132\n债券质押式协议回购到期确认\n134\n债券质押式协议回购提前终止\n600130\n135\n债券质押式协议回购换券申报\n136\n债券质押式协议回购解除质押\n137\n债券质押式协议回购到期续做前期合约了结\n138\n债券质押式协议回购到期续做合约新开\n600140\n141\n债券质押式三方回购成交申报\n第\n87\n页共\n90\n页\n上海证券交易所市场数据文件交换接口规格说明书\n业务类型\n业务子类型\n业务描述\n142\n债券质押式三方回购到期购回\n143\n债券质押式三方回购到期续作\n144\n债券质押式三方回购提前终止\n145\n债券质押式三方回购换券申报\n146\n债券质押式三方回购解除质押\n147\n债券质押式三方回购补券申报\n600180\n-\n确定报价\n600190\n-\n一债通询价\n600200\n-\n待定报价\n600210\n-\n协商成交\n600220\n-\n合并申报\n600230\n-\n双非可转债转股\n600240\n-\n私募可交换债换股\n600250\n-\n债券回售（一债通）\n600251\n-\n债券回售撤销\n600260\n-\n债券转托管\n600270\n-\n三方回购转入转出\n600290\n-\n竞买\n301\n债券借贷协商成交申报\n302\n债券借贷到期结算\n303\n债券借贷到期续做\n600300\n304\n债券借贷提前终止\n（暂不启用）\n305\n债券借贷质押券变更\n306\n债券借贷解除质押\n307\n债券借贷逾期结算\n600310\n-\n场务应急成交录入\n第\n88\n页共\n90\n页\n上海证券交易所市场数据文件交换接口规格说明书\n4.14.\n债券非匹配成交汇总文件\n(\n针对托管银行）\n文件名：\nzghXXXXX\n扩展名：\ntxt\n发布时间：闭市后发送\n发布渠道：\nztDisk\n文件说明：该文件被打包进\nYYYY.sse\n中，\nYYYY\n为托管银行的拼音首字母，例如：工商银行为\ngsyh\n。\n接口格式：\n接口格式同债券非匹配成交汇总文件\n(\n针对债券交易参与人）。\n第\n89\n页共\n90\n页\n上海证券交易所市场数据文件交换接口规格说明书\n第五章\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不得将本文档用于\n其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评指正意见，可通\n过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号上交所技术公司技术开发总部\n第\n90\n页共\n90\n页"
+}

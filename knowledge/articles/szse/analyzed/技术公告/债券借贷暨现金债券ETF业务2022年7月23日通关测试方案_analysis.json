@@ -1,0 +1,35 @@
+{
+  "doc_id": "szse-test-20220723-198",
+  "title": "债券借贷暨现金债券ETF业务2022年7月23日通关测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020220720326014970396.docx",
+  "analysis_date": "2026-05-02T02:03:06.990018+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "新增",
+      "summary": "新增测试专用证券账户 新增测试专用证券账户（以下简称测试账户）：0809900000—0809900001（A股法人），0199900000-0199900001（A股个人）。",
+      "detail": "新增测试专用证券账户\n新增测试专用证券账户（以下简称测试账户）：0809900000—0809900001（A股法人），0199900000-0199900001（A股个人）。",
+      "severity": "major",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "REITs",
+    "交易网关",
+    "债券",
+    "做市商",
+    "期权",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

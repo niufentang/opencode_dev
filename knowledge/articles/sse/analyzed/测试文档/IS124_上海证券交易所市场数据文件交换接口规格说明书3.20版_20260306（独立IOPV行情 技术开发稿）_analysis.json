@@ -1,0 +1,59 @@
+{
+  "doc_id": "sse-iface-20260306-151",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.765284+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "3.20 2023-03",
+      "detail": "3.20\n2023-03",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "下线竞价撮合系统行情文件",
+      "detail": "下线竞价撮合系统行情文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt00.txt IOPV 行情，相关字段标记为 ，字段内容无意义 产品，此字段有效。 该字段取 0.000 时，无意义。 该字段不作除权除息等调整。 公告文件 Publish /PublishIOPVFlag 版）字段（是否需要发布 ）取值为 时，此字段为对应产品的 版）字段取值为 字段固定取",
+      "detail": "mktdt00.txt\nIOPV\n行情，相关字段标记为\n，字段内容无意义\n产品，此字段有效。\n该字段取\n0.000\n时，无意义。\n该字段不作除权除息等调整。\n公告文件\nPublish\n/PublishIOPVFlag\n版）字段（是否需要发布\n）取值为\n时，此字段为对应产品的\n版）字段取值为\n字段固定取",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，无意义； 公告文件接口详见《 IS118",
+      "detail": "，无意义；\n公告文件接口详见《\nIS118",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS109",
+    "IS113",
+    "IS117",
+    "IS118",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 废止: 1项。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

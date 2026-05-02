@@ -1,0 +1,259 @@
+{
+  "doc_id": "sse-iface-20260123-005",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1.36版_20260122（新竞价新综业技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T05:42:18.665671+00:00",
+  "metadata": {
+    "file_hash": "sha256:54666cb3f94aad2dd5f5ce8b9d3bc22b4a2e5a0a84e0da8aca78724ede62bded",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.36",
+    "previous_version": null,
+    "public_date": "2026-01-23",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.36",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（托管银行卷）》",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（托管银行卷）》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.36",
+      "detail": "1.36",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版发布说明：",
+      "detail": "版发布说明：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026",
+      "detail": "2026",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "托管银行私有数据接口",
+      "detail": "托管银行私有数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "YYYY.sse",
+      "detail": "YYYY.sse",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新增新竞价过户数据文件（",
+      "detail": "新增新竞价过户数据文件（",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "gh00PXXXXX.txt",
+      "detail": "gh00PXXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、新竞价发行过",
+      "detail": "）、新竞价发行过",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "户数据文件（",
+      "detail": "户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ipogh00PXXXXX.txt",
+      "detail": "ipogh00PXXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、指定过户数据文件（",
+      "detail": "）、指定过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zdgh00PXXXXX.txt",
+      "detail": "zdgh00PXXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "），取消席位成交",
+      "detail": "），取消席位成交",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ghXXXXX.dbf",
+      "detail": "ghXXXXX.dbf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）文件。",
+      "detail": "）文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "过户数据、",
+      "detail": "过户数据、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、新竞价过户数据文件、新",
+      "detail": "、新竞价过户数据文件、新",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "竞价发行过户数据文件、指定过户数据文件",
+      "detail": "竞价发行过户数据文件、指定过户数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "席位成交",
+      "detail": "席位成交",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "(ghXXXXX.dbf)",
+      "detail": "(ghXXXXX.dbf)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、新竞价过户数据文件（",
+      "detail": "、新竞价过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、新竞",
+      "detail": "）、新竞",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "价发行过户数据文件（",
+      "detail": "价发行过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、新竞价过户数",
+      "detail": "、新竞价过户数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "据文件（",
+      "detail": "据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、新竞价发行过户数据文件（",
+      "detail": "）、新竞价发行过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、指定过户数据文件",
+      "detail": "）、指定过户数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "竞价过户数据接口",
+      "detail": "竞价过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新竞价过户数据文件（",
+      "detail": "新竞价过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新竞价发行过户数据文件（",
+      "detail": "新竞价发行过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "指定过户数据文件（",
+      "detail": "指定过户数据文件（",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS118",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及32项变更。 规则条款变更: 32项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "bjqbMMDD.flg\n，其中\nMMDD\n为当前日期。\n文件的第一行包括两个字段：更新时间、记录数，字段间使用竖线分隔，数据文件的实际记录内容从第二\n行开始。文件的每条记录为定长数据，各字段的长度固定，若无特殊说明内容采用右对齐，前补空的方式，字\n段之间采用竖线（\n|\n）分隔。\n3.1.4.3\n确定报价行情文件格式\n序号\n字段\n数据类型\n长度\n格式\n1\n债券代码\nTEXT\n6\n2\n债券简称\nTEXT\n30\n3\n买入报价时间\nTIME\n8\nhh:mm:ss\n4\n买入报价方\nTEXT\n10\n交易商简称\n5\n买入价（净价）\nNUMBER\n10\n单位：厘\n6\n买入数量\nNUMBER\n10\n单位：手\n对基金单位为\n“\n份\n”\n7\n买入全价\nNUMBER\n10\n单位：厘\n8\n买入到期收益率\nNUMBER\n10\n百分数（\n4\n位小数）\n对基金无效\n9\n卖出报价时间\nTIME\n8\nhh:mm:ss\n10\n卖出报价方\nTEXT\n10\n交易商简称\n11\n卖出价（净价）\nNUMBER\n10\n单位：厘\n12\n卖出数量\nNUMBER\n10\n单位：手\n对基金单位为\n“\n份\n”\n13\n卖出全价\nNUMBER\n10\n单位：厘\n14\n卖出到期收益率\nNUMBER\n10\n百分数（\n4\n位小数）\n对基金无效\n15\n应计利息\nNUMBER\n10\n单位：\n0.1\n厘\n第\n14\n页共\n16\n页\n序号\n字段\n数据类型\n长度\n格式\n对基金无效\n说明：\na\n．在确定报价行情文件中，按照每个债券的代码从小到大依次排列各债券的所有当前报价。在每个债券的\n报价记录中，分别按最优买、卖报价的方式排序。\nb\n．报价记录中的买入、卖出数量为当前剩余数量。如果是冰山订单，则当实际数量大于冰山订单值时，显\n示冰山订单值，而不是实际数量。\nc\n．如果是匿名报价，则在对应买入\n/\n卖出报价方一栏显示\n“\n匿名\n”\n。\n3.1.4.4\n确定报价行情标志文件格式\n序\n字段\n说明\n数据类型\n长\n格式\n号\n度\n1\n数据文件名称\n文件名\nTEXT\n60\n左对齐，右补空\n2\n数据文件大小\n以字节为单位的文件大小\nNUMBER\n16\n左对齐，右补空\n3\n日期\n文件生成日期\nDATE\n8\nYYYYMMDD\n4\n时间\n文件生成时间\nTIME\n6\nHHMMSS\n5\n记录数\nNUMBER\n12\n左对齐，右补空\n6\n文件校验码\n根据文件内容采用\nMD5\n算法生成\nTEXT\n64\n左对齐，右补空\n7\n预留字段\n暂为空格\nTEXT\n64\n第\n15\n页共\n16\n页\n4\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不得将本文档用\n于其他商业目的。\n对本文档有任何批评指正意见，请发电子邮件到\ntech_support@sse.com.cn\n。\n第\n16\n页共\n16\n页"
+}

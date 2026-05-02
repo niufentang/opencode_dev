@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-mag-00000000-029",
+  "title": "第二期.cdr",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10775372/files/ad3ad7d1b0214939af16fc28062628ec.pdf",
+  "analysis_date": "2026-05-02T02:03:05.673872+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "magazine",
+    "STEP"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：magazine，版本：无。",
+  "confidence": 0.75
+}

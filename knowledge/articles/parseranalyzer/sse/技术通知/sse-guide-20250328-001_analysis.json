@@ -1,0 +1,34 @@
+{
+  "doc_id": "sse-guide-20250328-001",
+  "title": "关于发布优化ETF申赎清单（含跨银行间市场债券ETF）市场接口及技术指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781073/files/a701637067b542739f3c88289b1faa5a.pdf",
+  "analysis_date": "2026-05-02T05:42:03.223469+00:00",
+  "metadata": {
+    "file_hash": "sha256:9fb992d7fe7c83e8ed7716044252a02b1189bc0c7c19b5d3ae92fc7624cd2a6f",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-03-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "ETF",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发布优化\nETF\n申赎清单（含跨银行间市\n场债券\nETF\n）市场接口及技术指南的通知\n各市场参与人：\n根据\nETF\n申赎清单优化及跨银行间市场债券\nETF\n相关\n工作安排，现发布以下材料：\n一、《\nIS118_\n上海证券交易所特定参与者接口规格说明\n书（基金公司卷）\n2.0\n版\n_20250324\n（优化\nETF\n申赎清单\n技\n术开发稿）》\n二、《\nIS101_\n上海证券交易所竞价撮合平台市场参与者\n接口规格说明书\n1.69\n版\n_20250324\n（优化\nETF\n申赎清单\n技\n术开发稿）》\n三、《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接\n口规范\n0.58\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n四、《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口\n规范\n0.58\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n五、《\nIS105_\n上海证券交易所综合业务平台市场参与者\n接口规格说明书\n1.56\n版\n_20250324\n（优化\nETF\n申赎清单\n技\n术开发稿）》\n六、《上海证券交易所优化\nETF\n申赎清单市场参与者\n技术实施指南\n_20250324\n》\n七、《上海证券交易所跨市场债券（银行间）\nETF\n市场\n参与者技术实施指南\n_20250324\n》\n市场参与人可通过市场技术服务平台“产品服务\n-\n交易支\n持软件专区”相关栏目获取上述材料。请提前做好技术就绪\n准备。\n本次主要变更内容：\n一、在特定参与者接口规格说明书（基金公司卷）中，\n新增\nETF\n定义文件\nxml\n版、\nETF\n确认文件\nxml\n版、\nETF\n公告\n文件\nxml\n版，启用“市场\nID\n”字段，调整“替代标志”字段\n描述，启用及新增部分申购、赎回控制字段，增加“申赎模\n式”字段；调整附录一中\nETF\n产品与申赎模式、替代标志、\n市场\nID\n对应关系表，新增新增附录二\nxml\n版本文件结构、\n附录三\nETF\n定义文件标志文件举例、附录四\n现金替代比例\n计算说明、附录五\n现金替代标志说明。\n二、在竞价撮合平台市场参与者接口规格说明书中，支\n持\nETF\n公告文件\nxml\n版，调整行情接口\nmktdt00.txt\n章节\nIOPV\n行情与\nETF\n公告文件关联关系描述。\n三、在行情网关\nBINARY\n及\nSTEP\n数据接口规范中，支\n持\nETF\n公告文件\nxml\n版，调整集中竞价类行情快照扩展字段\n章节\nIOPV\n行情与\nETF\n公告文件关联关系描述。\n四、在综合业务平台市场参与者接口规格说明书中，新\n增\nETF\n公告文件\nxml\n版相关描述。\n另外提醒，本次发布的《\nIS118_\n上海证券交易所特定参\n与者接口规格说明书（基金公司卷）》适用于跨银行间市场\n债券\nETF\n业务，详见《跨市场债券（银行间）\nETF\n市场参与\n者技术实施指南》。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2025\n年\n3\n月\n28\n日"
+}

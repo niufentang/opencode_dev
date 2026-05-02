@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-042",
+  "title": "关于发布UniTrans停发上交所公共类文件市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10785849/files/13b8810942ae4e94bb249ebbb72e6bd9.pdf",
+  "analysis_date": "2026-05-02T02:03:05.712997+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS118",
+    "IS124",
+    "UniTrans"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

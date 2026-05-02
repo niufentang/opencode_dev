@@ -1,0 +1,44 @@
+{
+  "doc_id": "sse-guide-20260424-164",
+  "title": "上海证券交易所新固定收益系统市场参与人技术实施指南_20260424（技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10816480/files/2f6d4773eb954b5e826f6e4d0ee32d12.pdf",
+  "analysis_date": "2026-05-02T02:03:06.819505+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026",
+      "detail": "2026",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如遇订单瞬时激增，新系统将对部分订单反馈“ 19434 ：系统繁忙，请稍后 重试”的响应信息，请市场参与者稍后再次重试。 ，仅包含已上市未摘牌产品 ，仅包含已上 市未摘牌产品",
+      "detail": "如遇订单瞬时激增，新系统将对部分订单反馈“\n19434\n：系统繁忙，请稍后\n重试”的响应信息，请市场参与者稍后再次重试。\n，仅包含已上市未摘牌产品\n，仅包含已上\n市未摘牌产品",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS109",
+    "IS111",
+    "IS118",
+    "IS119",
+    "IS120",
+    "IS122",
+    "IS124",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

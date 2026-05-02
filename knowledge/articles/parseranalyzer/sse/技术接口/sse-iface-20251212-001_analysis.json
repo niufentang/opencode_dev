@@ -1,0 +1,112 @@
+{
+  "doc_id": "sse-iface-20251212-001",
+  "title": "IS109_上海证券交易所固定收益平台外部数据接口规范3.29版_20251205",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10801492/files/0602ca5530ff46a48eab83de6d5d183f.pdf",
+  "analysis_date": "2026-05-02T05:41:49.746491+00:00",
+  "metadata": {
+    "file_hash": "sha256:5ad1933aeebd6b73aefc8d43ade88d4fc65fe51bfbb9d1535edfedd548438c82",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "3.29",
+    "previous_version": null,
+    "public_date": "2025-12-12",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "3.29",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "V3.29",
+      "detail": "V3.29",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2024-11-21",
+      "detail": "2024-11-21",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券信息文件中对于特定债，明确其面值和利率字段自转为",
+      "detail": "证券信息文件中对于特定债，明确其面值和利率字段自转为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "特定债券后不再发生变化",
+      "detail": "特定债券后不再发生变化",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "根据实际实现，明确部分约定：添加了中文字符编码的约定；",
+      "detail": "根据实际实现，明确部分约定：添加了中文字符编码的约定；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段和第",
+      "detail": "字段和第",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，明确填写情况",
+      "detail": "时，明确填写情况",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本文档中文字符采用",
+      "detail": "本文档中文字符采用",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，如为0，填写0。",
+      "detail": "，如为0，填写0。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如为0，填写0。",
+      "detail": "如为0，填写0。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于特定债券，其证券面额、票面利率字段自转为特定债券后不再发生",
+      "detail": "对于特定债券，其证券面额、票面利率字段自转为特定债券后不再发生",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS109",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及11项变更。 规则条款变更: 11项。",
+  "confidence": 0.92,
+  "raw_text": "TEXT\n1\nA\n：记帐式\nR\n：实物式\nV\n：凭证式\n24\n发行方法\nTEXT\n1\nS\n：包销\n30\n上海证券交易所\n固定收益平台外部数据接口规范\nR\n：代销\nB\n：招标\nO\n：其他\n25\n是否跨市场\nTEXT\n1\nY\n：跨市场\nN\n：不跨市场\n26\n能否做空\nTEXT\n1\nY\n：可以做空\nN\n：不能做空\n27\n总做空额度\nNUMBER\n10\n单位：手\n28\n交易商做空\nNUMBER\n10\n单位：手\n额度\n29\n上日收盘价\nNUMBER\n10\n单位：厘\n30\n上日加权平\nNUMBER\n10\n单位：厘\n均价\n对公募可转债，为上一交易日竞价收盘价\n说明：\na\n．\n证券信息文件在系统开盘后开始刷新，刷新时间为\n5\n分钟，该文件总是\n被全量覆盖。\nb\n．对债券质押式协议回购，除明确说明的字段外，其它字段均无效\nc\n．\n对三方回购，除明确说明的字段外，其他字段均无效\nd\n．\n对于特定债券，其证券面额、票面利率字段自转为特定债券后不再发生\n变化\n31\n上海证券交易所\n固定收益平台外部数据接口规范\n3.8\n公告信息的获取\n3.8.1\n公告信息文件格式说明\n序\n字段\n数据类型\n长\n格式\n号\n度\n1\n公告类型\nTEXT\n1\nC\n：研究报告\nA\n：交易所公告\nF\n：财经新闻\nT\n：财政部公告\nO\n：人民银行公告\nP\n：发行人公告\n2\n公告标题\nTEXT\n100\n3\n公告日期\nDATE\n8\nYYYYMMDD\n4\n公告时间\nTIME\n6\nHHMMSS\n5\n公告编号\nNUMBER\n10\n非递增序编号\n说明：\na\n．\n公告信息文件在系统开盘后开始刷新，刷新时间为\n5\n秒钟，若刷新时间\n段内公告信息没有发生变化，则该文件不会被刷新，否则该文件被全量\n覆盖。\nb\n．\n私募债券转让业务上线后，公告信息暂不对行情商用户开放。\n32\n上海证券交易所\n固定收益平台外部数据接口规范\n3.8.2\n公告内容存放说明\n根据公告信息文件中的公告编号到服务器上获取公告的详细内容，以公告编\n号为文件名，保存为一个单独文件，安置在\ninfo\n下的\ncontent\n子目录中。\n文件中的内容依次为以下字段：\n标题、作者、关键字\n1\n、关键字\n2\n、关键字\n3\n、附件个数、附件编号及名称、\n内容。\n其中，前\n6\n个字段从文件头开始，依次各占一行，除附件个数为\n1-2\n位的整\n数字段外，其它为长度不超过\n100\n位的文本字段。\n根据附件个数\nN\n，“附件编号及名称”字段，会占据文件中接下去的\nN\n行。\n每行对一个附件进行说明，包括附件编号和文件名称两个字段。前者为\n1-2\n位的\n整数类型，后者为长度不超过\n200\n位的文本字段，字段间以逗号分隔。\n在附件说明之后，直到文件尾，都是内容字段，根据实际情况，可能占据多\n行，总长度不超过\n800\n字符。\n3.8.3\n公告附件存放说明\n根据公告编号和附件编号到服务器上下载附件内容。每个附件保存为一个单\n独文件，安置在\ninfo\n下的\nattach\n子目录中。文件名格式为：\n[\n公告编号\n]_[\n附件编\n号\n]_[\n原文件名\n]\n。\n33\n上海证券交易所"
+}

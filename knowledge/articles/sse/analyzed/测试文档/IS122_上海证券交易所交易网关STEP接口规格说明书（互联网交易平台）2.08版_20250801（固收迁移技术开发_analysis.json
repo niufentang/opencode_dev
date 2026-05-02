@@ -1,0 +1,72 @@
+{
+  "doc_id": "sse-iface-20250801-133",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T02:03:06.430328+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.2 询价报价处理消息流图的文字描述 4.4.4.2 转发成交申报中方向（ Side ）字段的具体含义 为应对三方回购换券时存在同名质押券多次质押的场景， 4.4. 2025.06 2.08 成交申报明确：三方回购对于换出券需要填写冻结申请书号 3.2.2.5.4 双边确认申报模式数据流示意图中调整了转发申报",
+      "detail": "3.2.2.2\n询价报价处理消息流图的文字描述\n4.4.4.2\n转发成交申报中方向（\nSide\n）字段的具体含义\n为应对三方回购换券时存在同名质押券多次质押的场景，\n4.4.\n2025.06\n2.08\n成交申报明确：三方回购对于换出券需要填写冻结申请书号\n3.2.2.5.4\n双边确认申报模式数据流示意图中调整了转发申报",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "adeID 的填写方式 和债券借贷 若报价方不进行报价，询价在超时后会自动失效，整个交易过程结束。 价方不进行报价，询价在超时后会自动失效，整个交易过程结束；",
+      "detail": "adeID\n的填写方式\n和债券借贷\n若报价方不进行报价，询价在超时后会自动失效，整个交易过程结束。\n价方不进行报价，询价在超时后会自动失效，整个交易过程结束；",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.5.4.1",
+      "detail": "3.2.2.5.4.1",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券借贷填写质押券冻结申请书号 EventType=22 TrdMatchID",
+      "detail": "债券借贷填写质押券冻结申请书号\nEventType=22\nTrdMatchID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "必填，表",
+      "detail": "必填，表",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "示质押券的冻结申请书号 表示被转发方也即本申报发起方的方向。",
+      "detail": "示质押券的冻结申请书号\n表示被转发方也即本申报发起方的方向。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "REITs",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 接口字段变更: 1项。 规则条款变更: 5项。",
+  "confidence": 0.95
+}

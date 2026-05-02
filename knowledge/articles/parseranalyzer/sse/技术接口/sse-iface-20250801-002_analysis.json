@@ -1,0 +1,49 @@
+{
+  "doc_id": "sse-iface-20250801-002",
+  "title": "IS117 上海证券交易所港股通市场参与者接口规格说明书(港股交易)1.09版_20250801",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10787337/files/235d08bf48d245a38292115253b9089d.pdf",
+  "analysis_date": "2026-05-02T05:41:48.063542+00:00",
+  "metadata": {
+    "file_hash": "sha256:3606c5f5698b4de388b148437dd7eabe2433548349a4c7f3f7bc99f35ed792bd",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.09",
+    "previous_version": null,
+    "public_date": "2025-08-01",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.09",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.sse.com.cn/",
+      "detail": "http://www.sse.com.cn/",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://www.hkex.com.hk/services/trading/securities/infrastructure/overview?sc_lang=en",
+      "detail": "https://www.hkex.com.hk/services/trading/securities/infrastructure/overview?sc_lang=en",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS117",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.92,
+  "raw_text": "第七至八位有效  市场波动调节机制类别\n预留，暂无数据。\n备注的后续字节为保留字段，无效\n该字段为8 位字符串，左起每位表示特定的含\nSecurityStatusFl\n义，无定义则填空格。\nag\n第1 位：无定义。\n19.\n产品状态信息 C8\n第2 位：无定义。\n第3 位：‘0’表示非\n标的证券，\n‘1’表示\n标\n的证券。\n扩展区域\n不定\n系统应能支持记录尾部扩展新的字段。\n综合业务平台\n市场参与者接口规格说明书\n第\n36\n页 共\n40\n页\n技术文档\n8\n港股通参考汇率文件\nexra04MMDD.txt\n（转发）\nexra04MMDD.txt\n港股通参考汇率接口\n描述：\n文件名中\nMMDD\n表示月日格式的文件适用日期，在交易日开市前发送。\n数据格式：记录采用行格式，字段以分隔符\n‘|’\n来区分，固定长度。该文件换行方式为\nUnix\n方\n式，即通过\n0x0A\n表示换行。\n本文件由中国证券登记结算有限责任公司上海分公司生成，上交所转发。\n本文件为港股通交易日额度控制的预估汇率。\n本文件所有汇率均为一元外币兑换人民币价格。\n序号\n字段名\n长度\n字段描述\n1\n参考数据类型\nC5\nQ0402\n2\n参考汇率买入价\nN15(5)\n3\n参考汇率卖出价\nN15(5)\n4\n参考汇率中间价\nN15(5)\n保留\n4\n货币种类\nC3\nHKD 港币\n5\n适用日期\nC8\nYYYYMMDD\n6\n备用\nC20\n综合业务平台\n市场参与者接口规格说明书\n第\n37\n页 共\n40\n页\n技术文档\n9\n最小价差文件\nzxjcMMDD.txt\n（转发）\nzxjcMMDD.txt\n最小价差文件\n描述：\n文件名中\nMMDD\n表示月日格式的文件适用日期，在交易日开市前发送。\n数据格式：记录采用行格式，字段以分隔符\n‘|’\n来区分，固定长度。该文件换行方式为\nUnix\n方\n式，即通过\n0x0A\n表示换行。\n本文件由港交所生成，上交所转发。\n序号\n字段名\n长度\n字段描述\n1.\n参考数据类型\nC5\nR0403\n价差代码,不足兩位左补零。\n例：\n01 –价位表A 部分，包括股本证券\n03 - 价位表B 部分，\n表示包括\n债务证券\n2.\n价差表代码\nC2\n04 - 价位表C 部分，交易所买卖期权\n05 - 价位表D 部分，交易所买卖基金\n06 –价位表E 部分，包括结构性产品\n具体价差表代码，参见相关业务规章及通告\n3.\n最低下限价格\nN10(3) 本价差表代码容许的最低成交价格\n4.\n最高上限价格\nN10(3) 本价差表代码容许的最高成交价格\n5.\n起点价格\nN10(3) 本价差表代码的最小价格\n以下为本价差表有的实际价差组别数量\n6.\n价差組別数量\nN2\n(\n数量値由\n1\n到\n52)\n7.\n价差组别\n: (\n重复共\n52\n组\n)\n7a\n组别终点价格\nN10(3)\n本价差组别的最高价格\n当组别数大过价差组别数量时，取值为000000.000\n价差値是上一个組別终点价格(若第一个組別则为起点价\n7b\n价差値\nN6(3)\n格)與今个組別终点价格之間的价差(例：12.456）\n综合业务平台\n市场参与者接口规格说明书\n第\n38\n页 共\n40\n页\n技术文档\n当组别数大過价差組別数量时，取值为\n00.000\n本价差组别的价差数量\n7c\n价差数量\nN6\n当组别数大过价差组别数量时，取值为\n000000\n综合业务平台\n市场参与者接口规格说明书\n第\n39\n页 共\n40\n页\n技术文档\n10\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人\n不得将本文档用于其他商业目的。\n对本文档有任何批评指正意见，请发电子邮件到\ntech_support@sse.com.cn\n或者致电\n4008888400-2\n。\n综合业务平台\n市场参与者接口规格说明书\n第\n40\n页 共\n40\n页"
+}

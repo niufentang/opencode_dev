@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-tech-20250919-003",
+  "title": "关于发布行情网关MDGW_1.2.10版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10792147/files/9d3951fb7ed2492cab9af98048aba569.pdf",
+  "analysis_date": "2026-05-02T05:42:03.424075+00:00",
+  "metadata": {
+    "file_hash": "sha256:1f07991d215d97aeadaeb95fd80f29cc00adee96a3a1651872946947f4fd569a",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "technical_notice",
+    "version": "1.2.10",
+    "previous_version": null,
+    "public_date": "2025-09-19",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.2.10",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：technical_notice，版本：1.2.10。",
+  "confidence": 0.72,
+  "raw_text": "关于发布行情网关\nMDGW_1.2.10\n版本的\n通知\n各市场参与人：\n为更好地为市场提供行情数据文件服务，现发布行情网\n关软件\nMDGW_1.2.10\n版本。本次行情网关软件版本变更内\n容包括行情任务新增订阅类型“外部源行情”，支持独立流\nIOPV\n行情转发，新增行情文件\nmktdte.txt\n。推荐市场参与人\n进行升级。\n另外提醒，独立\nIOPV\n行情相关工作分两个阶段开展，\n目前开展第一阶段工作（第一阶段：上海证券交易所向市场\n机构以试运行的形式发布独立\nIOPV\n行情，各市场机构应保\n持以现有渠道（\nSecurityType=1\n及\nmktdt00.txt\n）接收\nIOPV\n行\n情，独立\nIOPV\n行情数据仅供参考，不应用做正式用途。第\n二阶段：正式发布外部源\nIOPV\n行情，市场机构应切换外部\n源\nIOPV\n行情为生产使用）。第二阶段工作将另行通知。\n请各市场参与人仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试后，开展行情网关的升级部署。\n上述软件安装包可通过市场技术服务平台“技术支持与信息\n管理”\n>\n“软件与技术文档”\n>\n“软件下载”栏目进行下载。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2025\n年\n9\n月\n19\n日"
+}

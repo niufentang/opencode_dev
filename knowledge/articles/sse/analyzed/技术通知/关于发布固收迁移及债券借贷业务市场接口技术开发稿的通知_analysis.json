@@ -1,0 +1,26 @@
+{
+  "doc_id": "sse-tech-00000000-064",
+  "title": "关于发布固收迁移及债券借贷业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10770036/files/51262c11b47240aa9f11b35c80771ad0.pdf",
+  "analysis_date": "2026-05-02T02:03:05.793253+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "债券",
+    "融资融券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

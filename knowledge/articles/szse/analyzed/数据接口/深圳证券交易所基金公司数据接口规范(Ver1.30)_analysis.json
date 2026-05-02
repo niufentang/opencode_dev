@@ -1,0 +1,25 @@
+{
+  "doc_id": "szse-iface-00000000-226",
+  "title": "深圳证券交易所基金公司数据接口规范(Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250905554429056033.pdf",
+  "analysis_date": "2026-05-02T02:03:07.119168+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "interface_spec",
+    "BINARY",
+    "STEP",
+    "交易网关",
+    "债券",
+    "港股通"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：1。",
+  "confidence": 0.75
+}

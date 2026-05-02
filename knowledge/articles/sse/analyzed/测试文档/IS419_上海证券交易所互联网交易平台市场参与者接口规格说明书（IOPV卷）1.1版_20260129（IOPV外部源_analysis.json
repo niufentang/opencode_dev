@@ -1,0 +1,247 @@
+{
+  "doc_id": "sse-iface-20250815-153",
+  "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（IOPV卷）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072251/files/942068681e9242d3b4236a31f8e42c18.pdf",
+  "analysis_date": "2026-05-02T02:03:06.776282+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025.12.15",
+      "detail": "2025.12.15",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.1",
+      "detail": "V1.1",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、新增登录、修改登录密码接口； 、调整公共报文头、请求及返回示例； 章节数据类型定义 章节新增产品不得重复要求； 章节返回码； 接口适用范围 ........................................................................................................................",
+      "detail": "、新增登录、修改登录密码接口；\n、调整公共报文头、请求及返回示例；\n章节数据类型定义\n章节新增产品不得重复要求；\n章节返回码；\n接口适用范围\n...............................................................................................................................",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实时报文格式约定 2.1. 报文通讯模式 2.2. 数据类型约定 2.3. 公共报文头定义 接口说明 3.1. 消息流图 3.1.1. 3.1.2.",
+      "detail": "实时报文格式约定\n2.1.\n报文通讯模式\n2.2.\n数据类型约定\n2.3.\n公共报文头定义\n接口说明\n3.1.\n消息流图\n3.1.1.\n3.1.2.",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "修改",
+      "summary": "修改登录密码",
+      "detail": "修改登录密码",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2. 3.2.1. 获取随机数(/login/etf/getRandom) ................................................................... 3.2.2. 登录认证(/login/etf/verify) .............................................................",
+      "detail": "3.2.\n3.2.1.\n获取随机数(/login/etf/getRandom)\n...................................................................\n3.2.2.\n登录认证(/login/etf/verify)\n.............................................................................",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.3.",
+      "detail": "3.3.",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "修改",
+      "summary": "修改登录密码（",
+      "detail": "修改登录密码（",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "/login/etf/updatePwd ..................................................................... 3.4. IOPV 上传（ /upload/etf/netvalue 1. 接口适用范围 本接口规范适用于经上海证券交易所（以下简称“本所”）批准的IOPV 行情提供商，通",
+      "detail": "/login/etf/updatePwd\n.....................................................................\n3.4.\nIOPV 上传（\n/upload/etf/netvalue\n1. 接口适用范围\n本接口规范适用于经上海证券交易所（以下简称“本所”）批准的IOPV 行情提供商，通",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "过指定专用通信网络与本所行情接入系统建立连接。",
+      "detail": "过指定专用通信网络与本所行情接入系统建立连接。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "未经本所授权的机构不得接入。",
+      "detail": "未经本所授权的机构不得接入。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "通信层采用HTTPS（TLS）协议，基于服务端证书实现单向身份认证，保证传输通道的机",
+      "detail": "通信层采用HTTPS（TLS）协议，基于服务端证书实现单向身份认证，保证传输通道的机",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "密性与完整性。业务层采用基于非对称密钥的数字签名与验签机制，并结合账户名密码实现 双因子安全校验。 一位小数点，此时整数部分最多不超过X-Y-1",
+      "detail": "密性与完整性。业务层采用基于非对称密钥的数字签名与验签机制，并结合账户名密码实现\n双因子安全校验。\n一位小数点，此时整数部分最多不超过X-Y-1",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "填写版本号，当前版本为",
+      "detail": "填写版本号，当前版本为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填写示例“ 1、发送日期、发送时间表示请求发送的时间。",
+      "detail": "填写示例“\n1、发送日期、发送时间表示请求发送的时间。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "本系统采用”通信层安全+业务层身份认证“的双层认证机制： 通信层：基于HTTPS（TLS）的单向认证，用于保障传输通道安全；",
+      "detail": "本系统采用”通信层安全+业务层身份认证“的双层认证机制：\n通信层：基于HTTPS（TLS）的单向认证，用于保障传输通道安全；",
+      "severity": "critical",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务层：客户端使用本所颁发的业务签名证书，对随机数、会话标识及时间戳进行 数字签名。本所通过验签确认客户端身份的真实性与不可抵赖性。业务签名认证通 过后，系统继续校验登录账户名和密码。 产生随机数 并将随机数 发送至声称方 certsn||sessionID 作为标识符 ，使用系统时间 time Text3",
+      "detail": "业务层：客户端使用本所颁发的业务签名证书，对随机数、会话标识及时间戳进行\n数字签名。本所通过验签确认客户端身份的真实性与不可抵赖性。业务签名认证通\n过后，系统继续校验登录账户名和密码。\n产生随机数\n并将随机数\n发送至声称方\ncertsn||sessionID\n作为标识符\n，使用系统时间\ntime\nText3",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "certsn 为客户端证书中解析出的证书序列号、 sessionID HTTP 信中服务端产生的会话 声称方使用约定的签名私钥对 Ra||Rb||Text2 签名得到 。签名算法为 Text2 certsn||sessionID||time 声称方拼装 Token= Ra||Rb||B||Text3||Ssa",
+      "detail": "certsn\n为客户端证书中解析出的证书序列号、\nsessionID\nHTTP\n信中服务端产生的会话\n声称方使用约定的签名私钥对\nRa||Rb||Text2\n签名得到\n。签名算法为\nText2\ncertsn||sessionID||time\n声称方拼装\nToken= Ra||Rb||B||Text3||Ssa",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "声称方将自身签名证书 CertA Token 、账户名密码发送至验证方 一旦验证方 收到包含 的消息， 的合法性，然后验证签名 的正确性，若一致则鉴别通过。 功能描述：交易日 7:00-16:30 ，指数机构通过互联网交易平台获取随机数 接口路径： /login/etf/getRandom 数据格式：",
+      "detail": "声称方将自身签名证书\nCertA\nToken\n、账户名密码发送至验证方\n一旦验证方\n收到包含\n的消息，\n的合法性，然后验证签名\n的正确性，若一致则鉴别通过。\n功能描述：交易日\n7:00-16:30\n，指数机构通过互联网交易平台获取随机数\n接口路径：\n/login/etf/getRandom\n数据格式：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Json 请求方：市场机构 请求参数：无 响应参数: 字段名称 random Base64 编码，由服务端生成， 用于后续客户端身份认证 sessionId 服务端生成的认证 后续客户端身份认证 请求示例 body = { \"mctCode\": \"XXXXX\", \"sendDate\": \"20210502\",",
+      "detail": "Json\n请求方：市场机构\n请求参数：无\n响应参数:\n字段名称\nrandom\nBase64\n编码，由服务端生成，\n用于后续客户端身份认证\nsessionId\n服务端生成的认证\n后续客户端身份认证\n请求示例\nbody = {\n\"mctCode\": \"XXXXX\",\n\"sendDate\": \"20210502\",",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "\"bizId\": \"001\", \"version\": \"1.0\", \"sendTime\": \"102020\" 响应示例 \"code\": 200, \"message\": \" 操作成功 \"data\": { \"random\": \"fdsgsfdhuhsfhuf\", \"sessionId\": \"sdfssfgfsdhghhh\"",
+      "detail": "\"bizId\": \"001\",\n\"version\": \"1.0\",\n\"sendTime\": \"102020\"\n响应示例\n\"code\": 200,\n\"message\": \"\n操作成功\n\"data\": {\n\"random\": \"fdsgsfdhuhsfhuf\",\n\"sessionId\": \"sdfssfgfsdhghhh\"",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "\"respTime\": \"20260113085403955\" ，指数机构在申报实时参考净值前登录连接互联网交易平台 /login/etf/verify 请求参数： 签名证书 cert 2048 客户端自身签名证书（通过 密钥载体 Ekey 获取）， 登录密码 password 账户认证方式：密码 上传频率",
+      "detail": "\"respTime\": \"20260113085403955\"\n，指数机构在申报实时参考净值前登录连接互联网交易平台\n/login/etf/verify\n请求参数：\n签名证书\ncert\n2048\n客户端自身签名证书（通过\n密钥载体\nEkey\n获取），\n登录密码\npassword\n账户认证方式：密码\n上传频率",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "uploadFreq 以秒为单位，范围为 请求头中携带字段信息： 身份认证 token 客户端根据签名算法生成的 信息，服务端对其进行 以秒为单位，登录认证成功 1、IOPV 上传时间间隔应以响应参数中的上传频率为准。 请求示例： header = { \"sessionId\": \"dhwkejdbjshk2332444....\",",
+      "detail": "uploadFreq\n以秒为单位，范围为\n请求头中携带字段信息：\n身份认证\ntoken\n客户端根据签名算法生成的\n信息，服务端对其进行\n以秒为单位，登录认证成功\n1、IOPV 上传时间间隔应以响应参数中的上传频率为准。\n请求示例：\nheader = {\n\"sessionId\": \"dhwkejdbjshk2332444....\",",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "\"token\": \"sadifhkfhaew||uweirohfakjldjksa||......\" \"sendTime\": \"102020\", \"cert\":\"tuytuyg\", \"password\":\"tuygu\", \"uploadFreq\":5 响应示例： \"uploadFreq\": 5 ，指数机构可通过该接口修改登录密码",
+      "detail": "\"token\": \"sadifhkfhaew||uweirohfakjldjksa||......\"\n\"sendTime\": \"102020\",\n\"cert\":\"tuytuyg\",\n\"password\":\"tuygu\",\n\"uploadFreq\":5\n响应示例：\n\"uploadFreq\": 5\n，指数机构可通过该接口修改登录密码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "oldLoginPwd newLoginPwd 更新后的密码，且不能登录 密码相同 认证ID 服务端生成的认证ID，用于 客户端身份认证，身份认证 通过后才允许修改密码 响应参数:无 1、修改登录密码后，需重新登录。 \"sessionId\": \"dhwkejdbjshk2332444....\" \"oldLoginPwd\":\"tuytuyg\",",
+      "detail": "oldLoginPwd\nnewLoginPwd\n更新后的密码，且不能登录\n密码相同\n认证ID\n服务端生成的认证ID，用于\n客户端身份认证，身份认证\n通过后才允许修改密码\n响应参数:无\n1、修改登录密码后，需重新登录。\n\"sessionId\": \"dhwkejdbjshk2332444....\"\n\"oldLoginPwd\":\"tuytuyg\",",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "\"newLoginPwd\":\"tuygu\" \"data\": {}, ，市场机构申报实时参考净值 请求流水号 seqNo 请求流水号每个机构下需不 消息内容 1024 msg 消息内容为： 业务时间 businessTime yyyyMMddHHmmSSsss 据此计算交易日 IOPV 数据 fundList",
+      "detail": "\"newLoginPwd\":\"tuygu\"\n\"data\": {},\n，市场机构申报实时参考净值\n请求流水号\nseqNo\n请求流水号每个机构下需不\n消息内容\n1024\nmsg 消息内容为：\n业务时间\nbusinessTime\nyyyyMMddHHmmSSsss\n据此计算交易日\nIOPV 数据\nfundList",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "list 开始 行情ID marketId 每日自1 起递增",
+      "detail": "list 开始\n行情ID\nmarketId\n每日自1 起递增",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码",
+      "detail": "证券代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "fundCode 每份基金实时 参考净值 price 14(5) IOPV 值，需为非负数 list 结束 text 业务时间表示IOPV 行情生成时间。",
+      "detail": "fundCode\n每份基金实时\n参考净值\nprice\n14(5)\nIOPV 值，需为非负数\nlist 结束\ntext\n业务时间表示IOPV 行情生成时间。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码在每次上传请求消息中不得重复。",
+      "detail": "证券代码在每次上传请求消息中不得重复。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "均校验通过， 响应参数： 拒绝原因 orderRejReason 参考返回码列表 \"seqNo\": \"1243443d5d33s44444....\", \"msg\": \" { \"businessTime\": \"20251219145232000\", \"fundList\": [ \"marketId\": 1,",
+      "detail": "均校验通过，\n响应参数：\n拒绝原因\norderRejReason\n参考返回码列表\n\"seqNo\": \"1243443d5d33s44444....\",\n\"msg\": \" {\n\"businessTime\": \"20251219145232000\",\n\"fundList\": [\n\"marketId\": 1,",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "\"fundCode\": \"1111\", \"price\": 1.234 \"marketId\": 2, \"funCode\": \"2222\", \"price\": 1.345",
+      "detail": "\"fundCode\": \"1111\",\n\"price\": 1.234\n\"marketId\": 2,\n\"funCode\": \"2222\",\n\"price\": 1.345",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS419",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及32项变更。 接口字段变更: 2项。 规则条款变更: 23项。 修改: 2项。 版本升级: 2项。 技术架构变更: 3项。 其中重大变更3项。",
+  "confidence": 0.95
+}

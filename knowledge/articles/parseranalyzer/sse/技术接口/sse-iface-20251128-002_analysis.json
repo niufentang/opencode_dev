@@ -1,0 +1,86 @@
+{
+  "doc_id": "sse-iface-20251128-002",
+  "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（债券平台）1.94版_20251128",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800222/files/873a41ebd6b246fe81b1d7ff3f512313.pdf",
+  "analysis_date": "2026-05-02T05:41:48.814330+00:00",
+  "metadata": {
+    "file_hash": "sha256:637e7ed96dfc1067a8a9337cc7720600d07b0c74dee46772c63be00d6cc3c2d3",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.94",
+    "previous_version": null,
+    "public_date": "2025-11-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "1.94",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11-01",
+      "detail": "2025-11-01",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.94",
+      "detail": "1.94",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "格说明书》文档正式废止，相关内容迁移至《",
+      "detail": "格说明书》文档正式废止，相关内容迁移至《",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124",
+      "detail": "IS124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "上海证券交",
+      "detail": "上海证券交",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "易所市场数据文件交换接口规格说明书》，更新相关引用描述。",
+      "detail": "易所市场数据文件交换接口规格说明书》，更新相关引用描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "债券",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及7项变更。 废止: 1项。 规则条款变更: 6项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "说明\nAccount\nchar[13]\n证券账户\nBeginReportIndex\nuint64\n分区预期回报序号，暂不支持\n2^63\n及更大取值。\nBizID\nuint32\n业务编号\n1=债券现券竞价交易\n28\n交易网关数据接口规范\n2=债券质押式回购交易\nBizPbu\nchar[8]\n业务\nPBU\nBranchID\nchar[8]\n营业部代码：5 位数字表示，目前使用区间为\n[01000，59999]，不足5 位的左侧补0。营业部代\n码可于本所网站会员专区查询。\nClearingFirm\nchar[8]\n结算会员代码\nClOrdID\nchar[10]\n会员内部订单编号\nCreditTag\nchar[2]\n信用标签，仅供信用交易时填写，取值包括：\nXY=担保品买卖\nRZ=融资交易\nPC=平仓交易\n非信用交易时填写空格。\nCxlQty\nquantity\n撤单数量\nCxlRejReason\nuint32\n撤单拒绝码\nEndReportIndex\nuint64\n分区最大回报序号\nEndReportIndex\nuint64\n执行报告流最大序号\nExecType\nchar\n订单执行类型，取值包括：\n0=订单申报成功\n4=订单撤销成功\n8=订单申报拒绝\nF=成交\nGrossTradeAmt\namount\n成交金额\n对债券现券竞价交易，为成交价格LastPx\n*\n成交\n数量LastQty\n*\n10；\n对债券质押式回购交易，为100\n*\n成交数量\nLastQty\n*\n10；\nLastPx\nprice\n成交价格\n对债券现券竞价交易，单位为人民币元；\n对债券质押式回购交易，单位为每百元资金的年收\n益率；\nLastQty\nquantity\n成交数量\nLeavesQty\nquantity\n剩余数量\nNoGroups\nuint16\n循环次数\nOrdCnfmID\nchar[16]\n交易所订单编号\nOrderEntryTime\nntime\n申报时间\nOrderQty\nquantity\n申报数量\n对债券现券竞价交易、债券质押式回购交易，申报\n数量单位为千元面额，即1000 元发行面值或1000\n元标准券。\nOrdRejReason\nuint32\n订单拒绝码\n29\n交易网关数据接口规范\nOrdStatus\nchar\n订单状态，取值包括：\n0=已挂单未成交\n1=部分成交\n2=全部成交\n4=已撤销\n8=已拒绝\nOrdType\nchar\n订单类型，取值包括：\n2=限价\nOrigClOrdID\nchar[10]\n原始会员内部订单编号\nOrigOrdCnfmID\nchar[16]\n原始交易所订单编号\nOwnerType\nuint8\n订单所有者类型，取值包括：\n1=个人投资者\n103=机构投资者\n104=自营交易\nPbu\nchar[8]\n登录或订阅\nPbu\nPlatformID\nuint16\n平台标识\n2\n=\n新债券平台\nPlatformState\nuint16\n平台状态\n0\n=\nNotOpen，未开放\n1\n=\nPreOpen，预开放\n2\n=\nOpen，开放\n3\n=\nBreak，暂停\n4\n=\nClose，关闭\nPrice\nprice\n申报价格\n对债券现券竞价交易，为“每百元发行面值债券价\n格”；\n对债券质押式回购交易，为“每百元资金到期年收\n益”；\nRejReason\nuint32\n拒绝码\nReportIndex\nuint64\n执行报告编号，从1 开始连续递增编号\nSecurityID\nchar[12]\n证券代码\nSetID\nuint32\n平台内分区号\nSide\nchar\n买卖方向，取值包括：\n1=买\n2=卖\nText\nchar[64]\n描述\nTimeInForce\nchar\n订单有效时间类型，取值包括\n0=当日有效\nTradeDate\ndate\n交易日期\nTransactTime\nntime\n申报时间或回报时间\nTrdCnfmID\nchar[16]\n成交编号\nUserInfo\nchar[32]\n用户私有信息\n30"
+}

@@ -1,0 +1,34 @@
+{
+  "doc_id": "sse-guide-20251024-005",
+  "title": "关于发布优化ETF申赎清单、EzOES下线市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10795899/files/2dcca506c3714157b9f2de94fc482adf.pdf",
+  "analysis_date": "2026-05-02T05:42:03.444132+00:00",
+  "metadata": {
+    "file_hash": "sha256:9a8ce2ec153b3d0e60d45396c13de350b98727802d571a5fa7ceb295b8a8a4d5",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-10-24",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "ETF",
+    "EzOES"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发布优化\nETF\n申赎清单、\nEzOES\n下线\n市场接口及技术指南（正式稿）的通知\n各市场参与人：\n根据优化\nETF\n申赎清单相关工作安排，现发布以下材料：\n一、《\nIS101_\n上海证券交易所竞价撮合平台市场参与者\n接口规格说明书\n1.73\n版\n_20251017\n》\n二、《\nIS105_\n上海证券交易所综合业务平台市场参与者\n接口规格说明书\n1.57\n版\n_20251017\n》\n三、《\nIS118_\n上海证券交易所特定参与者接口规格说明\n书（基金公司卷）\n2.2\n版\n_20251017\n》\n四、《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接\n口规范\n0.59\n版\n_20251017\n》\n五、《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口\n规范\n0.59\n版\n_20251017\n》\n六、《上海证券交易所优化\nETF\n申赎清单市场参与者\n技术实施指南\n_20251017\n》\nEzOES\n下线相关内容包含在《\nIS101_\n上海证券交易所竞\n价撮合平台市场参与者接口规格说明书\n1.73\n版\n_20251017\n》。\n市场参与人可通过本所官方网站“交易技术支持专区”\n或登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术\n文档”相关栏目获取上述材料。本次变更内容详见各文档内\n修订记录。请做好技术就绪准备。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2025\n年\n10\n月\n24\n日"
+}

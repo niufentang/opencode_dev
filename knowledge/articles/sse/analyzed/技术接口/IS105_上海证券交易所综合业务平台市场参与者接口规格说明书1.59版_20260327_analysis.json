@@ -1,0 +1,129 @@
+{
+  "doc_id": "sse-iface-20260327-009",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T02:03:05.568216+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《综合业务平台市场参与者接口规格说明书》 1.59 版发布说明 2026.3",
+      "detail": "《综合业务平台市场参与者接口规格说明书》\n1.59\n版发布说明\n2026.3",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "定义文件下线，删除",
+      "detail": "定义文件下线，删除",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件 版相关描述。 、根据现状，调整如下接口说明： ）大宗交易业务消息规范中过户数据接口 dghXXXXXYYYYMMDD.dbf",
+      "detail": "公告文件\n版相关描述。\n、根据现状，调整如下接口说明：\n）大宗交易业务消息规范中过户数据接口\ndghXXXXXYYYYMMDD.dbf",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "：删除已下线的",
+      "detail": "：删除已下线的",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RptGet 相关描述，统一调整为证通云盘。 ）货币市场基金实时申赎业务消息规范：明确申报消息“申赎数量”字段填写说明。 LOF/ REITs 业务消息规范：明确申报消息“申赎数量”字段填写说明。 ）基金过户数据接口 jjghXXXXX.txt ：明确该接口通过 jjghXXXXX.zip 解压后获取。",
+      "detail": "RptGet\n相关描述，统一调整为证通云盘。\n）货币市场基金实时申赎业务消息规范：明确申报消息“申赎数量”字段填写说明。\nLOF/\nREITs\n业务消息规范：明确申报消息“申赎数量”字段填写说明。\n）基金过户数据接口\njjghXXXXX.txt\n：明确该接口通过\njjghXXXXX.zip\n解压后获取。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）过户数据接口 bghXXXXX.dbf",
+      "detail": "）过户数据接口\nbghXXXXX.dbf",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除已下线的",
+      "detail": "删除已下线的",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "软件相关描述，统一调整为证通云盘。 注明对于货币市场基金申赎业务，过户数据仅向投资者发送。 成交价格、成交金额字段描述中补充填写逻辑。",
+      "detail": "软件相关描述，统一调整为证通云盘。\n注明对于货币市场基金申赎业务，过户数据仅向投资者发送。\n成交价格、成交金额字段描述中补充填写逻辑。",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "成交金额字段补充网络投票业务字段类型说明。",
+      "detail": "成交金额字段补充网络投票业务字段类型说明。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "买卖方字段删除对于基金公司的描述。 备注字段明确对齐方式。 证通云盘 对于申购，填写申购数量；对于赎回，填写赎回数量。 对于申购，填写申购金额；对于赎回，填写赎回数量。 该接口通过 ******MMDD2.ETF 详细内容参阅本所外网发布的《 IS118 上海证券交易所特定参与者接口规格说明书（基金公司卷）》文档中",
+      "detail": "买卖方字段删除对于基金公司的描述。\n备注字段明确对齐方式。\n证通云盘\n对于申购，填写申购数量；对于赎回，填写赎回数量。\n对于申购，填写申购金额；对于赎回，填写赎回数量。\n该接口通过\n******MMDD2.ETF\n详细内容参阅本所外网发布的《\nIS118\n上海证券交易所特定参与者接口规格说明书（基金公司卷）》文档中",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“ETF 章节描述的接口定义，详细字段描述请关联参阅 定义文件 2120 2221 22.121.1 22.221.2 2322 对于货币市场基金申赎业务，过户数据仅向投资者发送。 报价回购 对于报价回购 报价入库和报价出库暂无意义； 无意义填 0.000 暂无意义 无实际意义暂 无意义； .000",
+      "detail": "“ETF\n章节描述的接口定义，详细字段描述请关联参阅\n定义文件\n2120\n2221\n22.121.1\n22.221.2\n2322\n对于货币市场基金申赎业务，过户数据仅向投资者发送。\n报价回购\n对于报价回购\n报价入库和报价出库暂无意义；\n无意义填\n0.000\n暂无意义\n无实际意义暂\n无意义；\n.000",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，报价回购、提前购回、报价入库、报价出库 0.00 对于约定购回业务",
+      "detail": "，报价回购、提前购回、报价入库、报价出库\n0.00\n对于约定购回业务",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "（字段类型与网络投",
+      "detail": "（字段类型与网络投",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "票业务消息规范中申报消息对应字段一致） 对于货币市场基金申赎，无意义填 对于货币市场基金申赎，基金公司作为对手方买卖方向与投资者相反。 （左对齐） 2423",
+      "detail": "票业务消息规范中申报消息对应字段一致）\n对于货币市场基金申赎，无意义填\n对于货币市场基金申赎，基金公司作为对手方买卖方向与投资者相反。\n（左对齐）\n2423",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS124",
+    "REITs",
+    "STEP",
+    "债券",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及14项变更。 删除: 1项。 废止: 2项。 接口字段变更: 2项。 规则条款变更: 9项。 其中重大变更5项。",
+  "confidence": 0.95
+}

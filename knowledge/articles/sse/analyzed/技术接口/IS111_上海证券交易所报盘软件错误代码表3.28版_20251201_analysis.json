@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-soft-20120508-011",
+  "title": "IS111_上海证券交易所报盘软件错误代码表3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800117/files/a69f9b6ac6e74735af0648847fccb7db.xlsx",
+  "analysis_date": "2026-05-02T02:03:05.577216+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "software",
+    "EzOES",
+    "IS111",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "报盘软件",
+    "期权"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：software，版本：无。",
+  "confidence": 0.75
+}

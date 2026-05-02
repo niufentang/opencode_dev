@@ -1,0 +1,87 @@
+{
+  "doc_id": "sse-iface-20251128-004",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（债券平台）1.94版_20251128",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T05:41:49.280340+00:00",
+  "metadata": {
+    "file_hash": "sha256:3f58ce13a28b0292ffd5e546fc47b30cbf398628d563fe126c31d495aec83c8d",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.94",
+    "previous_version": null,
+    "public_date": "2025-11-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "1.94",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11-01",
+      "detail": "2025-11-01",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.94",
+      "detail": "1.94",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.基于《IS101 上海证券交易所竞价撮合平台市场参与者接口",
+      "detail": "1.基于《IS101 上海证券交易所竞价撮合平台市场参与者接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "规格说明书》文档正式废止，相关内容迁移至《IS124 上海证",
+      "detail": "规格说明书》文档正式废止，相关内容迁移至《IS124 上海证",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "券交易所市场数据文件交换接口规格说明书》，更新相关引",
+      "detail": "券交易所市场数据文件交换接口规格说明书》，更新相关引",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "用描述。",
+      "detail": "用描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "债券",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": "IS124",
+  "summary": "本次涉及7项变更。 废止: 1项。 规则条款变更: 6项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "申报价格\n对债券现券竞价交易，为“每百元发行面值债\n券价格”；\n对债券质押式回购交易，为“每百元资金到期\n年收益”；\n48\nSecurityID\n产品代码\nC12\n54\nSide\nC1\n买卖方向，取值包括：\n1=\n买\n2=\n卖\n58\nText\n用户私有信息或描述\nC32\n59\nTimeInForce\n订单有效时间类型，取值包括：\n0=\n当日有效（\nGFD\n）\nC1\n60\nTransactTime\n申报时间或回报时间\nntime\n75\nTradeDate\n交易日期\ndate\n84\nCxlQty\n撤单数量\nquantity\n103\nOrdRejReason\n拒绝码，包括订单拒绝码、撤单拒绝码或分区\n序号同步拒绝码等\nN5\n150\nExecType\nC1\n订单执行类型，取值包括：\n0=\n订单申报成功\n4=\n订单撤销成功\n8=\n订单申报拒绝\nF=\n成交\n151\nLeavesQty\n剩余数量\nquantity\n448\nPartyID\n参与方代码，结合\nPartyRole\nCX\n452\nPartyRole\nN4\n指定参与方角色，取值包括：\n1=发起方业务交易单元（PartyID 的字段类型为\nC8）\n4=结算机构代码（PartyID 的字段类型为C8）\n5=发起方投资者账户（PartyID 的字段类型为\nC13）\n17=登录或订阅交易单元（PartyID 的字段类型\n为C8）\n4001=发起方的营业部代码（PartyID 的字段类\n型为C8）\n32\n交易网关数据接口规范\n453\nNoPartyIDs\n参与方个数\nN2\n订单所有者类型，取值包括：\n1=\n个人投资者\n522\nOwnerType\nN3\n103=\n机构投资者\n104=\n自营交易\n544\nCashMargin\nC2\n信用标签，仅供信用交易时填写，取值包括：\nXY=\n担保品买卖\nRZ=\n融资交易\nPC=\n平仓交易\n非信用交易时填写空格。\n1080\nRefOrderID\n被撤订单交易所订单编号\nC16\n1180\nApplID\nC6\n业务类型\n1=\n现货集中竞价交易申报\n2=\n质押式回购交易申报\n8500\nOrderEntryTime\n订单申报时间\nntime\n8504\nTotalValueTraded\namount\n成交金额\n对债券现券竞价交易，为成交价格\nLastPx *\n成\n交数量\nLastQty * 10\n；\n对债券质押式回购交易，为\n100 *\n成交数量\nLastQty * 10\n；\n8560\nGateWayPBU\n登录或订阅\nPBU\nC8\n8561\nNoGateWayPBUs\n登录或订阅\nPBU\n数量\nN4\n8562\nBeginReportIndex\n分区执行报告起始序号\nN16\n8563\nEndReportIndex\n分区执行报告最大序号\nN16\n10179\nReportIndex\n执行报告编号，从\n1\n开始连续递增编号\nN16\n10180\nPlatformID\n平台标识\n2 =\n新债券平台\nC1\n平台状态\n0 = NotOpen\n，未开放\n1 = PreOpen\n，预开放\n10181\nPlatformStatus\nC1\n2 = Open\n，开放\n3 = Break\n，暂停\n4 = Close\n，关闭\n10196\nNoPartitions\n平台内分区数量\nN4\n10197\nPartitionNo\n平台内分区号\nN4\n说明：\n1.\n营业部代码（\nPartyID\n，\nPartyRole\n=4001）：5 位数字表示，目前使用区间为[01000，59999]，\n不足5 位的左侧补0。营业部代码可于本所网站会员专区查询。\n33"
+}

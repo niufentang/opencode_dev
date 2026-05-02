@@ -1,0 +1,420 @@
+{
+  "doc_id": "sse-iface-20250407-002",
+  "title": "IS118 上海证券交易所特定参与者接口规格说明书（转发卷）1.6版_20250317（UT下线第四阶段 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10785855/files/258e5bdc5b6e4f40a6c9e03817720bee.pdf",
+  "analysis_date": "2026-05-02T05:42:09.814068+00:00",
+  "metadata": {
+    "file_hash": "sha256:8803c21a9acf6c3c26d4cb80bff155c3b698a9b6b69e9e7e9edefe286f9c844d",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.6",
+    "previous_version": null,
+    "public_date": "2025-04-07",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "1.6",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（转发卷）》",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（转发卷）》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布说明",
+      "detail": "发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025",
+      "detail": "2025",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "月修订内容：",
+      "detail": "月修订内容：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "下线第四阶段安排，停止转发私有文件。",
+      "detail": "下线第四阶段安排，停止转发私有文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "及私有数据文件",
+      "detail": "及私有数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；私有文件类（文件点播）",
+      "detail": "；私有文件类（文件点播）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（成交回报为私有消息，不属文件分类）",
+      "detail": "（成交回报为私有消息，不属文件分类）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "私有文件类（文件点播）",
+      "detail": "私有文件类（文件点播）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "私有文件类",
+      "detail": "私有文件类",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "过户数据接口",
+      "detail": "过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ghXXXXX.zip",
+      "detail": "ghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "开放式基金分红数据接口",
+      "detail": "开放式基金分红数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "khlXXXXX.zip",
+      "detail": "khlXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "开放式基金账户对账数据接口",
+      "detail": "开放式基金账户对账数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "kyeXXXXX.zip",
+      "detail": "kyeXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "开放式基金交易确认接口",
+      "detail": "开放式基金交易确认接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "kghXXXXX.zip",
+      "detail": "kghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券账户资料接口",
+      "detail": "证券账户资料接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zzhXXXXX.zip(",
+      "detail": "zzhXXXXX.zip(",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "月中数据",
+      "detail": "月中数据",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "席位联通接口",
+      "detail": "席位联通接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zxwXXXXX.zip(",
+      "detail": "zxwXXXXX.zip(",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新股发行过户数据接口",
+      "detail": "新股发行过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ipoghXXXXX.zip",
+      "detail": "ipoghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "减持控制数据接口",
+      "detail": "减持控制数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jckzXXXXX.zip",
+      "detail": "jckzXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "dghXXXXX.zip",
+      "detail": "dghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS105",
+      "detail": "IS105",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金过户数据接口",
+      "detail": "基金过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jjghXXXXX.zip",
+      "detail": "jjghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "oghXXXXX.zip",
+      "detail": "oghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS113",
+      "detail": "IS113",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券过户数据文件",
+      "detail": "债券过户数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zqghXXXXX.zip",
+      "detail": "zqghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124",
+      "detail": "IS124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "国际化产品过户数据文件",
+      "detail": "国际化产品过户数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ighXXXXX.zip",
+      "detail": "ighXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "hghXXXXX.zip",
+      "detail": "hghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS117",
+      "detail": "IS117",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS118",
+      "detail": "IS118",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（基金公司卷）",
+      "detail": "（基金公司卷）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "托管银行和基金公司数据文件",
+      "detail": "托管银行和基金公司数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "XXXX.sse",
+      "detail": "XXXX.sse",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（托管银行卷）",
+      "detail": "（托管银行卷）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS117_",
+      "detail": "IS117_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "上交所向市场发送的",
+      "detail": "上交所向市场发送的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件中包含",
+      "detail": "文件中包含",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "trns03XXXXX.txt",
+      "detail": "trns03XXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "hold03xxxxx.txt",
+      "detail": "hold03xxxxx.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "qtyw03XXXXX.txt",
+      "detail": "qtyw03XXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三个文件，具体",
+      "detail": "三个文件，具体",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件接口定义参照",
+      "detail": "文件接口定义参照",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS113_",
+      "detail": "IS113_",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS118",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及55项变更。 废止: 1项。 规则条款变更: 54项。",
+  "confidence": 0.92,
+  "raw_text": "国债利息接口\ngzlx.MDD\nIS101\n产品非交易基础数据\nfjyYYYYMMDD.txt\nIS101\n2\n担保品及标的证券清单公告\ndbpMMDD.txt\nIS101\n紧急通知文件\n*.*\nIS101\nMMDDFNNN.txt\n公告摘要文件\nIS101\nMMDDZNNN.txt\n产品基础信息文件第二版第一批次\ncpxx0201MMDD.txt\nIS101\n产品基础信息文件第二版第二批次\ncpxx0202MMDD.txt\nIS101\n基金业务参数公告文件\nsfpm01MMDD.txt\nIS105\n债券非交易基础信息文件\nzfjyYYYYMMDD.xml\nIS105\n基金非交易基础信息文件\njfjyYYYYMMDD.xml\nIS105\n转融通标的证券清单\nzrtbdMMDD.txt\nIS105\n债券报价式回购折算率文件\nbzsl01MMDD.txt\nIS105\n网络投票议案结构文件\nvtlsMMDD.xml\nIS105\n报价收盘文件\nbjspMMDD.txt\nIS118\n（托管银行卷）\nIS109\n成交明细文件\nbjmxMMDD.txt\nIS118\n（托管银行卷）\n报价全部文件\nbjqbMMDD.txt\nIS109\n期权基础信息文件\nreff03MMDD.txt\nIS113\n期权基础信息文件\nreff0302YYYYMMDD.xml\nIS113\n期权收盘价格文件\nclpr03MMDD.txt\nIS113\n期权组合策略文件\nzhcl03MMDD.txt\nIS113\nETF\n公告文件\n2.1\n版格式\n******MMDD2.etf\nIS118\n（基金公司卷）\n债券盘中停牌公告文件\nztxxxxhhmmss.txt\nIS124\n国际化产品信息接口\nifjyYYYYMMDD.xml\nIS124\n重点指数及样本表现\nzsbxYYMMDD.txt\nIS124\n债券产品信息（压缩包）\narchive_bondinfoYYYYMMDD.zip\nIS124\n交易参与人清单\nse015jycyrYYYYMMDD001.txt\nLDDS\n系统静态数据接口\n交易员清单\nse015jyyYYYYMMDD001.txt\nLDDS\n系统静态数据接口\n私有文件类\n过户数据接口\nghXXXXX.zip\nIS101\n开放式基金分红数据接口\nkhlXXXXX.zip\nIS101\n开放式基金账户对账数据接口\nkyeXXXXX.zip\nIS101\n开放式基金交易确认接口\nkghXXXXX.zip\nIS101\n3\n证券账户资料接口\nzzhXXXXX.zip(\n月中数据\n)\nIS101\n席位联通接口\nzxwXXXXX.zip(\n月中数据\n)\nIS101\n新股发行过户数据接口\nipoghXXXXX.zip\nIS101\n减持控制数据接口\njckzXXXXX.zip\nIS101\n过户数据接口\ndghXXXXX.zip\nIS105\n基金过户数据接口\njjghXXXXX.zip\nIS105\n过户数据接口\n1\noghXXXXX.zip\nIS113\n债券过户数据文件\nzqghXXXXX.zip\nIS124\n国际化产品过户数据文件\nighXXXXX.zip\nIS124\n过户数据接口\nhghXXXXX.zip\nIS117\nIS118\n（基金公司卷）\n托管银行和基金公司数据文件\nXXXX.sse\nIS118\n（托管银行卷）\n参见接口：\nIS101_\n上海证券交易所竞价撮合平台市场参与者接口规格说明书\nIS105_\n上海证券交易所综合业务平台市场参与者接口规格说明书\nIS109_\n上海证券交易所固定收益平台外部数据接口规范\nIS113_\n上海证券交易所股票期权市场参与者接口规格说明书\nIS117_\n上海证券交易所港股通市场参与者接口规格说明书\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\nIS118_\n上海证券交易所特定参与者接口规格说明书（托管银行卷）\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n上海证券交易所\nLDDS\n系统静态数据接口说明书\n中证指数行情传输接口规范\n1\n上交所向市场发送的\noghXXXXX.zip\n文件中包含\ntrns03XXXXX.txt\n、\nhold03xxxxx.txt\n、\nqtyw03XXXXX.txt\n三个文件，具体\n文件接口定义参照\nIS113_\n上海证券交易所股票期权市场参与者接口规格说明书。\n4\n3\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不得将本文\n档用于其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评指正意见，\n可通过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号\n上交所技术公司技术开发总部\n5"
+}

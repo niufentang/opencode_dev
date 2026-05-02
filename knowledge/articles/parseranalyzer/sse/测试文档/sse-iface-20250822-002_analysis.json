@@ -1,0 +1,141 @@
+{
+  "doc_id": "sse-iface-20250822-002",
+  "title": "IS101_上海证券交易所竞价撮合平台市场参与者接口规格说明书1.73版__20250815（多资产ETF 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10789328/files/3c6ccdac26eb4639919413594d2d3d62.pdf",
+  "analysis_date": "2026-05-02T05:42:15.307252+00:00",
+  "metadata": {
+    "file_hash": "sha256:c6321d36a06ee194b66e0d36cb131a8b2864801aed62f67df592ca25613adbb7",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.73",
+    "previous_version": null,
+    "public_date": "2025-08-22",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.73",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《市场参与者接口规格说明书》",
+      "detail": "《市场参与者接口规格说明书》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.73",
+      "detail": "1.73",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版发布说明",
+      "detail": "版发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025",
+      "detail": "2025",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "月进行了修订，主要有：",
+      "detail": "月进行了修订，主要有：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "支持多资产",
+      "detail": "支持多资产",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务，修订产品基础信息文件",
+      "detail": "业务，修订产品基础信息文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "cpxx0201MMDD.txt",
+      "detail": "cpxx0201MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "细分类型。",
+      "detail": "细分类型。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“F171”",
+      "detail": "“F171”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示单市场多资产",
+      "detail": "表示单市场多资产",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“F172”",
+      "detail": "“F172”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示跨市场多资产",
+      "detail": "表示跨市场多资产",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“F173”",
+      "detail": "“F173”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示现金申赎类多资产",
+      "detail": "表示现金申赎类多资产",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "ETF",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及15项变更。 规则条款变更: 15项。",
+  "confidence": 0.92,
+  "raw_text": "，无需变换为空格。\nd)\n申报表不再严格要求\nrecnum\n从\n1\n开始，只要连续递增即可。如果申报表损坏，市场参与\n人启用备份数据库，不需要插入空记录，只要在新的申报表中直接插入后续订单即可申\n报。由于交易系统后台对同一个\nPBU\n同一个证券产品集\nSET\n内相同\nrec_num\n的订单不会\n重复处理，所以切换时，后续订单的编号每切换\n1\n次必须超过已经向交易所发出的\nrec_num\n号，市场参与者可以通过累加一个其业务上不可能发生的值比如\n1000\n万，来避免\n竞价撮合平台\n市场参与者接口规格说明书\n第\n90\n页\n共\n91\n页\n技术文档\n重单。\n3\n、对于申报确认接口\nordwth2\n表：\na)\n申报确认记录不按照\nrec_num\n顺序严格递增的方式写入。\nb)\nteordernum\n字段只在同一个证券代码内唯一。\nc)\n如果申报确认表损坏，市场参与人启用备份数据库，可以通过重新设置申报表中\nstatus\n字\n段的值为\n‘R’\n来选择性地恢复申报确认数据。交易系统后台保证同一个\nPBU\n同一产品集\nSET\n内相同\nrec_num\n的订单不会被重复处理。\n4\n、对于成交回报接口\ncjhb\n表和过户数据\nGHXXXXX\n文件：\na)\n成交记录不按照成交编号顺序严格递增的方式写入。\nb)\ngdxm\n股东姓名字段不再填写股东姓名，对于\ncjhb\n表填写该产品所属产品集\nSET\n的编号。\n在新交易系统上线点，\nA\n股产品集\nSET\n的取值为\n’1’\n、\n’2’\n、\n’3’\n、\n’4’\n、\n’5’\n、\n’6’\n、\n’991’\n。\nB\n股\n产品集\nSET\n的取值为\n’20’\n。在一个交易日内，\nSET\n的有关配置不会发生变化。未来如有产\n品集的扩充，另行通知。对于\nGHXXXXX\n文件填写空格。\nbcye\n本次余额字段不再填写本\n次余额，对于\ncjhb\n表填写该成交在对应产品集内的序列号。且按照同一\nSET\n内序列号\n“\n字\n典序\n”\n严格递增的方式写入成交记录，即会在左边补\n0\n，例如\n’10’\n存储为\n‘0000000010’\n。为\n提高访问速度，市场参与者可以为\ngdxm\n和\nbcye\n设立组合索引，便于快速取出特定\nSET\n内最后写入的记录。对于\nGHXXXXX\n文件填写\n0\n。\nc)\n对应席位质押式国债回购代码\n201***\n、席位质押式企业债回购代码\n202***\n以及账户质押\n式国债回购代码\n204***\n时，成交金额字段为\n100*\n成交数量\ncjsl*10\n。\nd)\n对应买断式国债回购代码\n203***\n时，成交金额字段为基础产品昨日收盘价\n*\n成交数量\ncjsl*10\n。\n5\n、盘后数据压缩发送方式采用每个文件单独压缩的方式，变更部分为\nzxwXXXXX.dbf\n和\nzzhXXXXX.dbf\n分别压缩为\nzxwXXXXX.zip\n和\nzzhXXXXX.zip\n。\nkghXXXXX.txt\n和\nkhlXXXXX.txt\n分\n别压缩为\nkghXXXXX.zip\n和\nkhlXXXXX.zip\n。\n6\n、证券帐户资料接口\nzzhXXXXX.dbf\n中股东姓名字段被置为空格。\n7\n、权证信息接口\nqzxxMMDD.txt\n，该文件换行方式为\nUnix\n方式，即通过\n0x0A\n表示换行。\n二、新交易系统提供给市场参与者使用的报盘程序\nEzOes\n和报表下载程序\nRptGet\n，须使用其\nPBU\n编号和其缺省的交易员\n000001\n来登录。\n竞价撮合平台\n市场参与者接口规格说明书\n第\n91\n页\n共\n91\n页"
+}

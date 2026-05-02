@@ -1,0 +1,26 @@
+{
+  "doc_id": "sse-guide-00000000-078",
+  "title": "关于发布独立IOPV行情市场接口及技术指南（2026年3月修订）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10811031/files/4d555179c95d41a2aabea1b936409a57.pdf",
+  "analysis_date": "2026-05-02T02:03:05.836478+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS120",
+    "IS124",
+    "STEP",
+    "独立IOPV",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

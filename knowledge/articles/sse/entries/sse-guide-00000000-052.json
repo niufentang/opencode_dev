@@ -1,0 +1,25 @@
+{
+  "id": "sse-guide-00000000-052",
+  "type": "guide",
+  "title": "关于发布《上海证券交易所科创成长层市场参与人技术实施指南2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10786098/files/d855138a614e4c7cbed6455432e3591b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "科创成长层"
+  ],
+  "status": "superseded",
+  "version": "2.0",
+  "previous_version": "1.2",
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": "sse-guide-20250421-163",
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:029d4a201ec94b520b5fe6b4331fdc99a68bc3c46f7c64b22396cb8f57b13a29",
+  "content_markdown": "关于发布《上海证券交易所科创成长层市场\n参与人技术实施指南 2.0 版》（正式稿）的\n通知\n各市场参与人：\n根据科创成长层相关工作安排，现发布《上海证券交易\n所科创成长层市场参与人技术实施指南 2.0 版 _20250721 》。\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或登录\n市场技术服务平台“技术支持与信息管理 - 软件与技术文档”\n相关栏目获取上述材料。请提前做好技术就绪准备。\n基于科创成长层技术实施指南 1.0 版本，本次主要变更\n内容有：补充说明手机端的信息展示要求、增加在发行期提\n示尚未盈利信息的要求等。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 7 月 21 日\n\n<metadata>\n{\n  \"title\": \"20250721_关于发布《上海证券交易所科创成长层市场参与人技术实施指南2\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250721_关于发布《上海证券交易所科创成长层市场参与人技术实施指南2.0版》（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布《上海证券交易所科创成长层市场参与人技术实施指南2.0版》（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:029d4a201ec94b520b5fe6b4331fdc99a68bc3c46f7c64b22396cb8f57b13a29\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:38.507441+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

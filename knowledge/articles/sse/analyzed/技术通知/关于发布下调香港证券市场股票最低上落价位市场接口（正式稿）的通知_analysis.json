@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-053",
+  "title": "关于发布下调香港证券市场股票最低上落价位市场接口（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10787329/files/7f689e8aca1b46b4b82f72bb0fe84e53.pdf",
+  "analysis_date": "2026-05-02T02:03:05.744525+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS117",
+    "港股通"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

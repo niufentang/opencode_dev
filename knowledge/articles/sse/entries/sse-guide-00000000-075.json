@@ -1,0 +1,27 @@
+{
+  "id": "sse-guide-00000000-075",
+  "type": "guide",
+  "title": "关于发布新竞价新综业市场接口及技术实施指南（2026年2月修订）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10817290/files/b813da154ce0472abedf9aebc0480d68.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "IS118",
+    "IS124",
+    "新竞价新综业"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:7becc2bf7ab69ee136d16da52eafdeab66c54237e2e74bf5867109000f7198ff",
+  "content_markdown": "关于发布新竞价新综业市场接口及技术实\n施指南（ 2026 年 2 月修订）的通知\n各市场参与人：\n根据新一代竞价交易系统（以下简称新竞价）、新一代\n综合业务系统（以下简称新综业）建设相关工作安排，现发\n布以下材料：\n一、《 IS118_ 上海证券交易所特定参与者接口规格说明\n书（托管银行卷） 1.36 版 _20260227 （新竞价新综业技术开\n发稿）》\n二、《 IS118_ 上海证券交易所特定参与者接口规格说明\n书（基金公司卷） 2.5 版 _20260227 （新竞价新综业技术开发\n稿）》\n三、《 IS124_ 上海证券交易所市场数据文件交换接口规\n格说明书 3.20 版 _20260227 （新竞价新综业技术开发稿）》\n四、《上海证券交易所新竞价新综业若干技术调整市\n场参与人技术实施指南 1.1 版 _20260227 （新竞价新综业技术\n开发稿）》\n市场参与人可通过本所官方网站“交易技术支持专区”\n或登录市场技术服务平台“技术支持与信息管理 - 软件与技术\n文档”相关栏目获取上述材料。本次变更内容详见各文档内\n修订记录。请做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n\n上海证券交易所\n2026 年 2 月 27 日\n\n<metadata>\n{\n  \"title\": \"20260227_关于发布新竞价新综业市场接口及技术实施指南（2026年2月修订）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20260227_关于发布新竞价新综业市场接口及技术实施指南（2026年2月修订）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布新竞价新综业市场接口及技术实施指南（2026年2月修订）的通知.md\",\n  \"file_hash\": \"sha256:7becc2bf7ab69ee136d16da52eafdeab66c54237e2e74bf5867109000f7198ff\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:47.125473+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

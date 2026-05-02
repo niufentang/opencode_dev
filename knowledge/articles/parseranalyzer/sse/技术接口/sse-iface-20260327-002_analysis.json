@@ -1,0 +1,497 @@
+{
+  "doc_id": "sse-iface-20260327-002",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1.59版_20260327",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T05:41:50.597133+00:00",
+  "metadata": {
+    "file_hash": "sha256:e80b36662b62b6118490fda2617beadc2e885e66ceb9030619c4fba6070bcee5",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.59",
+    "previous_version": null,
+    "public_date": "2026-03-27",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "1.59",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《综合业务平台市场参与者接口规格说明书》",
+      "detail": "《综合业务平台市场参与者接口规格说明书》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.59",
+      "detail": "1.59",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版发布说明",
+      "detail": "版发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026.3",
+      "detail": "2026.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "定义文件下线，删除",
+      "detail": "定义文件下线，删除",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件",
+      "detail": "公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版相关描述。",
+      "detail": "版相关描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、根据现状，调整如下接口说明：",
+      "detail": "、根据现状，调整如下接口说明：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）大宗交易业务消息规范中过户数据接口",
+      "detail": "）大宗交易业务消息规范中过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "dghXXXXXYYYYMMDD.dbf",
+      "detail": "dghXXXXXYYYYMMDD.dbf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "：删除已下线的",
+      "detail": "：删除已下线的",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RptGet",
+      "detail": "RptGet",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "相关描述，统一调整为证通云盘。",
+      "detail": "相关描述，统一调整为证通云盘。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）货币市场基金实时申赎业务消息规范：明确申报消息“申赎数量”字段填写说明。",
+      "detail": "）货币市场基金实时申赎业务消息规范：明确申报消息“申赎数量”字段填写说明。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LOF/",
+      "detail": "LOF/",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "REITs",
+      "detail": "REITs",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务消息规范：明确申报消息“申赎数量”字段填写说明。",
+      "detail": "业务消息规范：明确申报消息“申赎数量”字段填写说明。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）基金过户数据接口",
+      "detail": "）基金过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jjghXXXXX.txt",
+      "detail": "jjghXXXXX.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：明确该接口通过",
+      "detail": "：明确该接口通过",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jjghXXXXX.zip",
+      "detail": "jjghXXXXX.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "解压后获取。",
+      "detail": "解压后获取。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）过户数据接口",
+      "detail": "）过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bghXXXXX.dbf",
+      "detail": "bghXXXXX.dbf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "删除已下线的",
+      "detail": "删除已下线的",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "软件相关描述，统一调整为证通云盘。",
+      "detail": "软件相关描述，统一调整为证通云盘。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "注明对于货币市场基金申赎业务，过户数据仅向投资者发送。",
+      "detail": "注明对于货币市场基金申赎业务，过户数据仅向投资者发送。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交价格、成交金额字段描述中补充填写逻辑。",
+      "detail": "成交价格、成交金额字段描述中补充填写逻辑。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "成交金额字段补充网络投票业务字段类型说明。",
+      "detail": "成交金额字段补充网络投票业务字段类型说明。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "买卖方字段删除对于基金公司的描述。",
+      "detail": "买卖方字段删除对于基金公司的描述。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "备注字段明确对齐方式。",
+      "detail": "备注字段明确对齐方式。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证通云盘",
+      "detail": "证通云盘",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于申购，填写申购数量；对于赎回，填写赎回数量。",
+      "detail": "对于申购，填写申购数量；对于赎回，填写赎回数量。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于申购，填写申购金额；对于赎回，填写赎回数量。",
+      "detail": "对于申购，填写申购金额；对于赎回，填写赎回数量。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "该接口通过",
+      "detail": "该接口通过",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "******MMDD2.ETF",
+      "detail": "******MMDD2.ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "详细内容参阅本所外网发布的《",
+      "detail": "详细内容参阅本所外网发布的《",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS118",
+      "detail": "IS118",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "上海证券交易所特定参与者接口规格说明书（基金公司卷）》文档中",
+      "detail": "上海证券交易所特定参与者接口规格说明书（基金公司卷）》文档中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“ETF",
+      "detail": "“ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "章节描述的接口定义，详细字段描述请关联参阅",
+      "detail": "章节描述的接口定义，详细字段描述请关联参阅",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件",
+      "detail": "定义文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2120",
+      "detail": "2120",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2221",
+      "detail": "2221",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "22.121.1",
+      "detail": "22.121.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "22.221.2",
+      "detail": "22.221.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2322",
+      "detail": "2322",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于货币市场基金申赎业务，过户数据仅向投资者发送。",
+      "detail": "对于货币市场基金申赎业务，过户数据仅向投资者发送。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价回购",
+      "detail": "报价回购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于报价回购",
+      "detail": "对于报价回购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价入库和报价出库暂无意义；",
+      "detail": "报价入库和报价出库暂无意义；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "无意义填",
+      "detail": "无意义填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.000",
+      "detail": "0.000",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "暂无意义",
+      "detail": "暂无意义",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "无实际意义暂",
+      "detail": "无实际意义暂",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "无意义；",
+      "detail": "无意义；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": ".000",
+      "detail": ".000",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，报价回购、提前购回、报价入库、报价出库",
+      "detail": "，报价回购、提前购回、报价入库、报价出库",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.00",
+      "detail": "0.00",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于约定购回业务",
+      "detail": "对于约定购回业务",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "（字段类型与网络投",
+      "detail": "（字段类型与网络投",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "票业务消息规范中申报消息对应字段一致）",
+      "detail": "票业务消息规范中申报消息对应字段一致）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于货币市场基金申赎，无意义填",
+      "detail": "对于货币市场基金申赎，无意义填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于货币市场基金申赎，基金公司作为对手方买卖方向与投资者相反。",
+      "detail": "对于货币市场基金申赎，基金公司作为对手方买卖方向与投资者相反。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（左对齐）",
+      "detail": "（左对齐）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2423",
+      "detail": "2423",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS105",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及66项变更。 接口字段变更: 2项。 废止: 3项。 规则条款变更: 61项。 其中重大变更4项。",
+  "confidence": 0.92,
+  "raw_text": "购回交易和终止购回申报消息增加标的证券代码，以便数据库中填写证券代码。\n补充中登关于股票质押回购业务标的证券描述标签的描述，如进一步了解可咨询中登上海公司。\n中间未发布版本\n1.31\n版（\n2013.4\n）修订如下（黄金\nETF\n业务上线安排参见相关业务或测试上线通知）：\n修订跨境\nETF/\n交易型货币市场基金申赎执行报告第一条记录（证券代码为二级市场交易代码），该记录\n数量、金额原为\n0\n，现修订为有效的申赎数量、现金替代总额，为未来该类业务执行报告整合成一条做准备。\n新增黄金\nETF\n现金申赎业务，该业务接口同跨境\nETF/\n交易型货币市场基金申赎，并遵循上述修订。\n新增黄金\nETF\n实物申赎执行报告，包含黄金\nETF\n实物申赎基金公司执行报告，黄金\nETF\n实物申赎市场增\n减执行报告，执行报告数据广播类型\n16\n。\n注意：为充分发挥\nSTEP\n协议的扩展性，对于由上交所发出的\nSTEP\n消息，例如在消息体尾部扩展新的\n域，市场参与者系统应能兼容处理。当新业务需要，在\nSTEP\n协议消息体增加新的域后，市场参与者系统如不\n需要支持该新业务，可以做到兼容识别并无需任何修改，以发挥标签化优势，这方面技术优化可以逐步实施。\n修订货币市场基金实时申赎业务消息规范章节，对指定的基金公司转发市场执行报告数据，并计划停止\n该业务发送公共消息。\n20130424\n版修订在给基金公司转发的市场执行报告尾部增加备注字段。\n综合业务平台\n市场参与者接口规格说明书\n第\n132\n页\n共\n134\n页\n技术文档\n补充数据广播类型\n12\n、\n16\n。\n《综合业务平台市场参与者接口规格说明书》\n1.30\n版发布说明\n2013.2\n补充转融通业务接口，即合并本所外网开发测试文件栏预发布的《\nIS105\n上海证券交易所综合业务平台市\n场参与者接口规格说明书\n1.00\n版\n(\n转融通\n,\n技术开发稿\n)_20121015\n》。\n补充说明报价回购出入库业务中股票、基金的数量单位。\n《综合业务平台市场参与者接口规格说明书》\n1.22\n版发布说明\n2013.1\n修订执行报告消息描述中字段名称字母大小写错误。\n合并本所外网开发测试文件栏预发布的《上海证券交易所综合业务平台市场参与者接口规格说明书\n(\n报价\n回购及约定购回\n,\n技术开发稿\n)\n》。\n其他文字修订。\n《综合业务平台市场参与者接口规格说明书》\n1.21\n版发布说明\n2012.12\n本文档基于跨境\nETF\n申赎业务新增定义了上交所交易型货币市场基金申赎市场参与者\nEzSTEP\n接口，消\n息数据流及格式与跨境\nETF\n相同，个别取值差异参见具体接口约定。\n修改交易型货币市场基金申赎执行报告第二条记录，数据与跨境\nETF\n一致，现金替代金额可解释为成交\n金额。\n修改跨境\nETF\n申赎业务，基金公司收到的执行报告及\nBGH\n增加对手方账户，原为\nETFJIJIN\n字符串。\n《综合业务平台市场参与者接口规格说明书》\n1.20\n版发布说明\n2012.10\n本文档新增定义了上交所货币市场基金实时申赎（汇添富收益快线）市场参与者\nEzSTEP\n接口，即合并了\n《\nIS105\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.00\n版\n(\n货币基金申赎，技术开发\n稿\n)_20120831\n》技术开发文档。\n新增跨境\nETF\n申赎执行报告补充说明\n“\n基金公司作为对手方收到对应的成交数据\n”\n。\n《综合业务平台市场参与者接口规格说明书》\n1.10\n版发布说明\n2012.8\n本文档新增定义了上交所跨境\nETF\n申赎市场参与者\nEzSTEP\n接口，即合并了《\nIS105\n上海证券交易所综\n合业务平台市场参与者接口规格说明书\n1.00\n版\n(\n跨境\nETF\n申赎，技术开发稿\n)_20120528\n》技术开发文档，跨境\nETF\n二级市场买卖与其他单市场\nETF\n买卖接口一样，继续采用\nEzOES\n接入上交所竞价撮合平台实现。\n综合业务平台\n市场参与者接口规格说明书\n第\n133\n页\n共\n134\n页\n技术文档\n本文档基于原发布的《\nIS105\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.00\n版（大宗交\n易）\n_20120215\n》新增跨境\nETF\n内容。\n《综合业务平台市场参与者接口规格说明书》\n1.00\n版发布说明\n2012.5\n本文档为市场参与者通过\nEzSTEP\n接入上交所综合业务平台的接口规格。\n本文档定义了上交所大宗交易市场参与者\nEzSTEP\n接口，上交所大宗交易系统采用远程数据交互模式，以电子\n交易方式受理大宗交易意向报价发布和成交申报发布，并向市场发布意向和成交信息。交易用户通过大宗交易\n系统买卖行为应当符合《上海证券交易所交易规则》的有关规定。\n综合业务平台\n市场参与者接口规格说明书\n第\n134\n页\n共\n134\n页"
+}

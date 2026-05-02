@@ -1,0 +1,118 @@
+{
+  "doc_id": "sse-guide-20250110-004",
+  "title": "上海证券交易所互联网交易平台一债通业务市场参与人技术实施指南（固收迁移互联网交易平台开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781337/files/80ac122ed4b84928b873c27cf17b465f.pdf",
+  "analysis_date": "2026-05-02T05:42:06.703630+00:00",
+  "metadata": {
+    "file_hash": "sha256:c27973a1d1b7ebee1b2ea2046a42a702bbafc6d8769b890e9ffcdbe2a9aef823",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-01-10",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "、债券借贷",
+      "detail": "、债券借贷",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、借贷业务",
+      "detail": "、借贷业务",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS122_",
+      "detail": "IS122_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "STEP",
+      "detail": "STEP",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "接口规格说明书（互联网交易",
+      "detail": "接口规格说明书（互联网交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.05",
+      "detail": "2.05",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20250106",
+      "detail": "_20250106",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（固收迁移技术开发稿）",
+      "detail": "（固收迁移技术开发稿）",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124_",
+      "detail": "IS124_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.42",
+      "detail": "2.42",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20241224",
+      "detail": "_20241224",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（固收迁移互联网交易平台开发稿）",
+      "detail": "（固收迁移互联网交易平台开发稿）",
+      "severity": "major",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及12项变更。 规则条款变更: 12项。 其中重大变更2项。",
+  "confidence": 0.92,
+  "raw_text": "bjqbMMDD.txt\n下线，通过行情接收端获取\n新系统盘后文件均通过证通云盘发送，相关变更情况参见下表，详细文件接口\n参见附件四。\n文件内容\n文件名\n格式调整\n\n文件格式由\ndbf\n调整为\ntxt\n\n汇总拆分粒度由交易商（\nXXX\n）调整为交易\n单元（\nXXXXX,\n业务\nPBU\n）\n\n交易员代码由\n6\n位扩为\n10\n位，证券代码由\n6\n位扩为\n12\n位，交易单元由\n5\n位扩为\n8\n位，\n投资者账户由\n10\n位扩为\n13\n位\n\n拆分证券信息字段为业务类型、业务子类型\n债券非匹配成交汇总文\n和会员内部编号三个字段\n件\nzghXXXXX.txt\n\n买卖方向枚举值由\nB\n（买）\n/S\n（卖）改为\n1\n（买）\n/2\n（卖）\n;\n\n成交净价价格调整为成交价格，实际表示净\n价还是全价根据证券产品基础信息文件计价\n方式字段确定\n\n移除交易产品、应计利息、成交全价价格、\n券面总额、成交净价金额、到期收益率、结\n算金额、是否做市报价字段\n债券非匹配成交参考价\nbondnegorefpx\n_yyyymmdd.\n\n文件格式由\ntxt\n调整为\nxml\n文件\nxml\n债券交易参与人信息文\n\n文件格式由\ntxt\n调整为\nxml\n件\n\n机构代码扩充为\n12\n位\nbondmbrs_yyyymmdd.x\nml\n\n文件格式由\ntxt\n调整为\nxml\n债券交易员信息文件\nbondtrdrs_yyyymmdd.xml\n\n交易员代码调整为一债通账户并扩为\n10\n位\n\n包含各类证券产品基础信息和债券特有信息\n\n仅包含已上市未摘牌产品，未上市或已摘牌\n证券产品基础信息文件\nproducts_yyyymmdd.xml\n的产品将不包含在此文件中\n债券现券交易业务参考\nbondnegoparams\n_yyymmdd\n\n新增\n信息（非匹配成交）\n.xml\n债券质押式协议回购业\nbilateralrepoparams_yyymm\n\n新增\n务参考信息\ndd.xml\n债券质押式三方回购参\ntrirepoparams_yyymmdd.xm\n\n新增三方回购参考信息\n第\n8\n页共\n9\n页\n上海证券交易所互联网交易平台一债通业务市场参与人技术实施指南\n文件内容\n文件名\n格式调整\n考信息\nl\n\n篮子信息主键调整为篮子编号\n\n针对托管机构\n针对各托管机构，原\nbjYYYY.dbf\n格式将与一债通成交汇总文件统一，并且每\n个\nPBU\n将生成一个文件，不再进行合并；原固收收盘价文件将调整为一债通收盘\n价文件；原固收成交明细行情文件和确定报价行情文件接口不再发送。各文件中\n的价格为实际成交价格，对应的计价方式（全价\n/\n净价）可参考证券产品基础信息\n文件（\nproducts_yyyymmdd.xml\n）计价方式字段。请参见附件五和附件四。\n请各市场机构谨慎评估相关变更影响，并根据迁移整体安排及时做好配套系\n统的变更研发工作。如对各接口开发稿有任何意见和建议，请在后续调查问卷或\n通过技术服务热线反馈。\n四、附件\n附件一：\nIS122_\n上海证券交易所交易网关\nSTEP\n接口规格说明书（互联网交易\n平台）\n2.05\n版\n_20250106\n（固收迁移技术开发稿）\n附件二：\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接口规范\n0.59\n版\n_20241022\n（固收迁移互联网交易平台开发稿）\n附件三：\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口规范\n0.59\n版\n_20241022\n（固收迁移互联网交易平台开发稿）\n附件四：\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n2.42\n版\n_20241224\n（固收迁移互联网交易平台开发稿）\n附件五：\nIS118_\n上海证券交易所特定参与人接口规格说明书（托管银行卷）\n1.35\n版（固收迁移互联网交易平台开发稿）\n第\n9\n页共\n9\n页"
+}

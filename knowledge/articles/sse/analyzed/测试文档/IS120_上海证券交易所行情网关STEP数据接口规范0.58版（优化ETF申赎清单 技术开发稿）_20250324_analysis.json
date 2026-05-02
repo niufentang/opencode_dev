@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-iface-20180309-124",
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+  "analysis_date": "2026-05-02T02:03:06.223933+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-03-24 0.58 版，支持 公告文件 版，调整 2.4.2 集中竞价类行情快照扩展字段 IOPV 公告文件关联关系描述。 /PublishIOPVFlag",
+      "detail": "2025-03-24\n0.58\n版，支持\n公告文件\n版，调整\n2.4.2\n集中竞价类行情快照扩展字段\nIOPV\n公告文件关联关系描述。\n/PublishIOPVFlag",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "ETF申赎清单",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

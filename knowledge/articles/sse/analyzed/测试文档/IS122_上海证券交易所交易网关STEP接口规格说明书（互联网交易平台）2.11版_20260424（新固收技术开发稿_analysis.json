@@ -1,0 +1,65 @@
+{
+  "doc_id": "sse-iface-20260424-136",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T02:03:06.531337+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.4.4 成交确认中添加了场务应急成交录入的内容 4.4.4.1 成交申报（ Trade Capture Report, MsgType=AE) 格和卖出价格对于合并申报明确表示中间方买入或卖出的价格 3.2.2.2 询价报价处理消息流图中对于一债通询价明确每个交 2026.02 2.11 易参与人仅可回复一次",
+      "detail": "4.4.4.4\n成交确认中添加了场务应急成交录入的内容\n4.4.4.1\n成交申报（\nTrade\nCapture\nReport,\nMsgType=AE)\n格和卖出价格对于合并申报明确表示中间方买入或卖出的价格\n3.2.2.2\n询价报价处理消息流图中对于一债通询价明确每个交\n2026.02\n2.11\n易参与人仅可回复一次",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2.3 转发询价请求（ Allege Quote Request, MsgType=R 4.4.2.6 转发报价（ Quote, MsgType=S 4.4.2.8 转发报价 Response, MsgType=AJ ）当用户选择‘匿名’ 时，相关字段进行隐藏 一债通询价不支持撤销报价后重新回复，每",
+      "detail": "4.4.2.3\n转发询价请求（\nAllege\nQuote\nRequest,\nMsgType=R\n4.4.2.6\n转发报价（\nQuote,\nMsgType=S\n4.4.2.8\n转发报价\nResponse,\nMsgType=AJ\n）当用户选择‘匿名’\n时，相关字段进行隐藏\n一债通询价不支持撤销报价后重新回复，每",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "个参与人仅可回复一次。",
+      "detail": "个参与人仅可回复一次。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5010",
+      "detail": "5010",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "且为‘净额结算’ 场务应急成 场务应急 成交录入 600310",
+      "detail": "且为‘净额结算’\n场务应急成\n场务应急\n成交录入\n600310",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "REITs",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及5项变更。 规则条款变更: 5项。",
+  "confidence": 0.95
+}

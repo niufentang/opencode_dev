@@ -1,0 +1,426 @@
+{
+  "doc_id": "sse-guide-20260227-005",
+  "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1.1版_20260227（新竞价新综业技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10817288/files/5423c05c361a4c9f98525a36650c74aa.pdf",
+  "analysis_date": "2026-05-02T05:42:20.219764+00:00",
+  "metadata": {
+    "file_hash": "sha256:6f8a71b2eb4ec0ffcffa297a9c2f3d9adbd5496643fb300d96a4c867cb13a6fa",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": "1.1",
+    "previous_version": null,
+    "public_date": "2026-02-27",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "_YYYYMMDD",
+      "detail": "_YYYYMMDD",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "修订产品非交易基础信息文件",
+      "detail": "修订产品非交易基础信息文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "fjyYYYYMMDD.txt",
+      "detail": "fjyYYYYMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件关于实时申赎货",
+      "detail": "文件关于实时申赎货",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "类产品“非交易价格”字段的描述。",
+      "detail": "类产品“非交易价格”字段的描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品非交易基础信息文件",
+      "detail": "产品非交易基础信息文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "fjyYYYYMMDD",
+      "detail": "fjyYYYYMMDD",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件，对于",
+      "detail": "文件，对于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实时申赎货币基金",
+      "detail": "实时申赎货币基金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "类产品（",
+      "detail": "类产品（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5198**",
+      "detail": "5198**",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，“非交易订单整手数”、“非交易订单最小订单数量”、",
+      "detail": "，“非交易订单整手数”、“非交易订单最小订单数量”、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“非交易订单最大订单数量”“非交易价格”字段取值与新综合业务系统订单",
+      "detail": "“非交易订单最大订单数量”“非交易价格”字段取值与新综合业务系统订单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报实际“数量最小变动单位”、“数量下限”、“数量上限”、“价格”一",
+      "detail": "申报实际“数量最小变动单位”、“数量下限”、“数量上限”、“价格”一",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "EzSTEP",
+      "detail": "EzSTEP",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "申报接口字段优化",
+      "detail": "申报接口字段优化",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）响应及执行报告消息中",
+      "detail": "）响应及执行报告消息中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“ClOrdID”",
+      "detail": "“ClOrdID”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“OrigClOrdID”",
+      "detail": "“OrigClOrdID”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报消息",
+      "detail": "申报消息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报撤单消息中填写的",
+      "detail": "申报撤单消息中填写的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）申报消息",
+      "detail": "）申报消息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报撤单消息中填",
+      "detail": "申报撤单消息中填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ClOrdID",
+      "detail": "ClOrdID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段不足",
+      "detail": "字段不足",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，交易",
+      "detail": "时，交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "系统返回的响应及执行报告消息",
+      "detail": "系统返回的响应及执行报告消息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统返回的响应及执行报告",
+      "detail": "交易系统返回的响应及执行报告",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段会右补空格至",
+      "detail": "字段会右补空格至",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "消息中不再补齐",
+      "detail": "消息中不再补齐",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "。申报撤单消息中",
+      "detail": "。申报撤单消息中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrigClOrdID",
+      "detail": "OrigClOrdID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段处理方式相同。",
+      "detail": "字段处理方式相同。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段无论是否满",
+      "detail": "字段无论是否满",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，交易系统返回的响应及执行",
+      "detail": "，交易系统返回的响应及执行",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "消息中，",
+      "detail": "消息中，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段均会去掉所",
+      "detail": "字段均会去掉所",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "有右空格；",
+      "detail": "有右空格；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段为全空格时，",
+      "detail": "字段为全空格时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报撤单消息中",
+      "detail": "申报撤单消息中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场申报时填写",
+      "detail": "市场申报时填写",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“123",
+      "detail": "“123",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位。“□”代表一位空",
+      "detail": "位。“□”代表一位空",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位）或者",
+      "detail": "位）或者",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "□□□□",
+      "detail": "□□□□",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "格，下同），响应及成交中的",
+      "detail": "格，下同），响应及成交中的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位），响应及成交中",
+      "detail": "位），响应及成交中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "□□□□□□□",
+      "detail": "□□□□□□□",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“123”",
+      "detail": "“123”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）返回消息空字段统一处理",
+      "detail": "）返回消息空字段统一处理",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于交易系统返回的消息",
+      "detail": "对于交易系统返回的消息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于交易系统返回的消息中，",
+      "detail": "对于交易系统返回的消息中，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "中，字符串类型的字段，若为空",
+      "detail": "中，字符串类型的字段，若为空",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字符串类型的字段，若为空字段统",
+      "detail": "字符串类型的字段，若为空字段统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段则填写一个空格或空值。",
+      "detail": "字段则填写一个空格或空值。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一填写一个空格。",
+      "detail": "一填写一个空格。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及56项变更。 接口字段变更: 1项。 规则条款变更: 55项。",
+  "confidence": 0.92,
+  "raw_text": "”\n（\n1\n位）。\n4\n）\n申报撤单消息中\nOrigClOrdID\n字段处理方式相同。\n示例：\n示例：\n市场申报时填写\nClOrdID\n为\n“123\n市场申报时填写\nClOrdID\n为\n“123\n□□\n”\n（\n5\n位。“□”代表一位空\n□□\n”\n（\n5\n位）或者\n“123\n□□□□\n格，下同），响应及成交中的\n□□□\n”\n（\n10\n位），响应及成交中\nClOrdID\n为\n“123\n□□□□□□□\n”\n的\nClOrdID\n均为\n“123”\n（\n3\n位）。\n（\n10\n位）。\n2\n）返回消息空字段统一处理\n序号\n综业\n新综业\n对于交易系统返回的消息\n对于交易系统返回的消息中，\n中，字符串类型的字段，若为空\n字符串类型的字段，若为空字段统\n字段则填写一个空格或空值。\n一填写一个空格。\n1\n上海证券交易所\n第\n15\n页共\n18\n页\n技术文档\n6\n市场参与人技术实施建议\n1)\n上述市场交互变动内容，除新过户接口相关调整以外，本所现有竞价、\n综业不做变更，在新竞价、新综业上线时调整。请市场参与人在技术\n设计时应做好新老两代交易系统兼容\n,\n并在本所要求的时间前做好技\n术就绪。\n2)\n交易系统依据申报中的\n“\n业务\nPBU+\n会员内部编号（\nClOrdID\n）\n”\n组合的\n取值，判断申报是否为重复订单。市场参与人应据此进行编号。\n3)\n不同业务的成交编号可能存在重复情况，建议市场参与人在使用成交\n编号时结合业务类型、证券账户等其他要素做识别处理。\n4)\n市场参与人应充分评估本次变更对交易相关技术系统的影响，做好相\n关技术系统维护、改造工作，配合本所做好新一代交易系统项目的推\n出工作，同时保障现有上交所股票、债券、基金、融资融券、股票期\n权等各类业务正常运行。\n5)\n市场参与人应根据本所要求利用本所提供的测试环境进行充分测试验\n证。\n7\n上线实施安排\n各市场参与人按照相关规则要求和技术实施建议完成技术改造后，本所将择\n机组织开展测试和上线工作。\n上海证券交易所\n第\n16\n页共\n18\n页\n技术文档\n新竞价和新综业的相关变更预期同步上线，具体上线时间另行通知。\n8\n相关技术文档\n\n《\nIS105_\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.59\n版（新竞价新综业技术开发稿）》\n\n《\nIS111_\n上海证券交易所报盘软件错误代码表\n3.29\n版（新竞价新综业技术\n开发稿）》\n\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（托管银行卷）\n1.36\n版\n（新竞价新综业技术开发稿）》\n\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\n2.\n45\n版\n（新竞价新综业技术开发稿）》\n\n《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接口规范\n0.60\n版（新竞价\n新综业技术开发稿）》\n\n《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口规范\n0.60\n版（新竞价新\n综业技术开发稿）》\n\n《\nIS122_\n上海证券交易所交易网关\nBinary\n接口规格说明书（竞价平台）\n0.58\n版（新竞价新综业技术开发稿）》\n\n《\nIS122_\n上海证券交易所交易网关\nSTEP\n接口规格说明书（竞价平台）\n0.58\n版（新竞价新综业技术开发稿）》\n\n《\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n3.\n12\n0\n版（新竞\n上海证券交易所\n第\n17\n页共\n18\n页\n技术文档\n价新综业技术开发稿）》\n上海证券交易所\n第\n18\n页共\n18\n页"
+}

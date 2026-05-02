@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-guide-00000000-156",
+  "title": "上海证券交易所互联网交易平台一债通业务市场参与人技术实施指南（固收迁移互联网交易平台开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781337/files/80ac122ed4b84928b873c27cf17b465f.pdf",
+  "analysis_date": "2026-05-02T02:03:06.794455+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "、债券借贷 、借贷业务 IS122_ STEP 接口规格说明书（互联网交易 2.05 _20250106 （固收迁移技术开发稿） IS124_ 2.42 _20241224 （固收迁移互联网交易平台开发稿）",
+      "detail": "、债券借贷\n、借贷业务\nIS122_\nSTEP\n接口规格说明书（互联网交易\n2.05\n_20250106\n（固收迁移技术开发稿）\nIS124_\n2.42\n_20241224\n（固收迁移互联网交易平台开发稿）",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS109",
+    "IS118",
+    "IS119",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

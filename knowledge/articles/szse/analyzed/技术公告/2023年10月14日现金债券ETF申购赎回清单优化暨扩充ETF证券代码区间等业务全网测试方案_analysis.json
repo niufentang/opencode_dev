@@ -1,0 +1,34 @@
+{
+  "doc_id": "szse-test-20231014-174",
+  "title": "2023年10月14日现金债券ETF申购赎回清单优化暨扩充ETF证券代码区间等业务全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020231010318638987587.docx",
+  "analysis_date": "2026-05-02T02:03:06.861699+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "新增",
+      "summary": "新增测试专用证券账户 新增测试专用A股证券账户0199900000—0199900001（A股个人）、0809900000—0809900001（A股法人）。",
+      "detail": "新增测试专用证券账户\n新增测试专用A股证券账户0199900000—0199900001（A股个人）、0809900000—0809900001（A股法人）。",
+      "severity": "major",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "债券",
+    "做市商",
+    "期权",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

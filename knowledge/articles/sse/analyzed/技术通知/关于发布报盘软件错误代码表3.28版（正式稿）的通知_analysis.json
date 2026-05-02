@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-soft-00000000-069",
+  "title": "关于发布报盘软件错误代码表3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10800118/files/fe65e02852ec4169a4eac95b9de334bd.pdf",
+  "analysis_date": "2026-05-02T02:03:05.805553+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "software",
+    "IS111",
+    "报盘软件",
+    "期权"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：software，版本：无。",
+  "confidence": 0.75
+}

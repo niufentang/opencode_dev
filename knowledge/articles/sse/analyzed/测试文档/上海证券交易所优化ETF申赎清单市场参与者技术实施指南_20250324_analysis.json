@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-guide-20250324-159",
+  "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20250324",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10795900/files/a9873e71c60f4597b8f10589de5c6c7e.pdf",
+  "analysis_date": "2026-05-02T02:03:06.802453+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "ETF申赎清单",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS120",
+    "STEP",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

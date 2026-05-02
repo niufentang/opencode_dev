@@ -1,0 +1,26 @@
+{
+  "doc_id": "szse-test-20220625-206",
+  "title": "深市交易结算系统福田中心单中心运行2022年6月25日全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020220620531452688715.docx",
+  "analysis_date": "2026-05-02T02:03:07.015986+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "债券",
+    "做市商",
+    "期权",
+    "港股通",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

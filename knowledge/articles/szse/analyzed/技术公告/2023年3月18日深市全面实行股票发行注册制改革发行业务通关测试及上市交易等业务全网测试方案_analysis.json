@@ -1,0 +1,37 @@
+{
+  "doc_id": "szse-test-20230318-179",
+  "title": "2023年3月18日深市全面实行股票发行注册制改革发行业务通关测试及上市交易等业务全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020230314575516797815.docx",
+  "analysis_date": "2026-05-02T02:03:06.893557+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "新增",
+      "summary": "新增测试专用证券账户 新增测试专用证券账户0199900000—0199900001（A股个人）、0809900000—0809900001（A股法人）。",
+      "detail": "新增测试专用证券账户\n新增测试专用证券账户0199900000—0199900001（A股个人）、0809900000—0809900001（A股法人）。",
+      "severity": "major",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "期权",
+    "注册制",
+    "港股通",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

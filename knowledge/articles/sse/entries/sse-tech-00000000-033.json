@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-033",
+  "type": "technical_notice",
+  "title": "关于UniTrans停发上交所私有类文件的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781078/files/0b3ca7aa8d5141619843847972f35b7f.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "UniTrans",
+    "债券",
+    "期权",
+    "港股通",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:e6067120efa89020c9899849c6d57bd3ad292373bd02e42e8458ebc5e09828b6",
+  "content_markdown": "关于 UniT r ans 停发上交所私有类文件\n的通知\n各市场参与人：\n根 据前 期发布 的 《 关于做好业务 分发 及行 情 前 置 系统和\n易 神 系统 报盘子 系统下线相关准备的通知 》 ，并结 合目 前市\n场 就绪情况 ，上海证券交易所 （以 下 简称 本所 ）拟 于 2025\n年 5 月 10 日 （周六） 开展 UniTrans （以 下 简称 UT ）停止发\n送 上交所 私 有 类文件等 通关测试。 2025 年 5 月 12 日 （周 一 ）\n起 相关 调整将 于生产环境正 式 生 效 。\nUT 停止发送 上交所 私 有 类文件 后，市场参与人 可继续\n通过本所证通 云盘获取 上 述 相关 信息 ，详见表 -1 。\n表 -1 相关 功能承 接 渠道\n文件名\n文件内容\n承接渠道\nXXXX.sse\n银行和基金公司交易数据文件\n证通云盘\nghXXXXX.zip\n竞价平台过户数据接口\n证通云盘\nkhlXXXXX.zip\n开放式基金分红数据接口\n证通云盘\nkyeXXXXX.zip\n开放式基金账户对账数据接口\n证通云盘\nkghXXXXX.zip\n开放式基金交易确认接口\n证通云盘\nzzhXXXXX.zip\n证券账户资料接口\n证通云盘\n( 月中数据 )\n\nzxwXXXXX.zip\n席位联通接口\n证通云盘\n( 月中数据 )\nipoghXXXXX.zip\n新股发行过户数据接口\n证通云盘\njckzXXXXX.zip\n减持控制数据接口\n证通云盘\ndghXXXXX.zip\n综业平台过户数据接口\n证通云盘\njjghXXXXX.zip\n基金过户数据接口\n证通云盘\noghXXXXX.zip\n期权平台过户数据接口\n证通云盘\nzqghXXXXX.zip\n债券过户数据文件\n证通云盘\nighXXXXX.zip\n国际化产品过户数据文件\n证通云盘\nhghXXXXX.zip\n港股通过户数据接口\n证通云盘\n技术 咨询电话 ： 4008888400 转 2 ， QQ 群 ： 298643611 。\n特此通知。\n上交所技术有 限责任公司\n2025 年 4 月 15 日\n\n<metadata>\n{\n  \"title\": \"20250415_关于UniTrans停发上交所私有类文件的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250415_关于UniTrans停发上交所私有类文件的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于UniTrans停发上交所私有类文件的通知.md\",\n  \"file_hash\": \"sha256:e6067120efa89020c9899849c6d57bd3ad292373bd02e42e8458ebc5e09828b6\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:33.525588+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

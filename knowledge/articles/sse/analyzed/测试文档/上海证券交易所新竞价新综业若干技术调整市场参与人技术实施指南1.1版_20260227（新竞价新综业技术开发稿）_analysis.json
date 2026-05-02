@@ -1,0 +1,72 @@
+{
+  "doc_id": "sse-guide-20260227-167",
+  "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10817288/files/5423c05c361a4c9f98525a36650c74aa.pdf",
+  "analysis_date": "2026-05-02T02:03:06.831648+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "_YYYYMMDD 修订产品非交易基础信息文件 fjyYYYYMMDD.txt 文件关于实时申赎货 类产品“非交易价格”字段的描述。 产品非交易基础信息文件 fjyYYYYMMDD 文件，对于 实时申赎货币基金 类产品（ 5198** ，“非交易订单整手数”、“非交易订单最小订单数量”、 “非交易订单最大订单数量”“非交易价格”字段取值与新综合业务系统订单",
+      "detail": "_YYYYMMDD\n修订产品非交易基础信息文件\nfjyYYYYMMDD.txt\n文件关于实时申赎货\n类产品“非交易价格”字段的描述。\n产品非交易基础信息文件\nfjyYYYYMMDD\n文件，对于\n实时申赎货币基金\n类产品（\n5198**\n，“非交易订单整手数”、“非交易订单最小订单数量”、\n“非交易订单最大订单数量”“非交易价格”字段取值与新综合业务系统订单",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报实际“数量最小变动单位”、“数量下限”、“数量上限”、“价格”一 EzSTEP",
+      "detail": "申报实际“数量最小变动单位”、“数量下限”、“数量上限”、“价格”一\nEzSTEP",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "申报接口字段优化",
+      "detail": "申报接口字段优化",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）响应及执行报告消息中 “ClOrdID” “OrigClOrdID” 申报消息 申报撤单消息中填写的 ）申报消息 申报撤单消息中填 ClOrdID 字段不足 时，交易 系统返回的响应及执行报告消息 交易系统返回的响应及执行报告 字段会右补空格至 消息中不再补齐 。申报撤单消息中 OrigClOrdID",
+      "detail": "）响应及执行报告消息中\n“ClOrdID”\n“OrigClOrdID”\n申报消息\n申报撤单消息中填写的\n）申报消息\n申报撤单消息中填\nClOrdID\n字段不足\n时，交易\n系统返回的响应及执行报告消息\n交易系统返回的响应及执行报告\n字段会右补空格至\n消息中不再补齐\n。申报撤单消息中\nOrigClOrdID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段处理方式相同。 字段无论是否满 ，交易系统返回的响应及执行 消息中， 字段均会去掉所 有右空格； 字段为全空格时， 申报撤单消息中 市场申报时填写 “123 位。“□”代表一位空 位）或者 □□□□ 格，下同），响应及成交中的 位），响应及成交中 □□□□□□□ “123” ）返回消息空字段统一处理",
+      "detail": "字段处理方式相同。\n字段无论是否满\n，交易系统返回的响应及执行\n消息中，\n字段均会去掉所\n有右空格；\n字段为全空格时，\n申报撤单消息中\n市场申报时填写\n“123\n位。“□”代表一位空\n位）或者\n□□□□\n格，下同），响应及成交中的\n位），响应及成交中\n□□□□□□□\n“123”\n）返回消息空字段统一处理",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于交易系统返回的消息 对于交易系统返回的消息中， 中，字符串类型的字段，若为空 字符串类型的字段，若为空字段统 字段则填写一个空格或空值。 一填写一个空格。",
+      "detail": "对于交易系统返回的消息\n对于交易系统返回的消息中，\n中，字符串类型的字段，若为空\n字符串类型的字段，若为空字段统\n字段则填写一个空格或空值。\n一填写一个空格。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS105",
+    "IS111",
+    "IS118",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 接口字段变更: 1项。 规则条款变更: 5项。",
+  "confidence": 0.95
+}

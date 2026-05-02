@@ -1,0 +1,36 @@
+{
+  "doc_id": "sse-iface-20251117-127",
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+  "analysis_date": "2026-05-02T02:03:06.237461+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11-17 0.61 2.5.4.2 逐笔成交行情扩展字段中无对应买卖订单编号时调整 为填空。 、为保证上下游接口位数统一，调整 TotalValueTraded OrderQty 字段位数。 N16(3) N15(3) N18(5) N17(2)",
+      "detail": "2025-11-17\n0.61\n2.5.4.2\n逐笔成交行情扩展字段中无对应买卖订单编号时调整\n为填空。\n、为保证上下游接口位数统一，调整\nTotalValueTraded\nOrderQty\n字段位数。\nN16(3)\nN15(3)\nN18(5)\nN17(2)",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

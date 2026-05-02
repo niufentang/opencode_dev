@@ -1,0 +1,58 @@
+{
+  "doc_id": "sse-iface-20250808-107",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T02:03:06.104045+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》 发布说明 2025 月修订内容： IOPV 外部源机构接入，调整如下： 1. ETF 定义文件接口， 发布标记字段新增字段取值 ，代表由第三方机构（非中证指数公 司）计算 ，经互联网交易平台转发，通过交易所行情发布；调整取值 含义为：由中证指",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n发布说明\n2025\n月修订内容：\nIOPV\n外部源机构接入，调整如下：\n1. ETF\n定义文件接口，\n发布标记字段新增字段取值\n，代表由第三方机构（非中证指数公\n司）计算\n，经互联网交易平台转发，通过交易所行情发布；调整取值\n含义为：由中证指",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数公司计算 ，通过交易所行情发布。 2. ETF 公告文件接口，对应 定义文件，调整 Publish PublishIOPVFlag ）字段描述。 由中证指数公司计算 ，通过交易所行 情发布交易系统不计算 但要通过行情发 由第三方机构（非中证指数公司）计算 ，经互联网交易平台转发，通过交易所行 中证指数公司第三方机构（非交易所）",
+      "detail": "数公司计算\n，通过交易所行情发布。\n2. ETF\n公告文件接口，对应\n定义文件，调整\nPublish\nPublishIOPVFlag\n）字段描述。\n由中证指数公司计算\n，通过交易所行\n情发布交易系统不计算\n但要通过行情发\n由第三方机构（非中证指数公司）计算\n，经互联网交易平台转发，通过交易所行\n中证指数公司第三方机构（非交易所）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "联网交易平台转发，通过交易所行情发布 当定义文件取值 时，此处为",
+      "detail": "联网交易平台转发，通过交易所行情发布\n当定义文件取值\n时，此处为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://idc.ztcloud.ssetech.com.cn/",
+      "detail": "https://idc.ztcloud.ssetech.com.cn/",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS103",
+    "IS104",
+    "IS105",
+    "IS118",
+    "债券",
+    "期权",
+    "科创板",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 规则条款变更: 4项。",
+  "confidence": 0.95
+}

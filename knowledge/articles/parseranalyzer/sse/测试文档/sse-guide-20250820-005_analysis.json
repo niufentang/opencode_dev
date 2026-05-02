@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-guide-20250820-005",
+  "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1.0_20250815",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10807304/files/4212cbcec8644849af0dfc43bb536d93.pdf",
+  "analysis_date": "2026-05-02T05:42:14.811703+00:00",
+  "metadata": {
+    "file_hash": "sha256:eb1f2048d48a3b92725acd1707efb100d3d8b8b8985c0f5dcbec4d82ca946672",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": "1.0",
+    "previous_version": null,
+    "public_date": "2025-08-20",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.0",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：1.0。",
+  "confidence": 0.72,
+  "raw_text": "本所保留对本指南的解释与修改权。\n联系方式\n技术服务\nQQ\n群：\n298643611\n技术服务电话：\n4008888400-2\n电子邮件：\ntech_support@sse.com.cn\n技术服务微信公众号：\nSSE-TechService\n技术文档\n1\n简介\n本文档为上海证券交易所针对\nIOPV\n外部源机构接入业务，为指导市场参与者尽快\n完成技术准备工作，特制定本指南。\n2\n业务说明\n实时参考净值（以下简称\nIOPV\n）是\nETF\n申赎清单中组合证券的实时市值，能为投\n资者的二级市场交易及申赎提供价格参考。为更好完善\nETF\n市场机制，本所拟推动支持\n外部\nIOPV\n数据源接入并发布。\n3\n接口说明\n《\nIS419_\n上海证券交易所互联网交易平台市场参与者接口规格说明书（\nIOPV\n卷）》\n获得\nIOPV\n上传资质的指定机构可以通过\nHTTP\n协议的\nRESTful API\n接口接入互联\n网交易平台并上传\nIOPV\n数据。\n（\n1\n）通过交易行情网或\nVSEP\n网络与交易所进行网络对接；\n（\n2\n）上交所接受当日实时参考基金净值上传时间为当日\n7:30\n至\n16:30\n；\n（\n3\n）上传频率应不快\n3\n秒\n/\n幅（含\n3\n秒），若上传机构未上传最新基金净值，则下一\n次对外发布揭示净值时将保留上次发布揭示的净值不变。\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n配合\nIOPV\n外部源机构接入，调整如下：\n（\n1\n）\nETF\n定义文件接口，\nIOPV\n发布标记字段新增字段取值\nC\n，代表由第三方机\n构（非中证指数公司）计算\nIOPV\n，经互联网交易平台转发，通过交易所行情发布；调\n整取值\nB\n含义为：由中证指数公司计算\nIOPV\n，通过交易所行情发布。\n（\n2\n）\nETF\n公告文件接口，对应\nETF\n定义文件，调整\nPublish\n（\nPublishIOPVFlag\n）\n字段描述。\n第\n1\n页共\n2\n页\n技术文档\n4\n市场参与者技术实施建议及注意事项\n（\n1\n）本所互联网交易平台提供双通道供上传机构发送\nIOPV\n数据，上传机构应通过\n双通道分别上传且保证双路数据的一致性。具体双路上传地址将另行明确，相关机构可\n先进行相关技术准备。\n（\n2\n）本所对于上传的行情信息会进行防重复、防回流处理，请上传机构依据市场\n接口中的相关要求完成相应技术处理。\n（\n3\n）\nETF\n定义文件中\nIOPV\n发布标记字段（\n2.1\n版为\nPublish\nIOPV Flag\n字段\n/xml\n版\n为\nPublishIOPVFlag\n字段）新增通过互联网交易平台发布\nIOPV\n的取值\nC\n，调整取值\nB\n为“由中证指数公司计算\nIOPV\n，通过交易所行情发布”。所有通过互联网交易平台上传\n发送\nIOPV\n数据的\nETF\n产品，基金管理人应在该\nETF\n定义文件中\nPublish\nIOPV\nFlag\n（\n2.1\n版）或\nPublishIOPVFlag\n（\nxml\n版）字段填写为\nC\n。\n（\n4\n）市场参与者应充分评估上述变更对行情、申赎、交易等相关技术系统的影响，\n做好相关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测\n试验证，同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常\n运行。\n5\n相关技术文档\n《\nIS419_\n上海证券交易所互联网交易平台市场参与者接口规格说明书（\nIOPV\n卷）\n1.0\n版\n_\n技术开发稿》\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\n2.2\n版\n_20250808\n（\nIOPV\n外部源机构接入技术开发稿）》\n第\n2\n页共\n2\n页"
+}

@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-iface-20260424-027",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:05.658834+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "3.30 2026-04 、补充新竞价发行过户数据文件的接口描述。 认购扣款、认购还款、配号记录填写 ，即对应发行业务的 对应发行业务的有效申报数量； 申购数量 中签记录填写",
+      "detail": "3.30\n2026-04\n、补充新竞价发行过户数据文件的接口描述。\n认购扣款、认购还款、配号记录填写\n，即对应发行业务的\n对应发行业务的有效申报数量；\n申购数量\n中签记录填写",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS109",
+    "IS113",
+    "IS117",
+    "IS118",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,58 @@
+{
+  "doc_id": "sse-iface-20260227-111",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T02:03:06.154249+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》 版发布说明 2026 月修订内容： 、基金公司盘后数据文件 ZZZZZ.sse",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n版发布说明\n2026\n月修订内容：\n、基金公司盘后数据文件\nZZZZZ.sse",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增新竞价过户数据文件（",
+      "detail": "新增新竞价过户数据文件（",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "gh00PXXXXX.txt ）、新竞价发 行过户数据文件（ ipogh00PXXXXX.txt ）、指定过户数据文件（ zdgh00PXXXXX.txt ），取消席位 (ghXXXXX.dbf) 过户数据 新竞价过户数据文件、新竞价发行 过户数据文件、指定过户数据文件 席位成交 、新竞价过户数据文件（",
+      "detail": "gh00PXXXXX.txt\n）、新竞价发\n行过户数据文件（\nipogh00PXXXXX.txt\n）、指定过户数据文件（\nzdgh00PXXXXX.txt\n），取消席位\n(ghXXXXX.dbf)\n过户数据\n新竞价过户数据文件、新竞价发行\n过户数据文件、指定过户数据文件\n席位成交\n、新竞价过户数据文件（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "gh00PXXXXX_YYYYMMDD.txt ）、新竞价发行过户数据文件 ipogh00PXXXXX_YYYYMMDD.txt zdgh00PXXXXX_YYYYMMDD.txt 、新竞价过户数据文件 ）、新竞价发行过户数据文件（ ）、指定 过户数据文件（ IPOGH (IPOGHXXXXX.txt)",
+      "detail": "gh00PXXXXX_YYYYMMDD.txt\n）、新竞价发行过户数据文件\nipogh00PXXXXX_YYYYMMDD.txt\nzdgh00PXXXXX_YYYYMMDD.txt\n、新竞价过户数据文件\n）、新竞价发行过户数据文件（\n）、指定\n过户数据文件（\nIPOGH\n(IPOGHXXXXX.txt)",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS103",
+    "IS104",
+    "IS105",
+    "IS118",
+    "IS124",
+    "债券",
+    "新竞价新综业",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 规则条款变更: 3项。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

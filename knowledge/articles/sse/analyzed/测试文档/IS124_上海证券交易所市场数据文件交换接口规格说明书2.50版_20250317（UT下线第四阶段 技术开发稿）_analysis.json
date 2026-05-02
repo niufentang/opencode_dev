@@ -1,0 +1,52 @@
+{
+  "doc_id": "sse-iface-20250317-144",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.695620+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "废止",
+      "summary": "下线第四阶段安排，",
+      "detail": "下线第四阶段安排，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "停止转发以下过户数据文件： 债券过户数据文件 zqghXXXXX.txt 国际化产品过户数据文件 ighXXXXX.txt 2.50 2025-03 1)3) 期权过户文件压缩包 OGHXXXXX.zip （包括期权成交过户数据文件 trns03XXXXX.txt 、期权持仓余额对账文件 hold03XXXXX.txt",
+      "detail": "停止转发以下过户数据文件：\n债券过户数据文件\nzqghXXXXX.txt\n国际化产品过户数据文件\nighXXXXX.txt\n2.50\n2025-03\n1)3)\n期权过户文件压缩包\nOGHXXXXX.zip\n（包括期权成交过户数据文件\ntrns03XXXXX.txt\n、期权持仓余额对账文件\nhold03XXXXX.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、期权其他业务 qtyw03XXXXX.txt",
+      "detail": "、期权其他业务\nqtyw03XXXXX.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS113",
+    "IS117",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 废止: 1项。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

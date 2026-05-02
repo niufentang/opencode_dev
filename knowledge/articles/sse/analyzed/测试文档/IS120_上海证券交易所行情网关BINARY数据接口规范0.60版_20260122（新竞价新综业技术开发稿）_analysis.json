@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-iface-20180309-119",
+  "title": "IS120_上海证券交易所行情网关BINARY数据接口规范0",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
+  "analysis_date": "2026-05-02T02:03:06.204242+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "6059 2026-01-22 0.60 版，市场状态消息（ MsgType=M101 ），增加在综合业务市场无支持开盘集 合竞价的产品、无发行期内国债预发行产品的情况下，字段无意义说明。 。当综合业务市场无支持开盘集合 竞价的产品时，无意义 ，暂不启用 。当无发行期内国债预发行产品时，无意",
+      "detail": "6059\n2026-01-22\n0.60\n版，市场状态消息（\nMsgType=M101\n），增加在综合业务市场无支持开盘集\n合竞价的产品、无发行期内国债预发行产品的情况下，字段无意义说明。\n。当综合业务市场无支持开盘集合\n竞价的产品时，无意义\n，暂不启用\n。当无发行期内国债预发行产品时，无意",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "新竞价新综业",
+    "期权",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

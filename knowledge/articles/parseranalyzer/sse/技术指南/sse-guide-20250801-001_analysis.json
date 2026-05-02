@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-guide-20250801-001",
+  "title": "上海证券交易所开放式基金等非交易迁移市场参与者技术实施指南1.4版_20250801",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10787347/files/69e55d852443442ab6a89dc354f42f44.pdf",
+  "analysis_date": "2026-05-02T05:41:47.459338+00:00",
+  "metadata": {
+    "file_hash": "sha256:494b971c6d477549e64f23496e2fdd6d1a48d693e45bcff24740c63664ad3dd4",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": "1.4",
+    "previous_version": null,
+    "public_date": "2025-08-01",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.4",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：1.4。",
+  "confidence": 0.72,
+  "raw_text": "1 、市场参与\n者仍\n可通过产品非交易基础信息接口\n（fjyYYYYMMDD.txt）\n获取\n非交易基础信息，格式不\n变\n。其中融资融\n券非交易业务、网络密码服务业务信息将不再通过fjyYYYYMMDD.txt\n文件下发，相关交易要\n素\n可通过《IS122\n_\n上海证券交易所交易网关\nSTEP 接口规格\n说明\n书（互联网交易平台）1.13\n版\n》\n获取\n；要约收购\n（现金选择权）申报编号通过备注字段下发。\n2、本次\n迁移\n的开放式基金产品（不\n含\n开放式货币市场基金）不\n再通过产品基础信息第二\n版\n第一批次文件接口cpxx0201MMDD.txt 发\n布\n。上述产品将于2025 年8 月1 日起在\n竞价撮\n合平台\n停牌\n，之后进\n行\n摘牌\n处理。\n（三）其他要\n求\n1、2025 年8 月业务正式\n切换\n后\n竞价撮\n合平台将不再支持上述四\n类非交易业务的申报。市场参与\n者\n应根据本所要\n求利\n用本所提供的测\n试环境进行\n充\n分测试验证，并完成技术\n就绪\n及相关准备工作。\n2、如\n遇\n订单\n瞬\n时\n激\n增，互联网平台将对部分订单反馈“19434\n系\n统\n繁忙\n，请\n稍\n后重试”的响应信息，请市场参与\n者\n再次重试。\n3、关于交易业务互联网申报通道注意\n事\n项：\n（1）TDGW 交易网关申报端（互联网平台）与交易业务互联网申\n报通道数据互相独立，\n建议\n市场参与\n者优\n先使用交易网关进行订单申\n报，注意不要对相同订单重复在交易网关与申报通道重复申报。\n（2）申报通道支持通过Exce\nl\n批量上\n传\n申报订单，常规情况下\n单文件支持数据上\n传\n量为40 条，如\n遇突\n发场景将提\n升\n为500 条，\n建\n上海证券交易\n第\n5\n页共6页\n上海证券\n交易\n所开放式基金等四类\n非交易\n迁移\n市场参与\n者技术实施指南\n议\n市场参与\n者充\n分结合自\n身\n业务\n特\n点\n评估\n订单填写等处理模式。\n4、在分\n区序\n号同\n步消\n息（U106）中，\n循\n环体\n最大\n数量应\n小\n于等\n于75，如\n超\n出\n则\n需\n拆\n分为\n多\n条\n消\n息发\n送\n。\n四、相\n关\n文档列\n表\n本所技术文\n档\n详\n见\n上交所网站交易技术支持专\n区\n，本次业务\n涉\n及\n相关技术文\n档\n如下。\n1、IS122\n_\n上海证券交易所交易网关STEP 接口规格\n说明\n书（互联\n网交易平台）1.13\n版\n2、IS101\n_\n上海证券交易所\n竞价撮\n合平台市场参与\n者\n接口规格\n说\n明\n书1.72\n版\n3、IS122\n_\n上海证券交易所交易网关STEP 接口规格\n说明\n书（\n竞价\n平台）0.56\n版\n4、IS122\n_\n上海证券交易所交易网关Binary 接口规格\n说明\n书（\n竞\n价\n平台）0.56\n版\n5、IS111\n_\n上海证券交易所报盘软件\n错误\n代码表3.27\n版\n上海证券交易\n第\n6\n页共6页"
+}

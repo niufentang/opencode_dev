@@ -1,0 +1,843 @@
+{
+  "source": "szse",
+  "last_updated": "2026-05-02T02:17:07+00:00",
+  "total_entries": 60,
+  "entries": [
+    {
+      "id": "szse-guide-20170516-231",
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-05-16",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-222",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-223",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-224",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-225",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-226",
+      "title": "深圳证券交易所基金公司数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-227",
+      "title": "深圳证券交易所数据文件交换接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-228",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-229",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-230",
+      "title": "深圳证券交易所组播行情数据分发协议（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-iface-20220521-210",
+      "title": "深市债券市场投资者适当性管理规则变更暨结算系统数据接口调整等业务2022年5月21日全网测试方案",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2022-05-21",
+      "tags": [
+        "szse",
+        "interface_spec",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-20220528-217",
+      "title": "深市结算系统数据接口调整2022年5月28日全网测试方案",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2022-05-28",
+      "tags": [
+        "szse",
+        "interface_spec",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-tech-20220905-199",
+      "title": "关于深市期权新品种仿真测试的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": "2022-09-05",
+      "tags": [
+        "szse",
+        "technical_notice",
+        "交易网关",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-tech-20230506-184",
+      "title": "2023年5月6日股票期权做市商服务费用支付方式优化暨扩充部分债券品种证券代码区间等业务通关方案",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": "2023-05-06",
+      "tags": [
+        "szse",
+        "technical_notice",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-189",
+      "title": "2023年7月15日深圳证券交易所内部测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220611-173",
+      "title": "2022年6月11日深市港股通按金优化业务通关测试暨ETF纳入港股通标的、深市互联互通全球存托凭证等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-06-11",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220625-206",
+      "title": "深市交易结算系统福田中心单中心运行2022年6月25日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-06-25",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220702-197",
+      "title": "ETF纳入港股通标的业务2022年7月2日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-02",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220709-204",
+      "title": "可转债交易机制优化暨债券借贷等业务2022年7月9日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-09",
+      "tags": [
+        "szse",
+        "test_doc",
+        "REITs",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20220716-203",
+      "title": "可转债交易机制优化暨债券借贷等业务2022年7月16日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-16",
+      "tags": [
+        "szse",
+        "test_doc",
+        "REITs",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20220723-198",
+      "title": "债券借贷暨现金债券ETF业务2022年7月23日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-23",
+      "tags": [
+        "szse",
+        "test_doc",
+        "REITs",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20220730-202",
+      "title": "可转债交易机制优化业务2022年7月30日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-30",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220806-218",
+      "title": "深市转板股票上市业务2022年8月6日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-06",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220813-200",
+      "title": "协议交易业务参考信息文件发布内容调整2022年8月13日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-13",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220820-201",
+      "title": "协议交易业务参考信息文件发布内容调整2022年8月20日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-20",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220827-221",
+      "title": "跨市场股票ETF（含北交所股票）业务2022年8月27日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-27",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220910-213",
+      "title": "深市期权新品种2022年9月10日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-09-10",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220917-214",
+      "title": "深市期权新品种2022年9月17日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-09-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20221029-172",
+      "title": "2022年10月29日深市现金债券ETF通用质押式回购业务通关测试暨配合港交所启用新版交易网关全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-10-29",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20221203-209",
+      "title": "深市债券交易规则实施二期业务暨港股交易费用调整2022年12月3日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-12-03",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20221210-219",
+      "title": "深证100ETF期权2022年12月10日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-12-10",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20221217-207",
+      "title": "深市债券交易规则实施二期业务暨全面实施扩位证券简称2022年12月17日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-12-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230107-208",
+      "title": "深市债券交易规则实施二期业务暨全面实施扩位证券简称2023年1月7日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-01-07",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230204-205",
+      "title": "深市交易结算系统南方中心单中心运行2023年2月4日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-02-04",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230211-215",
+      "title": "深市港股通交易日历优化业务2023年2月11日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-02-11",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230225-178",
+      "title": "2023年2月25日深市全面实行股票发行注册制改革摸底测试暨配合港交所启用新版交易网关全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-02-25",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230318-179",
+      "title": "2023年3月18日深市全面实行股票发行注册制改革发行业务通关测试及上市交易等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-03-18",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230325-211",
+      "title": "深市全面实行股票发行注册制改革2023年3月25日至26日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-03-25",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230401-216",
+      "title": "深市港股通交易日历优化暨全面实行股票发行注册制2023年4月1日测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-04-01",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230408-212",
+      "title": "深市全面实行股票发行注册制改革2023年4月8日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-04-08",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230422-180",
+      "title": "2023年4月22日深市港股通交易日历优化业务通关测试暨股票期权做市商服务费用支付方式优化业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-04-22",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230513-181",
+      "title": "2023年5月13日深市股票期权行情订阅功能全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-05-13",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230520-182",
+      "title": "2023年5月20日深圳证券交易所内部测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-05-20",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230527-183",
+      "title": "2023年5月27日深市股票期权行情订阅功能通关测试暨债券质押式协议回购业务风险控制、北交所证券纳入跨市场指数计算等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-05-27",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230610-185",
+      "title": "2023年6月10日北交所证券纳入跨市场指数计算业务通关测试暨可转债退市整理期等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-10",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230617-186",
+      "title": "2023年6月17日可转债退市整理期业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230617-187",
+      "title": "2023年6月17日港股通股票越秀地产派送越秀房产信托基金全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230624-188",
+      "title": "2023年6月24日港股通股票越秀地产派送越秀房产信托基金通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-24",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230708-191",
+      "title": "2023年7月8日调整Level 1行情发送带宽全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-07-08",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230722-190",
+      "title": "2023年7月22日调整Level 1行情发送带宽全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-07-22",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230729-220",
+      "title": "证券期货业第十三次网络安全联合应急演练（深圳证券交易所部分）测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-07-29",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-test-20230812-192",
+      "title": "2023年8月12日深市调整Level 1行情发送带宽暨债券质押式协议回购业务风险控制全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-08-12",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230819-193",
+      "title": "2023年8月19日深市调整Level 1行情发送带宽暨债券质押式协议回购业务风险控制全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-08-19",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230826-194",
+      "title": "2023年8月26日深市ETF申赎权限开通流程优化暨行情网关软件升级等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-08-26",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230909-195",
+      "title": "2023年9月9日深市ETF申赎权限开通流程优化暨行情网关软件升级等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-09-09",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230909-196",
+      "title": "2023年9月9日深市交易结算异地灾备系统（上海）全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-09-09",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20231014-174",
+      "title": "2023年10月14日现金债券ETF申购赎回清单优化暨扩充ETF证券代码区间等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-10-14",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20231028-175",
+      "title": "2023年10月28日融券保证金比例调整等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-10-28",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20231111-176",
+      "title": "2023年11月11日深圳证券交易所全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-11-11",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20231223-177",
+      "title": "2023年12月23日深市交易结算系统南方中心单中心运行全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-12-23",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    }
+  ]
+}

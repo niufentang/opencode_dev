@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-066",
+  "type": "technical_notice",
+  "title": "关于发布席位联通接口文件下线市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781349/files/3e0652cce7d04f27b9d05b25a4483b09.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b88ca0a085b04968e4d6f6b4669361f27cc68fb601e1f7ad2f9832c683728e08",
+  "content_markdown": "关于发布席位联通接口文件下线\n市场接口的通知\n各市场参与人：\n根据席位联通接口文件下线相关工作安排，现发布\n《 IS101_ 上海证券交易所竞价撮合平台市场参与者接口规格\n说明书 1.70 版 _20250523 （席位联通接口下线技术开发稿）》。\n市场参与人可登录市场技术服务平台“技术支持与信息管理\n- 软件与技术文档”相关栏目获取上述材料。请提前做好技术\n就绪准备。\n本次主要变更内容：市场参与者接口规格说明书中删除\n席位联通接口 zxwXXXXX.dbf 的相关描述。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 5 月 28 日\n\n<metadata>\n{\n  \"title\": \"20250528_关于发布席位联通接口文件下线市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250528_关于发布席位联通接口文件下线市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布席位联通接口文件下线市场接口的通知.md\",\n  \"file_hash\": \"sha256:b88ca0a085b04968e4d6f6b4669361f27cc68fb601e1f7ad2f9832c683728e08\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:35.393665+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

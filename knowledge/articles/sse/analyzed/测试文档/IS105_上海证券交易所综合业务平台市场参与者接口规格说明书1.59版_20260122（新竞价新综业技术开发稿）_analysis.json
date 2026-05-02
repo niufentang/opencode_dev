@@ -1,0 +1,73 @@
+{
+  "doc_id": "sse-iface-20260122-095",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T02:03:05.950662+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《综合业务平台市场参与者接口规格说明书》 1.59 版发布说明 2026.1 、过户数据接口 bghXXXXX.dbf dghXXXXXYYYYMMDD.dbf ：调整成交编号（ cjbh ）有效位数描述。 、行情文件 mktdt01.txt ：“市场行情状态”，增加在无支持开盘集合竞价的产品、无发行期内国债预发行",
+      "detail": "《综合业务平台市场参与者接口规格说明书》\n1.59\n版发布说明\n2026.1\n、过户数据接口\nbghXXXXX.dbf\ndghXXXXXYYYYMMDD.dbf\n：调整成交编号（\ncjbh\n）有效位数描述。\n、行情文件\nmktdt01.txt\n：“市场行情状态”，增加在无支持开盘集合竞价的产品、无发行期内国债预发行",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品的情况下，字段无意义说明。 、根据现状，补充与修订过户数据接口 相关描述，具体如下： RptGet",
+      "detail": "产品的情况下，字段无意义说明。\n、根据现状，补充与修订过户数据接口\n相关描述，具体如下：\nRptGet",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "（已下线）相关描述，",
+      "detail": "（已下线）相关描述，",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "dghXXXXX.zip 文件供券商用证通云盘下载。 注明对于货币市场基金申赎业务，过户数据仅向投资者发送。 补充过户数据中成交价格、成交金额无意义情况及取值说明。 补充过户数据中备注字段对齐说明。 证通云盘 （目前本业务有效位用到 位，后期将逐步扩 展位数，注意做好相关技术准备工作） 当无支持开盘集合竞价的",
+      "detail": "dghXXXXX.zip\n文件供券商用证通云盘下载。\n注明对于货币市场基金申赎业务，过户数据仅向投资者发送。\n补充过户数据中成交价格、成交金额无意义情况及取值说明。\n补充过户数据中备注字段对齐说明。\n证通云盘\n（目前本业务有效位用到\n位，后期将逐步扩\n展位数，注意做好相关技术准备工作）\n当无支持开盘集合竞价的",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品时，无意义 暂不启用 当无发行期内国 债预发行产品时，无意义 对于货币市场基金申赎业务，过户数据仅向投资者发送。 ，目前本业务有效位用到 位，后期将逐步扩展位数，注意做 好相关技术准备工作 对于报价回购出入库，暂无意义； 无意义填 暂无意义 意义无实际意义 业务、报价回购提前购回、报价回购出入库",
+      "detail": "产品时，无意义\n暂不启用\n当无发行期内国\n债预发行产品时，无意义\n对于货币市场基金申赎业务，过户数据仅向投资者发送。\n，目前本业务有效位用到\n位，后期将逐步扩展位数，注意做\n好相关技术准备工作\n对于报价回购出入库，暂无意义；\n无意义填\n暂无意义\n意义无实际意义\n业务、报价回购提前购回、报价回购出入库",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于货币市场基金申赎，无意义填 对于货币市场基金申赎，基金公司作为对手方买卖方向与投资者相反。 （左对齐）",
+      "detail": "对于货币市场基金申赎，无意义填\n对于货币市场基金申赎，基金公司作为对手方买卖方向与投资者相反。\n（左对齐）",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS124",
+    "REITs",
+    "STEP",
+    "债券",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 废止: 1项。 规则条款变更: 5项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,50 @@
+{
+  "doc_id": "sse-iface-00000000-116",
+  "title": "固定收益平台STEP协议报盘接口规格说明书V1.0版（开发测试稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10785858/files/fb5f5c3bd1284a74a2e0e616c2b308af.pdf",
+  "analysis_date": "2026-05-02T02:03:06.194244+00:00",
+  "status": "active",
+  "version": "1.0",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "（技术开发稿） 《上海证券交易所固定收益平台 STEP",
+      "detail": "（技术开发稿）\n《上海证券交易所固定收益平台\nSTEP",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议报盘接口规格说明书》",
+      "detail": "协议报盘接口规格说明书》",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.93 版发布说明， 2025 章节中将过户数据和订单状态文件的默认刷新间隔调整为 为减少系统卡顿，请各债券参与人将过户数据定时刷新间隔配置调整为",
+      "detail": "1.93\n版发布说明，\n2025\n章节中将过户数据和订单状态文件的默认刷新间隔调整为\n为减少系统卡顿，请各债券参与人将过户数据定时刷新间隔配置调整为",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS109",
+    "IS112",
+    "IS119",
+    "REITs",
+    "STEP",
+    "债券",
+    "做市商",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 技术架构变更: 1项。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

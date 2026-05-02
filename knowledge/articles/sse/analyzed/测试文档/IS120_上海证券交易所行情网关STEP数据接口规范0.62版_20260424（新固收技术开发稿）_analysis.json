@@ -1,0 +1,36 @@
+{
+  "doc_id": "sse-iface-20260121-128",
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+  "analysis_date": "2026-05-02T02:03:06.242000+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026-01-21 0.62 2.5.4 逐笔行情消息中明确 TransactTime 为委托或成交的行情 生成时间 行情生成时间",
+      "detail": "2026-01-21\n0.62\n2.5.4\n逐笔行情消息中明确\nTransactTime\n为委托或成交的行情\n生成时间\n行情生成时间",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

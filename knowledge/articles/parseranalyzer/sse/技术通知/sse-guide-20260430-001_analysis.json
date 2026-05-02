@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-guide-20260430-001",
+  "title": "关于发布新竞价新综业市场接口及技术实施指南（2026年4月修订）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10817290/files/b813da154ce0472abedf9aebc0480d68.pdf",
+  "analysis_date": "2026-05-02T05:42:03.544477+00:00",
+  "metadata": {
+    "file_hash": "sha256:4e508b35b5eb857866eeed00aada6c885a0ba38e451e40dd7d500e29cdc9d7af",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2026-04-30",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发布新竞价新综业市场接口及技术\n实施指南（\n2026\n年\n4\n月修订）的通知\n各市场参与人：\n根据新一代竞价交易系统（以下简称新竞价）、新一代\n综合业务系统（以下简称新综业）建设相关工作安排，现发\n布以下材料：\n一、《\nIS105_\n上海证券交易所综合业务平台市场参与者\n接口规格说明书\n1.60\n版\n_20260430\n（新竞价新综业技术开发\n稿）》\n二、《\nIS111_\n上海证券交易所报盘软件错误代码表\n3.29\n版\n_20260430\n（新竞价新综业技术开发稿）》\n三、《上海证券交易所新竞价新综业若干技术调整市\n场参与人技术实施指南\n1.2\n版\n_20260430\n（新竞价新综业技术\n开发稿）》\n市场参与人可通过本所官方网站“交易技术支持专区”\n或登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术\n文档”相关栏目获取上述材料。本次变更内容详见各文档内\n修订记录。请做好技术就绪准备。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2026\n年\n4\n月\n30\n日"
+}

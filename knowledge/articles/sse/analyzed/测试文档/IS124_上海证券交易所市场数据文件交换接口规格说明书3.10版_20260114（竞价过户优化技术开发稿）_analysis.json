@@ -1,0 +1,44 @@
+{
+  "doc_id": "sse-iface-20260114-148",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.724508+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "修订竞价过户数据文件 ghXXXXX.dbf 3.10 2026-01 ）启用本次余额字段，支持超 位成交编号的情况。 ，新交易系统切换后，该字段被置为 对于现货（股票基金）竞价交易、 配股配债科创板配售、指定登记和指定撤销业务，当成交编号不足 时，成交编号 Cjbh 和本次余额 Bcye 均填写完整成交编号；当成交编号超过",
+      "detail": "修订竞价过户数据文件\nghXXXXX.dbf\n3.10\n2026-01\n）启用本次余额字段，支持超\n位成交编号的情况。\n，新交易系统切换后，该字段被置为\n对于现货（股票基金）竞价交易、\n配股配债科创板配售、指定登记和指定撤销业务，当成交编号不足\n时，成交编号\nCjbh\n和本次余额\nBcye\n均填写完整成交编号；当成交编号超过",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交编号 无意义，本次余额 填写完整成交编号。市场参与主体应能支持 通过本次余额 字段获取完整成交编号，用于相关业务处理。",
+      "detail": "成交编号\n无意义，本次余额\n填写完整成交编号。市场参与主体应能支持\n通过本次余额\n字段获取完整成交编号，用于相关业务处理。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS109",
+    "IS113",
+    "IS117",
+    "IS118",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

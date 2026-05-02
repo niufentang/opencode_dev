@@ -1,0 +1,115 @@
+{
+  "doc_id": "sse-guide-20260327-005",
+  "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南V2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10813251/files/be44dceb2c0647d5af27e1e6827fb352.pdf",
+  "analysis_date": "2026-05-02T02:03:05.551749+00:00",
+  "status": "deprecated",
+  "version": "2",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "为提升基金净值估算（ IOPV ）行情的发布效率与系统可靠性，本所推出独立的 行情发布通道。本项目将通过三个阶段，逐步以新增的外部源行情通道，替代现 有竞价撮合系统行情中的 （行情流 SecurityType=14 行情文件 mktdte.txt 主用使用 原渠道（ SecurityType=1 mktdt00.txt",
+      "detail": "为提升基金净值估算（\nIOPV\n）行情的发布效率与系统可靠性，本所推出独立的\n行情发布通道。本项目将通过三个阶段，逐步以新增的外部源行情通道，替代现\n有竞价撮合系统行情中的\n（行情流\nSecurityType=14\n行情文件\nmktdte.txt\n主用使用\n原渠道（\nSecurityType=1\nmktdt00.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段将保留至第三阶段开始前，但不 再建议使用。原渠道（ 行情将逐步减少转发直 至不再通过此渠道发布，原渠道中 相关字段会保留并填写为 （表示无意义）， 以避免系统兼容性问题。 （三）第三阶段 第二阶段开始 个月后，进入第三阶段，原渠道（ 字段将会标记为无意义。市场机构应确保所有系统已完全脱离对原渠道",
+      "detail": "字段将保留至第三阶段开始前，但不\n再建议使用。原渠道（\n行情将逐步减少转发直\n至不再通过此渠道发布，原渠道中\n相关字段会保留并填写为\n（表示无意义），\n以避免系统兼容性问题。\n（三）第三阶段\n第二阶段开始\n个月后，进入第三阶段，原渠道（\n字段将会标记为无意义。市场机构应确保所有系统已完全脱离对原渠道",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数据的依赖。 第一阶段： 第二阶段：接口无变更。",
+      "detail": "数据的依赖。\n第一阶段：\n第二阶段：接口无变更。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "第三阶段：下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "detail": "第三阶段：下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "相关字段标记为“无意义”。",
+      "detail": "相关字段标记为“无意义”。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "第三阶段：下线竞价撮合系统行情文件",
+      "detail": "第三阶段：下线竞价撮合系统行情文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情，相关字段标记为 “无意义”。 第二阶段：接口无调整。 第三阶段： 行情快照消息（ MsgType=M102/W MDStreamID=MDE01 ）中，行情 条目类别为 MDEntryPx 表示基金 日收盘时刻 ，数据内容无意义此条目 MDStreamID= MD004 时有意义，当 MDStreamID= MDE01",
+      "detail": "行情，相关字段标记为\n“无意义”。\n第二阶段：接口无调整。\n第三阶段：\n行情快照消息（\nMsgType=M102/W\nMDStreamID=MDE01\n）中，行情\n条目类别为\nMDEntryPx\n表示基金\n日收盘时刻\n，数据内容无意义此条目\nMDStreamID= MD004\n时有意义，当\nMDStreamID= MDE01",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时无意义，该字段取 时无意义；行情条目类别为 ，此条目仅当 MDStreamID= MD004 MDE01 时有意义，该字段取 时无意义。 文件名采用固定文件名规则，而非动态命名规则 ，文件名中不包含环境 号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据上述规 则，在切换环境时注意区分。",
+      "detail": "时无意义，该字段取\n时无意义；行情条目类别为\n，此条目仅当\nMDStreamID=\nMD004\nMDE01\n时有意义，该字段取\n时无意义。\n文件名采用固定文件名规则，而非动态命名规则\n，文件名中不包含环境\n号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据上述规\n则，在切换环境时注意区分。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "注意：相对于竞价撮合系统行情（ MDGW 实时流中 MDStreamID=MD004 数据）中 字段，外部源行情（ 数据）中无基金",
+      "detail": "注意：相对于竞价撮合系统行情（\nMDGW\n实时流中\nMDStreamID=MD004\n数据）中\n字段，外部源行情（\n数据）中无基金",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "下线竞价撮合系统行情文件",
+      "detail": "下线竞价撮合系统行情文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PreCloseIOPV 字段标记为无意义。 （四）其他项目关联关系说明 外部源机构提供的 行情数据，本所将统一通过独立 行情渠道 发布，不会通过现有渠道（ ）发布。因此，为保障能接收 行情数据（含未来外部源数据），各市场机构必须在 外部源业务上 线前完成独立 行情渠道的接入。 动态文件名规则：如撮合系统行情文件，文件名为",
+      "detail": "PreCloseIOPV\n字段标记为无意义。\n（四）其他项目关联关系说明\n外部源机构提供的\n行情数据，本所将统一通过独立\n行情渠道\n发布，不会通过现有渠道（\n）发布。因此，为保障能接收\n行情数据（含未来外部源数据），各市场机构必须在\n外部源业务上\n线前完成独立\n行情渠道的接入。\n动态文件名规则：如撮合系统行情文件，文件名为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt+ [ ]+.txt ，其中环境号会随部署环境变化。例如：在生产环境 环境）中文件名为 ，在测试环境（如 mktdt88.txt",
+      "detail": "mktdt+ [\n]+.txt\n，其中环境号会随部署环境变化。例如：在生产环境\n环境）中文件名为\n，在测试环境（如\nmktdt88.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS120",
+    "IS124",
+    "STEP",
+    "债券",
+    "期权",
+    "独立IOPV",
+    "融资融券",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及12项变更。 废止: 3项。 规则条款变更: 9项。",
+  "confidence": 0.95
+}

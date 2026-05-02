@@ -1,0 +1,25 @@
+{
+  "doc_id": "sse-guide-20250815-154",
+  "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10807304/files/4212cbcec8644849af0dfc43bb536d93.pdf",
+  "analysis_date": "2026-05-02T02:03:06.784286+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "IS118",
+    "IS419",
+    "债券",
+    "期权",
+    "融资融券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：1。",
+  "confidence": 0.75
+}

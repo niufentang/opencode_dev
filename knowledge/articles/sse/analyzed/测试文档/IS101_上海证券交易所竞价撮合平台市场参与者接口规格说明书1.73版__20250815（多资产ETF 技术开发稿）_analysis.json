@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-iface-20250815-091",
+  "title": "IS101_上海证券交易所竞价撮合平台市场参与者接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10789328/files/3c6ccdac26eb4639919413594d2d3d62.pdf",
+  "analysis_date": "2026-05-02T02:03:05.885168+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《市场参与者接口规格说明书》 1.73 版发布说明 2025 月进行了修订，主要有： 支持多资产 业务，修订产品基础信息文件 cpxx0201MMDD.txt 细分类型。 “F171” 表示单市场多资产 “F172” 表示跨市场多资产 “F173” 表示现金申赎类多资产",
+      "detail": "《市场参与者接口规格说明书》\n1.73\n版发布说明\n2025\n月进行了修订，主要有：\n支持多资产\n业务，修订产品基础信息文件\ncpxx0201MMDD.txt\n细分类型。\n“F171”\n表示单市场多资产\n“F172”\n表示跨市场多资产\n“F173”\n表示现金申赎类多资产",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS111",
+    "IS118",
+    "IS122",
+    "REITs",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

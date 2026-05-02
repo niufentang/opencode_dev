@@ -1,0 +1,79 @@
+{
+  "doc_id": "sse-iface-20251129-002",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（竞价平台）0.57版_20251128",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T05:41:49.711627+00:00",
+  "metadata": {
+    "file_hash": "sha256:6e4c57d0bdffc469bdb25c8542c942df6f0b4bcd0a83bad72bd9be801f2e1849",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "0.57",
+    "previous_version": null,
+    "public_date": "2025-11-29",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "0.57",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "接口规格说明书》文档正式废止，相关内容迁移至《",
+      "detail": "接口规格说明书》文档正式废止，相关内容迁移至《",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124",
+      "detail": "IS124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11-01",
+      "detail": "2025-11-01",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.57",
+      "detail": "0.57",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新相关引用描述。",
+      "detail": "新相关引用描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 废止: 1项。 规则条款变更: 5项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "Message Data Error\n5016\nClOrdID\n取值错误\n注：本表仅提供交易网关错误码，系统后台错误码参照每日发送的竞价平台错误码信息文件。\n5.4\n附四\n“用户私有信息”说明\n对于应用消息中的“用户私有信息”字段，有如下规则：\n1. TDGW\n返回给\nOMS\n的下行消息中“用户私有信息”，取该条下行消息所对应的上行\n消息（由\nOMS\n发送给\nTDGW\n）中的“用户私有信息”字段值。\n39\n交易网关数据接口规范\n5.5\n附五\n价格数量字段说明\n现货竞价交易\n其他\nMsgType=8\n字段\n限价\n市转撤\n市转限\n本方最\n优\n对手方\n最优\n其他\nPrice 申报价\n格\n申报信\n息\n申报信\n息\n申报信\n息\n申报信\n息\n申报信\n息\n申报信\n息\nOrderQty 申报\n数量\n申报信\n息\n申报信\n息\n申报信\n息\n申报信\n息\n申报信\n息\n申报成功\n响应\n申报信\n息\nLeavesQty 剩\n余数量\n无意义\n无意义\n转限数\n量\n转限数\n量\n转限数\n量\n无意义\nCxlQty 撤单数\n量\n无意义\n撤单数\n量\n无意义\n无意义\n无意义\n无意义\n申报失败\n响应\nPrice 申报价\n格\n申报信息\n申报信\n息\nOrderQty 申报\n数量\n申报信息\n申报信\n息\nLeavesQty 剩\n余数量\n无意义\n无意义\nCxlQty 撤单数\n量\n无意义\n无意义\n撤单成功\n响应\nPrice 申报价\n格\n被撤原申报（市价单填0）\n被撤原\n申报\nOrderQty 申报\n数量\n被撤原申报\n被撤原\n申报\nLeavesQty 剩\n余数量\n无意义\n无意义\nCxlQty 撤单数\n量\n撤单数量\n无意义\n5.6\n附六\n融资融券\n投资者要进行融资融券信用交易，需向具备融资融券业务资格的证券公司申请，开设\nE\n字头的\n“\n投资者信用证券账户\n”\n。\n开展融券业务的证券公司必须在中登公司开设\n“\n证券公司融券专用账户\n”\n，存放自有证券，\n供投资者进行融券交易。证券公司融券专用账户不得进行任何申报。\n开展融券业务的证券公司还必须在中登公司开设\n“\n证券公司信用交易担保证券账户\n”\n，该\n帐户与\n“\n投资者信用证券账户\n”\n之间是总帐与二级明细帐的关系，用于记载投资者委托证券公\n司持有的担保证券的明细数据，对应明细数据由中登公司维护。证券公司信用交易担保证券\n40\n交易网关数据接口规范\n账户不得进行任何申报。\n投资者信用证券账户可申报的非交易业务包括：发行（具体参考交易所通知）、配股\n/\n科创板配售、配转债。\n融资融券信用交易业务，仅供投资者信用证券账户申报，且必须带信用标签，信用标签\n使用说明如下：\n信用交易\nCreditTag\nSide\nSecurityID\n担保品买入\nXY\n1\n担保品标的\n担保品卖出\n2\n股票、封闭式基金、\nETF\n、国债、可转债\n融资买入\nRZ\n1\n融资买入标的\n卖券还款\n2\n股票、封闭式基金、\nETF\n、国债、可转债\n融券卖出\nRQ\n2\n融券卖出标的\n买券还券\n1\n买券还券标的\n平仓买入\nPC\n1\n买券还券标的\n平仓卖出\n2\n股票、封闭式基金、\nETF\n、国债、可转债\n注：融券卖出不支持市价订单。\n41"
+}

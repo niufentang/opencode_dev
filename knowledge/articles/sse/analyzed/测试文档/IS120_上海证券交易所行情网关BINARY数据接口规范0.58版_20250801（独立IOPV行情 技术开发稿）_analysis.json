@@ -1,0 +1,51 @@
+{
+  "doc_id": "sse-iface-20180309-117",
+  "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
+  "analysis_date": "2026-05-02T02:03:06.198240+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-08-01 0.58 版，在市场状态消息（ MsgType=M101 ）、行情快照消息 MsgType=M102 ）中增加独立 IOPV 行情描述。 14 = 外部源行情 SecurityType = 14 MDE01 MDStreamID =MDE01 PreClosePx 昨收盘、 TotalVolumeTraded",
+      "detail": "2025-08-01\n0.58\n版，在市场状态消息（\nMsgType=M101\n）、行情快照消息\nMsgType=M102\n）中增加独立\nIOPV\n行情描述。\n14 =\n外部源行情\nSecurityType = 14\nMDE01\nMDStreamID =MDE01\nPreClosePx\n昨收盘、\nTotalVolumeTraded",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交数量、 NumTrades 成交笔数、 TotalValueTraded 成交金额字段取值为 TradingPhaseCode 实时阶段及标志取 值为空。 SecurityType = 14, MDStreamID= MDE01 ，此条目仅当 MDStreamID= MD004 时有意义，当 MDStreamID= MDE01",
+      "detail": "成交数量、\nNumTrades\n成交笔数、\nTotalValueTraded\n成交金额字段取值为\nTradingPhaseCode\n实时阶段及标志取\n值为空。\nSecurityType = 14, MDStreamID= MDE01\n，此条目仅当\nMDStreamID= MD004\n时有意义，当\nMDStreamID= MDE01",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时无意义 以上两类行情此 该字段取 时，无意义。",
+      "detail": "时无意义\n以上两类行情此\n该字段取\n时，无意义。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通",
+    "独立IOPV",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

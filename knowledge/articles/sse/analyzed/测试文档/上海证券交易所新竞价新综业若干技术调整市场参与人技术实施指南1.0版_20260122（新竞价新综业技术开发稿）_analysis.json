@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-guide-20260122-166",
+  "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10817288/files/5423c05c361a4c9f98525a36650c74aa.pdf",
+  "analysis_date": "2026-05-02T02:03:06.827005+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS105",
+    "IS111",
+    "IS118",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

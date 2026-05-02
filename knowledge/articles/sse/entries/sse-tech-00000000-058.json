@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-058",
+  "type": "technical_notice",
+  "title": "关于发布公募REITs非定向扩募市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781075/files/8f5fb4abd73f4009b235077e05cae62f.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105",
+    "REITs"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:95db37005edd7975d27e6b2a4ebc68eaa882f32c05aaa85eff7603f491b090a9",
+  "content_markdown": "关于发布公募 REITs 非定向扩募\n市场接口的通知\n各市场参与人：\n根据公募 REITs 向原持有人配售和公开募集（简称“非\n定向扩募”）业务相关工作安排，现发布《 IS105_ 上海证券\n交易所综合业务平台市场参与者接口规格说明书 1.56 版\n（ REITs 非定向扩募技术开发稿） _20250401 》。市场参与人\n可登录市场技术服务平台“技术支持与信息管理 - 软件与技术\n文档”相关栏目获取上述材料。请提前做好技术就绪准备。\n本次主要变更内容：增加 REITs 配售和 REITs 公开募集\n业务申报接口，更新基金及公募 REITs 业务参数公告文件\nsfpm01MMDD.txt 、过户数据接口 bghXXXXX.dbf 相关描述；\n二是修订文档其他相关描述；三是修订业务类型与执行报告\n数据广播类型及产品集关系表。详见文档内修订记录。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 4 月 1 日\n\n<metadata>\n{\n  \"title\": \"20250401_关于发布公募REITs非定向扩募市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250401_关于发布公募REITs非定向扩募市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布公募REITs非定向扩募市场接口的通知.md\",\n  \"file_hash\": \"sha256:95db37005edd7975d27e6b2a4ebc68eaa882f32c05aaa85eff7603f491b090a9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:32.891871+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

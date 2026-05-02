@@ -1,0 +1,52 @@
+{
+  "doc_id": "sse-iface-20251128-023",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T02:03:05.628283+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11 1.14 IS101",
+      "detail": "2025-11\n1.14\nIS101",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "者接口规格说明书》文档正式废止，相关内容迁移至",
+      "detail": "者接口规格说明书》文档正式废止，相关内容迁移至",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124 说明书》，更新相关引用描述。 5010",
+      "detail": "IS124\n说明书》，更新相关引用描述。\n5010",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "做市商",
+    "报盘软件",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 废止: 1项。 规则条款变更: 2项。 其中重大变更1项。",
+  "confidence": 0.95
+}

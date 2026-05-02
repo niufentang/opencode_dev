@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-iface-20251128-006",
+  "title": "关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10800106/files/3f38bb26c9dc467b84e7e1f224693f26.pdf",
+  "analysis_date": "2026-05-02T05:42:03.462140+00:00",
+  "metadata": {
+    "file_hash": "sha256:bc49f08050b3c5049464409e53af3d8709d46c0a68a99a2f20d0982b32c848cd",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-11-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：interface_spec，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于废止《\nIS101\n上海证券交易所竞价撮合\n平台市场参与者接口规格说明书》并更新\n相关市场接口的通知\n各市场参与人：\n易神系统报盘子系统\nEzOES\n软件已于前期下线。\n《\nIS101\n上海证券交易所竞价撮合平台市场参与者接口规格说明书》\n自即日起废止并下线，相关内容迁移至《\nIS124_\n上海证券交\n易所市场数据文件交换接口规格说明书》。以下材料同步进\n行更新发布：\n一、《\nIS105_\n上海证券交易所综合业务平台市场参与者\n接口规格说明书\n1.58\n版\n_20251128\n》\n二、《\nIS118_\n上海证券交易所特定参与者接口规格说明\n书（基金公司卷）\n2.3\n版\n_20251128\n》\n三、《\nIS118_\n上海证券交易所特定参与者接口规格说明\n书（托管银行卷）\n1.35\n版\n_20251128\n》\n四、《\nIS122_\n上海证券交易所交易网关\nBinary\n接口规格\n说明书（竞价平台）\n0.57\n版\n_20251128\n》\n五、《\nIS122_\n上海证券交易所交易网关\nBinary\n接口规格\n说明书（债券平台）\n1.94\n版\n_20251128\n》\n六、《\nIS122_\n上海证券交易所交易网关\nSTEP\n接口规格\n说明书（竞价平台）\n0.57\n版\n_20251128\n》\n七、《\nIS122_\n上海证券交易所交易网关\nSTEP\n接口规格\n说明书（债券平台）\n1.94\n版\n_20251128\n》\n八、《\nIS122_\n上海证券交易所交易网关\nSTEP\n接口规格\n说明书（互联网交易平台）\n1.14\n版\n_20251128\n》\n九、《\nIS124_\n上海证券交易所市场数据文件交换接口规\n格说明书\n2.90\n版\n_20251128\n》\n市场参与人可通过本所官方网站\n“\n交易技术支持专区\n”\n或\n登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请做好技术就绪准备。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2025\n年\n11\n月\n28\n日"
+}

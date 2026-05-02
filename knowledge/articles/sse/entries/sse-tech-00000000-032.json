@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-032",
+  "type": "technical_notice",
+  "title": "关于TXT版ETF定义文件上传功能下线的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10811042/files/7eed31fb4fa64d6fa91b8adf5e3f5cbf.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:cb431372b7aa8293c9576f9da81f43b510076f4059bf4a09fe68a02bd0418f23",
+  "content_markdown": "关于TXT 版ETF 定义文件上传功能下线\n的通知\n各市场参与人：\n上海证券交易所拟于 2026 年 3 月 28 日关闭证通云盘\nTXT 版本 ETF 定义文件上传通道并进行通关测试验证。 3 月\n30 日（周一）起，证通云盘将不再支持 TXT 版 ETF 定义文\n件上传，请各基金管理人使用 XML 版 ETF 定义文件上传。\n咨询电话： 4008888400 按键 2 ；邮箱： tech_support@sse.\ncom.cn ； QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2026 年 3 月 6 日\n\n<metadata>\n{\n  \"title\": \"20260306_关于TXT版ETF定义文件上传功能下线的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20260306_关于TXT版ETF定义文件上传功能下线的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于TXT版ETF定义文件上传功能下线的通知.md\",\n  \"file_hash\": \"sha256:cb431372b7aa8293c9576f9da81f43b510076f4059bf4a09fe68a02bd0418f23\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:47.437658+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-tech-20250801-003",
+  "title": "关于发布UniTrans停发上交所实时行情市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10795898/files/a469c6296978465b80849ce9a09edc2e.pdf",
+  "analysis_date": "2026-05-02T05:42:03.349361+00:00",
+  "metadata": {
+    "file_hash": "sha256:7f02223ad95d8d44bb1dd753b4effbd2923ced34b2824509cc93464c7c8cddea",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "technical_notice",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-08-01",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "UniTrans"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：technical_notice，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发\n布\nUniTrans\n停\n发上交所实时行情\n市场接口的通知\n各市场参与人：\n根据\nUniTrans\n（以下简称\nUT\n）\n停\n发上交所实时行情相\n关工作\n安排\n，现发\n布\n《\nIS124_\n上海证券交易所市场数据文件\n交\n换\n接口规格\n说明\n书\n2.70\n版\n_20250716\n（\nUT\n下线第\n六阶\n段\n技术开发\n稿\n）》。市场参与人可通过本所\n官\n方网站\n“\n交易技术\n支持专\n区\n”\n或登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术文\n档\n”相关\n栏\n目\n获取\n上述\n材料\n。本次\n变更\n内容详\n见\n文\n档\n内修订记录。请提前做好技术\n就绪\n准备。\n后\n续\n，\nUT\n停\n发上交所实时行情后，\nUT\n将完成整体下线，\n《\nIS118\n上海证券交易所\n特\n定参与\n者\n接口规格\n说明\n书（转发\n卷\n）》\n也\n将同\n步废止\n。\n技术\n咨\n询电话：\n4008888400\n转\n2\n；技术支持邮\n箱\n：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群\n：\n298643611\n。\n特\n此通知。\n上海证券交易所\n2025\n年\n8\n月\n1\n日"
+}

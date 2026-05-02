@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-guide-20250801-007",
+  "title": "关于发布非交易业务迁移市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10787331/files/22dd92fde8814e22ad7ddad13776f90b.pdf",
+  "analysis_date": "2026-05-02T05:42:03.375416+00:00",
+  "metadata": {
+    "file_hash": "sha256:1ff0bf388eb8c6f7150e7db8de04508f7154c56180230d082628905d99399f0f",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-08-01",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发\n布\n非交易业务\n迁移\n市场接口及技术\n指南\n（正式\n稿\n）的通知\n各市场参与人：\n根据非交易业务\n迁移\n相关工作\n安排\n，现发\n布\n以下\n材料\n：\n一、《IS101\n_\n上海证券交易所\n竞价撮\n合平台市场参与\n者\n接口规格\n说明\n书1.72\n版_\n20250801》\n二、《IS111\n_\n上海证券交易所报盘软件\n错误\n代码表\n3.27\n版_\n20250801》\n三、《IS122\n_\n上海证券交易所交易网关Binary 接口规\n格\n说明\n书（\n竞价\n平台）0.56\n版_\n20250801》\n四、《IS122\n_\n上海证券交易所交易网关STEP 接口规格\n说明\n书（互联网交易平台）1.13\n版_\n20250801》\n五、《IS122\n_\n上海证券交易所交易网关STEP 接口规格\n说明\n书（\n竞价\n平台）0.56\n版_\n20250801》\n六\n、《上海证券交易所开放式基金等非交易\n迁移\n市场\n参与\n者\n技术实\n施指南\n1.4\n版_\n20250801》\n市场参与人可通过本所\n官\n方网站\n“\n交易技术支持专\n区\n”\n或\n登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术文\n档\n”相关\n栏\n目\n获取\n上述\n材料\n。\n上海证券交易所开放式基金、融资融券、要约（\n含\n现金\n选择权）和网络密码服务\n共\n四类非交易业务\n迁移至\n互联网交\n易平台，\n迁移\n工作将于2025 年8 月1 日日\n终\n清算结\n束\n之后\n完成，业务\n切换\n不\n设\n置并行期。自2025 年8 月4 日（周一）\n起，本所\n竞价撮\n合平台将不再受理上述四项业务的申报（\n含\nE\nz\nOES 申报）。请各市场参与人在8 月1 日\n闭\n市后按\n照\n上述\n技术文\n档\n做好相关技术\n切换\n工作，并参加8 月2 日开展的业\n务通关测试。\n技术\n咨\n询电话：\n4008888400\n转\n2\n；技术支持邮\n箱\n：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群\n：\n298643611\n。\n特\n此通知。\n上海证券交易所\n2025\n年8 月1 日"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-047",
+  "type": "technical_notice",
+  "title": "关于发布UniTrans停发上交所私有类文件市场接口（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781083/files/470dbd91cfd940ee8b4ec874926dc471.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS118",
+    "IS124",
+    "UniTrans"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:2e9c708369328cc3339f2aa9d35d4256538e67f668615ed52ecde4c2ee5fdd44",
+  "content_markdown": "关于发布 UniTrans 停发上交所私有类文件\n市场接口（正式稿）的通知\n各市场参与人：\n根据 UniTrans （以下简称 UT ）停发上交所私有类文件\n相关工作安排，现发 布《 IS118 上海证券交易所 特 定参与 者\n接 口 规格 说 明 书 （转发 卷 ） 1.6 版 _20250421 》《 IS124_ 上海\n证券交易所市场数据文件交换接 口 规格 说 明 书 2.50 版\n_20250421 》 。市场参与人可登录市场技术服务 平 台“技术\n支持与信息管理 - 软件与技术文 档 ”相关 栏 目获取上述 材料 。\n请 提 前做好技术就绪准备。\n本次 主要变 更内容：对 UT 停 止 转发上交所私有类文件\n相关内容进行更新。详见文 档 内修订记录。\n技术 咨 询电话： 4008888400 转 2 ；技术支持邮 箱 ：\ntech_support@sse.com.cn ；技术支持服务 QQ 群 ： 298643611 。\n特 此通知。\n上海证券交易所\n2025 年 5 月 9 日\n\n<metadata>\n{\n  \"title\": \"20250509_关于发布UniTrans停发上交所私有类文件市场接口（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250509_关于发布UniTrans停发上交所私有类文件市场接口（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布UniTrans停发上交所私有类文件市场接口（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:2e9c708369328cc3339f2aa9d35d4256538e67f668615ed52ecde4c2ee5fdd44\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:34.151136+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

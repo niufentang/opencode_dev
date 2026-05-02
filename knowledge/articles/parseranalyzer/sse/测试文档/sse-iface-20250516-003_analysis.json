@@ -1,0 +1,651 @@
+{
+  "doc_id": "sse-iface-20250516-003",
+  "title": "IS118 上海证券交易所特定参与者接口规格说明书（转发卷）1.7版_20250512（UT下线第五阶段 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10785855/files/258e5bdc5b6e4f40a6c9e03817720bee.pdf",
+  "analysis_date": "2026-05-02T05:42:10.258413+00:00",
+  "metadata": {
+    "file_hash": "sha256:350630692457584a293ff5c8de6db003fe615915cf4fc4783bf64904dbe251cb",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.7",
+    "previous_version": null,
+    "public_date": "2025-05-16",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "1.7",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（转发卷）》",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（转发卷）》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布说明",
+      "detail": "发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025",
+      "detail": "2025",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "月修订内容：",
+      "detail": "月修订内容：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "下线第五阶段安排，停止转发公共文件。",
+      "detail": "下线第五阶段安排，停止转发公共文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、公共类数据文件",
+      "detail": "、公共类数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、公共文件类（文件公共广播）",
+      "detail": "、公共文件类（文件公共广播）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公共文件类",
+      "detail": "公共文件类",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易公开信息公告文件",
+      "detail": "交易公开信息公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jygkxxMMDD.txt",
+      "detail": "jygkxxMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "司法执行公告文件",
+      "detail": "司法执行公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "sf********.pdf",
+      "detail": "sf********.pdf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "科创板交易公开信息公告文件",
+      "detail": "科创板交易公开信息公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jygkxx02MMDD.txt",
+      "detail": "jygkxx02MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券标准券折算率变更接口",
+      "detail": "债券标准券折算率变更接口",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zslMMDD.txt",
+      "detail": "zslMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券标准券折算率变更公告文件",
+      "detail": "债券标准券折算率变更公告文件",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zslwMMDD.txt",
+      "detail": "zslwMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金和净值数据文件",
+      "detail": "基金和净值数据文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "kxxMMDD.txt",
+      "detail": "kxxMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "权证信息接口",
+      "detail": "权证信息接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "qzxxMMDD.txt",
+      "detail": "qzxxMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券标准券折算比率接口",
+      "detail": "债券标准券折算比率接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "xzslMMDD.txt",
+      "detail": "xzslMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "盘中停牌公告文件",
+      "detail": "盘中停牌公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "tpxxxxhhmmss.txt",
+      "detail": "tpxxxxhhmmss.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "国债利息接口",
+      "detail": "国债利息接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "gzlx.MDD",
+      "detail": "gzlx.MDD",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品非交易基础数据",
+      "detail": "产品非交易基础数据",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "fjyYYYYMMDD.txt",
+      "detail": "fjyYYYYMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "担保品及标的证券清单公告",
+      "detail": "担保品及标的证券清单公告",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "dbpMMDD.txt",
+      "detail": "dbpMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "紧急通知文件",
+      "detail": "紧急通知文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MMDDFNNN.txt",
+      "detail": "MMDDFNNN.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告摘要文件",
+      "detail": "公告摘要文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MMDDZNNN.txt",
+      "detail": "MMDDZNNN.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品基础信息文件第二版第一批次",
+      "detail": "产品基础信息文件第二版第一批次",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "cpxx0201MMDD.txt",
+      "detail": "cpxx0201MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品基础信息文件第二版第二批次",
+      "detail": "产品基础信息文件第二版第二批次",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "cpxx0202MMDD.txt",
+      "detail": "cpxx0202MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金业务参数公告文件",
+      "detail": "基金业务参数公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "sfpm01MMDD.txt",
+      "detail": "sfpm01MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS105",
+      "detail": "IS105",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券非交易基础信息文件",
+      "detail": "债券非交易基础信息文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zfjyYYYYMMDD.xml",
+      "detail": "zfjyYYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金非交易基础信息文件",
+      "detail": "基金非交易基础信息文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "jfjyYYYYMMDD.xml",
+      "detail": "jfjyYYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转融通标的证券清单",
+      "detail": "转融通标的证券清单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zrtbdMMDD.txt",
+      "detail": "zrtbdMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券报价式回购折算率文件",
+      "detail": "债券报价式回购折算率文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bzsl01MMDD.txt",
+      "detail": "bzsl01MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "网络投票议案结构文件",
+      "detail": "网络投票议案结构文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "vtlsMMDD.xml",
+      "detail": "vtlsMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价收盘文件",
+      "detail": "报价收盘文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bjspMMDD.txt",
+      "detail": "bjspMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS118",
+      "detail": "IS118",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（托管银行卷）",
+      "detail": "（托管银行卷）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS109",
+      "detail": "IS109",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交明细文件",
+      "detail": "成交明细文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bjmxMMDD.txt",
+      "detail": "bjmxMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价全部文件",
+      "detail": "报价全部文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bjqbMMDD.txt",
+      "detail": "bjqbMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "期权基础信息文件",
+      "detail": "期权基础信息文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "reff03MMDD.txt",
+      "detail": "reff03MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124",
+      "detail": "IS124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "reff0302YYYYMMDD.xml",
+      "detail": "reff0302YYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "期权收盘价格文件",
+      "detail": "期权收盘价格文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "clpr03MMDD.txt",
+      "detail": "clpr03MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "期权组合策略文件",
+      "detail": "期权组合策略文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zhcl03MMDD.txt",
+      "detail": "zhcl03MMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件",
+      "detail": "公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "******MMDD2.etf",
+      "detail": "******MMDD2.etf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（基金公司卷）",
+      "detail": "（基金公司卷）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券盘中停牌公告文件",
+      "detail": "债券盘中停牌公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ztxxxxhhmmss.txt",
+      "detail": "ztxxxxhhmmss.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "国际化产品信息接口",
+      "detail": "国际化产品信息接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ifjyYYYYMMDD.xml",
+      "detail": "ifjyYYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "重点指数及样本表现",
+      "detail": "重点指数及样本表现",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zsbxYYMMDD.txt",
+      "detail": "zsbxYYMMDD.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券产品信息（压缩包）",
+      "detail": "债券产品信息（压缩包）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "archive_bondinfoYYYYMMDD.zip",
+      "detail": "archive_bondinfoYYYYMMDD.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易参与人清单",
+      "detail": "交易参与人清单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "se015jycyrYYYYMMDD001.txt",
+      "detail": "se015jycyrYYYYMMDD001.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LDDS",
+      "detail": "LDDS",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "系统静态数据接口",
+      "detail": "系统静态数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易员清单",
+      "detail": "交易员清单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "se015jyyYYYYMMDD001.txt",
+      "detail": "se015jyyYYYYMMDD001.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS118",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及88项变更。 废止: 1项。 规则条款变更: 87项。 其中重大变更2项。",
+  "confidence": 0.92,
+  "raw_text": "1\n2\n接口信息流\n2.1\n上海市场\n2.1.1\n基于文件的接口\n本章节用于描述\nUT\n系统转发上交所的基于文件接口的技术规格说明。\nUT\n系统相关接口读取的数据文件的来源有以下三种：上证所内各系统经卫星向市场发出的文件；交\n易系统发送至\nUT\n系统及自身业务处理的文件；新一代交易系统转发其他系统\n(\n信息公司\n)\n经由卫星发出的\n文件。\n文件类型\n分两种\n：行情类\n、公共文件类（文件公共广播）\n。\n文件名（中文）\n文件名\n参见接口\n行情类文件\n竞价撮合平台行情文件\nmktdt00.txt\nIS101\n综合业务平台行情文件\nmktdt01.txt\nIS105\n债券行情文件\nmktdt02.txt\nIS124\n期权行情文件\nmktdt03.txt\nIS124\n指数通行情文件\ncsiYYYYMMDD.txt\n中证指数接口\n基金通行情文件\nmktdt06.txt\nIS124\nB\n转\nH\n行情文件\nmktdth.txt\nIS124\n公共文件类\n交易公开信息公告文件\njygkxxMMDD.txt\nIS101\n司法执行公告文件\nsf********.pdf\n-\n科创板交易公开信息公告文件\njygkxx02MMDD.txt\nIS101\n债券标准券折算率变更接口\nzslMMDD.txt\nIS101\n债券标准券折算率变更公告文件\nzslwMMDD.txt\nIS101\n基金和净值数据文件\nkxxMMDD.txt\nIS101\n权证信息接口\nqzxxMMDD.txt\nIS101\n债券标准券折算比率接口\nxzslMMDD.txt\nIS101\n盘中停牌公告文件\ntpxxxxhhmmss.txt\nIS101\n国债利息接口\ngzlx.MDD\nIS101\n产品非交易基础数据\nfjyYYYYMMDD.txt\nIS101\n担保品及标的证券清单公告\ndbpMMDD.txt\nIS101\n2\n紧急通知文件\n*.*\nIS101\nMMDDFNNN.txt\n公告摘要文件\nIS101\nMMDDZNNN.txt\n产品基础信息文件第二版第一批次\ncpxx0201MMDD.txt\nIS101\n产品基础信息文件第二版第二批次\ncpxx0202MMDD.txt\nIS101\n基金业务参数公告文件\nsfpm01MMDD.txt\nIS105\n债券非交易基础信息文件\nzfjyYYYYMMDD.xml\nIS105\n基金非交易基础信息文件\njfjyYYYYMMDD.xml\nIS105\n转融通标的证券清单\nzrtbdMMDD.txt\nIS105\n债券报价式回购折算率文件\nbzsl01MMDD.txt\nIS105\n网络投票议案结构文件\nvtlsMMDD.xml\nIS105\n报价收盘文件\nbjspMMDD.txt\nIS118\n（托管银行卷）\nIS109\n成交明细文件\nbjmxMMDD.txt\nIS118\n（托管银行卷）\n报价全部文件\nbjqbMMDD.txt\nIS109\n期权基础信息文件\nreff03MMDD.txt\nIS124\n期权基础信息文件\nreff0302YYYYMMDD.xml\nIS124\n期权收盘价格文件\nclpr03MMDD.txt\nIS124\n期权组合策略文件\nzhcl03MMDD.txt\nIS124\nETF\n公告文件\n2.1\n版格式\n******MMDD2.etf\nIS118\n（基金公司卷）\n债券盘中停牌公告文件\nztxxxxhhmmss.txt\nIS124\n国际化产品信息接口\nifjyYYYYMMDD.xml\nIS124\n重点指数及样本表现\nzsbxYYMMDD.txt\nIS124\n债券产品信息（压缩包）\narchive_bondinfoYYYYMMDD.zip\nIS124\n交易参与人清单\nse015jycyrYYYYMMDD001.txt\nLDDS\n系统静态数据接口\n交易员清单\nse015jyyYYYYMMDD001.txt\nLDDS\n系统静态数据接口\n参见接口：\nIS101_\n上海证券交易所竞价撮合平台市场参与者接口规格说明书\nIS105_\n上海证券交易所综合业务平台市场参与者接口规格说明书\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n中证指数行情传输接口规范\n3\n3\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不得将本文\n档用于其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评指正意见，\n可通过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号\n上交所技术公司技术开发总部\n4"
+}

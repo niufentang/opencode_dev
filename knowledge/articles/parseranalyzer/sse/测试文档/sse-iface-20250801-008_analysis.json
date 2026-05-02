@@ -1,0 +1,4978 @@
+{
+  "doc_id": "sse-iface-20250801-008",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）2.1版_20250722（优化ETF申赎清单 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T05:42:12.501358+00:00",
+  "metadata": {
+    "file_hash": "sha256:f3e687e0b3c1ea5084a4415124bad4bbe21128b0f30173f354086a38398dc4f7",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "2.1",
+    "previous_version": null,
+    "public_date": "2025-08-01",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "2.1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布说明",
+      "detail": "发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025",
+      "detail": "2025",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "月修订内容：",
+      "detail": "月修订内容：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件",
+      "detail": "定义文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版接口，将",
+      "detail": "版接口，将",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "InvestorAccountID",
+      "detail": "InvestorAccountID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PBUID",
+      "detail": "PBUID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字段调整为必填，删除填空相关",
+      "detail": "字段调整为必填，删除填空相关",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件整体规划，调整如下：",
+      "detail": "定义文件整体规划，调整如下：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一、新增",
+      "detail": "一、新增",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件",
+      "detail": "确认文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件",
+      "detail": "公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版相关描述。",
+      "detail": "版相关描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版相对于",
+      "detail": "版相对于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版，除格式变更外：",
+      "detail": "版，除格式变更外：",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "替代标志",
+      "detail": "替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段描述；",
+      "detail": "字段描述；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当日净申购基金份额上限",
+      "detail": "当日净申购基金份额上限",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当日净赎回基金份额上限",
+      "detail": "当日净赎回基金份额上限",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单个账户净申购总额限制",
+      "detail": "单个账户净申购总额限制",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单个账户净赎回总额限制",
+      "detail": "单个账户净赎回总额限制",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单个账户累计申购总额限制",
+      "detail": "单个账户累计申购总额限制",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单个账户累计赎回总额限制",
+      "detail": "单个账户累计赎回总额限制",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "增加部分字段长度；",
+      "detail": "增加部分字段长度；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申赎模式",
+      "detail": "申赎模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当日申购限额",
+      "detail": "当日申购限额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当日赎回限额",
+      "detail": "当日赎回限额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（三）调整",
+      "detail": "（三）调整",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件部分字段填写说明：",
+      "detail": "定义文件部分字段填写说明：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1. NAVperCU",
+      "detail": "1. NAVperCU",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PreCashComponent",
+      "detail": "PreCashComponent",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CashDividend",
+      "detail": "CashDividend",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "EstimatedCashComponent",
+      "detail": "EstimatedCashComponent",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "段不再要求小数位补零。",
+      "detail": "段不再要求小数位补零。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2. CreationLimit",
+      "detail": "2. CreationLimit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RedemptionLimit",
+      "detail": "RedemptionLimit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "必须大于等于每个篮子对应的",
+      "detail": "必须大于等于每个篮子对应的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Creation",
+      "detail": "Creation",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RedemptionUnit",
+      "detail": "RedemptionUnit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "），不再要求必须是最小申购、赎回单位（",
+      "detail": "），不再要求必须是最小申购、赎回单位（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationRedemptionUnit",
+      "detail": "CreationRedemptionUnit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "正整数倍。",
+      "detail": "正整数倍。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（四）在",
+      "detail": "（四）在",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.2",
+      "detail": "2.3.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交互文件通用约定章节中，增加",
+      "detail": "交互文件通用约定章节中，增加",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版相关约定。",
+      "detail": "版相关约定。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "二、根据新",
+      "detail": "二、根据新",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段取值，调整附录一为“",
+      "detail": "字段取值，调整附录一为“",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品与申赎模式、替代",
+      "detail": "产品与申赎模式、替代",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "标志、市场",
+      "detail": "标志、市场",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对应关系表”（含跨市场债券（银行间）",
+      "detail": "对应关系表”（含跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三、新增附录二",
+      "detail": "三、新增附录二",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本文件结构、附录三",
+      "detail": "版本文件结构、附录三",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件标志文件举例、附录四",
+      "detail": "定义文件标志文件举例、附录四",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金替代比",
+      "detail": "现金替代比",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "例计算说明、附录五",
+      "detail": "例计算说明、附录五",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金替代标志说明。",
+      "detail": "现金替代标志说明。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此处仅保留近一年的修订记录，历史修订记录详见文末历史修订记录部分。",
+      "detail": "此处仅保留近一年的修订记录，历史修订记录详见文末历史修订记录部分。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：基金公司卷、托管银行卷、转发卷、网下",
+      "detail": "：基金公司卷、托管银行卷、转发卷、网下",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单向卫星证通云盘",
+      "detail": "单向卫星证通云盘",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本章节包括以下部分：",
+      "detail": "本章节包括以下部分：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "部分：信息流",
+      "detail": "部分：信息流",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "这部分为交易系统和基金管理公司之间接口的技术架构和在各接口上交换的数据的定义。",
+      "detail": "这部分为交易系统和基金管理公司之间接口的技术架构和在各接口上交换的数据的定义。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "部分：基金管理公司接口功能规格说明",
+      "detail": "部分：基金管理公司接口功能规格说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "这部分定义基金管理公司接口的功能规格，包括基于文件的接口规格说明和基于",
+      "detail": "这部分定义基金管理公司接口的功能规格，包括基于文件的接口规格说明和基于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "VALUES",
+      "detail": "VALUES",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实时接口的规格说明，详细说明基于在每个接口上实现的功能和数据的详细结构。",
+      "detail": "实时接口的规格说明，详细说明基于在每个接口上实现的功能和数据的详细结构。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（证通云盘）",
+      "detail": "（证通云盘）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司上传交易系统",
+      "detail": "基金公司上传交易系统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统发送基金公司",
+      "detail": "交易系统发送基金公司",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "各个版本",
+      "detail": "各个版本",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件与",
+      "detail": "定义文件与",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件、公告文件对应关系：",
+      "detail": "确认文件、公告文件对应关系：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "定义文件版本",
+      "detail": "定义文件版本",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "确认文件版本",
+      "detail": "确认文件版本",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "公告文件版本",
+      "detail": "公告文件版本",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "定义文件与确认文件及公告文件版本对应关系",
+      "detail": "定义文件与确认文件及公告文件版本对应关系",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件及确认文件结构",
+      "detail": "定义文件及确认文件结构",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件接收",
+      "detail": "文件接收",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司可以通过证通云盘获取闭市后文件。",
+      "detail": "基金公司可以通过证通云盘获取闭市后文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件名应遵循规格说明中指定的文件名。",
+      "detail": "文件名应遵循规格说明中指定的文件名。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "统一的文件结构",
+      "detail": "统一的文件结构",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统和基金管理公司之间交换的所有文件都为",
+      "detail": "交易系统和基金管理公司之间交换的所有文件都为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "GB18030",
+      "detail": "GB18030",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "编码的文本，并必须遵循本章定义",
+      "detail": "编码的文本，并必须遵循本章定义",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的统一的文件结构。",
+      "detail": "的统一的文件结构。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "遵循统一文件结构的文件内容由节段组成。各节段由具有相同定义的多个字段行组成，代表同一",
+      "detail": "遵循统一文件结构的文件内容由节段组成。各节段由具有相同定义的多个字段行组成，代表同一",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "类型的待处理条目。",
+      "detail": "类型的待处理条目。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一个节段以行",
+      "detail": "一个节段以行",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“|\\\\\\<SectionName Version=”Version Number”>\\\\\\|”",
+      "detail": "“|\\\\\\<SectionName Version=”Version Number”>\\\\\\|”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "起始，以",
+      "detail": "起始，以",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“|\\\\\\</SectionName>\\\\\\|”",
+      "detail": "“|\\\\\\</SectionName>\\\\\\|”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "束。在节段定义标签中，",
+      "detail": "束。在节段定义标签中，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“SectionName”",
+      "detail": "“SectionName”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应是唯一的，用于唯一地标识该节段。它应为一个字母数字型",
+      "detail": "应是唯一的，用于唯一地标识该节段。它应为一个字母数字型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字符串，无空格，最多",
+      "detail": "字符串，无空格，最多",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "个字符。",
+      "detail": "个字符。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“Version”",
+      "detail": "“Version”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "标签用于描述本节段行定义的版本号。版本号格式为",
+      "detail": "标签用于描述本节段行定义的版本号。版本号格式为",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“major",
+      "detail": "“major",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "number.minor number",
+      "detail": "number.minor number",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "（主版本号",
+      "detail": "（主版本号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "次版本号）",
+      "detail": "次版本号）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "，主版本号和次版本号均为整数，代表一个定义的主和次",
+      "detail": "，主版本号和次版本号均为整数，代表一个定义的主和次",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本号。主版本号和次版本号最长均为",
+      "detail": "版本号。主版本号和次版本号最长均为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "个数字。上证所应维护对各节段的定义以及版本编号方案，",
+      "detail": "个数字。上证所应维护对各节段的定义以及版本编号方案，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "并与外部各方就此达成协议。在双方约定对版本号进行修改前，在传输的文件中，版本号应保持不变。",
+      "detail": "并与外部各方就此达成协议。在双方约定对版本号进行修改前，在传输的文件中，版本号应保持不变。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一份文件至少包括一个节段。如果某一节段为空，该节段可被简化为一行",
+      "detail": "一份文件至少包括一个节段。如果某一节段为空，该节段可被简化为一行",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“|\\\\\\<SectionName",
+      "detail": "“|\\\\\\<SectionName",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Version=”Version Number”/>\\\\\\|",
+      "detail": "Version=”Version Number”/>\\\\\\|",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "不允许有子节段。",
+      "detail": "不允许有子节段。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "各节段均由行组成。每行为一个数据单元，由多个字段组成，各字段间以分隔符分隔。每行描述",
+      "detail": "各节段均由行组成。每行为一个数据单元，由多个字段组成，各字段间以分隔符分隔。每行描述",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一条交易或对帐信息。一行以",
+      "detail": "一条交易或对帐信息。一行以",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“New Line”",
+      "detail": "“New Line”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“0xA”",
+      "detail": "“0xA”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "所有节段中的行都必须具有相同的字段定义。",
+      "detail": "所有节段中的行都必须具有相同的字段定义。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段分隔符",
+      "detail": "字段分隔符",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "各行中的字段由分隔符分隔。交易系统与外部系统之间交换的所有文件均采用标准的分隔符",
+      "detail": "各行中的字段由分隔符分隔。交易系统与外部系统之间交换的所有文件均采用标准的分隔符",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对本文所列的",
+      "detail": "对本文所列的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件和",
+      "detail": "定义文件和",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义确认文件，每行开头和结束包括分隔符。对于标志文件和其",
+      "detail": "定义确认文件，每行开头和结束包括分隔符。对于标志文件和其",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "他文件，每行开头和结束不包括分隔符。",
+      "detail": "他文件，每行开头和结束不包括分隔符。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "各字段均为一个遵循数据格式定义的字符串。如果字段必选项为",
+      "detail": "各字段均为一个遵循数据格式定义的字符串。如果字段必选项为",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，则该字段允许为空。如果",
+      "detail": "，则该字段允许为空。如果",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "某一字段为空，则该字段应为一个定长的空格字符串。",
+      "detail": "某一字段为空，则该字段应为一个定长的空格字符串。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "空文件标识符",
+      "detail": "空文件标识符",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于由于一般的业务原因而没有条目的文件，指示空节段的行条目应遵循",
+      "detail": "对于由于一般的业务原因而没有条目的文件，指示空节段的行条目应遵循",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Version=”Version Number”/>\\\\\\|”",
+      "detail": "Version=”Version Number”/>\\\\\\|”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，其中，",
+      "detail": "，其中，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应为已为该文件定义的节段名。这样做的目的",
+      "detail": "应为已为该文件定义的节段名。这样做的目的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "是为了区分正常的空文件和由于例外事件，如传输错误，造成的空文件。",
+      "detail": "是为了区分正常的空文件和由于例外事件，如传输错误，造成的空文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.3",
+      "detail": "2.3.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件及接口文件命名规范",
+      "detail": "定义文件及接口文件命名规范",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如非特别说明，交易系统和基金管理公司之间交换的文件遵循以下命名规范：",
+      "detail": "如非特别说明，交易系统和基金管理公司之间交换的文件遵循以下命名规范：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：文件命名规范",
+      "detail": "：文件命名规范",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "来源方组别",
+      "detail": "来源方组别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "来源方组别表示文件生成方的组别。来源方组别和来源方",
+      "detail": "来源方组别表示文件生成方的组别。来源方组别和来源方",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "合用可作为识别外部系统或文件生",
+      "detail": "合用可作为识别外部系统或文件生",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成方的唯一标识。",
+      "detail": "成方的唯一标识。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券交易所",
+      "detail": "证券交易所",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金管理公司",
+      "detail": "基金管理公司",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：来源方组别",
+      "detail": "：来源方组别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "来源方代码",
+      "detail": "来源方代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "来源方代码和来源方组别合用可作为识别文件生成来源方的唯一标识。",
+      "detail": "来源方代码和来源方组别合用可作为识别文件生成来源方的唯一标识。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "上证所对所有外部各方或系统进行编码。",
+      "detail": "上证所对所有外部各方或系统进行编码。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "批处理文件代码",
+      "detail": "批处理文件代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "etfd",
+      "detail": "etfd",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "序列号固定为",
+      "detail": "序列号固定为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，供业务扩展使用。",
+      "detail": "，供业务扩展使用。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交互文件通用约定",
+      "detail": "交互文件通用约定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.2.1",
+      "detail": "2.3.2.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件交互通道",
+      "detail": "文件交互通道",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司可以通过证通云盘上传",
+      "detail": "基金公司可以通过证通云盘上传",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件、获取",
+      "detail": "定义文件、获取",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件、",
+      "detail": "确认文件、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件，通过证通",
+      "detail": "公告文件，通过证通",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "云盘接收盘后过户数据。",
+      "detail": "云盘接收盘后过户数据。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场机构可以通过证通云盘获取",
+      "detail": "市场机构可以通过证通云盘获取",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件及盘后过户数据。",
+      "detail": "公告文件及盘后过户数据。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.2.2",
+      "detail": "2.3.2.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件上传约定",
+      "detail": "文件上传约定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件上传时间",
+      "detail": "定义文件上传时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司上传下一交易日使用的",
+      "detail": "基金公司上传下一交易日使用的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件，上传时间为",
+      "detail": "定义文件，上传时间为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "18:00-24:00",
+      "detail": "18:00-24:00",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "及下一交易日的",
+      "detail": "及下一交易日的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0:00-",
+      "detail": "0:00-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "6:00",
+      "detail": "6:00",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，周五的情况也适用。（考虑到交易所周末测试等因素，建议基金公司节假日后第一个交易日的定",
+      "detail": "，周五的情况也适用。（考虑到交易所周末测试等因素，建议基金公司节假日后第一个交易日的定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "义文件在当天早上上传）",
+      "detail": "义文件在当天早上上传）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件可以多次上传，但交易系统以最后收到且校验成功的文件为准。",
+      "detail": "定义文件可以多次上传，但交易系统以最后收到且校验成功的文件为准。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "若交易系统在开市后发现系统中无某",
+      "detail": "若交易系统在开市后发现系统中无某",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的定义文件，则自动暂停该",
+      "detail": "的定义文件，则自动暂停该",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的申购赎回业务，但",
+      "detail": "的申购赎回业务，但",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易业务可以进行。",
+      "detail": "交易业务可以进行。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "定义文件上传格式版本",
+      "detail": "定义文件上传格式版本",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统支持基金公司上传",
+      "detail": "交易系统支持基金公司上传",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "txt 2.1",
+      "detail": "txt 2.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "格式版本、",
+      "detail": "格式版本、",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "格式版本的",
+      "detail": "格式版本的",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件。",
+      "detail": "定义文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于一个",
+      "detail": "对于一个",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "产品，同一交易日仅可上传一个格式版本的",
+      "detail": "产品，同一交易日仅可上传一个格式版本的",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.2.3",
+      "detail": "2.3.2.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件命名约定",
+      "detail": "文件命名约定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统和基金管理公司及市场机构之间交换的文件遵循以下命名规范：",
+      "detail": "交易系统和基金管理公司及市场机构之间交换的文件遵循以下命名规范：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "/ETF",
+      "detail": "/ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件命名规范（",
+      "detail": "确认文件命名规范（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件固定为",
+      "detail": "定义文件固定为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件固定为",
+      "detail": "确认文件固定为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "se001fm",
+      "detail": "se001fm",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "etfc",
+      "detail": "etfc",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件命名规范（",
+      "detail": "公告文件命名规范（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码",
+      "detail": "证券代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "二级市场交易代码。",
+      "detail": "二级市场交易代码。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件文件命名规范",
+      "detail": "公告文件文件命名规范",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件固定为",
+      "detail": "公告文件固定为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ssepcf",
+      "detail": "ssepcf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.3.12.3.2.4",
+      "detail": "2.3.3.12.3.2.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件编码",
+      "detail": "文件编码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如果字段必选项为",
+      "detail": "如果字段必选项为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，则该字段允许为空。",
+      "detail": "，则该字段允许为空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如果某一字段为空或未启用，则该字段",
+      "detail": "如果某一字段为空或未启用，则该字段",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "标签不应出现。",
+      "detail": "标签不应出现。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UTF-8",
+      "detail": "UTF-8",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件模板",
+      "detail": "文件模板",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "detail": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<root>",
+      "detail": "<root>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<child1>.....</child1>",
+      "detail": "<child1>.....</child1>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<child2>",
+      "detail": "<child2>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<subchild1>.....</subchild1>",
+      "detail": "<subchild1>.....</subchild1>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<subchild2>.....</subchild2>",
+      "detail": "<subchild2>.....</subchild2>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": ".....",
+      "detail": ".....",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</child2>",
+      "detail": "</child2>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</root>",
+      "detail": "</root>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "具体可参见附录二。",
+      "detail": "具体可参见附录二。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "根元素（",
+      "detail": "根元素（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "root",
+      "detail": "root",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件为",
+      "detail": "定义文件为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ETFDefinition",
+      "detail": "ETFDefinition",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件为",
+      "detail": "确认文件为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ETFConfirmation",
+      "detail": "ETFConfirmation",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件为",
+      "detail": "公告文件为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SSEPortfolioCompositionFile",
+      "detail": "SSEPortfolioCompositionFile",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "扩展性要求",
+      "detail": "扩展性要求",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "未来新增字段时，如接收方不使用新增字段，应能够自动忽略新增字段，无需改造。",
+      "detail": "未来新增字段时，如接收方不使用新增字段，应能够自动忽略新增字段，无需改造。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "未来调整字段长度时，如接收方不使用对应字段，应能够自动忽略对应字段，无需改造。",
+      "detail": "未来调整字段长度时，如接收方不使用对应字段，应能够自动忽略对应字段，无需改造。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.3.22.3.2.5",
+      "detail": "2.3.3.22.3.2.5",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（仅适用于",
+      "detail": "（仅适用于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "所有在交易系统与基金管理公司之间交换的",
+      "detail": "所有在交易系统与基金管理公司之间交换的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "格式文件，字段类型分为以下三类：",
+      "detail": "格式文件，字段类型分为以下三类：",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一、字符串型",
+      "detail": "一、字符串型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“CX”",
+      "detail": "“CX”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表该字段为字符串型字段，",
+      "detail": "代表该字段为字符串型字段，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为该字段的最大字节长度，例如",
+      "detail": "为该字段的最大字节长度，例如",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“C5”",
+      "detail": "“C5”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表最大长度为",
+      "detail": "代表最大长度为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字节的字段。",
+      "detail": "字节的字段。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "二、十进制整数型",
+      "detail": "二、十进制整数型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“NX”",
+      "detail": "“NX”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表该字段为十进制整数型字段，可表示正负（由负数表示字符“",
+      "detail": "代表该字段为十进制整数型字段，可表示正负（由负数表示字符“",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为该整数的最大长度（包括符号位），例如",
+      "detail": "为该整数的最大长度（包括符号位），例如",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“N5”",
+      "detail": "“N5”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的整数字段。",
+      "detail": "的整数字段。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三、十进制浮点数字型",
+      "detail": "三、十进制浮点数字型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“NX(Y)”",
+      "detail": "“NX(Y)”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表该字段为十进制浮点数字型字段，可表示正负（由负数表示字符“",
+      "detail": "代表该字段为十进制浮点数字型字段，可表示正负（由负数表示字符“",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "”组成），",
+      "detail": "”组成），",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表该字段的最大长度（包括小数点和符号位），",
+      "detail": "代表该字段的最大长度（包括小数点和符号位），",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表该字段最大小数位",
+      "detail": "代表该字段最大小数位",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "长度，对于无符号字段其整数位数最大长度为",
+      "detail": "长度，对于无符号字段其整数位数最大长度为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "X-Y-1",
+      "detail": "X-Y-1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，对于有符号字段其整数位数最大长度为",
+      "detail": "，对于有符号字段其整数位数最大长度为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“N8(4)”",
+      "detail": "“N8(4)”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表字段最大长度为",
+      "detail": "代表字段最大长度为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，最大小数位长度为",
+      "detail": "，最大小数位长度为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，最大整数位长度为",
+      "detail": "，最大整数位长度为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（正数）或",
+      "detail": "（正数）或",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（负数）。",
+      "detail": "（负数）。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "格式字段均为变长字段，字段不足最大长度左右两端不可补空或补零。",
+      "detail": "格式字段均为变长字段，字段不足最大长度左右两端不可补空或补零。",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.2.6",
+      "detail": "2.3.2.6",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件应急约定",
+      "detail": "文件应急约定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "业务流程变更",
+      "summary": "应急流程",
+      "detail": "应急流程",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司使用应急通道上传定义文件后，交易系统不会返回确认文件及公告文件，但在定义文件",
+      "detail": "基金公司使用应急通道上传定义文件后，交易系统不会返回确认文件及公告文件，但在定义文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "通过校验后会生成并向市场发布",
+      "detail": "通过校验后会生成并向市场发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件及其标志文件。",
+      "detail": "公告文件及其标志文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件格式：",
+      "detail": "文件格式：",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、每行为一个数据单元，由多个字段组成，各字段间以分隔符",
+      "detail": "、每行为一个数据单元，由多个字段组成，各字段间以分隔符",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "进行分隔，行开头和结束不包",
+      "detail": "进行分隔，行开头和结束不包",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "括分隔符。各行以",
+      "detail": "括分隔符。各行以",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）结尾。",
+      "detail": "）结尾。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、字段内容不足字段长度的左对齐，右补空格。",
+      "detail": "、字段内容不足字段长度的左对齐，右补空格。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版为文件行数）",
+      "detail": "版为文件行数）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.42.3.3",
+      "detail": "2.3.42.3.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.12.3.3.1",
+      "detail": "2.3.4.12.3.3.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统获得该文件后，需要对该文件进行有效性检查。通过检查后，需要生成一个",
+      "detail": "交易系统获得该文件后，需要对该文件进行有效性检查。通过检查后，需要生成一个",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "处理确认文件",
+      "detail": "处理确认文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版（见第",
+      "detail": "版（见第",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.1 ETF",
+      "detail": "2.3.4.1 ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版，无标志文件）及",
+      "detail": "版，无标志文件）及",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.3 ETF",
+      "detail": "2.3.4.3 ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版，无标志文件），并将",
+      "detail": "版，无标志文件），并将",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "个文件发送给基金管理公司。",
+      "detail": "个文件发送给基金管理公司。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统每次收到通过校验的",
+      "detail": "交易系统每次收到通过校验的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "格式定义文件后叫生成定义文件",
+      "detail": "格式定义文件后叫生成定义文件",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "fmxxxetfdYYYYMMDD001.txt",
+      "detail": "fmxxxetfdYYYYMMDD001.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UNIX",
+      "detail": "UNIX",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "格式）及其标志文件，公告文件",
+      "detail": "格式）及其标志文件，公告文件",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版及其标志文件（见第",
+      "detail": "版及其标志文件（见第",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "fmxxx",
+      "detail": "fmxxx",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为基金公司上传定义文件对应的取值，",
+      "detail": "为基金公司上传定义文件对应的取值，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为基金公司上",
+      "detail": "为基金公司上",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "传的原文件。",
+      "detail": "传的原文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统获得该文件后，会对该文件进行有效性检查。通过检查后，会生成",
+      "detail": "交易系统获得该文件后，会对该文件进行有效性检查。通过检查后，会生成",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件的处理确认",
+      "detail": "文件的处理确认",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统会将",
+      "detail": "交易系统会将",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版（无标志文件）、",
+      "detail": "版（无标志文件）、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版（无标志文件）发送给基",
+      "detail": "版（无标志文件）发送给基",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "金管理公司。",
+      "detail": "金管理公司。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版（包含标志文件）发送市场机构。市场机构可通过证通云盘获",
+      "detail": "版（包含标志文件）发送市场机构。市场机构可通过证通云盘获",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.3.2",
+      "detail": "2.3.3.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "etfd_NNNNNNNN_YYYYMMDD.xml",
+      "detail": "etfd_NNNNNNNN_YYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NNNNNNNN",
+      "detail": "NNNNNNNN",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "二级市场交易代码，按照实",
+      "detail": "二级市场交易代码，按照实",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "际长度填写。",
+      "detail": "际长度填写。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "功能描述",
+      "detail": "功能描述",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "该文件用于描述",
+      "detail": "该文件用于描述",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品类型",
+      "detail": "产品类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易型开放式基金",
+      "detail": "交易型开放式基金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时间和频率",
+      "detail": "时间和频率",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "业务流程变更",
+      "summary": "一节描述的流程发送，直至双方确认。",
+      "detail": "一节描述的流程发送，直至双方确认。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "关联文件",
+      "detail": "关联文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数据格式",
+      "detail": "数据格式",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Version",
+      "detail": "Version",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "每日传递的版本号",
+      "detail": "每日传递的版本号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "开始，供比较用，必须递增（可以不连续）。",
+      "detail": "开始，供比较用，必须递增（可以不连续）。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ISINCode",
+      "detail": "ISINCode",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "产品国际代码",
+      "detail": "产品国际代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "FundInstrumentID",
+      "detail": "FundInstrumentID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "基金二级市场交易代码",
+      "detail": "基金二级市场交易代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最大支持",
+      "detail": "最大支持",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司在",
+      "detail": "基金公司在",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "赎回中使用的沪市账户",
+      "detail": "赎回中使用的沪市账户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "赎回中使用的沪市",
+      "detail": "赎回中使用的沪市",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "须为沪市账户指定的",
+      "detail": "须为沪市账户指定的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "或其同一联通圈",
+      "detail": "或其同一联通圈",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "FundName",
+      "detail": "FundName",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金名称",
+      "detail": "基金名称",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "FundCompanyName",
+      "detail": "FundCompanyName",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司名称",
+      "detail": "基金公司名称",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UnderlyingIndex",
+      "detail": "UnderlyingIndex",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "标的指数代码",
+      "detail": "标的指数代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UnderlyingIndexISINCode",
+      "detail": "UnderlyingIndexISINCode",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "标的指数国际代码",
+      "detail": "标的指数国际代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "每个篮子（最小申购、赎回单位）对应的",
+      "detail": "每个篮子（最小申购、赎回单位）对应的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "必须大于",
+      "detail": "必须大于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，最大支持",
+      "detail": "，最大支持",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位数字。",
+      "detail": "位数字。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradingDay",
+      "detail": "TradingDay",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当前交易日",
+      "detail": "当前交易日",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PreTradingDay",
+      "detail": "PreTradingDay",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前一交易日，具体由业务含义约定",
+      "detail": "前一交易日，具体由业务含义约定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NAVperCU",
+      "detail": "NAVperCU",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N19(5)",
+      "detail": "N19(5)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前一日最小申赎单位净值",
+      "detail": "前一日最小申赎单位净值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "暂最大支持",
+      "detail": "暂最大支持",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N12(2)",
+      "detail": "N12(2)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前一日基金份额净值",
+      "detail": "前一日基金份额净值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N8(4)",
+      "detail": "N8(4)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前一日现金差额",
+      "detail": "前一日现金差额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N11(2)",
+      "detail": "N11(2)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最小基金单位现金分红",
+      "detail": "最小基金单位现金分红",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "日每个篮子的预估现金差额",
+      "detail": "日每个篮子的预估现金差额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MaxCashRatio",
+      "detail": "MaxCashRatio",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N7(5)",
+      "detail": "N7(5)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "总的现金替代比例",
+      "detail": "总的现金替代比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填写比例数值（非百分比），例如：",
+      "detail": "填写比例数值（非百分比），例如：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5.551",
+      "detail": "5.551",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "％在此字段中",
+      "detail": "％在此字段中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.05551",
+      "detail": "0.05551",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.1%",
+      "detail": "2.1%",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.021",
+      "detail": "0.021",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "必须大于等于",
+      "detail": "必须大于等于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其控制方式详见附录四。",
+      "detail": "其控制方式详见附录四。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationLimit",
+      "detail": "CreationLimit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "不做控制时此字段填空。",
+      "detail": "不做控制时此字段填空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PublishIOPVFlag",
+      "detail": "PublishIOPVFlag",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "用以表示单位净参考值是否需要公布的标志位",
+      "detail": "用以表示单位净参考值是否需要公布的标志位",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "由交易系统计算",
+      "detail": "由交易系统计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV",
+      "detail": "IOPV",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "且通过行情发布",
+      "detail": "且通过行情发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "由第三方机构（非交易所）计算",
+      "detail": "由第三方机构（非交易所）计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，通过交易所",
+      "detail": "，通过交易所",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情发布",
+      "detail": "行情发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统不计算",
+      "detail": "交易系统不计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，也无需通过交易所行情发",
+      "detail": "，也无需通过交易所行情发",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统仅支持计算如下类别",
+      "detail": "交易系统仅支持计算如下类别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1. F111",
+      "detail": "1. F111",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场股票（沪）",
+      "detail": "单市场股票（沪）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2. F114",
+      "detail": "2. F114",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场股票（科创板）",
+      "detail": "单市场股票（科创板）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "即仅对于如上两类",
+      "detail": "即仅对于如上两类",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此字段可取值为",
+      "detail": "此字段可取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，交易系统会",
+      "detail": "，交易系统会",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对此字段进行校验。",
+      "detail": "对此字段进行校验。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，此字段取值应为",
+      "detail": "，此字段取值应为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，但交易系统不进行校验。",
+      "detail": "，但交易系统不进行校验。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationRedemptionSwitch",
+      "detail": "CreationRedemptionSwitch",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "赎回切换",
+      "detail": "赎回切换",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "不允许申购",
+      "detail": "不允许申购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购和赎回皆允许",
+      "detail": "申购和赎回皆允许",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "仅允许申购",
+      "detail": "仅允许申购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "仅允许赎回",
+      "detail": "仅允许赎回",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationRedemptionMechanism",
+      "detail": "CreationRedemptionMechanism",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金申赎",
+      "detail": "现金申赎",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "沪市成分证券实物对价",
+      "detail": "沪市成分证券实物对价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "沪市、深市成分证券实物对价（预留，暂不启用）",
+      "detail": "沪市、深市成分证券实物对价（预留，暂不启用）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "银行间市场债券实物对价",
+      "detail": "银行间市场债券实物对价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RecordNumber",
+      "detail": "RecordNumber",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券的数目",
+      "detail": "成分证券的数目",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1-9999",
+      "detail": "1-9999",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，且与后续成分证券数量相同。",
+      "detail": "，且与后续成分证券数量相同。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LastTenMinuteRedemptionLimit",
+      "detail": "LastTenMinuteRedemptionLimit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "分钟赎回的基金份额上限",
+      "detail": "分钟赎回的基金份额上限",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示没有限制，目前只能为整数。",
+      "detail": "表示没有限制，目前只能为整数。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "暂时未启用，取值为空。",
+      "detail": "暂时未启用，取值为空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NetCreationLimit",
+      "detail": "NetCreationLimit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NetRedemptionLimit",
+      "detail": "NetRedemptionLimit",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NetCreationLimitPerAcct",
+      "detail": "NetCreationLimitPerAcct",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NetRedemptionLimitPerAcct",
+      "detail": "NetRedemptionLimitPerAcct",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationLimitPerAcct",
+      "detail": "CreationLimitPerAcct",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RedemptionLimitPerAcct",
+      "detail": "RedemptionLimitPerAcct",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "AllCashFlag",
+      "detail": "AllCashFlag",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示该基金申赎过程中是否支持全现金替代模式",
+      "detail": "表示该基金申赎过程中是否支持全现金替代模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "仅支持全现金申赎模式",
+      "detail": "仅支持全现金申赎模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同时支持全现金申赎模式和实物申赎模式",
+      "detail": "同时支持全现金申赎模式和实物申赎模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "仅支持实物申赎模式",
+      "detail": "仅支持实物申赎模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "AllCashAmount",
+      "detail": "AllCashAmount",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N12(3)",
+      "detail": "N12(3)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示全现金替代时所需总金额",
+      "detail": "表示全现金替代时所需总金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "是否支持全现金申赎标志为",
+      "detail": "是否支持全现金申赎标志为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "时此字段必填，且必须",
+      "detail": "时此字段必填，且必须",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "大于等于",
+      "detail": "大于等于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "时，非必填项。",
+      "detail": "时，非必填项。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "AllCashPremiumRate",
+      "detail": "AllCashPremiumRate",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "全现金替代时，计算申购价格时增加的比例（不含",
+      "detail": "全现金替代时，计算申购价格时增加的比例（不含",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "100%",
+      "detail": "100%",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.551",
+      "detail": "2.551",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.02551",
+      "detail": "0.02551",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "AllCashDiscountRate",
+      "detail": "AllCashDiscountRate",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "全现金替代时，计算赎回价格时减少的比例（不含",
+      "detail": "全现金替代时，计算赎回价格时减少的比例（不含",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RTGSFlag",
+      "detail": "RTGSFlag",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示该基金申赎过程中是否支持",
+      "detail": "表示该基金申赎过程中是否支持",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RTGS",
+      "detail": "RTGS",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ComponentList",
+      "detail": "ComponentList",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券列表",
+      "detail": "成分证券列表",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Component",
+      "detail": "Component",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券",
+      "detail": "成分证券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "国际产品代码",
+      "detail": "国际产品代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "InstrumentID",
+      "detail": "InstrumentID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "InstrumentName",
+      "detail": "InstrumentName",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券简称",
+      "detail": "证券简称",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Quantity",
+      "detail": "Quantity",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券数量",
+      "detail": "证券数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于沪市证券：",
+      "detail": "对于沪市证券：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券为债券的，单位为千元面额（",
+      "detail": "成分证券为债券的，单位为千元面额（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1000",
+      "detail": "1000",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "元发行面",
+      "detail": "元发行面",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券为股票的，单位为股；",
+      "detail": "成分证券为股票的，单位为股；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券为其他类型的，单位为本所交易规则规定",
+      "detail": "成分证券为其他类型的，单位为本所交易规则规定",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的交易单位。",
+      "detail": "的交易单位。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "非沪市证券的，单位参照以上标准。",
+      "detail": "非沪市证券的，单位参照以上标准。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SubstitutionFlag",
+      "detail": "SubstitutionFlag",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示该成分证券是否可被现金替代（含义详见附录五）：",
+      "detail": "表示该成分证券是否可被现金替代（含义详见附录五）：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "禁止现金替代",
+      "detail": "禁止现金替代",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "允许现金替代",
+      "detail": "允许现金替代",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "必须现金替代",
+      "detail": "必须现金替代",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationPremiumRate",
+      "detail": "CreationPremiumRate",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购溢价比例",
+      "detail": "申购溢价比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券用现金进行替代的时候，计算价格时增加的比例",
+      "detail": "证券用现金进行替代的时候，计算价格时增加的比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "替代标志为",
+      "detail": "替代标志为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "时，此字段必填，且取值范围为",
+      "detail": "时，此字段必填，且取值范围为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "[0,1)",
+      "detail": "[0,1)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，取值为空。",
+      "detail": "时，取值为空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RedemptionDiscountRate",
+      "detail": "RedemptionDiscountRate",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "赎回折价比例",
+      "detail": "赎回折价比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券用现金进行替代的时候，计算价格时减少的比例",
+      "detail": "证券用现金进行替代的时候，计算价格时减少的比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SubstitutionCashAmount",
+      "detail": "SubstitutionCashAmount",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "替代金额",
+      "detail": "替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "该证券所需总金额。",
+      "detail": "该证券所需总金额。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "除以下情况，此字段必填：",
+      "detail": "除以下情况，此字段必填：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、替代标志为",
+      "detail": "、替代标志为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，此字段取值为空。",
+      "detail": "时，此字段取值为空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实物申赎模式的",
+      "detail": "实物申赎模式的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品，替代标志为",
+      "detail": "产品，替代标志为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的成分券，此字段取值为空。",
+      "detail": "的成分券，此字段取值为空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UnderlyingSecurityID",
+      "detail": "UnderlyingSecurityID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "101 =",
+      "detail": "101 =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "102 =",
+      "detail": "102 =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "103 =",
+      "detail": "103 =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "香港联合交易所",
+      "detail": "香港联合交易所",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "105 =",
+      "detail": "105 =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "外汇交易中心",
+      "detail": "外汇交易中心",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "106 =",
+      "detail": "106 =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "北京证券交易所",
+      "detail": "北京证券交易所",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "9999 =",
+      "detail": "9999 =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BuyorSelltoOpen",
+      "detail": "BuyorSelltoOpen",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示当成分券中含有期权期货合约时，期权期货合约是",
+      "detail": "表示当成分券中含有期权期货合约时，期权期货合约是",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "买入开仓还是卖出开仓",
+      "detail": "买入开仓还是卖出开仓",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "买入开仓",
+      "detail": "买入开仓",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "卖出开仓",
+      "detail": "卖出开仓",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "通过主用通道和应急通道上传的定义文件，校验规则一致。",
+      "detail": "通过主用通道和应急通道上传的定义文件，校验规则一致。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于深市或京市成分证券，按照收到的前一日信息文件进行校验。",
+      "detail": "对于深市或京市成分证券，按照收到的前一日信息文件进行校验。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "以上信息，由基金公司保证上传数据的准确性。",
+      "detail": "以上信息，由基金公司保证上传数据的准确性。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "交易系统以最后一次上传版本为准。",
+      "detail": "交易系统以最后一次上传版本为准。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于特定类型",
+      "detail": "对于特定类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，其所有成分股替代标志中只能出现某些取值（见附录一），对于不满足该",
+      "detail": "，其所有成分股替代标志中只能出现某些取值（见附录一），对于不满足该",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "校验的定义文件将无法正常上传。",
+      "detail": "校验的定义文件将无法正常上传。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统在每次收到该文件后，会对该文件进行有效性检查。",
+      "detail": "交易系统在每次收到该文件后，会对该文件进行有效性检查。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于通过检查的",
+      "detail": "对于通过检查的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件，生成如下文件及其标志文件（生成规则参见",
+      "detail": "定义文件，生成如下文件及其标志文件（生成规则参见",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.2 ETF",
+      "detail": "2.3.4.2 ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.4 ETF",
+      "detail": "2.3.4.4 ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版（无标志文件）发送给",
+      "detail": "版（无标志文件）发送给",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金管理公司。",
+      "detail": "基金管理公司。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "例外事件",
+      "detail": "例外事件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.52.3.4",
+      "detail": "2.3.52.3.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.5.12.3.4.1",
+      "detail": "2.3.5.12.3.4.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.2",
+      "detail": "2.3.4.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "etfc_NNNNNNNN_YYYYMMDD.xml",
+      "detail": "etfc_NNNNNNNN_YYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "二级市场交易代码，对应",
+      "detail": "二级市场交易代码，对应",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件的文件名",
+      "detail": "定义文件的文件名",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "YYYYMMDD",
+      "detail": "YYYYMMDD",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "格式定义文件名中的日期",
+      "detail": "格式定义文件名中的日期",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "处理类型",
+      "detail": "处理类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统使用该文件向基金管理公司发送对收到的",
+      "detail": "交易系统使用该文件向基金管理公司发送对收到的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版的验证和确认结果。",
+      "detail": "版的验证和确认结果。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "每次收到",
+      "detail": "每次收到",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "秒之内，在规定的目录下生成本文件。",
+      "detail": "秒之内，在规定的目录下生成本文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版，返回文件如下：",
+      "detail": "版，返回文件如下：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字段类型",
+      "detail": "字段类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ValidationResult",
+      "detail": "ValidationResult",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "验证结果",
+      "detail": "验证结果",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表通过验证",
+      "detail": "代表通过验证",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代表未通过验证",
+      "detail": "代表未通过验证",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前一交易日",
+      "detail": "前一交易日",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "该证券数量",
+      "detail": "该证券数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示当成分券中含有期权期货合约时，期权期货合约是买",
+      "detail": "表示当成分券中含有期权期货合约时，期权期货合约是买",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "入开仓还是卖出开仓",
+      "detail": "入开仓还是卖出开仓",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金管理公司需要将该文件的内容与原",
+      "detail": "基金管理公司需要将该文件的内容与原",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件的内容进行比较，如果发现有错误，则需要",
+      "detail": "定义文件的内容进行比较，如果发现有错误，则需要",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "生成一个新的",
+      "detail": "生成一个新的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件，并重新上传。",
+      "detail": "定义文件，并重新上传。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.5.22.3.4.3",
+      "detail": "2.3.5.22.3.4.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.4.4",
+      "detail": "2.3.4.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ssepcf_NNNNNNNN_YYYYMMDD.xml",
+      "detail": "ssepcf_NNNNNNNN_YYYYMMDD.xml",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统根据",
+      "detail": "交易系统根据",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件生成",
+      "detail": "定义文件生成",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件，并发送给基金管理公司",
+      "detail": "公告文件，并发送给基金管理公司",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "进行验证和确认。",
+      "detail": "进行验证和确认。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版定义文件字段",
+      "detail": "版定义文件字段",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "该字段填二级市场交易代码",
+      "detail": "该字段填二级市场交易代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "每个篮子对应的",
+      "detail": "每个篮子对应的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前一交易日，具体由业务含义",
+      "detail": "前一交易日，具体由业务含义",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最大现金替代比例",
+      "detail": "最大现金替代比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "是否需要发布",
+      "detail": "是否需要发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当定义文件取值",
+      "detail": "当定义文件取值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，此处为",
+      "detail": "时，此处为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当定义文件取值为",
+      "detail": "当定义文件取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，此处",
+      "detail": "时，此处",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购赎回切换",
+      "detail": "申购赎回切换",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分证券数量",
+      "detail": "成分证券数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "是否支持全现金申赎",
+      "detail": "是否支持全现金申赎",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "暂时未启用，取值为空",
+      "detail": "暂时未启用，取值为空",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "全现金替代的总金额",
+      "detail": "全现金替代的总金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "全现金替代的申购溢价比例",
+      "detail": "全现金替代的申购溢价比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "全现金替代的赎回折价比例",
+      "detail": "全现金替代的赎回折价比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "是否支持",
+      "detail": "是否支持",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示当成分券中含有期权期货",
+      "detail": "表示当成分券中含有期权期货",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "合约时，期权期货合约是买入",
+      "detail": "合约时，期权期货合约是买入",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "开仓还是卖出开仓",
+      "detail": "开仓还是卖出开仓",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "标志文件",
+      "detail": "标志文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易所返回给基金公司的公告文件无标志文件。",
+      "detail": "交易所返回给基金公司的公告文件无标志文件。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金管理公司需要将本文件的内容与原",
+      "detail": "基金管理公司需要将本文件的内容与原",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件，并通过",
+      "detail": "定义文件，并通过",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件上传工具重新上传。",
+      "detail": "定义文件上传工具重新上传。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.5.32.3.4.5",
+      "detail": "2.3.5.32.3.4.5",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最新替代金额",
+      "detail": "最新替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "部分成分券",
+      "detail": "部分成分券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": ") + ∑(",
+      "detail": ") + ∑(",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固定替代金额",
+      "detail": "固定替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其余成分券",
+      "detail": "其余成分券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预估现金",
+      "detail": "预估现金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金份额参考净值",
+      "detail": "基金份额参考净值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV =",
+      "detail": "IOPV =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最小申购赎回单位对应的",
+      "detail": "最小申购赎回单位对应的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最新价格",
+      "detail": "最新价格",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的成分证券",
+      "detail": "的成分证券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "= ETF",
+      "detail": "= ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件中的替代金额",
+      "detail": "定义文件中的替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ID=101",
+      "detail": "ID=101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "且替代标志",
+      "detail": "且替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场技术服务平台下载：",
+      "detail": "市场技术服务平台下载：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://idc.ztcloud.ssetech.com.cn/–",
+      "detail": "https://idc.ztcloud.ssetech.com.cn/–",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统专区",
+      "detail": "交易系统专区",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "软件下载",
+      "detail": "软件下载",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.sse.com.cn/sseportal/cs/zhs/ywyy/hyb/ngtrade/support/download/06_bank_2009.zip",
+      "detail": "http://www.sse.com.cn/sseportal/cs/zhs/ywyy/hyb/ngtrade/support/download/06_bank_2009.zip",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "可通过上海证券交易所市场技术服务平台下载：",
+      "detail": "可通过上海证券交易所市场技术服务平台下载：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://idc.ztcloud.ssetech.com.cn/ -",
+      "detail": "https://idc.ztcloud.ssetech.com.cn/ -",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品服务",
+      "detail": "产品服务",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易支持软件专区",
+      "detail": "交易支持软件专区",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "技术接口",
+      "detail": "技术接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券交易所竞价撮合平台市场参与者接口规格说明书》。可通过登录上交所官网",
+      "detail": "证券交易所竞价撮合平台市场参与者接口规格说明书》。可通过登录上交所官网",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.sse.com.cn/",
+      "detail": "http://www.sse.com.cn/",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易服务",
+      "detail": "交易服务",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易技术支持专区",
+      "detail": "交易技术支持专区",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "技术文档",
+      "detail": "技术文档",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数据接口",
+      "detail": "数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "参与者接口规格说明书》查询。",
+      "detail": "参与者接口规格说明书》查询。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申赎模式、",
+      "detail": "申赎模式、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品细分类别",
+      "detail": "产品细分类别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件中可出现替代标志",
+      "detail": "定义文件中可出现替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F111",
+      "detail": "F111",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F112",
+      "detail": "F112",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场股票（沪深京）",
+      "detail": "跨市场股票（沪深京）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F113",
+      "detail": "F113",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场股票（沪港深京）",
+      "detail": "跨市场股票（沪港深京）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F114",
+      "detail": "F114",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F115",
+      "detail": "F115",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场股票（含科创板）",
+      "detail": "跨市场股票（含科创板）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F121",
+      "detail": "F121",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场债券（沪）",
+      "detail": "单市场债券（沪）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F122",
+      "detail": "F122",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场债券（沪深）",
+      "detail": "跨市场债券（沪深）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F123",
+      "detail": "F123",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金申赎类债券",
+      "detail": "现金申赎类债券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F131",
+      "detail": "F131",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F141",
+      "detail": "F141",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F142",
+      "detail": "F142",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "商品期货",
+      "detail": "商品期货",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F150",
+      "detail": "F150",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易型货币基金",
+      "detail": "交易型货币基金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成分券来源",
+      "detail": "成分券来源",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版可出现替代标志",
+      "detail": "版可出现替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F124",
+      "detail": "F124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场债券（银行间）",
+      "detail": "跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "9999",
+      "detail": "9999",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "按照实际成分券所属市场进行填写，如所属市场不在",
+      "detail": "按照实际成分券所属市场进行填写，如所属市场不在",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "范围内，则填写",
+      "detail": "范围内，则填写",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版不支持此业务。",
+      "detail": "版不支持此业务。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本文件结构",
+      "detail": "版本文件结构",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件：",
+      "detail": "定义文件：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ETFDefinition>",
+      "detail": "<ETFDefinition>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<Version>1</Version>",
+      "detail": "<Version>1</Version>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<RecordNumber>12</RecordNumber>",
+      "detail": "<RecordNumber>12</RecordNumber>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ComponentList>",
+      "detail": "<ComponentList>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<Component>",
+      "detail": "<Component>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<InstrumentID>111111111</InstrumentID>",
+      "detail": "<InstrumentID>111111111</InstrumentID>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</Component>",
+      "detail": "</Component>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<InstrumentID>222222222</InstrumentID>",
+      "detail": "<InstrumentID>222222222</InstrumentID>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</ComponentList>",
+      "detail": "</ComponentList>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</ETFDefinition>",
+      "detail": "</ETFDefinition>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确认文件：",
+      "detail": "确认文件：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ETFConfirmation>",
+      "detail": "<ETFConfirmation>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ValidationResult>Y</ValidationResult>",
+      "detail": "<ValidationResult>Y</ValidationResult>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</ETFConfirmation>",
+      "detail": "</ETFConfirmation>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件：",
+      "detail": "公告文件：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<SSEPortfolioCompositionFile>",
+      "detail": "<SSEPortfolioCompositionFile>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<FundInstrumentID >123456</ FundInstrumentID >",
+      "detail": "<FundInstrumentID >123456</ FundInstrumentID >",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ISINCode>111111111</ISINCode>",
+      "detail": "<ISINCode>111111111</ISINCode>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ISINCode>22222222</ISINCode>",
+      "detail": "<ISINCode>22222222</ISINCode>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</SSEPortfolioCompositionFile>",
+      "detail": "</SSEPortfolioCompositionFile>",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件标志文件举例",
+      "detail": "定义文件标志文件举例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "标志文件举例（“",
+      "detail": "标志文件举例（“",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "”代表一个空格）：",
+      "detail": "”代表一个空格）：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "etfd_123456_20240105.flg",
+      "detail": "etfd_123456_20240105.flg",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "etfd_123456_20240105.xml□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□|10254□□□□□□□□",
+      "detail": "etfd_123456_20240105.xml□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□|10254□□□□□□□□",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "□□□|20240105|070203|2045□□□□□□□□|1621F16308D601A43FFD6DF1DB78A723□□□□□□□□□",
+      "detail": "□□□|20240105|070203|2045□□□□□□□□|1621F16308D601A43FFD6DF1DB78A723□□□□□□□□□",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "□□□□□□□□□□□□□□□□□□□□□□□|□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□",
+      "detail": "□□□□□□□□□□□□□□□□□□□□□□□|□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□□",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "□□□□□□□□□□□□□□",
+      "detail": "□□□□□□□□□□□□□□",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金替代比例计算说明",
+      "detail": "现金替代比例计算说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "综合业务系统会根据",
+      "detail": "综合业务系统会根据",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件中总的现金替代比例",
+      "detail": "定义文件中总的现金替代比例",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段做如下控制：",
+      "detail": "字段做如下控制：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于实物申赎模式",
+      "detail": "对于实物申赎模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购篮子数",
+      "detail": "申购篮子数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实际交付数量",
+      "detail": "实际交付数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券昨收价",
+      "detail": "证券昨收价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购份额数量",
+      "detail": "申购份额数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "× ETF",
+      "detail": "× ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "二级市场昨收价",
+      "detail": "二级市场昨收价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，替代标志",
+      "detail": "，替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其中证券昨收价、",
+      "detail": "其中证券昨收价、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "二级市场昨收价均为除权除息后的昨收价。",
+      "detail": "二级市场昨收价均为除权除息后的昨收价。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版现金替代标志说明",
+      "detail": "版现金替代标志说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一、“禁止现金替代”，申购、赎回基金份额时该成份证券不接受现金替代，且投资者在申购环节必须",
+      "detail": "一、“禁止现金替代”，申购、赎回基金份额时该成份证券不接受现金替代，且投资者在申购环节必须",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "拥有足额成份券。",
+      "detail": "拥有足额成份券。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "二、“必须现金替代”，申购、赎回基金份额必须使用",
+      "detail": "二、“必须现金替代”，申购、赎回基金份额必须使用",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "清单明确的固定现金，不接受成份券。",
+      "detail": "清单明确的固定现金，不接受成份券。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三、“允许现金替代”，各产品类型下该替代标志的定义如下表所示：",
+      "detail": "三、“允许现金替代”，各产品类型下该替代标志的定义如下表所示：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "允许现金替代的定义",
+      "detail": "允许现金替代的定义",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F111-",
+      "detail": "F111-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F112-",
+      "detail": "F112-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F113-",
+      "detail": "F113-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F114-",
+      "detail": "F114-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F115-",
+      "detail": "F115-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实物申赎：",
+      "detail": "实物申赎：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于沪市（",
+      "detail": "对于沪市（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）成分券，申购基金份额优先使用成分券，成",
+      "detail": "）成分券，申购基金份额优先使用成分券，成",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "分券不足时差额部分用现金替代，赎回基金份额时该成分券",
+      "detail": "分券不足时差额部分用现金替代，赎回基金份额时该成分券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "不允许使用现金作为替代；对于非沪市成分券，在申购赎回",
+      "detail": "不允许使用现金作为替代；对于非沪市成分券，在申购赎回",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金份额时，该成分券只能使用现金作为替代，根据基金管",
+      "detail": "基金份额时，该成分券只能使用现金作为替代，根据基金管",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "理人代买卖情况，与投资者进行退款或补款。",
+      "detail": "理人代买卖情况，与投资者进行退款或补款。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F121-",
+      "detail": "F121-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F122-",
+      "detail": "F122-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（预留）",
+      "detail": "（预留）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F123-",
+      "detail": "F123-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F131-",
+      "detail": "F131-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F141-",
+      "detail": "F141-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "在申购赎回基金份额时，该成分券只能使用现金作为替代，",
+      "detail": "在申购赎回基金份额时，该成分券只能使用现金作为替代，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "根据基金管理人代买卖情况，与投资者进行退款或补款。",
+      "detail": "根据基金管理人代买卖情况，与投资者进行退款或补款。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F142-",
+      "detail": "F142-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F150-",
+      "detail": "F150-",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：现金替代标志说明",
+      "detail": "：现金替代标志说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS118",
+    "ETF",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及706项变更。 业务流程变更: 2项。 技术架构变更: 2项。 版本升级: 19项。 接口字段变更: 23项。 规则条款变更: 660项。 其中重大变更6项。",
+  "confidence": 0.92,
+  "raw_text": "Fundid1\n描述有误，应为一级市场代码，对应关系不变。\n\nRecord Number\n改为必须大于\n0\n\n返回给基金公司的公告文件名为小写\n\n定义文件中账户和\nPBU\n可不同时为空，为空表示同前一交易日数据\n2\n、根据跨境\nETF\n业务需求，进行以下修订：\n\n增加成分股替代类型\n6\n，为非沪深市场成分股，必须现金替代\n\n修订基金公司成交回报内容\n\n对\nNAV\n和现金分红字段的取值进行了修订\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.2\n版发布说明\n2011\n年\n4\n月发布\n1.2\n版本。\n主要变更内容为：\n1\n、\n根据业务要求，由交易系统代为生成\n1.0\n格式的公告文件，新增\n1.0\n格式公告文件内容。\n2\n、\n增加已发行\nETF\n基金定义文件代码\n3\n、\n用红色表示\n2.0\n格式定义文件中与\n1.0\n格式定义文件的差异部分\n4\n、\n2.0\n定义文件中\nNAV\n字段长度改为\nN8(4)\n，成分股产品简称字段改为\nC8\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.1\n版发布说明\n2011\n年\n1\n月发布\n1.1\n版本。\n主要变更内容为：\n1\n、\n根据业务需求修订\n2.0\n格式接口。\n➢\n将交易系统不用的字段改为非必填项\n➢\n在定义文件中增加\nPBU ID\n和账户\n➢\n删除\nIOPV\n发布字段中不通过交易所发布的两种方式\n➢\n删除定义文件中的资金代码\n➢\n对于替代标志为\n4\n的代码，溢价比例无意义\n2\n、\n增加已发行\nETF\n基金定义文件代码\n3\n、\n根据实际情况简化定义文件的处理部分描述\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.02\n版发布说明\n2010\n年\n7\n月发布\n1.02\n版本。\n主要变更内容为：\n新增跨境\nETF\n内容。\n修订说明：\n2010-5-27\n：\n（\n1\n）明确交易系统收到\n2.0\n格式定义文件后转发的存储网关目录，并生成的文件名。\n（\n2\n）将定义文件成分股中的产品简称字段由\n10\n位改为\n15\n位。\n第\n46\n页\n共\n47\n页\n（\n3\n）增加已上市\nETF\n的交易代码。\n2010-6-4\n：\n（\n1\n）在定义文件中增加前一日现金差额字段，确认现金分红字段的必选属性。\n2010-6-21\n（\n1\n）明确鹏华基金民企\nETF\n代码为\nfm011\n；\n（\n2\n）\nCash Divided\n现金分红字段的中文含义改为每一基金单位分红，字段长度及取值不变。\n2010-6-29\n修改\nPreTradingDay\n的中文注释。\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.01\n版发布说明\n2010\n年\n1\n月发布\n1.01\n版本。\n主要变更内容为：\n新增跨市场\nETF\n内容。\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.00\n版发布说明\n2009\n年\n11\n月发布正式版本。\n第\n47\n页\n共\n47\n页"
+}

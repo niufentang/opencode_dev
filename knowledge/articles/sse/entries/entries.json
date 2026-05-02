@@ -1,0 +1,2330 @@
+{
+  "source": "sse",
+  "last_updated": "2026-05-02T02:17:07+00:00",
+  "total_entries": 171,
+  "entries": [
+    {
+      "id": "sse-guide-00000000-007",
+      "title": "上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS101",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-008",
+      "title": "互联网交易平台市场参与人ITCS接入调整指引",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-036",
+      "title": "关于发布IOPV外部源机构接入市场接口及技术指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS118",
+        "IS419"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-037",
+      "title": "关于发布IOPV外部源机构接入市场接口及技术指南（2026年1月修订）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS419"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-041",
+      "title": "关于发布TXT版ETF定义文件下线、新竞价过户接口、独立IOPV行情相关市场接口及技术指南（正式稿）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS105",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-051",
+      "title": "关于发布《上海证券交易所交易规则修订市场参与者技术实施指南V1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-052",
+      "title": "关于发布《上海证券交易所科创成长层市场参与人技术实施指南2",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "科创成长层"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-054",
+      "title": "关于发布优化ETF申赎清单、EzOES下线市场接口及技术指南（正式稿）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "ETF申赎清单",
+        "EzOES"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-055",
+      "title": "关于发布优化ETF申赎清单市场接口及技术指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "ETF申赎清单",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-056",
+      "title": "关于发布优化ETF申赎清单市场接口及技术指南（2025年8月修订）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "ETF申赎清单",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-057",
+      "title": "关于发布优化ETF申赎清单（含跨银行间市场债券ETF）市场接口及技术指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "ETF申赎清单",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-068",
+      "title": "关于发布执行报告订阅优化第二阶段技术指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-070",
+      "title": "关于发布新一代期权交易系统技术指南及报盘软件错误代码表（技术开发稿）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS111",
+        "报盘软件",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-071",
+      "title": "关于发布新一代期权交易系统若干技术调整实施指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-072",
+      "title": "关于发布新固定收益系统市场接口及技术指南（2026年4月修订）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-074",
+      "title": "关于发布新竞价新综业市场接口及技术实施指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS105",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-075",
+      "title": "关于发布新竞价新综业市场接口及技术实施指南（2026年2月修订）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS118",
+        "IS124",
+        "新竞价新综业"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-076",
+      "title": "关于发布新竞价新综业市场接口及技术实施指南（2026年4月修订）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS105",
+        "IS111",
+        "报盘软件"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-077",
+      "title": "关于发布独立IOPV行情市场接口及技术指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-078",
+      "title": "关于发布独立IOPV行情市场接口及技术指南（2026年3月修订）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-079",
+      "title": "关于发布独立IOPV行情市场接口及技术指南（正式稿）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-081",
+      "title": "关于发布科创成长层相关市场接口及技术指南（正式稿）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS101",
+        "科创成长层"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-083",
+      "title": "关于发布调整主板风险警示股票价格涨跌幅限制比例技术指南的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-084",
+      "title": "关于发布非交易业务迁移市场接口及技术指南（正式稿）的通知",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-090",
+      "title": "证券核心交易系统操作系统技术白皮书",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "交易网关",
+        "债券",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-156",
+      "title": "上海证券交易所互联网交易平台一债通业务市场参与人技术实施指南（固收迁移互联网交易平台开发稿）",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS109",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-158",
+      "title": "上海证券交易所交易规则修订市场参与者技术实施指南V1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "IS124",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-guide-00000000-165",
+      "title": "上海证券交易所新固定收益系统市场参与人技术实施指南（技术开发稿）",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS109",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-guide-20250217-157",
+      "title": "上海证券交易所互联网交易平台一债通业务市场参与人技术实施指南（固收迁移互联网交易平台开发稿）_20250217",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-02-17",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS109",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-guide-20250324-159",
+      "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20250324",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-03-24",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "ETF申赎清单",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-guide-20250324-171",
+      "title": "上海证券交易所跨市场债券（银行间）ETF市场参与者技术实施指南_20250324",
+      "type": "guide",
+      "status": "deprecated",
+      "public_date": "2025-03-24",
+      "tags": [
+        "sse",
+        "guide",
+        "IS101",
+        "IS105",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-guide-20250421-163",
+      "title": "上海证券交易所新一代期权交易系统若干技术调整市场参与者技术实施指南（技术开发稿）2",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2025-04-21",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS111",
+        "IS120"
+      ]
+    },
+    {
+      "id": "sse-guide-20250620-003",
+      "title": "上海证券交易所执行报告订阅优化市场参与人技术实施指南3",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2025-06-20",
+      "tags": [
+        "sse",
+        "guide",
+        "IS122",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "sse-guide-20250721-006",
+      "title": "上海证券交易所科创成长层市场参与人技术实施指南2",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2025-07-21",
+      "tags": [
+        "sse",
+        "guide",
+        "IS101",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-guide-20250722-160",
+      "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20250722",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-07-22",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "ETF申赎清单",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-guide-20250801-002",
+      "title": "上海证券交易所市场数据文件交换",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-08-01",
+      "tags": [
+        "sse",
+        "guide",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-guide-20250801-169",
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20250801",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-08-01",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-20250815-154",
+      "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2025-08-15",
+      "tags": [
+        "sse",
+        "guide",
+        "IS118",
+        "IS419",
+        "债券"
+      ]
+    },
+    {
+      "id": "sse-guide-20250825-161",
+      "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20250825",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-08-25",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "ETF申赎清单",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-guide-20250912-162",
+      "title": "上海证券交易所新一代期权交易系统若干技术调整市场参与者技术实施指南3",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-09-12",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS111",
+        "IS120"
+      ]
+    },
+    {
+      "id": "sse-guide-20250919-004",
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20250919",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-09-19",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-20251017-001",
+      "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20251017",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2025-10-17",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "ETF申赎清单",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-guide-20260122-166",
+      "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2026-01-22",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS105",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-guide-20260129-155",
+      "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2026-01-29",
+      "tags": [
+        "sse",
+        "guide",
+        "IS111",
+        "IS118",
+        "IS419"
+      ]
+    },
+    {
+      "id": "sse-guide-20260227-167",
+      "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
+      "type": "guide",
+      "status": "superseded",
+      "public_date": "2026-02-27",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS105",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-guide-20260306-170",
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20260306（独立IOPV行情 技术开发稿）",
+      "type": "guide",
+      "status": "deprecated",
+      "public_date": "2026-03-06",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-20260327-005",
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南V2",
+      "type": "guide",
+      "status": "deprecated",
+      "public_date": "2026-03-27",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS120",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-guide-20260424-164",
+      "title": "上海证券交易所新固定收益系统市场参与人技术实施指南_20260424（技术开发稿）",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2026-04-24",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS109",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-guide-20260430-168",
+      "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
+      "type": "guide",
+      "status": "deprecated",
+      "public_date": "2026-04-30",
+      "tags": [
+        "sse",
+        "guide",
+        "BINARY",
+        "IS105",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-048",
+      "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-049",
+      "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-050",
+      "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-086",
+      "title": "关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-092",
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-093",
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "ETF申赎清单",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-104",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "ETF申赎清单",
+        "IS101",
+        "IS103"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-112",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS104",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-116",
+      "title": "固定收益平台STEP协议报盘接口规格说明书V1.0版（开发测试稿）",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS109",
+        "IS112",
+        "IS119"
+      ]
+    },
+    {
+      "id": "sse-iface-00000000-131",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-017",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-018",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-019",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-020",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-117",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-118",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "ETF申赎清单",
+        "IS120"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-119",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范0",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-120",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-123",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-124",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "ETF申赎清单",
+        "IS120"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-125",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范0",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20180309-126",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2018-03-09",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20190315-021",
+      "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（债券平台）1",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2019-03-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20190315-024",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（债券平台）1",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2019-03-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20210415-022",
+      "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（竞价平台）0",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2021-04-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20210415-025",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（竞价平台）0",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2021-04-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20210415-129",
+      "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（竞价平台）0",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2021-04-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20210415-137",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（竞价平台）0",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2021-04-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20241121-010",
+      "title": "1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2024-11-21",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS109",
+        "REITs",
+        "债券"
+      ]
+    },
+    {
+      "id": "sse-iface-20241224-138",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2024-12-24",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250106-130",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-01-06",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20250217-139",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-02-17",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250305-101",
+      "title": "上海证券交易所新一代交易系统市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2025-03-05",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS117",
+        "STEP",
+        "债券"
+      ]
+    },
+    {
+      "id": "sse-iface-20250317-102",
+      "title": "IS118 上海证券交易所特定参与者接口规格说明书（转发卷）",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-03-17",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS105",
+        "IS109"
+      ]
+    },
+    {
+      "id": "sse-iface-20250317-144",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-03-17",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250328-140",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-03-28",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250407-132",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-04-07",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20250512-103",
+      "title": "IS118 上海证券交易所特定参与者接口规格说明书（转发卷）",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-05-12",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS105",
+        "IS109"
+      ]
+    },
+    {
+      "id": "sse-iface-20250512-145",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-05-12",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250716-146",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-07-16",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250718-013",
+      "title": "IS118 上海证券交易所特定参与者接口规格说明书（转发卷）",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-07-18",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS105",
+        "IS109"
+      ]
+    },
+    {
+      "id": "sse-iface-20250718-016",
+      "title": "固定收益平台STEP协议报盘接口规格说明书V1.0版（开发测试稿）",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2025-07-18",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS109",
+        "IS112",
+        "IS119"
+      ]
+    },
+    {
+      "id": "sse-iface-20250722-105",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-07-22",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "ETF申赎清单",
+        "IS101",
+        "IS103"
+      ]
+    },
+    {
+      "id": "sse-iface-20250725-106",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-07-25",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS103",
+        "IS104"
+      ]
+    },
+    {
+      "id": "sse-iface-20250801-012",
+      "title": "上海证券交易所新一代交易系统市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2025-08-01",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS117",
+        "STEP",
+        "债券"
+      ]
+    },
+    {
+      "id": "sse-iface-20250801-133",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-01",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20250801-141",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-01",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250801-147",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-01",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250808-107",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-08",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS103",
+        "IS104"
+      ]
+    },
+    {
+      "id": "sse-iface-20250815-091",
+      "title": "IS101_上海证券交易所竞价撮合平台市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2025-08-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS111"
+      ]
+    },
+    {
+      "id": "sse-iface-20250815-094",
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20250815-108",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS103",
+        "IS104"
+      ]
+    },
+    {
+      "id": "sse-iface-20250815-152",
+      "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（IOPV卷）1",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS419"
+      ]
+    },
+    {
+      "id": "sse-iface-20250815-153",
+      "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（IOPV卷）1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2025-08-15",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS419"
+      ]
+    },
+    {
+      "id": "sse-iface-20250825-109",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-08-25",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "ETF申赎清单",
+        "IS101",
+        "IS103"
+      ]
+    },
+    {
+      "id": "sse-iface-20251114-134",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-11-14",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20251114-142",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-11-14",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20251117-121",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-11-17",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20251117-127",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2025-11-17",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20251128-023",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）1",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2025-11-28",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20260113-113",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-13",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS104",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260113-135",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-13",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20260113-143",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-13",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260114-148",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-14",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-20260121-122",
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-21",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20260121-128",
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2026-01-21",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "IS120",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-iface-20260122-095",
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2026-01-22",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260122-110",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-22",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS103",
+        "IS104"
+      ]
+    },
+    {
+      "id": "sse-iface-20260122-114",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-22",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS104",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260122-149",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2026-01-22",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-20260126-026",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-01-26",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-20260227-111",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-02-27",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS103",
+        "IS104"
+      ]
+    },
+    {
+      "id": "sse-iface-20260227-115",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-02-27",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS104",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260227-150",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2026-02-27",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-20260306-151",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2026-03-06",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-20260327-009",
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+      "type": "interface_spec",
+      "status": "deprecated",
+      "public_date": "2026-03-27",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260327-014",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2026-03-27",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS103",
+        "IS104"
+      ]
+    },
+    {
+      "id": "sse-iface-20260327-015",
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+      "type": "interface_spec",
+      "status": "superseded",
+      "public_date": "2026-03-27",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS104",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-iface-20260424-027",
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2026-04-24",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "BINARY",
+        "EzOES",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-iface-20260424-136",
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2026-04-24",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "IS101",
+        "IS111",
+        "IS122"
+      ]
+    },
+    {
+      "id": "sse-iface-20260430-096",
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2026-04-30",
+      "tags": [
+        "sse",
+        "interface_spec",
+        "EzOES",
+        "IS101",
+        "IS105"
+      ]
+    },
+    {
+      "id": "sse-mag-00000000-028",
+      "title": "《交易技术前沿》2025年第4期（总第64期 国家重点研发计划增刊）",
+      "type": "magazine",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "magazine",
+        "注册制"
+      ]
+    },
+    {
+      "id": "sse-mag-00000000-029",
+      "title": "第二期",
+      "type": "magazine",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "magazine",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-mag-00000000-030",
+      "title": "《交易技术前沿》2025年第二期（总第62期 大模型在证券行业的应用与探索）",
+      "type": "magazine",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "magazine"
+      ]
+    },
+    {
+      "id": "sse-mag-00000000-031",
+      "title": "第三期",
+      "type": "magazine",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "magazine"
+      ]
+    },
+    {
+      "id": "sse-soft-00000000-069",
+      "title": "关于发布报盘软件错误代码表3",
+      "type": "software",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "software",
+        "IS111",
+        "报盘软件",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-soft-20120508-011",
+      "title": "IS111_上海证券交易所报盘软件错误代码表3",
+      "type": "software",
+      "status": "superseded",
+      "public_date": "2012-05-08",
+      "tags": [
+        "sse",
+        "software",
+        "EzOES",
+        "IS111",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-soft-20120508-097",
+      "title": "IS111_上海证券交易所报盘软件错误代码表3",
+      "type": "software",
+      "status": "superseded",
+      "public_date": "2012-05-08",
+      "tags": [
+        "sse",
+        "software",
+        "EzOES",
+        "IS111",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-soft-20120508-098",
+      "title": "IS111_上海证券交易所报盘软件错误代码表3",
+      "type": "software",
+      "status": "superseded",
+      "public_date": "2012-05-08",
+      "tags": [
+        "sse",
+        "software",
+        "EzOES",
+        "IS111",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-soft-20120508-099",
+      "title": "IS111_上海证券交易所报盘软件错误代码表3",
+      "type": "software",
+      "status": "superseded",
+      "public_date": "2012-05-08",
+      "tags": [
+        "sse",
+        "software",
+        "EzOES",
+        "IS111",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-soft-20120508-100",
+      "title": "IS111_上海证券交易所报盘软件错误代码表3",
+      "type": "software",
+      "status": "active",
+      "public_date": "2012-05-08",
+      "tags": [
+        "sse",
+        "software",
+        "EzOES",
+        "IS111",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-032",
+      "title": "关于TXT版ETF定义文件上传功能下线的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "证通云盘"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-033",
+      "title": "关于UniTrans停发上交所私有类文件的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "UniTrans",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-034",
+      "title": "关于发布ETF网上发行末日比例配售市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-035",
+      "title": "关于发布ETF网上发行末日比例配售市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-038",
+      "title": "关于发布IOPV行情计算源调整市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-039",
+      "title": "关于发布IOPV行情计算源调整市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-040",
+      "title": "关于发布REITs向不特定对象扩募相关市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS105",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-042",
+      "title": "关于发布UniTrans停发上交所公共类文件市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118",
+        "IS124",
+        "UniTrans"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-043",
+      "title": "关于发布UniTrans停发上交所公共类文件市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118",
+        "IS124",
+        "UniTrans"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-044",
+      "title": "关于发布UniTrans停发上交所实时行情市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118",
+        "IS124",
+        "UniTrans"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-045",
+      "title": "关于发布UniTrans停发上交所实时行情市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118",
+        "IS124",
+        "UniTrans"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-046",
+      "title": "关于发布UniTrans停发上交所私有类文件市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118",
+        "IS124",
+        "UniTrans"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-047",
+      "title": "关于发布UniTrans停发上交所私有类文件市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS118",
+        "IS124",
+        "UniTrans"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-053",
+      "title": "关于发布下调香港证券市场股票最低上落价位市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS117",
+        "港股通"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-058",
+      "title": "关于发布公募REITs非定向扩募市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS105",
+        "REITs"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-059",
+      "title": "关于发布固定收益平台业务迁移至互联网交易平台市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS122",
+        "IS124",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-060",
+      "title": "关于发布固定收益平台业务迁移至互联网交易平台市场接口（2025年11月修订）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS122",
+        "IS124",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-061",
+      "title": "关于发布固定收益平台行情文件发送频率调整市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS119",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-062",
+      "title": "关于发布固定收益平台行情文件发送频率调整市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS119",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-063",
+      "title": "关于发布固收平台业务迁移至互联网交易平台市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS122",
+        "IS124",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-064",
+      "title": "关于发布固收迁移及债券借贷业务市场接口技术开发稿的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS122",
+        "IS124",
+        "STEP"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-065",
+      "title": "关于发布多资产ETF市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS101",
+        "IS105",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-066",
+      "title": "关于发布席位联通接口文件下线市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-067",
+      "title": "关于发布席位联通接口文件下线市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS101"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-073",
+      "title": "关于发布新固定收益系统市场接口（2026年1月修订）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "BINARY",
+        "IS111",
+        "IS118"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-080",
+      "title": "关于发布科创成长层改革相关市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS101",
+        "科创成长层"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-082",
+      "title": "关于发布行情网关MDGW_1.2",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-085",
+      "title": "关于宽带单向卫星系统带宽调整的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-087",
+      "title": "关于更新发布相关市场接口（正式稿）的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS109",
+        "IS124"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-088",
+      "title": "关于调整互联网交易平台市场参与人ITCS接入地址的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "sse-tech-00000000-089",
+      "title": "关于调整重点指数表现市场接口的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "sse",
+        "technical_notice",
+        "IS124"
+      ]
+    }
+  ]
+}

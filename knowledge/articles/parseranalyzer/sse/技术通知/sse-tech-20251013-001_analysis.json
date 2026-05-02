@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-tech-20251013-001",
+  "title": "关于调整互联网交易平台市场参与人ITCS接入地址的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10794490/files/a6ec9df3f8054eb5a7d5be5756b8f290.pdf",
+  "analysis_date": "2026-05-02T05:42:03.432075+00:00",
+  "metadata": {
+    "file_hash": "sha256:83b62fa0482eb6064ba2366e53d67faeac4b46717a4c014f719b1c5dda25e0e3",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "technical_notice",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-10-13",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：technical_notice，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于调整互联网交易平台市场参与人\nITCS 接入地址的通知\n各市场参与人：\n因技术发展需要，现调整互联网交易平台（06 环境）市场\n参与人通信服务器（简称：ITCS）接入地址及登录规则。\n一、ITCS 接入地址\n以下2 个地址将继续使用，端口号均为30606。\n编号\n站点\n通信地址\n继续使用\n地址\n1\n金桥\n*\n的地址\n地址\n2\n竹园\n*\n以下6 个地址将下线（地址3-8，端口号均为30606）。\n编号\n站点\n通信地址\n地址\n3\n金桥\n*\n地址\n4\n外高桥\n*\n即将下线\n地址\n5\n金桥\n*\n的地址\n地址\n6\n外高桥\n*\n地址\n7\n金桥\n*\n地址\n8\n外高桥\n*\n计划2025 年10 月20 日开始试行下线，10 月27 日生效。\n二、ITCS 登录规则\n上述计划实施后，市场参与人交易网关（简称：TDGW）应仅\n配置\n地址1\n和\n地址2\n，并统一顺序配置。\n地址配置样例：\n例如，某会员机构互联网交易平台TDGW 数量为5，则此机\n构各登录PBU 的地址分配如下：\nTDGW 第一地址\nTDGW 第二地址\n登录PBU1\n地址1\n地址2\n登录PBU2\n地址1\n地址2\n登录PBU3\n地址1\n地址2\n登录PBU4\n地址1\n地址2\n登录PBU5\n地址1\n地址2\n请市场参与人按照规则，做好TDGW 的配置工作。为保障ITCS\n的接入质量，上交所技术公司将不定期按各市场参与人反馈的配\n置进行抽查，谢谢配合！\n上交所技术有限责任公司\n2025 年10 月13 日"
+}

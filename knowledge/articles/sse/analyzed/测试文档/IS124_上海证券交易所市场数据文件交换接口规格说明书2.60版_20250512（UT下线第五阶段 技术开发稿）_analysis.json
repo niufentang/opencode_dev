@@ -1,0 +1,80 @@
+{
+  "doc_id": "sse-iface-20250512-145",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.702614+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "废止",
+      "summary": "下线第五阶段安排，",
+      "detail": "下线第五阶段安排，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "停止转发以下文件： 国债利息文件 gzlx.MDD 标准券折算率变更文件 zslMMDD.tx 标准券折算率变更公告文件 zslwMMDD.txt 标准券折算比率文件 xzslMMDD.txt 产品基础信息第二版第一批次 cpxx0201MMDD.txt 产品基础信息第二版第二批次 cpxx0202MMDD.txt",
+      "detail": "停止转发以下文件：\n国债利息文件\ngzlx.MDD\n标准券折算率变更文件\nzslMMDD.tx\n标准券折算率变更公告文件\nzslwMMDD.txt\n标准券折算比率文件\nxzslMMDD.txt\n产品基础信息第二版第一批次\ncpxx0201MMDD.txt\n产品基础信息第二版第二批次\ncpxx0202MMDD.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "国际化产品信息文件 ifjyyyyymmdd.xml 2.60 2025-05 债券产品信息文件压缩包 archive_bondinfoYYYYMMDD.zip 期权基础信息文件 reff03MMDD.txt 期权基础信息第二版文件 reff0302YYYYMMDD.xml 期权组合策略文件 zhcl03MMDD.txt",
+      "detail": "国际化产品信息文件\nifjyyyyymmdd.xml\n2.60\n2025-05\n债券产品信息文件压缩包\narchive_bondinfoYYYYMMDD.zip\n期权基础信息文件\nreff03MMDD.txt\n期权基础信息第二版文件\nreff0302YYYYMMDD.xml\n期权组合策略文件\nzhcl03MMDD.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "竞价撮合系统盘中停牌公告文件 tpxxxxhhmmss.txt 债券盘中停牌公告文件 ztxxxxhhmmss.txt 重点指数表现文件 zsbxYYMMDD.txt 1)15) 期权收盘价格文件 clpr03MMDD.txt 2.12. 文件名： archive_bondinfoYYYYMMDD 扩展名：",
+      "detail": "竞价撮合系统盘中停牌公告文件\ntpxxxxhhmmss.txt\n债券盘中停牌公告文件\nztxxxxhhmmss.txt\n重点指数表现文件\nzsbxYYMMDD.txt\n1)15)\n期权收盘价格文件\nclpr03MMDD.txt\n2.12.\n文件名：\narchive_bondinfoYYYYMMDD\n扩展名：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布时间：开市前发布 发布渠道： 文件说明：该文件为债券产品信息文件（ bondinfoYYYYMMDD.txt",
+      "detail": "发布时间：开市前发布\n发布渠道：\n文件说明：该文件为债券产品信息文件（\nbondinfoYYYYMMDD.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "）压缩包版本，解压后内容上与债券产品信",
+      "detail": "）压缩包版本，解压后内容上与债券产品信",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "息文件一致。文件名中 YYYYMMDD 表示年月日格式的日期 接口格式：解压后与债券产品信息文件（ 2.13.2.12. 2.14.2.13. 2.15.2.14. 2.16.2.15.",
+      "detail": "息文件一致。文件名中\nYYYYMMDD\n表示年月日格式的日期\n接口格式：解压后与债券产品信息文件（\n2.13.2.12.\n2.14.2.13.\n2.15.2.14.\n2.16.2.15.",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS113",
+    "IS117",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及7项变更。 版本升级: 1项。 废止: 1项。 规则条款变更: 5项。",
+  "confidence": 0.95
+}

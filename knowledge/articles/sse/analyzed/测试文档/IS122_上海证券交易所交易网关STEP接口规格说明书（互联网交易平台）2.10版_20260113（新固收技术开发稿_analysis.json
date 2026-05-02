@@ -1,0 +1,597 @@
+{
+  "doc_id": "sse-iface-20260113-135",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T02:03:06.521316+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "（新固收 3.2.2.2 询价报价处理消息流图和 3.2.2.3 报价处理消息流图中 调整笔误，将报价回复响应中的 ClOrdID QuoteMsgID 4.4.2.2 询价请求响应、 4.4.2.3 转发询价请求、 4.4.2.5 报价状态 4.4.2.6 转发报价、 4.4.2.8 转发报价回复、",
+      "detail": "（新固收\n3.2.2.2\n询价报价处理消息流图和\n3.2.2.3\n报价处理消息流图中\n调整笔误，将报价回复响应中的\nClOrdID\nQuoteMsgID\n4.4.2.2\n询价请求响应、\n4.4.2.3\n转发询价请求、\n4.4.2.5\n报价状态\n4.4.2.6\n转发报价、\n4.4.2.8\n转发报价回复、",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.3.2 转发意向 4.4.4.2 转发成交申报中重复组中增加登录或订阅交易单元 4.4.3 意向申报类、 4.4.4 成交申报类中对于 ContractMultiplier 为保证上下游定义统一，调整为 N5(2) 4.4.4.3 成交申报响应中对于订单拒绝码，调整为 TrdAckStatus",
+      "detail": "4.4.3.2\n转发意向\n4.4.4.2\n转发成交申报中重复组中增加登录或订阅交易单元\n4.4.3\n意向申报类、\n4.4.4\n成交申报类中对于\nContractMultiplier\n为保证上下游定义统一，调整为\nN5(2)\n4.4.4.3\n成交申报响应中对于订单拒绝码，调整为\nTrdAckStatus",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025.11 2.10 4.4.1.1 新订单申报中对于固收各业务添加对 Text 字段的选填 报价状态回报、 成交申报 4.4.4.4 成交确认、 4.4.5.1 执行报告中对于不同业务返回字 段进行了明确区分 4.4.2 询价报价业务类、 成交申报类中 调整了部分字段的前后顺序",
+      "detail": "2025.11\n2.10\n4.4.1.1\n新订单申报中对于固收各业务添加对\nText\n字段的选填\n报价状态回报、\n成交申报\n4.4.4.4\n成交确认、\n4.4.5.1\n执行报告中对于不同业务返回字\n段进行了明确区分\n4.4.2\n询价报价业务类、\n成交申报类中\n调整了部分字段的前后顺序",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "针对本次固收迁移业务，取消营业部代码字段",
+      "detail": "针对本次固收迁移业务，取消营业部代码字段",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "和新固定收益系统 目前支持互联网交易平台相关业务： 互联网交易平台 新固定收益系统 适用于互联网交易平台。 ，同时转发询价撤销 消息告知其余报价方 向互联网交易平台",
+      "detail": "和新固定收益系统\n目前支持互联网交易平台相关业务：\n互联网交易平台\n新固定收益系统\n适用于互联网交易平台。\n，同时转发询价撤销\n消息告知其余报价方\n向互联网交易平台",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5010",
+      "detail": "5010",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、营业部代码 营业部代码必填。 营业部代码必填 ；营业部代码必填",
+      "detail": "、营业部代码\n营业部代码必填。\n营业部代码必填\n；营业部代码必填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；营业部",
+      "detail": "；营业部",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "代码必填 ；营业部代码",
+      "detail": "代码必填\n；营业部代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段选填",
+      "detail": "字段选填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、发起方营业部代码对开放式基金、要约",
+      "detail": "、发起方营业部代码对开放式基金、要约",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金选择权、融资融券非交易业务、双非可转债转股冻结、 私募可交换债换股、债券回售（一债通）、债券回售撤销、债券转托管、三方回购转入转出和竞买业务暂",
+      "detail": "现金选择权、融资融券非交易业务、双非可转债转股冻结、\n私募可交换债换股、债券回售（一债通）、债券回售撤销、债券转托管、三方回购转入转出和竞买业务暂",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "不启用，其他业务必填。 ，未提及的非必填字段均无",
+      "detail": "不启用，其他业务必填。\n，未提及的非必填字段均无",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回报订单申报 登录或订阅交易单元、 PartyID",
+      "detail": "回报订单申报\n登录或订阅交易单元、\nPartyID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方登录或订阅交易单元（除基金通外必填）",
+      "detail": "发起方登录或订阅交易单元（除基金通外必填）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，表示当前 的取值为登录或订阅 PartyRole 交易单元。 对于以下业务，发起方交易单元、发起方交易员一债通账户、 TransactTime ExecMethod 报或撤单成功时， OrderID 有效；订单被拒绝时， QuoteRequestRejectReason",
+      "detail": "，表示当前\n的取值为登录或订阅\nPartyRole\n交易单元。\n对于以下业务，发起方交易单元、发起方交易员一债通账户、\nTransactTime\nExecMethod\n报或撤单成功时，\nOrderID\n有效；订单被拒绝时，\nQuoteRequestRejectReason",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "有效。其他非必填字段要求如下， 未提及的非必填字段均无效：",
+      "detail": "有效。其他非必填字段要求如下，\n未提及的非必填字段均无效：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务类型 申报填写说明 ApplID 待定报价 NoCounterpartyParticipant/CounterpartyParticipantCode 撤单成功时 OrderQty LastQty 600200 表示剩余数量，否则无效。 同申报信息 OrigClOrdID 一债通询价 表示剩余 600190",
+      "detail": "业务类型\n申报填写说明\nApplID\n待定报价\nNoCounterpartyParticipant/CounterpartyParticipantCode\n撤单成功时\nOrderQty\nLastQty\n600200\n表示剩余数量，否则无效。\n同申报信息\nOrigClOrdID\n一债通询价\n表示剩余\n600190",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数量，否则无效。 ，撤单时表示剩余数量 订阅交易单元、 登录或订阅交易单元（指转发消息的接收方，除基金 登录或订",
+      "detail": "数量，否则无效。\n，撤单时表示剩余数量\n订阅交易单元、\n登录或订阅交易单元（指转发消息的接收方，除基金\n登录或订",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "通外必填）。",
+      "detail": "通外必填）。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "阅交易单 的取值为登录或订阅交易单 、一债通询价（ ）、待定报价（",
+      "detail": "阅交易单\n的取值为登录或订阅交易单\n、一债通询价（\n）、待定报价（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "）时，发起方交易员一债通账户、对手方机构代码必",
+      "detail": "）时，发起方交易员一债通账户、对手方机构代码必",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填。如询价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账户、发起方投资者账户（如有） anonymous 、转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。 报价类别 QuoteType 1=Tradeable ，表示可交易的报价 当报价是对询价请求的响应时，填写转发询价请求的 QuoteReqID",
+      "detail": "填。如询价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账户、发起方投资者账户（如有）\nanonymous\n、转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。\n报价类别\nQuoteType\n1=Tradeable\n，表示可交易的报价\n当报价是对询价请求的响应时，填写转发询价请求的\nQuoteReqID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "或公开报价行情中的 QuoteID ValidUntilTime 报价有效时间，预留字段，暂不启用 ntime 一债通账户",
+      "detail": "或公开报价行情中的\nQuoteID\nValidUntilTime\n报价有效时间，预留字段，暂不启用\nntime\n一债通账户",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "，未提及的非必填字段对该业务无效 发起方登录或订阅交易单元（除基金通外必填）。",
+      "detail": "，未提及的非必填字段对该业务无效\n发起方登录或订阅交易单元（除基金通外必填）。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或订阅交易 、对于以下业务，响应中的 字段，如申报为报价，填写交易所唯一化处理后的报价请求 申报为报价回复，且回复中填写了 ，则响应中与申报时填写字段相同。发起方交易单元、发起方 交易员一债通账户、 QuoteStatus 申报或撤单成功时， 有效；订 单被拒绝时，",
+      "detail": "的取值为登录或订阅交易\n、对于以下业务，响应中的\n字段，如申报为报价，填写交易所唯一化处理后的报价请求\n申报为报价回复，且回复中填写了\n，则响应中与申报时填写字段相同。发起方交易单元、发起方\n交易员一债通账户、\nQuoteStatus\n申报或撤单成功时，\n有效；订\n单被拒绝时，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "有效。其他非必填字段要求如下，未提及的非必填字段对该业务无",
+      "detail": "有效。其他非必填字段要求如下，未提及的非必填字段对该业务无",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价回报填写说明 报价回复回报填写说明 报价撤单填写说明 确定报价 BidSize OfferSize BidPx OfferPx 600180 有效表示剩余 申报信息 或订阅交易单元、 登录或订阅交易单元（指转发消息的接收方，除基",
+      "detail": "报价回报填写说明\n报价回复回报填写说明\n报价撤单填写说明\n确定报价\nBidSize\nOfferSize\nBidPx\nOfferPx\n600180\n有效表示剩余\n申报信息\n或订阅交易单元、\n登录或订阅交易单元（指转发消息的接收方，除基",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "金通外必填）",
+      "detail": "金通外必填）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、确定报价（ ）、一债通询价（ ）时，发起方交易员一债通账",
+      "detail": "、确定报价（\n）、一债通询价（\n）时，发起方交易员一债通账",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "户、对手方机构代码必填。如询价方或报价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账",
+      "detail": "户、对手方机构代码必填。如询价方或报价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "户、发起方投资者账户（如有）填‘ 转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。",
+      "detail": "户、发起方投资者账户（如有）填‘\n转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方营业部代码",
+      "detail": "发起方营业部代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4001 的取值为发起方的营",
+      "detail": "4001\n的取值为发起方的营",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "业部代码。",
+      "detail": "业部代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订阅交易单元（指转发消息的接收方）。 的取值为登录或订阅交易单元。",
+      "detail": "登录或订阅交易单元（指转发消息的接收方）。\n的取值为登录或订阅交易单元。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "对手方交易参与人机构代码，支持特殊符号‘",
+      "detail": "对手方交易参与人机构代码，支持特殊符号‘",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为对手方的交易参与人 意向申报事务类型 N=New ，新申报 IOITransType C=Cancel ，撤销申报 订单所有者类型，取值包括： 个人投资者 OwnerType 103= 机构投资者 104= 自营交易 回报时间 SecurityID",
+      "detail": "的取值为对手方的交易参与人\n意向申报事务类型\nN=New\n，新申报\nIOITransType\nC=Cancel\n，撤销申报\n订单所有者类型，取值包括：\n个人投资者\nOwnerType\n103=\n机构投资者\n104=\n自营交易\n回报时间\nSecurityID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码 、发起方营业部代码",
+      "detail": "证券代码\n、发起方营业部代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方投资者帐户，协议回购意向申报时不适用 的取值为发起方投资者帐户。",
+      "detail": "发起方投资者帐户，协议回购意向申报时不适用\n的取值为发起方投资者帐户。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "非必填字段填写说明，",
+      "detail": "非必填字段填写说明，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteRejectReason",
+      "detail": "QuoteRejectReason",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "当订单申报拒绝时有效，未提及的非必填字段对该业务无效：",
+      "detail": "当订单申报拒绝时有效，未提及的非必填字段对该业务无效：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务类型（",
+      "detail": "业务类型（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购意向申报",
+      "detail": "协议回购意向申报",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOIRefID Price 600150 三方回购意向申报 发起方投资者账户、 600160 债券现券意向申报 600170 、发起方投资者账户同申报信息 方投资者账户同申报信息 TradeReportID 会员内部编号 业务发生时间 8504 TotalValueTraded 总成交金额 amount",
+      "detail": "IOIRefID\nPrice\n600150\n三方回购意向申报\n发起方投资者账户、\n600160\n债券现券意向申报\n600170\n、发起方投资者账户同申报信息\n方投资者账户同申报信息\nTradeReportID\n会员内部编号\n业务发生时间\n8504\nTotalValueTraded\n总成交金额\namount",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "营业部代码、",
+      "detail": "营业部代码、",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方的营业",
+      "detail": "的取值为发起方的营业",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "部代码。",
+      "detail": "部代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，为公募 REITs 限售份额， RestrictedMonth 或三方回购到期续做（ TrdType: 143 TrdType 业务子类型 订单接收时间 登录或订阅交易单元（指转发消息的接收 的取值为登录或 订阅交易单元。",
+      "detail": "，为公募\nREITs\n限售份额，\nRestrictedMonth\n或三方回购到期续做（\nTrdType: 143\nTrdType\n业务子类型\n订单接收时间\n登录或订阅交易单元（指转发消息的接收\n的取值为登录或\n订阅交易单元。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "对于协议回购批量申报",
+      "detail": "对于协议回购批量申报",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "笔质押券校验通过后，将生成 笔转发成交申报给对手方，每笔仅有一笔 质押券。 OrigTradeID",
+      "detail": "笔质押券校验通过后，将生成\n笔转发成交申报给对手方，每笔仅有一笔\n质押券。\nOrigTradeID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "，撤单时必填，表示被撤消订单的交易所订单编号；对于",
+      "detail": "，撤单时必填，表示被撤消订单的交易所订单编号；对于",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecRefID TradeReportType 时，对非首期合约表示原成交编号；为 时表示被拒绝订单的交易所订单编号；其他 场景无效。证券帐户名称（与投资者账户一一对应，如对应账户未查询到名称，则无此字段）有效。其他 TrdRptStatus",
+      "detail": "ExecRefID\nTradeReportType\n时，对非首期合约表示原成交编号；为\n时表示被拒绝订单的交易所订单编号；其他\n场景无效。证券帐户名称（与投资者账户一一对应，如对应账户未查询到名称，则无此字段）有效。其他\nTrdRptStatus",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "、对于协议回购协商成交批量申报，",
+      "detail": "、对于协议回购协商成交批量申报，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "笔质押券将收到 笔响应，每笔响应仅有一只质押券，可能 出现部分成功的场景；撤单时，允许对批量申报的多笔质押券中仅对某一只或某几只进行撤单，每只质押 券，将收到一个撤单响应，也可能出现部分成功的场景。 、各业务响应字段说明如下，发起方业务交易单元、发起方投资者账户、 字段与原始申报相同，",
+      "detail": "笔质押券将收到\n笔响应，每笔响应仅有一只质押券，可能\n出现部分成功的场景；撤单时，允许对批量申报的多笔质押券中仅对某一只或某几只进行撤单，每只质押\n券，将收到一个撤单响应，也可能出现部分成功的场景。\n、各业务响应字段说明如下，发起方业务交易单元、发起方投资者账户、\n字段与原始申报相同，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "其他未提及的非必填字段均无效",
+      "detail": "其他未提及的非必填字段均无效",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务发起 填写说明",
+      "detail": "业务发起\n填写说明",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购",
+      "detail": "协议回购",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600130 协商成交 NoUnderlyings ShareProperty GrossTradeAmt 到期确认 到期续做 提前终止 NoUnderlying 换券申报 EventType 解除质押 BasketID 同申报信 到期购回 三方回购 600140 TrdMatchID 补券申报 现券协商成",
+      "detail": "600130\n协商成交\nNoUnderlyings\nShareProperty\nGrossTradeAmt\n到期确认\n到期续做\n提前终止\nNoUnderlying\n换券申报\nEventType\n解除质押\nBasketID\n同申报信\n到期购回\n三方回购\n600140\nTrdMatchID\n补券申报\n现券协商成",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600210 现券协商 合并申报 600220 SecurityAltID DeliveryQty 到期结算 DeliveryForm SettlDeliveryType 债券借贷 600300 质押券变 逾期结算 ）业务撤单、确认或拒绝 对手方确认 Even tType 同申报信息（指换入券） TradeReport",
+      "detail": "600210\n现券协商\n合并申报\n600220\nSecurityAltID\nDeliveryQty\n到期结算\nDeliveryForm\nSettlDeliveryType\n债券借贷\n600300\n质押券变\n逾期结算\n）业务撤单、确认或拒绝\n对手方确认\nEven\ntType\n同申报信息（指换入券）\nTradeReport",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RefID",
+      "detail": "RefID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "有效。对于协议回",
+      "detail": "有效。对于协议回",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "购、合并申报和现券协商成 ecurityID 报信息（指换入券）。 现券协商成交 TradeReportRefID 质押券变更申报 ）业务发起、撤单、确认或拒绝失败， TradeReportRejectReason 有效，撤单时 有效；换券时，仅返",
+      "detail": "购、合并申报和现券协商成\necurityID\n报信息（指换入券）。\n现券协商成交\nTradeReportRefID\n质押券变更申报\n）业务发起、撤单、确认或拒绝失败，\nTradeReportRejectReason\n有效，撤单时\n有效；换券时，仅返",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购（",
+      "detail": "协议回购（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回换入券 三方回购（ 合并申报（ 现券协商成交（ 债券借贷（ 成交时间 8911 ExpirationDays 期限（天） 结算场所： 中央结算 双边托管券，可填 ，单边托管券只能 SecurityExchange 填其实际托管方。预留字段，暂不启用。 结算周期： 0 = T+0 1 = T+1 10216",
+      "detail": "回换入券\n三方回购（\n合并申报（\n现券协商成交（\n债券借贷（\n成交时间\n8911\nExpirationDays\n期限（天）\n结算场所：\n中央结算\n双边托管券，可填\n，单边托管券只能\nSecurityExchange\n填其实际托管方。预留字段，暂不启用。\n结算周期：\n0 = T+0\n1 = T+1\n10216",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SettlPeriod 2 = T+2 3 = T+3 预留字段，暂不启用 结算方式： 净额结算 SettlType 2 = RTGS 8500 OrderEntryTime 1125 OrigTradeDate 原成交日期 date 原成交编号 用户私有信息 参与方个数，取值 ，后接重复组，依次 包含发起方投资者账户、登录或订阅交易",
+      "detail": "SettlPeriod\n2 = T+2\n3 = T+3\n预留字段，暂不启用\n结算方式：\n净额结算\nSettlType\n2 = RTGS\n8500\nOrderEntryTime\n1125\nOrigTradeDate\n原成交日期\ndate\n原成交编号\n用户私有信息\n参与方个数，取值\n，后接重复组，依次\n包含发起方投资者账户、登录或订阅交易",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoPartyIDs 单元、业务交易单元、交易员一债通账户、、 对手方交易员一债通账户、投资者账户、 账户名称。 发起方登录或订阅交易单元。 的取值为登录或订 阅交易单元。 发起方交易员一债通账户 的取值为发起方 的交易员一债通账户 发起方业务交易单元。 的取值为发起方业 务交易单元。 发起方投资者帐户",
+      "detail": "NoPartyIDs\n单元、业务交易单元、交易员一债通账户、、\n对手方交易员一债通账户、投资者账户、\n账户名称。\n发起方登录或订阅交易单元。\n的取值为登录或订\n阅交易单元。\n发起方交易员一债通账户\n的取值为发起方\n的交易员一债通账户\n发起方业务交易单元。\n的取值为发起方业\n务交易单元。\n发起方投资者帐户",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方投 资者帐户。",
+      "detail": "的取值为发起方投\n资者帐户。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "、对于成交报告申报模式的被动成交方或协议回购到期续做中的前期合约了结，也将收到成交确认。",
+      "detail": "、对于成交报告申报模式的被动成交方或协议回购到期续做中的前期合约了结，也将收到成交确认。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其中：申报来源（ ，订单所有者类型（ ’；会员内部订单编号 ）按照网页端申报自动生成；登录或订阅交易单元、业务交易单元同首期申报数据，如首 期本方通过网页端申报，则此成交实时仍仅供网页端查看。 、各业务响应字段说明如下，证券帐户名称（如对应账户未查询到名称，则无此字段）、 LastPx 与申报中的 Price/Price2",
+      "detail": "其中：申报来源（\n，订单所有者类型（\n’；会员内部订单编号\n）按照网页端申报自动生成；登录或订阅交易单元、业务交易单元同首期申报数据，如首\n期本方通过网页端申报，则此成交实时仍仅供网页端查看。\n、各业务响应字段说明如下，证券帐户名称（如对应账户未查询到名称，则无此字段）、\nLastPx\n与申报中的\nPrice/Price2",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（如有）相同，",
+      "detail": "（如有）相同，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "（如有）相同，其他未提及的非必填字段均无效",
+      "detail": "（如有）相同，其他未提及的非必填字段均无效",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示换入券信息， 按照价格数量进行计算 同申报信息， NoDistribInsts CashDistribAgentAcctNumber CashDistribAgentAcctName CashDistribAgentName CashDistribAgentCode NoRelatedSym ContraLegRefID",
+      "detail": "表示换入券信息，\n按照价格数量进行计算\n同申报信息，\nNoDistribInsts\nCashDistribAgentAcctNumber\nCashDistribAgentAcctName\nCashDistribAgentName\nCashDistribAgentCode\nNoRelatedSym\nContraLegRefID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，如申报中填写，原样返回",
+      "detail": "，如申报中填写，原样返回",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、对于下列业务，除协议必填字段外，申报来源字段有效，发起方交易员一债通账户、 申报信息，其他非必填字段说明如下，未提及的非必填字段对该业务无效：",
+      "detail": "、对于下列业务，除协议必填字段外，申报来源字段有效，发起方交易员一债通账户、\n申报信息，其他非必填字段说明如下，未提及的非必填字段对该业务无效：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报成功 申报失败 撤单成功 对转托管，银行 600230 双非可转债转股 间托管账号同申报 600240 私募可交换债换股 600250 债券回售（一债通） 对三方回购转入 600251 债券回售撤销 对转托管，银 转出时，专用账户 行间托管账号 回售申报， 同申报信息； 效：代表转股价格 OrdRejReason",
+      "detail": "申报成功\n申报失败\n撤单成功\n对转托管，银行\n600230\n双非可转债转股\n间托管账号同申报\n600240\n私募可交换债换股\n600250\n债券回售（一债通）\n对三方回购转入\n600251\n债券回售撤销\n对转托管，银\n转出时，专用账户\n行间托管账号\n回售申报，\n同申报信息；\n效：代表转股价格\nOrdRejReason",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "换股价格 对三方回购 TimeInForce 转入转出时，专 撤单失败时， 600260 债券转托管 用账户同申报 对三方回购转 入转出时，专用账 报信息；申报失败 户信息同申报信 示被撤订单数 报数量。 （成交数 间托管账号有效； 量）为转入或转出数 RefOrderID ExecID 同申报数量；",
+      "detail": "换股价格\n对三方回购\nTimeInForce\n转入转出时，专\n撤单失败时，\n600260\n债券转托管\n用账户同申报\n对三方回购转\n入转出时，专用账\n报信息；申报失败\n户信息同申报信\n示被撤订单数\n报数量。\n（成交数\n间托管账号有效；\n量）为转入或转出数\nRefOrderID\nExecID\n同申报数量；",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600270 三方回购转入转出 转出时，对手方投资 者帐户； OrderQt 竞买预约 600290 同申报数 CxlQty LeavesQty （预留） 竞买申报 同申报数据； 对手方一债通账 应价申报 投资者帐户 帐户名称有效 如竞买预约时勾选了自动发起，且未再手动发起竞买预约，系统将在相应时点自动发起竞买申报。",
+      "detail": "600270\n三方回购转入转出\n转出时，对手方投资\n者帐户；\nOrderQt\n竞买预约\n600290\n同申报数\nCxlQty\nLeavesQty\n（预留）\n竞买申报\n同申报数据；\n对手方一债通账\n应价申报\n投资者帐户\n帐户名称有效\n如竞买预约时勾选了自动发起，且未再手动发起竞买预约，系统将在相应时点自动发起竞买申报。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此时竞买预约发起方将收到竞买申报执行报告。此时会员内部订单编号（ ）由系统自动 生成；申报来源（ ）、订单所有者类型（ ）、登录或订阅交易单元、业务交易 单元同预约数据。如预约时通过网页端申报，登录或订阅单元将填写交易员绑定的交易单元；如交易 员未绑定，则此执行报告仅供网页端查看。 对于一债通各类现券非匹配成交（点击成交、询价成交和竞买成交等），将在成交回报中返回对手",
+      "detail": "此时竞买预约发起方将收到竞买申报执行报告。此时会员内部订单编号（\n）由系统自动\n生成；申报来源（\n）、订单所有者类型（\n）、登录或订阅交易单元、业务交易\n单元同预约数据。如预约时通过网页端申报，登录或订阅单元将填写交易员绑定的交易单元；如交易\n员未绑定，则此执行报告仅供网页端查看。\n对于一债通各类现券非匹配成交（点击成交、询价成交和竞买成交等），将在成交回报中返回对手",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "方的一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此 字段将填写‘ ’；如结算方式为净额结算且双方均显名或者结算方式‘ RTGS ’，则将发送 实际的交易信息；但如账户名称无法自动加载，将无此字段。 及固收迁移",
+      "detail": "方的一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此\n字段将填写‘\n’；如结算方式为净额结算且双方均显名或者结算方式‘\nRTGS\n’，则将发送\n实际的交易信息；但如账户名称无法自动加载，将无此字段。\n及固收迁移",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "REITs",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及81项变更。 技术架构变更: 7项。 接口字段变更: 25项。 规则条款变更: 49项。",
+  "confidence": 0.95
+}

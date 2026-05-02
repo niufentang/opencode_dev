@@ -1,0 +1,24 @@
+{
+  "doc_id": "szse-test-20220917-214",
+  "title": "深市期权新品种2022年9月17日通关测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020220915355306666493.docx",
+  "analysis_date": "2026-05-02T02:03:07.049743+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "做市商",
+    "期权",
+    "港股通"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

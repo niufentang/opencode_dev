@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-guide-20260327-007",
+  "title": "关于发布TXT版ETF定义文件下线、新竞价过户接口、独立IOPV行情相关市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10813259/files/53b047c3517544ff960735c532ada9ac.pdf",
+  "analysis_date": "2026-05-02T05:42:03.522834+00:00",
+  "metadata": {
+    "file_hash": "sha256:c289efc6da935b10555f8a088d0250f2d68a4c8bd268d944e2a81fbcd13940d4",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2026-03-27",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "ETF"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发布\nTXT\n版\nETF\n定义文件下线、新竞\n价过户接口、独立\nIOPV\n行情相关市场接口\n及技术指南（正式稿）的通知\n各市场参与人：\n根据工作安排，现发布以下材料：\n一、《\nIS105_\n上海证券交易所综合业务平台市场参与者\n接口规格说明书\n1.59\n版\n_20260327\n》\n二、《\nIS118_\n上海证券交易所特定参与者接口规格说明\n书（基金公司卷）\n2.5\n版\n_20260327\n》\n三、《\nIS118_\n上海证券交易所特定参与者接口规格说明\n书（托管银行卷）\n1.36\n版\n_20260327\n》\n四、《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接\n口规范\n0.60\n版\n_20260327\n》\n五、《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口\n规范\n0.60\n版\n_20250327\n》\n六、《\nIS124_\n上海证券交易所市场数据文件交换接口规\n格说明书\n3.20\n版\n_20260327\n》\n七、《上海证券交易所独立\nIOPV\n行情市场参与者技术\n实施指南\nV2.0_20260327\n》\n其中，\nTXT\n版\nETF\n定义文件下线工作涉及上述第一、\n二、四、五、六项材料；新竞价过户接口工作涉及上述第二、\n三、六项材料；独立\nIOPV\n行情工作涉及上述第七项材料。\n市场参与人可通过本所官方网站\n“\n交易技术支持专区\n”\n或\n登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请做好技术就绪准备。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2026\n年\n3\n月\n27\n日"
+}

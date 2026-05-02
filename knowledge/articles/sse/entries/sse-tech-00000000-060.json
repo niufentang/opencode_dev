@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-060",
+  "type": "technical_notice",
+  "title": "关于发布固定收益平台业务迁移至互联网交易平台市场接口（2025年11月修订）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10798383/files/de702bf8629447228431154d507a05cd.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:a080065209023ec6071dba24a27ba0a52ff2a9fc7563b9e045b30c68ec7de104",
+  "content_markdown": "关于发布固定收益平台业务迁移至互联网\n交易平台市场接口（ 2025 年 11 月修订）的\n通知\n各市场参与人：\n根据固收平台业务迁移至互联网交易平台相关工作安\n排，现发布以下材料：\n一、《 IS122_ 上海证券交易所交易网关 STEP 接口规格\n说明书（互联网交易平台） 2.09 版 _20251114 （固收迁移技术\n开发稿）》\n二、《 IS124_ 上海证券交易所市场数据文件交换接口规\n格说明书 2.46 版 _20251114 （固收迁移技术开发稿）》\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请提前做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 11 月 14 日\n\n<metadata>\n{\n  \"title\": \"20251114_关于发布固定收益平台业务迁移至互联网交易平台市场接口（2025年11月修订）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20251114_关于发布固定收益平台业务迁移至互联网交易平台市场接口（2025年11月修订）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益平台业务迁移至互联网交易平台市场接口（2025年11月修订）的通知.md\",\n  \"file_hash\": \"sha256:a080065209023ec6071dba24a27ba0a52ff2a9fc7563b9e045b30c68ec7de104\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:43.943825+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

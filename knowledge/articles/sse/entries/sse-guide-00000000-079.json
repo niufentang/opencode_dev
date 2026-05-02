@@ -1,0 +1,30 @@
+{
+  "id": "sse-guide-00000000-079",
+  "type": "guide",
+  "title": "关于发布独立IOPV行情市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10811031/files/4d555179c95d41a2aabea1b936409a57.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS120",
+    "IS124",
+    "STEP",
+    "独立IOPV",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:3e6cb65fd8889bfdfccdad46bb0871b41188c27dd39134568b3b97312a1597e6",
+  "content_markdown": "关于发布独立 IOPV 行情\n市场接口及技术指南（正式稿）的通知\n各市场参与人：\n独立 IOPV 行情相关工作分两个阶段开展（第一阶段：\n本所向市场机构以试运行的形式发布独立 IOPV 行情，各市\n场机构应保持以现有渠道（ SecurityType=1 及 mktdt00.txt ）\n接收 IOPV 行情，独立 IOPV 行情数据仅供参考，不应用做\n正式用途。第二阶段：正式发布外部源 IOPV 行情，市场机\n构应切换外部源 IOPV 行情为生产使用）。根据安排，现发\n布第一阶段相关材料：\n一、《 IS120_ 上海证券交易所行情网关 BINARY 数据接\n口规范 0.58 版 _20250919 》\n二、《 IS120_ 上海证券交易所行情网关 STEP 数据接口\n规范 0.58 版 _20250919 》\n三、《 IS124_ 上海证券交易所市场数据文件交换接口规\n格说明书 2.70 版 _20250919 》\n四、《上海证券交易所独立 IOPV 行情市场参与者技术\n实施指南 _20250919 》\n第二阶段相关材料发布，另行通知。\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请做好技术就绪准备。\n\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 9 月 19 日\n\n<metadata>\n{\n  \"title\": \"20250919_关于发布独立IOPV行情市场接口及技术指南（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250919_关于发布独立IOPV行情市场接口及技术指南（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布独立IOPV行情市场接口及技术指南（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:3e6cb65fd8889bfdfccdad46bb0871b41188c27dd39134568b3b97312a1597e6\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:42.349000+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "上海证券交易所新一代交易系统市场参与者接口规格说明书",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20250314_IS117 上海证券交易所港股通市场参与者接口规格说明书(港股交易)1.09版_20250305（下调香港证券市场股票最低上落价位 技术开发稿）.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\IS117 上海证券交易所港股通市场参与者接口规格说明书(港股交易)1.09版_20250305（下调香港证券市场股票最.md",
+  "file_hash": "sha256:60b7092a8d35d773c8bbd7c71537592262fc6270e74176a13309df02492fcd5e",
+  "file_format": "pdf",
+  "page_count": 40,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:47:55.444300+00:00",
+  "sub_category": null
+}

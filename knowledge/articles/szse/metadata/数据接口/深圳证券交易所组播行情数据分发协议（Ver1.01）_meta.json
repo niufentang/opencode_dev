@@ -1,0 +1,18 @@
+{
+  "title": "20250219_深圳证券交易所组播行情数据分发协议（Ver1",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\szse\\数据接口\\20250219_深圳证券交易所组播行情数据分发协议（Ver1.01）.pdf",
+  "markdown_path": "knowledge\\articles\\szse\\markdown\\数据接口\\深圳证券交易所组播行情数据分发协议（Ver1.01）.md",
+  "file_hash": "sha256:b32cc257f0ac6697ac1d85686ff8eddeb3e24023fff7153cac2401674ae3d375",
+  "file_format": "pdf",
+  "page_count": 19,
+  "doc_type": "interface_spec",
+  "version": "1",
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:48:56.856657+00:00",
+  "sub_category": null
+}

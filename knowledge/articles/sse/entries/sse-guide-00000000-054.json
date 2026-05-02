@@ -1,0 +1,32 @@
+{
+  "id": "sse-guide-00000000-054",
+  "type": "guide",
+  "title": "关于发布优化ETF申赎清单、EzOES下线市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10795899/files/2dcca506c3714157b9f2de94fc482adf.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "ETF申赎清单",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS120",
+    "STEP"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:9a8ce2ec153b3d0e60d45396c13de350b98727802d571a5fa7ceb295b8a8a4d5",
+  "content_markdown": "关于发布优化 ETF 申赎清单、 EzOES 下线\n市场接口及技术指南（正式稿）的通知\n各市场参与人：\n根据优化 ETF 申赎清单相关工作安排，现发布以下材料：\n一、《 IS101_ 上海证券交易所竞价撮合平台市场参与者\n接口规格说明书 1.73 版 _20251017 》\n二、《 IS105_ 上海证券交易所综合业务平台市场参与者\n接口规格说明书 1.57 版 _20251017 》\n三、《 IS118_ 上海证券交易所特定参与者接口规格说明\n书（基金公司卷） 2.2 版 _20251017 》\n四、《 IS120_ 上海证券交易所行情网关 BINARY 数据接\n口规范 0.59 版 _20251017 》\n五、《 IS120_ 上海证券交易所行情网关 STEP 数据接口\n规范 0.59 版 _20251017 》\n六、《上海证券交易所优化 ETF 申赎清单市场参与者\n技术实施指南 _20251017 》\nEzOES 下线相关内容包含在《 IS101_ 上海证券交易所竞\n价撮合平台市场参与者接口规格说明书 1.73 版 _20251017 》。\n市场参与人可通过本所官方网站“交易技术支持专区”\n或登录市场技术服务平台“技术支持与信息管理 - 软件与技术\n文档”相关栏目获取上述材料。本次变更内容详见各文档内\n修订记录。请做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n\n特此通知。\n上海证券交易所\n2025 年 10 月 24 日\n\n<metadata>\n{\n  \"title\": \"20251024_关于发布优化ETF申赎清单、EzOES下线市场接口及技术指南（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20251024_关于发布优化ETF申赎清单、EzOES下线市场接口及技术指南（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布优化ETF申赎清单、EzOES下线市场接口及技术指南（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:9a8ce2ec153b3d0e60d45396c13de350b98727802d571a5fa7ceb295b8a8a4d5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:43.628050+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

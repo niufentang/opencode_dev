@@ -1,0 +1,27 @@
+{
+  "id": "sse-soft-00000000-069",
+  "type": "software",
+  "title": "关于发布报盘软件错误代码表3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10800118/files/fe65e02852ec4169a4eac95b9de334bd.pdf",
+  "summary": "初始版本，无历史变更。文档类型：software，版本：无。",
+  "tags": [
+    "sse",
+    "software",
+    "IS111",
+    "报盘软件",
+    "期权"
+  ],
+  "status": "active",
+  "version": "3.28",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:ee8ccb97c3211124574a80e0385a0a3fc401cbe53b72ebabd15a37a16328ebdd",
+  "content_markdown": "关于发布报盘软件错误代码表 3.28 版（正式\n稿）的通知\n各市场参与人：\n为配合新一代期权交易系统上线，现发布《 IS111_ 上海\n证券交易所报盘软件错误代码表 3.28 版 _20251201 》。市场\n参与人可通过本所官方网站“交易技术支持专区”或登录市\n场技术服务平台“技术支持与信息管理 - 软件与技术文档”相\n关栏目获取上述材料。本次变更内容详见文档内修订记录。\n请做好技术就绪准备。\n新一代期权交易系统上线后，《上海证券交易所新一代\n期权交易系统若干技术调整市场参与者技术实施指南 3.1 版》\n（ 2025 年 11 月 7 日已发布）相关技术调整同步生效。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 11 月 28 日\n\n<metadata>\n{\n  \"title\": \"20251128_关于发布报盘软件错误代码表3\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20251128_关于发布报盘软件错误代码表3.28版（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布报盘软件错误代码表3.28版（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:ee8ccb97c3211124574a80e0385a0a3fc401cbe53b72ebabd15a37a16328ebdd\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"software\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:44.265299+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

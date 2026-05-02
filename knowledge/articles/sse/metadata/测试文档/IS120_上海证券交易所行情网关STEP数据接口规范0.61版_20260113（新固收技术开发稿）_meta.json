@@ -1,0 +1,18 @@
+{
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20260113_IS120_上海证券交易所行情网关STEP数据接口规范0.61版_20260113（新固收技术开发稿）.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\IS120_上海证券交易所行情网关STEP数据接口规范0.61版_20260113（新固收技术开发稿）.md",
+  "file_hash": "sha256:def15b9d93aa3bdb3bf3a4ebad19387c361205090283b52441c67688538f7ba2",
+  "file_format": "pdf",
+  "page_count": 45,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": "2025-11-17",
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:48:22.206734+00:00",
+  "sub_category": null
+}

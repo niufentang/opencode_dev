@@ -1,0 +1,700 @@
+{
+  "doc_id": "sse-iface-20250808-006",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书2.70版_20250801（独立IOPV行情 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T05:42:14.579174+00:00",
+  "metadata": {
+    "file_hash": "sha256:c7ee0e732169e5c51610c0c6c9affac7dca041854bfbb0bbf65e0478557e83d5",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "2.70",
+    "previous_version": null,
+    "public_date": "2025-08-08",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "2.70",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2.70",
+      "detail": "2.70",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025-08",
+      "detail": "2025-08",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新增外部源行情文件",
+      "detail": "新增外部源行情文件",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdte.txt",
+      "detail": "mktdte.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.16.",
+      "detail": "3.16.",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "外部源行情文件",
+      "detail": "外部源行情文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件名：",
+      "detail": "文件名：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdte",
+      "detail": "mktdte",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "扩展名：",
+      "detail": "扩展名：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布时间：实时发布",
+      "detail": "发布时间：实时发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布渠道：",
+      "detail": "发布渠道：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDGW",
+      "detail": "MDGW",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件说明：该文件为外部源行情文件，包括",
+      "detail": "文件说明：该文件为外部源行情文件，包括",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV",
+      "detail": "IOPV",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "接口格式：行情文件包括文件头、文件体和文件尾三部分",
+      "detail": "接口格式：行情文件包括文件头、文件体和文件尾三部分",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）文件头：单行记录",
+      "detail": "）文件头：单行记录",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段名称",
+      "detail": "字段名称",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段描述",
+      "detail": "字段描述",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BeginString",
+      "detail": "BeginString",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "起始标识符，填",
+      "detail": "起始标识符，填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“HEADER”",
+      "detail": "“HEADER”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Version",
+      "detail": "Version",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本，填",
+      "detail": "版本，填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“E1.00”",
+      "detail": "“E1.00”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数据长度：以该字段分隔符后的字节数（不包含本字段后面的分隔符）",
+      "detail": "数据长度：以该字段分隔符后的字节数（不包含本字段后面的分隔符）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BodyLength",
+      "detail": "BodyLength",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "进行计算，包含其他字段后面的分隔符、换行符",
+      "detail": "进行计算，包含其他字段后面的分隔符、换行符",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TotNumTradeReports",
+      "detail": "TotNumTradeReports",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件体记录数",
+      "detail": "文件体记录数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDReportID",
+      "detail": "MDReportID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情序号（预留，暂不填）",
+      "detail": "行情序号（预留，暂不填）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SenderCompID",
+      "detail": "SenderCompID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发送方，填",
+      "detail": "发送方，填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“XSHG01”",
+      "detail": "“XSHG01”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDTime",
+      "detail": "MDTime",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易所行情发送时间，格式为",
+      "detail": "交易所行情发送时间，格式为",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "YYYYMMDD-HH:MM:SS.sss",
+      "detail": "YYYYMMDD-HH:MM:SS.sss",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发送方式：",
+      "detail": "发送方式：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDUpdateType",
+      "detail": "MDUpdateType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Full refresh",
+      "detail": "Full refresh",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Incremental",
+      "detail": "Incremental",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（暂不支持）",
+      "detail": "（暂不支持）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场行情状态，左起每位表示特定的含义，无定义则填空格，具体参",
+      "detail": "市场行情状态，左起每位表示特定的含义，无定义则填空格，具体参",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDSesStatus",
+      "detail": "MDSesStatus",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "见下方市场行情状态取值",
+      "detail": "见下方市场行情状态取值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "扩展区域，市场参与主体的技术系统应能支持记录尾部扩展新的字段",
+      "detail": "扩展区域，市场参与主体的技术系统应能支持记录尾部扩展新的字段",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场行情状态取值：",
+      "detail": "市场行情状态取值：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场行情状态",
+      "detail": "市场行情状态",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段取值",
+      "detail": "字段取值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）文件体：多行记录",
+      "detail": "）文件体：多行记录",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字段类型",
+      "detail": "字段类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDStreamID",
+      "detail": "MDStreamID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情数据类型，行情数据类型标识符，取值",
+      "detail": "行情数据类型，行情数据类型标识符，取值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDE01",
+      "detail": "MDE01",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityID",
+      "detail": "SecurityID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码，",
+      "detail": "证券代码，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "二级市场交易代码",
+      "detail": "二级市场交易代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Symbol",
+      "detail": "Symbol",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券简称",
+      "detail": "证券简称",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，单位为人民币元。该字段取",
+      "detail": "，单位为人民币元。该字段取",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.00000",
+      "detail": "0.00000",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，无意义。",
+      "detail": "时，无意义。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N14(5)",
+      "detail": "N14(5)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件",
+      "detail": "公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Publish",
+      "detail": "Publish",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段（是否需要发布",
+      "detail": "字段（是否需要发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）取值为",
+      "detail": "）取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件接口详见《",
+      "detail": "公告文件接口详见《",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS118",
+      "detail": "IS118",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此字段为对应产品的",
+      "detail": "此字段为对应产品的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段取值为",
+      "detail": "字段取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，此字段固定取",
+      "detail": "时，此字段固定取",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Timestamp",
+      "detail": "Timestamp",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时间戳，",
+      "detail": "时间戳，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "HH:MM:SS.sss",
+      "detail": "HH:MM:SS.sss",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Reserved",
+      "detail": "Reserved",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预留字段",
+      "detail": "预留字段",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "扩展区域，系统应能支持记录尾部扩展新的字段。",
+      "detail": "扩展区域，系统应能支持记录尾部扩展新的字段。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）文件尾：单行记录",
+      "detail": "）文件尾：单行记录",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "EndString",
+      "detail": "EndString",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "结束标识符，填",
+      "detail": "结束标识符，填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“TRAILER”",
+      "detail": "“TRAILER”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CheckSum",
+      "detail": "CheckSum",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位校验和，校验和计算逻辑参见下方校验和计算",
+      "detail": "位校验和，校验和计算逻辑参见下方校验和计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "校验和计算：",
+      "detail": "校验和计算：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "校验和是通过计算不包括校验和字段",
+      "detail": "校验和是通过计算不包括校验和字段",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "也不包括该字段后的换行符",
+      "detail": "也不包括该字段后的换行符",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数值的文件中其他每一个字符（包含分隔",
+      "detail": "数值的文件中其他每一个字符（包含分隔",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "符、换行符）之和然后模",
+      "detail": "符、换行符）之和然后模",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "得出，然后转化为",
+      "detail": "得出，然后转化为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ASCII",
+      "detail": "ASCII",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "码。例如，如果经计算校验和为",
+      "detail": "码。例如，如果经计算校验和为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，校验和域将取为",
+      "detail": "，校验和域将取为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "校验和字段可用于开盘前和收盘后文件正确性校验。在实时交易期间，因文件按记录循环写入覆盖，校验和",
+      "detail": "校验和字段可用于开盘前和收盘后文件正确性校验。在实时交易期间，因文件按记录循环写入覆盖，校验和",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段存在一定的概率与记录内容不匹配。",
+      "detail": "字段存在一定的概率与记录内容不匹配。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS124",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及95项变更。 接口字段变更: 3项。 版本升级: 1项。 规则条款变更: 91项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "18\n融资融券账户证券总市值\nT-1\n日结算后数据，含沪深市场\n,\n持有证券按\nT-1\n日收盘价计\n算，精确到分\n19\n融资融券账户资金总额\nT-1\n日结算后数据，精确到分\nN16(2)\nT-1\n日结算后数据，精确到分\nN16(2)\n20\n融资融券账户融入资金总\n额\nN16(2)\n21\n融资融券账户融券总市值\nT-1\n日结算后数据，含沪深市场\n,\n持有证券按\nT-1\n日收盘价计\n算，精确到分\n第\n68\n页\n共\n71\n页\n上海证券交易所市场数据文件交换接口规格说明书\nC1\n22\n分级级别\n根据\nT-1\n日数据情况填写，不得为空\n自然人账户需填写\n‘\n1\n’表示一级，\n‘\n2\n’表示二级，\n‘\n3\n’表示三级。\n非自然人账户需填写\n‘\n4\n’\nN16(2)\n23\n可买入额度\nT-1\n日结算后数据，个人投资者限购总金额额度（买入额度，\n包括已使用和未使用），精确到分\n数据内容说明：\n1\n、当日资金划入划出净额\n=\n当日总资金划入金额\n-\n当日总资金划出金额；多银行合并计算。\n2\n、衍生品合约市值权益\n=\nΣ（当日合约结算价\n*\n合约单位\n*\n权利仓张数）\n-\nΣ（当日合约结算价\n*\n义务仓张数\n(\n含备\n兑\n) *\n合约单位）。按所持有合约汇总。单位元，保留两位小数。\n3\n、自营账户无需报备。\n4\n、衍生品账户当日开户的，应在当日清算完成后，于下一交易日起进行报送；当日销户的，应于下一交易日起\n停止报送。\n4.11.\n期权结算价试算结果文件\n文件名：\nprestlp03YYYYMMDD\n扩展名：\nxml\n发布时间：闭市后交易所向市场参与者发送\n发布渠道：\nztDisk\n文件说明：\n期权产品结算价试算结果文件，包含当日所有期权合约结算价的试算结果。本文件中的试算结算价\n为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格\n信息以期权收盘价格文件\n(clpr03MMDD.txt)\n为准。文件名中\nYYYYMMDD\n表示年月日格式的日期\n,\n在此表示当\n前交易日。\n每个期权合约信息对应\nXML\n中一条\nContractPreSetPrcRec\n记录，各元素中取值以实际业务长度为准，\n不补空格。\n接口格式：\n序号\n字段名称\n字段中文名称\n字段描述\n字段类型\n1\nRFStreamID\n参考数据类型\n参考数据类型标识，取值\nC5\nR0323\n表示期权结算价格试算结果信息\n2\nSecurityID\n合约编码\n期权合约的编码，\n8\n位字符\nC8\n第\n69\n页\n共\n71\n页\n上海证券交易所市场数据文件交换接口规格说明书\n3\nPreCalSettlPrice\n期权试算结算价\n试算结算价，单位为元，精确到\n0.0001\n元。\nN11(4)\n非结算价最终结果，当日结算价以收盘价格\n文件（\nclpr03MMDD.txt\n）为准\n示例：\n<?xml version=\"1.0\" encoding=\"GBK\"?>\n<ContractPreSetPrcRecs>\n<ContractPreSetPrcRec>\n<RFStreamID>R0323</RFStreamID>\n<SecurityID>10000037</SecurityID>\n<PreCalSettlPrice>7448.2915</PreCalSettlPrice>\n</ContractPreSetPrcRec>\n<ContractPreSetPrcRec>\n<RFStreamID>R0323</RFStreamID>\n<SecurityID>100000038</SecurityID>\n<PreCalSettlPrice>7447.4368</PreCalSettlPrice>\n</ContractPreSetPrcRec>\n</ContractPreSetPrcRecs>\n第\n70\n页\n共\n71\n页\n上海证券交易所市场数据文件交换接口规格说明书\n第五章\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不得将本文档用于\n其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评指正意见，可通\n过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号\n上交所技术公司技术开发总部\n第\n71\n页\n共\n71\n页"
+}

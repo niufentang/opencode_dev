@@ -1,0 +1,86 @@
+{
+  "doc_id": "sse-iface-20251128-003",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）1.14版_20251128",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T05:41:49.064746+00:00",
+  "metadata": {
+    "file_hash": "sha256:d909786811e3dad5b24594e3913dc475e2d8b06e43e601834f6b8d26a089068c",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.14",
+    "previous_version": null,
+    "public_date": "2025-11-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "1.14",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11",
+      "detail": "2025-11",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.14",
+      "detail": "1.14",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS101",
+      "detail": "IS101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "者接口规格说明书》文档正式废止，相关内容迁移至",
+      "detail": "者接口规格说明书》文档正式废止，相关内容迁移至",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124",
+      "detail": "IS124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "说明书》，更新相关引用描述。",
+      "detail": "说明书》，更新相关引用描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5010",
+      "detail": "5010",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及7项变更。 废止: 1项。 规则条款变更: 6项。 其中重大变更1项。",
+  "confidence": 0.92,
+  "raw_text": "Y\nN5\n58\n→\nText\n描述\nY\nC64\n分区序号同步响应中\nRejReason\n为\n0\n时表示成功，其他取值表示错误（如\nPBU\n或\nPartitionNo\n取值不正确）。\n4.4.5.6\n分区执行报告结束\nExecRptEndOfStream\n标签\n字段名\n字段描述\n必须\n类型\n消息头\nMsgType = U110\n8560\nGateWayPBU\n交易网关登录或订阅\nPBU\nY\nC8\n10197\nPartitionNo\n平台分区号\nY\nN4\n8563\nEndReportIndex\nY\nN16\n分区执行报告最大序号，本消\n息编入该分区执行报告编号序\n列。\nTDGW\n在闭市后向\nOMS\n自动发送一次，表示该执行报告流推送结束，后续该执行报告\n流上的序号将不再增加，最大序号为\nEndReportIndex\n。\n57\n交易网关数据接口规范\n第五章\n附录\n5.1\n附一\n计算校验和\n以下为计算校验和的代码段：\nuint32 CalcChecksum(const char* buffer, uint32 len)\n{\nuint8 checksum = 0;\nuint32 i = 0;\nfor (i = 0; i < len; i++)\n{\nchecksum += (uint8)buffer[i];\n}\nreturn (uint32)checksum;\n}\n5.2\n附二\nPBU\n及说明\n涉及\nPBU\n时有几种含义：\n1.\n配置于\nTDGW\n上用于登录至交易系统后台的登录单位，称为登录交易单元；\n2.\n在消息报文中，表明该消息所进行的业务归属单元，称为业务交易单元，接口文档中\n用\nBizPbu\n指代；\n3.\n在消息报文中，表明与另一登录\nPBU\n间的订阅关系，称为订阅交易单元。\n目前，业务交易单元必须与登录交易单元属于同一市场参与者机构，否则交易系统将拒\n绝相应的业务申报请求。订阅\nPBU\n必须与登录\nPBU\n属于同一市场参与者机构，否则将订阅\n失败，在执行报告分区信息\nExecRptInfo\n消息中将不会包含订阅失败的交易单元。\n58\n交易网关数据接口规范\n5.3\n附三\n错误代码说明\n状态码\n/\n错误码\n说明\nText\n（如有）\n0\n正常退出\nNormal Logout\n4012\nSecurityID\n错误或者业务类型\nBizID\n错\n误\n5000\n上行消息超过\n4K\nMessage Exceed Max\nLength\n5001\n上行消息校验和错误\nCheckSum Error\n5002\n心跳超时\nHeartbeat Timeout\n5003\n平台已有\nOMS\n登录\nAlready Login, try again\n5004\n连接建立后\n5\n秒内未完成登录\nLogin Timeout\n5005\n上行消息\nTargetCompId\n不正确\nCompId Error\n5006\nTDGW\n未登录至交易系统，请稍后重试\nNot Ready\n5007\n内部错误\nInternal Error\n5008\n不能识别的消息类型\nMessage Type Illegal\n5009\n平台状态暂不接受申报\n5010\nPartitionNo\n错误\n5011\nPbu\n错误\n5012\n首个消息非是\nLogon\n消息\nLogin First\n5013\nBeginReportIndex\n取值错误\n5014\n不支持的接口协议版本\nUnsupportedPrtclVersion\n5015\n消息数据错误\nMessage Data Error\n注：本表仅提供交易网关错误码，系统后台错误码参照每日发送的互联网交易平台错误码信\n息文件。\n5.4\n附四\n“用户私有信息”说明\n对于应用消息中的\nText\n字段（用户私有信息），有如下规则：\n1. TDGW\n返回给\nOMS\n的下行消息中\nText\n，取该条下行消息所对应的上行消息（由\nOMS\n发送给\nTDGW\n）中的\nText\n字段值。\n59\n交易网关数据接口规范\n60"
+}

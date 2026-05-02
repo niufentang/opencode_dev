@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-iface-00000000-050",
+  "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10816484/files/1a2d35b26ff04c1bbda52c0db3cb9dfb.pdf",
+  "analysis_date": "2026-05-02T02:03:05.735425+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS124"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "confidence": 0.75
+}

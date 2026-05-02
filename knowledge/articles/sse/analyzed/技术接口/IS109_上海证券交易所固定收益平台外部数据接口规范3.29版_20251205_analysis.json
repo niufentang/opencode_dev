@@ -1,0 +1,40 @@
+{
+  "doc_id": "sse-iface-20241121-010",
+  "title": "1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10801492/files/0602ca5530ff46a48eab83de6d5d183f.pdf",
+  "analysis_date": "2026-05-02T02:03:05.571219+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "版本升级",
+      "summary": "V3.29",
+      "detail": "V3.29",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2024-11-21 证券信息文件中对于特定债，明确其面值和利率字段自转为 特定债券后不再发生变化 根据实际实现，明确部分约定：添加了中文字符编码的约定； 字段和第 时，明确填写情况 本文档中文字符采用 ，如为0，填写0。 如为0，填写0。 对于特定债券，其证券面额、票面利率字段自转为特定债券后不再发生",
+      "detail": "2024-11-21\n证券信息文件中对于特定债，明确其面值和利率字段自转为\n特定债券后不再发生变化\n根据实际实现，明确部分约定：添加了中文字符编码的约定；\n字段和第\n时，明确填写情况\n本文档中文字符采用\n，如为0，填写0。\n如为0，填写0。\n对于特定债券，其证券面额、票面利率字段自转为特定债券后不再发生",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS109",
+    "REITs",
+    "债券",
+    "证通云盘",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 版本升级: 1项。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

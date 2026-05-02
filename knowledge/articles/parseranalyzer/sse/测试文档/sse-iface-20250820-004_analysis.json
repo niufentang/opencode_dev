@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-iface-20250820-004",
+  "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（IOPV卷）1.0版_20250815（IOPV外部源接入_技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072251/files/942068681e9242d3b4236a31f8e42c18.pdf",
+  "analysis_date": "2026-05-02T05:42:14.800704+00:00",
+  "metadata": {
+    "file_hash": "sha256:00ba8561cf812bc790a4ea74b625e71faf343c208d6b9a647e89f11ccfe3f18a",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.0",
+    "previous_version": null,
+    "public_date": "2025-08-20",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.0",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS419"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：interface_spec，版本：1.0。",
+  "confidence": 0.72,
+  "raw_text": "由交易所分配\n响应参数:\n通讯返回码\ncode\nC\n6\nY\n参考返回码列表\n4.1\n通讯返回错误\n描述\nmessage\nC\n24\nY\n系统未知异常\n,\n其他各种可能\n的错误\n响应结果\ndata\nN\n详见第三章响应参数\n响应时间\nrespTime\nC\n17\nY\nyyyyMMddHHmmSSsss\n1.4.\n请求和返回示例\n请求示例:\n{\"msg\":\"base64xxxxxx\",\"mctCode\":\"000000001\",\"seqNo\":\"1243443d5d33s44444....\",\"send\nDate\":\"20210502\",\"bizId\":\"001\",\"sign\":\"rasXXXXX\",\"mctCode\":\"XXXXX\",\"version\":\"1.0\",\n\"sendTime\":\"102020\"}\n响应示例:\n{\"message\":\"\n成功\n\",\"code\":\"200\"}\n{\"message\":\"\n请求失败\n,\"code\":\"200\",\"data\":{\"\nmarketId\n\":\"1002022022221021021\",\"\norderRejReaso\nn\n\":\"XXXXXX\"}}\n2. 实时通讯类接口\n2.1.\nIOPV 上传（/upload/etf/netvalue）\n功能描述：交易日\n7:30-16:30\n，指数机构申报实时参考净值\n接口路径：\n/upload/etf/netvalue\n数据格式：\n请求方：指数机构\n字段名称\n变量名\n类型\n长度\n必填\n备注\n请求参数\n业务时间\nbusinessTime\nC\n17\nY\nyyyyMMddHHmmSSsss\nIOPV 外部源机构接入市场参与者接口规格说明书\n据此计算交易日\nIOPV\n数据\nfundList\nL\nN\nlist\n开始\n行情\nID\nmarketId\nN\n19\nY\n每日自\n1\n起递增，左侧无需\n补\n0\n证券代码\nfundCode\nC\n6\nY\n证券代码\n每份基金实时\n参考净值\nprice\nN\n13(5)\nY\nIOPV\n值，需为非负数\nIOPV\n数据\nfundList\nL\nN\nlist\n结束\n备注\nText\nC\n12\nN\n响应参数\n行情\nID\nmarketId\nN\n19\nN\n拒绝原因\norderRejReason\nN\n6\nN\n参考拒绝原因代码\n4.2\n备注\nText\nC\n24\nN\n说明：\n1.\n每次上传请求中包含的产品数最大不超过\n100\n条，即行情\nID\n不超过\n100\n个。\n2.\n行情\nID\n字段在同一交易日内不可重复，不支持回溯，在同一个请求\nList\n中需\n增序排列，可跳号。\n3.\n只有当请求参数\nlist\n内所有\nIOPV\n行情都被接受后，响应参数中通讯返回码\ncode\n才会返回\n200\n表示更新成功。其他情况下，响应参数中的\ndata\n将返回第一个处理失败\n的行情\nID\n以及拒绝原因。\n3. 附录\n3.1.\n返回码列表\n代码\n说明\n200\n操作成功\n300\n登录认证失败\n400\n未授权禁止访问\n501\n请求频繁请稍后重试\n10000\n内部错误，请联系上交所\n19434\n系统繁忙请重试\n625006\n重复请求\nIOPV 外部源机构接入市场参与者接口规格说明书\n19042\n参数校验失败\n19334\n验签失败\n3.2.\n拒绝原因码列表\n代码\n说明\n625002\n证券代码非法\n625004\n产品数量超过最大限制\n625008\n禁止行情回流"
+}

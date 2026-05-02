@@ -1,0 +1,36 @@
+{
+  "doc_id": "sse-guide-20250721-006",
+  "title": "上海证券交易所科创成长层市场参与人技术实施指南2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10786099/files/29b61cb7fd0842f78ca39fa4f975e780.pdf",
+  "analysis_date": "2026-05-02T02:03:05.556220+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "tech_support@sse.com.cn",
+      "detail": "tech_support@sse.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "IS101",
+    "债券",
+    "期权",
+    "注册制",
+    "科创成长层",
+    "科创板",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

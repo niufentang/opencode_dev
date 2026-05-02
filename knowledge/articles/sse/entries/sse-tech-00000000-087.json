@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-087",
+  "type": "technical_notice",
+  "title": "关于更新发布相关市场接口（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10801494/files/44331911c160410ca3f3c9092363ca32.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS109",
+    "IS124"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:607ff1468d7335ab38139703dce301215748c7d4aee3aa3a0f741e720cbb23d2",
+  "content_markdown": "关于更新发布相关市场接口（正式稿）\n的通知\n各市场参与人：\n根据工作安排，现发布《 IS109_ 上海证券交易所固定收\n益平台外部数据接口规范 3.29 版 _20251205 》《 IS124_ 上海\n证券交易所市场数据文件交换接口规格说明书 3.00 版\n_20251205 》。\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 12 月 12 日\n\n<metadata>\n{\n  \"title\": \"20251212_关于更新发布相关市场接口（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20251212_关于更新发布相关市场接口（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于更新发布相关市场接口（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:607ff1468d7335ab38139703dce301215748c7d4aee3aa3a0f741e720cbb23d2\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:44.904301+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

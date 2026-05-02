@@ -1,0 +1,533 @@
+{
+  "doc_id": "sse-guide-20250328-007",
+  "title": "上海证券交易所跨市场债券（银行间）ETF市场参与者技术实施指南_20250324",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781331/files/e5b5fa83aa2644a79a617806e04ed1c4.pdf",
+  "analysis_date": "2026-05-02T05:42:09.222371+00:00",
+  "metadata": {
+    "file_hash": "sha256:554ef6bb9e87056d5ad01670e6d86a002db51852228cd6bea34e07f9c8323178",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-03-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "IS118_",
+      "detail": "IS118_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20220823",
+      "detail": "_20220823",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（跨市场债券（银行间）",
+      "detail": "（跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "技术开发稿）》",
+      "detail": "技术开发稿）》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "配合跨市场债券（银行间）",
+      "detail": "配合跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件",
+      "detail": "定义文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版相关描述。",
+      "detail": "版相关描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20250324",
+      "detail": "_20250324",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申赎清单",
+      "detail": "申赎清单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件中申赎模式",
+      "detail": "定义文件中申赎模式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationRedemptionMechanism",
+      "detail": "CreationRedemptionMechanism",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段增加取",
+      "detail": "字段增加取",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "银行间市场债券实物对价；",
+      "detail": "银行间市场债券实物对价；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "二、在附录一",
+      "detail": "二、在附录一",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品与申赎模式、替代标志、市场",
+      "detail": "产品与申赎模式、替代标志、市场",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对应关系表明",
+      "detail": "对应关系表明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确跨市场债券（银行间）",
+      "detail": "确跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "相关取值。",
+      "detail": "相关取值。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场债券（银行间）",
+      "detail": "跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件、",
+      "detail": "定义文件、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "认文件、",
+      "detail": "认文件、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件，不支持",
+      "detail": "公告文件，不支持",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于跨市场债券（银行间）",
+      "detail": "对于跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件中“申赎模式”",
+      "detail": "定义文件中“申赎模式”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段填写：",
+      "detail": "字段填写：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "银行间市场债券实物对价，替",
+      "detail": "银行间市场债券实物对价，替",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "代标志及市场",
+      "detail": "代标志及市场",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填写详见附录一",
+      "detail": "填写详见附录一",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对应关系表。",
+      "detail": "对应关系表。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新增支持",
+      "detail": "新增支持",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "计划以跨市场债券（银行间）",
+      "detail": "计划以跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版的试点，业务上线后，基金公司可通过证通云盘上传新增的",
+      "detail": "版的试点，业务上线后，基金公司可通过证通云盘上传新增的",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "格式定义文件，对于不同类别",
+      "detail": "格式定义文件，对于不同类别",
+      "severity": "cosmetic",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "支持情况如下：",
+      "detail": "支持情况如下：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "公告文件",
+      "detail": "公告文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品细分类别",
+      "detail": "产品细分类别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "/ETF",
+      "detail": "/ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F111",
+      "detail": "F111",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场股票（沪）",
+      "detail": "单市场股票（沪）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F112",
+      "detail": "F112",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场股票（沪深京）",
+      "detail": "跨市场股票（沪深京）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F113",
+      "detail": "F113",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场股票（沪港深京）",
+      "detail": "跨市场股票（沪港深京）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F114",
+      "detail": "F114",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场股票（科创板）",
+      "detail": "单市场股票（科创板）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F115",
+      "detail": "F115",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场股票（含科创板）",
+      "detail": "跨市场股票（含科创板）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F121",
+      "detail": "F121",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场债券（沪）",
+      "detail": "单市场债券（沪）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F122",
+      "detail": "F122",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "跨市场债券（沪深）",
+      "detail": "跨市场债券（沪深）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F123",
+      "detail": "F123",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金申赎类债券",
+      "detail": "现金申赎类债券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F124",
+      "detail": "F124",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F131",
+      "detail": "F131",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场跨境",
+      "detail": "单市场跨境",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F132",
+      "detail": "F132",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "多市场跨境",
+      "detail": "多市场跨境",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（日内回转）",
+      "detail": "（日内回转）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F133",
+      "detail": "F133",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（非日内回转）",
+      "detail": "（非日内回转）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F141",
+      "detail": "F141",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F142",
+      "detail": "F142",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "商品期货",
+      "detail": "商品期货",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F150",
+      "detail": "F150",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易型货币基金",
+      "detail": "交易型货币基金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "后续根据业务发展情况，逐步推广",
+      "detail": "后续根据业务发展情况，逐步推广",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版至其他类别",
+      "detail": "版至其他类别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，并有序开展",
+      "detail": "，并有序开展",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件（包括",
+      "detail": "定义文件（包括",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "版）的下线工作。",
+      "detail": "版）的下线工作。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "ETF",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及71项变更。 废止: 1项。 规则条款变更: 70项。 其中重大变更2项。",
+  "confidence": 0.92,
+  "raw_text": "跨市场债券（银行间）\nETF\n实物申购\nETF\n实物申赎\nBER\n跨市场债券（银行间）\nETF\n实物赎回\n新增业务类型与执行报告数据广播类型及产品集关系表如下：\n业务类型请求编号\n执行报告广播类型\n公共数据广播类型\n产品集编号\n（\nreqid\n）\n(bcasttype)\n(bcasttype)\n(setid)\nBEC\n、\nBER\n23\nN/A\n102\n申赎订单使用原有“\nETF\n实物申赎\n/ETF\n现金申赎\n/\n黄金\nETF\n实物申赎消\n息规范”，并统称为“\nETF\n申赎业务消息规范”，同时明确适用范围：\nETF\n实\n物申赎、\nETF\n现金申赎、黄金\nETF\n实物申赎、跨市场债券（银行间）\nETF\n实\n第\n4\n页\n共\n6\n页\n技术文档\n物申赎。启用订单中\nText\n备注字段\n1-16\n位，用于填写中央结算公司提供的\n业务标识号。对于跨市场债券（银行间）\nETF\n实物申购申报，投资者除申报\n响应外，会收到一条执行报告类型为\n1\n、辅助证券代码为\nETF\n二级市场交易\n代码、成交数量为申购数量，买卖方向为\n1\n的成交记录。基金公司作为对手\n方收到的执行报告与投资者收到的执行报告买卖方向相反；对于赎回申报，\n投资者除申报响应外，会收到一条执行报告类型为\n1\n、辅助证券代码为\nETF\n二级市场交易代码、成交数量为赎回数量，买卖方向为\n2\n的成交记录。基金\n公司作为对手方收到的执行报告与投资者收到的执行报告买卖方向相反。\n交易系统对于申赎所使用的证券账户做账户关联关系备案校验，如校验\n不通过，则会拒单。\n3)\n持仓效率\n持仓效率控制如下，建议市场参与制做好相应前端控制。\nETF\n份额来源\n卖出\n实物赎回\nT\n日初持有的\nETF\n份额\nT\nT\nT\n日买入的\nETF\n份额\nT\nT+1\nT\n日实物申购的\nETF\n份额\nT+1\nT+1\n4)\n过户数据\n基金公司、券商、托管银行盘后收取的基金过户数据接口\n（\njjghXXXXX.txt\n）中增加对于跨市场债券（银行间）\nETF\n实物申购\n（\nBEC\n）、赎回（\nBER\n）的支持。\n5)\n产品信息\n产品基础信息第二版第一批次文件接口（\ncpxx0201MMDD.txt\n）及产品基\n础信息第二版第二批次文件接口（\ncpxx0202MMDD.txt\n）增加跨市场债券（银\n行间）\nETF\n类别产品，并在备注字段增加基金产品细分类别\nF124\n取值，表\n示跨市场债券（银行间）\nETF\n。\n基金非交易基础信息接口中增加跨市场债券（银行间）\nETF\n类别产品。\n第\n5\n页\n共\n6\n页\n技术文档\n6)\n其他\n市场参与者应充分评估业务变更对交易相关技术系统的影响，做好相关\n技术系统维护、改造工作，保证跨市场债券（银行间）\nETF\n相关业务的顺利\n开展，同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类\n业务正常运行。\n市场参与者应根据本所要求利用本所提供的测试环境进行充分测试验\n证。\n5\n相关技术文档\n《\nIS101_\n上海证券交易所竞价撮合平台市场参与者接口规格说明书\n1.60\n版\n_20220808\n（跨市场债券（银行间）\nETF\n技术开发稿）》\n《\nIS105_\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.51\n版\n_20220808\n（跨市场债券（银行间）\nETF\n技术开发稿）》\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\n1.8\n版\n_20220823\n（跨市场债券（银行间）\nETF\n技术开发稿）》\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\n2.0\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n第\n6\n页\n共\n6\n页"
+}

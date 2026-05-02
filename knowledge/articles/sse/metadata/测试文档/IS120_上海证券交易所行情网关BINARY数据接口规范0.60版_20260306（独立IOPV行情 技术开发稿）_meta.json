@@ -1,0 +1,18 @@
+{
+  "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20260306_IS120_上海证券交易所行情网关BINARY数据接口规范0.60版_20260306（独立IOPV行情 技术开发稿）.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\IS120_上海证券交易所行情网关BINARY数据接口规范0.60版_20260306（独立IOPV行情 技术开发稿）.md",
+  "file_hash": "sha256:e8dd0293836d29fb9db31140ff0abef14a6fd45ef104e2d0fcef2f9fb2069bcb",
+  "file_format": "pdf",
+  "page_count": 26,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": "2018-03-09",
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:48:31.680103+00:00",
+  "sub_category": null
+}

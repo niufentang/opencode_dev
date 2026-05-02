@@ -41,6 +41,7 @@ ai-knowledge-base/
 │   │   ├── collector.md         — 采集 Agent 
 │   │   ├── parser.md            — 解析 Agent  
 │   │   ├── analyzer.md          — 分析 Agent
+│   │   ├── parseranalyzer.md    — 解析分析合并 Agent（对照实验）
 │   │   └── organizer.md         — 整理 Agent
 │   └── skills/                  — 可复用技能包
 │       ├── ...
@@ -48,6 +49,9 @@ ai-knowledge-base/
 ├── knowledge/
 │   ├── raw/                     — 原始爬取数据（PDF/Word/ZIP/HTML，只读归档）
 │   └── articles/                — 解析 + 分析 + 整理产物
+│       ├── parseranalyzer/      — 解析分析合并 Agent 产出（对照实验）
+│       │   ├── sse/             — 直出 _analysis.json（无中间 Markdown）
+│       │   └── szse/
 │       ├── sse/                 — 上交所
 │       │   ├── markdown/        — 全文转 Markdown（解析 Agent 产出）
 │       │   ├── metadata/        — 元数据 JSON（解析 Agent 产出）
@@ -115,6 +119,7 @@ ai-knowledge-base/
 | **采集 Agent** | 三个网站定向爬取 | 增量抓取与去重、下载排队与重试、变更检测 Trigger |
 | **解析 Agent** | 异构文件解析 | PDF/Word/ZIP 解析、HTML 结构化提取、全文转 Markdown、元数据抽取 |
 | **分析 Agent** | 变更分析与关联发现 | 技术变更和规则变更分析、版本差异比对、废止/替代检测、跨站关联发现、标签自动分类 |
+| **解析分析合并 Agent** | 对照实验 | 合并解析与分析为一步，跳过中间 Markdown，直出 _analysis.json，用于对比评估流水线效果 |
 | **整理 Agent** | 知识条目结构化 | 分析后原始数据去重、过滤、格式化，输出为标准知识条目 JSON |
 
 ## 红线（绝对禁止）

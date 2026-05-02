@@ -1,0 +1,65 @@
+{
+  "doc_id": "sse-iface-20260327-015",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T02:03:05.597443+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（托管银行卷）》 1.36 版发布说明： 2026 托管银行私有数据接口 YYYY.sse",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（托管银行卷）》\n1.36\n版发布说明：\n2026\n托管银行私有数据接口\nYYYY.sse",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增新竞价过户数据文件（",
+      "detail": "新增新竞价过户数据文件（",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "gh00PXXXXX _YYYYMMDD .txt 竞价发行过户数据文件（ ipogh00PXXXXX ）、指定过户数据文件 zdgh00PXXXXX 、新竞价过户数据文件、新 竞价发行过户数据文件、指定过户数据文件 、新竞价过户数据文件 ）、新竞价发行过户数据文件（ 定过户数据文件（ 、新竞价过户数",
+      "detail": "gh00PXXXXX\n_YYYYMMDD\n.txt\n竞价发行过户数据文件（\nipogh00PXXXXX\n）、指定过户数据文件\nzdgh00PXXXXX\n、新竞价过户数据文件、新\n竞价发行过户数据文件、指定过户数据文件\n、新竞价过户数据文件\n）、新竞价发行过户数据文件（\n定过户数据文件（\n、新竞价过户数",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、指定过户数据文件（ 新竞价过户数据文件（ gh00PXXXXX_YYYYMMDD.txt 新竞价发行过户数据文件（ ipogh00PXXXXX_YYYYMMDD.txt 指定过户数据文件（ zdgh00PXXXXX_YYYYMMDD.txt 可通过上海证券交易所市场技术服务平台下载： https://idc.ztcloud.ssetech.com.cn/",
+      "detail": "）、指定过户数据文件（\n新竞价过户数据文件（\ngh00PXXXXX_YYYYMMDD.txt\n新竞价发行过户数据文件（\nipogh00PXXXXX_YYYYMMDD.txt\n指定过户数据文件（\nzdgh00PXXXXX_YYYYMMDD.txt\n可通过上海证券交易所市场技术服务平台下载：\nhttps://idc.ztcloud.ssetech.com.cn/",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新交易系统专区 软件下载 http://www.sse.com.cn/sseportal/cs/zhs/ywyy/hyb/ngtrade/support/download/06_bank_2009.zip",
+      "detail": "新交易系统专区\n软件下载\nhttp://www.sse.com.cn/sseportal/cs/zhs/ywyy/hyb/ngtrade/support/download/06_bank_2009.zip",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS104",
+    "IS105",
+    "IS110",
+    "IS118",
+    "IS124",
+    "REITs",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及5项变更。 规则条款变更: 4项。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

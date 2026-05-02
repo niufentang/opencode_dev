@@ -1,0 +1,324 @@
+{
+  "doc_id": "sse-iface-20260123-009",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（竞价平台）0.58版_20260122（新竞价新综业技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T05:42:19.526596+00:00",
+  "metadata": {
+    "file_hash": "sha256:d0f561cbcf315720731a0700decf70124b55fd88b7f490679ac64bb0f7b765c2",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "0.58",
+    "previous_version": null,
+    "public_date": "2026-01-23",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "0.58",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "删除业务类型与执行报告分区（",
+      "detail": "删除业务类型与执行报告分区（",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SetID",
+      "detail": "SetID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）的固定对应关",
+      "detail": "）的固定对应关",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "系描述，实际的分区信息应以执行报告信息",
+      "detail": "系描述，实际的分区信息应以执行报告信息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecRptInfo",
+      "detail": "ExecRptInfo",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "推送的数据为准。",
+      "detail": "推送的数据为准。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026-01-01",
+      "detail": "2026-01-01",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.58",
+      "detail": "0.58",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "删除新订单申报中申报数量字段取值小于",
+      "detail": "删除新订单申报中申报数量字段取值小于",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1000000000",
+      "detail": "1000000000",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的限制说明。",
+      "detail": "的限制说明。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "删除成交回报中成交金额字段的溢出说明。",
+      "detail": "删除成交回报中成交金额字段的溢出说明。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其产生的回报以不同的执行报告分区",
+      "detail": "其产生的回报以不同的执行报告分区",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PartitionNo",
+      "detail": "PartitionNo",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）划分为多个逻辑上相互独立的数据流。",
+      "detail": "）划分为多个逻辑上相互独立的数据流。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "执行报告分区",
+      "detail": "执行报告分区",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "(PartitionNo)",
+      "detail": "(PartitionNo)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1-6，20",
+      "detail": "1-6，20",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；同一个业务也可以属于多个分区，通过多",
+      "detail": "；同一个业务也可以属于多个分区，通过多",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "个执行报告流发送",
+      "detail": "个执行报告流发送",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于分区列表信息，由后台交易系统确定，可能随后台优化而调整。",
+      "detail": "对于分区列表信息，由后台交易系统确定，可能随后台优化而调整。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应避免自行配置",
+      "detail": "应避免自行配置",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固定分区信息，影响系统的灵活性和兼容性。",
+      "detail": "固定分区信息，影响系统的灵活性和兼容性。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "比如，发行（",
+      "detail": "比如，发行（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BizID=300010",
+      "detail": "BizID=300010",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）和配股",
+      "detail": "）和配股",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "科创板配售（",
+      "detail": "科创板配售（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BizID=300020",
+      "detail": "BizID=300020",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）均属于",
+      "detail": "）均属于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "=991",
+      "detail": "=991",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的分区。",
+      "detail": "的分区。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5010",
+      "detail": "5010",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrderQty",
+      "detail": "OrderQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段：取值小于",
+      "detail": "字段：取值小于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TotalValueTraded",
+      "detail": "TotalValueTraded",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段：如果实际成交金额超过999,999,999.99999",
+      "detail": "字段：如果实际成交金额超过999,999,999.99999",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "元，则该字段返回",
+      "detail": "元，则该字段返回",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OxFFFFFFFFFFFFFFFF（即对应数值-1），请使用该字段的市场参与者特殊处理，柜台系统",
+      "detail": "OxFFFFFFFFFFFFFFFF（即对应数值-1），请使用该字段的市场参与者特殊处理，柜台系统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应能识别并及时处理该字段溢出异常，可采取如自行计算或拆分调整，盘后采用登记结算数",
+      "detail": "应能识别并及时处理该字段溢出异常，可采取如自行计算或拆分调整，盘后采用登记结算数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "据或其他方式处理，做好该异常的识别和处理。",
+      "detail": "据或其他方式处理，做好该异常的识别和处理。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应避免自行配置固定分区信息，影响系统的灵活性和兼容性。",
+      "detail": "应避免自行配置固定分区信息，影响系统的灵活性和兼容性。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及41项变更。 规则条款变更: 41项。 其中重大变更3项。",
+  "confidence": 0.92,
+  "raw_text": "Message Data Error\n5016\nClOrdID\n取值错误\n注：本表仅提供交易网关错误码，系统后台错误码参照每日发送的竞价平台错误码信息文件。\n5.4\n附四\n“用户私有信息”说明\n对于应用消息中的“用户私有信息”字段，有如下规则：\n1. TDGW\n返回给\nOMS\n的下行消息中“用户私有信息”，取该条下行消息所对应的上行\n消息（由\nOMS\n发送给\nTDGW\n）中的“用户私有信息”字段值。\n39\n交易网关数据接口规范\n5.5\n附五\n价格数量字段说明\n现货竞价交易\n其他\nMsgType=\n字段\n本方最\n对手方\n8\n限价\n市转撤\n市转限\n其他\n优\n最优\n申报信\n申报信\n申报信\n申报信\n申报信\n申报信\nPrice 申报价格\n息\n息\n息\n息\n息\n息\nOrderQty 申报\n申报信\n申报信\n申报信\n申报信\n申报信\n申报信\n数量\n息\n息\n息\n息\n息\n息\n申报成功\n响应\nLeavesQty 剩余\n转限数\n转限数\n转限数\n无意义\n无意义\n无意义\n数量\n量\n量\n量\nCxlQty 撤单数\n撤单数\n无意义\n无意义\n无意义\n无意义\n无意义\n量\n量\n申报信\nPrice 申报价格\n申报信息\n息\nOrderQty 申报\n申报信\n申报信息\n数量\n息\n申报失败\n响应\nLeavesQty 剩余\n无意义\n无意义\n数量\nCxlQty 撤单数\n无意义\n无意义\n量\n撤单成功\nPrice 申报价格\n被撤原申报（市价单填0）\n被撤原\n40\n交易网关数据接口规范\n响应\n申报\nOrderQty 申报\n被撤原\n被撤原申报\n数量\n申报\nLeavesQty 剩余\n无意义\n无意义\n数量\nCxlQty 撤单数\n撤单数量\n无意义\n量\n5.6\n附六\n融资融券\n投资者要进行融资融券信用交易，需向具备融资融券业务资格的证券公司申请，开设\nE\n字头的\n“\n投资者信用证券账户\n”\n。\n开展融券业务的证券公司必须在中登公司开设\n“\n证券公司融券专用账户\n”\n，存放自有证券，\n供投资者进行融券交易。证券公司融券专用账户不得进行任何申报。\n开展融券业务的证券公司还必须在中登公司开设\n“\n证券公司信用交易担保证券账户\n”\n，该\n帐户与\n“\n投资者信用证券账户\n”\n之间是总帐与二级明细帐的关系，用于记载投资者委托证券公\n司持有的担保证券的明细数据，对应明细数据由中登公司维护。证券公司信用交易担保证券\n账户不得进行任何申报。\n投资者信用证券账户可申报的非交易业务包括：发行（具体参考交易所通知）、配股\n/\n科创板配售、配转债。\n融资融券信用交易业务，仅供投资者信用证券账户申报，且必须带信用标签，信用标签\n使用说明如下：\n信用交易\nCreditTag\nSide\nSecurityID\n担保品买入\nXY\n1\n担保品标的\n担保品卖出\n2\n股票、封闭式基金、\nETF\n、国债、可转债\n融资买入\nRZ\n1\n融资买入标的\n卖券还款\n2\n股票、封闭式基金、\nETF\n、国债、可转债\n融券卖出\nRQ\n2\n融券卖出标的\n买券还券\n1\n买券还券标的\n41\n交易网关数据接口规范\n平仓买入\nPC\n1\n买券还券标的\n平仓卖出\n2\n股票、封闭式基金、\nETF\n、国债、可转债\n注：融券卖出不支持市价订单。\n42"
+}
