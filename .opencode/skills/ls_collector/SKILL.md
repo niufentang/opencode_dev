@@ -1,5 +1,5 @@
 ---
-name: collector
+name: ls_collector
 description: "Use this skill when the task involves crawling or scraping documents from the SSE (上交所) trading tech support portal, SZSE (深交所) technical service site, or ChinaClear (中国结算) business rules page. Triggers include: @collector, mentions of crawling/采集/爬取/抓取, references to the three exchange data sources, or requests to download PDF/Word documents from these websites. Also use when checking for new or updated documents from these sources, performing incremental crawling with dedup, or downloading technical documents for the knowledge base. Do NOT use for general web scraping unrelated to these three specific sources, or for modifying already-crawled data."
 allowed-tools: [Read, Grep, Glob, WebFetch]
 ---

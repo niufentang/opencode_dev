@@ -1,5 +1,5 @@
 ---
-name: parser
+name: ls_parser
 description: "Use this skill when the task involves converting raw downloaded documents (PDF, Word, Excel, HTML, ZIP) into structured Markdown and metadata. Triggers include: @parser, mentions of parsing/解析/格式转换, references to knowledge/articles/markdown or knowledge/articles/metadata, requests to extract text or tables from PDFs/Word/Excel files, or converting HTML to clean Markdown. Also use when extracting document metadata (title, version, date, doc_type), detecting change annotations (red/blue text), or generating SHA256 file hashes. Do NOT use for crawling/downloading files (use collector skill), for semantic analysis of content (use analyzer skill), or for final entry formatting (use organizer skill)."
 allowed-tools: [Read, Grep, Glob, WebFetch]
 ---

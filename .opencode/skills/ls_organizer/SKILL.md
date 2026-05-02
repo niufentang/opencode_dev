@@ -1,5 +1,5 @@
 ---
-name: organizer
+name: ls_organizer
 description: "Use this skill when the task involves finalizing knowledge entries from analyzed data: deduplication, filtering, formatting into standard knowledge entry JSON, maintaining version traceability, and creating index files. Triggers include: @organizer, mentions of organizing/整理/条目生成/去重/格式化, references to knowledge/articles/entries, requests to produce final consumable knowledge entries, create version chains (previous_version / superseded_by), or generate entries.json index. Also use when cleaning up redundant entries, filtering low-confidence results, or validating JSON output quality. Do NOT use for crawling (use collector skill), parsing (use parser skill), or analysis (use analyzer skill)."
 allowed-tools: [Read, Grep, Glob, Write, Edit]
 ---
