@@ -1,4 +1,4 @@
-# 课件 第2节 Memory 工程
+# Memory 工程
 
 ## 第5页 — AI Memory：各编程工具的文件
 
