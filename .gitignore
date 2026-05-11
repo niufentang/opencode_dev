@@ -16,7 +16,11 @@ Vibe/
 opencode.json
 
 # knowledge: keep directory structure only, ignore all files
-knowledge/raw/
+c/raw/
 knowledge/articles/
 !knowledge/raw/**/.gitkeep
 !knowledge/articles/**/.gitkeep
+
+# 文件过大的文件
+#knowledge/raw/sse/技术杂志/20250306_《交易技术前沿》2025年第一期网络安全专刊（总61期）.pdf
+#knowledge/raw/sse/技术杂志/20251203_《交易技术前沿网络安全专刊》第三期.pdf
