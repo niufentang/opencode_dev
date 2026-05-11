@@ -132,6 +132,7 @@ ai-knowledge-base/
 - 禁止将敏感或未公开的规则信息通过分发渠道外泄
 - 禁止使用未经团队审核的自定义爬虫规则
 - 不在日志中输出 API Key 或敏感信息
+- 禁止将 GITHUB_TOKEN 等凭证嵌入 git remote URL（如 `https://user:token@github.com/...`），应使用 `gh auth login` 或 Git Credential Manager 认证
 - 不执行 rm -rf 等危险命令
 - 不修改 AGENTS.md 本身（除非明确要求）
 
@@ -169,6 +170,11 @@ echo %GH_TOKEN% | gh auth login --with-token
 ### 使用规则
 1. 涉及 GitHub 仓库、代码拉取、提交、推送、PR、Issue、Actions 相关操作，优先使用 gh 命令
 2. 执行前确保系统环境变量 GH_TOKEN 已正确配置
+3. 不得将 Token 嵌入 git remote URL；若已误操作，执行以下命令移除：
+   ```bash
+   git remote set-url origin https://github.com/<owner>/<repo>.git
+   ```
+   认证请使用下方"认证"章节的 `gh auth login` 方式。
 
 ### 常用命令
 ```bash
