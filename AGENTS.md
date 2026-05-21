@@ -149,6 +149,16 @@ ai-knowledge-base/
 - 替代手动修改 Hosts，稳定解决 GitHub 访问慢、拉取代码超时、依赖安装卡顿等问题
 - 分离国内外路由，不影响国内常规网络访问
   
+### Git 配置（必须）
+Watt Toolkit 通过修改 hosts 将 GitHub 域名指向 127.0.0.1，并用自签名证书拦截 HTTPS 流量。
+Windows SChannel 默认检查证书吊销状态会导致 SSL 握手失败，需禁用吊销检查：
+```powershell
+# 本项目生效（已配置）
+git config http.schannelcheckrevoke false
+# 若失效，重新执行此命令
+```
+**注意**：`git pull` 前需确保 Watt Toolkit 正在运行。
+
 ### 合规要求
 仅用于正常开发场景下访问海外公开技术服务，禁止任何违规网络行为。
 
