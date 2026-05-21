@@ -1,26 +1,7 @@
-node_modules/
-!node_modules/README.md
-package*.json
-.env
-skills-lock.json
-log/*
-!log/.gitkeep
-AGENTS备份.md
-knowledge/raw/bak/
-tech_analyze/
-缺陷评估/
-__pycache__/
-test-results/
-.temp_baoyu/
-Vibe/
-opencode.json
+# Ignore dot directories and files
+.*
 
-# knowledge: keep directory structure only, ignore all files
-c/raw/
-knowledge/articles/
-!knowledge/raw/**/.gitkeep
-!knowledge/articles/**/.gitkeep
-
-# 文件过大的文件
-#knowledge/raw/sse/技术杂志/20250306_《交易技术前沿》2025年第一期网络安全专刊（总61期）.pdf
-#knowledge/raw/sse/技术杂志/20251203_《交易技术前沿网络安全专刊》第三期.pdf
+# Don't ignore .git directory and .gitignore
+!.gitignore
+!.gitattributes
+!.gitkeep
