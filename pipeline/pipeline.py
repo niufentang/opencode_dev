@@ -23,6 +23,16 @@ Collect → Parse → Analyze (规则+LLM混合) → Organize → Save (质量�
 
     # 只做 SZSE 的 Analyze → Organize（Parse 已完成时）
     python pipeline/pipeline.py --sources szse --from analyze --to organize
+
+    # 启用 LLM 语义增强（仅规则分析置信度不足时触发 LLM）
+    # --limit 3: Collect 每栏目最多抓 3 条元数据, Parse/Analyze 最多处理 3 个文件
+    python pipeline/pipeline.py --limit 3 --use-llm
+
+    # 强制 LLM 触发：调低置信度阈值，让更多文档走 LLM 分支
+    python pipeline/pipeline.py --limit 3 --use-llm --llm-threshold 0.95
+
+    # 完整 Pipeline 结束后查看 LLM 调用成本报告
+    # (自动输出到日志 + 保存到 log/cost_report_{timestamp}.json)
 """
 
 from __future__ import annotations
@@ -40,6 +50,8 @@ from pathlib import Path
 from typing import Any
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+
+from pipeline.model_client import tracker, calculate_cost
 
 logging.basicConfig(
     level=logging.INFO,
@@ -161,6 +173,7 @@ class PipelineRunner:
     # ------------------------------------------------------------------
 
     def run(self) -> PipelineReport:
+        tracker._records.clear()
         start = time.time()
         logger.info("=" * 60)
         logger.info(
@@ -859,6 +872,14 @@ class PipelineRunner:
                 print(f"|   +- Needs review: {d.get('needs_review', 0)}{'':>24}|")
                 print(f"|   +- Version chains: {d.get('chains_built', 0)}{'':>22}|")
 
+        # LLM 费用汇总
+        llm_cost_cny = tracker.estimated_cost(currency="cny")
+        llm_cost_usd = tracker.estimated_cost(currency="usd")
+        if llm_cost_cny > 0:
+            print(f"|{'':^50}|")
+            print(f"|{'LLM Cost':^50}|")
+            print(f"|{'CNY ' + f'{llm_cost_cny:.4f}':>27}{'USD ' + f'{llm_cost_usd:.4f}':>23}|")
+
         print(f"+{sep}+")
         print()
 
@@ -937,6 +958,13 @@ def main():
     config = _parse_args()
     runner = PipelineRunner(config)
     report = runner.run()
+
+    if tracker._records:
+        tracker.report()
+        report_path = Path("log") / f"cost_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json"
+        report_path.parent.mkdir(parents=True, exist_ok=True)
+        tracker.save_report(str(report_path))
+
     sys.exit(0 if report.status == "success" else 1)
 
 

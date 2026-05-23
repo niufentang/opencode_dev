@@ -38,11 +38,20 @@ class Usage:
     Attributes:
         prompt_tokens: 提示（输入）的 token 数。
         completion_tokens: 补全（输出）的 token 数。
-        total_tokens: 总 token 数。
     """
     prompt_tokens: int = 0
     completion_tokens: int = 0
-    total_tokens: int = 0
+
+    @property
+    def total_tokens(self) -> int:
+        return self.prompt_tokens + self.completion_tokens
+
+    def to_dict(self) -> dict[str, int]:
+        return {
+            "prompt_tokens": self.prompt_tokens,
+            "completion_tokens": self.completion_tokens,
+            "total_tokens": self.total_tokens,
+        }
 
 
 @dataclass
@@ -59,6 +68,14 @@ class LLMResponse:
     usage: Usage = field(default_factory=Usage)
     provider: str = ""
     model: str = ""
+
+    def to_dict(self) -> dict:
+        return {
+            "content": self.content,
+            "usage": self.usage.to_dict(),
+            "provider": self.provider,
+            "model": self.model,
+        }
 
 
 # ---------------------------------------------------------------------------
@@ -154,15 +171,25 @@ class OpenAICompatibleProvider(LLMProvider):
         self.provider_name = provider_name
         self.api_key = api_key or os.environ.get(cfg["env_key"], "")
         if not self.api_key:
-            logger.warning(
-                "未找到 %s 的 API 密钥（环境变量: %s）",
-                provider_name,
-                cfg["env_key"],
+            raise ValueError(
+                f"未找到 {provider_name} 的 API 密钥，"
+                f"请设置环境变量 {cfg['env_key']}"
             )
         self.base_url = (base_url or cfg["base_url"]).rstrip("/")
         # 模型选择优先级：显式传参 > 环境变量 > 配置默认值
         self.model = model or os.environ.get(cfg.get("model_env", "")) or cfg["model"]
         self.timeout = timeout
+        pool_limits = httpx.Limits(max_keepalive_connections=5, max_connections=10)
+        self._client = httpx.Client(timeout=self.timeout, limits=pool_limits)
+
+    def close(self) -> None:
+        self._client.close()
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *args):
+        self.close()
 
     def chat(self, messages: list[dict], **kwargs) -> LLMResponse:
         """通过 OpenAI 兼容 API 发送对话补全请求。
@@ -198,13 +225,9 @@ class OpenAICompatibleProvider(LLMProvider):
 
         logger.debug("发送请求至 %s，模型: %s", url, model)
 
-        # 原实现：with httpx.Client(timeout=self.timeout) — 每次新建 Client，无连接复用
-        # 改为指定 limits 连接池参数，with 块结束时连接归还池而非销毁，减少高频调用开销
-        pool_limits = httpx.Limits(max_keepalive_connections=5, max_connections=10)
-        with httpx.Client(timeout=self.timeout, limits=pool_limits) as client:
-            resp = client.post(url, json=payload, headers=headers)
-            resp.raise_for_status()
-            data = resp.json()
+        resp = self._client.post(url, json=payload, headers=headers)
+        resp.raise_for_status()
+        data = resp.json()
 
         choice = data["choices"][0]
         content = choice["message"]["content"] or ""
@@ -213,7 +236,6 @@ class OpenAICompatibleProvider(LLMProvider):
         usage = Usage(
             prompt_tokens=usage_data.get("prompt_tokens", 0),
             completion_tokens=usage_data.get("completion_tokens", 0),
-            total_tokens=usage_data.get("total_tokens", 0),
         )
 
         return LLMResponse(
@@ -257,7 +279,9 @@ def chat_with_retry(
     last_exc: Optional[Exception] = None
     for attempt in range(1 + max_retries):
         try:
-            return provider.chat(messages, **kwargs)
+            resp = provider.chat(messages, **kwargs)
+            tracker.record(resp.usage, provider.provider_name)
+            return resp
         except (httpx.HTTPError, httpx.TimeoutException) as e:
             last_exc = e
             if attempt < max_retries:
@@ -363,9 +387,186 @@ def estimate_message_cost(
     usage = Usage(
         prompt_tokens=prompt_tokens,
         completion_tokens=estimated_output_tokens,
-        total_tokens=prompt_tokens + estimated_output_tokens,
     )
     return calculate_cost(usage, provider_name, currency=currency)
+
+
+# ---------------------------------------------------------------------------
+# 成本追踪器
+# ---------------------------------------------------------------------------
+
+
+class CostTracker:
+    """追踪 LLM 调用的 token 消耗和成本。
+
+    全局单例使用 _tracker，Pipeline 结束后调 report() 输出汇总。
+    """
+
+    def __init__(self) -> None:
+        self._records: list[dict] = []
+
+    def record(self, usage: Usage, provider: str) -> None:
+        """记录一次 API 调用。
+
+        Args:
+            usage: 本次调用的 token 用量。
+            provider: 提供商名称（PROVIDER_CONFIGS 的键）。
+        """
+        self._records.append({
+            "usage": usage,
+            "provider": provider,
+            "timestamp": time.time(),
+        })
+
+    def estimated_cost(
+        self,
+        provider: Optional[str] = None,
+        currency: str = "cny",
+    ) -> float:
+        """返回指定提供商（或全部）的累计估算成本。
+
+        Args:
+            provider: 提供商名称，None 表示汇总全部。
+            currency: 币种，'cny' 或 'usd'。
+
+        Returns:
+            累计成本金额（元/美元）。
+        """
+        total = 0.0
+        for r in self._records:
+            if provider is None or r["provider"] == provider:
+                total += calculate_cost(r["usage"], r["provider"], currency=currency)
+        return round(total, 4)
+
+    def report(self, provider: Optional[str] = None) -> None:
+        """打印成本报告到日志。
+
+        Args:
+            provider: 仅输出该提供商的汇总，None 输出全部。
+        """
+        logger.info("=" * 60)
+        logger.info("LLM 调用成本报告")
+        logger.info("=" * 60)
+
+        records = (
+            self._records
+            if provider is None
+            else [r for r in self._records if r["provider"] == provider]
+        )
+        if not records:
+            logger.info("无调用记录。")
+            logger.info("=" * 60)
+            return
+
+        providers = sorted({r["provider"] for r in records})
+        grand_cny = 0.0
+        grand_usd = 0.0
+
+        for prov in providers:
+            prov_records = [r for r in records if r["provider"] == prov]
+            n_calls = len(prov_records)
+            total_prompt = sum(r["usage"].prompt_tokens for r in prov_records)
+            total_comp = sum(r["usage"].completion_tokens for r in prov_records)
+            total_tok = total_prompt + total_comp
+            cost_cny = sum(
+                calculate_cost(r["usage"], prov, currency="cny")
+                for r in prov_records
+            )
+            cost_usd = sum(
+                calculate_cost(r["usage"], prov, currency="usd")
+                for r in prov_records
+            )
+            grand_cny += cost_cny
+            grand_usd += cost_usd
+
+            logger.info("提供商: %s", prov)
+            logger.info("  调用次数: %d", n_calls)
+            logger.info("  总 Token: %d（输入 %d / 输出 %d）",
+                        total_tok, total_prompt, total_comp)
+            logger.info("  估算成本: ¥%.4f（USD $%.4f）", cost_cny, cost_usd)
+
+        logger.info("-" * 60)
+        logger.info("总计成本: ¥%.4f（USD $%.4f）", grand_cny, grand_usd)
+        logger.info("=" * 60)
+
+    def save_report(self, filepath: str, provider: Optional[str] = None) -> None:
+        """将成本报告保存为 JSON 文件。
+
+        Args:
+            filepath: 输出文件路径（建议 .json）。
+            provider: 仅保存该提供商的记录，None 保存全部。
+        """
+        records = (
+            self._records
+            if provider is None
+            else [r for r in self._records if r["provider"] == provider]
+        )
+
+        if not records:
+            data = {"total_calls": 0, "total_cost_cny": 0.0, "total_cost_usd": 0.0, "records": []}
+        else:
+            providers = sorted({r["provider"] for r in records})
+            per_provider = []
+            total_cny = 0.0
+            total_usd = 0.0
+
+            for prov in providers:
+                prov_records = [r for r in records if r["provider"] == prov]
+                prompt = sum(r["usage"].prompt_tokens for r in prov_records)
+                comp = sum(r["usage"].completion_tokens for r in prov_records)
+                cost_cny = sum(
+                    calculate_cost(r["usage"], prov, currency="cny")
+                    for r in prov_records
+                )
+                cost_usd = sum(
+                    calculate_cost(r["usage"], prov, currency="usd")
+                    for r in prov_records
+                )
+                total_cny += cost_cny
+                total_usd += cost_usd
+
+                per_provider.append({
+                    "provider": prov,
+                    "calls": len(prov_records),
+                    "prompt_tokens": prompt,
+                    "completion_tokens": comp,
+                    "total_tokens": prompt + comp,
+                    "cost_cny": round(cost_cny, 4),
+                    "cost_usd": round(cost_usd, 4),
+                })
+
+            data = {
+                "total_calls": len(records),
+                "total_cost_cny": round(total_cny, 4),
+                "total_cost_usd": round(total_usd, 4),
+                "providers": per_provider,
+                "records": [
+                    {
+                        "provider": r["provider"],
+                        "timestamp": r["timestamp"],
+                        "prompt_tokens": r["usage"].prompt_tokens,
+                        "completion_tokens": r["usage"].completion_tokens,
+                        "total_tokens": r["usage"].total_tokens,
+                        "cost_cny": round(
+                            calculate_cost(r["usage"], r["provider"], currency="cny"), 8
+                        ),
+                        "cost_usd": round(
+                            calculate_cost(r["usage"], r["provider"], currency="usd"), 8
+                        ),
+                    }
+                    for r in records
+                ],
+            }
+
+        with open(filepath, "w", encoding="utf-8") as f:
+            import json
+            json.dump(data, f, ensure_ascii=False, indent=2)
+
+        logger.info("成本报告已保存至: %s", filepath)
+
+
+# 全局追踪器实例，Pipeline 结束时可通过 model_client.tracker.report() 输出报告
+tracker = CostTracker()
 
 
 # ---------------------------------------------------------------------------
@@ -401,7 +602,10 @@ def quick_chat(
         messages.append({"role": "system", "content": system_prompt})
     messages.append({"role": "user", "content": prompt})
 
-    return chat_with_retry(provider, messages, **kwargs)
+    try:
+        return chat_with_retry(provider, messages, **kwargs)
+    finally:
+        provider.close()
 
 
 # ---------------------------------------------------------------------------
@@ -425,38 +629,36 @@ if __name__ == "__main__":
         format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
     )
 
-    chosen = os.environ.get("LLM_PROVIDER", "deepseek")
-    logger.info("当前提供商: %s", chosen)
+    provider = os.environ.get("LLM_PROVIDER", "deepseek")
+    logger.info("当前提供商: %s", provider)
 
-    # 1. 基础对话测试
-    provider = OpenAICompatibleProvider(provider_name=chosen)
-    msgs = [
-        {"role": "system", "content": "You are a helpful assistant."},
-        {"role": "user", "content": 'Say "Hello from model_client.py" in 5 words.'},
-    ]
-
+    # 做两次调用
     try:
-        resp = chat_with_retry(provider, msgs)
-        logger.info("响应: %s", resp.content)
-        logger.info("用量: %s", resp.usage)
-        logger.info("费用: $%.8f", calculate_cost(resp.usage, chosen))
+        result1 = quick_chat("用一句话介绍 Python")
+        print(f"回复 1: {result1.content[:80]}")
+
+        result2 = quick_chat("用一句话介绍 JavaScript")
+        print(f"回复 2: {result2.content[:80]}")
+
+        # 验证 tracker 自动记录了两条
+        assert len(tracker._records) == 2, (
+            f"期望 2 条记录，实际 {len(tracker._records)}"
+        )
+        print(f"\n调用次数: {len(tracker._records)}")
+        cost = tracker.estimated_cost(currency='cny')
+        print(f"总成本: CNY {cost:.4f}")
+        print()
+
     except RuntimeError as e:
-        logger.error("对话失败: %s", e)
+        logger.error("LLM 调用失败: %s", e)
+        print("\n请检查 .env 文件中的 API Key 配置。")
+    except ValueError as e:
+        logger.error("参数错误: %s", e)
+        print(f"\n{e}")
 
-    # 2. Token 估算演示
-    sample = "Hello world, this is a test message with some Chinese: \u4f60\u597d\u4e16\u754c"
-    logger.info(
-        "文本 \"%s\" 的估算 token 数: %d", sample, estimate_tokens(sample)
-    )
+    # 打印成本报告
+    tracker.report()
 
-    # 3. 费用预估演示
-    est_cost = estimate_message_cost(msgs, chosen, estimated_output_tokens=100)
-    logger.info("预估消息费用: $%.8f", est_cost)
-
-    # 4. quick_chat 演示
-    try:
-        reply = quick_chat("Say hi in 3 words.", system_prompt="Be concise.")
-        logger.info("quick_chat 回复: %s", reply.content)
-        logger.info("quick_chat 用量: %s", reply.usage)
-    except RuntimeError as e:
-        logger.error("quick_chat 失败: %s", e)
+    # 保存成本报告到文件（可选）
+    tracker.save_report("cost_report.json")
+    print("\n成本报告已保存到 cost_report.json")
