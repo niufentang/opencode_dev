@@ -133,6 +133,7 @@ ai-knowledge-base/
 - 禁止使用未经团队审核的自定义爬虫规则
 - 不在日志中输出 API Key 或敏感信息
 - 禁止将 GITHUB_TOKEN 等凭证嵌入 git remote URL（如 `https://user:token@github.com/...`），应使用 `gh auth login` 或 Git Credential Manager 认证
+- 禁止在会话中获取并输出 API Key、Token 等凭证的原始值，包括从 `.env` 文件或环境变量读取后展示在对话中；需要读取 Token 时应直接引用环境变量而不回显其值
 - 不执行 rm -rf 等危险命令
 - 不修改 AGENTS.md 本身（除非明确要求）
 
