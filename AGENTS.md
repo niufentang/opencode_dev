@@ -151,11 +151,16 @@ ai-knowledge-base/
   
 ### Git 配置（必须）
 Watt Toolkit 通过修改 hosts 将 GitHub 域名指向 127.0.0.1，并用自签名证书拦截 HTTPS 流量。
-Windows SChannel 默认检查证书吊销状态会导致 SSL 握手失败，需禁用吊销检查：
+Git 的 SChannel SSL 后端在 Watt Toolkit 代理下会出现 SSL 重协商卡死，必须切换为 openssl
+后端：
 ```powershell
-# 本项目生效（已配置）
-git config http.schannelcheckrevoke false
-# 若失效，重新执行此命令
+# === 一次性配置 ===
+
+# 1. 切换 SSL 后端为 openssl（SChannel 会卡在 SSL 重协商）
+git config --global http.sslBackend openssl
+
+# 2. 关闭 SSL 验证（Watt Toolkit 自签名证书不被 openssl 信任，本地代理场景下风险可接受）
+git config --global http.sslVerify false
 ```
 **注意**：`git pull` 前需确保 Watt Toolkit 正在运行。
 
@@ -207,6 +212,11 @@ gh pr merge
 # 帮助
 gh help
 ```
+
+### 递交与推送流程
+
+**注意**：AI 每次递交推送操作成功后，须在回复中列出本次使用的具体 Git 命令（含 add / commit / push 各步骤），方便开发者对照查阅。
+
 ------
 
 ## 三、Playwright CLI
