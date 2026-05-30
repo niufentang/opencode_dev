@@ -1,0 +1,608 @@
+{
+  "技术通知": [
+    {
+      "title": "关于发布新竞价新综业市场接口及技术实施指南（2026年4月修订）的通知",
+      "publish_date": "2026-04-30",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10817290/files/b813da154ce0472abedf9aebc0480d68.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.170940+00:00"
+    },
+    {
+      "title": "证券期货行业网络安全创新实验室2026年度安全文章征集公告",
+      "publish_date": "2026-04-28",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/c_20260428_10816972.shtml",
+      "category": "技术通知",
+      "file_format": "shtml",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.170940+00:00"
+    },
+    {
+      "title": "关于发布《上海证券交易所交易规则修订市场参与者技术实施指南V1.0》的通知",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10816503/files/e9af9aed380a420586109d21d579dfd0.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.170940+00:00"
+    },
+    {
+      "title": "关于发布新固定收益系统市场接口及技术指南（2026年4月修订）的通知",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10816485/files/d610520d457e4340b9f78ba9726c8df7.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.170940+00:00"
+    },
+    {
+      "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3.30版》（正式稿）的通知",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10816484/files/1a2d35b26ff04c1bbda52c0db3cb9dfb.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.171906+00:00"
+    },
+    {
+      "title": "关于发布TXT版ETF定义文件下线、新竞价过户接口、独立IOPV行情相关市场接口及技术指南（正式稿）的通知",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10813259/files/53b047c3517544ff960735c532ada9ac.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.171906+00:00"
+    },
+    {
+      "title": "关于TXT版ETF定义文件上传功能下线的通知",
+      "publish_date": "2026-03-06",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10811042/files/7eed31fb4fa64d6fa91b8adf5e3f5cbf.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.171906+00:00"
+    },
+    {
+      "title": "关于发布独立IOPV行情市场接口及技术指南（2026年3月修订）的通知",
+      "publish_date": "2026-03-06",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10811031/files/4d555179c95d41a2aabea1b936409a57.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.171906+00:00"
+    },
+    {
+      "title": "关于发布新竞价新综业市场接口及技术实施指南（2026年2月修订）的通知",
+      "publish_date": "2026-02-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10810431/files/7a73df031121452880a9217f9edca0c5.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.171906+00:00"
+    },
+    {
+      "title": "关于发布IOPV行情计算源调整市场接口（正式稿）的通知",
+      "publish_date": "2026-02-13",
+      "url": "https://www.sse.com.cn/services/tradingtech/notice/c/10809566/files/87e6499e4e234f36b2d3b853cf3a77ca.pdf",
+      "category": "技术通知",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.171906+00:00"
+    }
+  ],
+  "服务指引": [
+    {
+      "title": "证券核心交易系统操作系统技术白皮书",
+      "publish_date": "2025-03-05",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10775324/files/664de87fffee4454a0b59ea9bc3ae2d7.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    },
+    {
+      "title": "上海证券交易所会员管理规则适用指引第5号——会员交易及相关系统接入与应用管理",
+      "publish_date": "2024-09-06",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10761335/files/e7093fcfabbb4089ae059feb0cb6a848.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    },
+    {
+      "title": "上海证券交易所交易及相关系统技术白皮书（2023年8月修订）",
+      "publish_date": "2023-08-28",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10649698/files/b66e6432ef5a42e1b1124ff626694258.docx",
+      "category": "服务指引",
+      "file_format": "docx",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    },
+    {
+      "title": "上海证券交易所全天候测试环境远程接入申请文件_201506",
+      "publish_date": "2020-12-29",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10072280/files/62f3423920194403b996d5ee52b1c3ae.zip",
+      "category": "服务指引",
+      "file_format": "zip",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    },
+    {
+      "title": "交易网关（期权）及专用证书开通申请指南",
+      "publish_date": "2020-12-15",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10072281/files/c7629f45fd404896a82acd9aaa166247.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    },
+    {
+      "title": "上海证券交易所全天候测试环境使用指引_20141215",
+      "publish_date": "2014-12-31",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10072287/files/6a9d91ab0dbe435ca07bfcd69b2fcc81.doc",
+      "category": "服务指引",
+      "file_format": "doc",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    },
+    {
+      "title": "上海证券交易所技术服务指南（2013年6月版）",
+      "publish_date": "2013-07-31",
+      "url": "https://www.sse.com.cn/services/tradingtech/services/c/10072286/files/175fa04de8f64de39e97cd2976361317.doc",
+      "category": "服务指引",
+      "file_format": "doc",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:51.679107+00:00"
+    }
+  ],
+  "技术接口": [
+    {
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书3.30版_20260424",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1.59版_20260327",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）2.5版_20260327",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1.36版_20260327",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10813256/files/728833135b5d405786815d20c69287ec.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范0.60版_20260327",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范0.60版_20250327",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书3.10版_20260126",
+      "publish_date": "2026-01-30",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10807548/files/d45478fb10644bd7956e2a577736ebac.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS109_上海证券交易所固定收益平台外部数据接口规范3.29版_20251205",
+      "publish_date": "2025-12-12",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10801492/files/0602ca5530ff46a48eab83de6d5d183f.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（竞价平台）0.57版_20251128",
+      "publish_date": "2025-11-29",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    },
+    {
+      "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（竞价平台）0.57版_20251128",
+      "publish_date": "2025-11-29",
+      "url": "https://www.sse.com.cn/services/tradingtech/data/c/10800222/files/873a41ebd6b246fe81b1d7ff3f512313.pdf",
+      "category": "技术接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.078751+00:00"
+    }
+  ],
+  "技术指南": [
+    {
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南V2.0_20260327",
+      "publish_date": "2026-03-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10813251/files/be44dceb2c0647d5af27e1e6827fb352.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20251017",
+      "publish_date": "2025-10-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10795900/files/a9873e71c60f4597b8f10589de5c6c7e.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20250919",
+      "publish_date": "2025-09-19",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10792146/files/1998339571534f1fb910ce32889412c0.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "互联网交易平台市场参与人ITCS接入调整指引",
+      "publish_date": "2025-08-20",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10789097/files/8fc8123bbf9b4f319e6b6d695dc31233.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "上海证券交易所开放式基金等非交易迁移市场参与者技术实施指南1.4版_20250801",
+      "publish_date": "2025-08-01",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10787347/files/69e55d852443442ab6a89dc354f42f44.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "上海证券交易所科创成长层市场参与人技术实施指南2.0版_20250721",
+      "publish_date": "2025-07-21",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10786099/files/29b61cb7fd0842f78ca39fa4f975e780.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1.0",
+      "publish_date": "2025-06-27",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10783252/files/aa614237558d40f384ea174bd5e5107b.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "上海证券交易所执行报告订阅优化市场参与人技术实施指南3.0版_20250620",
+      "publish_date": "2025-06-20",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10782503/files/5272f03f200f4134b6a0bff6a15329cd.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:53.551122+00:00"
+    },
+    {
+      "title": "FS306 上海证券交易所技术系统市场参与者常见问题解答V2.0_20140728",
+      "publish_date": "2014-07-29",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10072302/files/6e2f5d0a43ad45fa857651fba9210b58.doc",
+      "category": "技术指南",
+      "file_format": "doc",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:54.701033+00:00"
+    },
+    {
+      "title": "SSE703 上海证券交易所交易型货币市场基金技术实施指引_20131128",
+      "publish_date": "2013-12-11",
+      "url": "https://www.sse.com.cn/services/tradingtech/policy/c/10072323/files/d4872616f62842739b6d5bb2e82f91d2.doc",
+      "category": "技术指南",
+      "file_format": "doc",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:54.701033+00:00"
+    }
+  ],
+  "软件下载": [
+    {
+      "title": "软件下载请前往市场技术服务平台交易支持软件专区“软件下载”栏目",
+      "publish_date": "2024-06-28",
+      "url": "https://idc.ztcloud.ssetech.com.cn",
+      "category": "软件下载",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.132977+00:00"
+    }
+  ],
+  "测试文档": [
+    {
+      "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1.2版_20260430（新竞价新综业技术开发稿）",
+      "publish_date": "2026-04-30",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10817288/files/5423c05c361a4c9f98525a36650c74aa.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1.60版_20260430（新竞价新综业技术开发稿）",
+      "publish_date": "2026-04-30",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10817287/files/b0b6c624e6ce48e3a05dc75ccf189920.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "IS111_上海证券交易所报盘软件错误代码表3.29版_20260430（新竞价新综业技术开发稿）",
+      "publish_date": "2026-04-30",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10817286/files/e67b7d76b8094446a1dc706270109b57.xlsx",
+      "category": "测试文档",
+      "file_format": "xlsx",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "上海证券交易所交易规则修订市场参与者技术实施指南V1.0",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10816505/files/8006a51174524e7cae832568b5e726a6.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "上海证券交易所新固定收益系统市场参与人技术实施指南_20260424（技术开发稿）",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10816480/files/2f6d4773eb954b5e826f6e4d0ee32d12.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2.11版_20260424（新固收技术开发稿）",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10816479/files/57d6d8e70a514176986599e2151d300b.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "IS120_上海证券交易所行情网关STEP数据接口规范0.62版_20260424（新固收技术开发稿）",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10816478/files/51a3e4c6b92345689c682448582c019d.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "IS120_上海证券交易所行情网关BINARY数据接口规范0.62版_20260424（新固收技术开发稿）",
+      "publish_date": "2026-04-24",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10816477/files/29e748e66b5649e592ac7cfb9b0d0811.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20260306（独立IOPV行情 技术开发稿）",
+      "publish_date": "2026-03-06",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10811036/files/c9945e3e9a1f43fa937cb50877a8300a.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    },
+    {
+      "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书3.20版_20260306（独立IOPV行情 技术开发稿）",
+      "publish_date": "2026-03-06",
+      "url": "https://www.sse.com.cn/services/tradingtech/development/c/10811034/files/4672a0a84fe044db9aaf4aad49ae364a.pdf",
+      "category": "测试文档",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.510324+00:00"
+    }
+  ],
+  "技术杂志": [
+    {
+      "title": "《交易技术前沿网络安全专刊》第三期",
+      "publish_date": "2025-12-03",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10800598/files/194e2bf787314f6faf0bf1d3505d9506.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2025年第4期（总第64期 国家重点研发计划增刊）",
+      "publish_date": "2025-08-26",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10789748/files/ec537554991a42c6ab8bed8b4c4bed64.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2025年第二期（总第62期 大模型在证券行业的应用与探索）",
+      "publish_date": "2025-07-04",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10783969/files/e1eaa9b6cd424dfe9a83493c70dd3d4c.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2025年第一期网络安全专刊（总61期）",
+      "publish_date": "2025-03-06",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10775372/files/ad3ad7d1b0214939af16fc28062628ec.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2024年第四期（总58期）",
+      "publish_date": "2024-12-17",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10765866/files/8e8da87d973e4482bbed80dd21cc69e1.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2024年第二期（总56期）",
+      "publish_date": "2024-07-09",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10759678/files/b614f93b7d53473cb129d8bdb7f2905a.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2024年第一期网络安全专刊（总55期）",
+      "publish_date": "2024-06-26",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10759677/files/c77a92a3ee4e451bbf366fd5eb0b9bd4.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2023年第三期大语言模型专刊（总54期）",
+      "publish_date": "2024-01-19",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10749524/files/c45ed706e6434f4ab5d16b1be6ae0da8.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》2023年第一期（总52期）",
+      "publish_date": "2023-09-22",
+      "url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10742500/files/248df777be7b4c2cbf6e208d429c6a1f.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    },
+    {
+      "title": "《交易技术前沿》总第五十一期文章（2023年3月）",
+      "publish_date": "2023-05-08",
+      "url": "http://www.sse.com.cn/services/tradingtech/transaction/ITRDC_TechMag_051_202303.pdf",
+      "category": "技术杂志",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:55.903016+00:00"
+    }
+  ],
+  "历史资料": [
+    {
+      "title": "技术文档下载请前往市场技术服务平台交易支持软件专区",
+      "publish_date": "2025-02-25",
+      "url": "https://idc.ztcloud.ssetech.com.cn",
+      "category": "历史资料",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:34:56.422421+00:00"
+    }
+  ]
+}

@@ -1,0 +1,442 @@
+{
+  "技术公告": [
+    {
+      "title": "关于做好深化创业板改革交易机制相关技术准备的通知",
+      "publish_date": "2026-04-24",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20260424_620199.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于新增按交易网关订阅抄送回报的通知",
+      "publish_date": "2026-03-16",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20260316_619426.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于扩充不动产基金证券代码区间的技术准备通知",
+      "publish_date": "2026-03-06",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20260306_619323.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于深交所交易系统接入服务自查的通知",
+      "publish_date": "2025-11-04",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20251104_617047.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于召开深市交易结算技术运行和协同工作碰头会的通知",
+      "publish_date": "2025-09-22",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20250922_616176.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于做好多资产ETF相关技术准备的通知",
+      "publish_date": "2025-09-06",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20250905_615850.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于发布《会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1.05）》的通知",
+      "publish_date": "2025-07-04",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20250704_614732.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于做好调整主板风险警示股票价格涨跌幅限制比例相关技术准备的通知",
+      "publish_date": "2025-06-27",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20250627_614645.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于公开募集基础设施证券投资基金非定向扩募业务功能上线启用的通知",
+      "publish_date": "2025-06-27",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20250627_614641.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    },
+    {
+      "title": "关于做好公开募集基础设施证券投资基金非定向扩募技术准备的通知",
+      "publish_date": "2025-03-28",
+      "url": "https://www.szse.cn/marketServices/technicalservice/notice/t20250328_612607.html",
+      "category": "技术公告",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.251566+00:00"
+    }
+  ],
+  "交易系统介绍": [
+    {
+      "title": "新一代交易系统简介",
+      "publish_date": "2019-10-19",
+      "url": "https://www.szse.cn/marketServices/technicalservice/introduce/P020191019360308096075.pdf",
+      "category": "交易系统介绍",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.737457+00:00"
+    },
+    {
+      "title": "新一代交易系统数据接口规范介绍",
+      "publish_date": "2014-04-25",
+      "url": "https://www.szse.cn/marketServices/technicalservice/introduce/P020180328467239739415.pdf",
+      "category": "交易系统介绍",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.737457+00:00"
+    },
+    {
+      "title": "深圳证券交易所新一代交易系统FAQ",
+      "publish_date": "2016-03-14",
+      "url": "https://www.szse.cn/marketServices/technicalservice/introduce/P020180328467244590967.pdf",
+      "category": "交易系统介绍",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:12.737457+00:00"
+    }
+  ],
+  "服务指引": [
+    {
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1.05）",
+      "publish_date": "2025-07-04",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020250704375517625172.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.708386+00:00"
+    },
+    {
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver 1.04）",
+      "publish_date": "2024-12-31",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020241231607644013477.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.708386+00:00"
+    },
+    {
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver 1.03）",
+      "publish_date": "2024-03-25",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020240325356283355696.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.708386+00:00"
+    },
+    {
+      "title": "关于发布《深圳证券交易所会员管理业务指引第1号——会员交易及相关系统管理》的通知",
+      "publish_date": "2021-04-02",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/t20210402_585385.html",
+      "category": "服务指引",
+      "file_format": "html",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.708386+00:00"
+    },
+    {
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1.02）",
+      "publish_date": "2020-04-03",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020200403635505892547.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.708386+00:00"
+    },
+    {
+      "title": "深圳证券交易所网关部署及接入指引",
+      "publish_date": "2019-11-21",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020191121321109599530.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.708386+00:00"
+    },
+    {
+      "title": "深圳证券交易所交易系统文件网关配置指南",
+      "publish_date": "2019-11-21",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020191121320752999628.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.709376+00:00"
+    },
+    {
+      "title": "深圳证券交易所成交汇总服务接入指引",
+      "publish_date": "2019-08-22",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020190822523987531097.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.709376+00:00"
+    },
+    {
+      "title": "深圳证券交易所交易异地灾备系统用户接入指引 Version（20181204）",
+      "publish_date": "2018-12-10",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020181210340141611667.pdf",
+      "category": "服务指引",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.709376+00:00"
+    },
+    {
+      "title": "深圳证券交易所交易系统网关业务办理指南",
+      "publish_date": "2016-08-31",
+      "url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020180328467277477917.docx",
+      "category": "服务指引",
+      "file_format": "docx",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:13.709376+00:00"
+    }
+  ],
+  "数据接口": [
+    {
+      "title": "深圳证券交易所数据文件交换接口规范(Ver1.42)",
+      "publish_date": "2025-09-06",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250905554214018315.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1.32）",
+      "publish_date": "2025-03-28",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250328367803673293.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1.32）",
+      "publish_date": "2025-03-28",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250328368240326574.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1.17）",
+      "publish_date": "2025-03-28",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250328368568358456.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1.17）",
+      "publish_date": "2025-03-28",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250328368855912431.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所委托申报拒绝原因代码表（Ver1.02）",
+      "publish_date": "2024-08-09",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020240809670217642854.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所基金公司数据接口规范(Ver1.30)",
+      "publish_date": "2025-09-06",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250905554429056033.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所上市公司股东大会数据接口（Ver1.3）",
+      "publish_date": "2022-11-25",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020221125567644870580.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所基金通业务数据接口规范（Ver1.00）",
+      "publish_date": "2022-01-28",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020220128581267719474.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    },
+    {
+      "title": "深圳证券交易所组播行情数据分发协议（Ver1.01）",
+      "publish_date": "2025-02-19",
+      "url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250219508489616817.pdf",
+      "category": "数据接口",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.230113+00:00"
+    }
+  ],
+  "技术指南": [
+    {
+      "title": "深圳证券交易所成交汇总文件接口市场参与者技术系统变更指南（Ver1.08）",
+      "publish_date": "2024-08-09",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020240809683133991456.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.741440+00:00"
+    },
+    {
+      "title": "深圳证券交易所跨市场股票ETF全实物申赎之券商技术系统变更指南（Ver1.00）",
+      "publish_date": "2024-08-09",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020240809668165833201.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.741440+00:00"
+    },
+    {
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1.07）",
+      "publish_date": "2023-09-04",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020230904549038313109.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "债券质押式协议回购业务之券商技术系统变更指南（Ver1.24）",
+      "publish_date": "2023-03-07",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020230307349558092191.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "深圳证券交易所全面实行股票发行注册制改革之券商技术系统变更指南（Ver1.00）",
+      "publish_date": "2023-02-01",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020230201645713699128.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "跨银行间实物债券ETF之券商技术系统变更指南（Ver1.00）",
+      "publish_date": "2022-09-16",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220916572655512529.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1.06）",
+      "publish_date": "2022-09-09",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220909707406660830.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "深圳证券交易所网络投票业务之券商技术系统开发指南（Ver1.00）",
+      "publish_date": "2022-09-02",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220902590719443557.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1.05）",
+      "publish_date": "2022-05-23",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220523532736607334.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    },
+    {
+      "title": "深圳证券交易所协议交易询价申报之券商技术系统变更指南（Ver1.01）",
+      "publish_date": "2022-01-27",
+      "url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220127355665646072.pdf",
+      "category": "技术指南",
+      "file_format": "pdf",
+      "file_size": null,
+      "local_path": null,
+      "crawl_time": "2026-05-11T12:35:14.742442+00:00"
+    }
+  ]
+}
