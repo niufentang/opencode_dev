@@ -4,7 +4,7 @@
   "provider": {
     "ls_gateway": {
       "npm": "@ai-sdk/openai-compatible",
-      "name": "1.LS-Gatewany",
+      "name": "1.LS-Gateway",
       "options": {
         "baseURL": "http://192.168.7.27:19997/api/v1",
         "apiKey": "{env:LS_GATEWAY_API_KEY}"
@@ -44,11 +44,11 @@
       }
     }
   },
-  "mcpServers": {
+  "mcp": {
     "knowledge-base": {
-      "command": "python",
-      "args": ["mcp_knowledge_server.py"],
-      "env": {
+      "type": "local",
+      "command": ["python", "mcp_knowledge_server.py"],
+      "environment": {
         "LOG_LEVEL": "INFO"
       }
     }
