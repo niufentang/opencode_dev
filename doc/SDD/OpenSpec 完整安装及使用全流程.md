@@ -80,6 +80,42 @@ openspec/
 └─ archive/          # 已完成需求归档目录
 ```
 
+### 5\. 实际生成内容详解（`.opencode/` 目录）
+
+执行 `openspec init` 后，还会在 `.opencode/` 下自动生成以下内容：
+
+**4 个 commands（斜杠命令）**：
+
+| 文件 | 命令 | 用途 |
+|------|------|------|
+| `commands/opsx-propose.md` | `/opsx:propose "idea"` | 发起新需求变更，生成 proposal.md |
+| `commands/opsx-apply.md` | `/opsx:apply` | 按 tasks.md 任务清单编码落地 |
+| `commands/opsx-archive.md` | `/opsx:archive` | 归档已完成变更至 archive |
+| `commands/opsx-explore.md` | `/opsx:explore` | 探索已有变更文档 |
+
+**4 个 skills（技能包）**：
+
+| 目录 | 用途 |
+|------|------|
+| `skills/openspec-propose/` | 需求提案 Skill，引导用户填写 proposal.md |
+| `skills/openspec-apply-change/` | 编码落地 Skill，严格遵循 specs 契约 |
+| `skills/openspec-archive-change/` | 归档闭环 Skill，校验完整性后归档 |
+| `skills/openspec-explore/` | 探索变更 Skill，查看变更状态和内容 |
+
+**依赖安装**：
+
+- `package.json` — 添加 `@opencode-ai/plugin` 依赖
+- `node_modules/` — 安装对应插件包
+- `.gitignore` — 自动生成，忽略 node_modules 等
+
+> 执行结果示例输出：
+> ```
+> OpenSpec Setup Complete
+> Created: OpenCode
+> 4 skills and 4 commands in .opencode/
+> Config: skipped (non-interactive mode)
+> ```
+
 ## 四、OPSX 完整使用全流程（严格按顺序执行，适配 OpenCode）
 
 > 所有命令直接在 OpenCode 对话框发送即可，无需额外配置
@@ -91,13 +127,14 @@ openspec/
 **命令**
 
 ```Plain Text
-/opsx:new add-user-login
+/opsx:new add-mcp-knowledge-server
 ```
 
 **作用**
-自动创建 `openspec/changes/add\-user\-login` 目录，生成 4 个空文档。
+自动创建 `openspec/changes/add\-mcp\-knowledge\-server` 目录，生成 4 个空文档。
 **操作**
 手动编辑 `proposal\.md`，填写：业务背景、变更目的、需求范围、验收标准、不做边界。
+本次实际案例为：构建一个 MCP Knowledge Server，通过标准 MCP 协议将本地知识库暴露给 AI 工具。
 
 ### 步骤 2：一键生成全套设计文档 `/opsx:ff`
 
@@ -151,7 +188,60 @@ OpenCode 读取 `tasks\.md` 任务清单，严格遵守 `specs` 契约，自动�
 **作用**
 将已完成的需求变更归档至 `openspec/changes/archive`，实现**需求 \- 设计 \- 契约 \- 实现**全链路可追溯。
 
-## 五、核心命令速查表
+## 六、openspec/specs/ 共享规格目录
+
+### 目录定位
+
+`openspec/specs/` 是**项目级共享规格目录**，用于存放跨多个变更复用的接口契约。与 `openspec/changes/<name>/specs/`（变更私有规格）不同，共享规格由所有变更共同引用。
+
+### 什么时候使用
+
+当多个 change 涉及相同的接口或契约时，将公共部分提取到 `openspec/specs/`，变更内的规格改为引用共享规格。例如：
+
+```
+openspec/
+├── specs/                              ← 共享规格（项目级）
+│   └── knowledge-search/
+│       └── spec.md                     ← search_articles 接口约定，被多个 change 共用
+├── changes/
+│   ├── add-mcp-knowledge-server/
+│   │   └── specs/
+│   │       └── knowledge-search/
+│   │           └── spec.md             ← 指向共享规格的引用（或冗余副本）
+│   └── upgrade-search-to-meilisearch/
+│       └── specs/
+│           └── knowledge-search/
+│               └── spec.md             ← 同样引用同一份共享规格
+└── archive/
+    └── 2026-05-30-add-mcp-knowledge-server/
+        └── specs/ …                    ← 归档时保留变更当时使用的 spec 快照
+```
+
+### 好处
+
+| 好处 | 说明 |
+|------|------|
+| **去重** | 接口约定只维护一份，避免多份副本不一致 |
+| **一致性** | 所有 change 对同一工具/接口的描述保持一致 |
+| **变更追踪** | 修改共享 spec 后，所有引用它的 change 都能追溯影响范围 |
+| **解耦** | change 的私有规格仍然可以保留在 change 目录中，只提升复用部分 |
+
+### 何时不需要
+
+- 项目尚在早期，只有 1–2 个 change 时——过早提取共享规格反而增加理解成本
+- 某个 spec 明确只属于一个 change（如一次性迁移任务的临时接口）
+
+建议当**第三个 change 复用同一份契约**时，再执行提取。
+
+### 文件串联关系图
+
+以本次 `add-mcp-knowledge-server` change 的 `knowledge-search` 能力为例，展示 Capability 如何从 proposal 贯穿到最终代码：
+
+![文件串联关系图](../../diagram/openspec-knowledge-search-chain-light.svg)
+
+四个文件各回答一个问题，通过 Capability 名称（`knowledge-search`）与 Spec 目录（`specs/knowledge-search/`）直接对应，最终映射到 MCP Tool 名称（`search_articles`）。
+
+## 六、核心命令速查表
 
 | 命令 | 类型 | 全称 | 核心作用 |
 |------|------|------|---------|
@@ -164,7 +254,7 @@ OpenCode 读取 `tasks\.md` 任务清单，严格遵守 `specs` 契约，自动�
 | `/opsx:apply` | OPSX | apply | OpenCode 按任务规范落地编码 |
 | `/opsx:archive` | OPSX | archive | 归档完成需求，沉淀全链路文档 |
 
-## 六、常用组合
+## 七、常用组合
 
 ### 前置检查（CLI 命令）
 
@@ -184,7 +274,7 @@ OpenCode 读取 `tasks\.md` 任务清单，严格遵守 `specs` 契约，自动�
 
 > 无论哪种组合，`archive` 是最后一步，不可省略——没有归档就没有可追溯性
 
-## 七、OpenCode 兼容说明
+## 八、OpenCode 兼容说明
 
 1. **原生无缝兼容**：OpenSpec 与 OpenCode 为官方配套体系，所有命令 100% 支持；
 
@@ -192,7 +282,7 @@ OpenCode 读取 `tasks\.md` 任务清单，严格遵守 `specs` 契约，自动�
 
 3. **全流程自动化**：无需切换工具，一套对话完成「需求→设计→编码→归档」。
 
-## 七、标准文档模板（直接复制使用）
+## 九、标准文档模板（直接复制使用）
 
 ### 1\. \[proposal\.md\]\(proposal\.md\) 模板
 

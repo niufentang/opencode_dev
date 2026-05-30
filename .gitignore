@@ -1,7 +1,23 @@
-# Ignore dot directories and files
+# Ignore dot directories and files (except .opencode/)
 .*
+!.opencode/
+!.opencode/**
 
 # Don't ignore .git directory and .gitignore
 !.gitignore
 !.gitattributes
 !.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Dependencies
+node_modules/
+
+# Logs
+log/
+
+# Runtime state
+.pipeline_state.json

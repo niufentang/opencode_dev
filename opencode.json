@@ -43,5 +43,14 @@
         }
       }
     }
+  },
+  "mcpServers": {
+    "knowledge-base": {
+      "command": "python",
+      "args": ["mcp_knowledge_server.py"],
+      "env": {
+        "LOG_LEVEL": "INFO"
+      }
+    }
   }
 }
