@@ -1,0 +1,25 @@
+{
+  "doc_id": "szse-test-20230422-180",
+  "title": "2023年4月22日深市港股通交易日历优化业务通关测试暨股票期权做市商服务费用支付方式优化业务全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020230418499932824618.docx",
+  "analysis_date": "2026-05-02T02:03:06.900578+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "做市商",
+    "期权",
+    "港股通",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

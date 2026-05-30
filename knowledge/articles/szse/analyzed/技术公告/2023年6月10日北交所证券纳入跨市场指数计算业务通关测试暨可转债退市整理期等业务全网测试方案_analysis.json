@@ -1,0 +1,25 @@
+{
+  "doc_id": "szse-test-20230610-185",
+  "title": "2023年6月10日北交所证券纳入跨市场指数计算业务通关测试暨可转债退市整理期等业务全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020230606325946566519.docx",
+  "analysis_date": "2026-05-02T02:03:06.931218+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "做市商",
+    "期权",
+    "港股通",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

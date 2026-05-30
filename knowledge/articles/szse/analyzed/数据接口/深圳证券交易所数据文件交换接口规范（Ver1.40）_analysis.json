@@ -1,0 +1,27 @@
+{
+  "doc_id": "szse-iface-00000000-228",
+  "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250328367238567039.pdf",
+  "analysis_date": "2026-05-02T02:03:07.132445+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "interface_spec",
+    "BINARY",
+    "债券",
+    "做市商",
+    "期权",
+    "注册制",
+    "港股通",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：1。",
+  "confidence": 0.75
+}

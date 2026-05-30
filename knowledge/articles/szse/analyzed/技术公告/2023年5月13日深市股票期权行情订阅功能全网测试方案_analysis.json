@@ -1,0 +1,25 @@
+{
+  "doc_id": "szse-test-20230513-181",
+  "title": "2023年5月13日深市股票期权行情订阅功能全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020230510370360758502.docx",
+  "analysis_date": "2026-05-02T02:03:06.908385+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "做市商",
+    "期权",
+    "港股通",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

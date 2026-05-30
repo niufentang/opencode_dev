@@ -4,6 +4,7 @@ Provides search, retrieval, statistics, and resource browsing over stdio
 using JSON-RPC 2.0 (MCP spec). Loads all entries into memory at startup.
 """
 
+import gzip
 import json
 import logging
 import os
@@ -59,6 +60,7 @@ FIELD_WEIGHTS = {"title": 5, "summary": 3, "tags": 2, "content": 1}
 
 MCP_VERSION = "0.1.0"
 SERVER_NAME = "mcp-knowledge-server"
+CACHE_VERSION = 1
 
 
 class ArticleStore:
@@ -69,8 +71,98 @@ class ArticleStore:
         self._inverted_index: dict[str, dict[str, dict[str, int]]] = {}
         self._synonym_map: dict[str, list[str]] = {}
         self._loaded = False
+        self._knowledge_dir: str = ""
+
+    @staticmethod
+    def _cache_path(knowledge_dir: str) -> str:
+        parent = os.path.dirname(knowledge_dir.rstrip("\\/"))
+        cache_dir = os.path.join(parent, ".cache")
+        os.makedirs(cache_dir, exist_ok=True)
+        return os.path.join(cache_dir, ".index_cache.json.gz")
+
+    @staticmethod
+    def _build_manifest(knowledge_dir: str) -> dict[str, float]:
+        manifest: dict[str, float] = {}
+        for s in SOURCES:
+            ed = os.path.join(knowledge_dir, s, "entries")
+            if not os.path.isdir(ed):
+                continue
+            for fpath in sorted(glob_module.glob(os.path.join(ed, "*.json"))):
+                if os.path.basename(fpath) == "entries.json":
+                    continue
+                manifest[fpath] = os.path.getmtime(fpath)
+        return manifest
+
+    def _save_cache(self) -> None:
+        try:
+            data = {
+                "cache_version": CACHE_VERSION,
+                "entries": self._entries,
+                "inverted_index": self._inverted_index,
+                "manifest": self._build_manifest(self._knowledge_dir),
+            }
+            cp = self._cache_path(self._knowledge_dir)
+            tmp = cp + ".tmp"
+            with gzip.open(tmp, "wt", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, default=str)
+            os.replace(tmp, cp)
+            logger.info("Saved index cache (%d entries) to %s", len(self._entries), cp)
+        except Exception as exc:
+            logger.warning("Failed to save index cache: %s", exc)
+            for p in (cp + ".tmp", cp):
+                try:
+                    os.remove(p)
+                except OSError:
+                    pass
+
+    def _load_cache(self, knowledge_dir: str) -> bool:
+        cp = self._cache_path(knowledge_dir)
+        if not os.path.isfile(cp):
+            return False
+
+        # Single traversal: build current manifest
+        current_manifest = self._build_manifest(knowledge_dir)
+
+        try:
+            with gzip.open(cp, "rt", encoding="utf-8") as f:
+                data = json.load(f)
+        except Exception:
+            try:
+                os.remove(cp)
+            except OSError:
+                pass
+            return False
+
+        if data.get("cache_version") != CACHE_VERSION:
+            logger.info(
+                "Cache version mismatch (%s != %s), rebuilding",
+                data.get("cache_version"), CACHE_VERSION,
+            )
+            return False
+
+        cached_manifest = data.get("manifest", {})
+        cache_mtime = os.path.getmtime(cp)
+
+        # Fresh if: manifest unchanged AND no file newer than cache
+        if (set(cached_manifest.items()) == set(current_manifest.items())
+                and all(mt <= cache_mtime for mt in current_manifest.values())):
+            self._entries = data["entries"]
+            self._inverted_index = data["inverted_index"]
+            self._knowledge_dir = knowledge_dir
+            self._auto_discover_synonyms()
+            self._loaded = True
+            logger.info("Loaded %d entries from cache %s", len(self._entries), cp)
+            return True
+
+        logger.info("Cache stale or manifest changed, rebuilding")
+        return False
 
     def load(self, knowledge_dir: str) -> None:
+        self._knowledge_dir = knowledge_dir
+
+        if self._load_cache(knowledge_dir):
+            return
+
         self._entries = {}
         self._inverted_index = {}
         self._synonym_map = {}
@@ -129,6 +221,7 @@ class ArticleStore:
         if parse_errors:
             logger.warning("%d file(s) failed to parse", len(parse_errors))
         self._loaded = True
+        self._save_cache()
 
     def _tokenize_entry(self, entry: dict) -> dict[str, Counter]:
         result: dict[str, Counter] = {}
@@ -252,6 +345,7 @@ class ArticleStore:
 
     def get_stats(self) -> str:
         total = len(self._entries)
+        index_size = len(self._inverted_index)
         if total == 0:
             return "知识库统计:\n  总条目数: 0\n  来源分布: 无\n  类型分布: 无\n  状态分布: 无\n  热门标签: 无\n  最近发布: 无\n  最近采集: 无"
 
@@ -282,6 +376,7 @@ class ArticleStore:
         lines = [
             "知识库统计:",
             f"  总条目数: {total}",
+            f"  倒排索引词条数: {index_size}",
             "  来源分布:",
         ]
         for s, c in sorted(by_source.items()):
@@ -340,6 +435,13 @@ class ArticleStore:
             return None
         return json.dumps(entry, ensure_ascii=False, indent=2)
 
+    def wait_ready(self, timeout: float = 60.0) -> bool:
+        import time
+        deadline = time.monotonic() + timeout
+        while not self._loaded and time.monotonic() < deadline:
+            time.sleep(0.1)
+        return self._loaded
+
     @property
     def loaded(self) -> bool:
         return self._loaded
@@ -357,19 +459,23 @@ class MCPServer:
         self._request_id_counter += 1
         return f"mcp-{self._request_id_counter}"
 
-    def _make_error(self, code: int, message: str, msg_id: Any = None) -> str:
+    def _make_error(self, code: int, message: str, msg_id: Any = None) -> bytes:
         resp = {
             "jsonrpc": "2.0",
             "id": msg_id,
             "error": {"code": code, "message": message},
         }
-        return json.dumps(resp, ensure_ascii=False)
+        return (json.dumps(resp, ensure_ascii=False) + "\n").encode("utf-8")
 
-    def _make_result(self, result: Any, msg_id: Any = None) -> str:
+    def _make_result(self, result: Any, msg_id: Any = None) -> bytes:
         resp = {"jsonrpc": "2.0", "id": msg_id, "result": result}
-        return json.dumps(resp, ensure_ascii=False)
+        return (json.dumps(resp, ensure_ascii=False) + "\n").encode("utf-8")
 
-    def _handle_message(self, raw: str) -> str | None:
+    def _write_response(self, data: bytes) -> None:
+        sys.stdout.buffer.write(data)
+        sys.stdout.buffer.flush()
+
+    def _handle_message(self, raw: str) -> bytes | None:
         try:
             msg = json.loads(raw)
         except json.JSONDecodeError:
@@ -493,12 +599,34 @@ class MCPServer:
         name = params.get("name", "")
         arguments = params.get("arguments", {})
 
+        if not self._store.wait_ready():
+            return self._make_error(
+                -32000,
+                "知识库加载失败或超时，请检查服务端日志了解详情",
+                msg_id,
+            )
+
         if name == "search_articles":
             keyword = arguments.get("keyword", "")
             limit = int(arguments.get("limit", 5))
             limit = max(1, min(limit, 50))
             source = arguments.get("source")
             result = self._store.search(keyword, limit=limit, source=source)
+            if result == "未找到匹配文章":
+                if logger.isEnabledFor(logging.DEBUG):
+                    import jieba
+                    tokens = jieba.lcut(keyword)
+                    index_hits = {t: len(self._store._inverted_index.get(t, {})) for t in tokens}
+                    debug_info = (
+                        f"[debug] keyword={keyword!r} tokens={tokens} "
+                        f"index_hits={index_hits} "
+                        f"index_size={len(self._store._inverted_index)} "
+                        f"entries={len(self._store._entries)}"
+                    )
+                    logger.debug(debug_info)
+                    result = debug_info + "\n" + result
+                else:
+                    logger.debug("No results for keyword=%r", keyword)
             return self._make_result(
                 {"content": [{"type": "text", "text": result}]}, msg_id
             )
@@ -594,27 +722,31 @@ class MCPServer:
             logger.info("Received signal %d, shutting down", signum)
             self._running = False
 
-        signal.signal(signal.SIGTERM, handle_sigterm)
-        if hasattr(signal, "SIGINT"):
-            signal.signal(signal.SIGINT, handle_sigterm)
+        signals = [signal.SIGTERM, signal.SIGINT]
+        if hasattr(signal, "SIGBREAK"):
+            signals.append(signal.SIGBREAK)
+        for sig in signals:
+            try:
+                signal.signal(sig, handle_sigterm)
+            except (ValueError, OSError):
+                logger.debug("Signal %s not supported on this platform", sig)
 
-        for line in sys.stdin:
+        for raw_line in sys.stdin.buffer:
             if not self._running:
                 break
-            if not line.strip():
+            line = raw_line.decode("utf-8").strip()
+            if not line:
                 continue
             request_id = self._next_request_id()
-            logger.debug("Request %s: %s", request_id, line.rstrip())
+            logger.debug("Request %s: %s", request_id, line)
             try:
                 response = self._handle_message(line)
                 if response is not None:
-                    sys.stdout.write(response + "\n")
-                    sys.stdout.flush()
+                    self._write_response(response)
             except Exception:
                 logger.exception("Unhandled error processing message")
                 error_resp = self._make_error(-32603, "Internal error")
-                sys.stdout.write(error_resp + "\n")
-                sys.stdout.flush()
+                self._write_response(error_resp)
 
         logger.info("MCP Knowledge Server stopped")
 
@@ -626,16 +758,20 @@ def main() -> None:
         stream=sys.stderr,
     )
 
-    try:
-        sys.stdout.reconfigure(encoding="utf-8")
-    except AttributeError:
-        pass
-
     store = ArticleStore()
-    store.load(KNOWLEDGE_DIR)
 
-    server = MCPServer(store)
-    server.run()
+    import threading
+    load_thread = threading.Thread(
+        target=store.load, args=(KNOWLEDGE_DIR,), daemon=True,
+    )
+    load_thread.start()
+
+    try:
+        server = MCPServer(store)
+        server.run()
+    except Exception:
+        logger.exception("Fatal startup error")
+        sys.exit(1)
 
 
 if __name__ == "__main__":

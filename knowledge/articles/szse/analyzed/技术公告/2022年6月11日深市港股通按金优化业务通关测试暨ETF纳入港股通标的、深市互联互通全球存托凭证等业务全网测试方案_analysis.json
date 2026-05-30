@@ -1,0 +1,35 @@
+{
+  "doc_id": "szse-test-20220611-173",
+  "title": "2022年6月11日深市港股通按金优化业务通关测试暨ETF纳入港股通标的、深市互联互通全球存托凭证等业务全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020220607325212724906.docx",
+  "analysis_date": "2026-05-02T02:03:06.857567+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "新增",
+      "summary": "新增测试专用证券账户 新增测试专用证券账户0199900000—0199900001（个人）、0809900000—0809900001（法人）。",
+      "detail": "新增测试专用证券账户\n新增测试专用证券账户0199900000—0199900001（个人）、0809900000—0809900001（法人）。",
+      "severity": "major",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "债券",
+    "做市商",
+    "期权",
+    "港股通",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

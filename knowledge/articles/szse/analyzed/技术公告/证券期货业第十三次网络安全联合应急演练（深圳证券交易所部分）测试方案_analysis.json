@@ -1,0 +1,24 @@
+{
+  "doc_id": "szse-test-20230729-220",
+  "title": "证券期货业第十三次网络安全联合应急演练（深圳证券交易所部分）测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020230724321432872768.docx",
+  "analysis_date": "2026-05-02T02:03:07.075833+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "做市商",
+    "港股通",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

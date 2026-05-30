@@ -49,7 +49,8 @@
       "type": "local",
       "command": ["python", "mcp_knowledge_server.py"],
       "environment": {
-        "LOG_LEVEL": "INFO"
+        "LOG_LEVEL": "INFO",
+        "PYTHONIOENCODING": "utf-8"
       }
     }
   }
