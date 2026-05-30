@@ -28,3 +28,8 @@ tech_analyze/
 
 # Convenience startup script (local only)
 start-opencode.bat
+
+# Large binary files in raw crawled data (exclude PDF/RAR/ZIP to avoid repo bloat)
+knowledge/raw/**/*.pdf
+knowledge/raw/**/*.rar
+knowledge/raw/**/*.zip
