@@ -1,0 +1,51 @@
+{
+  "doc_id": "sse-iface-20180309-020",
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+  "analysis_date": "2026-05-02T02:03:05.614479+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026-03-20 0.60 版，配合",
+      "detail": "2026-03-20\n0.60\n版，配合",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "定义文件下线，删除相关描述。",
+      "detail": "定义文件下线，删除相关描述。",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Publish",
+      "detail": "Publish",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "行情网关",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 废止: 1项。 规则条款变更: 2项。 其中重大变更1项。",
+  "confidence": 0.95
+}

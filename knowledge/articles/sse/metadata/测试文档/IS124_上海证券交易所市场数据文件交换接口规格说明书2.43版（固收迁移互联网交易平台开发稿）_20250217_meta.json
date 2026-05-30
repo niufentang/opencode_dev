@@ -1,0 +1,18 @@
+{
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20250314_IS124_上海证券交易所市场数据文件交换接口规格说明书2.43版（固收迁移互联网交易平台开发稿）_20250217.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\IS124_上海证券交易所市场数据文件交换接口规格说明书2.43版（固收迁移互联网交易平台开发稿）_20250217.md",
+  "file_hash": "sha256:a52f3f634bef42fbc4db5fdc2a4539cb5d74d10de9276b829ea4576e71393f03",
+  "file_format": "pdf",
+  "page_count": 97,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:47:57.936327+00:00",
+  "sub_category": null
+}

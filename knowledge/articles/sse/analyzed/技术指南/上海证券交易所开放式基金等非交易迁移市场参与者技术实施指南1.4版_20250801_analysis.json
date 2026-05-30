@@ -1,0 +1,27 @@
+{
+  "doc_id": "sse-guide-20250801-002",
+  "title": "上海证券交易所市场数据文件交换",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10787347/files/69e55d852443442ab6a89dc354f42f44.pdf",
+  "analysis_date": "2026-05-02T02:03:05.541502+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "IS101",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "融资融券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

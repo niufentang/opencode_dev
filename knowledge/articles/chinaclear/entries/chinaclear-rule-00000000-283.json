@@ -1,0 +1,24 @@
+{
+  "id": "chinaclear-rule-00000000-283",
+  "type": "business_rule",
+  "title": "B股交易席位批量转托管办法   ",
+  "source": "chinaclear",
+  "source_url": null,
+  "summary": "初始版本，无历史变更。文档类型：business_rule，版本：无。",
+  "tags": [
+    "chinaclear",
+    "business_rule"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:900d44d0b0676b6842cf2562445ddd3972fbfa024847b1a4142097484e0d8434",
+  "content_markdown": "B股交易席位批量转托管办法\n本办法适用于会员进行B股交易席位股份分拆而将其某个席位(以下\n称\"席位A\")下的部分投资者（以下简称\"投资群I\"）转移到另一席位\n(以下称\"席位B\")进行B股交易的业务。\n会员须提前一周向国际结算部提交B股席位股份分拆的申请，获\n国际结算部同意后方可进行。\n假设会员选择从交易日S开始，投资者I在席位B下进行交易，则\n席位批量转托管的操作步骤如下:\n1．S-1 日（交易日S之前一交易日）\n收市后，提前计算当日交易收市后投资群I的B股持股数据（等同\n于深交所T+3 日交收后的持股数据）， 将这部分股份数据从席位A转\n移到席位B，席位A的股份库中不再保留转出到席位B的投资群I的股份\n数据，但需独立保留这部分股份数据，供S+2 日报盘转托管使用。\n2．S日\n从S日开始，席位B开始交易，投资群I在席位B下进行交易。\n3．S+2 日（从S日开始计算的第三个交易日，S，S+1，S+2）\n在交易时间内，会员根据S-1 日保留的投资群I的持股数据在席\n位A进行报盘转托管（席位A的股份库中已无投资群I的股份数据，需\n通过特别处理将S-1 日保留的备份数据进行报盘转托管）。\n\n收市后，席位A和席位B将分别收到本所的转出及转入数据回报，\n经核对正确后，席位A和席位B将这部分特殊转托管数据从B股结算包\n的转托管数据中剔除，不作股份增减处理（此部分转托管数据，席位\nA和席位B已提前在S-1 日处理）；\n所有处理结束后，认真对账，发现问题，及时向本所国际结算部报告，\n否则引起的股份卖空责任自负。\n4．会员选择S日时，要保证在S-1 日至S+2 日期间没有B股分红派\n息。\n5．如果投资群I中有个别投资者要求在S日 至 S+2 日将其股份\n转托管到席位B以外的席位（注意：S日 至S+2 日之间买入的股份不\n能转托管），会员须在席位A下进行，根据S-1 日保留的投资群I的持\n股数据在席位A进行报盘转托管。\n6．如果投资群I中有在S日 至 S+2 日进行了更改证券帐号的操\n作，会员仍须在席位B下更改相应的证券帐户,同时对S-1 日保留的数\n据进行相应的调整。\n\n<metadata>\n{\n  \"title\": \"B股交易席位批量转托管办法   \",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\涉外与跨境业务\\\\20061118_中国结算深圳分公司深市B股交易席位批量转托管办法.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\涉外与跨境业务\\\\中国结算深圳分公司深市B股交易席位批量转托管办法.md\",\n  \"file_hash\": \"sha256:900d44d0b0676b6842cf2562445ddd3972fbfa024847b1a4142097484e0d8434\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"business_rule\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-19T11:26:21.687548+00:00\",\n  \"sub_category\": \"涉外与跨境业务\"\n}\n</metadata>"
+}

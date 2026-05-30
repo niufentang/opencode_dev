@@ -1,0 +1,3229 @@
+{
+  "doc_id": "sse-iface-20260113-006",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2.10版_20260113（新固收技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T05:42:17.461915+00:00",
+  "metadata": {
+    "file_hash": "sha256:695a395f71d0c78ffff197d44f8199bd20353dfd13bc2260be8878c95885dcf8",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "2.10",
+    "previous_version": null,
+    "public_date": "2026-01-13",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "2.10",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "（新固收",
+      "detail": "（新固收",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.2",
+      "detail": "3.2.2.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "询价报价处理消息流图和",
+      "detail": "询价报价处理消息流图和",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.3",
+      "detail": "3.2.2.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价处理消息流图中",
+      "detail": "报价处理消息流图中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "调整笔误，将报价回复响应中的",
+      "detail": "调整笔误，将报价回复响应中的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ClOrdID",
+      "detail": "ClOrdID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteMsgID",
+      "detail": "QuoteMsgID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2.2",
+      "detail": "4.4.2.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "询价请求响应、",
+      "detail": "询价请求响应、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2.3",
+      "detail": "4.4.2.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发询价请求、",
+      "detail": "转发询价请求、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2.5",
+      "detail": "4.4.2.5",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价状态",
+      "detail": "报价状态",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2.6",
+      "detail": "4.4.2.6",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发报价、",
+      "detail": "转发报价、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2.8",
+      "detail": "4.4.2.8",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发报价回复、",
+      "detail": "转发报价回复、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.3.2",
+      "detail": "4.4.3.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发意向",
+      "detail": "转发意向",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.4.2",
+      "detail": "4.4.4.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发成交申报中重复组中增加登录或订阅交易单元",
+      "detail": "转发成交申报中重复组中增加登录或订阅交易单元",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.3",
+      "detail": "4.4.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "意向申报类、",
+      "detail": "意向申报类、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.4",
+      "detail": "4.4.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交申报类中对于",
+      "detail": "成交申报类中对于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ContractMultiplier",
+      "detail": "ContractMultiplier",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为保证上下游定义统一，调整为",
+      "detail": "为保证上下游定义统一，调整为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N5(2)",
+      "detail": "N5(2)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.4.3",
+      "detail": "4.4.4.3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交申报响应中对于订单拒绝码，调整为",
+      "detail": "成交申报响应中对于订单拒绝码，调整为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TrdAckStatus",
+      "detail": "TrdAckStatus",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025.11",
+      "detail": "2025.11",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.10",
+      "detail": "2.10",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.1.1",
+      "detail": "4.4.1.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新订单申报中对于固收各业务添加对",
+      "detail": "新订单申报中对于固收各业务添加对",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Text",
+      "detail": "Text",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段的选填",
+      "detail": "字段的选填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价状态回报、",
+      "detail": "报价状态回报、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交申报",
+      "detail": "成交申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.4.4",
+      "detail": "4.4.4.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交确认、",
+      "detail": "成交确认、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.5.1",
+      "detail": "4.4.5.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "执行报告中对于不同业务返回字",
+      "detail": "执行报告中对于不同业务返回字",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "段进行了明确区分",
+      "detail": "段进行了明确区分",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.2",
+      "detail": "4.4.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "询价报价业务类、",
+      "detail": "询价报价业务类、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交申报类中",
+      "detail": "成交申报类中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "调整了部分字段的前后顺序",
+      "detail": "调整了部分字段的前后顺序",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "针对本次固收迁移业务，取消营业部代码字段",
+      "detail": "针对本次固收迁移业务，取消营业部代码字段",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "和新固定收益系统",
+      "detail": "和新固定收益系统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "目前支持互联网交易平台相关业务：",
+      "detail": "目前支持互联网交易平台相关业务：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "互联网交易平台",
+      "detail": "互联网交易平台",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "新固定收益系统",
+      "detail": "新固定收益系统",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "适用于互联网交易平台。",
+      "detail": "适用于互联网交易平台。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，同时转发询价撤销",
+      "detail": "，同时转发询价撤销",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "消息告知其余报价方",
+      "detail": "消息告知其余报价方",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "向互联网交易平台",
+      "detail": "向互联网交易平台",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "5010",
+      "detail": "5010",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、营业部代码",
+      "detail": "、营业部代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "营业部代码必填。",
+      "detail": "营业部代码必填。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "营业部代码必填",
+      "detail": "营业部代码必填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "；营业部代码必填",
+      "detail": "；营业部代码必填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；营业部",
+      "detail": "；营业部",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "代码必填",
+      "detail": "代码必填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "；营业部代码",
+      "detail": "；营业部代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段选填",
+      "detail": "字段选填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、发起方营业部代码对开放式基金、要约",
+      "detail": "、发起方营业部代码对开放式基金、要约",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现金选择权、融资融券非交易业务、双非可转债转股冻结、",
+      "detail": "现金选择权、融资融券非交易业务、双非可转债转股冻结、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "私募可交换债换股、债券回售（一债通）、债券回售撤销、债券转托管、三方回购转入转出和竞买业务暂",
+      "detail": "私募可交换债换股、债券回售（一债通）、债券回售撤销、债券转托管、三方回购转入转出和竞买业务暂",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "不启用，其他业务必填。",
+      "detail": "不启用，其他业务必填。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "，未提及的非必填字段均无",
+      "detail": "，未提及的非必填字段均无",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回报订单申报",
+      "detail": "回报订单申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订阅交易单元、",
+      "detail": "登录或订阅交易单元、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PartyID",
+      "detail": "PartyID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方登录或订阅交易单元（除基金通外必填）",
+      "detail": "发起方登录或订阅交易单元（除基金通外必填）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，表示当前",
+      "detail": "，表示当前",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或订阅",
+      "detail": "的取值为登录或订阅",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PartyRole",
+      "detail": "PartyRole",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易单元。",
+      "detail": "交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于以下业务，发起方交易单元、发起方交易员一债通账户、",
+      "detail": "对于以下业务，发起方交易单元、发起方交易员一债通账户、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TransactTime",
+      "detail": "TransactTime",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecMethod",
+      "detail": "ExecMethod",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报或撤单成功时，",
+      "detail": "报或撤单成功时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrderID",
+      "detail": "OrderID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "有效；订单被拒绝时，",
+      "detail": "有效；订单被拒绝时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteRequestRejectReason",
+      "detail": "QuoteRequestRejectReason",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "有效。其他非必填字段要求如下，",
+      "detail": "有效。其他非必填字段要求如下，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "未提及的非必填字段均无效：",
+      "detail": "未提及的非必填字段均无效：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务类型",
+      "detail": "业务类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报填写说明",
+      "detail": "申报填写说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ApplID",
+      "detail": "ApplID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "待定报价",
+      "detail": "待定报价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoCounterpartyParticipant/CounterpartyParticipantCode",
+      "detail": "NoCounterpartyParticipant/CounterpartyParticipantCode",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "撤单成功时",
+      "detail": "撤单成功时",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrderQty",
+      "detail": "OrderQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LastQty",
+      "detail": "LastQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600200",
+      "detail": "600200",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示剩余数量，否则无效。",
+      "detail": "表示剩余数量，否则无效。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报信息",
+      "detail": "同申报信息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrigClOrdID",
+      "detail": "OrigClOrdID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一债通询价",
+      "detail": "一债通询价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示剩余",
+      "detail": "表示剩余",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600190",
+      "detail": "600190",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数量，否则无效。",
+      "detail": "数量，否则无效。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，撤单时表示剩余数量",
+      "detail": "，撤单时表示剩余数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "订阅交易单元、",
+      "detail": "订阅交易单元、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订阅交易单元（指转发消息的接收方，除基金",
+      "detail": "登录或订阅交易单元（指转发消息的接收方，除基金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订",
+      "detail": "登录或订",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "通外必填）。",
+      "detail": "通外必填）。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "阅交易单",
+      "detail": "阅交易单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或订阅交易单",
+      "detail": "的取值为登录或订阅交易单",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、一债通询价（",
+      "detail": "、一债通询价（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、待定报价（",
+      "detail": "）、待定报价（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "）时，发起方交易员一债通账户、对手方机构代码必",
+      "detail": "）时，发起方交易员一债通账户、对手方机构代码必",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填。如询价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账户、发起方投资者账户（如有）",
+      "detail": "填。如询价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账户、发起方投资者账户（如有）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "anonymous",
+      "detail": "anonymous",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。",
+      "detail": "、转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价类别",
+      "detail": "报价类别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteType",
+      "detail": "QuoteType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1=Tradeable",
+      "detail": "1=Tradeable",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，表示可交易的报价",
+      "detail": "，表示可交易的报价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当报价是对询价请求的响应时，填写转发询价请求的",
+      "detail": "当报价是对询价请求的响应时，填写转发询价请求的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteReqID",
+      "detail": "QuoteReqID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "或公开报价行情中的",
+      "detail": "或公开报价行情中的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteID",
+      "detail": "QuoteID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ValidUntilTime",
+      "detail": "ValidUntilTime",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价有效时间，预留字段，暂不启用",
+      "detail": "报价有效时间，预留字段，暂不启用",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ntime",
+      "detail": "ntime",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "一债通账户",
+      "detail": "一债通账户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "，未提及的非必填字段对该业务无效",
+      "detail": "，未提及的非必填字段对该业务无效",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方登录或订阅交易单元（除基金通外必填）。",
+      "detail": "发起方登录或订阅交易单元（除基金通外必填）。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或订阅交易",
+      "detail": "的取值为登录或订阅交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、对于以下业务，响应中的",
+      "detail": "、对于以下业务，响应中的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段，如申报为报价，填写交易所唯一化处理后的报价请求",
+      "detail": "字段，如申报为报价，填写交易所唯一化处理后的报价请求",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报为报价回复，且回复中填写了",
+      "detail": "申报为报价回复，且回复中填写了",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，则响应中与申报时填写字段相同。发起方交易单元、发起方",
+      "detail": "，则响应中与申报时填写字段相同。发起方交易单元、发起方",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易员一债通账户、",
+      "detail": "交易员一债通账户、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteStatus",
+      "detail": "QuoteStatus",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报或撤单成功时，",
+      "detail": "申报或撤单成功时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "有效；订",
+      "detail": "有效；订",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单被拒绝时，",
+      "detail": "单被拒绝时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "有效。其他非必填字段要求如下，未提及的非必填字段对该业务无",
+      "detail": "有效。其他非必填字段要求如下，未提及的非必填字段对该业务无",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价回报填写说明",
+      "detail": "报价回报填写说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价回复回报填写说明",
+      "detail": "报价回复回报填写说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报价撤单填写说明",
+      "detail": "报价撤单填写说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "确定报价",
+      "detail": "确定报价",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BidSize",
+      "detail": "BidSize",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OfferSize",
+      "detail": "OfferSize",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BidPx",
+      "detail": "BidPx",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OfferPx",
+      "detail": "OfferPx",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600180",
+      "detail": "600180",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "有效表示剩余",
+      "detail": "有效表示剩余",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报信息",
+      "detail": "申报信息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "或订阅交易单元、",
+      "detail": "或订阅交易单元、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订阅交易单元（指转发消息的接收方，除基",
+      "detail": "登录或订阅交易单元（指转发消息的接收方，除基",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "金通外必填）",
+      "detail": "金通外必填）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、确定报价（",
+      "detail": "、确定报价（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、一债通询价（",
+      "detail": "）、一债通询价（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）时，发起方交易员一债通账",
+      "detail": "）时，发起方交易员一债通账",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "户、对手方机构代码必填。如询价方或报价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账",
+      "detail": "户、对手方机构代码必填。如询价方或报价方选择‘匿名’且为‘净额结算’时，发起方交易员一债通账",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "户、发起方投资者账户（如有）填‘",
+      "detail": "户、发起方投资者账户（如有）填‘",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。",
+      "detail": "转发信息字段与被转发字段相同，对于业务无效字段，不进行转发。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方营业部代码",
+      "detail": "发起方营业部代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4001",
+      "detail": "4001",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方的营",
+      "detail": "的取值为发起方的营",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "业部代码。",
+      "detail": "业部代码。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订阅交易单元（指转发消息的接收方）。",
+      "detail": "登录或订阅交易单元（指转发消息的接收方）。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或订阅交易单元。",
+      "detail": "的取值为登录或订阅交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "对手方交易参与人机构代码，支持特殊符号‘",
+      "detail": "对手方交易参与人机构代码，支持特殊符号‘",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为对手方的交易参与人",
+      "detail": "的取值为对手方的交易参与人",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "意向申报事务类型",
+      "detail": "意向申报事务类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N=New",
+      "detail": "N=New",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，新申报",
+      "detail": "，新申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOITransType",
+      "detail": "IOITransType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "C=Cancel",
+      "detail": "C=Cancel",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，撤销申报",
+      "detail": "，撤销申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "订单所有者类型，取值包括：",
+      "detail": "订单所有者类型，取值包括：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "个人投资者",
+      "detail": "个人投资者",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OwnerType",
+      "detail": "OwnerType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "103=",
+      "detail": "103=",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "机构投资者",
+      "detail": "机构投资者",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "104=",
+      "detail": "104=",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "自营交易",
+      "detail": "自营交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回报时间",
+      "detail": "回报时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityID",
+      "detail": "SecurityID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码",
+      "detail": "证券代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、发起方营业部代码",
+      "detail": "、发起方营业部代码",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "发起方投资者帐户，协议回购意向申报时不适用",
+      "detail": "发起方投资者帐户，协议回购意向申报时不适用",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方投资者帐户。",
+      "detail": "的取值为发起方投资者帐户。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "非必填字段填写说明，",
+      "detail": "非必填字段填写说明，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "QuoteRejectReason",
+      "detail": "QuoteRejectReason",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "当订单申报拒绝时有效，未提及的非必填字段对该业务无效：",
+      "detail": "当订单申报拒绝时有效，未提及的非必填字段对该业务无效：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务类型（",
+      "detail": "业务类型（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购意向申报",
+      "detail": "协议回购意向申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOIRefID",
+      "detail": "IOIRefID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Price",
+      "detail": "Price",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600150",
+      "detail": "600150",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三方回购意向申报",
+      "detail": "三方回购意向申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方投资者账户、",
+      "detail": "发起方投资者账户、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600160",
+      "detail": "600160",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券现券意向申报",
+      "detail": "债券现券意向申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600170",
+      "detail": "600170",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、发起方投资者账户同申报信息",
+      "detail": "、发起方投资者账户同申报信息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "方投资者账户同申报信息",
+      "detail": "方投资者账户同申报信息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradeReportID",
+      "detail": "TradeReportID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "会员内部编号",
+      "detail": "会员内部编号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务发生时间",
+      "detail": "业务发生时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "8504",
+      "detail": "8504",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TotalValueTraded",
+      "detail": "TotalValueTraded",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "总成交金额",
+      "detail": "总成交金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "amount",
+      "detail": "amount",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "营业部代码、",
+      "detail": "营业部代码、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方的营业",
+      "detail": "的取值为发起方的营业",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "部代码。",
+      "detail": "部代码。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，为公募",
+      "detail": "，为公募",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "REITs",
+      "detail": "REITs",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "限售份额，",
+      "detail": "限售份额，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RestrictedMonth",
+      "detail": "RestrictedMonth",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "或三方回购到期续做（",
+      "detail": "或三方回购到期续做（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TrdType: 143",
+      "detail": "TrdType: 143",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TrdType",
+      "detail": "TrdType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务子类型",
+      "detail": "业务子类型",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "订单接收时间",
+      "detail": "订单接收时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "登录或订阅交易单元（指转发消息的接收",
+      "detail": "登录或订阅交易单元（指转发消息的接收",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或",
+      "detail": "的取值为登录或",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "订阅交易单元。",
+      "detail": "订阅交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "对于协议回购批量申报",
+      "detail": "对于协议回购批量申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "笔质押券校验通过后，将生成",
+      "detail": "笔质押券校验通过后，将生成",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "笔转发成交申报给对手方，每笔仅有一笔",
+      "detail": "笔转发成交申报给对手方，每笔仅有一笔",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "质押券。",
+      "detail": "质押券。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrigTradeID",
+      "detail": "OrigTradeID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "，撤单时必填，表示被撤消订单的交易所订单编号；对于",
+      "detail": "，撤单时必填，表示被撤消订单的交易所订单编号；对于",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecRefID",
+      "detail": "ExecRefID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradeReportType",
+      "detail": "TradeReportType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，对非首期合约表示原成交编号；为",
+      "detail": "时，对非首期合约表示原成交编号；为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时表示被拒绝订单的交易所订单编号；其他",
+      "detail": "时表示被拒绝订单的交易所订单编号；其他",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "场景无效。证券帐户名称（与投资者账户一一对应，如对应账户未查询到名称，则无此字段）有效。其他",
+      "detail": "场景无效。证券帐户名称（与投资者账户一一对应，如对应账户未查询到名称，则无此字段）有效。其他",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TrdRptStatus",
+      "detail": "TrdRptStatus",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "、对于协议回购协商成交批量申报，",
+      "detail": "、对于协议回购协商成交批量申报，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "笔质押券将收到",
+      "detail": "笔质押券将收到",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "笔响应，每笔响应仅有一只质押券，可能",
+      "detail": "笔响应，每笔响应仅有一只质押券，可能",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "出现部分成功的场景；撤单时，允许对批量申报的多笔质押券中仅对某一只或某几只进行撤单，每只质押",
+      "detail": "出现部分成功的场景；撤单时，允许对批量申报的多笔质押券中仅对某一只或某几只进行撤单，每只质押",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "券，将收到一个撤单响应，也可能出现部分成功的场景。",
+      "detail": "券，将收到一个撤单响应，也可能出现部分成功的场景。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、各业务响应字段说明如下，发起方业务交易单元、发起方投资者账户、",
+      "detail": "、各业务响应字段说明如下，发起方业务交易单元、发起方投资者账户、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段与原始申报相同，",
+      "detail": "字段与原始申报相同，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "其他未提及的非必填字段均无效",
+      "detail": "其他未提及的非必填字段均无效",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务发起",
+      "detail": "业务发起",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填写说明",
+      "detail": "填写说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购",
+      "detail": "协议回购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600130",
+      "detail": "600130",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "协商成交",
+      "detail": "协商成交",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoUnderlyings",
+      "detail": "NoUnderlyings",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ShareProperty",
+      "detail": "ShareProperty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "GrossTradeAmt",
+      "detail": "GrossTradeAmt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "到期确认",
+      "detail": "到期确认",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "到期续做",
+      "detail": "到期续做",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "提前终止",
+      "detail": "提前终止",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoUnderlying",
+      "detail": "NoUnderlying",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "换券申报",
+      "detail": "换券申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "EventType",
+      "detail": "EventType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "解除质押",
+      "detail": "解除质押",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BasketID",
+      "detail": "BasketID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报信",
+      "detail": "同申报信",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "到期购回",
+      "detail": "到期购回",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三方回购",
+      "detail": "三方回购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600140",
+      "detail": "600140",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TrdMatchID",
+      "detail": "TrdMatchID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "补券申报",
+      "detail": "补券申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现券协商成",
+      "detail": "现券协商成",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600210",
+      "detail": "600210",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现券协商",
+      "detail": "现券协商",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "合并申报",
+      "detail": "合并申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600220",
+      "detail": "600220",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityAltID",
+      "detail": "SecurityAltID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "DeliveryQty",
+      "detail": "DeliveryQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "到期结算",
+      "detail": "到期结算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "DeliveryForm",
+      "detail": "DeliveryForm",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SettlDeliveryType",
+      "detail": "SettlDeliveryType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券借贷",
+      "detail": "债券借贷",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600300",
+      "detail": "600300",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "质押券变",
+      "detail": "质押券变",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "逾期结算",
+      "detail": "逾期结算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）业务撤单、确认或拒绝",
+      "detail": "）业务撤单、确认或拒绝",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对手方确认",
+      "detail": "对手方确认",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Even",
+      "detail": "Even",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "tType",
+      "detail": "tType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报信息（指换入券）",
+      "detail": "同申报信息（指换入券）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradeReport",
+      "detail": "TradeReport",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RefID",
+      "detail": "RefID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "有效。对于协议回",
+      "detail": "有效。对于协议回",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "购、合并申报和现券协商成",
+      "detail": "购、合并申报和现券协商成",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ecurityID",
+      "detail": "ecurityID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报信息（指换入券）。",
+      "detail": "报信息（指换入券）。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现券协商成交",
+      "detail": "现券协商成交",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradeReportRefID",
+      "detail": "TradeReportRefID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "质押券变更申报",
+      "detail": "质押券变更申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）业务发起、撤单、确认或拒绝失败，",
+      "detail": "）业务发起、撤单、确认或拒绝失败，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradeReportRejectReason",
+      "detail": "TradeReportRejectReason",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "有效，撤单时",
+      "detail": "有效，撤单时",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "有效；换券时，仅返",
+      "detail": "有效；换券时，仅返",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购（",
+      "detail": "协议回购（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回换入券",
+      "detail": "回换入券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三方回购（",
+      "detail": "三方回购（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "合并申报（",
+      "detail": "合并申报（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现券协商成交（",
+      "detail": "现券协商成交（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券借贷（",
+      "detail": "债券借贷（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交时间",
+      "detail": "成交时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "8911",
+      "detail": "8911",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExpirationDays",
+      "detail": "ExpirationDays",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "期限（天）",
+      "detail": "期限（天）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "结算场所：",
+      "detail": "结算场所：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "中国结算，",
+      "detail": "中国结算，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "中央结算",
+      "detail": "中央结算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "双边托管券，可填",
+      "detail": "双边托管券，可填",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，单边托管券只能",
+      "detail": "，单边托管券只能",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityExchange",
+      "detail": "SecurityExchange",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填其实际托管方。预留字段，暂不启用。",
+      "detail": "填其实际托管方。预留字段，暂不启用。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "结算周期：",
+      "detail": "结算周期：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0 = T+0",
+      "detail": "0 = T+0",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1 = T+1",
+      "detail": "1 = T+1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "10216",
+      "detail": "10216",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SettlPeriod",
+      "detail": "SettlPeriod",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2 = T+2",
+      "detail": "2 = T+2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3 = T+3",
+      "detail": "3 = T+3",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预留字段，暂不启用",
+      "detail": "预留字段，暂不启用",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "结算方式：",
+      "detail": "结算方式：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "净额结算",
+      "detail": "净额结算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SettlType",
+      "detail": "SettlType",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2 = RTGS",
+      "detail": "2 = RTGS",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "8500",
+      "detail": "8500",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrderEntryTime",
+      "detail": "OrderEntryTime",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1125",
+      "detail": "1125",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrigTradeDate",
+      "detail": "OrigTradeDate",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "原成交日期",
+      "detail": "原成交日期",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "date",
+      "detail": "date",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "原成交编号",
+      "detail": "原成交编号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "用户私有信息",
+      "detail": "用户私有信息",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "参与方个数，取值",
+      "detail": "参与方个数，取值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，后接重复组，依次",
+      "detail": "，后接重复组，依次",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "包含发起方投资者账户、登录或订阅交易",
+      "detail": "包含发起方投资者账户、登录或订阅交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoPartyIDs",
+      "detail": "NoPartyIDs",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单元、业务交易单元、交易员一债通账户、、",
+      "detail": "单元、业务交易单元、交易员一债通账户、、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对手方交易员一债通账户、投资者账户、",
+      "detail": "对手方交易员一债通账户、投资者账户、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "账户名称。",
+      "detail": "账户名称。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方登录或订阅交易单元。",
+      "detail": "发起方登录或订阅交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为登录或订",
+      "detail": "的取值为登录或订",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "阅交易单元。",
+      "detail": "阅交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方交易员一债通账户",
+      "detail": "发起方交易员一债通账户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方",
+      "detail": "的取值为发起方",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的交易员一债通账户",
+      "detail": "的交易员一债通账户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方业务交易单元。",
+      "detail": "发起方业务交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方业",
+      "detail": "的取值为发起方业",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "务交易单元。",
+      "detail": "务交易单元。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方投资者帐户",
+      "detail": "发起方投资者帐户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发起方投",
+      "detail": "的取值为发起方投",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "资者帐户。",
+      "detail": "资者帐户。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "、对于成交报告申报模式的被动成交方或协议回购到期续做中的前期合约了结，也将收到成交确认。",
+      "detail": "、对于成交报告申报模式的被动成交方或协议回购到期续做中的前期合约了结，也将收到成交确认。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其中：申报来源（",
+      "detail": "其中：申报来源（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，订单所有者类型（",
+      "detail": "，订单所有者类型（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "’；会员内部订单编号",
+      "detail": "’；会员内部订单编号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）按照网页端申报自动生成；登录或订阅交易单元、业务交易单元同首期申报数据，如首",
+      "detail": "）按照网页端申报自动生成；登录或订阅交易单元、业务交易单元同首期申报数据，如首",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "期本方通过网页端申报，则此成交实时仍仅供网页端查看。",
+      "detail": "期本方通过网页端申报，则此成交实时仍仅供网页端查看。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、各业务响应字段说明如下，证券帐户名称（如对应账户未查询到名称，则无此字段）、",
+      "detail": "、各业务响应字段说明如下，证券帐户名称（如对应账户未查询到名称，则无此字段）、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LastPx",
+      "detail": "LastPx",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "与申报中的",
+      "detail": "与申报中的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Price/Price2",
+      "detail": "Price/Price2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（如有）相同，",
+      "detail": "（如有）相同，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "（如有）相同，其他未提及的非必填字段均无效",
+      "detail": "（如有）相同，其他未提及的非必填字段均无效",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示换入券信息，",
+      "detail": "表示换入券信息，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "按照价格数量进行计算",
+      "detail": "按照价格数量进行计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报信息，",
+      "detail": "同申报信息，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoDistribInsts",
+      "detail": "NoDistribInsts",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CashDistribAgentAcctNumber",
+      "detail": "CashDistribAgentAcctNumber",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CashDistribAgentAcctName",
+      "detail": "CashDistribAgentAcctName",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CashDistribAgentName",
+      "detail": "CashDistribAgentName",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CashDistribAgentCode",
+      "detail": "CashDistribAgentCode",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "NoRelatedSym",
+      "detail": "NoRelatedSym",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ContraLegRefID",
+      "detail": "ContraLegRefID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，如申报中填写，原样返回",
+      "detail": "，如申报中填写，原样返回",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、对于下列业务，除协议必填字段外，申报来源字段有效，发起方交易员一债通账户、",
+      "detail": "、对于下列业务，除协议必填字段外，申报来源字段有效，发起方交易员一债通账户、",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "申报信息，其他非必填字段说明如下，未提及的非必填字段对该业务无效：",
+      "detail": "申报信息，其他非必填字段说明如下，未提及的非必填字段对该业务无效：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报成功",
+      "detail": "申报成功",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报失败",
+      "detail": "申报失败",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "撤单成功",
+      "detail": "撤单成功",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对转托管，银行",
+      "detail": "对转托管，银行",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600230",
+      "detail": "600230",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "双非可转债转股",
+      "detail": "双非可转债转股",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "间托管账号同申报",
+      "detail": "间托管账号同申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600240",
+      "detail": "600240",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "私募可交换债换股",
+      "detail": "私募可交换债换股",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600250",
+      "detail": "600250",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券回售（一债通）",
+      "detail": "债券回售（一债通）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对三方回购转入",
+      "detail": "对三方回购转入",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600251",
+      "detail": "600251",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券回售撤销",
+      "detail": "债券回售撤销",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对转托管，银",
+      "detail": "对转托管，银",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转出时，专用账户",
+      "detail": "转出时，专用账户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行间托管账号",
+      "detail": "行间托管账号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回售申报，",
+      "detail": "回售申报，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报信息；",
+      "detail": "同申报信息；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "效：代表转股价格",
+      "detail": "效：代表转股价格",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrdRejReason",
+      "detail": "OrdRejReason",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "换股价格",
+      "detail": "换股价格",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对三方回购",
+      "detail": "对三方回购",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TimeInForce",
+      "detail": "TimeInForce",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转入转出时，专",
+      "detail": "转入转出时，专",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "撤单失败时，",
+      "detail": "撤单失败时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600260",
+      "detail": "600260",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券转托管",
+      "detail": "债券转托管",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "用账户同申报",
+      "detail": "用账户同申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对三方回购转",
+      "detail": "对三方回购转",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "入转出时，专用账",
+      "detail": "入转出时，专用账",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报信息；申报失败",
+      "detail": "报信息；申报失败",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "户信息同申报信",
+      "detail": "户信息同申报信",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "示被撤订单数",
+      "detail": "示被撤订单数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "报数量。",
+      "detail": "报数量。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（成交数",
+      "detail": "（成交数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "间托管账号有效；",
+      "detail": "间托管账号有效；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "量）为转入或转出数",
+      "detail": "量）为转入或转出数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RefOrderID",
+      "detail": "RefOrderID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecID",
+      "detail": "ExecID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报数量；",
+      "detail": "同申报数量；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600270",
+      "detail": "600270",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三方回购转入转出",
+      "detail": "三方回购转入转出",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转出时，对手方投资",
+      "detail": "转出时，对手方投资",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "者帐户；",
+      "detail": "者帐户；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrderQt",
+      "detail": "OrderQt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "竞买预约",
+      "detail": "竞买预约",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600290",
+      "detail": "600290",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报数",
+      "detail": "同申报数",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CxlQty",
+      "detail": "CxlQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LeavesQty",
+      "detail": "LeavesQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（预留）",
+      "detail": "（预留）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "竞买申报",
+      "detail": "竞买申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "同申报数据；",
+      "detail": "同申报数据；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对手方一债通账",
+      "detail": "对手方一债通账",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应价申报",
+      "detail": "应价申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "投资者帐户",
+      "detail": "投资者帐户",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "帐户名称有效",
+      "detail": "帐户名称有效",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如竞买预约时勾选了自动发起，且未再手动发起竞买预约，系统将在相应时点自动发起竞买申报。",
+      "detail": "如竞买预约时勾选了自动发起，且未再手动发起竞买预约，系统将在相应时点自动发起竞买申报。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此时竞买预约发起方将收到竞买申报执行报告。此时会员内部订单编号（",
+      "detail": "此时竞买预约发起方将收到竞买申报执行报告。此时会员内部订单编号（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）由系统自动",
+      "detail": "）由系统自动",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "生成；申报来源（",
+      "detail": "生成；申报来源（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、订单所有者类型（",
+      "detail": "）、订单所有者类型（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）、登录或订阅交易单元、业务交易",
+      "detail": "）、登录或订阅交易单元、业务交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单元同预约数据。如预约时通过网页端申报，登录或订阅单元将填写交易员绑定的交易单元；如交易",
+      "detail": "单元同预约数据。如预约时通过网页端申报，登录或订阅单元将填写交易员绑定的交易单元；如交易",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "员未绑定，则此执行报告仅供网页端查看。",
+      "detail": "员未绑定，则此执行报告仅供网页端查看。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于一债通各类现券非匹配成交（点击成交、询价成交和竞买成交等），将在成交回报中返回对手",
+      "detail": "对于一债通各类现券非匹配成交（点击成交、询价成交和竞买成交等），将在成交回报中返回对手",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "方的一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此",
+      "detail": "方的一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段将填写‘",
+      "detail": "字段将填写‘",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "’；如结算方式为净额结算且双方均显名或者结算方式‘",
+      "detail": "’；如结算方式为净额结算且双方均显名或者结算方式‘",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "RTGS",
+      "detail": "RTGS",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "’，则将发送",
+      "detail": "’，则将发送",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "实际的交易信息；但如账户名称无法自动加载，将无此字段。",
+      "detail": "实际的交易信息；但如账户名称无法自动加载，将无此字段。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "及固收迁移",
+      "detail": "及固收迁移",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及456项变更。 技术架构变更: 8项。 接口字段变更: 34项。 规则条款变更: 414项。",
+  "confidence": 0.92,
+  "raw_text": "STEP\n接口规范（互联网交易平台）\n消息头\nMsgType = U110\n8560\nGateWayPBU\n交易网关登录或订阅\nPBU\nY\nC8\n10197\nPartitionNo\n平台分区号\nY\nN4\n分区执行报告最大序号，本消息编入该分区执行报告编号\n8563\nEndReportIndex\nY\nN16\n序列。\nTDGW\n在闭市后向\nOMS\n自动发送一次，表示该执行报告流推送结束，后续该执行报告流上的序号将\n不再增加，最大序号为\nEndReportIndex\n。\n115\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录\n附录一计算校验和\n以下为计算校验和的代码段：\nuint32\nCalcChecksum(const\nchar*\nbuffer,\nuint32\nlen)\n{\nuint8\nchecksum\n=\n0;\nuint32\ni\n=\n0;\nfor\n(i\n=\n0;\ni\n<\nlen;\ni++)\n{\nchecksum\n+=\n(uint8)buffer[i];\n}\nreturn\n(uint32)checksum;\n}\n116\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录二\nPBU\n及说明\n涉及\nPBU\n时有几种含义：\n1\n、配置于\nTDGW\n上用于登录至交易系统后台的登录单位，称为登录交易单元；\n2\n、在消息报文中，表明该消息所进行的业务归属单元，称为业务交易单元，接口文档中用\nBizPbu\n指\n代；\n3\n、在消息报文中，表明与另一登录\nPBU\n间的订阅关系，称为订阅交易单元。\n目前，业务交易单元必须与登录交易单元属于同一市场参与者机构，否则交易系统将拒绝相应的业务\n申报请求。订阅\nPBU\n必须与登录\nPBU\n属于同一市场参与者机构，否则将订阅失败，在执行报告分区信息\nExecRptInfo\n消息中将不会包含订阅失败的交易单元。\n117\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录三错误代码说明\n状态码\n/\n错误码\n说明\nText\n（如有）\n0\n正常退出\nNormal Logout\n4012\nSecurityID\n错误或者业务类型\nBizID\n错误\n5000\n上行消息超过\n4K\nMessage Exceed Max Length\n5001\n上行消息校验和错误\nCheckSum Error\n5002\n心跳超时\nHeartbeat Timeout\n5003\n平台已有\nOMS\n登录\nAlready Login, try again\n5004\n连接建立后\n5\n秒内未完成登录\nLogin Timeout\n5005\n上行消息\nTargetCompId\n不正确\nCompId Error\n5006\nTDGW\n未登录至交易系统，请稍后重试\nNot Ready\n5007\n内部错误\nInternal Error\n5008\n不能识别的消息类型\nMessage Type Illegal\n5009\n平台状态暂不接受申报\n5010\nPartitionNo\n错误\n5011\nPbu\n错误\n5012\n首个消息非是\nLogon\n消息\nLogin First\n5013\nBeginReportIndex\n取值错误\n5014\n不支持的接口协议版本\nUnsupportedPrtclVersion\n5015\n消息数据错误\nMessage Data Error\n注：本表仅提供交易网关错误码，系统后台错误码参照互联网交易平台\n/\n新固定收益系统\n错误码信息文\n件。\n118\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录四“用户私有信息”说明\n对于应用消息中的\nText\n字段（用户私有信息），有如下规则：\nTDGW\n返回给\nOMS\n的下行消息中\nText\n，取该条下行消息所对应的上行消息（由\nOMS\n发送给\nTDGW\n）\n中的\nText\n字段值。\n119"
+}

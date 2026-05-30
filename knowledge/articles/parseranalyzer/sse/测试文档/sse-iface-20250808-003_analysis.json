@@ -1,0 +1,392 @@
+{
+  "doc_id": "sse-iface-20250808-003",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）2.2版_20250725（IOPV行情计算源调整 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T05:42:14.074784+00:00",
+  "metadata": {
+    "file_hash": "sha256:6178f52b0cec082553807265fe2c2700a0c6aa1fa6cfeec2edb76aeed6b80576",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "2.2",
+    "previous_version": null,
+    "public_date": "2025-08-08",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": "2.2",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发布说明",
+      "detail": "发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025",
+      "detail": "2025",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "月修订内容：",
+      "detail": "月修订内容：",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV",
+      "detail": "IOPV",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "行情计算源调整规划，后续交易所将不再支持计算",
+      "detail": "行情计算源调整规划，后续交易所将不再支持计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件接口",
+      "detail": "定义文件接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Publish IOPV Flag",
+      "detail": "Publish IOPV Flag",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PublishIOPVFlag",
+      "detail": "PublishIOPVFlag",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "），取消“",
+      "detail": "），取消“",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "由交易系统计算",
+      "detail": "由交易系统计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "过行情发布”",
+      "detail": "过行情发布”",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "且通过行情发布",
+      "detail": "且通过行情发布",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统仅支持计算",
+      "detail": "交易系统仅支持计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F111",
+      "detail": "F111",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场股票（沪）",
+      "detail": "单市场股票（沪）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F114",
+      "detail": "F114",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单市场股票（科创板）",
+      "detail": "单市场股票（科创板）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "即仅对于如上两类",
+      "detail": "即仅对于如上两类",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此字段可取值为",
+      "detail": "此字段可取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "系统会对此字段进行校验。",
+      "detail": "系统会对此字段进行校验。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统仅支持计算如下类别",
+      "detail": "交易系统仅支持计算如下类别",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1. F111",
+      "detail": "1. F111",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2. F114",
+      "detail": "2. F114",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，交易系统会",
+      "detail": "，交易系统会",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对此字段进行校验。",
+      "detail": "对此字段进行校验。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当定义文件取值",
+      "detail": "当定义文件取值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，此处为",
+      "detail": "时，此处为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最新替代金额",
+      "detail": "最新替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "部分成分券",
+      "detail": "部分成分券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": ") + ∑(",
+      "detail": ") + ∑(",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固定替代金额",
+      "detail": "固定替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其余成分券",
+      "detail": "其余成分券",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预估现金",
+      "detail": "预估现金",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金份额参考净值",
+      "detail": "基金份额参考净值",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV =",
+      "detail": "IOPV =",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最小申购赎回单位对应的",
+      "detail": "最小申购赎回单位对应的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最新价格",
+      "detail": "最新价格",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "替代标志",
+      "detail": "替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "= ETF",
+      "detail": "= ETF",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件中的替代金额",
+      "detail": "定义文件中的替代金额",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ID=101",
+      "detail": "ID=101",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "且替代标志",
+      "detail": "且替代标志",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "参考净值四舍五入精确到小数点后",
+      "detail": "参考净值四舍五入精确到小数点后",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位。对于所有可由交易所计算",
+      "detail": "位。对于所有可由交易所计算",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段取值为",
+      "detail": "字段取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，则交易系统按照上述公式进行计算。",
+      "detail": "，则交易系统按照上述公式进行计算。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当计算出的",
+      "detail": "当计算出的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "值小于零时，取值为",
+      "detail": "值小于零时，取值为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.52.4",
+      "detail": "2.52.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://idc.ztcloud.ssetech.com.cn/",
+      "detail": "https://idc.ztcloud.ssetech.com.cn/",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS118",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及51项变更。 废止: 1项。 规则条款变更: 50项。",
+  "confidence": 0.92,
+  "raw_text": "Fundid1\n描述有误，应为一级市场代码，对应关系不变。\n\nRecord Number\n改为必须大于\n0\n\n返回给基金公司的公告文件名为小写\n\n定义文件中账户和\nPBU\n可不同时为空，为空表示同前一交易日数据\n2\n、根据跨境\nETF\n业务需求，进行以下修订：\n\n增加成分股替代类型\n6\n，为非沪深市场成分股，必须现金替代\n\n修订基金公司成交回报内容\n\n对\nNAV\n和现金分红字段的取值进行了修订\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.2\n版发布说明\n2011\n年\n4\n月发布\n1.2\n版本。\n主要变更内容为：\n1\n、\n根据业务要求，由交易系统代为生成\n1.0\n格式的公告文件，新增\n1.0\n格式公告文件内容。\n2\n、\n增加已发行\nETF\n基金定义文件代码\n3\n、\n用红色表示\n2.0\n格式定义文件中与\n1.0\n格式定义文件的差异部分\n4\n、\n2.0\n定义文件中\nNAV\n字段长度改为\nN8(4)\n，成分股产品简称字段改为\nC8\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.1\n版发布说明\n2011\n年\n1\n月发布\n1.1\n版本。\n主要变更内容为：\n1\n、\n根据业务需求修订\n2.0\n格式接口。\n➢\n将交易系统不用的字段改为非必填项\n➢\n在定义文件中增加\nPBU ID\n和账户\n➢\n删除\nIOPV\n发布字段中不通过交易所发布的两种方式\n➢\n删除定义文件中的资金代码\n➢\n对于替代标志为\n4\n的代码，溢价比例无意义\n2\n、\n增加已发行\nETF\n基金定义文件代码\n3\n、\n根据实际情况简化定义文件的处理部分描述\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.02\n版发布说明\n2010\n年\n7\n月发布\n1.02\n版本。\n主要变更内容为：\n新增跨境\nETF\n内容。\n修订说明：\n2010-5-27\n：\n（\n1\n）明确交易系统收到\n2.0\n格式定义文件后转发的存储网关目录，并生成的文件名。\n（\n2\n）将定义文件成分股中的产品简称字段由\n10\n位改为\n15\n位。\n第\n44\n页\n共\n45\n页\n（\n3\n）增加已上市\nETF\n的交易代码。\n2010-6-4\n：\n（\n1\n）在定义文件中增加前一日现金差额字段，确认现金分红字段的必选属性。\n2010-6-21\n（\n1\n）明确鹏华基金民企\nETF\n代码为\nfm011\n；\n（\n2\n）\nCash Divided\n现金分红字段的中文含义改为每一基金单位分红，字段长度及取值不变。\n2010-6-29\n修改\nPreTradingDay\n的中文注释。\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.01\n版发布说明\n2010\n年\n1\n月发布\n1.01\n版本。\n主要变更内容为：\n新增跨市场\nETF\n内容。\n《新一代交易系统\nETF\n基金公司接口规格说明书》\n1.00\n版发布说明\n2009\n年\n11\n月发布正式版本。\n第\n45\n页\n共\n45\n页"
+}

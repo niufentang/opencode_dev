@@ -1,0 +1,32 @@
+{
+  "id": "sse-iface-00000000-086",
+  "type": "interface_spec",
+  "title": "关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10800106/files/3f38bb26c9dc467b84e7e1f224693f26.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:bc49f08050b3c5049464409e53af3d8709d46c0a68a99a2f20d0982b32c848cd",
+  "content_markdown": "关于废止《 IS101 上海证券交易所竞价撮合\n平台市场参与者接口规格说明书》并更新\n相关市场接口的通知\n各市场参与人：\n易神系统报盘子系统 EzOES 软件已于前期下线。\n《 IS101\n上海证券交易所竞价撮合平台市场参与者接口规格说明书》\n自即日起废止并下线，相关内容迁移至《 IS124_ 上海证券交\n易所市场数据文件交换接口规格说明书》。以下材料同步进\n行更新发布：\n一、《 IS105_ 上海证券交易所综合业务平台市场参与者\n接口规格说明书 1.58 版 _20251128 》\n二、《 IS118_ 上海证券交易所特定参与者接口规格说明\n书（基金公司卷） 2.3 版 _20251128 》\n三、《 IS118_ 上海证券交易所特定参与者接口规格说明\n书（托管银行卷） 1.35 版 _20251128 》\n四、《 IS122_ 上海证券交易所交易网关 Binary 接口规格\n说明书（竞价平台） 0.57 版 _20251128 》\n五、《 IS122_ 上海证券交易所交易网关 Binary 接口规格\n说明书（债券平台） 1.94 版 _20251128 》\n六、《 IS122_ 上海证券交易所交易网关 STEP 接口规格\n说明书（竞价平台） 0.57 版 _20251128 》\n七、《 IS122_ 上海证券交易所交易网关 STEP 接口规格\n说明书（债券平台） 1.94 版 _20251128 》\n八、《 IS122_ 上海证券交易所交易网关 STEP 接口规格\n\n说明书（互联网交易平台） 1.14 版 _20251128 》\n九、《 IS124_ 上海证券交易所市场数据文件交换接口规\n格说明书 2.90 版 _20251128 》\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 11 月 28 日\n\n<metadata>\n{\n  \"title\": \"20251128_关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20251128_关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知.md\",\n  \"file_hash\": \"sha256:bc49f08050b3c5049464409e53af3d8709d46c0a68a99a2f20d0982b32c848cd\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:44.585922+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-044",
+  "type": "technical_notice",
+  "title": "关于发布UniTrans停发上交所实时行情市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10795898/files/a469c6296978465b80849ce9a09edc2e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS118",
+    "IS124",
+    "UniTrans"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:7f02223ad95d8d44bb1dd753b4effbd2923ced34b2824509cc93464c7c8cddea",
+  "content_markdown": "关于发 布 UniTrans 停 发上交所实时行情\n市场接口的通知\n各市场参与人：\n根据 UniTrans （以下简称 UT ） 停 发上交所实时行情相\n关工作 安排 ，现发 布 《 IS124_ 上海证券交易所市场数据文件\n交 换 接口规格 说明 书 2.70 版 _20250716 （ UT 下线第 六阶 段\n技术开发 稿 ）》。市场参与人可通过本所 官 方网站 “ 交易技术\n支持专 区 ” 或登录市场技术服务平台“技术支持与信息管理 -\n软件与技术文 档 ”相关 栏 目 获取 上述 材料 。本次 变更 内容详\n见 文 档 内修订记录。请提前做好技术 就绪 准备。\n后 续 ， UT 停 发上交所实时行情后， UT 将完成整体下线，\n《 IS118 上海证券交易所 特 定参与 者 接口规格 说明 书（转发\n卷 ）》 也 将同 步废止 。\n技术 咨 询电话： 4008888400 转 2 ；技术支持邮 箱 ：\ntech_support@sse.com.cn ；技术支持服务 QQ 群 ： 298643611 。\n特 此通知。\n上海证券交易所\n2025 年 8 月 1 日\n\n<metadata>\n{\n  \"title\": \"20250801_关于发布UniTrans停发上交所实时行情市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250801_关于发布UniTrans停发上交所实时行情市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布UniTrans停发上交所实时行情市场接口的通知.md\",\n  \"file_hash\": \"sha256:7f02223ad95d8d44bb1dd753b4effbd2923ced34b2824509cc93464c7c8cddea\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:38.833124+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

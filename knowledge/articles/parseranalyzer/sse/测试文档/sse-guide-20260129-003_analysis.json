@@ -1,0 +1,202 @@
+{
+  "doc_id": "sse-guide-20260129-003",
+  "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1.1_20260129",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10807304/files/4212cbcec8644849af0dfc43bb536d93.pdf",
+  "analysis_date": "2026-05-02T05:42:19.845076+00:00",
+  "metadata": {
+    "file_hash": "sha256:fdb1ec0dd0c8f50f2b751e8e87d2e02a470db4a9c7f295512614e729d2656657",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": "1.1",
+    "previous_version": null,
+    "public_date": "2026-01-29",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "版本升级",
+      "summary": "版本历史",
+      "detail": "版本历史",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "调整内容",
+      "detail": "调整内容",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.0",
+      "detail": "V1.0",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "20250815",
+      "detail": "20250815",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1、创建说明",
+      "detail": "1、创建说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.1",
+      "detail": "V1.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "20260119",
+      "detail": "20260119",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1、新增独立接入IOPV要求。",
+      "detail": "1、新增独立接入IOPV要求。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2、相关技术文档中新增错误码表。",
+      "detail": "2、相关技术文档中新增错误码表。",
+      "severity": "major",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（以下简称“本所”）",
+      "detail": "（以下简称“本所”）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）行情接收方面，由",
+      "detail": "）行情接收方面，由",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV",
+      "detail": "IOPV",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "外部源机构提供的数据，本所将统一通过独立",
+      "detail": "外部源机构提供的数据，本所将统一通过独立",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情渠道发布，不会通过原竞价撮合系统行情（行情网关",
+      "detail": "行情渠道发布，不会通过原竞价撮合系统行情（行情网关",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityType=1",
+      "detail": "SecurityType=1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt00.txt",
+      "detail": "mktdt00.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发。因此，为保障能接收完整的",
+      "detail": "转发。因此，为保障能接收完整的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情数据（含未来外部源数据），各市场机构必",
+      "detail": "行情数据（含未来外部源数据），各市场机构必",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "须完成独立",
+      "detail": "须完成独立",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情渠道的接入。",
+      "detail": "行情渠道的接入。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS111_",
+      "detail": "IS111_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.29",
+      "detail": "3.29",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20260109(",
+      "detail": "_20260109(",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固收迁移技术开发",
+      "detail": "固收迁移技术开发",
+      "severity": "major",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及24项变更。 版本升级: 3项。 规则条款变更: 21项。 其中重大变更3项。",
+  "confidence": 0.92,
+  "raw_text": "上海证券交易所互联网交易平台市场参与者接口规格说明书（\nIOPV\n卷）》\n获得\nIOPV\n上传资质的指定机构可以通过\nHTTP\n协议的\nRESTful API\n接口接入互联\n网交易平台并上传\nIOPV\n数据。\n（\n1\n）通过交易行情网或\nVSEP\n网络与交易所进行网络对接；\n（\n2\n）上交所接受当日实时参考基金净值上传时间为当日\n7:30\n至\n16:30\n；\n（\n3\n）上传频率应不快\n3\n秒\n/\n幅（含\n3\n秒），若上传机构未上传最新基金净值，则下一\n次对外发布揭示净值时将保留上次发布揭示的净值不变。\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n配合\nIOPV\n外部源机构接入，调整如下：\n（\n1\n）\nETF\n定义文件接口，\nIOPV\n发布标记字段新增字段取值\nC\n，代表由第三方机\n构（非中证指数公司）计算\nIOPV\n，经互联网交易平台转发，通过交易所行情发布；调\n整取值\nB\n含义为：由中证指数公司计算\nIOPV\n，通过交易所行情发布。\n（\n2\n）\nETF\n公告文件接口，对应\nETF\n定义文件，调整\nPublish\n（\nPublishIOPVFlag\n）\n字段描述。\n第\n1\n页共\n3\n页\n技术文档\n4\n市场参与者技术实施建议及注意事项\n（\n1\n）本所互联网交易平台提供双通道供上传机构发送\nIOPV\n数据，上传机构应通过\n双通道分别上传且保证双路数据的一致性。具体双路上传地址将另行明确，相关机构可\n先进行相关技术准备。\n（\n2\n）本所对于上传的行情信息会进行防重复、防回流处理，请上传机构依据市场\n接口中的相关要求完成相应技术处理。\n（\n3\n）\nETF\n定义文件中\nIOPV\n发布标记字段（\n2.1\n版为\nPublish\nIOPV Flag\n字段\n/xml\n版\n为\nPublishIOPVFlag\n字段）新增通过互联网交易平台发布\nIOPV\n的取值\nC\n，调整取值\nB\n为“由中证指数公司计算\nIOPV\n，通过交易所行情发布”。所有通过互联网交易平台上传\n发送\nIOPV\n数据的\nETF\n产品，基金管理人应在该\nETF\n定义文件中\nPublish\nIOPV\nFlag\n（\n2.1\n版）或\nPublishIOPVFlag\n（\nxml\n版）字段填写为\nC\n。\n（\n4\n）行情接收方面，由\nIOPV\n外部源机构提供的数据，本所将统一通过独立\nIOPV\n行情渠道发布，不会通过原竞价撮合系统行情（行情网关\nSecurityType=1\n及\nmktdt00.txt\n）\n转发。因此，为保障能接收完整的\nIOPV\n行情数据（含未来外部源数据），各市场机构必\n须完成独立\nIOPV\n行情渠道的接入。\n（\n5\n）\n市场参与者应充分评估上述变更对行情、申赎、交易等相关技术系统的影响，\n做好相关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测\n试验证，同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常\n运行。\n5\n相关技术文档\n《\nIS419_\n上海证券交易所互联网交易平台市场参与者接口规格说明书（\nIOPV\n卷）\n1.0\n版\n_\n技术开发稿》\n。\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\n2.2\n版\n_20250808\n（\nIOPV\n外部源机构接入技术开发稿）》\n。\n《\nIS111_\n上海证券交易所报盘软件错误代码表\n3.29\n版\n_20260109(\n固收迁移技术开发\n第\n2\n页共\n3\n页\n技术文档\n稿\n)\n》。\n第\n3\n页共\n3\n页"
+}

@@ -1,0 +1,73 @@
+{
+  "doc_id": "sse-iface-20250725-106",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T02:03:06.096282+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》 发布说明 2025 月修订内容： IOPV",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n发布说明\n2025\n月修订内容：\nIOPV",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "行情计算源调整规划，后续交易所将不再支持计算",
+      "detail": "行情计算源调整规划，后续交易所将不再支持计算",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件接口 Publish IOPV Flag PublishIOPVFlag ），取消“ 由交易系统计算 过行情发布” 且通过行情发布 交易系统仅支持计算 F111 单市场股票（沪） F114 单市场股票（科创板） 即仅对于如上两类 此字段可取值为 系统会对此字段进行校验。 交易系统仅支持计算如下类别",
+      "detail": "定义文件接口\nPublish IOPV Flag\nPublishIOPVFlag\n），取消“\n由交易系统计算\n过行情发布”\n且通过行情发布\n交易系统仅支持计算\nF111\n单市场股票（沪）\nF114\n单市场股票（科创板）\n即仅对于如上两类\n此字段可取值为\n系统会对此字段进行校验。\n交易系统仅支持计算如下类别",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1. F111 2. F114 ，交易系统会 对此字段进行校验。 当定义文件取值 时，此处为 最新替代金额 部分成分券 ) + ∑( 固定替代金额 其余成分券 预估现金 基金份额参考净值 IOPV = 最小申购赎回单位对应的 最新价格 替代标志 = ETF 定义文件中的替代金额 ID=101 且替代标志",
+      "detail": "1. F111\n2. F114\n，交易系统会\n对此字段进行校验。\n当定义文件取值\n时，此处为\n最新替代金额\n部分成分券\n) + ∑(\n固定替代金额\n其余成分券\n预估现金\n基金份额参考净值\nIOPV =\n最小申购赎回单位对应的\n最新价格\n替代标志\n= ETF\n定义文件中的替代金额\nID=101\n且替代标志",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "参考净值四舍五入精确到小数点后 位。对于所有可由交易所计算 字段取值为 ，则交易系统按照上述公式进行计算。 当计算出的 值小于零时，取值为 2.52.4",
+      "detail": "参考净值四舍五入精确到小数点后\n位。对于所有可由交易所计算\n字段取值为\n，则交易系统按照上述公式进行计算。\n当计算出的\n值小于零时，取值为\n2.52.4",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://idc.ztcloud.ssetech.com.cn/",
+      "detail": "https://idc.ztcloud.ssetech.com.cn/",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS103",
+    "IS104",
+    "IS105",
+    "IS118",
+    "债券",
+    "期权",
+    "科创板",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 废止: 1项。 规则条款变更: 5项。 其中重大变更1项。",
+  "confidence": 0.95
+}

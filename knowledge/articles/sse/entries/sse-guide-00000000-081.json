@@ -1,0 +1,26 @@
+{
+  "id": "sse-guide-00000000-081",
+  "type": "guide",
+  "title": "关于发布科创成长层相关市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10784552/files/2fed9b4cd2bd4697b51f0fb8abe098e8.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "IS101",
+    "科创成长层"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:88235d787dbcf72c583e1d6b97709505a9a11d670fdb71f9dd3a64e081af09e5",
+  "content_markdown": "关于发布科创成长层相关市场接口及技术\n指南（正式稿）的通知\n各市场参与人：\n根据科创成长层相关工作安排，现发布《 IS101_ 上海证\n券交易所竞价撮合平台市场参与者接口规格说明书 1.71 版\n_20250711 》《上海证券交易所科创成长层市场参与人技术\n实施指南 1.0 版 _20250711 》。市场参与人可通过本所官方网\n站 “ 交易技术支持专区 ” 或登录市场技术服务平台“技术支持\n与信息管理 - 软件与技术文档”相关栏目获取上述材料。\n本次主要变更内容：根据科创成长层相关规则，更新产\n品基础信息第二版第一批次文件接口 cpxx0201MMDD.txt ，\n调整特殊标识“ U ”的相关描述。请市场参与人根据相关规\n则，提前做好技术就绪准备工作。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 7 月 11 日\n\n<metadata>\n{\n  \"title\": \"20250713_关于发布科创成长层相关市场接口及技术指南（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250713_关于发布科创成长层相关市场接口及技术指南（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布科创成长层相关市场接口及技术指南（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:88235d787dbcf72c583e1d6b97709505a9a11d670fdb71f9dd3a64e081af09e5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:37.574445+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

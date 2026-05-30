@@ -1,0 +1,18 @@
+{
+  "title": "上  海  证  券  交  易  所",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\chinaclear\\债券业务\\20130329_关于发布《质押式报价回购交易及登记结算业务办法》及其有关事项的通知（沪市）.pdf",
+  "markdown_path": "knowledge\\articles\\chinaclear\\markdown\\债券业务\\关于发布《质押式报价回购交易及登记结算业务办法》及其有关事项的通知（沪市）.md",
+  "file_hash": "sha256:d894777e1b91c336761f303fcb10353e8caed0eb1c2a375ea0a847f084072cf3",
+  "file_format": "pdf",
+  "page_count": 30,
+  "doc_type": "business_rule",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-19T11:25:54.767091+00:00",
+  "sub_category": "债券业务"
+}

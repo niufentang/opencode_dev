@@ -1,0 +1,93 @@
+{
+  "doc_id": "sse-iface-20260424-005",
+  "title": "IS120_上海证券交易所行情网关BINARY数据接口规范0.62版_20260424（新固收技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
+  "analysis_date": "2026-05-02T05:42:21.082867+00:00",
+  "metadata": {
+    "file_hash": "sha256:33f98748aa943f0440d808344988c8755283cc3179893e4319ca770c74219ee4",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "0.62",
+    "previous_version": null,
+    "public_date": "2026-04-24",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "0.62",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026-01-21",
+      "detail": "2026-01-21",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.62",
+      "detail": "0.62",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.5.4",
+      "detail": "2.5.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "逐笔行情消息中明确",
+      "detail": "逐笔行情消息中明确",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TransactTime",
+      "detail": "TransactTime",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为委托或成交的行情",
+      "detail": "为委托或成交的行情",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "生成时间",
+      "detail": "生成时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情生成时间",
+      "detail": "行情生成时间",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS120",
+    "BINARY",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及8项变更。 规则条款变更: 8项。",
+  "confidence": 0.92,
+  "raw_text": "字段进行区分。\n9\n仅适用于竞买单一主体中标应价申报。\n- 28 -\n技术文档\nMemberID\n●\n●\n●\n●\n●\n●\n●\n●\nTraderCode\n●\n●\n●\n●\n●\n●\n●\n●\nFullAmountTrade\n●\n●\nSettlType\n●\n●\n●\n●\n●\nExpireDate\n●\nContractMultiplier\n●\nExpirationDays\n●\n●\nTotalValueTraded\n●\n●\nBasketID\n●\nInvestorName\n●\nBidTransType\n●\n●\n●\nBidExecInstType\n●\n●\nSecondaryOrderID\n●\nMinQty\n10\n●\n●\n2.5.4.2\n逐笔成交行情扩展字段\n域名\n说明\n类型\n买方订单编号（\nQuoteID\n）\nBidApplSeqNum\nchar[18]\n无对应委托时填空\n10\n仅适用于竞买多主体中标（含单一价格或多重价格中标）。\n- 29 -\n技术文档\n卖方订单编号（\nQuoteID\n）\nOfferApplSeqNum\nchar[18]\n无对应委托时填空\nTotalValueTraded\n成交金额\nuint64,N16(2)\n成交方式\n0 =\n匹配成交（预留）\n1 =\n确定报价点击成交\n2 =\n待定报价点击成交\n3 =\n询价成交\nTradeMethod\nuint8,N2\n6 =\n协商成交（含合并申报）\n7 =\n竞买单一主体成交\n10 =\n竞买多主体单一价格成交\n11 =\n竞买多主体多重价格成交\n边际价格\nMarginPrice\nuint64,N13(5)\n仅适用于竞买多主体成交\n- 30 -\n技术文档\n3\n文件接收\n用户可通过行情网关接收的行情及相关参考文件主要包括：\n文件名\n描述\ncsiYYYYMMDD.txt\n指数通行情文件\nreff03MMDD.txt\n期权基础信息文件\nreff0302YYYYMMDD.xml\n期权基础信息第二版文件\ntrdses04.txt\n港股通交易盘实时状态\nmktdt04.txt\n港股行情文件\nmktdth.txt\nB\n转\nH\n行情文件\nmktdt06.txt\n基金通行情文件\ncpxx0201MMDD.txt\n产品信息文件第二版本第一批次\ncpxx0202MMDD.txt\n产品信息文件第二版本第二批次\nfjyYYYYMMDD.txt\n产品非交易基础数据\ntpxxxxhhmmss.txt\n盘中停牌公告文件\nztxxxxhhmmss.txt\n债券盘中停牌公告文件\nproducts_yyyymmdd.xml\n证券产品基础信息文件\nbondmbrs_yyyymmdd.xml\n债券交易参与人信息文件\nbondtrdrs_yyyymmdd.xml\n债券交易员信息文件\nreff04MMDD.txt\n港股通基础信息文件\nexra04MMDD.txt\n港股通参考汇率文件\n- 31 -\n技术文档\nzxjcMMDD.txt\n港股通最小价差文件\n具体文件格式及相关描述详见本所各平台市场参与者接口规格说明书。\n- 32 -\n技术文档\n4\n转发行情\n目前，用户可通过本所行情网关转发任务获取的外部行情数据包括：\n\n深交所\nV5\n行情\n具体数据接口规范请参考《深圳证券交易所\nBinary\n行情数据接口规范》，对转发任务的网络\n及带宽限制要求请参考《上海证券交易所行情网关用户网络接入指引》。\n- 33 -\n技术文档\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不\n得将本文档用于其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评\n指正意见，可通过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号上交所技术公司技术开发总部\n- 34 -\n技术文档\n附录一、计算校验和（资料性附录）\n以下为计算校验和的代码段：\nuint32 CalcChecksum(const char* buffer, uint32 len)\n{\nuint8 checksum = 0;\nuint32 i = 0;\nfor (i = 0; i < len; i++)\n{\nchecksum += (uint8)buffer[i];\n}\nreturn (uint32)checksum;\n}\n- 35 -"
+}

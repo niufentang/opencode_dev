@@ -1,0 +1,18 @@
+{
+  "title": "1",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\技术接口\\20251212_IS109_上海证券交易所固定收益平台外部数据接口规范3.29版_20251205.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\技术接口\\IS109_上海证券交易所固定收益平台外部数据接口规范3.29版_20251205.md",
+  "file_hash": "sha256:5ad1933aeebd6b73aefc8d43ade88d4fc65fe51bfbb9d1535edfedd548438c82",
+  "file_format": "pdf",
+  "page_count": 33,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": "2024-11-21",
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:47:09.066113+00:00",
+  "sub_category": null
+}

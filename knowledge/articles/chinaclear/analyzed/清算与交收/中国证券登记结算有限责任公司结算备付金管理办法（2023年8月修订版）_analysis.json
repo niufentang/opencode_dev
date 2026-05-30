@@ -1,0 +1,23 @@
+{
+  "doc_id": "chinaclear-rule-00000000-318",
+  "title": "中国证券登记结算有限责任公司结算备付金管理办法（2023年8月修订版）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:35.342936+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券",
+    "期权",
+    "融资融券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：business_rule，版本：无。",
+  "confidence": 0.75
+}

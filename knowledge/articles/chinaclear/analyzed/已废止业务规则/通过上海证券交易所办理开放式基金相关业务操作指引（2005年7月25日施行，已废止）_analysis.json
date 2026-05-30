@@ -1,0 +1,36 @@
+{
+  "doc_id": "chinaclear-rule-20050725-275",
+  "title": "untitled",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:35.058189+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "接口字段变更",
+      "summary": "基金简称、代码和账户管理",
+      "detail": "基金简称、代码和账户管理",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金份额的认购 基金份额的申购与赎回 基金份额的转托管 基金权益分派",
+      "detail": "基金份额的认购\n基金份额的申购与赎回\n基金份额的转托管\n基金权益分派",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 接口字段变更: 1项。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

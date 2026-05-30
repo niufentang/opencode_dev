@@ -1,0 +1,91 @@
+{
+  "doc_id": "sse-iface-20260424-001",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书3.30版_20260424",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T05:41:51.274280+00:00",
+  "metadata": {
+    "file_hash": "sha256:e9297788d5c8f8826c728a5855d7a346715614a251767e6e46c60ca26a21eccc",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "3.30",
+    "previous_version": null,
+    "public_date": "2026-04-24",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "3.30",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "3.30",
+      "detail": "3.30",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026-04",
+      "detail": "2026-04",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、补充新竞价发行过户数据文件的接口描述。",
+      "detail": "、补充新竞价发行过户数据文件的接口描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "认购扣款、认购还款、配号记录填写",
+      "detail": "认购扣款、认购还款、配号记录填写",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，即对应发行业务的",
+      "detail": "，即对应发行业务的",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对应发行业务的有效申报数量；",
+      "detail": "对应发行业务的有效申报数量；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购数量",
+      "detail": "申购数量",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "中签记录填写",
+      "detail": "中签记录填写",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS124",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及8项变更。 规则条款变更: 8项。",
+  "confidence": 0.92,
+  "raw_text": "zslwMMDD.txt\n、标准券折算比率文件\n2.10\n2024-01\nxzslMMDD.txt\n、产品基础信息第二版第一批次\ncpxx0201MMDD.txt\n、产品基础信息第\n二版第二批次\ncpxx0202MMDD.txt\n相关描述。\n期权平台易神系统通用报盘软件（\nEzSTEP\n）下线，《\nIS113\n上海证券交易所股票期权\n2.00\n2023-11\n市场参与者接口规格说明书》中文件接口说明迁移至本文档。\n调整\n“\n债券产品信息文件\n”\n接口：\n1\n、\n“\n债券类型（\n15\n）\n”\n字段：新增枚举值\n“16”\n，表示新企业债券；\n1.90\n2023-10\n2\n、\n“\n发行人类型（\n19\n）\n”\n字段：调整枚举值描述；\n3\n、\n“\n特殊债券类型（\n25\n）\n”\n字段：调整字段描述。\n1\n、增加行情网关作为基金通行情\nmktdt06.txt\n的发送渠道；\n2\n、补充上交所发送行情文件说明；\n1.80\n2023-07\n3\n、删除已下线\nBT\n软件相关文件获取渠道描述。\n1.70\n2023-05\n新增单一股票担保物比例信息接口。\n1.60\n2022-08\n1.\n调整债券盘中停牌公告文件\nztxxxxhhmmss.txt\n的说明。\n1.\n更新债券产品信息文件\nbondinfoYYYYMMDD.txt\n部分字段说明；\n1.50\n2022-06\n2.\n取消通过\nUT\n发送债券产品信息文件\nbondinfoYYYYMMDD.txt\n，新增通过\nUT\n发\n第\n151\n页共\n152\n页\n上海证券交易所市场数据文件交换接口规格说明书\n送债券产品信息文件压缩包\narchive_bondinfoYYYYMMDD.zip\n；\n3.\n单向卫星应用系统相关服务已下线，去除\nEzSR\n及\nSR\n的文件接收途径相关描述。\n1.\n调整债券行情文件、债券过户数据文件中债券相关数量单位为\n“\n千元面额\n”\n；\n2.\n调整债券盘中停牌公告文件，区分可转债和其他债券现券的停牌公告模板；\n3.\n新增债券产品信息文件接口；\n1.40\n2022-03\n4.\n删除产品基础信息第一版第一批次文件接口\ncpxxMMDD.txt\n、产品基础信息第一版\n第二批次文件接口\ncpxx0102MMDD.txt\n；\n5.\n调整债券行情文件中市场行情状态的说明。\n新增\nB\n转\nH\n业务相关文件：国际化产品信息文件、\nB\n转\nH\n行情文件、国际化产品过\n1.30\n2022-03\n户数据文件（字段名调整为中文描述）。\n增加基金通业务接口：产品与销售机构对应关系文件、产品与做市商对应关系文件、\n1.20\n2022-02\n基金通行情文件、份额过户文件（字段名调整为中文描述）。\n1.10\n2021-12\n补充\n“\n重点指数表现文件\n”\n的接口说明。\n1.00\n2021-11\n调整债券过户数据文件，合并债券非交易（质押式回购出入库）过户记录信息。\n0.91\n2021-09\n调整债券行情文件中行情时间字段的说明。\n调整债券盘中停牌公告信息文件；\n0.90\n2021-08\n补充债券行情文件的文件说明以及成交金额字段说明。\n0.80\n2021-03\n调整交易申报错误码信息文件的发布渠道：移除\nUT\n发布渠道。\n更新债券过户数据文件接口，将成交编号字段类型由\nNX\n型调整为\nCX\n型；\n更新交易网关申报错误码信息文件接口（章节\n2.9\n），将其变更为\n“\n交易申报错误码信\n0.70\n2021-01\n息文件\n”\n。\n0.60\n2020-12\n新增交易网关申报错误码信息文件接口。\n0.50\n2020-11\n更新接口规范中十进制浮点数字型字段的说明。\n0.40\n2020-09\n更新债券过户数据文件接口。\n在盘前参考数据章节中补充国债利息文件、标准券折算率变更文件、标准券折算率变\n0.30\n2020-08\n更公告文件、标准券折算比率文件、产品基础信息文件（多版本多批次）的相关内容。\n0.20\n2020-07\n更新接口规范。\n0.10\n2020-07\n创建文档。\n第\n152\n页共\n152\n页"
+}

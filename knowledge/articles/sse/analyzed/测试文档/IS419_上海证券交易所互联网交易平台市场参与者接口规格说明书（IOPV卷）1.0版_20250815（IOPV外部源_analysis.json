@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-iface-20250815-152",
+  "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（IOPV卷）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072251/files/942068681e9242d3b4236a31f8e42c18.pdf",
+  "analysis_date": "2026-05-02T02:03:06.769284+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS419"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "confidence": 0.75
+}

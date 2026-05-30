@@ -1,0 +1,25 @@
+{
+  "id": "sse-iface-00000000-050",
+  "type": "interface_spec",
+  "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10816484/files/1a2d35b26ff04c1bbda52c0db3cb9dfb.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS124"
+  ],
+  "status": "superseded",
+  "version": "3.30",
+  "previous_version": "3.20",
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": "sse-iface-20260424-027",
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:f769e5879fd05375b91764fa5c05e4265349242671c06ac1d7b28350da1a39bd",
+  "content_markdown": "关于发布《 IS124_ 上海证券交易所市场数据\n文件交换接口规格说明书 3.30 版》\n（正式稿）\n的通知\n各市场参与人：\n根据工作安排，现发布《 IS124_ 上海证券交易所市场数\n据文件交换接口规格说明书 3.30 版 _20260424 》，补充新竞\n价发行过户数据文件的接口描述。\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。请做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2026 年 4 月 24 日\n\n<metadata>\n{\n  \"title\": \"20260424_关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20260424_关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3.30版》（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3.30版》（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:f769e5879fd05375b91764fa5c05e4265349242671c06ac1d7b28350da1a39bd\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:48.394068+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,38 @@
+{
+  "doc_id": "chinaclear-rule-00000000-164",
+  "title": "«打印份数»",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:34.231853+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "术语定义 第一章  股权激励计划登记业务 第一节 股权激励计划登记业务注意事项 第二节 限制性股票授予登记(股份来源于增发) 第三节 限制性股票授予登记（股份来源于回购） 第四节 限制性股票解除限售 第五节 限制性股票回购注销 第六节 股票期权授予登记 第七节 股票期权数量及行权价格的调整 第八节 股票期权自主行权",
+      "detail": "术语定义\n第一章  股权激励计划登记业务\n第一节 股权激励计划登记业务注意事项\n第二节 限制性股票授予登记(股份来源于增发)\n第三节 限制性股票授予登记（股份来源于回购）\n第四节 限制性股票解除限售\n第五节 限制性股票回购注销\n第六节 股票期权授予登记\n第七节 股票期权数量及行权价格的调整\n第八节 股票期权自主行权",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "第九节 股票期权批量行权 第十节 股票期权的注销 第二章  股权激励计划股票期权自主行权清算交收 第一节 自主行权清算 第二节 自主行权交收 第三章 相关数据接口",
+      "detail": "第九节 股票期权批量行权\n第十节 股票期权的注销\n第二章  股权激励计划股票期权自主行权清算交收\n第一节 自主行权清算\n第二节 自主行权交收\n第三章 相关数据接口",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券",
+    "期权",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

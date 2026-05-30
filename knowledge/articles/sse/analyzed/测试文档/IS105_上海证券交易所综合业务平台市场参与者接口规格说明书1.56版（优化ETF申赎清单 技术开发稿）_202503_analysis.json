@@ -1,0 +1,44 @@
+{
+  "doc_id": "sse-iface-00000000-093",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T02:03:05.913704+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《综合业务平台市场参与者接口规格说明书》 1.56 版发布说明 2025.3 定义文件整体规划，新增 公告文件 版相关描述。 JJGHBGH ssepcf_NNNNNNNN_YYYYMMDD.xml 详细内容参阅本所发布的《 IS118 上海证券交易所特定参与者接口规格说明书（基金公司卷）》文档中 “ETF",
+      "detail": "《综合业务平台市场参与者接口规格说明书》\n1.56\n版发布说明\n2025.3\n定义文件整体规划，新增\n公告文件\n版相关描述。\nJJGHBGH\nssepcf_NNNNNNNN_YYYYMMDD.xml\n详细内容参阅本所发布的《\nIS118\n上海证券交易所特定参与者接口规格说明书（基金公司卷）》文档中\n“ETF",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "章节，详细字段描述请关联参阅 定义文件 2122 2223 22.123.1 22.223.2 2324 2425",
+      "detail": "章节，详细字段描述请关联参阅\n定义文件\n2122\n2223\n22.123.1\n22.223.2\n2324\n2425",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "ETF申赎清单",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS124",
+    "REITs",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

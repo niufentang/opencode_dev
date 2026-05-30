@@ -1,0 +1,26 @@
+{
+  "id": "chinaclear-rule-00000000-257",
+  "type": "business_rule",
+  "title": "<4D6963726F736F667420576F7264202D203038CDB3D2BBCDB8D6A7B4A6B7A3B5C4CDA8D6AA2E646F63>",
+  "source": "chinaclear",
+  "source_url": null,
+  "summary": "本次涉及1项变更。 废止: 1项。 其中重大变更1项。",
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "has_changes",
+    "deprecated"
+  ],
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": "2025-01-01",
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:d3ee8dd713f5d07d4d03503eaa02ea37c60fe52a6cac5b38a7d8a6442262c725",
+  "content_markdown": "关于统一结算参与人资金\n交收透支处罚的通知\n各结算参与人：\n为规范对结算参与人资金交收透支风险管理，统一对结算参与\n人资金交收透支处罚措施，对于在交收日规定的资金交收时点不能\n足额履行资金交收义务的结算参与人，中国证券登记结算有限责任\n公司(以下称“本公司”)按以下处罚标准进行处理：\n一、出现资金交收透支的结算参与人，除按结算备付金适用的\n存款利率向本公司计付透支资金利息外，还应按第二条的规定向本\n公司缴纳交收违约金。本公司收缴的交收违约金按证监会、财政部\n有关规定记入证券交易结算风险基金。\n二、交收违约金按结算参与人透支金额的1‰，自透支之日起，\n按日（包括节假日）计收。\n交收违约金=结算参与人当日结算备付金账户透支金额×1‰\n其中，结算参与人当日结算备付金账户透支金额，按其累计交\n收所需资金与其结算备付金账户内可用于交收的资金的差额确认，\n即\nT+1 日结算备付金账户透支金额=累计交收所需资金-（结算参\n与人备付金账户资金-冻结资金）\n三、本通知自二00 四年一月一日起执行，沪、深分公司原资\n— 1 —\n\n金交收透支罚息相关规定同时废止。\n二○○三年十二月二十二日\n— 2 —\n\n<metadata>\n{\n  \"title\": \"<4D6963726F736F667420576F7264202D203038CDB3D2BBCDB8D6A7B4A6B7A3B5C4CDA8D6AA2E646F63>\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\已废止业务规则\\\\20241231_关于统一结算参与人资金交收透支处罚的通知（2003年12月22日施行，已废止）.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\已废止业务规则\\\\关于统一结算参与人资金交收透支处罚的通知（2003年12月22日施行，已废止）.md\",\n  \"file_hash\": \"sha256:d3ee8dd713f5d07d4d03503eaa02ea37c60fe52a6cac5b38a7d8a6442262c725\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"business_rule\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-19T11:26:13.714563+00:00\",\n  \"sub_category\": \"已废止业务规则\"\n}\n</metadata>"
+}

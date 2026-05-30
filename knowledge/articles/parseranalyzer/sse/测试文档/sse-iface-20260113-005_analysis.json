@@ -1,0 +1,128 @@
+{
+  "doc_id": "sse-iface-20260113-005",
+  "title": "IS120_上海证券交易所行情网关STEP数据接口规范0.61版_20260113（新固收技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
+  "analysis_date": "2026-05-02T05:42:17.202831+00:00",
+  "metadata": {
+    "file_hash": "sha256:def15b9d93aa3bdb3bf3a4ebad19387c361205090283b52441c67688538f7ba2",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "0.61",
+    "previous_version": null,
+    "public_date": "2026-01-13",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "0.61",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11-17",
+      "detail": "2025-11-17",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.61",
+      "detail": "0.61",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.5.4.2",
+      "detail": "2.5.4.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "逐笔成交行情扩展字段中无对应买卖订单编号时调整",
+      "detail": "逐笔成交行情扩展字段中无对应买卖订单编号时调整",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为填空。",
+      "detail": "为填空。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、为保证上下游接口位数统一，调整",
+      "detail": "、为保证上下游接口位数统一，调整",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TotalValueTraded",
+      "detail": "TotalValueTraded",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrderQty",
+      "detail": "OrderQty",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段位数。",
+      "detail": "字段位数。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N16(3)",
+      "detail": "N16(3)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N15(3)",
+      "detail": "N15(3)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N18(5)",
+      "detail": "N18(5)",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "N17(2)",
+      "detail": "N17(2)",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS120",
+    "STEP",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及13项变更。 规则条款变更: 13项。",
+  "confidence": 0.92,
+  "raw_text": "申报\n申报\n9\nSide\n●\n●\n●\n●\n●\n●\n●\n●\nQuoteID\n●\n●\n●\n●\n●\n●\n●\n●\nMemberID\n●\n●\n●\n●\n●\n●\n●\n●\nTraderCode\n●\n●\n●\n●\n●\n●\n●\n●\n8\n不同竞买委托方式可根据\nBidTransType\n字段进行区分。\n9\n仅适用于竞买单一主体中标。\n- 32 -\n技术文档\nFullAmountTrade\n●\n●\nSettlType\n●\n●\n●\n●\n●\nContractMultiplier\n●\nExpirationDays\n●\n●\nTotalValueTraded\n●\n●\nBasketID\n●\nInvestorName\n●\nBidTransType\n●\n●\n●\nBidExecInstType\n●\n●\nExpireDate\n●\nSecondaryOrderID\n●\nMinQty\n10\n●\n●\n2.5.4.2\n逐笔成交行情扩展字段\nTag\n域名\n必须\n说明\n类型\n买方订单编号（\nQuoteID\n）\n10116\nBidApplSeqNum\nY\nC18\n0\n表示\n无对应委托时填空\n卖方订单编号（\nQuoteID\n）\n10117\nOfferApplSeqNum\nY\nC18\n0\n表示\n无对应委托时填空\nN17(2)\n8504\nTotalValueTraded\nY\n成交金额\nN18(5)\n10\n仅适用于竞买多主体中标（含单一价格或多重价格中标）。\n- 33 -\n技术文档\n成交方式\n0 =\n匹配成交（预留）\n1 =\n确定报价点击成交\n2 =\n待定报价点击成交\n3 =\n询价成交\n10333\nTradeMethod\nY\nN2\n6 =\n协商成交（含合并申报）\n7 =\n竞买单一主体成交\n10 =\n竞买多主体单一价格成交\n11 =\n竞买多主体多重价格成交\n边际价格\n10243\nMarginPrice\nN\nN14(5)\n仅适用于竞买多主体成交\n- 34 -\n技术文档\n3\n文件接收\n同《\nIS120\n上海证券交易所行情网关\nBINARY\n数据接口规范》中的文件接收章节。\n- 35 -\n技术文档\n4\n转发行情\n同《\nIS120\n上海证券交易所行情网关\nBINARY\n数据接口规范》中的转发行情章节。\n- 36 -\n技术文档\n5\n后记\n上海证券交易所对本文档享有知识产权，未经上海证券交易所书面许可，任何单位和个人不\n得将本文档用于其他商业目的。\n本文档编写过程中，深受证券业界信息技术同仁讨论启发，特此致谢。对本文档有任何批评\n指正意见，可通过电子邮件或服务电话进行反馈。\n电子邮件：\ntech_support@sse.com.cn\n服务电话：\n4008888400-2\n网站地址：\nhttps://www.sse.com.cn/ -\n交易技术支持专区\n通讯地址：上海市浦东新区浦东南路\n528\n号上交所技术公司技术开发总部\n- 37 -\n技术文档\n附录一\n计算校验和\n以下为计算校验和的代码段：\nconst char* CalcChecksum(const char* buffer, uint32 len, char buffChecksum[4])\n{\nuint8 checksum = 0;\nuint32 i = 0;\nfor (i = 0; i < len; i++)\n{\nchecksum += (uint8)buffer[i];\n}\nsprintf(buffChecksum, “%03d”, checksum );\nreturn bufCheckSum;\n}\n- 38 -"
+}

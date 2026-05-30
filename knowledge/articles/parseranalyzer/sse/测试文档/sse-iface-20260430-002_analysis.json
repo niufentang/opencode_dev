@@ -1,0 +1,266 @@
+{
+  "doc_id": "sse-iface-20260430-002",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1.60版_20260430（新竞价新综业技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T05:42:21.998105+00:00",
+  "metadata": {
+    "file_hash": "sha256:7dfb208af5627abdb757d6344c241a61b2445589156eb7ccdd4f3227af4fc916",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.60",
+    "previous_version": null,
+    "public_date": "2026-04-30",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.60",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "6059",
+      "detail": "6059",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "《综合业务平台市场参与者接口规格说明书》",
+      "detail": "《综合业务平台市场参与者接口规格说明书》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.60",
+      "detail": "1.60",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版发布说明",
+      "detail": "版发布说明",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026.4",
+      "detail": "2026.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、过户数据接口",
+      "detail": "、过户数据接口",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bghXXXXX.dbf",
+      "detail": "bghXXXXX.dbf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "dghXXXXXYYYYMMDD.dbf",
+      "detail": "dghXXXXXYYYYMMDD.dbf",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：调整成交编号（",
+      "detail": "：调整成交编号（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "cjbh",
+      "detail": "cjbh",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）有效位数描述。",
+      "detail": "）有效位数描述。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、行情文件",
+      "detail": "、行情文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt01.txt",
+      "detail": "mktdt01.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "：“市场行情状态”，增加在无支持开盘集合竞价的产品、无发行期内国债预发行",
+      "detail": "：“市场行情状态”，增加在无支持开盘集合竞价的产品、无发行期内国债预发行",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品的情况下，字段无意义说明。",
+      "detail": "产品的情况下，字段无意义说明。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、撮合业务及上证",
+      "detail": "、撮合业务及上证",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LOF/",
+      "detail": "LOF/",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "REITs",
+      "detail": "REITs",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务执行报告消息：调整成交编号（",
+      "detail": "业务执行报告消息：调整成交编号（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecID",
+      "detail": "ExecID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（目前本业务有效位用到",
+      "detail": "（目前本业务有效位用到",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位，后期将逐步扩展位数，注意做好",
+      "detail": "位，后期将逐步扩展位数，注意做好",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "相关技术准备工作）",
+      "detail": "相关技术准备工作）",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，目前本业务有效位用到",
+      "detail": "，目前本业务有效位用到",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位，后期将逐步扩展位数，注意做好相",
+      "detail": "位，后期将逐步扩展位数，注意做好相",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "关技术准备工作",
+      "detail": "关技术准备工作",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当无支持开盘集合竞价的产品时，",
+      "detail": "当无支持开盘集合竞价的产品时，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "无意义。",
+      "detail": "无意义。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "暂不启用。",
+      "detail": "暂不启用。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当无发行期内国债预发行",
+      "detail": "当无发行期内国债预发行",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品时，无意义。",
+      "detail": "产品时，无意义。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位，后期将逐步扩展位数，注意做好相关技",
+      "detail": "位，后期将逐步扩展位数，注意做好相关技",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "术准备工作",
+      "detail": "术准备工作",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS105",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及33项变更。 规则条款变更: 33项。",
+  "confidence": 0.92,
+  "raw_text": ",\n技术开发稿\n)_20130326\n》。\n购回交易和终止购回申报消息增加标的证券代码，以便数据库中填写证券代码。\n补充中登关于股票质押回购业务标的证券描述标签的描述，如进一步了解可咨询中登上海公司。\n中间未发布版本\n1.31\n版（\n2013.4\n）修订如下（黄金\nETF\n业务上线安排参见相关业务或测试上线通知）：\n综合业务平台\n市场参与者接口规格说明书\n第\n140\n页共\n142\n页\n技术文档\n修订跨境\nETF/\n交易型货币市场基金申赎执行报告第一条记录（证券代码为二级市场交易代码），该记录数\n量、金额原为\n0\n，现修订为有效的申赎数量、现金替代总额，为未来该类业务执行报告整合成一条做准备。\n新增黄金\nETF\n现金申赎业务，该业务接口同跨境\nETF/\n交易型货币市场基金申赎，并遵循上述修订。\n新增黄金\nETF\n实物申赎执行报告，包含黄金\nETF\n实物申赎基金公司执行报告，黄金\nETF\n实物申赎市场增\n减执行报告，执行报告数据广播类型\n16\n。\n注意：为充分发挥\nSTEP\n协议的扩展性，对于由上交所发出的\nSTEP\n消息，例如在消息体尾部扩展新的域，\n市场参与者系统应能兼容处理。当新业务需要，在\nSTEP\n协议消息体增加新的域后，市场参与者系统如不需要\n支持该新业务，可以做到兼容识别并无需任何修改，以发挥标签化优势，这方面技术优化可以逐步实施。\n修订货币市场基金实时申赎业务消息规范章节，对指定的基金公司转发市场执行报告数据，并计划停止该\n业务发送公共消息。\n20130424\n版修订在给基金公司转发的市场执行报告尾部增加备注字段。\n补充数据广播类型\n12\n、\n16\n。\n《综合业务平台市场参与者接口规格说明书》\n1.30\n版发布说明\n2013.2\n补充转融通业务接口，即合并本所外网开发测试文件栏预发布的《\nIS105\n上海证券交易所综合业务平台市\n场参与者接口规格说明书\n1.00\n版\n(\n转融通\n,\n技术开发稿\n)_20121015\n》。\n补充说明报价回购出入库业务中股票、基金的数量单位。\n《综合业务平台市场参与者接口规格说明书》\n1.22\n版发布说明\n2013.1\n修订执行报告消息描述中字段名称字母大小写错误。\n合并本所外网开发测试文件栏预发布的《上海证券交易所综合业务平台市场参与者接口规格说明书\n(\n报价回\n购及约定购回\n,\n技术开发稿\n)\n》。\n其他文字修订。\n《综合业务平台市场参与者接口规格说明书》\n1.21\n版发布说明\n2012.12\n本文档基于跨境\nETF\n申赎业务新增定义了上交所交易型货币市场基金申赎市场参与者\nEzSTEP\n接口，消息\n数据流及格式与跨境\nETF\n相同，个别取值差异参见具体接口约定。\n修改交易型货币市场基金申赎执行报告第二条记录，数据与跨境\nETF\n一致，现金替代金额可解释为成交金\n额。\n修改跨境\nETF\n申赎业务，基金公司收到的执行报告及\nBGH\n增加对手方账户，原为\nETFJIJIN\n字符串。\n综合业务平台\n市场参与者接口规格说明书\n第\n141\n页共\n142\n页\n技术文档\n《综合业务平台市场参与者接口规格说明书》\n1.20\n版发布说明\n2012.10\n本文档新增定义了上交所货币市场基金实时申赎（汇添富收益快线）市场参与者\nEzSTEP\n接口，即合并了\n《\nIS105\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.00\n版\n(\n货币基金申赎，技术开发\n稿\n)_20120831\n》技术开发文档。\n新增跨境\nETF\n申赎执行报告补充说明\n“\n基金公司作为对手方收到对应的成交数据\n”\n。\n《综合业务平台市场参与者接口规格说明书》\n1.10\n版发布说明\n2012.8\n本文档新增定义了上交所跨境\nETF\n申赎市场参与者\nEzSTEP\n接口，即合并了《\nIS105\n上海证券交易所综合\n业务平台市场参与者接口规格说明书\n1.00\n版\n(\n跨境\nETF\n申赎，技术开发稿\n)_20120528\n》技术开发文档，跨境\nETF\n二级市场买卖与其他单市场\nETF\n买卖接口一样，继续采用\nEzOES\n接入上交所竞价撮合平台实现。\n本文档基于原发布的《\nIS105\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.00\n版（大宗交易）\n_20120215\n》新增跨境\nETF\n内容。\n《综合业务平台市场参与者接口规格说明书》\n1.00\n版发布说明\n2012.5\n本文档为市场参与者通过\nEzSTEP\n接入上交所综合业务平台的接口规格。\n本文档定义了上交所大宗交易市场参与者\nEzSTEP\n接口，上交所大宗交易系统采用远程数据交互模式，以电子\n交易方式受理大宗交易意向报价发布和成交申报发布，并向市场发布意向和成交信息。交易用户通过大宗交易\n系统买卖行为应当符合《上海证券交易所交易规则》的有关规定。\n综合业务平台\n市场参与者接口规格说明书\n第\n142\n页共\n142\n页"
+}

@@ -1,0 +1,94 @@
+{
+  "doc_id": "sse-iface-20250512-103",
+  "title": "IS118 上海证券交易所特定参与者接口规格说明书（转发卷）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10785855/files/258e5bdc5b6e4f40a6c9e03817720bee.pdf",
+  "analysis_date": "2026-05-02T02:03:06.045389+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（转发卷）》 发布说明 2025 月修订内容：",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（转发卷）》\n发布说明\n2025\n月修订内容：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "下线第五阶段安排，停止转发公共文件。",
+      "detail": "下线第五阶段安排，停止转发公共文件。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、公共类数据文件 、公共文件类（文件公共广播） 公共文件类 交易公开信息公告文件 jygkxxMMDD.txt IS101 司法执行公告文件 sf********.pdf 科创板交易公开信息公告文件 jygkxx02MMDD.txt 债券标准券折算率变更接口 zslMMDD.txt 债券标准券折算率变更公告文件",
+      "detail": "、公共类数据文件\n、公共文件类（文件公共广播）\n公共文件类\n交易公开信息公告文件\njygkxxMMDD.txt\nIS101\n司法执行公告文件\nsf********.pdf\n科创板交易公开信息公告文件\njygkxx02MMDD.txt\n债券标准券折算率变更接口\nzslMMDD.txt\n债券标准券折算率变更公告文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zslwMMDD.txt 基金和净值数据文件 kxxMMDD.txt 权证信息接口 qzxxMMDD.txt 债券标准券折算比率接口 xzslMMDD.txt 盘中停牌公告文件 tpxxxxhhmmss.txt 国债利息接口 gzlx.MDD 产品非交易基础数据 fjyYYYYMMDD.txt 担保品及标的证券清单公告",
+      "detail": "zslwMMDD.txt\n基金和净值数据文件\nkxxMMDD.txt\n权证信息接口\nqzxxMMDD.txt\n债券标准券折算比率接口\nxzslMMDD.txt\n盘中停牌公告文件\ntpxxxxhhmmss.txt\n国债利息接口\ngzlx.MDD\n产品非交易基础数据\nfjyYYYYMMDD.txt\n担保品及标的证券清单公告",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "dbpMMDD.txt 紧急通知文件 MMDDFNNN.txt 公告摘要文件 MMDDZNNN.txt 产品基础信息文件第二版第一批次 cpxx0201MMDD.txt 产品基础信息文件第二版第二批次 cpxx0202MMDD.txt 基金业务参数公告文件 sfpm01MMDD.txt IS105 债券非交易基础信息文件",
+      "detail": "dbpMMDD.txt\n紧急通知文件\nMMDDFNNN.txt\n公告摘要文件\nMMDDZNNN.txt\n产品基础信息文件第二版第一批次\ncpxx0201MMDD.txt\n产品基础信息文件第二版第二批次\ncpxx0202MMDD.txt\n基金业务参数公告文件\nsfpm01MMDD.txt\nIS105\n债券非交易基础信息文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "zfjyYYYYMMDD.xml 基金非交易基础信息文件 jfjyYYYYMMDD.xml 转融通标的证券清单 zrtbdMMDD.txt 债券报价式回购折算率文件 bzsl01MMDD.txt 网络投票议案结构文件 vtlsMMDD.xml 报价收盘文件 bjspMMDD.txt IS118 （托管银行卷）",
+      "detail": "zfjyYYYYMMDD.xml\n基金非交易基础信息文件\njfjyYYYYMMDD.xml\n转融通标的证券清单\nzrtbdMMDD.txt\n债券报价式回购折算率文件\nbzsl01MMDD.txt\n网络投票议案结构文件\nvtlsMMDD.xml\n报价收盘文件\nbjspMMDD.txt\nIS118\n（托管银行卷）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS109 成交明细文件 bjmxMMDD.txt 报价全部文件 bjqbMMDD.txt 期权基础信息文件 reff03MMDD.txt IS124 reff0302YYYYMMDD.xml 期权收盘价格文件 clpr03MMDD.txt 期权组合策略文件 zhcl03MMDD.txt 公告文件 ******MMDD2.etf",
+      "detail": "IS109\n成交明细文件\nbjmxMMDD.txt\n报价全部文件\nbjqbMMDD.txt\n期权基础信息文件\nreff03MMDD.txt\nIS124\nreff0302YYYYMMDD.xml\n期权收盘价格文件\nclpr03MMDD.txt\n期权组合策略文件\nzhcl03MMDD.txt\n公告文件\n******MMDD2.etf",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（基金公司卷） 债券盘中停牌公告文件 ztxxxxhhmmss.txt 国际化产品信息接口 ifjyYYYYMMDD.xml 重点指数及样本表现 zsbxYYMMDD.txt 债券产品信息（压缩包） archive_bondinfoYYYYMMDD.zip 交易参与人清单 se015jycyrYYYYMMDD001.txt",
+      "detail": "（基金公司卷）\n债券盘中停牌公告文件\nztxxxxhhmmss.txt\n国际化产品信息接口\nifjyYYYYMMDD.xml\n重点指数及样本表现\nzsbxYYMMDD.txt\n债券产品信息（压缩包）\narchive_bondinfoYYYYMMDD.zip\n交易参与人清单\nse015jycyrYYYYMMDD001.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LDDS 系统静态数据接口 交易员清单 se015jyyYYYYMMDD001.txt",
+      "detail": "LDDS\n系统静态数据接口\n交易员清单\nse015jyyYYYYMMDD001.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS105",
+    "IS109",
+    "IS118",
+    "IS124",
+    "UniTrans",
+    "债券",
+    "期权",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及9项变更。 废止: 1项。 规则条款变更: 8项。",
+  "confidence": 0.95
+}

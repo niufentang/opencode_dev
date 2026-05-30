@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-iface-20250801-141",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.646739+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "、债券非匹配成交汇总文件 针对债券交易参与人）中订单编号和成交编号字段格式 2.45 2025-06 本文件中的试算结算价 为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格信 息以期权收盘价格文件 为准。文",
+      "detail": "、债券非匹配成交汇总文件\n针对债券交易参与人）中订单编号和成交编号字段格式\n2.45\n2025-06\n本文件中的试算结算价\n为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格信\n息以期权收盘价格文件\n为准。文",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS113",
+    "IS117",
+    "IS120",
+    "IS124",
+    "REITs",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

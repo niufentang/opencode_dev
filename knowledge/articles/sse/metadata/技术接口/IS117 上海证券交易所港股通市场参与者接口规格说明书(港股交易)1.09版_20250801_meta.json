@@ -1,0 +1,18 @@
+{
+  "title": "上海证券交易所新一代交易系统市场参与者接口规格说明书",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\技术接口\\20250801_IS117 上海证券交易所港股通市场参与者接口规格说明书(港股交易)1.09版_20250801.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\技术接口\\IS117 上海证券交易所港股通市场参与者接口规格说明书(港股交易)1.09版_20250801.md",
+  "file_hash": "sha256:3606c5f5698b4de388b148437dd7eabe2433548349a4c7f3f7bc99f35ed792bd",
+  "file_format": "pdf",
+  "page_count": 40,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:47:04.544594+00:00",
+  "sub_category": null
+}

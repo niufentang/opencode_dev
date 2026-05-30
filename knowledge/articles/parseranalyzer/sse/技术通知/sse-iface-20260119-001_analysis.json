@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-iface-20260119-001",
+  "title": "关于发布《IS124_上海证券交易所市场数据文件交换接口规格说明书3.10版》的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10816484/files/1a2d35b26ff04c1bbda52c0db3cb9dfb.pdf",
+  "analysis_date": "2026-05-02T05:42:03.478206+00:00",
+  "metadata": {
+    "file_hash": "sha256:edf95957ef4930b1737f404d475b19d380f7c919f938235b27a5453d6b5a9f4d",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "3.10",
+    "previous_version": null,
+    "public_date": "2026-01-19",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "3.10",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS124"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：interface_spec，版本：3.10。",
+  "confidence": 0.72,
+  "raw_text": "关于发布《\nIS124_\n上海证券交易所市场数据\n文件交换接口规格说明书\n3.10\n版》的通知\n各市场参与人：\n根据工作安排，现发布《\nIS124_\n上海证券交易所市场数\n据文件交换接口规格说明书\n3.10\n版\n_20260114\n（竞价过户优\n化技术开发稿）》，修订了竞价过户数据文件\nghXXXXX.dbf\n，\n启用本次余额字段，支持超\n8\n位成交编号的情况。\n市场参与人可通过本所官方网站\n“\n交易技术支持专区\n”\n或\n登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术文\n档”相关栏目获取上述材料。请做好技术就绪准备。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2026\n年\n1\n月\n19\n日"
+}

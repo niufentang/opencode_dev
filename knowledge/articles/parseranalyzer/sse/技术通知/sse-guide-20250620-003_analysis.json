@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-guide-20250620-003",
+  "title": "关于发布执行报告订阅优化第二阶段技术指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10782500/files/5b7bd9ed78c047fdb9a9d157f0a35a20.pdf",
+  "analysis_date": "2026-05-02T05:42:03.311426+00:00",
+  "metadata": {
+    "file_hash": "sha256:cebb01a386e6e9f7536f59762d38b2519850b3e433ba302c6f95c2a3049f1600",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-06-20",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发布执行报告订阅优化第二阶段\n技术指南的通知\n各市场参与人：\n根据执行报告订阅优化第二阶段工作安排，现发布《上\n海证券交易所执行报告订阅优化市场参与人技术实施指南\n3.0\n版\n_20250620\n》。市场参与人可通过本所官方网站\n“\n交易技\n术支持专区\n”\n或登录市场技术服务平台“技术支持与信息管理\n-\n软件与技术文档”相关栏目获取上述材料。\n上述文档为执行报告订阅优化第二阶段的市场参与人\n技术实施指南，对市场参与人相关的技术实施提出建议。请\n提前做好技术就绪准备。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2025\n年\n6\n月\n20\n日"
+}

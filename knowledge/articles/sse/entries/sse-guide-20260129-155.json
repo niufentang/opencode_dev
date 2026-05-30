@@ -1,0 +1,33 @@
+{
+  "id": "sse-guide-20260129-155",
+  "type": "guide",
+  "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10807304/files/4212cbcec8644849af0dfc43bb536d93.pdf",
+  "summary": "本次涉及8项变更。 技术架构变更: 1项。 版本升级: 3项。 规则条款变更: 4项。 其中重大变更1项。",
+  "tags": [
+    "sse",
+    "guide",
+    "IS111",
+    "IS118",
+    "IS419",
+    "债券",
+    "报盘软件",
+    "期权",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "status": "superseded",
+  "version": "1",
+  "previous_version": "1.0",
+  "public_date": "2026-01-29",
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": "sse-guide-20260227-167",
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": null,
+  "content_markdown": "上海证券交易所技术文档\n上海证券交易所\nIOPV 外部源机构接入\n市场参与者技术实施指南\n1. <span style=\"color:red\">1</span> 版\n上海证券交易所\n二〇二 <span style=\"color:red\">六</span> 年 <span style=\"color:red\">一</span> 月\n\n技术文档\n<span style=\"color:red\">版本历史</span>\n<span style=\"color:red\">版本号</span>\n<span style=\"color:red\">调整内容</span>\n<span style=\"color:red\">V1.0</span> <span style=\"color:red\">20250815</span>\n<span style=\"color:red\">1、创建说明</span>\n<span style=\"color:red\">V1.1</span> <span style=\"color:red\">20260119</span>\n<span style=\"color:red\">1、新增独立接入IOPV要求。</span>\n<span style=\"color:red\">2、相关技术文档中新增错误码表。</span>\n文档摘要\n本文档是上海证券交易所（以下简称 “ 本所 ” ） IOPV 外部源机构接入市场参与\n者技术实施指南 。\n特别申明\n\n本指南为技术实施指南，所涉相关业务规定以本所业务规则为准。\n\n本指南根据本所相关规则、业务方案、公告通知制定。\n\n本所保留对本指南的解释与修改权。\n联系方式\n技术服务 QQ 群：\n298643611\n技术服务电话：\n4008888400-2\n电子邮件：\ntech_support@sse.com.cn\n技术服务微信公众号： SSE-TechService\n\n技术文档\n1\n简介\n本文档为上海证券交易所 <span style=\"color:red\">（以下简称“本所”）</span> 针对 IOPV 外部源机构接入业务，为\n指导市场参与者尽快完成技术准备工作，特制定本指南。\n2\n业务说明\n实时参考净值（以下简称 IOPV ）是 ETF 申赎清单中组合证券的实时市值，能为投\n资者的二级市场交易及申赎提供价格参考。为更好完善 ETF 市场机制，本所拟推动支持\n外部 IOPV 数据源接入并发布。\n3\n接口说明\n《 IS419_ 上海证券交易所互联网交易平台市场参与者接口规格说明书（ IOPV 卷）》\n获得 IOPV 上传资质的指定机构可以通过 HTTP 协议的 RESTful API 接口接入互联\n网交易平台并上传 IOPV 数据。\n（ 1 ）通过交易行情网或 VSEP 网络与交易所进行网络对接；\n（ 2 ）上交所接受当日实时参考基金净值上传时间为当日 7:30 至 16:30 ；\n（ 3 ）上传频率应不快 3 秒 / 幅（含 3 秒），若上传机构未上传最新基金净值，则下一\n次对外发布揭示净值时将保留上次发布揭示的净值不变。\n《 IS118_ 上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n配合 IOPV 外部源机构接入，调整如下：\n（ 1 ） ETF 定义文件接口， IOPV 发布标记字段新增字段取值 C ，代表由第三方机\n构（非中证指数公司）计算 IOPV ，经互联网交易平台转发，通过交易所行情发布；调\n整取值 B 含义为：由中证指数公司计算 IOPV ，通过交易所行情发布。\n（ 2 ） ETF 公告文件接口，对应 ETF 定义文件，调整 Publish （ PublishIOPVFlag ）\n字段描述。\n第 1 页共 3 页\n\n技术文档\n4\n市场参与者技术实施建议及注意事项\n（ 1 ）本所互联网交易平台提供双通道供上传机构发送 IOPV 数据，上传机构应通过\n双通道分别上传且保证双路数据的一致性。具体双路上传地址将另行明确，相关机构可\n先进行相关技术准备。\n（ 2 ）本所对于上传的行情信息会进行防重复、防回流处理，请上传机构依据市场\n接口中的相关要求完成相应技术处理。\n（ 3 ） ETF 定义文件中 IOPV 发布标记字段（ 2.1 版为 Publish IOPV Flag 字段 /xml 版\n为 PublishIOPVFlag 字段）新增通过互联网交易平台发布 IOPV 的取值 C ，调整取值 B\n为“由中证指数公司计算 IOPV ，通过交易所行情发布”。所有通过互联网交易平台上传\n发送 IOPV 数据的 ETF 产品，基金管理人应在该 ETF 定义文件中 Publish IOPV Flag\n（ 2.1 版）或 PublishIOPVFlag （ xml 版）字段填写为 C 。\n<span style=\"color:red\">（</span> <span style=\"color:red\">4</span> <span style=\"color:red\">）行情接收方面，由</span> <span style=\"color:red\">IOPV</span> <span style=\"color:red\">外部源机构提供的数据，本所将统一通过独立</span> <span style=\"color:red\">IOPV</span>\n<span style=\"color:red\">行情渠道发布，不会通过原竞价撮合系统行情（行情网关</span> <span style=\"color:red\">SecurityType=1</span> <span style=\"color:red\">及</span> <span style=\"color:red\">mktdt00.txt</span> <span style=\"color:red\">）</span>\n<span style=\"color:red\">转发。因此，为保障能接收完整的</span> <span style=\"color:red\">IOPV</span> <span style=\"color:red\">行情数据（含未来外部源数据），各市场机构必</span>\n<span style=\"color:red\">须完成独立</span> <span style=\"color:red\">IOPV</span> <span style=\"color:red\">行情渠道的接入。</span>\n<span style=\"color:red\">（</span> <span style=\"color:red\">5</span> <span style=\"color:red\">）</span> 市场参与者应充分评估上述变更对行情、申赎、交易等相关技术系统的影响，\n做好相关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测\n试验证，同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常\n运行。\n5\n相关技术文档\n《 IS419_ 上海证券交易所互联网交易平台市场参与者接口规格说明书（ IOPV 卷） 1.0\n版 _ 技术开发稿》 <span style=\"color:red\">。</span>\n《 IS118_ 上海证券交易所特定参与者接口规格说明书（基金公司卷） 2.2 版 _20250808\n（ IOPV 外部源机构接入技术开发稿）》 <span style=\"color:red\">。</span>\n<span style=\"color:red\">《</span> <span style=\"color:red\">IS111_</span> <span style=\"color:red\">上海证券交易所报盘软件错误代码表</span> <span style=\"color:red\">3.29</span> <span style=\"color:red\">版</span> <span style=\"color:red\">_20260109(</span> <span style=\"color:red\">固收迁移技术开发</span>\n第 2 页共 3 页\n\n技术文档\n<span style=\"color:red\">稿</span> <span style=\"color:red\">)</span> <span style=\"color:red\">》。</span>\n第 3 页共 3 页\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20260129_上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\测试文档\\\\20260129_上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1.1_20260129.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\测试文档\\\\上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1.1_20260129.md\",\n  \"file_hash\": \"sha256:fdb1ec0dd0c8f50f2b751e8e87d2e02a470db4a9c7f295512614e729d2656657\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 5,\n  \"doc_type\": \"guide\",\n  \"version\": \"1\",\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:48:29.677234+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

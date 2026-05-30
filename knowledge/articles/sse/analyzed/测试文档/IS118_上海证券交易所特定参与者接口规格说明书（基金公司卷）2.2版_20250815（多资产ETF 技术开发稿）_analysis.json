@@ -1,0 +1,51 @@
+{
+  "doc_id": "sse-iface-20250815-108",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T02:03:06.111472+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》 发布说明 2025 月修订内容： 支持多资产 ，调整附录一 产品与申赎模式、替代标志、市场 对应关系表。",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n发布说明\n2025\n月修订内容：\n支持多资产\n，调整附录一\n产品与申赎模式、替代标志、市场\n对应关系表。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://idc.ztcloud.ssetech.com.cn/",
+      "detail": "https://idc.ztcloud.ssetech.com.cn/",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F171 单市场多资产 F172 跨市场多资产 F173 现金申赎类多资产 按照实际成分券所属市场进行填写，如所属市场不在 范围内，则填写 9999",
+      "detail": "F171\n单市场多资产\nF172\n跨市场多资产\nF173\n现金申赎类多资产\n按照实际成分券所属市场进行填写，如所属市场不在\n范围内，则填写\n9999",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS103",
+    "IS104",
+    "IS105",
+    "IS118",
+    "债券",
+    "期权",
+    "科创板",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

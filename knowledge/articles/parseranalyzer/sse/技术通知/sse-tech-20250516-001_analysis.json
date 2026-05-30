@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-tech-20250516-001",
+  "title": "关于发布UniTrans停发上交所公共类文件市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10785849/files/13b8810942ae4e94bb249ebbb72e6bd9.pdf",
+  "analysis_date": "2026-05-02T05:42:03.268174+00:00",
+  "metadata": {
+    "file_hash": "sha256:1bdbda11c260ae4f5b98aea97b6dfdeb0053aa9ffb7957b31a8db7a211c0b4bc",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "technical_notice",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-05-16",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "UniTrans"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：technical_notice，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于发布\nUniTrans\n停发上交所公共类文件\n市场接口的通知\n各市场参与人：\n根据\nUniTrans\n（以下简称\nUT\n）停发上交所公共类文件\n相关工作安排，现发布《\nIS118\n上海证券交易所特定参与者\n接口规格说明书（转发卷）\n1.7\n版\n_20250512\n（\nUT\n下线第五\n阶段技术开发稿）》《\nIS124_\n上海证券交易所市场数据文件\n交换接口规格说明书\n2.60\n版\n_20250512\n（\nUT\n下线第五阶段\n技术开发稿）》。市场参与人可登录市场技术服务平台“技\n术支持与信息管理\n-\n软件与技术文档”相关栏目获取上述材料。\n请提前做好技术就绪准备。\n本次主要变更内容：对\nUT\n停止转发上交所公共类文件\n相关内容进行更新。详见文档内修订记录。\n技术咨询电话：\n4008888400\n转\n2\n；技术支持邮箱：\ntech_support@sse.com.cn\n；技术支持服务\nQQ\n群：\n298643611\n。\n特此通知。\n上海证券交易所\n2025\n年\n5\n月\n16\n日"
+}

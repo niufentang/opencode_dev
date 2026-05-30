@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-guide-00000000-165",
+  "title": "上海证券交易所新固定收益系统市场参与人技术实施指南（技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10816480/files/2f6d4773eb954b5e826f6e4d0ee32d12.pdf",
+  "analysis_date": "2026-05-02T02:03:06.823506+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026",
+      "detail": "2026",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS109",
+    "IS111",
+    "IS118",
+    "IS119",
+    "IS120",
+    "IS122",
+    "IS124",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-iface-00000000-086",
+  "title": "关于废止《IS101上海证券交易所竞价撮合平台市场参与者接口规格说明书》并更新相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10800106/files/3f38bb26c9dc467b84e7e1f224693f26.pdf",
+  "analysis_date": "2026-05-02T02:03:05.861895+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "confidence": 0.75
+}

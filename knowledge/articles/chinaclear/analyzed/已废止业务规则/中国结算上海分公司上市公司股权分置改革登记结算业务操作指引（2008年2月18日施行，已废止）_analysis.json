@@ -1,0 +1,30 @@
+{
+  "doc_id": "chinaclear-rule-00000000-092",
+  "title": "中国结算上海分公司上市公司股权分置改革登记结算业务操作指引（2008年2月18日施行，已废止）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.660004+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "www.chinaclear.com.cn",
+      "detail": "www.chinaclear.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

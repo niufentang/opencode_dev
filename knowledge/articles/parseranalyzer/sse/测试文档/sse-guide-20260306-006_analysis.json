@@ -1,0 +1,279 @@
+{
+  "doc_id": "sse-guide-20260306-006",
+  "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20260306（独立IOPV行情 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10813251/files/be44dceb2c0647d5af27e1e6827fb352.pdf",
+  "analysis_date": "2026-05-02T05:42:21.013917+00:00",
+  "metadata": {
+    "file_hash": "sha256:042c0638979ca18f9eaa5a428fdb95f0a473569cafeab00cb3d603da44cdb04d",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2026-03-06",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "废止",
+      "summary": "下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "detail": "下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV",
+      "detail": "IOPV",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情，相关字段标",
+      "detail": "行情，相关字段标",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "记为“无意义”。",
+      "detail": "记为“无意义”。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "废止",
+      "summary": "下线竞价撮合系统行情文件",
+      "detail": "下线竞价撮合系统行情文件",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt00.txt",
+      "detail": "mktdt00.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情，相关字段标记为“无意义”。",
+      "detail": "行情，相关字段标记为“无意义”。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdte.txt",
+      "detail": "mktdte.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "文件名采用固定文件名规则，而非动态命名规则",
+      "detail": "文件名采用固定文件名规则，而非动态命名规则",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，文件名中不包",
+      "detail": "，文件名中不包",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "动态文件名规则：如撮合系统行情文件，文件名为",
+      "detail": "动态文件名规则：如撮合系统行情文件，文件名为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt+ [",
+      "detail": "mktdt+ [",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "]+.txt",
+      "detail": "]+.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，其中环境号会随部署环境变化。例如：在生产环境",
+      "detail": "，其中环境号会随部署环境变化。例如：在生产环境",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "环境）中文件名为",
+      "detail": "环境）中文件名为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，在测试环境（如",
+      "detail": "，在测试环境（如",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt88.txt",
+      "detail": "mktdt88.txt",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "含环境号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据",
+      "detail": "含环境号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "上述规则，在切换环境时注意区分。",
+      "detail": "上述规则，在切换环境时注意区分。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段会保留但会标记为无意义数据。原渠道（",
+      "detail": "字段会保留但会标记为无意义数据。原渠道（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityType=1",
+      "detail": "SecurityType=1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "行情将逐步减少转发直至不再通过此渠道发布，原渠道中",
+      "detail": "行情将逐步减少转发直至不再通过此渠道发布，原渠道中",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "相关字段会保留并填写为",
+      "detail": "相关字段会保留并填写为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（表示无意义），以避免系统兼容性问题。",
+      "detail": "（表示无意义），以避免系统兼容性问题。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS120_",
+      "detail": "IS120_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BINARY",
+      "detail": "BINARY",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数据接口规范",
+      "detail": "数据接口规范",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.58",
+      "detail": "0.58",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20250919",
+      "detail": "_20250919",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "STEP",
+      "detail": "STEP",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124_",
+      "detail": "IS124_",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.70",
+      "detail": "2.70",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.60",
+      "detail": "0.60",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "_20260306",
+      "detail": "_20260306",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.20",
+      "detail": "3.20",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及35项变更。 废止: 2项。 规则条款变更: 33项。",
+  "confidence": 0.92,
+  "raw_text": "意义，该字段取\n0\n时无意义；行情条目类别为\nv\n时，\nMDEntryPx\n表示基金\nIOPV\n，此\n条目仅当\nMDStreamID= MD004\n或\nMDE01\n时有意义，该字段取\n0\n时无意义。\n（二）文件接口（外部源行情文件\nmktdte.txt\n）\n文件头、尾与\nmktdt00.txt\n类似。文件体目前仅有\nMDStreamID= MDE01\n一种，表示\nIOPV\n行情，包含：\nSecurityID\n证券代码、\nSymbol\n证券简称、\nIOPV\n、\nTimestamp\n时间\n戳、\nReserved\n预留字段。\n外部源行情文件\nmktdte.txt\n仅会通过行情网关\nMDGW\n进行下发。\nUT5\n已\n计划\n下\n线，不会发布该文件。\n注意：\nmktdte.txt\n文件名采用固定文件名规则，而非动态命名规则\n1\n，文件名中不包\n1\n动态文件名规则：如撮合系统行情文件，文件名为\nmktdt+ [\n环境号\n]+.txt\n，其中环境号会随部署环境变化。例如：在生产环境\n（\n00\n环境）中文件名为\nmktdt00.txt\n，在测试环境（如\n88\n环境）中文件名为\nmktdt88.txt\n。\n第\n2\n页\n共\n4\n页\n技术文档\n含环境号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据\n上述规则，在切换环境时注意区分。\n二、切换方面\n为提升市场效率，共做两阶段安排：\n（一）第一阶段\n本所向市场机构以试运行的形式发布外部源\nIOPV\n行情，各市场机构应保持以现有\n渠道（\nSecurityType=1\n及\nmktdt00.txt\n）接收\nIOPV\n，外部源行情渠道的\nIOPV\n仅供参\n考，不应用做正式用途。\n此阶段外部源\nIOPV\n行情与现有渠道保持一致。\n市场机构可在此阶段逐步完成技术就绪，为后续正式切换外部源行情渠道做好准\n备。\n（二）第二阶段\n正式发布外部源\nIOPV\n行情，市场机构应切换外部源\nIOPV\n行情为生产使用。\n原渠\n道中\nIOPV\n字段会保留但会标记为无意义数据。原渠道（\nSecurityType=1\n及\nmktdt00.txt\n）中\nIOPV\n行情将逐步减少转发直至不再通过此渠道发布，原渠道中\nIOPV\n相关字段会保留并填写为\n0\n（表示无意义），以避免系统兼容性问题。\n市场参与者应充分评估上述变更对行情、申赎、交易等相关技术系统的影响，做好相\n关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测试验证，\n同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常运行。\n三、行情网关升级说明\n市场参与者可通过升级行情网关版本\n(MDGW_1.2.10\n及以上\n)\n，接收新增外部源行\n情数据。存量生产版本接收其他行情类数据不受影响，其中传输方式使用\nUdp\n高速地\n面和\nUdp\n卫星链路的用户，日志提示：\ntask marketDataTask unknown securityType\n14\n，为正常现象，请忽略。\n第\n3\n页\n共\n4\n页\n技术文档\n4\n相关技术文档\n《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接口规范\n0.58\n版\n_20250919\n》\n《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口规范\n0.58\n版\n_20250919\n》\n《\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n2.70\n版\n_20250919\n》\n《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接口规范\n0.60\n版\n_20260306\n》\n《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口规范\n0.60\n版\n_20260306\n》\n《\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n3.20\n版\n_20260306\n》\n第\n4\n页\n共\n4\n页"
+}

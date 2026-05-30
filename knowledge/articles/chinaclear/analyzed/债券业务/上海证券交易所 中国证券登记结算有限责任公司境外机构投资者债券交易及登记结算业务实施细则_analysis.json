@@ -1,0 +1,21 @@
+{
+  "doc_id": "chinaclear-rule-00000000-006",
+  "title": "上海证券交易所 中国证券登记结算有限责任公司境外机构投资者债券交易及登记结算业务实施细则",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.125067+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：business_rule，版本：无。",
+  "confidence": 0.75
+}

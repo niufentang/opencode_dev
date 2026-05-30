@@ -1,0 +1,31 @@
+{
+  "doc_id": "chinaclear-rule-00000000-159",
+  "title": "«打印份数»",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:34.202819+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "废止",
+      "summary": "文档声明deprecated状态",
+      "detail": "状态: deprecated, 参考: 废止",
+      "severity": "major",
+      "source": "keyword_detect"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "做市商",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 废止: 1项。 其中重大变更1项。",
+  "confidence": 0.85
+}

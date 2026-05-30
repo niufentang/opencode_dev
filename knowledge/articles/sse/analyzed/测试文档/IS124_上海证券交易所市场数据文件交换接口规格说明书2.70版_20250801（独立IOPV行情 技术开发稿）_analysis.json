@@ -1,0 +1,128 @@
+{
+  "doc_id": "sse-iface-20250801-147",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.717506+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2.70 2025-08",
+      "detail": "2.70\n2025-08",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增外部源行情文件",
+      "detail": "新增外部源行情文件",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdte.txt 3.16. 外部源行情文件 文件名： mktdte 扩展名： 发布时间：实时发布 发布渠道： MDGW 文件说明：该文件为外部源行情文件，包括 IOPV 接口格式：行情文件包括文件头、文件体和文件尾三部分 ）文件头：单行记录 字段名称 字段描述 BeginString 起始标识符，填",
+      "detail": "mktdte.txt\n3.16.\n外部源行情文件\n文件名：\nmktdte\n扩展名：\n发布时间：实时发布\n发布渠道：\nMDGW\n文件说明：该文件为外部源行情文件，包括\nIOPV\n接口格式：行情文件包括文件头、文件体和文件尾三部分\n）文件头：单行记录\n字段名称\n字段描述\nBeginString\n起始标识符，填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“HEADER” Version",
+      "detail": "“HEADER”\nVersion",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本，填",
+      "detail": "版本，填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“E1.00” 数据长度：以该字段分隔符后的字节数（不包含本字段后面的分隔符） BodyLength 进行计算，包含其他字段后面的分隔符、换行符 TotNumTradeReports 文件体记录数 MDReportID 行情序号（预留，暂不填） SenderCompID 发送方，填 “XSHG01”",
+      "detail": "“E1.00”\n数据长度：以该字段分隔符后的字节数（不包含本字段后面的分隔符）\nBodyLength\n进行计算，包含其他字段后面的分隔符、换行符\nTotNumTradeReports\n文件体记录数\nMDReportID\n行情序号（预留，暂不填）\nSenderCompID\n发送方，填\n“XSHG01”",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDTime 交易所行情发送时间，格式为 YYYYMMDD-HH:MM:SS.sss 发送方式： MDUpdateType Full refresh Incremental （暂不支持） 市场行情状态，左起每位表示特定的含义，无定义则填空格，具体参 MDSesStatus 见下方市场行情状态取值 扩展区域，市场参与主体的技术系统应能支持记录尾部扩展新的字段",
+      "detail": "MDTime\n交易所行情发送时间，格式为\nYYYYMMDD-HH:MM:SS.sss\n发送方式：\nMDUpdateType\nFull refresh\nIncremental\n（暂不支持）\n市场行情状态，左起每位表示特定的含义，无定义则填空格，具体参\nMDSesStatus\n见下方市场行情状态取值\n扩展区域，市场参与主体的技术系统应能支持记录尾部扩展新的字段",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场行情状态取值： 市场行情状态 字段取值 ）文件体：多行记录",
+      "detail": "市场行情状态取值：\n市场行情状态\n字段取值\n）文件体：多行记录",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字段类型",
+      "detail": "字段类型",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDStreamID 行情数据类型，行情数据类型标识符，取值 MDE01 SecurityID",
+      "detail": "MDStreamID\n行情数据类型，行情数据类型标识符，取值\nMDE01\nSecurityID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码， 二级市场交易代码",
+      "detail": "证券代码，\n二级市场交易代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Symbol 证券简称 ，单位为人民币元。该字段取 0.00000 时，无意义。 N14(5) 公告文件 Publish 字段（是否需要发布 ）取值为 公告文件接口详见《 IS118 此字段为对应产品的 字段取值为 时，此字段固定取 Timestamp 时间戳， HH:MM:SS.sss Reserved",
+      "detail": "Symbol\n证券简称\n，单位为人民币元。该字段取\n0.00000\n时，无意义。\nN14(5)\n公告文件\nPublish\n字段（是否需要发布\n）取值为\n公告文件接口详见《\nIS118\n此字段为对应产品的\n字段取值为\n时，此字段固定取\nTimestamp\n时间戳，\nHH:MM:SS.sss\nReserved",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预留字段 扩展区域，系统应能支持记录尾部扩展新的字段。 ）文件尾：单行记录 EndString 结束标识符，填 “TRAILER” CheckSum 位校验和，校验和计算逻辑参见下方校验和计算 校验和计算： 校验和是通过计算不包括校验和字段 也不包括该字段后的换行符 数值的文件中其他每一个字符（包含分隔",
+      "detail": "预留字段\n扩展区域，系统应能支持记录尾部扩展新的字段。\n）文件尾：单行记录\nEndString\n结束标识符，填\n“TRAILER”\nCheckSum\n位校验和，校验和计算逻辑参见下方校验和计算\n校验和计算：\n校验和是通过计算不包括校验和字段\n也不包括该字段后的换行符\n数值的文件中其他每一个字符（包含分隔",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "符、换行符）之和然后模 得出，然后转化为 ASCII 码。例如，如果经计算校验和为 ，校验和域将取为 校验和字段可用于开盘前和收盘后文件正确性校验。在实时交易期间，因文件按记录循环写入覆盖，校验和 字段存在一定的概率与记录内容不匹配。",
+      "detail": "符、换行符）之和然后模\n得出，然后转化为\nASCII\n码。例如，如果经计算校验和为\n，校验和域将取为\n校验和字段可用于开盘前和收盘后文件正确性校验。在实时交易期间，因文件按记录循环写入覆盖，校验和\n字段存在一定的概率与记录内容不匹配。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS113",
+    "IS117",
+    "IS118",
+    "IS124",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及14项变更。 版本升级: 1项。 接口字段变更: 2项。 规则条款变更: 10项。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

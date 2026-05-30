@@ -1,0 +1,51 @@
+{
+  "doc_id": "sse-iface-20260430-096",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T02:03:05.969277+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "6059 《综合业务平台市场参与者接口规格说明书》 1.60 版发布说明 2026.4 、过户数据接口 bghXXXXX.dbf dghXXXXXYYYYMMDD.dbf ：调整成交编号（ cjbh ）有效位数描述。 、行情文件 mktdt01.txt ：“市场行情状态”，增加在无支持开盘集合竞价的产品、无发行期内国债预发行",
+      "detail": "6059\n《综合业务平台市场参与者接口规格说明书》\n1.60\n版发布说明\n2026.4\n、过户数据接口\nbghXXXXX.dbf\ndghXXXXXYYYYMMDD.dbf\n：调整成交编号（\ncjbh\n）有效位数描述。\n、行情文件\nmktdt01.txt\n：“市场行情状态”，增加在无支持开盘集合竞价的产品、无发行期内国债预发行",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品的情况下，字段无意义说明。 、撮合业务及上证 LOF/ REITs 业务执行报告消息：调整成交编号（ ExecID （目前本业务有效位用到 位，后期将逐步扩展位数，注意做好 相关技术准备工作） ，目前本业务有效位用到 位，后期将逐步扩展位数，注意做好相 关技术准备工作 当无支持开盘集合竞价的产品时，",
+      "detail": "产品的情况下，字段无意义说明。\n、撮合业务及上证\nLOF/\nREITs\n业务执行报告消息：调整成交编号（\nExecID\n（目前本业务有效位用到\n位，后期将逐步扩展位数，注意做好\n相关技术准备工作）\n，目前本业务有效位用到\n位，后期将逐步扩展位数，注意做好相\n关技术准备工作\n当无支持开盘集合竞价的产品时，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "无意义。 暂不启用。 当无发行期内国债预发行 产品时，无意义。 位，后期将逐步扩展位数，注意做好相关技 术准备工作",
+      "detail": "无意义。\n暂不启用。\n当无发行期内国债预发行\n产品时，无意义。\n位，后期将逐步扩展位数，注意做好相关技\n术准备工作",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS124",
+    "REITs",
+    "STEP",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

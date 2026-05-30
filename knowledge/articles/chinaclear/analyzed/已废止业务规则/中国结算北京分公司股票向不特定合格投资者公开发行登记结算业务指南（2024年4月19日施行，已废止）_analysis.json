@@ -1,0 +1,30 @@
+{
+  "doc_id": "chinaclear-rule-00000000-138",
+  "title": "_x0001_",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:34.055261+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "xsbgfdj@chinaclear.com.cn",
+      "detail": "xsbgfdj@chinaclear.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "注册制",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

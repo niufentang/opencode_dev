@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-082",
+  "type": "technical_notice",
+  "title": "关于发布行情网关MDGW_1.2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10792147/files/9d3951fb7ed2492cab9af98048aba569.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": "2.10",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:1f07991d215d97aeadaeb95fd80f29cc00adee96a3a1651872946947f4fd569a",
+  "content_markdown": "关于发布行情网关 MDGW_1.2.10 版本的\n通知\n各市场参与人：\n为更好地为市场提供行情数据文件服务，现发布行情网\n关软件 MDGW_1.2.10 版本。本次行情网关软件版本变更内\n容包括行情任务新增订阅类型“外部源行情”，支持独立流\nIOPV 行情转发，新增行情文件 mktdte.txt 。推荐市场参与人\n进行升级。\n另外提醒，独立 IOPV 行情相关工作分两个阶段开展，\n目前开展第一阶段工作（第一阶段：上海证券交易所向市场\n机构以试运行的形式发布独立 IOPV 行情，各市场机构应保\n持以现有渠道（ SecurityType=1 及 mktdt00.txt ）接收 IOPV 行\n情，独立 IOPV 行情数据仅供参考，不应用做正式用途。第\n二阶段：正式发布外部源 IOPV 行情，市场机构应切换外部\n源 IOPV 行情为生产使用）。第二阶段工作将另行通知。\n请各市场参与人仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试后，开展行情网关的升级部署。\n上述软件安装包可通过市场技术服务平台“技术支持与信息\n管理” > “软件与技术文档” > “软件下载”栏目进行下载。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n\n上海证券交易所\n2025 年 9 月 19 日\n\n<metadata>\n{\n  \"title\": \"20250919_关于发布行情网关MDGW_1.2\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250919_关于发布行情网关MDGW_1.2.10版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布行情网关MDGW_1.2.10版本的通知.md\",\n  \"file_hash\": \"sha256:1f07991d215d97aeadaeb95fd80f29cc00adee96a3a1651872946947f4fd569a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:42.670308+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

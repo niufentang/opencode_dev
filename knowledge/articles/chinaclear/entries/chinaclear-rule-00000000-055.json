@@ -1,0 +1,24 @@
+{
+  "id": "chinaclear-rule-00000000-055",
+  "type": "business_rule",
+  "title": "«打印份数»",
+  "source": "chinaclear",
+  "source_url": null,
+  "summary": "初始版本，无历史变更。文档类型：business_rule，版本：无。",
+  "tags": [
+    "chinaclear",
+    "business_rule"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:77644efcbb81582c5bf9e4da246611266220e3009c4bbf2857ba21a59f07993b",
+  "content_markdown": "关于协助司法机关冻结流通证券\n有关问题的补充通知\n各证券公司：\n为支持上市公司股权分置改革，确保未来上海、深圳证\n券交易所跨市场市值配售股份（上海证券代码为609XXX、深\n圳证券代码为003XXX，以下统称“跨市场配售股份”）跨市\n场转登记工作的顺利进行，现就本公司《关于协助司法机关\n冻结流通证券有关问题的通知》（中国结算发字[2005]184\n号）执行中有关跨市场配售股份的司法冻结事项补充通知如\n下：\n一、跨市场配售股份的司法冻结由托管该股份的证券公\n司协助办理。证券公司协助办理跨市场配售股份司法冻结、\n进行交易控制后，暂不向登记结算公司申报跨市场配售股份\n的司法冻结数据。该部分股份司法冻结数据的处理，按照登\n记结算公司有关跨市场转登记业务的相关规定办理。跨市场\n转登记业务的相关规定另行通知。\n二、其它证券经营机构办理跨市场配售股份的司法冻\n结，比照上述规定执行。\n二○○六年二月二十四日\n— 1 —\n\n<metadata>\n{\n  \"title\": \"«打印份数»\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\协助执法\\\\20061118_关于协助司法机关冻结流通证券有关问题的补充通知（2006-02-24）.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\协助执法\\\\关于协助司法机关冻结流通证券有关问题的补充通知（2006-02-24）.md\",\n  \"file_hash\": \"sha256:77644efcbb81582c5bf9e4da246611266220e3009c4bbf2857ba21a59f07993b\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"business_rule\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-19T11:26:01.074083+00:00\",\n  \"sub_category\": \"协助执法\"\n}\n</metadata>"
+}

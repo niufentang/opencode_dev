@@ -1,0 +1,25 @@
+{
+  "id": "sse-guide-00000000-008",
+  "type": "guide",
+  "title": "互联网交易平台市场参与人ITCS接入调整指引",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10789097/files/8fc8123bbf9b4f319e6b6d695dc31233.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b12c40095af5b7484068d7653fc2d934c91cead1dca0b913c821978353cadb2b",
+  "content_markdown": "互联网交易平台市场参与人\nITCS 接入调整指引\n各市场参与人：\n因互联网交易平台（06 环境）接入服务技术调整，调整后\n相关地址及登录规则如下：\n（一）本次新增金桥、竹园站点的通信服务器（简称：ITCS）\n新地址，同时金桥、外高桥站点的ITCS 原地址仍可用，端口号\n均为30606，地址分别为：\n编号\n站点\n通信地址\n地址 1\n金桥\n*\n新地址\n地址 2\n竹园\n*\n地址 3\n金桥\n*\n地址 4\n外高桥\n*\n地址 5\n金桥\n*\n原地址\n地址 6\n外高桥\n*\n地址 7\n金桥\n*\n地址 8\n外高桥\n*\n注：ITCS 原地址对应的节点计划2025 年10 月份下线。\n（二）互联网交易平台的ITCS 登录规则\n交易网关（简称：TDGW）应优先配置ITCS 新地址，作为主\n用，同时配置ITCS 原地址，作为备用。对于新地址，全市场统\n一顺序配置；对于原地址，请参照以下规则，平均分配：\n各市场参与人将本机构下互联网交易平台TDGW 的登录PBU\n数量除以6 向上取整，得出本机构每个ITCS 原地址可以配置的\n登录PBU 最大数量。会员按照地址编号3、4、5、6、7、8 的顺\n序配置第一备用地址，并按照4、5、6、7、8、3 的顺序配置第\n\n二备用地址；非会员（基金、保险等机构）按照地址编号8、7、\n6、5、4、3 的顺序配置第一备用地址，并按照7、6、5、4、3、\n8 的顺序配置第二备用地址。\n地址选择样例：\n例如某会员机构互联网交易平台TDGW 数量为10，则使用10\n除以6，向上取整为2，此机构每个ITCS 原地址可配置的登录\nPBU 最大数量为2。最终10 个登录PBU 的地址分配如下：\nTDGW 第一主地\nTDGW 第二主地\nTDGW 第一备地\nTDGW 第二备地\n址\n址\n址\n址\n登录PBU1\n地址1\n地址2\n地址3\n地址4\n登录PBU2\n地址1\n地址2\n地址4\n地址5\n登录PBU3\n地址1\n地址2\n地址5\n地址6\n登录PBU4\n地址1\n地址2\n地址6\n地址7\n登录PBU5\n地址1\n地址2\n地址7\n地址8\n登录PBU6\n地址1\n地址2\n地址8\n地址3\n登录PBU7\n地址1\n地址2\n地址3\n地址4\n登录PBU8\n地址1\n地址2\n地址4\n地址5\n登录PBU9\n地址1\n地址2\n地址5\n地址6\n登录PBU10\n地址1\n地址2\n地址6\n地址7\n请市场参与人按照规则，做好TDGW 的配置工作。为保证ITCS\n的接入质量，上交所技术公司将不定期按各市场参与人反馈的配\n置进行抽查，谢谢配合！\n上交所技术有限责任公司\n2025 年8 月20 日\n\n<metadata>\n{\n  \"title\": \"20250820_互联网交易平台市场参与人ITCS接入调整指引\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术指南\\\\20250820_互联网交易平台市场参与人ITCS接入调整指引.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术指南\\\\互联网交易平台市场参与人ITCS接入调整指引.md\",\n  \"file_hash\": \"sha256:b12c40095af5b7484068d7653fc2d934c91cead1dca0b913c821978353cadb2b\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:02.126064+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

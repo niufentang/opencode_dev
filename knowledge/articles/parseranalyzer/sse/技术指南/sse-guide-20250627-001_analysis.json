@@ -1,0 +1,48 @@
+{
+  "doc_id": "sse-guide-20250627-001",
+  "title": "上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1.0",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10783252/files/aa614237558d40f384ea174bd5e5107b.pdf",
+  "analysis_date": "2026-05-02T05:41:47.429748+00:00",
+  "metadata": {
+    "file_hash": "sha256:9e254c43e8ed63662fbaebbd1dc6c7e308bba5c3b23facb57ff48bd7af569ae9",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": "1.0",
+    "previous_version": null,
+    "public_date": "2025-06-27",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.0",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "最新的主板风险警示股票价格涨跌幅限制比例（",
+      "detail": "最新的主板风险警示股票价格涨跌幅限制比例（",
+      "severity": "critical",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）进行订单价格校验",
+      "detail": "）进行订单价格校验",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.92,
+  "raw_text": "上海证券交易所技术文档\n上海证券交易所\n调整主板风险警示股票价格涨跌幅限制比例\n市场参与者技术实施指南\n1.0\n版\n上海证券交易所\n二〇二五年六月\n技术文档\n文档摘要\n本文档是上海证券交易所（以下简称\n“\n本所\n”\n）调整主板风险警示股票价格涨\n跌幅限制比例市场参与者技术实施指南\n。\n特别申明\n\n本指南为技术实施指南，所涉相关业务规定以本所业务规则为准。\n\n本指南根据本所相关规则、业务方案、公告通知制定。\n\n本所保留对本指南的解释与修改权。\n联系方式\n技术服务\nQQ\n群：\n298643611\n技术服务电话：\n4008888400-2\n电子邮件：\ntech_support@sse.com.cn\n技术服务微信公众号：\nSSE-TechService\n技术文档\n1\n简介\n本文档为上海证券交易所调整主板风险警示股票价格涨跌幅限制比例市场参与者\n技术实施指南，对市场参与者相关的技术实施提出建议\n。\n2\n市场接口调整说明\n无。\n第\n1\n页\n共\n3\n页\n技术文档\n3\n市场参与者技术实施建议及注意事项\n根据本所发布的《关于调整主板风险警示股票价格涨跌幅限制比例及有关事项的通\n知（征求意见稿）》内容，待相关规则生效后，主板风险警示股票的价格涨跌幅限制比\n例由\n5%\n调整为\n10%\n。技术接口方面，\ncpxx0201MMDD.txt\n文件中相关主板风险警示股票\n的“涨幅上限价格”“跌幅下限价格”的取值，将按照最新规则计算。\n市场参与者应做好主板风险警示股票交易申报价格前端控制的技术调整工作，\n按照\n最新的主板风险警示股票价格涨跌幅限制比例（\n10%\n）进行订单价格校验\n。对于使用\ncpxx0201MMDD.txt\n文件进行前端控制的，应确认系统已支持本次规则调整内容。对于\n自行计算“涨幅上限价格”“跌幅下限价格”进行前端控制的，应根据规则进行相应技\n术调整。\n市场参与者应充分评估上述变更对申赎、交易、行情等相关技术系统的影响，做好\n相关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测试验\n证，同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常运行。\n第\n2\n页\n共\n3\n页\n技术文档\n4\n相关技术文档\n《\nIS101_\n上海证券交易所竞价撮合平台市场参与者接口规格说明书\n1.70\n版》\n第\n3\n页\n共\n3\n页"
+}

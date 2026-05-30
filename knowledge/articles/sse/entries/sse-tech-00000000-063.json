@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-063",
+  "type": "technical_notice",
+  "title": "关于发布固收平台业务迁移至互联网交易平台市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781087/files/87d60380eaff485d9953c08fca91f5be.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:ff176b9bb79419d340be88557154c3052dc35b220c29ce63d339759e07a067b9",
+  "content_markdown": "关于发布固收平台业务迁移至互联网交易\n平台市场接口的通知\n各市场参与人：\n根据固收平台业务迁移至互联网交易平台相关工作安\n排，现发布以下材料：\n一、《 IS122_ 上海证券交易所交易网关 STEP 接口规格\n说明书（互联网交易平台） 2.07 版 _20250407 （固收迁移技\n术开发稿）》\n二、《 IS124_ 上海证券交易所市场数据文件交换接口规\n格说明书 2.44 版 _20250328 （固收迁移互联网交易平台开发\n稿）》\n市场参与人可登录市场技术服务平台“产品服务 - 交易支\n持软件专区”相关栏目获取上述材料。本次变更内容详见上\n述各文档内修订记录。请提前做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 5 月 16 日\n\n<metadata>\n{\n  \"title\": \"20250516_关于发布固收平台业务迁移至互联网交易平台市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250516_关于发布固收平台业务迁移至互联网交易平台市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固收平台业务迁移至互联网交易平台市场接口的通知.md\",\n  \"file_hash\": \"sha256:ff176b9bb79419d340be88557154c3052dc35b220c29ce63d339759e07a067b9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:34.776033+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

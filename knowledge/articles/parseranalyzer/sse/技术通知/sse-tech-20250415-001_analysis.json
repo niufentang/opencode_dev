@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-tech-20250415-001",
+  "title": "关于UniTrans停发上交所私有类文件的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781078/files/0b3ca7aa8d5141619843847972f35b7f.pdf",
+  "analysis_date": "2026-05-02T05:42:03.247847+00:00",
+  "metadata": {
+    "file_hash": "sha256:e6067120efa89020c9899849c6d57bd3ad292373bd02e42e8458ebc5e09828b6",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "technical_notice",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-04-15",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "UniTrans"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：technical_notice，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "关于\nUniT\nr\nans\n停发上交所私有类文件\n的通知\n各市场参与人：\n根\n据前\n期发布\n的\n《\n关于做好业务\n分发\n及行\n情\n前\n置\n系统和\n易\n神\n系统\n报盘子\n系统下线相关准备的通知\n》\n，并结\n合目\n前市\n场\n就绪情况\n，上海证券交易所\n（以\n下\n简称\n本所\n）拟\n于\n2025\n年\n5\n月\n10\n日\n（周六）\n开展\nUniTrans\n（以\n下\n简称\nUT\n）停止发\n送\n上交所\n私\n有\n类文件等\n通关测试。\n2025\n年\n5\n月\n12\n日\n（周\n一\n）\n起\n相关\n调整将\n于生产环境正\n式\n生\n效\n。\nUT\n停止发送\n上交所\n私\n有\n类文件\n后，市场参与人\n可继续\n通过本所证通\n云盘获取\n上\n述\n相关\n信息\n，详见表\n-1\n。\n表\n-1\n相关\n功能承\n接\n渠道\n文件名\n文件内容\n承接渠道\nXXXX.sse\n银行和基金公司交易数据文件\n证通云盘\nghXXXXX.zip\n竞价平台过户数据接口\n证通云盘\nkhlXXXXX.zip\n开放式基金分红数据接口\n证通云盘\nkyeXXXXX.zip\n开放式基金账户对账数据接口\n证通云盘\nkghXXXXX.zip\n开放式基金交易确认接口\n证通云盘\nzzhXXXXX.zip\n证券账户资料接口\n证通云盘\n(\n月中数据\n)\nzxwXXXXX.zip\n席位联通接口\n证通云盘\n(\n月中数据\n)\nipoghXXXXX.zip\n新股发行过户数据接口\n证通云盘\njckzXXXXX.zip\n减持控制数据接口\n证通云盘\ndghXXXXX.zip\n综业平台过户数据接口\n证通云盘\njjghXXXXX.zip\n基金过户数据接口\n证通云盘\noghXXXXX.zip\n期权平台过户数据接口\n证通云盘\nzqghXXXXX.zip\n债券过户数据文件\n证通云盘\nighXXXXX.zip\n国际化产品过户数据文件\n证通云盘\nhghXXXXX.zip\n港股通过户数据接口\n证通云盘\n技术\n咨询电话\n：\n4008888400\n转\n2\n，\nQQ\n群\n：\n298643611\n。\n特此通知。\n上交所技术有\n限责任公司\n2025\n年\n4\n月\n15\n日"
+}

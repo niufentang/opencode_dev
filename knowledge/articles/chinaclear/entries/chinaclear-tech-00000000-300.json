@@ -1,0 +1,24 @@
+{
+  "id": "chinaclear-tech-00000000-300",
+  "type": "technical_notice",
+  "title": "关于改进B股风险基金缴纳方式的通知",
+  "source": "chinaclear",
+  "source_url": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "chinaclear",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:18fd9ede09a59b3b1eacf54ad54ac53da32f0e45fffd12a100a6c4f272bd9e6a",
+  "content_markdown": "关于改进B 股风险基金缴纳方式的通知\n（ 深圳证券交易所 一九九八年三月二十四日）\n各 B 股结算会员：\n为进一步防范 B 股结算交收风险，保障 B 股交收的正常秩序，根据中\n国证券监督管理委员会证监交字［ 1997 ］ 19 号文件的批复，我所将于 1998\n年 4 月 1 日起改进深圳 B 股风险基金缴纳方式，具体方案如下：\n一、 每个 B 股结算会员所需缴纳风险基金的基数是：基本结算会员或\n特别结算会员为 50 万港元，一般结算会员为 30 万港元。\n二、每季度初，由本所国际结算部根据每个结算会员上一季度的交易量\n计算各个结算会员除基数以外应追缴的部分，凡季度交易量超过 6 千万港\n元（不含 6 千万）的结算会员均需追缴风险基金，追缴部分以每超过 1 千\n万港元的交易量需缴纳 10 万港元风险基金计算，不足 1 千万港元的部分按\n1 千万港元计算。\n三、每个结算会员交纳风险基金的总数设有上限，即基本结算会员或特\n别结算会员不超过 100 万港元，一般结算会员不超过 60 万港元。\n四、本所国际结算部将根据 1998 年 1 季度各结算会员的 B 股成交额计\n算应追缴的风险基金数额，并于 1998 年 4 月 5 日向各 B 股结算会员发出风\n险基金追缴款付款通知书。境内 B 股券商的追缴份额由国际结算部在其渣\n打银行帐户中扣除，境外 B 股券商则须将款项汇入本所指定帐户。每季度\n\n初各 B 股结算会员收到此付款通知后，须按时完成风险基金追加份额的缴\n纳工作。\n五、各 B 结算会员每季度所要追加的风险基金数额由国际结算部根据其\n上季度交易量予以调整，多退少补。因成交量减少需要退还风险基金追缴\n份额的结算会员，每季度初国际结算部将此款项汇入该结算会员的帐户。\n特此通知\n深圳证券交易所\n一九九八年三月二十四日\n\n<metadata>\n{\n  \"title\": \"关于改进B股风险基金缴纳方式的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\涉外与跨境业务\\\\20061118_关于改进B股风险基金缴纳方式的通知（1998-03-24）.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\涉外与跨境业务\\\\关于改进B股风险基金缴纳方式的通知（1998-03-24）.md\",\n  \"file_hash\": \"sha256:18fd9ede09a59b3b1eacf54ad54ac53da32f0e45fffd12a100a6c4f272bd9e6a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-19T11:26:21.746940+00:00\",\n  \"sub_category\": \"涉外与跨境业务\"\n}\n</metadata>"
+}

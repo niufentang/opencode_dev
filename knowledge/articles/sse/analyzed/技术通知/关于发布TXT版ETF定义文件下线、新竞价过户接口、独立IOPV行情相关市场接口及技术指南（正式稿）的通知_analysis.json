@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-guide-00000000-041",
+  "title": "关于发布TXT版ETF定义文件下线、新竞价过户接口、独立IOPV行情相关市场接口及技术指南（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10813259/files/53b047c3517544ff960735c532ada9ac.pdf",
+  "analysis_date": "2026-05-02T02:03:05.710473+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS105",
+    "IS118",
+    "IS120",
+    "IS124",
+    "STEP",
+    "独立IOPV",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

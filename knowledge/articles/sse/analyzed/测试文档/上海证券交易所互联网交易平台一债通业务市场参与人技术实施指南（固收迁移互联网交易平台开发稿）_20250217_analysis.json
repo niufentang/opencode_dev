@@ -1,0 +1,44 @@
+{
+  "doc_id": "sse-guide-20250217-157",
+  "title": "上海证券交易所互联网交易平台一债通业务市场参与人技术实施指南（固收迁移互联网交易平台开发稿）_20250217",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781337/files/80ac122ed4b84928b873c27cf17b465f.pdf",
+  "analysis_date": "2026-05-02T02:03:06.797455+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "技术架构变更",
+      "summary": "区分网页端申报和网关端申报",
+      "detail": "区分网页端申报和网关端申报",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "和债券借贷（业务迁入） 债券非匹配成交汇总文件（ zghXX XXX.txt 债券非匹配成交参考价文件（ bondnegorefpx_yyyymmdd.xml 2.06 _20250114 （固收迁移技术开发稿） 50217",
+      "detail": "和债券借贷（业务迁入）\n债券非匹配成交汇总文件（\nzghXX\nXXX.txt\n债券非匹配成交参考价文件（\nbondnegorefpx_yyyymmdd.xml\n2.06\n_20250114\n（固收迁移技术开发稿）\n50217",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS109",
+    "IS118",
+    "IS119",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 技术架构变更: 1项。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

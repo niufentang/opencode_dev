@@ -1,0 +1,52 @@
+{
+  "doc_id": "sse-iface-20180309-120",
+  "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
+  "analysis_date": "2026-05-02T02:03:06.207577+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026-03-06 0.60",
+      "detail": "2026-03-06\n0.60",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "版，下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "detail": "版，下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV 情，相关字段标记为“无意义”。 数据内容无意义此条目仅当 MDStreamID= MD004 时有意义，当 MDStreamID= MDE01 时无意义 MD004 产品，此字段有效。该字段取 时，无意义。该字段不作除权除息等调整。",
+      "detail": "IOPV\n情，相关字段标记为“无意义”。\n数据内容无意义此条目仅当\nMDStreamID= MD004\n时有意义，当\nMDStreamID= MDE01\n时无意义\nMD004\n产品，此字段有效。该字段取\n时，无意义。该字段不作除权除息等调整。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通",
+    "独立IOPV",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 废止: 1项。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

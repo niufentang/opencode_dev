@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-087",
+  "title": "关于更新发布相关市场接口（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10801494/files/44331911c160410ca3f3c9092363ca32.pdf",
+  "analysis_date": "2026-05-02T02:03:05.864113+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS109",
+    "IS124"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

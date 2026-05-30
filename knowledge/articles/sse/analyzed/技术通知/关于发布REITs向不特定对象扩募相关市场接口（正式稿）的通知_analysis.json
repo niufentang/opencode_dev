@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-040",
+  "title": "关于发布REITs向不特定对象扩募相关市场接口（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10783261/files/dbe98eaf931f4475b2b80ead06f7c512.pdf",
+  "analysis_date": "2026-05-02T02:03:05.707290+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105",
+    "REITs"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

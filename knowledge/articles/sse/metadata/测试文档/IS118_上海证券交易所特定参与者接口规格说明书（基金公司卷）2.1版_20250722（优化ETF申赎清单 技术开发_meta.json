@@ -1,0 +1,18 @@
+{
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20250801_IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）2.1版_20250722（优化ETF申赎清单 技术开发稿）.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）2.1版_20250722（优化ETF申赎清单 技术开发.md",
+  "file_hash": "sha256:f3e687e0b3c1ea5084a4415124bad4bbe21128b0f30173f354086a38398dc4f7",
+  "file_format": "pdf",
+  "page_count": 52,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:48:09.214858+00:00",
+  "sub_category": null
+}

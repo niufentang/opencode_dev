@@ -1,0 +1,276 @@
+{
+  "doc_id": "sse-guide-20260430-168",
+  "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10817288/files/5423c05c361a4c9f98525a36650c74aa.pdf",
+  "analysis_date": "2026-05-02T02:03:06.836647+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "新竞价：",
+      "detail": "新竞价：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字符型枚举取值字段的填写调整”章节。",
+      "detail": "字符型枚举取值字段的填写调整”章节。",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.12",
+      "detail": "4.12",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "下线竞价交易网关的“专用订阅通道””章",
+      "detail": "下线竞价交易网关的“专用订阅通道””章",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.10 产品基础信息文件涨幅上限 下限价格字段更 新（无实际控制场景下）”章节的相关描述。",
+      "detail": "4.10\n产品基础信息文件涨幅上限\n下限价格字段更\n新（无实际控制场景下）”章节的相关描述。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.2",
+      "detail": "V1.2",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2026-04 新综业： 5.10 大宗固定价格交易业务“本次剩余余额”字 段取值”章节。 市场接口调整说明”、“ 成交编号有效长 度扩位”、“ 产品非交易基础信息文件”、“ EzSTEP",
+      "detail": "2026-04\n新综业：\n5.10\n大宗固定价格交易业务“本次剩余余额”字\n段取值”章节。\n市场接口调整说明”、“\n成交编号有效长\n度扩位”、“\n产品非交易基础信息文件”、“\nEzSTEP",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "申报接口字段优化”章节的相关描述。",
+      "detail": "申报接口字段优化”章节的相关描述。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "6059 撮合业务及上证 LOF/ REITs 业务执行报告消息：调整成交编号 ExecID ）有效位数描述。 根据现状，补充与修订过户数据接口 bghXXXXX.dbf 相关描述。",
+      "detail": "6059\n撮合业务及上证\nLOF/\nREITs\n业务执行报告消息：调整成交编号\nExecID\n）有效位数描述。\n根据现状，补充与修订过户数据接口\nbghXXXXX.dbf\n相关描述。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字符型枚举取值字段的填写调整 针对约定枚举值的字符型字段， 针对约定枚举值的字符型字段，在",
+      "detail": "字符型枚举取值字段的填写调整\n针对约定枚举值的字符型字段，\n针对约定枚举值的字符型字段，在",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "在该字段无意义场景下，若填报",
+      "detail": "在该字段无意义场景下，若填报",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "该字段无意义场景下，若填报枚举 枚举值以外的其它有效字符，响",
+      "detail": "该字段无意义场景下，若填报枚举\n枚举值以外的其它有效字符，响",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "值以外的其它有效字符，响应中该 应中该字段（若有）返回原申报 字段（若有）返回空格。",
+      "detail": "值以外的其它有效字符，响应中该\n应中该字段（若有）返回原申报\n字段（若有）返回空格。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "针对约定枚举值的字符型字段，在该字段无意义场景下，建议市场参与人",
+      "detail": "针对约定枚举值的字符型字段，在该字段无意义场景下，建议市场参与人",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "填写接口中的推荐值或空格，避免另做他用，以防影响业务开展。 示例：新订单申报接口中的信用标签（ CreditTag",
+      "detail": "填写接口中的推荐值或空格，避免另做他用，以防影响业务开展。\n示例：新订单申报接口中的信用标签（\nCreditTag",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "），枚举值包括 。针对非交易业务，该字段无意义。若非交易填报枚举值外的其他字",
+      "detail": "），枚举值包括\n。针对非交易业务，该字段无意义。若非交易填报枚举值外的其他字",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，则在申报响应中，该字段返回为空格。 针对股票产 的股票产品",
+      "detail": "，则在申报响应中，该字段返回为空格。\n针对股票产\n的股票产品",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "下线竞价交易网关的“专用订阅通道”",
+      "detail": "下线竞价交易网关的“专用订阅通道”",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "新竞价不再支持“专用订阅通道”，若继续登录该通道，则会影响当日交易",
+      "detail": "新竞价不再支持“专用订阅通道”，若继续登录该通道，则会影响当日交易",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "网关的正常登录。请市场参与人在新竞价上线时，针对版本号为",
+      "detail": "网关的正常登录。请市场参与人在新竞价上线时，针对版本号为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.8.25 及以上的",
+      "detail": "1.8.25\n及以上的",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "交易网关版本，务必同步关闭交易网关的“专用订阅通道”开关。",
+      "detail": "交易网关版本，务必同步关闭交易网关的“专用订阅通道”开关。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，撮合业务执行报告消息、上证 业务执行报告 消息成交编号（ 示例：过户数据接口 bghXXXXX.bdf 目前成交编号（ cjbh 有效位用到 描述已不适用，删除相关描述。 修正对于 记录的， 新综合业务系统货币市场基金实时申赎业务订单 消息的实际",
+      "detail": "，撮合业务执行报告消息、上证\n业务执行报告\n消息成交编号（\n示例：过户数据接口\nbghXXXXX.bdf\n目前成交编号（\ncjbh\n有效位用到\n描述已不适用，删除相关描述。\n修正对于\n记录的，\n新综合业务系统货币市场基金实时申赎业务订单\n消息的实际",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "申报接口字段优化",
+      "detail": "申报接口字段优化",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）交易系统返回消息中字符型字段“去右空格”处理 对于字符类型字段： 市场申报的消息填写不足接口 约定长度时，交易系统返回的消 约定长度时，交易系统返回的消息 息中会右补空格至接口约定长 中不再右补空格至接口约定长度； 市场申报的消息填写无论是否 满足接口约定长度，交易系统返回 的消息中均会去掉所有右空格；",
+      "detail": "）交易系统返回消息中字符型字段“去右空格”处理\n对于字符类型字段：\n市场申报的消息填写不足接口\n约定长度时，交易系统返回的消\n约定长度时，交易系统返回的消息\n息中会右补空格至接口约定长\n中不再右补空格至接口约定长度；\n市场申报的消息填写无论是否\n满足接口约定长度，交易系统返回\n的消息中均会去掉所有右空格；",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "市场申报的消息填写为全空格 时，交易系统返回的消息中，保留 一个空格。 市场申报时填写 ClOrdID “123 位。“□”代表一位空 位）或者 □□□□ 格，下同），响应及成交中的 位），响应及成交中 □□□□□□ “123” 响应及成交中的 ）交易系统返回消息中“空”字符型字段“补空格”处理 对于交易系统返回的消息中，字",
+      "detail": "市场申报的消息填写为全空格\n时，交易系统返回的消息中，保留\n一个空格。\n市场申报时填写\nClOrdID\n“123\n位。“□”代表一位空\n位）或者\n□□□□\n格，下同），响应及成交中的\n位），响应及成交中\n□□□□□□\n“123”\n响应及成交中的\n）交易系统返回消息中“空”字符型字段“补空格”处理\n对于交易系统返回的消息中，字",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于交易系统返回的消息中，字符 符串类型的字段，若为空字段则 串类型的字段，若为空字段，统一 填写一个空格或空值。 填写一个空格。 ）交易系统返回消息无意义字段取值 建议市场参与者对于接口约定无意义的字段，可处理满足接口约定的任意 取值或不使用该字段。因 STEP 消息字段默认值取值优化，交易系统返回的消",
+      "detail": "对于交易系统返回的消息中，字符\n符串类型的字段，若为空字段则\n串类型的字段，若为空字段，统一\n填写一个空格或空值。\n填写一个空格。\n）交易系统返回消息无意义字段取值\n建议市场参与者对于接口约定无意义的字段，可处理满足接口约定的任意\n取值或不使用该字段。因\nSTEP\n消息字段默认值取值优化，交易系统返回的消",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "息长度或发生变化。 对于接口约定“无意义”字段，除特 殊约定，存在如下取值情况： ）填写默认值： 数字型字段，填写 字符型字段，填写 日期时间类型字段，填写实际时间 ）填写市场参与者申报消息对应字 转融通业务，公共数据消息： 接口约定为“行情结束记录消 接口约定为“行情结束记录消息中备 息中备注域（",
+      "detail": "息长度或发生变化。\n对于接口约定“无意义”字段，除特\n殊约定，存在如下取值情况：\n）填写默认值：\n数字型字段，填写\n字符型字段，填写\n日期时间类型字段，填写实际时间\n）填写市场参与者申报消息对应字\n转融通业务，公共数据消息：\n接口约定为“行情结束记录消\n接口约定为“行情结束记录消息中备\n息中备注域（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Text ）取值“ ZRT_MD_END 消息体内其他域取值无意义。”，交 ”，消息体内 其他域取值无意义。”，交易 易所发送消息为 所发送消息为 9=60<SOH>35=W<SOH>11 9=63<SOH>35=W<SOH>1180= <SOH>48= <SOH>55= 80=<SOH>48=<SOH>55=<SO",
+      "detail": "Text\n）取值“\nZRT_MD_END\n消息体内其他域取值无意义。”，交\n”，消息体内\n其他域取值无意义。”，交易\n易所发送消息为\n所发送消息为\n9=60<SOH>35=W<SOH>11\n9=63<SOH>35=W<SOH>1180=\n<SOH>48=\n<SOH>55=\n80=<SOH>48=<SOH>55=<SO",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "H>44=0.000<SOH>271=0<SO <SOH>44=0.000<SOH>271=0<SOH> H>387=0<SOH>580=0<SOH> 387=0<SOH>580=0<SOH>58=ZRT_ 58=ZRT_MD_END<SOH> MD_END<SOH> 股票质押式回购业务，申报响应消息",
+      "detail": "H>44=0.000<SOH>271=0<SO\n<SOH>44=0.000<SOH>271=0<SOH>\nH>387=0<SOH>580=0<SOH>\n387=0<SOH>580=0<SOH>58=ZRT_\n58=ZRT_MD_END<SOH>\nMD_END<SOH>\n股票质押式回购业务，申报响应消息",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申报撤单成功响应消息：",
+      "detail": "申报撤单成功响应消息：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "接口约定为“证券代码，如无意义可",
+      "detail": "接口约定为“证券代码，如无意义可",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "取空格。”交易所返回消息与申报消",
+      "detail": "取空格。”交易所返回消息与申报消",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "息填写证券代码一致。",
+      "detail": "息填写证券代码一致。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "大宗固定价格交易业务 本次剩余余额 字段取值 大宗固定价格交易业务，执行报告消息中“本次剩余余额”字段及过户数 dghXXXXXYYYYMMDD.dbf 中“本次余额”取值。 填写本次成交后发起方固定价格 交易申报数量的剩余未成交数量。",
+      "detail": "大宗固定价格交易业务\n本次剩余余额\n字段取值\n大宗固定价格交易业务，执行报告消息中“本次剩余余额”字段及过户数\ndghXXXXXYYYYMMDD.dbf\n中“本次余额”取值。\n填写本次成交后发起方固定价格\n交易申报数量的剩余未成交数量。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS105",
+    "IS111",
+    "IS118",
+    "IS120",
+    "IS122",
+    "IS124",
+    "REITs",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及35项变更。 接口字段变更: 9项。 规则条款变更: 20项。 版本升级: 1项。 技术架构变更: 4项。 废止: 1项。 其中重大变更2项。",
+  "confidence": 0.95
+}

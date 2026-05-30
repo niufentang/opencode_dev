@@ -1,0 +1,18 @@
+{
+  "title": "固定收益平台STEP协议报盘接口规格说明书V1.0版（开发测试稿）",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20250603_IS119_上海证券交易所固定收益平台STEP协议报盘接口规格说明书1.93版（行情文件发送频率调整技术开发稿）_20250508.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\IS119_上海证券交易所固定收益平台STEP协议报盘接口规格说明书1.93版（行情文件发送频率调整技术开发稿）_202.md",
+  "file_hash": "sha256:9939bb2ad5e01b080e18396e0178158dd4ef1a1c805eca035007439147c8e340",
+  "file_format": "pdf",
+  "page_count": 119,
+  "doc_type": "interface_spec",
+  "version": "1.0",
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-05-02T01:48:08.557528+00:00",
+  "sub_category": null
+}

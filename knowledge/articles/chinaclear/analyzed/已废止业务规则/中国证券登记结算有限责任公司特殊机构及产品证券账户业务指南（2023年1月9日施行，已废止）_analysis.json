@@ -1,0 +1,36 @@
+{
+  "doc_id": "chinaclear-rule-00000000-222",
+  "title": "中国证券登记结算有限责任公司特殊机构及产品证券账户业务指南（2023年1月9日施行，已废止）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:34.631311+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "废止",
+      "summary": "文档声明deprecated状态",
+      "detail": "状态: deprecated, 参考: 废止",
+      "severity": "major",
+      "source": "keyword_detect"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券",
+    "做市商",
+    "期权",
+    "港股通",
+    "科创板",
+    "融资融券",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 废止: 1项。 其中重大变更1项。",
+  "confidence": 0.85
+}

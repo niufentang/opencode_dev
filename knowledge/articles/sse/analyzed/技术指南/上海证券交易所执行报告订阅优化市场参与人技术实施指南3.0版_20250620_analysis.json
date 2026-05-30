@@ -1,0 +1,34 @@
+{
+  "doc_id": "sse-guide-20250620-003",
+  "title": "上海证券交易所执行报告订阅优化市场参与人技术实施指南3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10782503/files/5272f03f200f4134b6a0bff6a15329cd.pdf",
+  "analysis_date": "2026-05-02T02:03:05.545232+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "tech_support@sse.com.cn",
+      "detail": "tech_support@sse.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "债券",
+    "期权",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

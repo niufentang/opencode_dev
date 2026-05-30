@@ -1,0 +1,30 @@
+{
+  "id": "sse-guide-00000000-077",
+  "type": "guide",
+  "title": "关于发布独立IOPV行情市场接口及技术指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10811031/files/4d555179c95d41a2aabea1b936409a57.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS120",
+    "IS124",
+    "STEP",
+    "独立IOPV",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:97ff88feb96bb6e2071d574825dba8671af76166164f2ebd9df9ae3351fef7b7",
+  "content_markdown": "关于发布独立 IOPV 行情\n市场接口及技术指南的通知\n各市场参与人：\n根据独立 IOPV 行情相关工作安排，现发布以下材料：\n一、《 IS120_ 上海证券交易所行情网关 BINARY 数据接\n口规范 0.58 版 _20250801 （独立 IOPV 行情技术开发稿）》\n二、《 IS120_ 上海证券交易所行情网关 STEP 数据接口\n规范 0.58 版 _20250801 （独立 IOPV 行情技术开发稿）》\n三、《 IS124_ 上海证券交易所市场数据文件交换接口规\n格说明书 2.70 版 _20250801 （独立 IOPV 行情技术开发稿）》\n四、《上海证券交易所独立 IOPV 行情市场参与者技术\n实施指南 _20250801 》\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请提前做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 8 月 8 日\n\n<metadata>\n{\n  \"title\": \"20250808_关于发布独立IOPV行情市场接口及技术指南的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250808_关于发布独立IOPV行情市场接口及技术指南的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布独立IOPV行情市场接口及技术指南的通知.md\",\n  \"file_hash\": \"sha256:97ff88feb96bb6e2071d574825dba8671af76166164f2ebd9df9ae3351fef7b7\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:40.756970+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

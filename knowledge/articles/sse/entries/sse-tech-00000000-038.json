@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-038",
+  "type": "technical_notice",
+  "title": "关于发布IOPV行情计算源调整市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10787993/files/7bf0ed413bbb43bfad8b338a0de4182f.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:07cbdc53b94a72f1b2ab4ad49625f6efb317f4ba7da458fb264cebc1a8c1b69a",
+  "content_markdown": "关于发布 IOPV 行情计算源调整\n市场接口的通知\n各市场参与人：\n根据工作安排，上海证券交易所 IOPV 行情计算职责将\n逐步迁移至中证指数公司，后续本所将停止支持 IOPV 计算\n（具体时间另行通知）。现发布《 IS118_ 上海证券交易所特\n定参与者接口规格说明书（基金公司卷） 2.2 版 _20250725\n（ IOPV 行情计算源调整技术开发稿）》。市场参与人可通\n过本所官方网站 “ 交易技术支持专区 ” 或登录市场技术服务平\n台“技术支持与信息管理 - 软件与技术文档”相关栏目获取上\n述材料。请提前做好技术就绪准备。\n本次主要变更内容：根据 IOPV 行情计算源调整规划，\n后续交易所将不再支持计算 IOPV ，调整 ETF 定义文件接口\n中 Publish IOPV Flag 字段（ xml 版为 PublishIOPVFlag 字段），\n取消“ Y- 由交易系统计算 IOPV 且通过行情发布”取值。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 8 月 8 日\n\n<metadata>\n{\n  \"title\": \"20250808_关于发布IOPV行情计算源调整市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250808_关于发布IOPV行情计算源调整市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布IOPV行情计算源调整市场接口的通知.md\",\n  \"file_hash\": \"sha256:07cbdc53b94a72f1b2ab4ad49625f6efb317f4ba7da458fb264cebc1a8c1b69a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:40.436001+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

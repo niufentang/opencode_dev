@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-065",
+  "type": "technical_notice",
+  "title": "关于发布多资产ETF市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10789327/files/a20fbd6ea1e8412ba54f0008e5a40408.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:53132fd49bf809bf77feca7bc5856bb3e83b409748d7eae4bf8ab9fd6be2e75f",
+  "content_markdown": "关于发布多资产 ETF 市场接口的通知\n各市场参与人：\n根据多资产 ETF 相关工作安排，现发布以下材料：\n一、《 IS118_ 上海证券交易所特定参与者接口规格说明\n书（基金公司卷） 2.2 版 _20250815 （多资产 ETF 技术开发\n稿）》\n二、《 IS105_ 上海证券交易所综合业务平台市场参与者\n接口规格说明书 1.57 版 _20250815 （多资产 ETF 技术开发稿）》\n三、《 IS101_ 上海证券交易所竞价撮合平台市场参与者\n接口规格说明书 1.73 版 _20250815 （多资产 ETF 技术开发稿）》\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。请提前做好技术就绪准备。\n本次主要变更内容：调整 ETF 产品与申赎模式、替代标\n志、市场 ID 对应关系表；调整 ETF 现金申赎业务、 ETF 实\n物申赎业务适用 ETF 产品范围；产品基础信息文件接口增加\n基金细分类别取值： F171- 单市场多资产 ETF 、 F172- 跨市场\n多资产 ETF 、 F173- 现金申赎类多资产 ETF 。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n\n2025 年 8 月 22 日\n\n<metadata>\n{\n  \"title\": \"20250822_关于发布多资产ETF市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250822_关于发布多资产ETF市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布多资产ETF市场接口的通知.md\",\n  \"file_hash\": \"sha256:53132fd49bf809bf77feca7bc5856bb3e83b409748d7eae4bf8ab9fd6be2e75f\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:41.397256+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

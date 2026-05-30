@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-085",
+  "type": "technical_notice",
+  "title": "关于宽带单向卫星系统带宽调整的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781070/files/a4e11882462f4fd391ebf464d0d5ca83.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:23f555e4834c8a54413bf749dc2cd27607278f4a8341bebb70d982d0e5369628",
+  "content_markdown": "关于宽带单向卫星系统\n带宽调整的通知\n各市场参与人：\n本司计划调整宽带单向卫星系统发送带宽，调整工作分\n两阶段实施，第一阶段实施工作将于 3 月 14 日 19:00 开始，\n主站下发新的带宽及频率参数文件，单向卫星接收机将自动\n下载并重启，用户无需做任何操作。接收机重启后，请用户\n按照本通知附件一自行确认是否下载成功，并参加次日的市\n场测试，及时填写用户反馈表。\n第二阶段实施工作将于 4 月 25 日 19:00 开始，主站调整\n发送参数，使用新频率新带宽发送载波，调整期间单向卫星\n接收机无法锁定，调整完成后单向卫星接收机将锁定新载波，\n用户无需做任何操作。接收机重新锁定后，请用户自行确认\n是否已锁定，并参加次日的市场测试，及时填写用户反馈表。\n上述工作安排如遇特殊情况将延期实施，届时将另行通\n知，请各位用户知悉。\n上交所技术有限责任公司\n2025 年 3 月 11 日\n\n附件一\n单向卫星用户频率确认操作指南\n请各用户按照以下步骤进行操作，确认卫星接收机是否成功下载\n新的频率参数。\n操作步骤：在与卫星接收机相连的PC 机上，打开IE 或其他浏览\n器，在地址栏中输入接收小站的ip 地址，即http://2xx.xxx.xxx.1，\n点击页面右上角的木偶图标进入高级配置页面，点击左侧菜单\nGeneral—SHM Monitor，确认是否已下载到SECONDARY 频率参数，如\n下图所示：\n上交所技术有限责任公司\n2025 年3 月11 日\n\n<metadata>\n{\n  \"title\": \"20250311_关于宽带单向卫星系统带宽调整的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250311_关于宽带单向卫星系统带宽调整的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于宽带单向卫星系统带宽调整的通知.md\",\n  \"file_hash\": \"sha256:23f555e4834c8a54413bf749dc2cd27607278f4a8341bebb70d982d0e5369628\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:32.247598+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

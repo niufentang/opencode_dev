@@ -1,0 +1,21 @@
+{
+  "doc_id": "chinaclear-rule-00000000-068",
+  "title": "中国证券登记结算有限责任公司公开募集不动产投资信托基金登记结算业务指引（试行）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.507136+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：business_rule，版本：无。",
+  "confidence": 0.75
+}

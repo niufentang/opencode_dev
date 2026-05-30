@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-guide-20250328-006",
+  "title": "上海证券交易所优化ETF申赎清单市场参与者技术实施指南_20250324",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10795900/files/a9873e71c60f4597b8f10589de5c6c7e.pdf",
+  "analysis_date": "2026-05-02T05:42:09.178093+00:00",
+  "metadata": {
+    "file_hash": "sha256:640c374212be5350774e8dc3e811cf61916b31b77aa051729793b38b41a09ec6",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-03-28",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "ETF"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "份数\n（\nCreationRedemptionUnit\n），不再要求必须是最小申购、赎回单位\n（\nCreationRedemptionUnit\n）的正整数倍。\n（四）在\n2.3.2\n交互文件通用约定章节中，增加\nxml\n版相关约定。\n1.\n字符串型\n“\nCX\n”代表该字段为字符串型字段，\nX\n为该字段的最大字节长度，例如\n“\nC5\n”代表最大长度为\n5\n字节的字段。\n第\n9\n页\n共\n11\n页\n技术文档\n2.\n十进制整数型\n“\nNX\n”代表该字段为十进制整数型字段，可表示正负（由负数表示字符“\n-\n”，\n“\n0\n”至“\n9\n”组成），\nX\n为该整数的最大长度（包括符号位），例如“\nN5\n”代表最大\n长度为\n5\n的整数字段。\n3.\n十进制浮点数字型\n“\nNX(Y)\n”代表该字段为十进制浮点数字型字段，可表示正负（由负数表示字\n符“\n-\n”\n,\n“\n0\n”至“\n9\n”和“\n.\n”组成），\nX\n代表该字段的最大长度（包括小数点和符号\n位），\nY\n代表该字段最大小数位长度，对于无符号字段其整数位数最大长度为\nX-Y-\n1\n，对于有符号字段其整数位数最大长度为\nX-Y-2\n，例如“\nN8(4)\n”代表字段最大长\n度为\n8\n，最大小数位长度为\n4\n，最大整数位长度为\n3\n（正数）或\n2\n（负数）。\nxml\n格式字段均为变长字段，字段不足最大长度左右两端不可补空或补零。\n⚫\n根据新“替代标志”及新增“申赎模式”字段取值，调整附录一为“\nETF\n产品\n与申赎模式、替代标志、市场\nID\n对应关系表”（含跨市场债券（银行间）\nETF\n）。\n⚫\n新增附录二\nxml\n版本文件结构、附录三\nETF\n定义文件标志文件举例、附录四\n现金替代比例计算说明、附录五\n现金替代标志说明。\n三、软件通道方面\n基金公司需通过本所证通云盘上传\nETF\n定义文件、接收并核对\nETF\n确认文件和\nETF\n公告文件。\n所有市场参与者需能够通过本所证通云盘接收并加载\n2.1\n及\nxml\n版\nETF\n公告文件。\nUT5\n客户端已计划下线，不会转发新增的\nxml\n版\nETF\n公告文件。\n市场参与者应充分评估上述变更对申赎、交易、行情等相关技术系统的影响，做好相\n关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测试验证，\n同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常运行。\n第\n10\n页\n共\n11\n页\n技术文档\n4\n相关技术文档\n《\nIS118_\n上海证券交易所特定参与者接口规格说明书（基金公司卷）\n2.0\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n《\nIS105_\n上海证券交易所综合业务平台市场参与者接口规格说明书\n1.56\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n《\nIS101_\n上海证券交易所竞价撮合平台市场参与者接口规格说明书\n1.69\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接口规范\n0.58\n版\n_20250324\n（优化\nETF\n申赎清单\n技术开发稿）》\n《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口规范\n0.58\n版\n_20250324\n（优化\nETF\n申\n赎清单\n技术开发稿）》\n第\n11\n页\n共\n11\n页"
+}

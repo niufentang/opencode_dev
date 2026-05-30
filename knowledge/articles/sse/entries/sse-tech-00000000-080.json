@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-080",
+  "type": "technical_notice",
+  "title": "关于发布科创成长层改革相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10782269/files/3d76612c23dd4c48adc963bf9c3f3603.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "科创成长层"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:40da5ffdb27eee123796ef6a740396203ac4a9c744c1456695dcd6bab6619050",
+  "content_markdown": "关于发布科创成长层改革相关市场接口的\n通知\n各市场参与人：\n根据科创成长层改革相关工作安排，现发布《 IS101_ 上\n海证券交易所竞价撮合平台市场参与者接口规格说明书 1.70\n版 _20250618 （科创成长层技术开发稿）》。市场参与人可\n通过本所官方网站 “ 交易技术支持专区 ” 或登录市场技术服务\n平台“技术支持与信息管理 - 软件与技术文档”相关栏目获取\n上述材料。\n本次主要变更内容：根据科创成长层相关规则，更新产\n品基础信息第二版第一批次文件接口 cpxx0201MMDD.txt ，\n调整特殊标识“ U ”的相关描述。请市场参与人根据相关规\n则，提前做好技术就绪准备工作。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 6 月 18 日\n\n<metadata>\n{\n  \"title\": \"20250618_关于发布科创成长层改革相关市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250618_关于发布科创成长层改革相关市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布科创成长层改革相关市场接口的通知.md\",\n  \"file_hash\": \"sha256:40da5ffdb27eee123796ef6a740396203ac4a9c744c1456695dcd6bab6619050\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:36.013291+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

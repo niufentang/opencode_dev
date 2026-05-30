@@ -1,0 +1,86 @@
+{
+  "doc_id": "sse-guide-20260129-155",
+  "title": "上海证券交易所IOPV外部源机构接入市场参与者技术实施指南_V1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10807304/files/4212cbcec8644849af0dfc43bb536d93.pdf",
+  "analysis_date": "2026-05-02T02:03:06.790279+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "版本升级",
+      "summary": "版本历史",
+      "detail": "版本历史",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "调整内容",
+      "detail": "调整内容",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.0",
+      "detail": "V1.0",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "20250815 1、创建说明",
+      "detail": "20250815\n1、创建说明",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.1",
+      "detail": "V1.1",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "20260119 1、新增独立接入IOPV要求。 2、相关技术文档中新增错误码表。 （以下简称“本所”） ）行情接收方面，由 IOPV 外部源机构提供的数据，本所将统一通过独立",
+      "detail": "20260119\n1、新增独立接入IOPV要求。\n2、相关技术文档中新增错误码表。\n（以下简称“本所”）\n）行情接收方面，由\nIOPV\n外部源机构提供的数据，本所将统一通过独立",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "行情渠道发布，不会通过原竞价撮合系统行情（行情网关",
+      "detail": "行情渠道发布，不会通过原竞价撮合系统行情（行情网关",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityType=1 mktdt00.txt 转发。因此，为保障能接收完整的 行情数据（含未来外部源数据），各市场机构必 须完成独立 行情渠道的接入。 IS111_ 3.29 _20260109( 固收迁移技术开发",
+      "detail": "SecurityType=1\nmktdt00.txt\n转发。因此，为保障能接收完整的\n行情数据（含未来外部源数据），各市场机构必\n须完成独立\n行情渠道的接入。\nIS111_\n3.29\n_20260109(\n固收迁移技术开发",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "IS111",
+    "IS118",
+    "IS419",
+    "债券",
+    "报盘软件",
+    "期权",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及8项变更。 技术架构变更: 1项。 版本升级: 3项。 规则条款变更: 4项。 其中重大变更1项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,52 @@
+{
+  "doc_id": "sse-iface-20190315-021",
+  "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（债券平台）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800222/files/873a41ebd6b246fe81b1d7ff3f512313.pdf",
+  "analysis_date": "2026-05-02T02:03:05.619422+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2025-11-01 1.94 IS101",
+      "detail": "2025-11-01\n1.94\nIS101",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "格说明书》文档正式废止，相关内容迁移至《",
+      "detail": "格说明书》文档正式废止，相关内容迁移至《",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS124 上海证券交 易所市场数据文件交换接口规格说明书》，更新相关引用描述。",
+      "detail": "IS124\n上海证券交\n易所市场数据文件交换接口规格说明书》，更新相关引用描述。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "债券",
+    "报盘软件",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 废止: 1项。 规则条款变更: 2项。 其中重大变更1项。",
+  "confidence": 0.95
+}

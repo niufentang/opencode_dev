@@ -1,0 +1,34 @@
+{
+  "doc_id": "chinaclear-rule-00000000-407",
+  "title": "中国证券登记结算有限责任公司证券账户业务指南",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:35.983901+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "修改",
+      "summary": "文档声明superseded状态",
+      "detail": "状态: superseded, 参考: 加盖企业公章的截屏打印件",
+      "severity": "major",
+      "source": "keyword_detect"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券",
+    "注册制",
+    "港股通",
+    "科创板",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 修改: 1项。 其中重大变更1项。",
+  "confidence": 0.85
+}

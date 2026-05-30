@@ -1,0 +1,107 @@
+{
+  "doc_id": "chinaclear-rule-00000000-120",
+  "title": "中国结算北京分公司全国股转系统证券发行人业务指南（2023年1月3日施行，已废止）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.942734+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "见操作手册第21 页“查看证书到期日期”",
+      "detail": "见操作手册第21 页“查看证书到期日期”",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "T-3 日 T-2 日 T-1 日",
+      "detail": "T-3 日\nT-2 日\nT-1 日",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "关于T-3 日的确定方法见第11 页。 见操作手册第31 页 操作手册第17 页“（三）增值税发票信息维护” 中国证券登记结算有限责任公司北京 分公司股权激励和员工持股计划股份登记业务指南 南第21 页“（六）接收股息红利差别化个人所得税明细数据 和税款” 操作手册第14 页“（一）经办人信 息维护”",
+      "detail": "关于T-3 日的确定方法见第11 页。\n见操作手册第31 页\n操作手册第17 页“（三）增值税发票信息维护”\n中国证券登记结算有限责任公司北京\n分公司股权激励和员工持股计划股份登记业务指南\n南第21 页“（六）接收股息红利差别化个人所得税明细数据\n和税款”\n操作手册第14 页“（一）经办人信\n息维护”",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "见操作手册第17 页",
+      "detail": "见操作手册第17 页",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "若选择其他选项， 注册申请将无法被审核，请务必注意！",
+      "detail": "若选择其他选项，\n注册申请将无法被审核，请务必注意！",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "无需填写PROP 代码",
+      "detail": "无需填写PROP 代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "后续手机验证码的接收号码 找回密码 若未出现“请修改用户PIN 码”窗口，说明驱动 程序安装有问题，请卸载驱动后重新安装。 连续输错6 次PIN 码将导致USB-KEY 锁死。USB-KEY 锁死后无法继续登录，请务必牢记PIN 码！如USB-KEY 锁死， 请联系本公司重置PIN 码（",
+      "detail": "后续手机验证码的接收号码\n找回密码\n若未出现“请修改用户PIN 码”窗口，说明驱动\n程序安装有问题，请卸载驱动后重新安装。\n连续输错6 次PIN 码将导致USB-KEY 锁死。USB-KEY\n锁死后无法继续登录，请务必牢记PIN 码！如USB-KEY 锁死，\n请联系本公司重置PIN 码（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "见操作手册第29 页",
+      "detail": "见操作手册第29 页",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "点击网页内按钮 时无反应、打开网页后无内容、无法上传文件或者下载股东 经办人信息、公司相关信息或增值税发票信息",
+      "detail": "点击网页内按钮\n时无反应、打开网页后无内容、无法上传文件或者下载股东\n经办人信息、公司相关信息或增值税发票信息",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "见操作手册第15 页“2.本机构信息维护”",
+      "detail": "见操作手册第15 页“2.本机构信息维护”",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "此为白色USB-KEY 驱动程序",
+      "detail": "此为白色USB-KEY 驱动程序",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "操作手册第6 页“（二）安装USB-KEY 驱动” 操作手册第14 页“（一）经办人信息维护” 操作手册第14 页“（一） 经办人信息维护” 操作手册第8 页 “（三）设置浏览器”",
+      "detail": "操作手册第6 页“（二）安装USB-KEY 驱动”\n操作手册第14 页“（一）经办人信息维护”\n操作手册第14 页“（一）\n经办人信息维护”\n操作手册第8 页\n“（三）设置浏览器”",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "做市商",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及12项变更。 接口字段变更: 1项。 规则条款变更: 11项。",
+  "confidence": 0.95
+}

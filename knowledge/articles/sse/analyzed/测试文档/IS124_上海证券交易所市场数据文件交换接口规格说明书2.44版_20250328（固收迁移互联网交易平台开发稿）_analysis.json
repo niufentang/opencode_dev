@@ -1,0 +1,842 @@
+{
+  "doc_id": "sse-iface-20250328-140",
+  "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
+  "analysis_date": "2026-05-02T02:03:06.630728+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "、债券交易参与人信息文件、债券交易员信息文件、证券产品基础信息文件发送方 中增加了 MDGW 、债券交易员信息文件中增加了“交易员类型”字段 2.44 2025-03 、债券交易参与人信息文件增加了“信用保护合约核心交易商标识”字段 、债券非匹配成交汇总文件 针对债券交易参与人）中‘匿名’成交时，相关字段填",
+      "detail": "、债券交易参与人信息文件、债券交易员信息文件、证券产品基础信息文件发送方\n中增加了\nMDGW\n、债券交易员信息文件中增加了“交易员类型”字段\n2.44\n2025-03\n、债券交易参与人信息文件增加了“信用保护合约核心交易商标识”字段\n、债券非匹配成交汇总文件\n针对债券交易参与人）中‘匿名’成交时，相关字段填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "anonymous (zghXXXXX.txt ）中细化了对于三方回购转入转出时的 2.43 2025-02 买卖方向字段填写说明 ）增加债券借贷业务填写说明（业务暂 不启用），并明确通过 zghXXXXX.zip 解压获取 2.42 2024-12 证券产品基础信息文件（ products_yyyymmdd.xml",
+      "detail": "anonymous\n(zghXXXXX.txt\n）中细化了对于三方回购转入转出时的\n2.43\n2025-02\n买卖方向字段填写说明\n）增加债券借贷业务填写说明（业务暂\n不启用），并明确通过\nzghXXXXX.zip\n解压获取\n2.42\n2024-12\n证券产品基础信息文件（\nproducts_yyyymmdd.xml",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）中增加了融资融券可冲抵保证 金证券标的标志（ GageFlag ）添加了成交中对手方的相关信息 、债券现券交易参考信息 非匹配成交",
+      "detail": "）中增加了融资融券可冲抵保证\n金证券标的标志（\nGageFlag\n）添加了成交中对手方的相关信息\n、债券现券交易参考信息\n非匹配成交",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "中增加【交易方式】枚举值“",
+      "detail": "中增加【交易方式】枚举值“",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "意向申报”， 成交金额单位调整为元 、调整了债券现券交易（非匹配成交",
+      "detail": "意向申报”，\n成交金额单位调整为元\n、调整了债券现券交易（非匹配成交",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "、三方回购和协议回购参考数据文件的模板，",
+      "detail": "、三方回购和协议回购参考数据文件的模板，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.41 2024-11 SecurityIDSource 字段标签统一为 SecurityIDSrc",
+      "detail": "2.41\n2024-11\nSecurityIDSource\n字段标签统一为\nSecurityIDSrc",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "、债券交易员文件中添加了原固收交易员代码字段，债券交易参与人文件中机构简 称调整为非必填",
+      "detail": "、债券交易员文件中添加了原固收交易员代码字段，债券交易参与人文件中机构简\n称调整为非必填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券产品基础信息文件中明确对于状态处于“特定债券或特定资产支持证券转让” 的产品，明确其面值字段转为特定债后不再变化 、调整了 文件的格式约定说明，添加了各新增 格式文件的示例 、新增固收迁移相关盘前参考数据和盘后数据文件 盘前参考数据： 2.40 2024-09 债券交易参与人信息文件（ bondmbrs_yyyymmdd.xml",
+      "detail": "证券产品基础信息文件中明确对于状态处于“特定债券或特定资产支持证券转让”\n的产品，明确其面值字段转为特定债后不再变化\n、调整了\n文件的格式约定说明，添加了各新增\n格式文件的示例\n、新增固收迁移相关盘前参考数据和盘后数据文件\n盘前参考数据：\n2.40\n2024-09\n债券交易参与人信息文件（\nbondmbrs_yyyymmdd.xml",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券交易员信息文件（ bondtrdrs_yyyymmdd.xml 债券现券交易业务参考信息（非匹配成交）（ bondnegoparams_yyyymmdd.xml",
+      "detail": "债券交易员信息文件（\nbondtrdrs_yyyymmdd.xml\n债券现券交易业务参考信息（非匹配成交）（\nbondnegoparams_yyyymmdd.xml",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "债券质押式协议回购业务参考信息（",
+      "detail": "债券质押式协议回购业务参考信息（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bilateralrepoparams_yyyymmdd.xml 债券质押式三方回购参考信息（ trirepoparams_yyyymmdd.xml 盘后文件： 债券非匹配成交汇总文件 债券非匹配成交参考价文件 (bondnegorefpx_yyyymmdd.xml) 、删除了原固收行情相关文件（新固收行情接口参见《",
+      "detail": "bilateralrepoparams_yyyymmdd.xml\n债券质押式三方回购参考信息（\ntrirepoparams_yyyymmdd.xml\n盘后文件：\n债券非匹配成交汇总文件\n债券非匹配成交参考价文件\n(bondnegorefpx_yyyymmdd.xml)\n、删除了原固收行情相关文件（新固收行情接口参见《",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS120_ BINARY 数据接口规范》或《 STEP 数据接口规 范》），包括： 固定收益平台确定报价行情文件（ se015qdbjyyyymmdd001.txt 固定收益平台成交行情文件（ se015cjhqyyyymmdd001.txt 固定收益平台成交明细行情文件（ se015cjmxyyyymmdd001.txt",
+      "detail": "IS120_\nBINARY\n数据接口规范》或《\nSTEP\n数据接口规\n范》），包括：\n固定收益平台确定报价行情文件（\nse015qdbjyyyymmdd001.txt\n固定收益平台成交行情文件（\nse015cjhqyyyymmdd001.txt\n固定收益平台成交明细行情文件（\nse015cjmxyyyymmdd001.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固定收益平台证券信息行情文件（ se015zqxxyyyymmdd001.txt 本接口支持 格式文件。除特别说明，本接口中所有数据文件均采用 GB18030 编码规范。 ；如涉及成交金额字段溢出， 请使用该字段的市场参与者特殊处理，柜台系统应能识别并及时处理该字段 溢出异常，可采取如自行计算、拆分调整、采用登记结算数据或其他方式处理；",
+      "detail": "固定收益平台证券信息行情文件（\nse015zqxxyyyymmdd001.txt\n本接口支持\n格式文件。除特别说明，本接口中所有数据文件均采用\nGB18030\n编码规范。\n；如涉及成交金额字段溢出，\n请使用该字段的市场参与者特殊处理，柜台系统应能识别并及时处理该字段\n溢出异常，可采取如自行计算、拆分调整、采用登记结算数据或其他方式处理；",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）除特别说明，均采用 格式数据文件均遵循以下约定： 如果某一字段为空或未启用，则该字段 标签不应出现。",
+      "detail": "）除特别说明，均采用\n格式数据文件均遵循以下约定：\n如果某一字段为空或未启用，则该字段\n标签不应出现。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本每个字段为变长字段，字段不足最大长度左右两端无需补空。",
+      "detail": "版本每个字段为变长字段，字段不足最大长度左右两端无需补空。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "除特别说明，均为 UTF-8 编码规范： XMLxml GBK18030 中文字符采用 元素中取值以实际业务长度为准，不补空格 2.17. 债券交易参与人信息文件 文件名： bondmbrs_yyyymmdd 扩展名： 发布时间：开市前发布 发布渠道： ztDisk 文件说明：文件名中 yyyymmdd",
+      "detail": "除特别说明，均为\nUTF-8\n编码规范：\nXMLxml\nGBK18030\n中文字符采用\n元素中取值以实际业务长度为准，不补空格\n2.17.\n债券交易参与人信息文件\n文件名：\nbondmbrs_yyyymmdd\n扩展名：\n发布时间：开市前发布\n发布渠道：\nztDisk\n文件说明：文件名中\nyyyymmdd",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示年月日格式的文件适用日期。 接口格式： 字段名称",
+      "detail": "表示年月日格式的文件适用日期。\n接口格式：\n字段名称",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "是否必填",
+      "detail": "是否必填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段描述",
+      "detail": "字段描述",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券机构代码",
+      "detail": "证券机构代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MemberID 机构简称 ShortName 机构名称 LongName C200 信用保护合约核心交 CoreFlag 易商标识 <?xml version=\"1.0\" encoding=\"UTF-8\"?> <BondMbrs> <BondMbr> <MemberID>CH4SHZT12345</MemberID>",
+      "detail": "MemberID\n机构简称\nShortName\n机构名称\nLongName\nC200\n信用保护合约核心交\nCoreFlag\n易商标识\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<BondMbrs>\n<BondMbr>\n<MemberID>CH4SHZT12345</MemberID>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<ShortName> 测试机构 </ShortName> <LongName> 测试示例机构 </LongName> <CoreFlag>1</CoreFlag> </BondMbr> </BondMbrs> 2.18. 债券交易员信息文件 bondtrdrs_yyyymmdd 交易员一债通账户 TraderCode",
+      "detail": "<ShortName>\n测试机构\n</ShortName>\n<LongName>\n测试示例机构\n</LongName>\n<CoreFlag>1</CoreFlag>\n</BondMbr>\n</BondMbrs>\n2.18.\n债券交易员信息文件\nbondtrdrs_yyyymmdd\n交易员一债通账户\nTraderCode",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "原固收交易员代码",
+      "detail": "原固收交易员代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "FSPCode 交易员姓名 TraderName C100",
+      "detail": "FSPCode\n交易员姓名\nTraderName\nC100",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "所属证券机构代码",
+      "detail": "所属证券机构代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "联系人电话号码 Contact 14 = 首席交易员 交易员类型 TraderType 15 = 普通交易员 <BondTrdrs> <BondTrdr> <TraderCode>i021234501</TraderCode> <FSPCode>Z02001</FSPCode> <TraderName>",
+      "detail": "联系人电话号码\nContact\n14 =\n首席交易员\n交易员类型\nTraderType\n15 =\n普通交易员\n<BondTrdrs>\n<BondTrdr>\n<TraderCode>i021234501</TraderCode>\n<FSPCode>Z02001</FSPCode>\n<TraderName>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1</TraderName> <TraderType>14</TraderType> </BondTrdr> <TraderCode>i021234502</TraderCode> 2</TraderName> <MemberID>T12345</MemberID> <Contact>01012345678</Contact>",
+      "detail": "1</TraderName>\n<TraderType>14</TraderType>\n</BondTrdr>\n<TraderCode>i021234502</TraderCode>\n2</TraderName>\n<MemberID>T12345</MemberID>\n<Contact>01012345678</Contact>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<TraderType>15</TraderType> </BondTrdrs> 2.19. 证券产品基础信息文件 products_yyyymmdd 表示年月日格式的文件适用日期，一只证券对应 中的一条记录。首批上线 支持原固收交易平台各类产品，后续将逐步列入股票、基金等各类交易所挂牌产品。 字段英文名",
+      "detail": "<TraderType>15</TraderType>\n</BondTrdrs>\n2.19.\n证券产品基础信息文件\nproducts_yyyymmdd\n表示年月日格式的文件适用日期，一只证券对应\n中的一条记录。首批上线\n支持原固收交易平台各类产品，后续将逐步列入股票、基金等各类交易所挂牌产品。\n字段英文名",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码",
+      "detail": "证券代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityID",
+      "detail": "SecurityID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码源",
+      "detail": "证券代码源",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "101= ISIN 预留，暂不启用 证券简称 Symbol 中文证券名称 扩位简称 当产品为可转债、可交换债等衍生 品时，该字段为其标的产品的证券",
+      "detail": "101=\nISIN\n预留，暂不启用\n证券简称\nSymbol\n中文证券名称\n扩位简称\n当产品为可转债、可交换债等衍生\n品时，该字段为其标的产品的证券",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "基础证券代码",
+      "detail": "基础证券代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UnderlyingSecurityID UnderlyingSecurityIDS",
+      "detail": "UnderlyingSecurityID\nUnderlyingSecurityIDS",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "基础证券代码源",
+      "detail": "基础证券代码源",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券类别 SecType 填写说明参见附表 证券子类别 SecSubType",
+      "detail": "证券类别\nSecType\n填写说明参见附表\n证券子类别\nSecSubType",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "时效变更",
+      "summary": "仅对部分产品生效，填写说明参见",
+      "detail": "仅对部分产品生效，填写说明参见",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券细分标签 SecSegTag",
+      "detail": "证券细分标签\nSecSegTag",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "时效变更",
+      "summary": "暂仅对债券产品生效，其他产品填",
+      "detail": "暂仅对债券产品生效，其他产品填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "面值（元） ParValue N15(5) 0.00000 融资标的标志 CrdBuyUnderlying 融券标的标志 CrdSellUnderlying 融资融券可冲抵保证 金证券标的标志 支持当日回转交易标 DayTrading",
+      "detail": "面值（元）\nParValue\nN15(5)\n0.00000\n融资标的标志\nCrdBuyUnderlying\n融券标的标志\nCrdSellUnderlying\n融资融券可冲抵保证\n金证券标的标志\n支持当日回转交易标\nDayTrading",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "货币代码取值（参考",
+      "detail": "货币代码取值（参考",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ISO4217 USD = 货币类型标签 Currency CNY = 对于股票，表示每股分红金额；对 于基金表示每份除息金额；对于债 除息金额 ExDividend 券，表示每百元面额除息金额 前收盘价格 PrevClosePx 此价格暂已经过除权除息调整 上市日期 ListDate YYYYMMDD",
+      "detail": "ISO4217\nUSD =\n货币类型标签\nCurrency\nCNY =\n对于股票，表示每股分红金额；对\n于基金表示每份除息金额；对于债\n除息金额\nExDividend\n券，表示每百元面额除息金额\n前收盘价格\nPrevClosePx\n此价格暂已经过除权除息调整\n上市日期\nListDate\nYYYYMMDD",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "是否需要对该证券作投资者适当 投资者适当性管理标 QualiFlag 投资者适当性管理分类 QualiClass 投资者适当性要求类 机构投资者适当性要求类 每只证券可以有 个或多个状态， 证券状态 SecStatus 个状态，则无此标签 上市首日 除权（预留） Status 特定债券或特定资产支持证",
+      "detail": "是否需要对该证券作投资者适当\n投资者适当性管理标\nQualiFlag\n投资者适当性管理分类\nQualiClass\n投资者适当性要求类\n机构投资者适当性要求类\n每只证券可以有\n个或多个状态，\n证券状态\nSecStatus\n个状态，则无此标签\n上市首日\n除权（预留）\nStatus\n特定债券或特定资产支持证",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易停牌 以下为债券产品特有字段（ BondParams 最后交易日期（到期 LastDate 登记日） 到期日期 MaturityDate 计价方式 PxType 非担保债券标签 NOGuarantFlag 互联网交易平台支持 综合业务系统支持（预留） 转股或换股期标签 SwapFlag 互联网交易平台和综合业务",
+      "detail": "交易停牌\n以下为债券产品特有字段（\nBondParams\n最后交易日期（到期\nLastDate\n登记日）\n到期日期\nMaturityDate\n计价方式\nPxType\n非担保债券标签\nNOGuarantFlag\n互联网交易平台支持\n综合业务系统支持（预留）\n转股或换股期标签\nSwapFlag\n互联网交易平台和综合业务",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "平台均支持（预留） 回售期标签 PutbackFlag 系统均支持（预留） 回售撤销期标签 PutbackCancelFlag 此价格仅计入非匹配成交部分（包 前非匹配成交参考价 含点击成交、协商成交、询价成交 PrevNegoClsPx 和竞买成交）且经过除权除息 前加权平均价格（元） PrevAvgPx",
+      "detail": "平台均支持（预留）\n回售期标签\nPutbackFlag\n系统均支持（预留）\n回售撤销期标签\nPutbackCancelFlag\n此价格仅计入非匹配成交部分（包\n前非匹配成交参考价\n含点击成交、协商成交、询价成交\nPrevNegoClsPx\n和竞买成交）且经过除权除息\n前加权平均价格（元）\nPrevAvgPx",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "对于基础证券代码，暂只在双边挂牌的可转债或可交换债在转股或换股期开始后提供",
+      "detail": "对于基础证券代码，暂只在双边挂牌的可转债或可交换债在转股或换股期开始后提供",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券类别（ ）、证券子类别（ ）和证券细分标签（ ）填写说明 产品说明 国债、地方债、政府支持债、政策性金融债 企业债（不含政府支持债） 公司债、企业债（不含政府支持债）、公募 可交换债 主板公募可转债 B010 科创板公募可转债 资产支持证券优先级 资产支持证券次级 信贷资产支持证券 融资类产",
+      "detail": "证券类别（\n）、证券子类别（\n）和证券细分标签（\n）填写说明\n产品说明\n国债、地方债、政府支持债、政策性金融债\n企业债（不含政府支持债）\n公司债、企业债（不含政府支持债）、公募\n可交换债\n主板公募可转债\nB010\n科创板公募可转债\n资产支持证券优先级\n资产支持证券次级\n信贷资产支持证券\n融资类产",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "债券质押式协议回购",
+      "detail": "债券质押式协议回购",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券质押式三方回购 信用保护合约（ 风险管理 组合式信用保护合约（ 信用保护凭证 REITs F121 单市场债券（沪） F122 跨市场债券（沪深） F123 现金申赎类债券 对于证券子类别为 的产品，其前收盘价填写匹配成交的收盘价；证券子 的产品，其前收盘价填写前非匹配成交参考价；对于 产品无此字段。",
+      "detail": "债券质押式三方回购\n信用保护合约（\n风险管理\n组合式信用保护合约（\n信用保护凭证\nREITs\nF121\n单市场债券（沪）\nF122\n跨市场债券（沪深）\nF123\n现金申赎类债券\n对于证券子类别为\n的产品，其前收盘价填写匹配成交的收盘价；证券子\n的产品，其前收盘价填写前非匹配成交参考价；对于\n产品无此字段。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于证券子类别为公募可转债（ ）产品，债券特有字段中，无非匹配成交参考价和加权平均价格。 对状态处于“特定债券或特定资产支持证券转让”的产品，转为特定债券后，其面值字段不再变化，其收盘 价不再进行除息，如有需要，对于双边挂牌债券，建议取其前非匹配成交参考价。 投资者适当性管理标志及投资者适当性管理标签初期仅适用于债券产品、融资类产品和风险管理类产品。",
+      "detail": "对于证券子类别为公募可转债（\n）产品，债券特有字段中，无非匹配成交参考价和加权平均价格。\n对状态处于“特定债券或特定资产支持证券转让”的产品，转为特定债券后，其面值字段不再变化，其收盘\n价不再进行除息，如有需要，对于双边挂牌债券，建议取其前非匹配成交参考价。\n投资者适当性管理标志及投资者适当性管理标签初期仅适用于债券产品、融资类产品和风险管理类产品。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券状态字段如为停牌，此状态因场务操作或其他原因可能变更，实际以实时行情状态为准。对于双边挂牌 产品，此处指新债券交易系统或竞价撮合系统挂牌产品处于停牌。 最后交易日期（到期登记日）表示在此日（含）前的最后一个 股交易日，债券可以交易，日终将进行摘牌 <Products> <Product> <SecurityID>123456</SecurityID>",
+      "detail": "证券状态字段如为停牌，此状态因场务操作或其他原因可能变更，实际以实时行情状态为准。对于双边挂牌\n产品，此处指新债券交易系统或竞价撮合系统挂牌产品处于停牌。\n最后交易日期（到期登记日）表示在此日（含）前的最后一个\n股交易日，债券可以交易，日终将进行摘牌\n<Products>\n<Product>\n<SecurityID>123456</SecurityID>",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<SecurityIDSrc>101</SecurityIDSrc> <Symbol> 示例转债 </Symbol> <SecType>D</SecType> <SecSubType>CCF</SecSubType> <SecSegTag>B010</SecSegTag> <ParValue>100.00000</ParValue>",
+      "detail": "<SecurityIDSrc>101</SecurityIDSrc>\n<Symbol>\n示例转债\n</Symbol>\n<SecType>D</SecType>\n<SecSubType>CCF</SecSubType>\n<SecSegTag>B010</SecSegTag>\n<ParValue>100.00000</ParValue>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<CrdBuyUnderlying>Y</CrdBuyUnderlying> <CrdSellUnderlying>Y</CrdSellUnderlying> >Y</ <DayTrading>N</DayTrading> <Currency>CNY</Currency> <ExDividend>1.00000</ExDividend>",
+      "detail": "<CrdBuyUnderlying>Y</CrdBuyUnderlying>\n<CrdSellUnderlying>Y</CrdSellUnderlying>\n>Y</\n<DayTrading>N</DayTrading>\n<Currency>CNY</Currency>\n<ExDividend>1.00000</ExDividend>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<PrevClosePx>123.45600</PrevClosePx> <ListDate>20190329</ListDate> <QualiFlag>Y</QualiFlag> <QualiClass>1</QualiClass> <SecStatus> <Status>2</Status> </SecStatus>",
+      "detail": "<PrevClosePx>123.45600</PrevClosePx>\n<ListDate>20190329</ListDate>\n<QualiFlag>Y</QualiFlag>\n<QualiClass>1</QualiClass>\n<SecStatus>\n<Status>2</Status>\n</SecStatus>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<BondParams> <LastDate>20250424</LastDate> <MaturityDate>20250425</MaturityDate> <PxType>1</PxType> <NOGuarantFlag>Y</NOGuarantFlag> <SwapFlag>1</SwapFlag>",
+      "detail": "<BondParams>\n<LastDate>20250424</LastDate>\n<MaturityDate>20250425</MaturityDate>\n<PxType>1</PxType>\n<NOGuarantFlag>Y</NOGuarantFlag>\n<SwapFlag>1</SwapFlag>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<PutbackFlag>1</PutbackFlag> <PutbackCancelFlag>1</PutbackCancelFlag> <PrevNegoClsPx>121.86000</PrevNegoClsPx> <PrevAvgPx>121.86000</PrevAvgPx> </BondParams>",
+      "detail": "<PutbackFlag>1</PutbackFlag>\n<PutbackCancelFlag>1</PutbackCancelFlag>\n<PrevNegoClsPx>121.86000</PrevNegoClsPx>\n<PrevAvgPx>121.86000</PrevAvgPx>\n</BondParams>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</Product> </Products> 2.20. 债券现券交易参考信息 bondnegoparams_yyyymmdd 中的一条记录。 基础业务参考信息 BasicBusRefInfo 交易参数列表 TradingParams 交易参数信息 TradingParam 协商成交 点击成交 交易方式",
+      "detail": "</Product>\n</Products>\n2.20.\n债券现券交易参考信息\nbondnegoparams_yyyymmdd\n中的一条记录。\n基础业务参考信息\nBasicBusRefInfo\n交易参数列表\nTradingParams\n交易参数信息\nTradingParam\n协商成交\n点击成交\n交易方式",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TradingType 询价成交 竞买成交 意向申报 开盘时间 OpenTime HHMMSS 收盘时间 CloseTime 申买数量下限 BuyQtyLowerLimit N17(3) 最小买申报数量 买申报数量需要为该单位的整 申买数量最小变动单位 BuyQtyUnit 申买数量上限 BuyQtyUpperLimit",
+      "detail": "TradingType\n询价成交\n竞买成交\n意向申报\n开盘时间\nOpenTime\nHHMMSS\n收盘时间\nCloseTime\n申买数量下限\nBuyQtyLowerLimit\nN17(3)\n最小买申报数量\n买申报数量需要为该单位的整\n申买数量最小变动单位\nBuyQtyUnit\n申买数量上限\nBuyQtyUpperLimit",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最大买申报数量 申卖数量下限 SellQtyLowerLimit 最小卖申报数量 卖申报数量需要为该单位的整 申卖数量最小变动单位 SellQtyUnit 申卖数量上限 SellQtyUpperLimit 最大卖申报数量 申报或成交的金额应当为该单 成交金额最小变动单位 AmtUnit N20(5)",
+      "detail": "最大买申报数量\n申卖数量下限\nSellQtyLowerLimit\n最小卖申报数量\n卖申报数量需要为该单位的整\n申卖数量最小变动单位\nSellQtyUnit\n申卖数量上限\nSellQtyUpperLimit\n最大卖申报数量\n申报或成交的金额应当为该单\n成交金额最小变动单位\nAmtUnit\nN20(5)",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位的整数倍 成交金额下限 AmtLowerLimit 最小申报或成交的金额 最大订单价格 PriceUpperLimit 当日允许申报的最高价格 最小订单价格 PriceLowerLimit 当日允许申报的最低价格 价格最小变动单位 PriceTick 申报价格的最小变动单位 本文件包含了参与债券现券非匹配成交（包含协商成交、点击成交、询价成交、竞买成交和意向申报）相关",
+      "detail": "位的整数倍\n成交金额下限\nAmtLowerLimit\n最小申报或成交的金额\n最大订单价格\nPriceUpperLimit\n当日允许申报的最高价格\n最小订单价格\nPriceLowerLimit\n当日允许申报的最低价格\n价格最小变动单位\nPriceTick\n申报价格的最小变动单位\n本文件包含了参与债券现券非匹配成交（包含协商成交、点击成交、询价成交、竞买成交和意向申报）相关",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品的交易业务参考信息，包括证券子类型为 的相关产品； 对于价格：单位为元； 对于数量：如为债券现券，单位为千元面额；如为公募 ，单位为份； 对于成交金额：仅对",
+      "detail": "产品的交易业务参考信息，包括证券子类型为\n的相关产品；\n对于价格：单位为元；\n对于数量：如为债券现券，单位为千元面额；如为公募\n，单位为份；\n对于成交金额：仅对",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "时效变更",
+      "summary": "（信用保护凭证）生效，表示名义本金，单位为元",
+      "detail": "（信用保护凭证）生效，表示名义本金，单位为元",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<BondNegoParams> <BasicBusRefInfo> <BondNegoParam> <SecurityID>",
+      "detail": "<BondNegoParams>\n<BasicBusRefInfo>\n<BondNegoParam>\n<SecurityID>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "示例代码",
+      "detail": "示例代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</SecurityID> <TradingParams> <TradingParam> <TradingType>2</TradingType> <OpenTime>150000</OpenTime> <CloseTime>153000</CloseTime> <BuyQtyLowerLimit>1000.000</BuyQtyLowerLimit>",
+      "detail": "</SecurityID>\n<TradingParams>\n<TradingParam>\n<TradingType>2</TradingType>\n<OpenTime>150000</OpenTime>\n<CloseTime>153000</CloseTime>\n<BuyQtyLowerLimit>1000.000</BuyQtyLowerLimit>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<BuyQtyUnit>1.000</BuyQtyUnit> <BuyQtyUpperLimit>10000000.000</BuyQtyUpperLimit> <SellQtyLowerLimit>1000.000</SellQtyLowerLimit> <SellQtyUnit>1.000</SellQtyUnit>",
+      "detail": "<BuyQtyUnit>1.000</BuyQtyUnit>\n<BuyQtyUpperLimit>10000000.000</BuyQtyUpperLimit>\n<SellQtyLowerLimit>1000.000</SellQtyLowerLimit>\n<SellQtyUnit>1.000</SellQtyUnit>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<SellQtyUpperLimit>10000000.000</SellQtyUpperLimit> <PriceUpperLimit>120.00000</PriceUpperLimit> <PriceLowerLimit>80.00000</PriceLowerLimit> <PriceTick>0.00100</PriceTick>",
+      "detail": "<SellQtyUpperLimit>10000000.000</SellQtyUpperLimit>\n<PriceUpperLimit>120.00000</PriceUpperLimit>\n<PriceLowerLimit>80.00000</PriceLowerLimit>\n<PriceTick>0.00100</PriceTick>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</TradingParam> </TradingParams> </BondNegoParam> </BasicBusRefInfo> </BondNegoParams> 2.21.",
+      "detail": "</TradingParam>\n</TradingParams>\n</BondNegoParam>\n</BasicBusRefInfo>\n</BondNegoParams>\n2.21.",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "债券质押式协议回购参考信息",
+      "detail": "债券质押式协议回购参考信息",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "bilateralrepoparams_yyyymmdd 对于价格：表示回购利率，单位为 对于数量：表示单只质押券的数量。如为债券现券，单位为千元面额；如为公募 或基金，单位为份； 对于成交金额：单位为元。 <BilateralRepoParams> <BilateralRepoParam> <SecurityID>206001</SecurityID>",
+      "detail": "bilateralrepoparams_yyyymmdd\n对于价格：表示回购利率，单位为\n对于数量：表示单只质押券的数量。如为债券现券，单位为千元面额；如为公募\n或基金，单位为份；\n对于成交金额：单位为元。\n<BilateralRepoParams>\n<BilateralRepoParam>\n<SecurityID>206001</SecurityID>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<OpenTime>090000</OpenTime> <BuyQtyLowerLimit>1.000</BuyQtyLowerLimit> <SellQtyLowerLimit>1.000</SellQtyLowerLimit> <AmtUnit>0.01000</AmtUnit> <AmtLowerLimit>0.01000</AmtLowerLimit>",
+      "detail": "<OpenTime>090000</OpenTime>\n<BuyQtyLowerLimit>1.000</BuyQtyLowerLimit>\n<SellQtyLowerLimit>1.000</SellQtyLowerLimit>\n<AmtUnit>0.01000</AmtUnit>\n<AmtLowerLimit>0.01000</AmtLowerLimit>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<PriceUpperLimit>100.00000</PriceUpperLimit> <PriceLowerLimit>0.00100</PriceLowerLimit> </BilateralRepoParam> <SecurityID>206002</SecurityID> </BilateralRepoParams>",
+      "detail": "<PriceUpperLimit>100.00000</PriceUpperLimit>\n<PriceLowerLimit>0.00100</PriceLowerLimit>\n</BilateralRepoParam>\n<SecurityID>206002</SecurityID>\n</BilateralRepoParams>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.22. 债券质押式三方回购参考信息 trirepoparams_yyyymmdd 字段名名称",
+      "detail": "2.22.\n债券质押式三方回购参考信息\ntrirepoparams_yyyymmdd\n字段名名称",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字段类型",
+      "detail": "字段类型",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "三方回购篮子信息 BasketInfo 号篮子，其中： B001 = B002 = AAA B003 = AA+ B004 = AA 篮子编码 BasketID B005 = AAA B006 = AA+ B007 = AA B008 = 篮子简称 Name 篮子折扣率（ Ratio N10(3) 债券清单列表",
+      "detail": "三方回购篮子信息\nBasketInfo\n号篮子，其中：\nB001 =\nB002 = AAA\nB003 = AA+\nB004 = AA\n篮子编码\nBasketID\nB005 = AAA\nB006 = AA+\nB007 = AA\nB008 =\n篮子简称\nName\n篮子折扣率（\nRatio\nN10(3)\n债券清单列表",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityList 对于数量：表示质押券数量，如质押券为债券现券，单位为千元面额； <TriRepoParams> <TriRepoParam> <SecurityID>207001</SecurityID> <BuyQtyUpperLimit>999999999.000</BuyQtyUpperLimit>",
+      "detail": "SecurityList\n对于数量：表示质押券数量，如质押券为债券现券，单位为千元面额；\n<TriRepoParams>\n<TriRepoParam>\n<SecurityID>207001</SecurityID>\n<BuyQtyUpperLimit>999999999.000</BuyQtyUpperLimit>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<SellQtyUpperLimit>999999999.000</SellQtyUpperLimit> <AmtUnit>1000000.00000</AmtUnit> <AmtLowerLimit>1000000.00000</AmtLowerLimit> <PriceUpperLimit>24.00000</PriceUpperLimit>",
+      "detail": "<SellQtyUpperLimit>999999999.000</SellQtyUpperLimit>\n<AmtUnit>1000000.00000</AmtUnit>\n<AmtLowerLimit>1000000.00000</AmtLowerLimit>\n<PriceUpperLimit>24.00000</PriceUpperLimit>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</TriRepoParam> <SecurityID>207002</SecurityID> <BasketInfos> <BasketInfo> <BasketID>B001</BasketID> <Name> </Name> <Ratio>0.000</Ratio> <SecurityList>",
+      "detail": "</TriRepoParam>\n<SecurityID>207002</SecurityID>\n<BasketInfos>\n<BasketInfo>\n<BasketID>B001</BasketID>\n<Name>\n</Name>\n<Ratio>0.000</Ratio>\n<SecurityList>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<Security> 1</SecurityID> </Security> 2</SecurityID> </SecurityList> </BasketInfo> <BasketID>B002</BasketID> <Name>AAA( )</Name> <Ratio>0.030</Ratio> 3</SecurityID>",
+      "detail": "<Security>\n1</SecurityID>\n</Security>\n2</SecurityID>\n</SecurityList>\n</BasketInfo>\n<BasketID>B002</BasketID>\n<Name>AAA(\n)</Name>\n<Ratio>0.030</Ratio>\n3</SecurityID>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4</SecurityID> </BasketInfos> </TriRepoParams> 固定收益平台确定报价行情文件 发布时间：实时发布 文件说明：该文件为固定收益平台确定报价行情文件，包括确定报价业务行情数据。 接口格式：参见《上海证券交易所 LDDS 系统固定收益行情接口说明书》中数据格式约定以及确定报价相关章",
+      "detail": "4</SecurityID>\n</BasketInfos>\n</TriRepoParams>\n固定收益平台确定报价行情文件\n发布时间：实时发布\n文件说明：该文件为固定收益平台确定报价行情文件，包括确定报价业务行情数据。\n接口格式：参见《上海证券交易所\nLDDS\n系统固定收益行情接口说明书》中数据格式约定以及确定报价相关章",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固定收益平台成交行情文件 文件说明：该文件为固定收益平台成交行情文件，包含固定收益平台除特定债券及债券 的产品的成交统计 系统固定收益行情接口说明书》中数据格式约定以及成交行情相关章 固定收益平台成交明细行情文件 文件说明：该文件为固定收益平台除特定债券的产品成交明细行情（逐笔行情），包括确定报价、待定报价、询",
+      "detail": "固定收益平台成交行情文件\n文件说明：该文件为固定收益平台成交行情文件，包含固定收益平台除特定债券及债券\n的产品的成交统计\n系统固定收益行情接口说明书》中数据格式约定以及成交行情相关章\n固定收益平台成交明细行情文件\n文件说明：该文件为固定收益平台除特定债券的产品成交明细行情（逐笔行情），包括确定报价、待定报价、询",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "价、协商成交、合并申报、竞买等方式达成成交的数据；不包含质押式协议回购业务、三方回购的成交数据。",
+      "detail": "价、协商成交、合并申报、竞买等方式达成成交的数据；不包含质押式协议回购业务、三方回购的成交数据。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "系统固定收益行情接口说明书》中数据格式约定以及成交明细相关章 固定收益平台证券信息行情文件 文件说明：该文件为固定收益平台债券信息行情文件，包含固定收益平台挂牌产品信息及产品实时状态。 系统固定收益行情接口说明书》中数据格式约定以及证券信息相关章 本文件中的试算结算价 为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格信",
+      "detail": "系统固定收益行情接口说明书》中数据格式约定以及成交明细相关章\n固定收益平台证券信息行情文件\n文件说明：该文件为固定收益平台债券信息行情文件，包含固定收益平台挂牌产品信息及产品实时状态。\n系统固定收益行情接口说明书》中数据格式约定以及证券信息相关章\n本文件中的试算结算价\n为结算价正式发布前的试算结果，非最终结算价结果，不可用于实际的清算交收等各类业务，最终结算价格信",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "息以期权收盘价格文件 为准。文 编码，各元素中取值以实际业务长度为准，不补空格 4.12. bondnegorefpx_yyyymmdd 发布时间：闭市后交易所向市场参与者发送 文件说明： 包含互联网交易平台一债通模块挂牌产品的 非匹配成交参考价 和加权平均价，相关价格中仅统计除匹 配成交外的成交方式且未经过除权除息。文件名中",
+      "detail": "息以期权收盘价格文件\n为准。文\n编码，各元素中取值以实际业务长度为准，不补空格\n4.12.\nbondnegorefpx_yyyymmdd\n发布时间：闭市后交易所向市场参与者发送\n文件说明：\n包含互联网交易平台一债通模块挂牌产品的\n非匹配成交参考价\n和加权平均价，相关价格中仅统计除匹\n配成交外的成交方式且未经过除权除息。文件名中",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示年月日格式的日期 在此表示当前交易日。 字段中文名称 NegoRefPx AvgPx 加权平均价 对于债券现券产品，此价格表示净价还是全价可参考证券产品基础信息文件（ ）中的计价",
+      "detail": "表示年月日格式的日期\n在此表示当前交易日。\n字段中文名称\nNegoRefPx\nAvgPx\n加权平均价\n对于债券现券产品，此价格表示净价还是全价可参考证券产品基础信息文件（\n）中的计价",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "方式字段。对于协议回购和三方回购产品，单位为",
+      "detail": "方式字段。对于协议回购和三方回购产品，单位为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，表示回购利率；对于其他产品，单位为元。 如果产品当日停牌或无成交数据，则取其上一交易日的非匹配成交参考价作为当日值。 加权平均价指当天所有交易的加权平均价格，如果该债券当日停牌或无成交数据，则取该债券上一交易日的 加权平均价。 不包含公募可转债、公募 、信用保护合约、组合式信用保护合约和各类债券 <BondNegoRefPxes>",
+      "detail": "，表示回购利率；对于其他产品，单位为元。\n如果产品当日停牌或无成交数据，则取其上一交易日的非匹配成交参考价作为当日值。\n加权平均价指当天所有交易的加权平均价格，如果该债券当日停牌或无成交数据，则取该债券上一交易日的\n加权平均价。\n不包含公募可转债、公募\n、信用保护合约、组合式信用保护合约和各类债券\n<BondNegoRefPxes>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<BondNegoRefPx> <NegoRefPx>100.86000</ClosePx> <AvgPx>99.86000</AvgPx> </BondNegoRefPx> </BondNegoRefPxes> 4.13. 针对债券交易参与人） zghXXXXX 发布时间：闭市后发送 XXXXX 表示席位号。该文件通过",
+      "detail": "<BondNegoRefPx>\n<NegoRefPx>100.86000</ClosePx>\n<AvgPx>99.86000</AvgPx>\n</BondNegoRefPx>\n</BondNegoRefPxes>\n4.13.\n针对债券交易参与人）\nzghXXXXX\n发布时间：闭市后发送\nXXXXX\n表示席位号。该文件通过",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "解压后获取。 成交编号 交易所订单编号 会员内部编号 网页端申报 申报来源 接口端（ TDGW 成交日期 成交时间 申报时间 证券账户识别码 本方证券账户",
+      "detail": "解压后获取。\n成交编号\n交易所订单编号\n会员内部编号\n网页端申报\n申报来源\n接口端（\nTDGW\n成交日期\n成交时间\n申报时间\n证券账户识别码\n本方证券账户",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "席位代码",
+      "detail": "席位代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本方交易单元 本方交易员一债通账户 证券账户名称 本方证券账户名称 C120 对手方证券账户 对手方交易员一债通账户 对手方证券账户名称",
+      "detail": "本方交易单元\n本方交易员一债通账户\n证券账户名称\n本方证券账户名称\nC120\n对手方证券账户\n对手方交易员一债通账户\n对手方证券账户名称",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "对现券交易，填证券代码； 对协议回购，填质押券代码，对于换券，填写换入券代码； 对三方回购，转入和转出填写标的券代码，其他交易填写三方 回购合约虚拟代码。",
+      "detail": "对现券交易，填证券代码；\n对协议回购，填质押券代码，对于换券，填写换入券代码；\n对三方回购，转入和转出填写标的券代码，其他交易填写三方\n回购合约虚拟代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对债券借贷，协商成交、到期结算、提前终止、逾期结算、到",
+      "detail": "对债券借贷，协商成交、到期结算、提前终止、逾期结算、到",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "期续做填写标的券代码，对于质押券变更、解除质押填写借贷 合约虚拟代码。",
+      "detail": "期续做填写标的券代码，对于质押券变更、解除质押填写借贷\n合约虚拟代码。",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务类型 即申报中的 ApplID 业务子类型 仅对部分业务有效，见后文描述 买入或正回购； 卖出或逆回购 对于债券借贷： 买卖方向 对转托管、转股冻结、换股和回售，填 ，对回售撤销、转股 单位：元或",
+      "detail": "业务类型\n即申报中的\nApplID\n业务子类型\n仅对部分业务有效，见后文描述\n买入或正回购；\n卖出或逆回购\n对于债券借贷：\n买卖方向\n对转托管、转股冻结、换股和回售，填\n，对回售撤销、转股\n单位：元或",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "对协议回购或三方回购，成交申报或到期续做合约新开或提前",
+      "detail": "对协议回购或三方回购，成交申报或到期续做合约新开或提前",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "终止，代表回购利率或提前终止后的回购利率；其他无效。 对债券借贷，协商成交申报、到期结算、逾期结算、提前终止 或到期续做，代表实际借贷费率；其他无效。 成交价格 对私募可交换债换股，填换股价格；对债券回售填回售价格； 对双非可转债转股填转股价格。 对于各类现券交易，填写实际交易价格，具体为全价还是净价",
+      "detail": "终止，代表回购利率或提前终止后的回购利率；其他无效。\n对债券借贷，协商成交申报、到期结算、逾期结算、提前终止\n或到期续做，代表实际借贷费率；其他无效。\n成交价格\n对私募可交换债换股，填换股价格；对债券回售填回售价格；\n对双非可转债转股填转股价格。\n对于各类现券交易，填写实际交易价格，具体为全价还是净价",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "以证券产品基础信息文件中计价方式字段的取值为准。 对于债券，单位为千元面额；对于基金或公募 ，单位为 份；对于信用保护凭证，单位为",
+      "detail": "以证券产品基础信息文件中计价方式字段的取值为准。\n对于债券，单位为千元面额；对于基金或公募\n，单位为\n份；对于信用保护凭证，单位为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "对协议回购，成交申报、到期续做合约新开和换券申报时填写 质押数量，协议回购其他申报或三方回购无效。",
+      "detail": "对协议回购，成交申报、到期续做合约新开和换券申报时填写\n质押数量，协议回购其他申报或三方回购无效。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交数量 对债券借贷，协商成交申报、到期续做填写标的券成交数量， 到期结算、逾期结算、提前终止填写标的券归还数量；其他无 单位为元。 对债券现券或信用保护凭证交易，成交金额 ；对于基金或公募 ，成交金额 成交数量。",
+      "detail": "成交数量\n对债券借贷，协商成交申报、到期续做填写标的券成交数量，\n到期结算、逾期结算、提前终止填写标的券归还数量；其他无\n单位为元。\n对债券现券或信用保护凭证交易，成交金额\n；对于基金或公募\n，成交金额\n成交数量。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "对协议回购或三方回购，成交申报和到期续做申报合约新开，",
+      "detail": "对协议回购或三方回购，成交申报和到期续做申报合约新开，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交金额 填写回购成交金额，其他无效。 对债券借贷，协商成交申报和到期续做申报合约新开，填写合 约借贷费用，其他无效。 对各类非交易申报，无效。 净额结算 结算方式 2 = RTGS 0 = T+0 1 = T+1 2 = T+2 结算周期 3 = T+3 预留字段，暂不启用",
+      "detail": "成交金额\n填写回购成交金额，其他无效。\n对债券借贷，协商成交申报和到期续做申报合约新开，填写合\n约借贷费用，其他无效。\n对各类非交易申报，无效。\n净额结算\n结算方式\n2 = RTGS\n0 = T+0\n1 = T+1\n2 = T+2\n结算周期\n3 = T+3\n预留字段，暂不启用",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "对于三方回购或协议回购，协商成交申报和到期续作新开，填",
+      "detail": "对于三方回购或协议回购，协商成交申报和到期续作新开，填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "写回购期限；提前终止时，填写提前终止后的回购期限。 对于债券借贷，协商成交和到期续做，填写借贷期限；到期结 算、提前终止或逾期结算时，填写结算时的实际借贷期限。 对转托管，填写银行间托管账户 其他无效。 对于转托管、转股、换股、回售和回售撤销类有效申报数据，本方证券账户名称、结算方式字段及对手方相",
+      "detail": "写回购期限；提前终止时，填写提前终止后的回购期限。\n对于债券借贷，协商成交和到期续做，填写借贷期限；到期结\n算、提前终止或逾期结算时，填写结算时的实际借贷期限。\n对转托管，填写银行间托管账户\n其他无效。\n对于转托管、转股、换股、回售和回售撤销类有效申报数据，本方证券账户名称、结算方式字段及对手方相",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "关字段无意义，如已撤销成功，则不包含在此文件中。对于协议回购、三方回购、债券借贷和三方回购转入转出，",
+      "detail": "关字段无意义，如已撤销成功，则不包含在此文件中。对于协议回购、三方回购、债券借贷和三方回购转入转出，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "结算方式字段无意义。 对于一债通网页端申报的各类通道业务（包括新债券交易系统的匹配成交申报和综合业务系统的非交易备用 通道等）不包含在此文件中。 对于各类债券非匹配成交（点击成交、询价成交、协商成交和竞买成交等），将在成交回报中返回对手方的 一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此字段将填写",
+      "detail": "结算方式字段无意义。\n对于一债通网页端申报的各类通道业务（包括新债券交易系统的匹配成交申报和综合业务系统的非交易备用\n通道等）不包含在此文件中。\n对于各类债券非匹配成交（点击成交、询价成交、协商成交和竞买成交等），将在成交回报中返回对手方的\n一债通账户、证券账户和账户名称信息。如结算方式为净额结算且任意一方选择‘匿名’，则此字段将填写",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "’，如结算方式为净额结算且双方均显名或者结算方式‘ RTGS ’，则将发送实际的交易信息，但 如账户名称未申报或者无法自动匹配，将填空格。 如交易双方均采用同一业务单元进行申报，则将有两条买卖方向相反的成交记录。特别地，对三方回购转入转出， 转入时本方为专户填 ，本方为普通账户时填 ；转出时本方为专户填",
+      "detail": "’，如结算方式为净额结算且双方均显名或者结算方式‘\nRTGS\n’，则将发送实际的交易信息，但\n如账户名称未申报或者无法自动匹配，将填空格。\n如交易双方均采用同一业务单元进行申报，则将有两条买卖方向相反的成交记录。特别地，对三方回购转入转出，\n转入时本方为专户填\n，本方为普通账户时填\n；转出时本方为专户填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；其账户名称填 写对应的普通账户或专用账户名称。 成交汇总中的业务类型及业务子类型数据说明： 业务描述",
+      "detail": "；其账户名称填\n写对应的普通账户或专用账户名称。\n成交汇总中的业务类型及业务子类型数据说明：\n业务描述",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "债券质押式协议回购成交申报 债券质押式协议回购到期确认 债券质押式协议回购提前终止",
+      "detail": "债券质押式协议回购成交申报\n债券质押式协议回购到期确认\n债券质押式协议回购提前终止",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600130",
+      "detail": "600130",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "债券质押式协议回购换券申报 债券质押式协议回购解除质押 债券质押式协议回购到期续做前期合约了结 债券质押式协议回购到期续做合约新开",
+      "detail": "债券质押式协议回购换券申报\n债券质押式协议回购解除质押\n债券质押式协议回购到期续做前期合约了结\n债券质押式协议回购到期续做合约新开",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券质押式三方回购成交申报 债券质押式三方回购到期购回 债券质押式三方回购提前终止 债券质押式三方回购换券申报 600140 债券质押式三方回购解除质押 债券质押式三方回购补券申报 债券质押式三方回购到期续做前期合约了结 债券质押式三方回购到期续做合约新开 600180 确定报价 600190 一债通询价",
+      "detail": "债券质押式三方回购成交申报\n债券质押式三方回购到期购回\n债券质押式三方回购提前终止\n债券质押式三方回购换券申报\n600140\n债券质押式三方回购解除质押\n债券质押式三方回购补券申报\n债券质押式三方回购到期续做前期合约了结\n债券质押式三方回购到期续做合约新开\n600180\n确定报价\n600190\n一债通询价",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600200 待定报价 600210 600220 合并申报 600230 双非可转债转股 600240 私募可交换债换股 600250 债券回售（一债通） 600251 债券回售撤销 600260 债券转托管 600270 三方回购转入转出 600290 债券借贷协商成交申报 债券借贷到期结算 债券借贷到期续做",
+      "detail": "600200\n待定报价\n600210\n600220\n合并申报\n600230\n双非可转债转股\n600240\n私募可交换债换股\n600250\n债券回售（一债通）\n600251\n债券回售撤销\n600260\n债券转托管\n600270\n三方回购转入转出\n600290\n债券借贷协商成交申报\n债券借贷到期结算\n债券借贷到期续做",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "600300 债券借贷提前终止 （暂不启用） 债券借贷质押券变更 债券借贷解除质押 债券借贷逾期结算 600310 场务应急成交录入 4.14. 针对托管银行） 文件说明：该文件被打包进 YYYY.sse YYYY 为托管银行的拼音首字母，例如：工商银行为 gsyh 接口格式同债券非匹配成交汇总文件",
+      "detail": "600300\n债券借贷提前终止\n（暂不启用）\n债券借贷质押券变更\n债券借贷解除质押\n债券借贷逾期结算\n600310\n场务应急成交录入\n4.14.\n针对托管银行）\n文件说明：该文件被打包进\nYYYY.sse\nYYYY\n为托管银行的拼音首字母，例如：工商银行为\ngsyh\n接口格式同债券非匹配成交汇总文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "针对债券交易参与人）。",
+      "detail": "针对债券交易参与人）。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS113",
+    "IS117",
+    "IS120",
+    "IS124",
+    "REITs",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及116项变更。 接口字段变更: 17项。 规则条款变更: 82项。 时效变更: 3项。 版本升级: 1项。 技术架构变更: 13项。 其中重大变更2项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-062",
+  "type": "technical_notice",
+  "title": "关于发布固定收益平台行情文件发送频率调整市场接口（正式稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10785850/files/675bc38a9d1a470e870cd5a5e4a46412.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS119",
+    "STEP"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:dd5967837eb1a24b4900fa2bd97d662488aebd2d10eb34bb5f0355311cbb31ed",
+  "content_markdown": "关于发布固定收益平台行情文件发送频率\n调整市场接口（正式稿）的通知\n各市场参与人：\n根据固定收益平台行情文件发送频率调整相关工作安\n排，现发布《 IS119_ 上海证券交易所固定收益平台 STEP 协\n议报盘接口规格说明书 1.93 版 _20250718 》。市场参与人可\n通过本所官方网站 “ 交易技术支持专区 ” 或登录市场技术服务\n平台“技术支持与信息管理 - 软件与技术文档”相关栏目获取\n上述材料。请提前做好技术就绪准备。\n本次主要变更内容： 5.1 章节中将过户数据和订单状态\n文件的默认刷新间隔调整为 60s ；同时根据实际实现，将确\n定报价、成交明细和待定报价文件的默认定时刷新间隔修正\n为 10s 。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 7 月 18 日\n\n<metadata>\n{\n  \"title\": \"20250718_关于发布固定收益平台行情文件发送频率调整市场接口（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250718_关于发布固定收益平台行情文件发送频率调整市场接口（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益平台行情文件发送频率调整市场接口（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:dd5967837eb1a24b4900fa2bd97d662488aebd2d10eb34bb5f0355311cbb31ed\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:38.193901+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

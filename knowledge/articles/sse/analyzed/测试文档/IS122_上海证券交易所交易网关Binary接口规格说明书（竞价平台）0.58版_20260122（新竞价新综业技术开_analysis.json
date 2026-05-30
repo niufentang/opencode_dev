@@ -1,0 +1,86 @@
+{
+  "doc_id": "sse-iface-20210415-129",
+  "title": "IS122_上海证券交易所交易网关Binary接口规格说明书（竞价平台）0",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800222/files/873a41ebd6b246fe81b1d7ff3f512313.pdf",
+  "analysis_date": "2026-05-02T02:03:06.247019+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "删除",
+      "summary": "删除业务类型与执行报告分区（",
+      "detail": "删除业务类型与执行报告分区（",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SetID ）的固定对应关 系描述，实际的分区信息应以执行报告信息 ExecRptInfo 推送的数据为准。 2026-01-01 0.58",
+      "detail": "SetID\n）的固定对应关\n系描述，实际的分区信息应以执行报告信息\nExecRptInfo\n推送的数据为准。\n2026-01-01\n0.58",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除新订单申报中申报数量字段取值小于",
+      "detail": "删除新订单申报中申报数量字段取值小于",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1000000000 的限制说明。",
+      "detail": "1000000000\n的限制说明。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除成交回报中成交金额字段的溢出说明。",
+      "detail": "删除成交回报中成交金额字段的溢出说明。",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "其产生的回报以不同的执行报告分区（ 划分为多个逻辑上相互独立的数据流。 (SetID) 1-6，20 ；同一个业务也可以属于多个分区，通过多个执 行报告流发送 区列表信息，由后台交易系统确定，可能随后台优化而调整。 应避免自行配置固定分 区信息，影响系统的灵活性和兼容性。 比如，发行（ BizID=300010",
+      "detail": "其产生的回报以不同的执行报告分区（\n划分为多个逻辑上相互独立的数据流。\n(SetID)\n1-6，20\n；同一个业务也可以属于多个分区，通过多个执\n行报告流发送\n区列表信息，由后台交易系统确定，可能随后台优化而调整。\n应避免自行配置固定分\n区信息，影响系统的灵活性和兼容性。\n比如，发行（\nBizID=300010",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）和配股 科创板配售（ BizID=300020 ）均属于 SetID=991 的分区。 5010 OrderQty 字段：取值小于 1000000000. GrossTradeAmt 字段：如果实际成交金额超过999,999,999.99999 元，则该字段返回 OxFFFFFFFFFFFFFFFF（即对应数值-1），请使用该字段的市场参与者特殊处理，柜台系统",
+      "detail": "）和配股\n科创板配售（\nBizID=300020\n）均属于\nSetID=991\n的分区。\n5010\nOrderQty\n字段：取值小于\n1000000000.\nGrossTradeAmt\n字段：如果实际成交金额超过999,999,999.99999\n元，则该字段返回\nOxFFFFFFFFFFFFFFFF（即对应数值-1），请使用该字段的市场参与者特殊处理，柜台系统",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应能识别并及时处理该字段溢出异常，可采取如自行计算或拆分调整，盘后采用登记结算数 据或其他方式处理，做好该异常的识别和处理。 平台内分区号（ ），取值由交易系统后台决定，可能随后台优化而调整，建议 推送的数据为准，保持灵活的兼容性。",
+      "detail": "应能识别并及时处理该字段溢出异常，可采取如自行计算或拆分调整，盘后采用登记结算数\n据或其他方式处理，做好该异常的识别和处理。\n平台内分区号（\n），取值由交易系统后台决定，可能随后台优化而调整，建议\n推送的数据为准，保持灵活的兼容性。",
+      "severity": "major",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "新竞价新综业",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及8项变更。 删除: 3项。 规则条款变更: 5项。 其中重大变更4项。",
+  "confidence": 0.95
+}

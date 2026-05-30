@@ -1,0 +1,55 @@
+{
+  "doc_id": "sse-iface-20250305-101",
+  "title": "上海证券交易所新一代交易系统市场参与者接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10787337/files/235d08bf48d245a38292115253b9089d.pdf",
+  "analysis_date": "2026-05-02T02:03:06.033352+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "文档变更 20250305 、为配合港交所下调香港证券市场股票最低上落价位业务，修订最小价差文件（ zxjcMMDD.txt （转发））",
+      "detail": "文档变更\n20250305\n、为配合港交所下调香港证券市场股票最低上落价位业务，修订最小价差文件（\nzxjcMMDD.txt\n（转发））",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "“价差表代码”字段内容。",
+      "detail": "“价差表代码”字段内容。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.sse.com.cn/ https://www.hkex.com.hk/services/trading/securities/infrastructure/overview?sc_lang=en",
+      "detail": "http://www.sse.com.cn/\nhttps://www.hkex.com.hk/services/trading/securities/infrastructure/overview?sc_lang=en",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "–价位表E 部分，包括结构性产品",
+      "detail": "–价位表E 部分，包括结构性产品",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS117",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 接口字段变更: 1项。 规则条款变更: 3项。 其中重大变更1项。",
+  "confidence": 0.95
+}

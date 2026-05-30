@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-065",
+  "title": "关于发布多资产ETF市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10789327/files/a20fbd6ea1e8412ba54f0008e5a40408.pdf",
+  "analysis_date": "2026-05-02T02:03:05.796253+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

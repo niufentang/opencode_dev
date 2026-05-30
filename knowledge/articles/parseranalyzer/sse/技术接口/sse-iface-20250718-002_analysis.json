@@ -1,0 +1,106 @@
+{
+  "doc_id": "sse-iface-20250718-002",
+  "title": "IS119_上海证券交易所固定收益平台STEP协议报盘接口规格说明书1.93版_20250718",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10785858/files/fb5f5c3bd1284a74a2e0e616c2b308af.pdf",
+  "analysis_date": "2026-05-02T05:41:47.890399+00:00",
+  "metadata": {
+    "file_hash": "sha256:12c34fb6e96120ae1be4cdab17934470a598ea839a5f32b8955658c37a39bb13",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "1.93",
+    "previous_version": null,
+    "public_date": "2025-07-18",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "1.93",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所固定收益平台",
+      "detail": "《上海证券交易所固定收益平台",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "STEP",
+      "detail": "STEP",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议报盘接口规格说明书》",
+      "detail": "协议报盘接口规格说明书》",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "1.93",
+      "detail": "1.93",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "版发布说明，",
+      "detail": "版发布说明，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025",
+      "detail": "2025",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "章节中将过户数据和订单状态文件的默认刷新间隔调整为",
+      "detail": "章节中将过户数据和订单状态文件的默认刷新间隔调整为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；同时根据实际实现，将确定报",
+      "detail": "；同时根据实际实现，将确定报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "价、成交明细和待定报价文件的默认定时刷新间隔修正为",
+      "detail": "价、成交明细和待定报价文件的默认定时刷新间隔修正为",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为减少系统卡顿，请各债券参与人将过户数据定时刷新间隔配置调整为",
+      "detail": "为减少系统卡顿，请各债券参与人将过户数据定时刷新间隔配置调整为",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS119",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及10项变更。 技术架构变更: 1项。 规则条款变更: 9项。",
+  "confidence": 0.92,
+  "raw_text": "报错：\n13468\n1824\n无效过户方\nPBU\n的\nPBU\n代码\nNGTS\n报错：\n13470\n1825\n买方投资者帐户与过户方\nPBU\n无指定交易关系\nNGTS\n报错：\n13472\n1826\n买方投资者帐户已被暂停\nNGTS\n报错：\n13474\n1827\n无效买方投资者帐户\nNGTS\n报错：\n13476\n1828\n无效买方投资者帐户\nNGTS\n报错：\n13478\n1829\n无效的产品\nNGTS\n报错：\n30005\n1830\nPBU\n未配置该产品的交易权限\nNGTS\n报错：\n11068\n1831\n指令请求类型无效\nNGTS\n报错：\n13466\n1832\n打包消息中消息头的信息错误\nNGTS\n报错：\n18200\n1833\n打包消息中的指令长度错误\nNGTS\n报错：\n18202\n1834\n持仓更新指令掩码中的双边信\n息与输入参数不一致\nNGTS\n报错：\n18204\n1835\n持仓更新指令的掩码不存在\n,\n非\n法掩码\nNGTS\n报错：\n18206\n1836\n持仓更新指令的掩码尚未启用\nNGTS\n报错：\n18208\n1837\n持仓更新指令的掩码不可用于\nETF\n申赎\nNGTS\n报错：\n18210\n1838\n无目标地址\nNGTS\n报错：\n10756\n1839\n错误产品类型\nNGTS\n报错：\n10246\n1840\n产品无法使用\nNGTS\n报错：\n10398\n1841\n无效的\nPBU ID\nNGTS\n报错：\n10534\n1842\n无效的非交易\nisix\n或者\nsetId\nNGTS\n报错：\n13308\n1849\n后台系统错误\n1850\n后台未知错误\n1917\n协议回购暂不支持此交易方式\n1920\n对手方交易员不存在\n1921\n此交易方式不支持协议回购的\n券\n1922\n质押券不支持此类交易\n1925\n该报价已被拒绝\n1952\n数量错误\n现券指定对手方匹配成交时，申报的数量与对手方已\n成功发起的申报填写的数量不一致\n1953\n价格错误\n现券指定对手方匹配成交时，申报的价格与对手方已\n成功发起的申报填写的价格不一致\n1958\n非担保券不允许匿名报价\n3000\n服务器正忙\n登录时异常，或监听数据时异常\n3001\n非法登录用户\n用户登录请求异常，用户信息获取失败\n3002\n初始化数据出错\n系统初始化数据处理异常\n3009\n通讯主机\nSocket\n未开，连接被\n拒绝\n后台主机服务未启动\n3013\n交易系统主机连接不上\n与后台主机重连后失败\n3020\n用户请求非法\n发送请求报文中\nrequest_id\n为空\n3021\n用户已禁止\n会话请求中\nSessionId\n失效\n3028\n上传数据校验失败\n请求数据\nMD5\n码校验失败\n3032\n重复的消息号\n中台防重校验\n固定收益平台\nSTEP\n协议报盘接口规格说明书\n第\n128\n页共\n129\n页\n技术文档\n3101\n当前版本不支持\n登录使用的\nEzDA\n版本非固收当前支持的版本\n9999\n用户已注销，请重新登录\n后台已注销该用户\n固定收益平台\nSTEP\n协议报盘接口规格说明书\n第\n129\n页共\n129\n页"
+}

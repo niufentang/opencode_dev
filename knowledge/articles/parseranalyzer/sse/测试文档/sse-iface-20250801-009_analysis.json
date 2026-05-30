@@ -1,0 +1,212 @@
+{
+  "doc_id": "sse-iface-20250801-009",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2.08版_20250801（固收迁移技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-05-02T05:42:13.388579+00:00",
+  "metadata": {
+    "file_hash": "sha256:f9042f84b01be6213d3f17b050f22412b7b2313124e13bed19cd30557ed983e3",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "interface_spec",
+    "version": "2.08",
+    "previous_version": null,
+    "public_date": "2025-08-01",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": "2.08",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.2",
+      "detail": "3.2.2.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "询价报价处理消息流图的文字描述",
+      "detail": "询价报价处理消息流图的文字描述",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.4.2",
+      "detail": "4.4.4.2",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "转发成交申报中方向（",
+      "detail": "转发成交申报中方向（",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Side",
+      "detail": "Side",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）字段的具体含义",
+      "detail": "）字段的具体含义",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为应对三方回购换券时存在同名质押券多次质押的场景，",
+      "detail": "为应对三方回购换券时存在同名质押券多次质押的场景，",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4.4.",
+      "detail": "4.4.",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2025.06",
+      "detail": "2025.06",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.08",
+      "detail": "2.08",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交申报明确：三方回购对于换出券需要填写冻结申请书号",
+      "detail": "成交申报明确：三方回购对于换出券需要填写冻结申请书号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.5.4",
+      "detail": "3.2.2.5.4",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "双边确认申报模式数据流示意图中调整了转发申报",
+      "detail": "双边确认申报模式数据流示意图中调整了转发申报",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "adeID",
+      "detail": "adeID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的填写方式",
+      "detail": "的填写方式",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "和债券借贷",
+      "detail": "和债券借贷",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "若报价方不进行报价，询价在超时后会自动失效，整个交易过程结束。",
+      "detail": "若报价方不进行报价，询价在超时后会自动失效，整个交易过程结束。",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "价方不进行报价，询价在超时后会自动失效，整个交易过程结束；",
+      "detail": "价方不进行报价，询价在超时后会自动失效，整个交易过程结束；",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.5.4.1",
+      "detail": "3.2.2.5.4.1",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "债券借贷填写质押券冻结申请书号",
+      "detail": "债券借贷填写质押券冻结申请书号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "EventType=22",
+      "detail": "EventType=22",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "TrdMatchID",
+      "detail": "TrdMatchID",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "必填，表",
+      "detail": "必填，表",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "示质押券的冻结申请书号",
+      "detail": "示质押券的冻结申请书号",
+      "severity": "minor",
+      "source": "color_annotation"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "表示被转发方也即本申报发起方的方向。",
+      "detail": "表示被转发方也即本申报发起方的方向。",
+      "severity": "minor",
+      "source": "color_annotation"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及25项变更。 接口字段变更: 1项。 规则条款变更: 24项。",
+  "confidence": 0.92,
+  "raw_text": "）\n标签\n字段名\n字段描述\n必须\n类型\n消息头\nMsgType = U110\n8560\nGateWayPBU\n交易网关登录或订阅\nPBU\nY\nC8\n10197\nPartitionNo\n平台分区号\nY\nN4\n分区执行报告最大序号，本消息编入该分区执行报告编号\n8563\nEndReportIndex\nY\nN16\n序列。\nTDGW\n在闭市后向\nOMS\n自动发送一次，表示该执行报告流推送结束，后续该执行报告流上的序号将\n不再增加，最大序号为\nEndReportIndex\n。\n105\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录\n附录一计算校验和\n以下为计算校验和的代码段：\nuint32\nCalcChecksum(const\nchar*\nbuffer,\nuint32\nlen)\n{\nuint8\nchecksum\n=\n0;\nuint32\ni\n=\n0;\nfor\n(i\n=\n0;\ni\n<\nlen;\ni++)\n{\nchecksum\n+=\n(uint8)buffer[i];\n}\nreturn\n(uint32)checksum;\n}\n106\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录二\nPBU\n及说明\n涉及\nPBU\n时有几种含义：\n1\n、配置于\nTDGW\n上用于登录至交易系统后台的登录单位，称为登录交易单元；\n2\n、在消息报文中，表明该消息所进行的业务归属单元，称为业务交易单元，接口文档中用\nBizPbu\n指\n代；\n3\n、在消息报文中，表明与另一登录\nPBU\n间的订阅关系，称为订阅交易单元。\n目前，业务交易单元必须与登录交易单元属于同一市场参与者机构，否则交易系统将拒绝相应的业务\n申报请求。订阅\nPBU\n必须与登录\nPBU\n属于同一市场参与者机构，否则将订阅失败，在执行报告分区信息\nExecRptInfo\n消息中将不会包含订阅失败的交易单元。\n107\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录三错误代码说明\n状态码\n/\n错误码\n说明\nText\n（如有）\n0\n正常退出\nNormal Logout\n4012\nSecurityID\n错误或者业务类型\nBizID\n错误\n5000\n上行消息超过\n4K\nMessage Exceed Max Length\n5001\n上行消息校验和错误\nCheckSum Error\n5002\n心跳超时\nHeartbeat Timeout\n5003\n平台已有\nOMS\n登录\nAlready Login, try again\n5004\n连接建立后\n5\n秒内未完成登录\nLogin Timeout\n5005\n上行消息\nTargetCompId\n不正确\nCompId Error\n5006\nTDGW\n未登录至交易系统，请稍后重试\nNot Ready\n5007\n内部错误\nInternal Error\n5008\n不能识别的消息类型\nMessage Type Illegal\n5009\n平台状态暂不接受申报\n5010\nPartitionNo\n错误\n5011\nPbu\n错误\n5012\n首个消息非是\nLogon\n消息\nLogin First\n5013\nBeginReportIndex\n取值错误\n5014\n不支持的接口协议版本\nUnsupportedPrtclVersion\n5015\n消息数据错误\nMessage Data Error\n注：本表仅提供交易网关错误码，系统后台错误码参照互联网交易平台错误码信息文件。\n108\n上海证券交易所交易网关\nSTEP\n接口规范（互联网交易平台）\n附录四“用户私有信息”说明\n对于应用消息中的\nText\n字段（用户私有信息），有如下规则：\nTDGW\n返回给\nOMS\n的下行消息中\nText\n，取该条下行消息所对应的上行消息（由\nOMS\n发送给\nTDGW\n）\n中的\nText\n字段值。\n109"
+}

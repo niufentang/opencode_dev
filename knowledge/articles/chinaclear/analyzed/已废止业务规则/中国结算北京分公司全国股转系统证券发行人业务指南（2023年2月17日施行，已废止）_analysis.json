@@ -1,0 +1,66 @@
+{
+  "doc_id": "chinaclear-rule-00000000-121",
+  "title": "中国结算北京分公司全国股转系统证券发行人业务指南（2023年2月17日施行，已废止）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.949731+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "T-3 日 T-2 日 T-1 日",
+      "detail": "T-3 日\nT-2 日\nT-1 日",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "见操作手册第32 页",
+      "detail": "见操作手册第32 页",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "若选择其他选项， 注册申请将无法被审核，请务必注意！",
+      "detail": "若选择其他选项，\n注册申请将无法被审核，请务必注意！",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "无需填写PROP 代码",
+      "detail": "无需填写PROP 代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "后续手机验证码的接收号码 找回密码 若未出现“请修改用户PIN 码”窗口，说明驱动 程序安装有问题，请卸载驱动后重新安装。 连续输错6 次PIN 码将导致USB-KEY 锁死。USB-KEY 锁死后无法继续登录，请务必牢记PIN 码！如USB-KEY 锁死， 请联系本公司重置PIN 码（ 点击网页内按钮",
+      "detail": "后续手机验证码的接收号码\n找回密码\n若未出现“请修改用户PIN 码”窗口，说明驱动\n程序安装有问题，请卸载驱动后重新安装。\n连续输错6 次PIN 码将导致USB-KEY 锁死。USB-KEY\n锁死后无法继续登录，请务必牢记PIN 码！如USB-KEY 锁死，\n请联系本公司重置PIN 码（\n点击网页内按钮",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时无反应、打开网页后无内容、无法上传文件或者下载持有 经办人信息、公司相关信息或增值税发票信息 此为白色USB-KEY 驱动程序",
+      "detail": "时无反应、打开网页后无内容、无法上传文件或者下载持有\n经办人信息、公司相关信息或增值税发票信息\n此为白色USB-KEY 驱动程序",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "做市商",
+    "注册制",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 接口字段变更: 1项。 规则条款变更: 5项。",
+  "confidence": 0.95
+}

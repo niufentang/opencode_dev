@@ -1,0 +1,73 @@
+{
+  "doc_id": "sse-guide-20260306-170",
+  "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20260306（独立IOPV行情 技术开发稿）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10813251/files/be44dceb2c0647d5af27e1e6827fb352.pdf",
+  "analysis_date": "2026-05-02T02:03:06.846277+00:00",
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "废止",
+      "summary": "下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "detail": "下线竞价撮合系统行情（股票、基金、指数及债券分销）中",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IOPV 行情，相关字段标 记为“无意义”。",
+      "detail": "IOPV\n行情，相关字段标\n记为“无意义”。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "废止",
+      "summary": "下线竞价撮合系统行情文件",
+      "detail": "下线竞价撮合系统行情文件",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt00.txt 行情，相关字段标记为“无意义”。 mktdte.txt 文件名采用固定文件名规则，而非动态命名规则 ，文件名中不包 动态文件名规则：如撮合系统行情文件，文件名为 mktdt+ [ ]+.txt ，其中环境号会随部署环境变化。例如：在生产环境 环境）中文件名为 ，在测试环境（如",
+      "detail": "mktdt00.txt\n行情，相关字段标记为“无意义”。\nmktdte.txt\n文件名采用固定文件名规则，而非动态命名规则\n，文件名中不包\n动态文件名规则：如撮合系统行情文件，文件名为\nmktdt+ [\n]+.txt\n，其中环境号会随部署环境变化。例如：在生产环境\n环境）中文件名为\n，在测试环境（如",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "mktdt88.txt 含环境号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据 上述规则，在切换环境时注意区分。 字段会保留但会标记为无意义数据。原渠道（ SecurityType=1 行情将逐步减少转发直至不再通过此渠道发布，原渠道中 相关字段会保留并填写为 （表示无意义），以避免系统兼容性问题。",
+      "detail": "mktdt88.txt\n含环境号。无论在测试环境还是生产环境，其文件名均保持不变。请各市场机构根据\n上述规则，在切换环境时注意区分。\n字段会保留但会标记为无意义数据。原渠道（\nSecurityType=1\n行情将逐步减少转发直至不再通过此渠道发布，原渠道中\n相关字段会保留并填写为\n（表示无意义），以避免系统兼容性问题。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS120_ BINARY 数据接口规范 0.58 _20250919 STEP IS124_ 2.70 0.60 _20260306 3.20",
+      "detail": "IS120_\nBINARY\n数据接口规范\n0.58\n_20250919\nSTEP\nIS124_\n2.70\n0.60\n_20260306\n3.20",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS120",
+    "IS124",
+    "STEP",
+    "债券",
+    "期权",
+    "独立IOPV",
+    "融资融券",
+    "has_changes",
+    "deprecated"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及6项变更。 废止: 2项。 规则条款变更: 4项。",
+  "confidence": 0.95
+}

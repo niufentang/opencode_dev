@@ -1,0 +1,30 @@
+{
+  "doc_id": "chinaclear-rule-00000000-129",
+  "title": "中国结算北京分公司定向发行可转换公司债券登记结算业务指南（2021年11月15日施行，已废止）",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.998782+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "www.chinaclear.cn-",
+      "detail": "www.chinaclear.cn-",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

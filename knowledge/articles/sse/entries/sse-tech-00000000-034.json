@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-034",
+  "type": "technical_notice",
+  "title": "关于发布ETF网上发行末日比例配售市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781091/files/54c3296f2d1a46a68012131a1119f151.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:51c9a19a8cc8c395fe2ab853e2e4afa116b755baab85adae326c0db504cf151f",
+  "content_markdown": "关于发布 ETF 网上发行末日比例配售\n市场接口的通知\n各市场参与人：\n根据 ETF 网上发行末日比例配售业务相关工作安排，现\n发布《 IS101_ 上海证券交易所竞价撮合平台市场参与者接口\n规格说明书 1.69 版（ ETF 网上发行末日比例配售技术开发\n稿） 20250218 》。市场参与人可通过上海证券交易所网站“交\n易技术支持专区”或登录市场技术服务平台“产品服务 - 交易\n支持软件专区”相关栏目获取上述材料。请提前做好技术就\n绪准备。\n本次主要变更内容：一是更新产品非交易基础信息接口\nfjyYYYYMMDD.txt ，新增“ ETF 比例配售日”信息并调整\n相关描述；二是更新过户数据接口 ghXXXXX.dbf ，补充 ETF\n网上发行的相关数据中不包括中签数量为 0 的记录。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 2 月 19 日\n\n<metadata>\n{\n  \"title\": \"20250219_关于发布ETF网上发行末日比例配售市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250219_关于发布ETF网上发行末日比例配售市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布ETF网上发行末日比例配售市场接口的通知.md\",\n  \"file_hash\": \"sha256:51c9a19a8cc8c395fe2ab853e2e4afa116b755baab85adae326c0db504cf151f\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:31.935737+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

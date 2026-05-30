@@ -1,0 +1,58 @@
+{
+  "doc_id": "sse-iface-20260122-114",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（托管银行卷）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-05-02T02:03:06.178944+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（托管银行卷）》 1.36 版发布说明： 2026 托管银行私有数据接口 YYYY.sse",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（托管银行卷）》\n1.36\n版发布说明：\n2026\n托管银行私有数据接口\nYYYY.sse",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增新竞价过户数据文件（",
+      "detail": "新增新竞价过户数据文件（",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "gh00PXXXXX.txt ）、新竞价发行过 户数据文件（ ipogh00PXXXXX.txt ）、指定过户数据文件（ zdgh00PXXXXX.txt ），取消席位成交 ghXXXXX.dbf ）文件。 过户数据、 、新竞价过户数据文件、新 竞价发行过户数据文件、指定过户数据文件 席位成交 (ghXXXXX.dbf)",
+      "detail": "gh00PXXXXX.txt\n）、新竞价发行过\n户数据文件（\nipogh00PXXXXX.txt\n）、指定过户数据文件（\nzdgh00PXXXXX.txt\n），取消席位成交\nghXXXXX.dbf\n）文件。\n过户数据、\n、新竞价过户数据文件、新\n竞价发行过户数据文件、指定过户数据文件\n席位成交\n(ghXXXXX.dbf)",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、新竞价过户数据文件（ ）、新竞 价发行过户数据文件（ 、新竞价过户数 据文件（ ）、新竞价发行过户数据文件（ ）、指定过户数据文件 竞价过户数据接口 新竞价过户数据文件（ 新竞价发行过户数据文件（ 指定过户数据文件（",
+      "detail": "、新竞价过户数据文件（\n）、新竞\n价发行过户数据文件（\n、新竞价过户数\n据文件（\n）、新竞价发行过户数据文件（\n）、指定过户数据文件\n竞价过户数据接口\n新竞价过户数据文件（\n新竞价发行过户数据文件（\n指定过户数据文件（",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS104",
+    "IS105",
+    "IS110",
+    "IS118",
+    "IS124",
+    "REITs",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 规则条款变更: 3项。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

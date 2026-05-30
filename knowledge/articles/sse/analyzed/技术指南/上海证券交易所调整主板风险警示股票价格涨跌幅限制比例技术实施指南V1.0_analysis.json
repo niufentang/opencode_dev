@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-guide-00000000-007",
+  "title": "上海证券交易所调整主板风险警示股票价格涨跌幅限制比例技术实施指南V1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10783252/files/aa614237558d40f384ea174bd5e5107b.pdf",
+  "analysis_date": "2026-05-02T02:03:05.560218+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "最新的主板风险警示股票价格涨跌幅限制比例（ ）进行订单价格校验",
+      "detail": "最新的主板风险警示股票价格涨跌幅限制比例（\n）进行订单价格校验",
+      "severity": "critical",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "IS101",
+    "债券",
+    "期权",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

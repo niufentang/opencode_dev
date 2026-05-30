@@ -1,0 +1,32 @@
+{
+  "doc_id": "sse-guide-20250919-001",
+  "title": "上海证券交易所独立IOPV行情市场参与者技术实施指南_20250919",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10813251/files/be44dceb2c0647d5af27e1e6827fb352.pdf",
+  "analysis_date": "2026-05-02T05:41:47.494555+00:00",
+  "metadata": {
+    "file_hash": "sha256:70738dd5bef5c9b2d7c859fbf8f032d30e1b3572c542c48b29f48b876b56e9dc",
+    "file_format": "pdf",
+    "page_count": 0,
+    "doc_type": "guide",
+    "version": null,
+    "previous_version": null,
+    "public_date": "2025-09-19",
+    "effective_date": null,
+    "parse_status": "success"
+  },
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。类型：guide，版本：无。",
+  "confidence": 0.72,
+  "raw_text": "（一）行情网关\nMDGW\n接口（\nBINARY/STEP\n）\n1.\n市场状态消息（\nMsgType=M101/h\n）中增加\nSecurityType=14\n消息，旨在传递行情\n产品数目（\nTotNoRelatedSym\n字段），对应市场状态（\nTradingSessionID\n）填空无意义。\n2.\n行情快照消息（\nMsgType=M102/W\n）中增加\nIOPV\n行情\n（\nMDStreamID=MDE01\n），其\nPreClosePx\n昨收盘、\nTotalVolumeTraded\n成交数量、\nNumTrades\n成交笔数、\nTotalValueTraded\n成交金额字段取值为\n0\n，\nTradingPhaseCode\n实时\n阶段及标志取值为空。行情条目类别为\nw\n时，\nMDEntryPx\n表示基金\nT-1\n日收盘时刻\nIOPV\n，此条目仅当\nMDStreamID= MD004\n时有意义，当\nMDStreamID= MDE01\n时无\n意义，该字段取\n0\n时无意义；行情条目类别为\nv\n时，\nMDEntryPx\n表示基金\nIOPV\n，此\n条目仅当\nMDStreamID= MD004\n或\nMDE01\n时有意义，该字段取\n0\n时无意义。\n（二）文件接口（外部源行情文件\nmktdte.txt\n）\n文件头、尾与\nmktdt00.txt\n类似。文件体目前仅有\nMDStreamID= MDE01\n一种，表示\nIOPV\n行情，包含：\nSecurityID\n证券代码、\nSymbol\n证券简称、\nIOPV\n、\nTimestamp\n时间\n戳、\nReserved\n预留字段。\n外部源行情文件\nmktdte.txt\n仅会通过行情网关\nMDGW\n进行下发。\nUT5\n已计划下\n线，不会发布该文件。\n二、切换方面\n为提升市场效率，共做两阶段安排：\n第\n2\n页\n共\n4\n页\n技术文档\n（一）第一阶段\n本所向市场机构以试运行的形式发布外部源\nIOPV\n行情，各市场机构应保持以现有\n渠道（\nSecurityType=1\n及\nmktdt00.txt\n）接收\nIOPV\n，外部源行情渠道的\nIOPV\n仅供参\n考，不应用做正式用途。\n此阶段外部源\nIOPV\n行情与现有渠道保持一致。\n市场机构可在此阶段逐步完成技术就绪，为后续正式切换外部源行情渠道做好准\n备。\n（二）第二阶段\n正式发布外部源\nIOPV\n行情，市场机构应切换外部源\nIOPV\n行情为生产使用。原渠\n道（\nSecurityType=1\n及\nmktdt00.txt\n）中\nIOPV\n行情将逐步减少转发直至不再通过此渠道\n发布，原渠道中\nIOPV\n相关字段会保留并填写为\n0\n（表示无意义），以避免系统兼容性\n问题。\n市场参与者应充分评估上述变更对行情、申赎、交易等相关技术系统的影响，做好相\n关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行充分测试验证，\n同时保障现有上交所股票、债券、基金、融资融券、股票期权等各类业务正常运行。\n三、行情网关升级说明\n市场参与者可通过升级行情网关版本\n(MDGW_1.2.10\n及以上\n)\n，接收新增外部源行\n情数据。存量生产版本接收其他行情类数据不受影响，其中传输方式使用\nUdp\n高速地\n面和\nUdp\n卫星链路的用户，日志提示：\ntask marketDataTask unknown securityType\n14\n，为正常现象，请忽略。\n第\n3\n页\n共\n4\n页\n技术文档\n4\n相关技术文档\n《\nIS120_\n上海证券交易所行情网关\nBINARY\n数据接口规范\n0.58\n版\n_20250919\n》\n《\nIS120_\n上海证券交易所行情网关\nSTEP\n数据接口规范\n0.58\n版\n_20250919\n》\n《\nIS124_\n上海证券交易所市场数据文件交换接口规格说明书\n2.70\n版\n_20250919\n》\n第\n4\n页\n共\n4\n页"
+}

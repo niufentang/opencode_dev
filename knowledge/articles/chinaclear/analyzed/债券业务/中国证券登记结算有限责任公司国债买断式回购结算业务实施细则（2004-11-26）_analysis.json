@@ -1,0 +1,21 @@
+{
+  "doc_id": "chinaclear-rule-00000000-028",
+  "title": "<4D6963726F736F667420576F7264202D20D6D0B9FAD6A4C8AFB5C7BCC7BDE1CBE3D3D0CFDED4F0C8CEB9ABCBBEB9FAD5AEC2F2B6CFCABDBBD8B9BABDE1CBE3D2B5CEF1CAB5CAA9CFB8D4F22E646F63>",
+  "source": "chinaclear",
+  "source_url": null,
+  "analysis_date": "2026-05-19T11:26:33.266655+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：business_rule，版本：无。",
+  "confidence": 0.75
+}

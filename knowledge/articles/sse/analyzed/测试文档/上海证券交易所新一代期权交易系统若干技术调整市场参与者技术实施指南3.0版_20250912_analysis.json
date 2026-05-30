@@ -1,0 +1,58 @@
+{
+  "doc_id": "sse-guide-20250912-162",
+  "title": "上海证券交易所新一代期权交易系统若干技术调整市场参与者技术实施指南3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10791319/files/75923c3388a0462ea17e9427491f30c9.pdf",
+  "analysis_date": "2026-05-02T02:03:06.813510+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "组合与拆分执行报告中成交编号(ExecID) 规则暂不调整。 12、业务闭市后订单消息响应变化 市场参与者申报的订单时，若订单对应的业务已闭市，全局时间表尚 未结束，针对业务时间表闭市校验错误(错误码10740)，新一代期权交易 系统将通过申报拒绝（Order Request Reject）返回该类型错误，不再通",
+      "detail": "组合与拆分执行报告中成交编号(ExecID)\n规则暂不调整。\n12、业务闭市后订单消息响应变化\n市场参与者申报的订单时，若订单对应的业务已闭市，全局时间表尚\n未结束，针对业务时间表闭市校验错误(错误码10740)，新一代期权交易\n系统将通过申报拒绝（Order\nRequest\nReject）返回该类型错误，不再通",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "过执行报告（Execution Report）返回该类型错误。全局时间表结束之后， 新一代期权交易系统与现有期权交易系统保持一致，通过申报拒绝（Order Reject）返回该类型错误。",
+      "detail": "过执行报告（Execution\nReport）返回该类型错误。全局时间表结束之后，\n新一代期权交易系统与现有期权交易系统保持一致，通过申报拒绝（Order\nReject）返回该类型错误。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "14、交易网关远程地址更新 本所新一代期权交易系统上线时，市场机构需将交易网关的期权平台",
+      "detail": "14、交易网关远程地址更新\n本所新一代期权交易系统上线时，市场机构需将交易网关的期权平台",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "界面中的远程地址列表更新为本所通知的IP",
+      "detail": "界面中的远程地址列表更新为本所通知的IP",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS111",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "做市商",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 技术架构变更: 1项。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

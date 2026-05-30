@@ -1,0 +1,37 @@
+{
+  "doc_id": "sse-iface-20250815-094",
+  "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
+  "analysis_date": "2026-05-02T02:03:05.930012+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《综合业务平台市场参与者接口规格说明书》 1.57 版发布说明 2025.8 配合支持多资产 ，调整描述。 、现金申赎类多资产 、单市场 、跨市场多资产",
+      "detail": "《综合业务平台市场参与者接口规格说明书》\n1.57\n版发布说明\n2025.8\n配合支持多资产\n，调整描述。\n、现金申赎类多资产\n、单市场\n、跨市场多资产",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS105",
+    "IS118",
+    "IS124",
+    "REITs",
+    "STEP",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}
