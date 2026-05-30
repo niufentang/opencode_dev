@@ -21,3 +21,10 @@ log/
 
 # Runtime state
 .pipeline_state.json
+
+# Temporary analysis and evaluation directories
+tech_analyze/
+缺陷评估/
+
+# Convenience startup script (local only)
+start-opencode.bat
