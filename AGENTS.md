@@ -151,9 +151,7 @@ ai-knowledge-base/
 - 分离国内外路由，不影响国内常规网络访问
   
 ### Git 配置（必须）
-Watt Toolkit 通过修改 hosts 将 GitHub 域名指向 127.0.0.1，并用自签名证书拦截 HTTPS 流量。
-Git 的 SChannel SSL 后端在 Watt Toolkit 代理下会出现 SSL 重协商卡死，必须切换为 openssl
-后端：
+Watt Toolkit 通过修改 hosts 将 GitHub 域名指向 127.0.0.1，并用自签名证书拦截 HTTPS 流量。 Git 的 SChannel SSL 后端在 Watt Toolkit 代理下会出现 SSL 重协商卡死，必须切换为 openssl 后端：
 ```powershell
 # === 一次性配置 ===
 
@@ -164,6 +162,21 @@ git config --global http.sslBackend openssl
 git config --global http.sslVerify false
 ```
 **注意**：`git pull` 前需确保 Watt Toolkit 正在运行。
+
+### 备选方案：Clash for Windows（Watt Toolkit 不通时使用）
+
+当 Watt Toolkit 代理失效（如 SSL 卡死、超时），可改用 Clash for Windows 作为 HTTP 代理：
+
+```powershell
+# 会话级环境变量，关闭终端后自动失效
+$env:HTTP_PROXY="http://127.0.0.1:7890"
+$env:HTTPS_PROXY="http://127.0.0.1:7890"
+
+git -c http.sslVerify=false pull
+```
+
+**前提**：Clash for Windows 已启动运行，默认 HTTP 代理端口 `7890`（如有自定义请替换）。
+**说明**：`sslVerify=false` 仅在本地代理场景下使用，风险可控；环境变量仅当前会话生效，不影响系统配置。
 
 ### 合规要求
 仅用于正常开发场景下访问海外公开技术服务，禁止任何违规网络行为。
