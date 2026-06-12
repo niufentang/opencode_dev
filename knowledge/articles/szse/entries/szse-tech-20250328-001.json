@@ -1,0 +1,24 @@
+{
+  "id": "szse-tech-20250328-001",
+  "type": "technical_notice",
+  "title": "t20260424_620191",
+  "source": "szse",
+  "source_url": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "szse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": "2025-03-28",
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "html",
+  "file_hash": "sha256:8093da5de5420d0dcea412243314e50ff69e1eec4a494e185bfaca36329f8628",
+  "content_markdown": "## 发行承销\n\n位置：法律规则/本所业务规则/股票类/发行承销\n\n## 关于发布《深圳证券交易所首次公开发行证券发行与承销业务实施细则（2026年修订）》的通知\n\n深证上〔2026〕552号\n\n各市场参与人：\n\n为贯彻落实中国证监会《关于深化创业板改革更好服务新质生产力发展的意见》有关要求，优化新股发行承销机制，保护投资者合法权益，按照中国证监会统一部署，本所对《深圳证券交易所首次公开发行证券发行与承销业务实施细则》进行了修订。经中国证监会批准，现予发布，自发布之日起施行。\n\n本所于2025年3月28日发布的《深圳证券交易所首次公开发行证券发行与承销业务实施细则（2025年修订）》（深证上〔2025〕267号）同时废止。\n\n为确保新旧规则有序衔接、新规顺利实施，现将有关事项通知如下：\n\n1.新规则第二十六条关于首次公开发行并在创业板上市的已盈利优质创新企业可以采用约定限售方式的规定，自本通知发布之日起一年内暂不实施。后续本所将根据未盈利上市企业约定限售实施效果择机实施，具体实施时间由本所另行通知。\n\n2.在本通知发布后刊登招股意向书或者招股说明书的，适用新规则；在本通知发布前已经刊登招股意向书或者招股说明书的，适用原规则。\n\n附件：1．深圳证券交易所首次公开发行证券发行与承销业务实施细则（2026年修订）\n\n2．《深圳证券交易所首次公开发行证券发行与承销业务实施细则》修订说明\n\n深圳证券交易所\n\n2026年4月24日\n\n<metadata>\n{\n  \"title\": \"t20260424_620191\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\szse\\\\发行承销\\\\20260424\\\\t20260424_620191.html\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\szse\\\\markdown\\\\发行承销\\\\t20260424_620191.md\",\n  \"file_hash\": \"sha256:8093da5de5420d0dcea412243314e50ff69e1eec4a494e185bfaca36329f8628\",\n  \"file_format\": \"html\",\n  \"page_count\": 0,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": \"2025-03-28\",\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-12T03:04:38.970766+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

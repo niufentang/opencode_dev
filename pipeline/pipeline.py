@@ -31,6 +31,16 @@ Collect → Parse → Analyze (规则+LLM混合) → Organize → Save (质量�
     # 强制 LLM 触发：调低置信度阈值，让更多文档走 LLM 分支
     python pipeline/pipeline.py --limit 3 --use-llm --llm-threshold 0.95
 
+    # 指定文件处理：从解析到入库，仅处理匹配的文件（按路径关键词匹配）
+    python pipeline/pipeline.py --sources szse --from parse --to save --files "szse/发行承销/20260424"
+
+    # 指定多个文件或单个文件
+    python pipeline/pipeline.py --sources szse --from parse --to save --files "szse/发行承销/20260424/t20260424_620191.html"
+    python pipeline/pipeline.py --sources szse --step parse --files "szse/发行承销/20260424" "szse/技术公告/20260529"
+
+    # 指定文件 + 单步运行（结合 --step / --from --to 使用）
+    python pipeline/pipeline.py --sources szse --step analyze --files "szse/发行承销/20260424"
+
     # 完整 Pipeline 结束后查看 LLM 调用成本报告
     # (自动输出到日志 + 保存到 log/cost_report_{timestamp}.json)
 """
@@ -94,6 +104,7 @@ class PipelineConfig:
     fail_fast: bool = False
     skip_quality: bool = False
     dry_run: bool = False
+    files: list[str] | None = None
 
 
 @dataclass
@@ -368,6 +379,19 @@ class PipelineRunner:
                 source_detail[source] = {"status": "skipped", "total": 0}
                 continue
 
+            # 文件级过滤：仅保留匹配 --files 指定路径的文件
+            if self.config.files:
+                filtered = []
+                for f in files:
+                    fpath_str = str(f[3]).replace("\\", "/")
+                    if any(fn in fpath_str for fn in self.config.files):
+                        filtered.append(f)
+                files = filtered
+                if not files:
+                    logger.info("  %s: 无匹配指定文件的待解析文件", source)
+                    source_detail[source] = {"status": "skipped", "total": 0}
+                    continue
+
             source_ok = source_fail = 0
             for src, category, sub_category, fpath in files:
                 rel_path = str(fpath)
@@ -441,6 +465,29 @@ class PipelineRunner:
                 logger.info("  %s: 无待分析 Markdown 文件", source)
                 source_detail[source] = {"status": "skipped", "total": 0}
                 continue
+
+            # 文件级过滤：将 --files 中提取的关键词（最后两级路径）用于匹配
+            if self.config.files:
+                filter_keys = set()
+                for fn in self.config.files:
+                    parts = fn.strip("/\\").replace("\\", "/").split("/")
+                    # 取最后两级路径作为匹配关键词
+                    for k in parts[-2:]:
+                        filter_keys.add(k)
+                    # 也取文件名（不含扩展名）作为关键词
+                    base = Path(fn).stem
+                    if base:
+                        filter_keys.add(base)
+                filtered = []
+                for mf in md_files:
+                    mf_str = str(mf).replace("\\", "/")
+                    if any(k in mf_str for k in filter_keys):
+                        filtered.append(mf)
+                md_files = filtered
+                if not md_files:
+                    logger.info("  %s: 无匹配指定文件的 Markdown 文件", source)
+                    source_detail[source] = {"status": "skipped", "total": 0}
+                    continue
 
             source_ok = source_fail = 0
             source_llm = 0
@@ -641,6 +688,27 @@ class PipelineRunner:
                 logger.info("  %s: 无待整理的分析文件", source)
                 source_detail[source] = {"status": "skipped", "total": 0}
                 continue
+
+            # 文件级过滤：将 --files 中提取的关键词用于匹配分析文件
+            if self.config.files:
+                filter_keys = set()
+                for fn in self.config.files:
+                    parts = fn.strip("/\\").replace("\\", "/").split("/")
+                    for k in parts[-2:]:
+                        filter_keys.add(k)
+                    base = Path(fn).stem
+                    if base:
+                        filter_keys.add(base)
+                filtered = []
+                for af in analysis_files:
+                    af_str = str(af).replace("\\", "/")
+                    if any(k in af_str for k in filter_keys):
+                        filtered.append(af)
+                analysis_files = filtered
+                if not analysis_files:
+                    logger.info("  %s: 无匹配指定文件的分析文件", source)
+                    source_detail[source] = {"status": "skipped", "total": 0}
+                    continue
 
             source_ok = source_fail = 0
             entries = []
@@ -909,6 +977,7 @@ def _parse_args() -> PipelineConfig:
     parser.add_argument("--skip-quality", action="store_true", help="跳过质量门禁")
     parser.add_argument("--fail-fast", action="store_true", help="遇错即停")
     parser.add_argument("--dry-run", action="store_true", help="试运行")
+    parser.add_argument("--files", nargs="+", help="指定处理的文件路径（相对于 knowledge/raw/），支持多个，如 szse/发行承销/20260424/t20260424_620191.html")
     parser.add_argument("--verbose", action="store_true", help="详细日志")
 
     args = parser.parse_args()
@@ -951,6 +1020,7 @@ def _parse_args() -> PipelineConfig:
         fail_fast=args.fail_fast,
         skip_quality=args.skip_quality,
         dry_run=args.dry_run,
+        files=args.files,
     )
 
 

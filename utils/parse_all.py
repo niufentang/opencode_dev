@@ -319,7 +319,7 @@ def collect_raw_files(source_filter: str | None = None, only_path: str | None = 
             if source == "chinaclear":
                 sub_category = category
                 category = "业务规则"
-            for f in sorted(cat_dir.iterdir()):
+            for f in sorted(cat_dir.rglob("*")):
                 if f.is_file() and f.suffix.lower() in known_exts:
                     if only_path and only_path not in str(f):
                         continue
