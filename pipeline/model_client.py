@@ -11,10 +11,13 @@ from __future__ import annotations
 
 import logging
 import os
+import random
 import re
 import time
+import traceback
 from abc import ABC, abstractmethod
 from dataclasses import dataclass, field
+from enum import Enum
 from typing import Optional
 
 import httpx
@@ -29,6 +32,36 @@ load_dotenv()
 # ---------------------------------------------------------------------------
 # 数据模型
 # ---------------------------------------------------------------------------
+
+
+class JitterStrategy(str, Enum):
+    """抖动策略枚举。
+
+    控制重试退避的随机化算法，用于分散重试时间点，避免惊群效应。
+    """
+
+    PROPORTIONAL = "proportional"
+    FULL_JITTER = "full_jitter"
+    EQUAL_JITTER = "equal_jitter"
+    NONE = "none"
+
+
+@dataclass
+class RetryConfig:
+    """重试配置，封装所有可调参数。
+
+    Attributes:
+        max_attempts: 最大重试次数（不含首次请求）。
+        base_delay: 首次退避的基准秒数。
+        total_timeout: 总 wall-clock 预算（秒），None 表示自适应计算。
+        jitter_strategy: 抖动策略名，对应 JitterStrategy 枚举。
+        jitter_factor: 抖动幅度，仅 proportional 策略有效。
+    """
+    max_attempts: int = 3
+    base_delay: float = 1.0
+    total_timeout: float | None = None
+    jitter_strategy: str = "proportional"
+    jitter_factor: float = 0.5
 
 
 @dataclass
@@ -68,6 +101,7 @@ class LLMResponse:
     usage: Usage = field(default_factory=Usage)
     provider: str = ""
     model: str = ""
+    degraded: bool = False
 
     def to_dict(self) -> dict:
         return {
@@ -179,6 +213,7 @@ class OpenAICompatibleProvider(LLMProvider):
         # 模型选择优先级：显式传参 > 环境变量 > 配置默认值
         self.model = model or os.environ.get(cfg.get("model_env", "")) or cfg["model"]
         self.timeout = timeout
+        self.retry_config: Optional[RetryConfig] = None
         pool_limits = httpx.Limits(max_keepalive_connections=5, max_connections=10)
         self._client = httpx.Client(timeout=self.timeout, limits=pool_limits)
 
@@ -251,54 +286,130 @@ class OpenAICompatibleProvider(LLMProvider):
 # ---------------------------------------------------------------------------
 
 
+RETRYABLE_HTTP_CODES = {429, 500, 502, 503, 504}
+
+
+def _is_retryable(exc: Exception) -> bool:
+    """判断异常是否可重试。
+
+    白名单制：仅网络层和限流异常可重试，其余立即上抛。
+    """
+    if isinstance(exc, (httpx.TimeoutException, httpx.ConnectError)):
+        return True
+    if isinstance(exc, httpx.HTTPStatusError):
+        return exc.response.status_code in RETRYABLE_HTTP_CODES
+    return False
+
+
+def _apply_jitter(delay: float, strategy: str, jitter_factor: float = 0.5) -> float:
+    """对退避延迟施加随机抖动。
+
+    Args:
+        delay: 退避基准延迟（秒）。
+        strategy: JitterStrategy 枚举值。
+        jitter_factor: 抖动幅度，仅 proportional 策略有效。
+
+    Returns:
+        施加抖动后的延迟（秒）。
+    """
+    if strategy == JitterStrategy.PROPORTIONAL:
+        return delay * (1 + random.random() * jitter_factor)
+    elif strategy == JitterStrategy.FULL_JITTER:
+        return random.random() * delay
+    elif strategy == JitterStrategy.EQUAL_JITTER:
+        return delay / 2 + random.random() * delay / 2
+    else:
+        return delay
+
+
+def _default_total_timeout(httpx_timeout: int, max_attempts: int, base_delay: float) -> float:
+    """自适应计算 total_timeout 默认值。
+
+    公式：单次请求超时 × 请求次数 + 退避总和。
+    """
+    backoff_total = base_delay * (2 ** (max_attempts - 1) - 1)
+    return httpx_timeout * max_attempts + backoff_total
+
+
 def chat_with_retry(
     provider: LLMProvider,
     messages: list[dict],
-    max_retries: int = 3,
-    base_delay: float = 2.0,
     **kwargs,
 ) -> LLMResponse:
     """带指数退避重试的对话请求。
 
-    指数退避：每次重试等待时间呈指数增长（2s → 4s → 8s），
-    避免在服务端繁忙时高频重试加剧压力，给服务恢复时间。
+    支持可配置的 RetryConfig（挂在 provider.retry_config 上），
+    总时间预算封顶、抖动策略、仅白名单异常可重试。
 
     Args:
-        provider: LLMProvider 实例。
+        provider: LLMProvider 实例（需已设置 retry_config）。
         messages: 消息字典列表。
-        max_retries: 最大重试次数（默认 3）。
-        base_delay: 首次重试前的等待秒数。
         **kwargs: 传递给 provider.chat() 的额外参数。
 
     Returns:
-        成功时的 LLMResponse。
-
-    Raises:
-        RuntimeError: 所有重试均失败时抛出。
+        成功时返回 LLMResponse；全部失败后返回 LLMResponse(degraded=True)。
     """
+    config = getattr(provider, "retry_config", None) or RetryConfig()
+
+    if not isinstance(config.jitter_strategy, JitterStrategy):
+        try:
+            config.jitter_strategy = JitterStrategy(config.jitter_strategy)
+        except ValueError:
+            raise ValueError(
+                f"未知抖动策略: {config.jitter_strategy}。"
+                f"可选: {[e.value for e in JitterStrategy]}"
+            )
+
+    httpx_timeout = getattr(provider, "timeout", 60)
+    total_timeout = config.total_timeout
+    if total_timeout is None:
+        total_timeout = _default_total_timeout(httpx_timeout, config.max_attempts, config.base_delay)
+
+    deadline = time.monotonic() + total_timeout
     last_exc: Optional[Exception] = None
-    for attempt in range(1 + max_retries):
+
+    for attempt in range(1 + config.max_attempts):
         try:
             resp = provider.chat(messages, **kwargs)
             tracker.record(resp.usage, provider.provider_name)
             return resp
-        except (httpx.HTTPError, httpx.TimeoutException) as e:
+        except Exception as e:
             last_exc = e
-            if attempt < max_retries:
-                delay = base_delay * (2**attempt)
-                logger.warning(
-                    "第 %d 次对话失败: %s，%.1fs 后重试...",
-                    attempt + 1,
-                    e,
-                    delay,
-                )
-                time.sleep(delay)
-            else:
-                logger.error("全部 %d 次对话均失败。", 1 + max_retries)
+            tracker.record_failure(provider.provider_name, traceback.format_exc(), attempt)
 
-    raise RuntimeError(
-        f"对话失败，已重试 {1 + max_retries} 次"
-    ) from last_exc
+            if not _is_retryable(e):
+                raise
+
+            if attempt >= config.max_attempts:
+                logger.error("全部 %d 次对话均失败。", 1 + config.max_attempts)
+                break
+
+            now = time.monotonic()
+            remaining = deadline - now
+
+            if remaining < config.base_delay:
+                logger.warning("预算不足，跳过重试: %.1fs 剩余", remaining)
+                break
+
+            delay = config.base_delay * (2**attempt)
+            delay = _apply_jitter(delay, config.jitter_strategy, config.jitter_factor)
+            delay = min(delay, remaining)
+
+            logger.warning(
+                "第 %d 次对话失败: %s，%.1fs 后重试...",
+                attempt + 1,
+                e,
+                delay,
+            )
+            time.sleep(delay)
+
+    return LLMResponse(
+        content="",
+        usage=Usage(prompt_tokens=0, completion_tokens=0),
+        provider=getattr(provider, "provider_name", ""),
+        model=getattr(provider, "model", ""),
+        degraded=True,
+    )
 
 
 # ---------------------------------------------------------------------------
@@ -396,6 +507,22 @@ def estimate_message_cost(
 # ---------------------------------------------------------------------------
 
 
+@dataclass
+class FailureRecord:
+    """一次失败的 API 调用记录。
+
+    Attributes:
+        provider: 提供商名称。
+        exception: 完整 traceback 字符串，便于排查。
+        attempt: 失败时的重试轮次（0 = 首次请求）。
+        timestamp: 失败时间戳。
+    """
+    provider: str
+    exception: str
+    attempt: int
+    timestamp: float
+
+
 class CostTracker:
     """追踪 LLM 调用的 token 消耗和成本。
 
@@ -404,6 +531,7 @@ class CostTracker:
 
     def __init__(self) -> None:
         self._records: list[dict] = []
+        self._failures: list[FailureRecord] = []
 
     def record(self, usage: Usage, provider: str) -> None:
         """记录一次 API 调用。
@@ -417,6 +545,39 @@ class CostTracker:
             "provider": provider,
             "timestamp": time.time(),
         })
+
+    def record_failure(self, provider: str, exception: str, attempt: int) -> None:
+        """记录一次失败的 API 调用。
+
+        Args:
+            provider: 提供商名称。
+            exception: 异常完整 traceback 字符串。
+            attempt: 失败时的重试轮次（0 = 首次请求）。
+        """
+        self._failures.append(FailureRecord(
+            provider=provider,
+            exception=exception,
+            attempt=attempt,
+            timestamp=time.time(),
+        ))
+
+    def _filter(self, provider: Optional[str] = None) -> tuple[list[dict], list[FailureRecord]]:
+        """按提供商过滤成功记录和失败记录。
+
+        Returns:
+            (records, failures) 元组。
+        """
+        records = (
+            self._records
+            if provider is None
+            else [r for r in self._records if r["provider"] == provider]
+        )
+        failures = (
+            self._failures
+            if provider is None
+            else [f for f in self._failures if f.provider == provider]
+        )
+        return records, failures
 
     def estimated_cost(
         self,
@@ -448,12 +609,8 @@ class CostTracker:
         logger.info("LLM 调用成本报告")
         logger.info("=" * 60)
 
-        records = (
-            self._records
-            if provider is None
-            else [r for r in self._records if r["provider"] == provider]
-        )
-        if not records:
+        records, failures = self._filter(provider)
+        if not records and not failures:
             logger.info("无调用记录。")
             logger.info("=" * 60)
             return
@@ -464,6 +621,7 @@ class CostTracker:
 
         for prov in providers:
             prov_records = [r for r in records if r["provider"] == prov]
+            prov_failures = [f for f in failures if f.provider == prov]
             n_calls = len(prov_records)
             total_prompt = sum(r["usage"].prompt_tokens for r in prov_records)
             total_comp = sum(r["usage"].completion_tokens for r in prov_records)
@@ -481,6 +639,7 @@ class CostTracker:
 
             logger.info("提供商: %s", prov)
             logger.info("  调用次数: %d", n_calls)
+            logger.info("  失败次数: %d", len(prov_failures))
             logger.info("  总 Token: %d（输入 %d / 输出 %d）",
                         total_tok, total_prompt, total_comp)
             logger.info("  估算成本: ¥%.4f（USD $%.4f）", cost_cny, cost_usd)
@@ -496,22 +655,26 @@ class CostTracker:
             filepath: 输出文件路径（建议 .json）。
             provider: 仅保存该提供商的记录，None 保存全部。
         """
-        records = (
-            self._records
-            if provider is None
-            else [r for r in self._records if r["provider"] == provider]
-        )
+        records, failures = self._filter(provider)
 
-        if not records:
-            data = {"total_calls": 0, "total_cost_cny": 0.0, "total_cost_usd": 0.0, "records": []}
+        if not records and not failures:
+            data = {
+                "total_calls": 0,
+                "total_failures": 0,
+                "total_cost_cny": 0.0,
+                "total_cost_usd": 0.0,
+                "records": [],
+                "failures": [],
+            }
         else:
-            providers = sorted({r["provider"] for r in records})
+            providers = sorted({r["provider"] for r in records} | {f.provider for f in failures})
             per_provider = []
             total_cny = 0.0
             total_usd = 0.0
 
             for prov in providers:
                 prov_records = [r for r in records if r["provider"] == prov]
+                prov_failures = [f for f in failures if f.provider == prov]
                 prompt = sum(r["usage"].prompt_tokens for r in prov_records)
                 comp = sum(r["usage"].completion_tokens for r in prov_records)
                 cost_cny = sum(
@@ -528,6 +691,7 @@ class CostTracker:
                 per_provider.append({
                     "provider": prov,
                     "calls": len(prov_records),
+                    "failures": len(prov_failures),
                     "prompt_tokens": prompt,
                     "completion_tokens": comp,
                     "total_tokens": prompt + comp,
@@ -537,6 +701,7 @@ class CostTracker:
 
             data = {
                 "total_calls": len(records),
+                "total_failures": len(failures),
                 "total_cost_cny": round(total_cny, 4),
                 "total_cost_usd": round(total_usd, 4),
                 "providers": per_provider,
@@ -555,6 +720,15 @@ class CostTracker:
                         ),
                     }
                     for r in records
+                ],
+                "failures": [
+                    {
+                        "provider": f.provider,
+                        "exception": f.exception,
+                        "attempt": f.attempt,
+                        "timestamp": f.timestamp,
+                    }
+                    for f in failures
                 ],
             }
 
