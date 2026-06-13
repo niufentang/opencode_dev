@@ -424,11 +424,12 @@ class PipelineRunner:
         llm_provider = None
 
         if self.config.use_llm:
-            from pipeline.model_client import OpenAICompatibleProvider
+            from pipeline.model_client import OpenAICompatibleProvider, RetryConfig
             try:
                 llm_provider = OpenAICompatibleProvider(
                     provider_name=self.config.llm_provider,
                 )
+                llm_provider.retry_config = RetryConfig()
                 logger.info("  LLM 提供商: %s", self.config.llm_provider)
             except Exception as e:
                 logger.warning("  LLM 初始化失败，降级到纯规则: %s", e)
@@ -461,10 +462,12 @@ class PipelineRunner:
 
                     if should_use_llm:
                         llm_result = self._llm_analyze(llm_provider, md_file, rule_result)
-                        if llm_result:
+                        if llm_result and not llm_result.get("degraded"):
                             final = self._merge_analysis(rule_result, llm_result)
                             source_llm += 1
                         else:
+                            if llm_result and llm_result.get("degraded"):
+                                logger.warning("  LLM 降级，使用规则通道结果 [%s]", md_file.name)
                             final = rule_result
                     else:
                         final = rule_result
@@ -569,14 +572,17 @@ class PipelineRunner:
                 {"role": "system", "content": system_prompt},
                 {"role": "user", "content": user_prompt},
             ]
-            resp = chat_with_retry(provider, messages, max_retries=2)
+            resp = chat_with_retry(provider, messages)
+            if resp.degraded:
+                logger.warning("  LLM 降级 [%s]", md_file.name)
+                return {"degraded": True}
             content = resp.content.strip()
             content = re.sub(r"^```(?:json)?\s*", "", content)
             content = re.sub(r"\s*```$", "", content)
             return json.loads(content)
         except Exception as e:
             logger.warning("  LLM 分析失败 [%s]: %s", md_file.name, e)
-            return None
+            return {"degraded": True}
 
     def _merge_analysis(self, rule_result: dict, llm_result: dict) -> dict:
         merged = rule_result.copy()

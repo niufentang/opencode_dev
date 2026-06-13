@@ -1,13 +1,13 @@
-Çë°ïÎÒ´´½¨ .github/workflows/daily-collect.yml£¬Ò»¸ö GitHub Actions ¹¤×÷Á÷£º
+ï»¿è¯·å¸®æˆ‘åˆ›å»º .github/workflows/daily-collect.ymlï¼Œä¸€ä¸ª GitHub Actions å·¥ä½œæµï¼š
 
-ĞèÇó£º
-1. Ã¿Ìì UTC 08:00£¨±±¾©Ê±¼ä 16:00£©×Ô¶¯ÔËĞĞ
-2. Í¬Ê±Ö§³ÖÊÖ¶¯´¥·¢£¨workflow_dispatch£©
-3. Ìí¼Ó permissions: contents: write
-4. Ê¹ÓÃ Python 3.12£¬ÆôÓÃ pip »º´æ
-5. Í¨¹ı pip install -r requirements.txt °²×°ÒÀÀµ
-6. ÔËĞĞÃüÁî£ºpython pipeline/pipeline.py --sources sse,szse,chinaclear --step collect --limit 10 --per-category-limit 5 
-7. Ö§³Ö¶à¸ö LLM ÃÜÔ¿£¨LLM_PROVIDER¡¢DEEPSEEK_API_KEY¡¢DASHSCOPE_API_KEY¡¢MOONSHOT_API_KEY£©
-8. ²É¼¯ºóÔËĞĞ validate_json.py ºÍ check_quality.py Ğ£ÑéÎÄÕÂ
-9.  ×Ô¶¯ git commit + push£¬commit ÏûÏ¢°üº¬ÎÄÕÂÊıÁ¿ºÍÈÕÆÚ
-10. Èç¹ûÃ»ÓĞĞÂÊı¾İÔò²»Ìá½»£¨±ÜÃâ¿Õ commit£©
+éœ€æ±‚ï¼š
+1. æ¯å¤© UTC 08:00ï¼ˆåŒ—äº¬æ—¶é—´ 16:00ï¼‰è‡ªåŠ¨è¿è¡Œ
+2. åŒæ—¶æ”¯æŒæ‰‹åŠ¨è§¦å‘ï¼ˆworkflow_dispatchï¼‰
+3. æ·»åŠ  permissions: contents: write
+4. ä½¿ç”¨ Python 3.12ï¼Œå¯ç”¨ pip ç¼“å­˜
+5. é€šè¿‡ pip install -r requirements.txt å®‰è£…ä¾èµ–
+6. è¿è¡Œå‘½ä»¤ï¼špython pipeline/pipeline.py --sources sse,szse,chinaclear --step collect --limit 10 --per-category-limit 5 
+7. æ”¯æŒå¤šä¸ª LLM å¯†é’¥ï¼ˆLLM_PROVIDERã€DEEPSEEK_API_KEYã€DASHSCOPE_API_KEYã€MOONSHOT_API_KEYï¼‰
+8. é‡‡é›†åè¿è¡Œ validate_json.py å’Œ check_quality.py æ ¡éªŒæ–‡ç« 
+9.  è‡ªåŠ¨ git commit + pushï¼Œcommit æ¶ˆæ¯åŒ…å«æ–‡ç« æ•°é‡å’Œæ—¥æœŸ
+10. å¦‚æœæ²¡æœ‰æ–°æ•°æ®åˆ™ä¸æäº¤ï¼ˆé¿å…ç©º commitï¼‰

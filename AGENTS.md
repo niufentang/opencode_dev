@@ -59,7 +59,7 @@ ai-knowledge-base/
 │       │   └── entries/         — 最终标准知识条目 JSON（整理 Agent 产出）
 │       ├── szse/                — 深交所（同上）
 │       └── chinaclear/          — 中国结算（同上）
-├── pipeline/                    — 自动化流水线
+├── pipeline/                    — 自动化流水线（Collect→Parse→Analyze→Organize→Save，详见 pipeline/README.md）
 ├── workflows/                   — LangGraph 工作流
 └── openclaw/                    — OpenClaw 部署配置
 ```
