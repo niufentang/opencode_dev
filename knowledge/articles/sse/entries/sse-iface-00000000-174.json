@@ -1,0 +1,27 @@
+{
+  "id": "sse-iface-00000000-174",
+  "type": "interface_spec",
+  "title": "关于发布上海证券交易所股票期权市场参与者接口规格说明书1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072577/files/fda957efddac4a93bbb5ec804cc0df9c.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS113",
+    "做市商",
+    "期权"
+  ],
+  "status": "active",
+  "version": "1.3",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:fbcf70d78971c615f500fffb400abe6d0acf6194bcce30eabf60557bf97450ce",
+  "content_markdown": "关于发布上海证券交易所股票期权市场\n参与者接口规格说明书1.3 版的通知\n各会员、其他市场参与主体：\n根据股票期权做市商双边报价业务整体工作安排，上海证券\n交易所（以下简称本所）将发布《IS113_上海证券交易所股票期\n权市场参与者接口规格说明书1.3 版_20210119》，以供市场参\n与者做好技术就绪准备工作。\n此次市场接口更新的内容是新增双边报价申报指令、双边报\n价撤单指令、双边报价申报指令响应、双边报价撤单指令响应。\n执行报告新增支持业务类型，并对行情文件接口（mktdt03）部\n分文字描述进行了调整。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年一月二十九日\n\n<metadata>\n{\n  \"title\": \"20210129_关于发布上海证券交易所股票期权市场参与者接口规格说明书1\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210129_关于发布上海证券交易所股票期权市场参与者接口规格说明书1.3版的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布上海证券交易所股票期权市场参与者接口规格说明书1.3版的通知.md\",\n  \"file_hash\": \"sha256:fbcf70d78971c615f500fffb400abe6d0acf6194bcce30eabf60557bf97450ce\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.225388+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

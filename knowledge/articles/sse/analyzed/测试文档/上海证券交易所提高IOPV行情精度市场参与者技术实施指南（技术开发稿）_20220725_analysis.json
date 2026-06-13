@@ -1,0 +1,26 @@
+{
+  "doc_id": "sse-guide-20220725-450",
+  "title": "上海证券交易所提高IOPV行情精度市场参与者技术实施指南（技术开发稿）_20220725",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781342/files/15c9f1cecbdd460fae2e4fb06142e438.pdf",
+  "analysis_date": "2026-06-13T17:46:56.368133+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS101",
+    "IS118",
+    "IS120",
+    "STEP",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

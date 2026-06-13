@@ -1,0 +1,32 @@
+{
+  "doc_id": "szse-guide-20171026-079",
+  "title": "支持临时停市债券质押式回购业务结算暂行办法之券商技术系统变更指南(Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020180328467290985310.pdf",
+  "analysis_date": "2026-06-13T17:46:57.148567+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "szjsb@chinaclear.com.cn",
+      "detail": "szjsb@chinaclear.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "STEP",
+    "交易网关",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

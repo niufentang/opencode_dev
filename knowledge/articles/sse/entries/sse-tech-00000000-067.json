@@ -1,14 +1,14 @@
 {
   "id": "sse-tech-00000000-067",
   "type": "technical_notice",
-  "title": "关于发布席位联通接口文件下线市场接口（正式稿）的通知",
+  "title": "关于11月13日开展证通云盘新站点相关业务通关测试的通知",
   "source": "sse",
-  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10782504/files/683d682fcc6040baa6758522e7b19e69.pdf",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072503/files/6cfa63573558463cb8f012a9ab02c499.pdf",
   "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
   "tags": [
     "sse",
     "technical_notice",
-    "IS101"
+    "证通云盘"
   ],
   "status": "active",
   "version": null,
@@ -20,6 +20,6 @@
   "superseded_by": null,
   "related_ids": [],
   "file_format": "pdf",
-  "file_hash": "sha256:2098b302126b990a0ccf3fe88f696989131f4f065196458835d923e0d0dc11cd",
-  "content_markdown": "关于发布席位联通接口文件下线\n市场接口（正式稿）的通知\n各市场参与人：\n根据席位联通接口文件下线相关工作安排，现发布\n《 IS101_ 上海证券交易所竞价撮合平台市场参与者接口规格\n说明书 1.70 版 _20250605 （席位联通接口下线正式稿）》。\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或登录\n市场技术服务平台“技术支持与信息管理 - 软件与技术文档”\n相关栏目获取上述材料。请提前做好技术就绪准备。\n本次主要变更内容：市场参与者接口规格说明书中删除\n席位联通接口 zxwXXXXX.dbf 的相关描述。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 6 月 20 日\n\n<metadata>\n{\n  \"title\": \"20250620_关于发布席位联通接口文件下线市场接口（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250620_关于发布席位联通接口文件下线市场接口（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布席位联通接口文件下线市场接口（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:2098b302126b990a0ccf3fe88f696989131f4f065196458835d923e0d0dc11cd\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:36.324962+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+  "file_hash": "sha256:4590d1e743420b95e22fc31c1df1df1603093a97d513695740169820c3214874",
+  "content_markdown": "关于 11 月 13 日开展证通云盘新站点通关测\n试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）定于2021 年11 月13\n日（周六）8:00-12:00，组织开展证通云盘新站点相关业务通关\n测试，邀请全体市场参与者参加测试，主要验证证通云盘新站点\n的相关业务功能，证通云盘现有生产站点将在本周六通关测试后\n下线并不再提供接入使用，正式启用证通云盘新站点接入。\n本次测试，请各参测单位务必高度重视，安排专人负责测试\n工作，测试前做好线上系统和数据环境保护工作，测试后做好技\n术系统和数据环境恢复工作，确保下一交易日生产系统正常运行。\n测试过程中，请各参测单位详细记录测试现象与结果，检查业务\n正确性；如发现异常现象，请及时报告。测试结束后，请于11\n月13 日（周六）14:00 前，通过测试方案中的在线反馈链接提\n交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年十一月九日\n\n<metadata>\n{\n  \"title\": \"20211111_关于11月13日开展证通云盘新站点相关业务通关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20211111_关于11月13日开展证通云盘新站点相关业务通关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于11月13日开展证通云盘新站点相关业务通关测试的通知.md\",\n  \"file_hash\": \"sha256:4590d1e743420b95e22fc31c1df1df1603093a97d513695740169820c3214874\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.775560+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
 }

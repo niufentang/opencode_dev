@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-303",
+  "type": "technical_notice",
+  "title": "关于发布竞价平台交易网关相关市场接口优化的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635153/files/6ca78f3a5da04185bb901101a907cb1b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS122",
+    "STEP",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:74a2aae0a822300b7206ebf310d466bd29c3155d8d2161c8016ba2af5a5b50e6",
+  "content_markdown": "关于发布竞价平台交易网关相关市场接口\n优化的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS122 上海证券\n交易所交易网关Binary 接口规格说明书（竞价平台）0.54 版\n_20230217》、《IS122 上海证券交易所交易网关STEP 接口规格\n说明书（竞价平台）0.54 版_20230217》，请市场参与者做好技\n术准备工作。\n本次技术接口主要变更内容为竞价平台交易网关\nBinary/STEP 接口规格说明书中，补充了“现金选择权”业务的\n申报填写说明，删除“指定登记”、“指定撤销”业务的申报填\n写说明。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二三年二月十七日\n\n<metadata>\n{\n  \"title\": \"20230217_关于发布竞价平台交易网关相关市场接口优化的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230217_关于发布竞价平台交易网关相关市场接口优化的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布竞价平台交易网关相关市场接口优化的通知.md\",\n  \"file_hash\": \"sha256:74a2aae0a822300b7206ebf310d466bd29c3155d8d2161c8016ba2af5a5b50e6\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.612641+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

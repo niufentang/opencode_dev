@@ -1,0 +1,31 @@
+{
+  "id": "sse-tech-00000000-125",
+  "type": "technical_notice",
+  "title": "关于发布B转H业务市场接口及软件版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072456/files/0ae0aed9cda84d898a832a508a67f690.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS111",
+    "IS122",
+    "IS124",
+    "IS419",
+    "STEP",
+    "交易网关",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:247d56757ecd4911525603c7b144f25ad2f1580770cb58a473ba9b97b31ee854",
+  "content_markdown": "关于发布B 转H 业务市场接口及软件版本的\n通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS124_上海证券\n交易所市场数据文件交换接口规格说明书1.30 版_20220318》、\n《IS419_上海证券交易所互联网交易平台市场参与者接口规格\n说明书（跨境业务卷）1.00 版_20220321》、《IS122_上海证券交\n易所交易网关STEP 接口规格说明书（互联网交易平台B 转H 业\n务）1.00 版_20220322》、《B 转H 市场参与者技术实施指南\n_20220323》、《IS111_上海证券交易所报盘软件错误代码表3.21\n版_20220323》，同时发布互联网交易平台交易网关版本\nTDGW_0.11.3(跨境版)。\n本次对市场接口的调整主要内容为：在市场数据文件交换接\n口规格说明书中，新增B 转H 业务相关文件。在互联网交易平台\n市场参与者接口规格说明书及交易网关STEP 接口规格说明书中，\n对B 转H 业务交易接收及成交回报进行说明。\n请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试。境外市场参与者请使用交易网关\nTDGW_0.11.3(跨境版)，境内市场参与者请使用互联网交易网关\nTDGW_0.11.3。\n上述相关文件电子版本及软件安装包可通过本所官方网站\n“交易技术支持专区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\n\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二二年三月二十五日\n\n<metadata>\n{\n  \"title\": \"20220325_关于发布B转H业务市场接口及软件版本的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220325_关于发布B转H业务市场接口及软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布B转H业务市场接口及软件版本的通知.md\",\n  \"file_hash\": \"sha256:247d56757ecd4911525603c7b144f25ad2f1580770cb58a473ba9b97b31ee854\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.029329+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

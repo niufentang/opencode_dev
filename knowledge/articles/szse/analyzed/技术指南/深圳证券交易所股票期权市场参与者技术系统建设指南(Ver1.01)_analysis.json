@@ -1,0 +1,33 @@
+{
+  "doc_id": "szse-guide-00000000-105",
+  "title": "深圳证券交易所股票期权市场参与者技术系统建设指南(Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220107557489880560.pdf",
+  "analysis_date": "2026-06-13T17:46:57.296330+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "市场接口",
+      "detail": "市场接口",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "STEP",
+    "做市商",
+    "期权",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

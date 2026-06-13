@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-312",
+  "type": "technical_notice",
+  "title": "关于发布行情网关MDGW_0.8",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072475/files/291b53557fc24c59a9f7dcafef8871d6.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": "8.2",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b11f660570e6cc0ac496ff5d5641c717a192edbfae0c1db8d46efe649ef008f8",
+  "content_markdown": "关于发布行情网关 MDGW_0.8.2 版本的通知\n各市场参与者：\n为进一步提升上海证券交易所（以下简称本所）交易便利性，\n更好地为市场提供行情数据文件服务，本所拟向市场发布行情网\n关软件MDGW_0.8.2 版本。\n本次行情网关软件版本主要对固定收益文件发送功能进行\n了优化，对Apache Log4j 漏洞进行了修复，同时支持国密数字\n证书。本次要求使用行情网关接收固定收益文件的用户升级，其\n他用户建议升级。\n请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试后，开展行情网关的升级部署。\n上述软件安装包可通过本所官方网站“交易技术支持专区”下\n载。技术咨询电话：4009003600 ，技术支持邮箱：\ntech_support@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二〇二二年一月十四日\n\n<metadata>\n{\n  \"title\": \"20220114_关于发布行情网关MDGW_0.8\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220114_关于发布行情网关MDGW_0.8.2版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布行情网关MDGW_0.8.2版本的通知.md\",\n  \"file_hash\": \"sha256:b11f660570e6cc0ac496ff5d5641c717a192edbfae0c1db8d46efe649ef008f8\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.891033+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

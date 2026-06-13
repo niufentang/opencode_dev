@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-075",
+  "type": "technical_notice",
+  "title": "上海证券交易所邮件审批单",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072573/files/18d7b17170b34be28a42ec2ed142a653.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:72e35cd6755f0f653906f0f23cd5d72449f62a2e4a0c7e88d8d212a88e455dc3",
+  "content_markdown": "关于2 月16 日开展全市场连通性测试的通知\n各市场参与者：\n为做好全市场春节长假后开机准备，提供连通性验证环境，\n上海证券交易所（以下简称本所）定于2021 年2 月16 日（周\n二）9：15-11：30 组织开展全市场连通性测试。测试环境为竞\n价撮合平台（00 环境）、综合业务平台（01 环境）、期权交易平\n台（03 环境）、港股通系统（04 环境）及固定收益平台（生产\n环境）。测试行情文件为mktdt00.txt、mktdt01.txt、mktdt03.txt，\n不进行闭市批处理、不发送盘后数据。测试方案可在本所会员专\n区下载。\n请各参测单位落实专人负责，做好测试准备。测试完成后，\n请务必做好系统和数据恢复工作，保证下一交易日交易和结算业\n务的正常开展。\n上海证券交易所\n二 〇 二 一 年二月一日\n\n<metadata>\n{\n  \"title\": \"上海证券交易所邮件审批单\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210208_关于2月16日开展全市场连通性测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于2月16日开展全市场连通性测试的通知.md\",\n  \"file_hash\": \"sha256:72e35cd6755f0f653906f0f23cd5d72449f62a2e4a0c7e88d8d212a88e455dc3\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.266300+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

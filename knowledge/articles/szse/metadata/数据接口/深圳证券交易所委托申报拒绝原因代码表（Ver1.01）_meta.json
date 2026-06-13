@@ -1,0 +1,18 @@
+{
+  "title": "20230904_深圳证券交易所委托申报拒绝原因代码表（Ver1",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\szse\\数据接口\\20230904_深圳证券交易所委托申报拒绝原因代码表（Ver1.01）.pdf",
+  "markdown_path": "knowledge\\articles\\szse\\markdown\\数据接口\\深圳证券交易所委托申报拒绝原因代码表（Ver1.01）.md",
+  "file_hash": "sha256:ed2e15ec3e9e39e9191e03539725257d083ae31256d6c4471ec0566ad829c9e0",
+  "file_format": "pdf",
+  "page_count": 12,
+  "doc_type": "interface_spec",
+  "version": "1",
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-06-13T17:46:15.547241+00:00",
+  "sub_category": null
+}

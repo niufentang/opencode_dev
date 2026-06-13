@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-318",
+  "type": "technical_notice",
+  "title": "关于发布证券信息技术研究发展中心（上海）2019-2020年行业共研课题年度优秀课题评选结果的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/c_20241101_10763618.shtml",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:791bd151b0e348106598092b642587478e03736e82d7982f3de4d5767ff04e46",
+  "content_markdown": "关于发布证券信息技术研究发展中心（上海）\n2019-2020 年行业共研课题年度优秀课题\n评选结果的通知\n各ITRDC 课题参与人：\n证券信息技术研究发展中心（上海）（以下简称ITRDC）于\n2019 年底组织开展了39 项行业共研课题研究。在历时一年的课\n题实施后，各课题目前已完成结题。为鼓励在期间做出突出贡献、\n取得优秀研究与实践成果的课题承接单位，ITRDC 组织了内、外\n部专家进行评审，并最终形成13 项年度优秀课题，现将优秀课\n题结果公布如下（排名不分先后）：\n序号\n课题编号\n课题名称\n主办单位\n东方证券股份有限公司\n1\nITRDC011904\n基于人工智能的异常交易检\n测技术研究与应用示范\n东方证券股份有限公司\n2\nITRDC011906\n面向证券行业的弹性容量分\n析技术研究与实践\n光大证券股份有限公司\n3\nITRDC011910\n基于机器学习的故障根因定\n位与处置建议的智能运维研\n究\n4\nITRDC011912\n证券行业IPv6 改造创新方法\n与应用示范\n国泰君安证券股份有限\n公司\n国泰君安证券股份有限\n公司\n5\nITRDC011915\n基于安全可控芯片服务器的\n证券云平台构建与应用验证\n研究\n华泰证券股份有限公司\n6\nITRDC011918\n基于OpenCL 的FPGA 行情指标\n加速计算技术研究与应用示\n范\n华泰证券股份有限公司\n7\nITRDC011919\nFinDoc-基于小样本学习的金\n融扫描版文档结构化平台\n平安证券股份有限公司\n8\nITRDC011922\nFPGA 在全市场交易风险防范\n中的应用研究\n\n申万宏源证券有限公司\n9\nITRDC011925\n基于区块链的数据互联及分\n散式统一数字身份\n兴业证券股份有限公司\n10\nITRDC011931\nFPGA 加速技术研究与应用示\n范\n兴业证券股份有限公司\n11\nITRDC011932\n证券行业IPv6 改造关键技术\n研究\n长江证券股份有限公司\n12\nITRDC011933\n客户异常交易行为建模技术\n研究\n长江证券股份有限公司\n13\nITRDC011935\n上市公司负面事件预警模型\n与系统研究\n对于以上优秀课题，ITRDC 计划通过成果报告集结出版进行\n宣传推广。同时，对于已结题的所有课题，ITRDC 也将通过线上\n展示、《交易技术前沿》专刊等形式发布课题成果。此外，ITRDC\n还将视疫情变化情况组织线上或线下的行业分享交流，推进研究\n成果的行业共享。\n特此通知。\n证券信息技术研究发展中心（上海）\n二○二○年十二月十五日\n\n<metadata>\n{\n  \"title\": \"20201218_关于发布证券信息技术研究发展中心（上海）2019-2020年行业共研课题年度优秀课题评选结果的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20201218_关于发布证券信息技术研究发展中心（上海）2019-2020年行业共研课题年度优秀课题评选结果的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布证券信息技术研究发展中心（上海）2019-2020年行业共研课题年度优秀课题评选结果的通知.md\",\n  \"file_hash\": \"sha256:791bd151b0e348106598092b642587478e03736e82d7982f3de4d5767ff04e46\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.151695+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

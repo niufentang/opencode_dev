@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-127",
+  "title": "关于发布ETF2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10749335/files/35585660e32f4c44a67f42ee765e510f.pdf",
+  "analysis_date": "2026-06-13T17:46:54.657577+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105",
+    "IS118"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

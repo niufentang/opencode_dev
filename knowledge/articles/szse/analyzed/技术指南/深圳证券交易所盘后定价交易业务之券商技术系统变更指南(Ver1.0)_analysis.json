@@ -1,0 +1,53 @@
+{
+  "doc_id": "szse-guide-20200417-102",
+  "title": "深圳证券交易所盘后定价交易业务之券商技术系统变更指南(Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020200428014780704990.pdf",
+  "analysis_date": "2026-06-13T17:46:57.280693+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "新增",
+      "summary": "新增专用于标识盘后定价交易的交",
+      "detail": "新增专用于标识盘后定价交易的交",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "易方式‘ （不含盘后定价交易部分）",
+      "detail": "易方式‘\n（不含盘后定价交易部分）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增专用于标识盘后定价交易的交易方式‘",
+      "detail": "新增专用于标识盘后定价交易的交易方式‘",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MXJYFS ‘12’ ’：盘后 定价交易 经深交所 和盘后定价交易",
+      "detail": "MXJYFS\n‘12’\n’：盘后\n定价交易\n经深交所\n和盘后定价交易",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 规则条款变更: 2项。 新增: 2项。 其中重大变更2项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,44 @@
+{
+  "doc_id": "szse-guide-20210430-085",
+  "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020230904549038313109.pdf",
+  "analysis_date": "2026-06-13T17:46:57.183684+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.szse.cn",
+      "detail": "http://www.szse.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "固定收益交易平台的交易 ‘13’ 定收益交易平台的交 ’13’",
+      "detail": "固定收益交易平台的交易\n‘13’\n定收益交易平台的交\n’13’",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "港股通",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

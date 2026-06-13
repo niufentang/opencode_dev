@@ -1,0 +1,31 @@
+{
+  "id": "sse-tech-00000000-255",
+  "type": "technical_notice",
+  "title": "关于发布开放式基金等非交易业务迁移市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10743569/files/544f0c4d9f9146509c932b0466ac810d.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "融资融券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:c9307a6bfa7c6c93ec41e2a97cc4884678b8c540eb97db93c4b83d84d295dc7b",
+  "content_markdown": "关于发布开放式基金等非交易业务迁移市\n场接口技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）根据技术发展规划，\n将竞价撮合平台中的要约/现金选择权、开放式基金相关业\n务（申赎、分红选择、份额转出）、融资融券非交易业务（余\n券划转、还券划转、担保品划入、担保品划出、券源划入、\n券源划出）、网络密码服务（密码激活（注销））等业务迁\n移至互联网交易平台。拟发布《IS101_上海证券交易所竞价\n撮合平台市场参与者接口规格说明书1.66 版（竞价非交易\n迁移互联网_技术开发稿）20230926》、《IS122_上海证券\n交易所交易网关Binary 接口规格说明书（竞价平台）0.57\n版（竞价非交易迁移互联网_技术开发稿）20230926》、\n《IS122_上海证券交易所交易网关STEP 接口规格说明书（互\n联网交易平台）1.14 版（竞价非交易迁移互联网_技术开发\n稿）20230926》、《IS122_上海证券交易所交易网关STEP\n接口规格说明书（竞价平台）0.57 版（竞价非交易迁移互联\n网_技术开发稿）20230926》、《上海证券交易所开放式基\n金等非交易迁移市场参与者技术实施指南_V1.1_20230926》、\n《IS111 上海证券交易所报盘软件错误代码表\n_V3.28_20230926》，请市场参与者做好技术准备工作。\n\n本所于2023 年7 月14 日发布《关于发布开放式基金等\n非交易业务迁移市场接口技术开发稿通知》，在此基础上，\n本次技术接口主要调整内容为：在竞价撮合平台接口规格说\n明书中，分别对申报接口ordwth、产品非交易基础信息接口\nfjyYYYYMMDD.txt、开放式基金交易确认接口kghXXXXX.txt、\n产品基础信息第二版第一批次文件接口cpxx0201MMDD.txt\n进行修订。在交易网关Binary 及STEP 接口规格说明书（竞\n价平台）中，删除待迁移业务的填写说明，迁移业务相关填\n写说明请查看《IS122_上海证券交易所交易网关STEP 接口\n规格说明书（互联网交易平台）1.14 版（竞价非交易迁移互\n联网_技术开发稿）20230926》；在交易网关STEP 接口规格\n说明书（竞价平台）中，保留开放式基金相关业务和融资融\n券非交易业务的字段。在交易网关STEP 接口规格说明书（互\n联网交易平台）中，更新开放式基金转托管转出业务与分红\n选择业务的AppID，对网络密码服务、券源划入/划出、融资\n融券非交易业务的说明及要求进行调整，对要约/现金选择\n权业务新增申报编号申报字段。\n相关文件电子版本可通过本所官方网站“交易技术支持\n专区”相关栏目下载。\n技术咨询电话：4008888400 转2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n\n上海证券交易所\n2023 年9 月28 日\n\n<metadata>\n{\n  \"title\": \"20230928_关于发布开放式基金等非交易业务迁移市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230928_关于发布开放式基金等非交易业务迁移市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布开放式基金等非交易业务迁移市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:c9307a6bfa7c6c93ec41e2a97cc4884678b8c540eb97db93c4b83d84d295dc7b\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 3,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.844285+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-198",
+  "type": "technical_notice",
+  "title": "关于发布信用账户放开部分功能等业务市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072472/files/e99aaebbadb1427c9d8db1856be72178.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS124",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:d6ce2d47a6f7f80ba04db9fcf1073cafb2434f1516cfc456ab7b6bdff6f494cf",
+  "content_markdown": "关于发布信用账户放开部分功能等业务市\n场接口的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS111 上海证\n券交易所报盘软件错误代码表3.19 版》、《IS101_上海证券交易\n所竞价撮合平台市场参与者接口规格说明书1.56 版_20220121》、\n《IS124_上海证券交易所市场数据文件交换接口规格说明书\n1.10 版_20220121》，以供市场参与者做好技术就绪准备工作。\n此次对市场接口调整主要变更内容为：在报盘软件错误代码\n表中增加了担保品不允许买入的代码说明；在竞价撮合平台接口\n规格说明书中，补充证券账户资料接口、席位联通接口以及交易\n单元的相关说明；在市场数据文件交换接口规格说明书中，补充\n重点指数表现文件的相关说明。\n上述相关文件电子版本可通过本所官方网站“交易技术支持\n专区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年一月二十一日\n\n<metadata>\n{\n  \"title\": \"20220121_关于发布信用账户放开部分功能等业务市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220121_关于发布信用账户放开部分功能等业务市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布信用账户放开部分功能等业务市场接口的通知.md\",\n  \"file_hash\": \"sha256:d6ce2d47a6f7f80ba04db9fcf1073cafb2434f1516cfc456ab7b6bdff6f494cf\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.905473+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-349",
+  "type": "technical_notice",
+  "title": "关于开展竞价、综业、期权、固收平台、港股通相关业务通关测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072562/files/903e88d5a14541de81c37f7de9309123.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "REITs",
+    "交易网关",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:5034ca0e831140c00c1ddc348919071a441f277d8ccce78aab52a46a9dbf00cd",
+  "content_markdown": "关于开展竞价、综业、期权、固收平台、港\n股通相关业务通关测试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有限公司上海分\n公司定于2021 年3 月27 日（周六）9:15-17:00，组织开展竞价撮合平台、综合\n业务平台、期权交易平台、固收生产环境、港股通平台，相关业务通关测试（测\n试文档详见会员专区），使用竞价撮合平台00 环境、综合业务平台01 环境、期权\n交易平台03 环境、固收平台生产环境、港股通生产环境 。本次测试主要验证公募\nREITs 技术系统上线后相关技术系统运行情况及交易网关（期权）相关业务功能\n及港交所市调机制第二阶段优化相关内容。\n本次测试，请各参测单位务必高度重视，安排专人负责测试工作，测试前\n做好线上系统和数据环境保护工作，测试后做好技术系统和数据环境恢复工作，\n确保下一交易日生产系统正常运行。测试过程中，请各参测单位详细记录测试现\n象与结果，检查业务正确性；如发现异常现象，请及时报告。测试结束后，请于\n3 月27 日（周六）18:00 前，在会员专区提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年三月十八日\n\n<metadata>\n{\n  \"title\": \"20210326_关于开展竞价、综业、期权、固收平台、港股通相关业务通关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210326_关于开展竞价、综业、期权、固收平台、港股通相关业务通关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于开展竞价、综业、期权、固收平台、港股通相关业务通关测试的通知.md\",\n  \"file_hash\": \"sha256:5034ca0e831140c00c1ddc348919071a441f277d8ccce78aab52a46a9dbf00cd\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.354169+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

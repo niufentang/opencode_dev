@@ -1,0 +1,32 @@
+{
+  "id": "sse-tech-00000000-211",
+  "type": "technical_notice",
+  "title": "关于发布公募REITs业务及固收非交易改造相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072571/files/fe65911b77b549ecbeae1716f036bb0a.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS109",
+    "IS118",
+    "IS119",
+    "IS120",
+    "REITs"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:fba82277add655f3faa65dc87340ece5976da24190677d16330512154069999e",
+  "content_markdown": "关于发布公募REITs 业务及固收非交易改造\n相关市场接口技术开发稿的通知\n各会员、其他市场参与主体：\n根据公开募集基础设施证券投资基金（以下简称公募REITs）\n业务及固收非交易改造整体工作安排，上海证券交易所（以下简\n称本所）将发布《IS101_上海证券交易所竞价撮合平台市场参与\n者接口规格说明书1.51 版（公募REITs 技术开发稿）_20210201》、\n《 IS105_上海证券交易所综合业务平台市场参与者接口规格说\n明书1.46 版（公募REITs 技术开发稿）_20210201》、《IS120_\n上海证券交易所行情网关BINARY 数据接口规范0.42 版（公募\nREITs 技术开发稿）_20210201》、《IS120_上海证券交易所行情\n网关STEP 数据接口规范0.42 版（公募REITs 技术开发稿）\n_20210201》、《IS109_上海证券交易所固定收益平台外部数据接\n口规范3.21 版（公募REITs 及非交易改造技术开发稿）\n_20210201》、\n《 IS118_上海证券交易所特定参与者接口规格说明\n书（托管银行卷）1.31 版（公募REITs 及非交易改造技术开发\n稿）_20210125》和《IS119_上海证券交易所固定收益平台STEP\n协议报盘接口规格说明书1.51 版（非交易改造技术开发稿）\n_20210125》，以供市场参与者提前做好技术就绪准备工作。\n此次市场接口调整主要是在竞价撮合平台市场参与者接口\n规格说明书中，为配合公募REITs 业务需求，修订了产品基础信\n息文件，增加相关证券类别；补充了产品基础信息文件备注字段\n关于股票产品流通总量信息的说明。在综合业务平台市场参与者\n接口规格说明书中，调整了基金参数文件，添加公募 REITs 的\n\n类型；补充了过户数据接口（dghXXXXXYYYYMMDD.dbf）成交价格\n字段溢出的说明。在行情网关BINARY 数据接口规范和行情网关\nSTEP 数据接口规范行情快照消息中增加公募REITs 相关描述。\n在固定收益平台外部数据接口规范中增加了公募REITs 产品及\n相关说明，修订了非交易改造相关内容。在特定参与者接口规格\n说明书（托管银行卷）增加公募REITs 产品相关说明，修订非\n交易改造相关内容，将创新创业债更名为双非可转债。在固定收\n益平台STEP 协议报盘接口规格说明书中，将创新创业债更名为\n双非可转债。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年二月四日\n\n<metadata>\n{\n  \"title\": \"20210210_关于发布公募REITs业务及固收非交易改造相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210210_关于发布公募REITs业务及固收非交易改造相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布公募REITs业务及固收非交易改造相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:fba82277add655f3faa65dc87340ece5976da24190677d16330512154069999e\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.291566+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

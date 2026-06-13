@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-142",
+  "title": "关于发布ETF集合申购业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072545/files/de85439d775443258d53517fa090a6c8.pdf",
+  "analysis_date": "2026-06-13T17:46:54.705010+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105",
+    "IS111",
+    "报盘软件"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

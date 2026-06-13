@@ -1,0 +1,24 @@
+{
+  "doc_id": "sse-tech-00000000-198",
+  "title": "关于发布信用账户放开部分功能等业务市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072472/files/e99aaebbadb1427c9d8db1856be72178.pdf",
+  "analysis_date": "2026-06-13T17:46:54.895335+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS124",
+    "报盘软件"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

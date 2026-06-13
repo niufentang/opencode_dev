@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-200",
+  "type": "technical_notice",
+  "title": "关于发布债券交易系统新业务规则适配（第二批）相关市场接口（技术开发稿）的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072446/files/6e2b37ab180e4beab3245355f80127ee.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS124",
+    "债券",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:1a16b233ae67928ff029e7d1aea8da1512ceaac159b07a083e3b957c5d851dd5",
+  "content_markdown": "关于发布债券交易系统新业务规则适配（第\n二批）相关市场接口（技术开发稿）的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS101_上海证券\n交易所竞价撮合平台市场参与者接口规格说明书1.57 版\n_20220412（债券收盘价格调整技术开发稿）》、《IS124_上海证券\n交易所市场数据文件交换接口规格说明书1.20 版_20220412（债\n券收盘价调整技术开发稿）》、《债券收盘价调整相关业务市场参\n与者技术实施指南V1.0（技术开发稿）》、《IS111_上海证券交易\n所报盘软件错误代码表3.22 版_20220506（综合业务平台技术开\n发稿）》，以供市场参与者提前做好技术就绪准备工作。\n此次市场接口的更新内容主要是在竞价撮合平台市场参与\n者接口规格说明书中，配合债券收盘价调整，调整产品基础信息\n文件接口的前收价说明。在市场数据文件交换接口规格说明书中，\n补充“债券行情文件”的收盘价说明。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年五月十一日\n\n<metadata>\n{\n  \"title\": \"20220511_关于发布债券交易系统新业务规则适配（第二批）相关市场接口（技术开发稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220511_关于发布债券交易系统新业务规则适配（第二批）相关市场接口（技术开发稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布债券交易系统新业务规则适配（第二批）相关市场接口（技术开发稿）的通知.md\",\n  \"file_hash\": \"sha256:1a16b233ae67928ff029e7d1aea8da1512ceaac159b07a083e3b957c5d851dd5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.100439+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

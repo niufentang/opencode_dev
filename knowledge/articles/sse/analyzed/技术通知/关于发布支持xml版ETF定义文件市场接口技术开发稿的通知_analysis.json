@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-263",
+  "title": "关于发布支持xml版ETF定义文件市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10752501/files/51bfc121c9694e709f1834ce13e7cb49.pdf",
+  "analysis_date": "2026-06-13T17:46:55.132239+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105",
+    "IS118"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

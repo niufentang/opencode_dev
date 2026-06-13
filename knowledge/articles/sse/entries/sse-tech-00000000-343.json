@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-343",
+  "type": "technical_notice",
+  "title": "关于开展期权平台EzSTEP软件下线相关工作的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635142/files/cc87c744942c4df899e27278b440e266.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "EzOES",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:eb94c72caec843bba2f3c7afc72f4210c37d0c466066b5d73675d8bad34c01a0",
+  "content_markdown": "关于开展期权平台EzSTEP 软件下线\n相关工作的通知\n各市场参与人：\n上海证券交易所期权平台报盘软件EzSTEP（以下简称期权\nEzSTEP）于2015 年上线，目前其功能已被期权交易网关TDGW 全\n部替代，TDGW 已成为市场参与人主用报单软件。为降低行业运\n营成本，提升用户体验，上海证券交易所（以下简称本所）计划\n下线期权EzSTEP 软件，期权全真测试环境和全天候测试环境期\n权平台EzSTEP 同步下线。请市场参与人配合做好以下工作：\n一、请于2023 年8 月15 日前调整相关系统配置，停止使用\n期权EzSTEP 软件，并反馈下线就绪情况（反馈链接\nhttps://survey.sse.com.cn/q/07Bmnd）。该软件功能可由期权\n交易网关TDGW 替代。\n二、本所初步计划2023 年9 月开展全网和通关测试，请关\n注后续测试通知，做好参测准备。\n同时提醒，由于竞价交易网关已平稳上线，本所用于过渡的\nEzOES（回退版）目前已下线。后续，将择机下线竞价平台EzOES，\n请做好相关准备。\n技术咨询电话：4008888400 转2，QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二 三 年三月三十一日\n\n<metadata>\n{\n  \"title\": \"20230404_关于开展期权平台EzSTEP软件下线相关工作的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230404_关于开展期权平台EzSTEP软件下线相关工作的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于开展期权平台EzSTEP软件下线相关工作的通知.md\",\n  \"file_hash\": \"sha256:eb94c72caec843bba2f3c7afc72f4210c37d0c466066b5d73675d8bad34c01a0\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.646154+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

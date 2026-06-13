@@ -1,0 +1,53 @@
+{
+  "doc_id": "szse-guide-00000000-080",
+  "title": "深圳证券交易所交易回报数据接收方式调整券商技术系统变更指南",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020180829498567788211.pdf",
+  "analysis_date": "2026-06-13T17:46:57.155466+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "PartitionNo 平台分区号 10197 NoPartitions 平台分区数量 期望接收的平台分区号 对应分区下， 期望接收的下一条回 报的记录号（回报记录号从 开始连续 编号）。 ReportIndex 收到本消息后， 会从该记录号开始 发送该平台分区的回报； 如果没有收到某一分区的记录号，则",
+      "detail": "PartitionNo\n平台分区号\n10197\nNoPartitions\n平台分区数量\n期望接收的平台分区号\n对应分区下，\n期望接收的下一条回\n报的记录号（回报记录号从\n开始连续\n编号）。\nReportIndex\n收到本消息后，\n会从该记录号开始\n发送该平台分区的回报；\n如果没有收到某一分区的记录号，则",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发送该分区的回报。 <CompPartitions> 10196 NoPartitions 10197 PartitionNo 期望接收平台分区的下一条回报的记录号 （回报记录号从 开始连续编号）。 会从该记录号开始向 组件结束 现货集中竞价交易平台 综合金融服务平台 PlatformID 非交易处理平台",
+      "detail": "发送该分区的回报。\n<CompPartitions>\n10196 NoPartitions\n10197 PartitionNo\n期望接收平台分区的下一条回报的记录号\n（回报记录号从\n开始连续编号）。\n会从该记录号开始向\n组件结束\n现货集中竞价交易平台\n综合金融服务平台\nPlatformID\n非交易处理平台",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "衍生品集中竞价交易平台 国际市场互联平台 平台分区号，分区号不一定连续 MsgType=U104 10180 GatewayID.SessionID.partition.Partition 显示用户期望的下一个回 No.expectReportIndex 报记录号 收到回报同步消 ，收到后为回报同 步消息带上来的序号，发送",
+      "detail": "衍生品集中竞价交易平台\n国际市场互联平台\n平台分区号，分区号不一定连续\nMsgType=U104\n10180\nGatewayID.SessionID.partition.Partition\n显示用户期望的下一个回\nNo.expectReportIndex\n报记录号\n收到回报同步消\n，收到后为回报同\n步消息带上来的序号，发送",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "回报后设置为发送的序 W123456Y0001.1 partition 1.expectReportIndex=1500 2.expectReportIndex=1210 3.expectReportIndex=983 4.expectReportIndex=1619",
+      "detail": "回报后设置为发送的序\nW123456Y0001.1\npartition\n1.expectReportIndex=1500\n2.expectReportIndex=1210\n3.expectReportIndex=983\n4.expectReportIndex=1619",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "STEP",
+    "交易网关",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 规则条款变更: 4项。",
+  "confidence": 0.95
+}

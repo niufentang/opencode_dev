@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-363",
+  "type": "technical_notice",
+  "title": "关于进一步加强交易行情系统接入服务应用管理的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635149/files/828328cd664f41699f24c391420da95b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:84902a0eb2500e41fdd0cf4c69ff99f59bed8031c1153617bed2114c7bcbda12",
+  "content_markdown": "关于进一步加强交易行情系统接入服务\n应用管理的通知\n各会员单位、其他接入机构：\n上海证券交易所（以下简称本所）于2022 年11 月8 日发布\n了《关于进一步规范交易系统接入服务应用管理的通知》，要求\n相关单位遵守本所业务规则和技术要求，通过交易网关、行情网\n关和Level-2 行情数据接口程序（简称VDE）等应用系统接入本\n所交易系统，并填写《上交所交易系统接入服务自查反馈表》。\n为了进一步加强交易系统接入服务应用管理，本所将结合自\n查情况，对相关单位规范部署、配置和使用本所交易、行情接收\n服务、有效防范系统接入风险的情况进行检查，发现违反本所业\n务规则和技术要求的情况，本所可以依据《上海证券交易所会员\n交易及相关系统接入与应用指引》《上海证券交易所会员管理规\n则适用指引第1 号——会员交易及相关系统管理》等采取相应自\n律监管措施或者纪律处分。具体检查时间另行告知，请相关单位\n做好准备。\n特此通知。\n上海证券交易所\n二 〇 二三年三月十七日\n\n<metadata>\n{\n  \"title\": \"20230317_关于进一步加强交易行情系统接入服务应用管理的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230317_关于进一步加强交易行情系统接入服务应用管理的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于进一步加强交易行情系统接入服务应用管理的通知.md\",\n  \"file_hash\": \"sha256:84902a0eb2500e41fdd0cf4c69ff99f59bed8031c1153617bed2114c7bcbda12\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.625170+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

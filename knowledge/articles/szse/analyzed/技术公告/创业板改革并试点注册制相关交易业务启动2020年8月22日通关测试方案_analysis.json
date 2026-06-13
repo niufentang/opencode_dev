@@ -1,0 +1,135 @@
+{
+  "doc_id": "szse-test-00000000-044",
+  "title": "创业板改革并试点注册制相关交易业务启动2020年8月22日通关测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020200817739218428230.pdf",
+  "analysis_date": "2026-06-13T17:46:56.918373+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "主要模拟创 业板改革并试点注册制的交易业务启动首日场景， 11:35 开始盘后定价交 易撮合及行情发布 本次测试模拟8 月24 日交易、结算、转融通等全业务链的业务 运行和技术运行。未涉及创业板改革并试点注册制相关业务的行业机 构（如期权经营机构等），应验证保障现有业务和技术的正确运行。 本次测试应使用统一账户平台生产环境的账户报送开通创业板",
+      "detail": "主要模拟创\n业板改革并试点注册制的交易业务启动首日场景，\n11:35\n开始盘后定价交\n易撮合及行情发布\n本次测试模拟8 月24 日交易、结算、转融通等全业务链的业务\n运行和技术运行。未涉及创业板改革并试点注册制相关业务的行业机\n构（如期权经营机构等），应验证保障现有业务和技术的正确运行。\n本次测试应使用统一账户平台生产环境的账户报送开通创业板",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易权限的账户信息，请各参测单位提前做好相关准备。",
+      "detail": "交易权限的账户信息，请各参测单位提前做好相关准备。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "各交易参与人无需升级交易网关、行情网关、文件网关。",
+      "detail": "各交易参与人无需升级交易网关、行情网关、文件网关。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为了实现盘后定价交易申报、07 股份（“首发后可出借限售股”） 的转融通证券出借约定/非约定申报，Binary/STEP",
+      "detail": "为了实现盘后定价交易申报、07\n股份（“首发后可出借限售股”）\n的转融通证券出借约定/非约定申报，Binary/STEP",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "交易接口的通信版 本号须升级到1.11，STEP 行情接口通信版本号必须升级为1.02，方法",
+      "detail": "交易接口的通信版\n本号须升级到1.11，STEP 行情接口通信版本号必须升级为1.02，方法",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "大致如下： 使用Binary",
+      "detail": "大致如下：\n使用Binary",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议的用户，请将交易网关登陆消息中的",
+      "detail": "协议的用户，请将交易网关登陆消息中的",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "DefaultApplVerID 修改为1.11； 使用STEP DefaultCstmApplVerID 修改为STEP1.20_SZ_1.11；",
+      "detail": "DefaultApplVerID 修改为1.11；\n使用STEP\nDefaultCstmApplVerID 修改为STEP1.20_SZ_1.11；",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议的用户，请将行情网关登陆消息中的",
+      "detail": "协议的用户，请将行情网关登陆消息中的",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "DefaultCstmApplVerID 修改为STEP1.20_SZ_1.02； 对于DefaultApplVerID 和DefaultCstmApplVerID 的具体修改方 法，请联系各自的软件供应商。 测单位D-COM",
+      "detail": "DefaultCstmApplVerID 修改为STEP1.20_SZ_1.02；\n对于DefaultApplVerID\n和DefaultCstmApplVerID\n的具体修改方\n法，请联系各自的软件供应商。\n测单位D-COM",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "网关、D-COM",
+      "detail": "网关、D-COM",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "业务终端必须升级到版本号为",
+      "detail": "业务终端必须升级到版本号为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "20200520 及以上（可从中国结算官网或深证通官网下载）。 请各会员、基金管理公司、行情服务商、结算参与人、托管行、 开户代理机构、期权经营机构及相关单位务必参加测试。 为了全市场更好地进行测试，请各参测单位控制合理的申报价 格，无价格涨跌限制的创业板证券在开盘集合竞价时段的申报价格不 得超过2000 元/股，在其他时段的申报价格不得超过8000 元/股。",
+      "detail": "20200520 及以上（可从中国结算官网或深证通官网下载）。\n请各会员、基金管理公司、行情服务商、结算参与人、托管行、\n开户代理机构、期权经营机构及相关单位务必参加测试。\n为了全市场更好地进行测试，请各参测单位控制合理的申报价\n格，无价格涨跌限制的创业板证券在开盘集合竞价时段的申报价格不\n得超过2000 元/股，在其他时段的申报价格不得超过8000 元/股。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "测试完成后，各参测单位应在2020 年8 月22 日16:00 之前提 交测试反馈表（见附件1），并在2020 年8 月24 日至31 日的每交易日、 9 月4 日、9 月11 日的21:00 之前填写并提交《深市参与人系统运行 情况2020 年x 月x 日反馈表》（见附件2） （交易前端应显著标识此类基金产品）",
+      "detail": "测试完成后，各参测单位应在2020 年8 月22 日16:00 之前提\n交测试反馈表（见附件1），并在2020 年8 月24 日至31 日的每交易日、\n9 月4 日、9 月11 日的21:00 之前填写并提交《深市参与人系统运行\n情况2020 年x 月x 日反馈表》（见附件2）\n（交易前端应显著标识此类基金产品）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "易前端应显著标识此类基金产品） （不适用创业板 交易特别规定） 交易前端应显著标识价格涨 跌幅度为20%的基金 （券商应做前 端控制：创业板注册制股票不能作为股票质押回购交易标的） （券商应做前端控制： 创业板注册制股票不能作为约定购回交易标的）",
+      "detail": "易前端应显著标识此类基金产品）\n（不适用创业板\n交易特别规定）\n交易前端应显著标识价格涨\n跌幅度为20%的基金\n（券商应做前\n端控制：创业板注册制股票不能作为股票质押回购交易标的）\n（券商应做前端控制：\n创业板注册制股票不能作为约定购回交易标的）",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "期权",
+    "注册制",
+    "港股通",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及15项变更。 规则条款变更: 9项。 版本升级: 1项。 技术架构变更: 5项。 其中重大变更2项。",
+  "confidence": 0.95
+}

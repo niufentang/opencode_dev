@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-296",
+  "type": "technical_notice",
+  "title": "关于发布科创板做市收费流水及债券产品信息文件压缩相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072434/files/25922246fbe442d4b77c4148a98dc78c.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS124",
+    "债券",
+    "做市商",
+    "科创板"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:6051cb5b61de89b39e03116ea4d76b073078239bdcc8bc3fd4c6b6e68dbba042",
+  "content_markdown": "关于发布科创板做市收费流水及债券产品\n信息文件压缩相关市场接口技术开发稿的\n通知\n各市场参与人：\n上海证券交易所（以下简称本所）拟发布《IS101_上海证券\n交易所竞价撮合平台市场参与者接口规格说明书1.58 版\n_20220524（科创板做市商收费流水）》，《IS124_上海证券交易所\n市场数据文件交换接口规格说明书1.50 版_20220524（债券产品\n信息文件调整技术开发稿）》，以供市场参与者提前做好技术就绪\n准备工作。\n此次市场接口的更新内容主要是在竞价撮合平台市场参与\n者接口规格说明书中，根据科创板做市业务的需求，新增股票交\n易费用接口。在市场数据文件交换接口规格说明书中，更新债券\n产品信息文件部分字段说明，新增债券产品信息文件压缩包。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年六月六日\n\n<metadata>\n{\n  \"title\": \"20220606_关于发布科创板做市收费流水及债券产品信息文件压缩相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220606_关于发布科创板做市收费流水及债券产品信息文件压缩相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布科创板做市收费流水及债券产品信息文件压缩相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:6051cb5b61de89b39e03116ea4d76b073078239bdcc8bc3fd4c6b6e68dbba042\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.188837+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

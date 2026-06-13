@@ -1,7 +1,7 @@
 {
   "source": "chinaclear",
-  "last_updated": "2026-05-19T11:26:39+00:00",
-  "total_entries": 412,
+  "last_updated": "2026-06-13T17:47:06+00:00",
+  "total_entries": 413,
   "entries": [
     {
       "id": "chinaclear-rule-00000000-001",
@@ -48,18 +48,6 @@
       "tags": [
         "chinaclear",
         "business_rule",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-tech-00000000-005",
-      "title": "上海证券交易所 中国证券登记结算有限责任公司关于支持境外机构投资者开展上海证券交易所债券回购业务有关事项的通知",
-      "type": "technical_notice",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "technical_notice",
         "债券"
       ]
     },
@@ -124,30 +112,6 @@
         "technical_notice",
         "债券",
         "做市商"
-      ]
-    },
-    {
-      "id": "chinaclear-tech-00000000-011",
-      "title": "中国结算关于调整信用债券交易型开放式指数基金产品试点开展通用质押式回购总量限额有关事项的通知",
-      "type": "technical_notice",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "technical_notice",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-012",
-      "title": "中国结算北京分公司债券登记结算业务指南",
-      "type": "rule",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券"
       ]
     },
     {
@@ -708,7 +672,9 @@
       "tags": [
         "chinaclear",
         "business_rule",
-        "做市商"
+        "债券",
+        "科创板",
+        "融资融券"
       ]
     },
     {
@@ -731,12 +697,13 @@
       "public_date": null,
       "tags": [
         "chinaclear",
-        "business_rule"
+        "business_rule",
+        "做市商"
       ]
     },
     {
       "id": "chinaclear-rule-00000000-062",
-      "title": "中国证券登记结算有限责任公司上市开放式基金登记结算业务指引",
+      "title": "«打印份数»",
       "type": "rule",
       "status": "active",
       "public_date": null,
@@ -747,6 +714,17 @@
     },
     {
       "id": "chinaclear-rule-00000000-063",
+      "title": "中国证券登记结算有限责任公司上市开放式基金登记结算业务指引",
+      "type": "rule",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-064",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -760,7 +738,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-064",
+      "id": "chinaclear-rule-00000000-065",
       "title": "中国证券登记结算有限责任公司上海分公司场内实时申赎货币市场基金登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -771,7 +749,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-065",
+      "id": "chinaclear-rule-00000000-066",
       "title": "中国证券登记结算有限责任公司公募基金行业机构投资者直销服务平台（FISP）运作指引",
       "type": "rule",
       "status": "active",
@@ -782,7 +760,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-066",
+      "id": "chinaclear-rule-00000000-067",
       "title": "中国证券登记结算有限责任公司公募基金行业机构投资者直销服务平台（FISP）运作管理办法",
       "type": "rule",
       "status": "active",
@@ -793,7 +771,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-067",
+      "id": "chinaclear-rule-00000000-068",
       "title": "中国证券登记结算有限责任公司公开募集不动产投资信托基金登记结算业务实施细则（试行）",
       "type": "rule",
       "status": "active",
@@ -805,7 +783,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-068",
+      "id": "chinaclear-rule-00000000-069",
       "title": "中国证券登记结算有限责任公司公开募集不动产投资信托基金登记结算业务指引（试行）",
       "type": "rule",
       "status": "active",
@@ -817,7 +795,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-069",
+      "id": "chinaclear-rule-00000000-070",
       "title": "中国证券登记结算有限责任公司基金通平台公开募集不动产投资信托基金份额转让",
       "type": "rule",
       "status": "active",
@@ -829,7 +807,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-070",
+      "id": "chinaclear-rule-00000000-071",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -840,7 +818,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-071",
+      "id": "chinaclear-rule-00000000-072",
       "title": "中国证券登记结算有限责任公司深圳分公司交易型开放式基金登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -853,7 +831,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-072",
+      "id": "chinaclear-rule-00000000-073",
       "title": "中国证券登记结算有限责任公司证券公司定向资产管理登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -866,7 +844,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-073",
+      "id": "chinaclear-rule-00000000-074",
       "title": "公募基金行业注册登记数据中央交换平台业务指引",
       "type": "rule",
       "status": "active",
@@ -877,7 +855,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-074",
+      "id": "chinaclear-rule-00000000-075",
       "title": "公募基金行业注册登记数据中央交换平台业务规则",
       "type": "rule",
       "status": "active",
@@ -888,7 +866,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-075",
+      "id": "chinaclear-rule-00000000-076",
       "title": "上海证券交易所会议纪要",
       "type": "rule",
       "status": "active",
@@ -899,7 +877,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-076",
+      "id": "chinaclear-rule-00000000-077",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -910,7 +888,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-077",
+      "id": "chinaclear-tech-00000000-078",
       "title": "关于发布《资产管理产品销售资金代收代付业务指引（暂行）》及相关协议文本的通知",
       "type": "technical_notice",
       "status": "active",
@@ -921,7 +899,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-078",
+      "id": "chinaclear-rule-00000000-079",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -932,7 +910,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-079",
+      "id": "chinaclear-tech-00000000-080",
       "title": "关于发布证券公司集合资产管理计划电子合同业务指引及相关协议文本的通知",
       "type": "technical_notice",
       "status": "active",
@@ -943,7 +921,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-080",
+      "id": "chinaclear-tech-00000000-081",
       "title": "关于发布中国证券登记结算有限责任公司《开放式基金全额非担保结算业务指引》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -954,7 +932,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-081",
+      "id": "chinaclear-rule-00000000-082",
       "title": "开放式基金结算保证金管理暂行办法",
       "type": "rule",
       "status": "active",
@@ -965,7 +943,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-082",
+      "id": "chinaclear-rule-00000000-083",
       "title": "开放式基金结算备付金管理暂行办法",
       "type": "rule",
       "status": "active",
@@ -976,7 +954,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-083",
+      "id": "chinaclear-rule-00000000-084",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -987,7 +965,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-084",
+      "id": "chinaclear-rule-00000000-085",
       "title": "香港互认基金在内地销售登记结算业务指引（暂行）",
       "type": "rule",
       "status": "active",
@@ -998,7 +976,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-085",
+      "id": "chinaclear-tech-00000000-086",
       "title": "中国结算上海分公司关于调整和规范权益分派方法的通知",
       "type": "technical_notice",
       "status": "deprecated",
@@ -1009,7 +987,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-086",
+      "id": "chinaclear-rule-00000000-087",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -1020,7 +998,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-087",
+      "id": "chinaclear-rule-00000000-088",
       "title": "上海市场首次公开发行股票网上发行实施细则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1034,7 +1012,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-088",
+      "id": "chinaclear-rule-00000000-089",
       "title": "上海市场首次公开发行股票网下发行实施细则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1046,7 +1024,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20140926-089",
+      "id": "chinaclear-rule-20140926-090",
       "title": "上海证券交易所港股通交易风险揭示书必备条款（2022年修订）(2022年6月24日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1058,7 +1036,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20140926-090",
+      "id": "chinaclear-rule-20140926-091",
       "title": "上海证券交易所港股通交易风险揭示书必备条款（2023年修订）(2023年3月3日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1070,7 +1048,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20220701-091",
+      "id": "chinaclear-rule-20220701-092",
       "title": "中国结算上海分公司上市公司收购及现金选择权登记结算业务指南(2022年7月1日施行,已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1082,7 +1060,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-092",
+      "id": "chinaclear-rule-00000000-093",
       "title": "中国结算上海分公司上市公司股权分置改革登记结算业务操作指引（2008年2月18日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -1091,19 +1069,6 @@
         "chinaclear",
         "business_rule",
         "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-093",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "期权"
       ]
     },
     {
@@ -1121,6 +1086,19 @@
     },
     {
       "id": "chinaclear-rule-00000000-095",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-096",
       "title": "中国结算上海分公司债券登记结算业务指南(2025年1月17日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1134,7 +1112,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-096",
+      "id": "chinaclear-rule-00000000-097",
       "title": "中国结算上海分公司债券登记结算业务指南（2023年10月20日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1147,7 +1125,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-097",
+      "id": "chinaclear-rule-00000000-098",
       "title": "中国结算上海分公司债券登记结算业务指南（2024年7月1日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1161,7 +1139,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-098",
+      "id": "chinaclear-rule-00000000-099",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1173,7 +1151,19 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-099",
+      "id": "chinaclear-rule-00000000-100",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "注册制"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-101",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1186,7 +1176,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-100",
+      "id": "chinaclear-rule-00000000-102",
       "title": "中国结算上海分公司可交换公司债登记结算业务指南（2022年5月16日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1199,7 +1189,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-101",
+      "id": "chinaclear-rule-00000000-103",
       "title": "中国结算上海分公司港股通存管结算业务指南(2023年4月24日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1211,7 +1201,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-102",
+      "id": "chinaclear-rule-00000000-104",
       "title": "中国结算上海分公司约定购回式证券交易登记结算业务指南（2019年1月18日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -1223,36 +1213,8 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-103",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-104",
-      "title": "中国结算上海分公司结算账户管理及资金结算业务指南(2024年7月1日施行，已废止)",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
       "id": "chinaclear-rule-00000000-105",
-      "title": "中国结算上海分公司结算账户管理及资金结算业务指南（2023年11月27日施行，已废止）",
+      "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
       "public_date": null,
@@ -1266,7 +1228,7 @@
     },
     {
       "id": "chinaclear-rule-00000000-106",
-      "title": "«打印份数»",
+      "title": "中国结算上海分公司结算账户管理及资金结算业务指南(2024年7月1日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
       "public_date": null,
@@ -1280,7 +1242,7 @@
     },
     {
       "id": "chinaclear-rule-00000000-107",
-      "title": "中国结算上海分公司结算账户管理及资金结算业务指南（2025年3月31日施行，已废止）",
+      "title": "中国结算上海分公司结算账户管理及资金结算业务指南（2023年11月27日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
       "public_date": null,
@@ -1301,11 +1263,27 @@
       "tags": [
         "chinaclear",
         "business_rule",
-        "债券"
+        "债券",
+        "做市商",
+        "期权"
       ]
     },
     {
       "id": "chinaclear-rule-00000000-109",
+      "title": "中国结算上海分公司结算账户管理及资金结算业务指南（2025年3月31日施行，已废止）",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-110",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1317,7 +1295,19 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-110",
+      "id": "chinaclear-rule-00000000-111",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-112",
       "title": "中国结算上海分公司证券发行人业务指南(2023年2月17日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1331,7 +1321,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-111",
+      "id": "chinaclear-rule-00000000-113",
       "title": "中国结算上海分公司证券发行人业务指南（2023年10月20日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1345,7 +1335,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-112",
+      "id": "chinaclear-rule-00000000-114",
       "title": "中国结算上海分公司证券发行人业务指南（2024年1月26日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1359,7 +1349,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-113",
+      "id": "chinaclear-rule-00000000-115",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1371,7 +1361,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-114",
+      "id": "chinaclear-rule-00000000-116",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1383,7 +1373,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-115",
+      "id": "chinaclear-rule-00000000-117",
       "title": "中国结算北京分公司优先股登记结算业务指南（2021年11月15日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1394,7 +1384,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-116",
+      "id": "chinaclear-rule-00000000-118",
       "title": "中国结算北京分公司优先股登记结算业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1406,7 +1396,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-117",
+      "id": "chinaclear-rule-00000000-119",
       "title": "中国结算北京分公司债券登记结算业务指南（2023年10月20日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1418,7 +1408,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-118",
+      "id": "chinaclear-rule-00000000-120",
       "title": "中国结算北京分公司债券登记结算业务指南（2025年6月20日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1430,7 +1420,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20160630-119",
+      "id": "chinaclear-rule-20160630-121",
       "title": "中国结算北京分公司做市业务指南（2022年11月12日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1443,7 +1433,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-120",
+      "id": "chinaclear-rule-00000000-122",
       "title": "中国结算北京分公司全国股转系统证券发行人业务指南（2023年1月3日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -1455,7 +1445,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-121",
+      "id": "chinaclear-rule-00000000-123",
       "title": "中国结算北京分公司全国股转系统证券发行人业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -1468,32 +1458,6 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-122",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "期权"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-123",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "期权"
-      ]
-    },
-    {
       "id": "chinaclear-rule-00000000-124",
       "title": "«打印份数»",
       "type": "rule",
@@ -1503,8 +1467,7 @@
         "chinaclear",
         "business_rule",
         "债券",
-        "期权",
-        "注册制"
+        "期权"
       ]
     },
     {
@@ -1516,8 +1479,8 @@
       "tags": [
         "chinaclear",
         "business_rule",
-        "期权",
-        "注册制"
+        "债券",
+        "期权"
       ]
     },
     {
@@ -1536,6 +1499,33 @@
     },
     {
       "id": "chinaclear-rule-00000000-127",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "期权",
+        "注册制"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-128",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券",
+        "期权",
+        "注册制"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-129",
       "title": "中国结算北京分公司协助执法业务指南（2022年7月1日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1546,7 +1536,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-128",
+      "id": "chinaclear-rule-00000000-130",
       "title": "中国结算北京分公司协助执法业务指南（2023年7月10日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1558,7 +1548,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-129",
+      "id": "chinaclear-rule-00000000-131",
       "title": "中国结算北京分公司定向发行可转换公司债券登记结算业务指南（2021年11月15日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -1570,7 +1560,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-130",
+      "id": "chinaclear-rule-00000000-132",
       "title": "中国结算北京分公司定向发行可转换公司债券登记结算业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1583,7 +1573,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20141205-131",
+      "id": "chinaclear-rule-20141205-133",
       "title": "中国结算北京分公司投资者业务指南（2022年6月30日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1595,7 +1585,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20250328-132",
+      "id": "chinaclear-rule-20250328-134",
       "title": "中国结算北京分公司投资者业务指南（2025年3月28日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1607,7 +1597,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-133",
+      "id": "chinaclear-rule-00000000-135",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1618,7 +1608,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-134",
+      "id": "chinaclear-rule-00000000-136",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1630,7 +1620,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-135",
+      "id": "chinaclear-rule-00000000-137",
       "title": "中国结算北京分公司股权激励和员工持股计划股份登记业务指南（2021年11月12日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1642,7 +1632,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-136",
+      "id": "chinaclear-rule-00000000-138",
       "title": "中国结算北京分公司股票向不特定合格投资者公开发行登记结算业务指南（2021年11月15日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1653,7 +1643,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-137",
+      "id": "chinaclear-rule-00000000-139",
       "title": "中国结算北京分公司股票向不特定合格投资者公开发行登记结算业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1665,7 +1655,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-138",
+      "id": "chinaclear-rule-00000000-140",
       "title": "_x0001_",
       "type": "rule",
       "status": "active",
@@ -1677,7 +1667,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20141205-139",
+      "id": "chinaclear-rule-20141205-141",
       "title": "中国结算北京分公司退市板块证券登记结算业务指南（2022年5月13日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1688,7 +1678,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-140",
+      "id": "chinaclear-rule-00000000-142",
       "title": "中国结算北京分公司退市板块证券登记结算业务指南（2023年8月11日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1700,7 +1690,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-141",
+      "id": "chinaclear-rule-00000000-143",
       "title": "中国结算北京分公司退市板块证券登记结算业务指南（2024年11月29日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1712,7 +1702,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-142",
+      "id": "chinaclear-rule-00000000-144",
       "title": "中国结算北京分公司非公开发行可转债转股登记业务指南（2020年6月11日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1724,7 +1714,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-143",
+      "id": "chinaclear-rule-00000000-145",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1735,7 +1725,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-144",
+      "id": "chinaclear-rule-00000000-146",
       "title": "中国结算深圳分公司上市公司股权激励业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1747,7 +1737,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-145",
+      "id": "chinaclear-rule-00000000-147",
       "title": "中国证券登记结算有限责任公司",
       "type": "rule",
       "status": "deprecated",
@@ -1761,7 +1751,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-146",
+      "id": "chinaclear-rule-00000000-148",
       "title": "B股业务登记结算服务指南.doc",
       "type": "rule",
       "status": "active",
@@ -1772,7 +1762,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-147",
+      "id": "chinaclear-rule-00000000-149",
       "title": "中国结算深圳分公司港股通存管结算业务指南（2023年4月24日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -1784,7 +1774,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-20191207-148",
+      "id": "chinaclear-tech-20191207-150",
       "title": "关于修订《中国证券登记结算有限责任公司深圳分公司股票期权试点结算业务指南》的通知",
       "type": "technical_notice",
       "status": "deprecated",
@@ -1796,7 +1786,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-149",
+      "id": "chinaclear-rule-00000000-151",
       "title": "中国结算深圳分公司证券发行人业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1810,7 +1800,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-150",
+      "id": "chinaclear-rule-00000000-152",
       "title": "中国证券登记结算有限责任公司深圳分公司证券发行人业务指南",
       "type": "rule",
       "status": "deprecated",
@@ -1824,7 +1814,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-151",
+      "id": "chinaclear-rule-00000000-153",
       "title": "中国结算深圳分公司证券质押业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1836,36 +1826,8 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-152",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-153",
-      "title": "中国结算深圳分公司证券资金结算业务指南（2023年8月7日施行，已废止）",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
       "id": "chinaclear-rule-00000000-154",
-      "title": "中国结算深圳分公司证券资金结算业务指南（2024年12月23日施行，已废止）",
+      "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
       "public_date": null,
@@ -1879,7 +1841,7 @@
     },
     {
       "id": "chinaclear-rule-00000000-155",
-      "title": "中国结算深圳分公司证券资金结算业务指南（2025年12月24日起施行，已废止）",
+      "title": "中国结算深圳分公司证券资金结算业务指南（2023年8月7日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
       "public_date": null,
@@ -1893,6 +1855,34 @@
     },
     {
       "id": "chinaclear-rule-00000000-156",
+      "title": "中国结算深圳分公司证券资金结算业务指南（2024年12月23日施行，已废止）",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-157",
+      "title": "中国结算深圳分公司证券资金结算业务指南（2025年12月24日起施行，已废止）",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-158",
       "title": "中国结算深圳分公司证券非交易过户业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1904,7 +1894,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-157",
+      "id": "chinaclear-rule-00000000-159",
       "title": "中国证券登记结算有限责任公司深圳分公司",
       "type": "rule",
       "status": "deprecated",
@@ -1916,7 +1906,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-158",
+      "id": "chinaclear-rule-00000000-160",
       "title": "中国结算深圳分公司首次公开发行股票登记结算业务指南（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1928,7 +1918,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-159",
+      "id": "chinaclear-rule-00000000-161",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -1940,7 +1930,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-160",
+      "id": "chinaclear-rule-00000000-162",
       "title": "中国证券登记结算有限责任公司 上海证券交易所B转H业务实施细则（2021年12月24日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1951,7 +1941,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20220516-161",
+      "id": "chinaclear-rule-20220516-163",
       "title": "中国证券登记结算有限责任公司上海分公司B股清算交收业务指南(2022年5月16日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -1962,7 +1952,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20211230-162",
+      "id": "chinaclear-rule-20211230-164",
       "title": "中国证券登记结算有限责任公司上海分公司B转H登记结算业务指南（2021年12月30日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1973,7 +1963,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-163",
+      "id": "chinaclear-rule-00000000-165",
       "title": "中国证券登记结算有限责任公司上海分公司B转H登记结算业务指南（2024年9月23日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -1984,7 +1974,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-164",
+      "id": "chinaclear-rule-00000000-166",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -1997,7 +1987,21 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-165",
+      "id": "chinaclear-rule-00000000-167",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券",
+        "科创板",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-168",
       "title": "中国证券登记结算有限责任公司上海分公司债券登记结算业务指南（2022年6月30日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2010,7 +2014,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20211015-166",
+      "id": "chinaclear-rule-20211015-169",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2023,7 +2027,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20220530-167",
+      "id": "chinaclear-rule-20220530-170",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2035,7 +2039,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20220530-168",
+      "id": "chinaclear-rule-20220530-171",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2048,7 +2052,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-169",
+      "id": "chinaclear-rule-00000000-172",
       "title": "中国证券登记结算有限责任公司上海分公司参与人证券托管业务指南（2023年10月20日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2061,7 +2065,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-170",
+      "id": "chinaclear-rule-00000000-173",
       "title": "中国证券登记结算有限责任公司上海分公司境内外证券交易所互联互通存托凭证登记结算业务指南（2022年6月27日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2072,7 +2076,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-171",
+      "id": "chinaclear-rule-00000000-174",
       "title": "中国证券登记结算有限责任公司上海分公司港股通存管结算业务指南(2022年7月4日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2084,7 +2088,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-172",
+      "id": "chinaclear-rule-00000000-175",
       "title": "中国证券登记结算有限责任公司上海分公司港股通存管结算业务指南(2023年1月3日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2096,7 +2100,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-173",
+      "id": "chinaclear-rule-00000000-176",
       "title": "中国证券登记结算有限责任公司上海分公司港股通存管结算业务指南（2024年9月23日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2108,7 +2112,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20211231-174",
+      "id": "chinaclear-rule-20211231-177",
       "title": "中国证券登记结算有限责任公司上海分公司科创板股票登记结算业务指南(2021年12月31日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2122,7 +2126,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-175",
+      "id": "chinaclear-rule-00000000-178",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2136,7 +2140,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-176",
+      "id": "chinaclear-rule-00000000-179",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2149,7 +2153,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20220530-177",
+      "id": "chinaclear-rule-20220530-180",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2162,7 +2166,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20181220-178",
+      "id": "chinaclear-rule-20181220-181",
       "title": "中国证券登记结算有限责任公司上海分公司融资融券登记结算业务指南（2018年12月20日施行，已废止 ）",
       "type": "rule",
       "status": "deprecated",
@@ -2175,7 +2179,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-179",
+      "id": "chinaclear-rule-00000000-182",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2189,7 +2193,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-180",
+      "id": "chinaclear-rule-00000000-183",
       "title": "中国证券登记结算有限责任公司上海分公司证券发行人业务指南(2022年5月24日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2202,7 +2206,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-181",
+      "id": "chinaclear-rule-00000000-184",
       "title": "中国证券登记结算有限责任公司上海分公司证券发行人业务指南(2023年1月1日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2215,7 +2219,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-182",
+      "id": "chinaclear-rule-00000000-185",
       "title": "中国证券登记结算有限责任公司上海分公司证券发行人业务指南（2023年6月9日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2229,7 +2233,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-183",
+      "id": "chinaclear-rule-00000000-186",
       "title": "中国证券登记结算有限责任公司上海分公司证券发行人业务指南（2025年12月31日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2243,7 +2247,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-184",
+      "id": "chinaclear-rule-00000000-187",
       "title": "中国证券登记结算有限责任公司上海分公司证券发行人业务指南（2025年3月31日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2257,7 +2261,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-185",
+      "id": "chinaclear-rule-00000000-188",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2271,7 +2275,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-186",
+      "id": "chinaclear-rule-00000000-189",
       "title": "中国证券登记结算有限责任公司上海证券交易所公开募集基础设施证券投资基金登记结算业务指引（试行）（2022年6月发布，已废止）",
       "type": "rule",
       "status": "active",
@@ -2283,7 +2287,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-187",
+      "id": "chinaclear-rule-00000000-190",
       "title": "中国证券登记结算有限责任公司优先股试点登记结算业务实施细则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2295,7 +2299,18 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-188",
+      "id": "chinaclear-rule-00000000-191",
+      "title": "中国证券登记结算有限责任公司公募基金行业机构投资者直销服务平台（FISP）运作指引（2025年9月5日发布，已废止）",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-192",
       "title": "中国证券登记结算有限责任公司公开募集基础设施证券投资基金登记结算业务指引（试行）（2025年6月27日发布，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2307,7 +2322,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-189",
+      "id": "chinaclear-rule-00000000-193",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2321,7 +2336,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-190",
+      "id": "chinaclear-rule-00000000-194",
       "title": "中国证券登记结算有限责任公司北京分公司股票向不特定合格投资者公开发行登记结算业务指南（2023年8月22日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2333,7 +2348,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-191",
+      "id": "chinaclear-rule-00000000-195",
       "title": "中国证券登记结算有限责任公司北京分公司证券资金结算业务指南（2022年12月26日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2345,7 +2360,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-192",
+      "id": "chinaclear-rule-00000000-196",
       "title": "中国证券登记结算有限责任公司北京分公司证券资金结算业务指南（2023年8月22日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2358,7 +2373,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-193",
+      "id": "chinaclear-rule-00000000-197",
       "title": "中国证券登记结算有限责任公司受信用保护债券质押式回购管理暂行办法（2022年修订版）（2022年7月29日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2370,7 +2385,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-194",
+      "id": "chinaclear-rule-00000000-198",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2383,7 +2398,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-195",
+      "id": "chinaclear-rule-00000000-199",
       "title": "中国证券登记结算有限责任公司基金管理公司特定客户资产管理登记结算业务指南（2013年7月3日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2395,7 +2410,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-196",
+      "id": "chinaclear-rule-00000000-200",
       "title": "中国证券登记结算有限责任公司投资者证券查询业务指南（2021年10月30日发布，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2409,7 +2424,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-197",
+      "id": "chinaclear-rule-00000000-201",
       "title": "中国证券登记结算有限责任公司深圳分公司B转H登记结算业务指南（2024年1月8日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2420,7 +2435,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-198",
+      "id": "chinaclear-rule-00000000-202",
       "title": "中国证券登记结算有限责任公司深圳分公司H股“全流通”业务指南（2024年9月23日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2432,7 +2447,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-199",
+      "id": "chinaclear-rule-00000000-203",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -2444,7 +2459,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-200",
+      "id": "chinaclear-rule-00000000-204",
       "title": "中国证券登记结算有限责任公司深圳分公司交易型开放式基金登记结算业务指南(2022年12月26日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2457,7 +2472,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-201",
+      "id": "chinaclear-rule-00000000-205",
       "title": "中国证券登记结算有限责任公司深圳分公司债券登记结算业务指南(2023年1月9日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2471,7 +2486,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20200302-202",
+      "id": "chinaclear-rule-20200302-206",
       "title": "中国证券登记结算有限责任公司深圳分公司债券登记结算业务指南（2022年6月30日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2484,7 +2499,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-203",
+      "id": "chinaclear-rule-00000000-207",
       "title": "中国证券登记结算有限责任公司深圳分公司债券登记结算业务指南（2023年10月20日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2498,7 +2513,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-204",
+      "id": "chinaclear-rule-00000000-208",
       "title": "中国证券登记结算有限责任公司深圳分公司债券登记结算业务指南（2023年12月18日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2512,7 +2527,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-205",
+      "id": "chinaclear-rule-00000000-209",
       "title": "中国证券登记结算有限责任公司深圳分公司债券登记结算业务指南（2023年6月19日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -2526,7 +2541,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-206",
+      "id": "chinaclear-rule-00000000-210",
       "title": "中国证券登记结算有限责任公司深圳分公司创业板股票登记结算业务指南（2021年12月31日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2537,7 +2552,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-207",
+      "id": "chinaclear-rule-00000000-211",
       "title": "中国证券登记结算有限责任公司深圳分公司创新企业境内发行存托凭证登记结算业务指南（2022年12月26日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2548,7 +2563,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-208",
+      "id": "chinaclear-rule-00000000-212",
       "title": "中国证券登记结算有限责任公司深圳分公司可交换公司债券登记结算业务指南（2022年12月26日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2560,7 +2575,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-209",
+      "id": "chinaclear-rule-00000000-213",
       "title": "中国证券登记结算有限责任公司深圳分公司可交换公司债券登记结算业务指南（2024年7月1日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2572,7 +2587,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-210",
+      "id": "chinaclear-rule-00000000-214",
       "title": "中国证券登记结算有限责任公司深圳分公司境内外证券交易所互联互通存托凭证登记结算业务指南（2022年6月27日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2583,7 +2598,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20161014-211",
+      "id": "chinaclear-rule-20161014-215",
       "title": "中国证券登记结算有限责任公司深圳分公司港股通存管结算业务指南(2022年7月4日施行，已废止)",
       "type": "rule",
       "status": "active",
@@ -2595,7 +2610,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-212",
+      "id": "chinaclear-rule-00000000-216",
       "title": "中国证券登记结算有限责任公司深圳分公司港股通存管结算业务指南（2023年1月6日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -2607,7 +2622,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-213",
+      "id": "chinaclear-rule-00000000-217",
       "title": "中国证券登记结算有限责任公司深圳分公司港股通存管结算业务指南（2024年9月23日施行，已废止）",
       "type": "rule",
       "status": "active",
@@ -2619,7 +2634,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-214",
+      "id": "chinaclear-rule-00000000-218",
       "title": "中国证券登记结算有限责任公司深圳分公司股票期权试点结算业务指南（2025年10月9日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2631,7 +2646,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-215",
+      "id": "chinaclear-rule-00000000-219",
       "title": "中国证券登记结算有限责任公司深圳分公司股票质押式回购登记结算业务指南（2021年7月1日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2643,7 +2658,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20210519-216",
+      "id": "chinaclear-rule-20210519-220",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2657,7 +2672,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-217",
+      "id": "chinaclear-rule-00000000-221",
       "title": "中国证券登记结算有限责任公司深圳分公司证券发行人业务指南（2024年3月27日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2671,7 +2686,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-218",
+      "id": "chinaclear-rule-00000000-222",
       "title": "中国证券登记结算有限责任公司深圳分公司证券发行人业务指南（2025年10月13日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2685,7 +2700,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-219",
+      "id": "chinaclear-rule-00000000-223",
       "title": "中国证券登记结算有限责任公司深圳分公司首次公开发行股票登记结算业务指南（2023年9月21日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2697,7 +2712,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-220",
+      "id": "chinaclear-rule-00000000-224",
       "title": "中国证券登记结算有限责任公司深圳证券交易所公开募集基础设施证券投资基金登记结算业务指引（试行）（2022年6月发布，已废止）",
       "type": "rule",
       "status": "active",
@@ -2709,7 +2724,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-221",
+      "id": "chinaclear-rule-00000000-225",
       "title": "中国证券登记结算有限责任公司特殊机构及产品证券账户业务指南（2022年6月28日发布，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2723,7 +2738,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-222",
+      "id": "chinaclear-rule-00000000-226",
       "title": "中国证券登记结算有限责任公司特殊机构及产品证券账户业务指南（2023年1月9日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2737,7 +2752,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-223",
+      "id": "chinaclear-rule-00000000-227",
       "title": "中国证券登记结算有限责任公司特殊机构及产品证券账户业务指南（2025年3月28日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2751,7 +2766,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20161129-224",
+      "id": "chinaclear-rule-20161129-228",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2765,7 +2780,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-225",
+      "id": "chinaclear-rule-00000000-229",
       "title": "中国证券登记结算有限责任公司结算备付金管理办法（2022年5月修订版）（2022年5月20日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2779,7 +2794,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-226",
+      "id": "chinaclear-rule-00000000-230",
       "title": "中国证券登记结算有限责任公司证券公司集合资产管理登记结算业务指南（2012年11月15日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2791,7 +2806,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-227",
+      "id": "chinaclear-rule-00000000-231",
       "title": "中国证券登记结算有限责任公司证券持有人名册业务实施细则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2803,7 +2818,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-228",
+      "id": "chinaclear-rule-00000000-232",
       "title": "中国证券登记结算有限责任公司证券登记规则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2815,7 +2830,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-229",
+      "id": "chinaclear-rule-00000000-233",
       "title": "中国证券登记结算有限责任公司证券账户业务指南（2022年5月5日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2829,7 +2844,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-230",
+      "id": "chinaclear-rule-00000000-234",
       "title": "中国证券登记结算有限责任公司证券非交易过户业务实施细则（适用于继承、捐赠等情形）（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2841,7 +2856,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-231",
+      "id": "chinaclear-rule-00000000-235",
       "title": "中国证券登记结算有限责任境外上市公司非境外上市股份登记存管业务实施细则（2007年4月2日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -2852,7 +2867,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-232",
+      "id": "chinaclear-rule-00000000-236",
       "title": "<4D6963726F736F667420576F7264202D20C8ABB9FAC9E7BBE1B1A3D5CFBBF9BDF0CDB6D7CAC9E6BCB0B5C4D6A4C8AFB5C7BCC7BDE1CBE3D2B5CEF1D6B8C4CFA3A8B5DA3134CCF5D0DEB8C4BAF3B0E6B1BEA3A92E646F63>",
       "type": "rule",
       "status": "deprecated",
@@ -2864,7 +2879,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-233",
+      "id": "chinaclear-rule-00000000-237",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2876,7 +2891,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-234",
+      "id": "chinaclear-rule-00000000-238",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -2887,7 +2902,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-235",
+      "id": "chinaclear-tech-00000000-239",
       "title": "关于修订并发布《中国证券登记结算有限责任公司深圳分公司协助执法业务指南》的通知（2022年5月31日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -2898,7 +2913,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-236",
+      "id": "chinaclear-tech-00000000-240",
       "title": "关于修订并发布《中国证券登记结算有限责任公司深圳分公司境外上市公司非境外上市股份登记存管业务指南》的通知（2022年5月31日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -2909,7 +2924,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-20141028-237",
+      "id": "chinaclear-tech-20141028-241",
       "title": "关于修订并发布《中国证券登记结算有限责任公司深圳分公司证券质押业务指南》的通知（2022年5月31日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -2921,7 +2936,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-238",
+      "id": "chinaclear-tech-00000000-242",
       "title": "关于修订并发布《中国证券登记结算有限责任公司深圳分公司证券非交易过户业务指南》的通知（2022年5月31日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -2933,7 +2948,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-239",
+      "id": "chinaclear-tech-00000000-243",
       "title": "关于公布《中国证券登记结算有限责任公司关于全国中小企业股份转让系统登记结算业务实施细则》的通知（2013年12月30日发布，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -2946,7 +2961,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-240",
+      "id": "chinaclear-rule-00000000-244",
       "title": "上海证券交易所会议纪要",
       "type": "rule",
       "status": "deprecated",
@@ -2957,7 +2972,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-241",
+      "id": "chinaclear-rule-00000000-245",
       "title": "<4D6963726F736F667420576F7264202D20D6D0B9FABDE1CBE3C9EEDBDAB7D6B9ABCBBE42D7AA48BEB3C4DAD2B5CEF1D6B8C4CFBCB0CDB6D7CAD5DFB2D9D7F7D6B8C4CF>",
       "type": "rule",
       "status": "deprecated",
@@ -2969,7 +2984,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-242",
+      "id": "chinaclear-rule-00000000-246",
       "title": "上海证券交易所会议纪要",
       "type": "rule",
       "status": "deprecated",
@@ -2982,7 +2997,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-243",
+      "id": "chinaclear-rule-00000000-247",
       "title": "上海证券交易所会议纪要",
       "type": "rule",
       "status": "deprecated",
@@ -2993,7 +3008,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-244",
+      "id": "chinaclear-tech-00000000-248",
       "title": "关于发布《上海证券交易所 中国证券金融股份有限公司 中国证券登记结算有限责任公司科创板转融通证券出借和转融券业务实施细则》的通知（2019年4月30日施行，已废",
       "type": "technical_notice",
       "status": "deprecated",
@@ -3006,7 +3021,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-245",
+      "id": "chinaclear-rule-00000000-249",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -3018,7 +3033,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-246",
+      "id": "chinaclear-tech-00000000-250",
       "title": "关于发布《中国证券登记结算有限责任公司证券出借及转融通登记结算业务规则（试行）》的通知（2012年8月27日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -3030,7 +3045,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-247",
+      "id": "chinaclear-tech-00000000-251",
       "title": "关于发布《优先股试点登记结算业务实施细则》的通知（2014年6月20日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
@@ -3042,55 +3057,8 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-248",
-      "title": "关于发布《存托凭证登记结算业务规则（试行）》的通知（2018年6月15日施行，已废止）",
-      "type": "technical_notice",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "technical_notice",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-249",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule"
-      ]
-    },
-    {
-      "id": "chinaclear-tech-00000000-250",
-      "title": "关于发布《标准券折算率（值）管理办法（2020年修订版）》有关事项的通知（2020年3月20日施行，已废止）",
-      "type": "technical_notice",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "technical_notice",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-20170407-251",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": "2017-04-07",
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券"
-      ]
-    },
-    {
       "id": "chinaclear-tech-00000000-252",
-      "title": "关于商业银行理财产品开立证券账户有关事项的通知（2013年12月23日施行，已废止）",
+      "title": "关于发布《存托凭证登记结算业务规则（试行）》的通知（2018年6月15日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
       "public_date": null,
@@ -3104,7 +3072,7 @@
       "id": "chinaclear-rule-00000000-253",
       "title": "«打印份数»",
       "type": "rule",
-      "status": "deprecated",
+      "status": "active",
       "public_date": null,
       "tags": [
         "chinaclear",
@@ -3112,20 +3080,8 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-254",
-      "title": "<4D6963726F736F667420576F7264202D20B5C7BCC7B5BDD6A4C8AFD5CBBBA7D5AEC8AFB7A2D0D0BDE1CBE3B5C8CFE0B9D8CAC2D2CBB5C4CDA8D6AA2E646F63>",
-      "type": "rule",
-      "status": "deprecated",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-tech-00000000-255",
-      "title": "关于在上海证券交易所上市的国债交易所交易基金计入回购质押库的通知（2013年2月7日施行，已废止）",
+      "id": "chinaclear-tech-00000000-254",
+      "title": "关于发布《标准券折算率（值）管理办法（2020年修订版）》有关事项的通知（2020年3月20日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
       "public_date": null,
@@ -3136,8 +3092,20 @@
       ]
     },
     {
+      "id": "chinaclear-rule-20170407-255",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": "2017-04-07",
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券"
+      ]
+    },
+    {
       "id": "chinaclear-tech-00000000-256",
-      "title": "深证会[2014]63号（联合发文）-关于在深圳证券交易所上市的国债交易型开放式基金计入回购质押库的通知",
+      "title": "关于商业银行理财产品开立证券账户有关事项的通知（2013年12月23日施行，已废止）",
       "type": "technical_notice",
       "status": "deprecated",
       "public_date": null,
@@ -3149,7 +3117,7 @@
     },
     {
       "id": "chinaclear-rule-00000000-257",
-      "title": "<4D6963726F736F667420576F7264202D203038CDB3D2BBCDB8D6A7B4A6B7A3B5C4CDA8D6AA2E646F63>",
+      "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
       "public_date": null,
@@ -3160,6 +3128,53 @@
     },
     {
       "id": "chinaclear-rule-00000000-258",
+      "title": "<4D6963726F736F667420576F7264202D20B5C7BCC7B5BDD6A4C8AFD5CBBBA7D5AEC8AFB7A2D0D0BDE1CBE3B5C8CFE0B9D8CAC2D2CBB5C4CDA8D6AA2E646F63>",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券"
+      ]
+    },
+    {
+      "id": "chinaclear-tech-00000000-259",
+      "title": "关于在上海证券交易所上市的国债交易所交易基金计入回购质押库的通知（2013年2月7日施行，已废止）",
+      "type": "technical_notice",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "technical_notice",
+        "债券"
+      ]
+    },
+    {
+      "id": "chinaclear-tech-00000000-260",
+      "title": "深证会[2014]63号（联合发文）-关于在深圳证券交易所上市的国债交易型开放式基金计入回购质押库的通知",
+      "type": "technical_notice",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "technical_notice",
+        "债券"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-261",
+      "title": "<4D6963726F736F667420576F7264202D203038CDB3D2BBCDB8D6A7B4A6B7A3B5C4CDA8D6AA2E646F63>",
+      "type": "rule",
+      "status": "deprecated",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-262",
       "title": "急  件",
       "type": "rule",
       "status": "deprecated",
@@ -3171,7 +3186,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-259",
+      "id": "chinaclear-rule-00000000-263",
       "title": "<4D6963726F736F667420576F7264202D20B9D8D3DAB5F7D5FBC9EECAD0CADCD0C5D3C3B1A3BBA4D5AEC8AFD6CAD1BACABDBBD8B9BAD2B5CEF1CFE0B9D8CAC2D2CBB5C4CDA8D6AA2E646F63>",
       "type": "rule",
       "status": "deprecated",
@@ -3183,7 +3198,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-260",
+      "id": "chinaclear-rule-00000000-264",
       "title": "创业板上市公司股东询价和配售方式转让股份业务指引（2024年5月24日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3194,7 +3209,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-261",
+      "id": "chinaclear-rule-00000000-265",
       "title": "北京证券交易所上市公司股份协议转让细则（2021年11月15日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3205,7 +3220,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-262",
+      "id": "chinaclear-rule-00000000-266",
       "title": "北京证券交易所股票向不特定合格投资者公开发行与承销业务实施细则（2021年11月15日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3216,7 +3231,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-263",
+      "id": "chinaclear-rule-00000000-267",
       "title": "北京证券交易所股票向不特定合格投资者公开发行与承销业务实施细则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3227,7 +3242,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-264",
+      "id": "chinaclear-rule-00000000-268",
       "title": "数字证书认证业务指引（试行）（2013年8月9日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3238,7 +3253,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-265",
+      "id": "chinaclear-rule-00000000-269",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -3249,7 +3264,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-266",
+      "id": "chinaclear-rule-00000000-270",
       "title": "深圳市场首次公开发行股票网下发行实施细则（2023年2月17日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3261,7 +3276,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-267",
+      "id": "chinaclear-rule-00000000-271",
       "title": "深圳证券交易所 中国证券登记结算有限责任公司B转H业务实施细则（2024年1月8日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3272,7 +3287,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-268",
+      "id": "chinaclear-rule-00000000-272",
       "title": "深圳证券交易所港股通交易风险揭示书必备条款（2022年修订）（2022年6月24日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3284,7 +3299,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-269",
+      "id": "chinaclear-rule-00000000-273",
       "title": "深圳证券交易所港股通交易风险揭示书（2023年修订）(2023年3月3日施行，已废止)",
       "type": "rule",
       "status": "deprecated",
@@ -3296,7 +3311,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-270",
+      "id": "chinaclear-rule-00000000-274",
       "title": "科创板上市公司股东以向特定机构投资者询价转让和配售方式减持股份业务指引（2023年8月25日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3308,7 +3323,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-271",
+      "id": "chinaclear-rule-00000000-275",
       "title": "科创板上市公司股东以向特定机构投资者询价转让和配售方式减持股份业务指引（2024年5月24日施行，已废止）",
       "type": "rule",
       "status": "deprecated",
@@ -3320,7 +3335,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-272",
+      "id": "chinaclear-rule-00000000-276",
       "title": "<4D6963726F736F667420576F7264202D20B9D8D3DAB7A2B2BCBBA6CAD0A1B6D4BCB6A8B9BABBD8CABDD6A4C8AFBDBBD2D7BCB0B5C7BCC7BDE1CBE3D2B5CEF1B0ECB7A8A1B7B5C4CDA8D6AA>",
       "type": "rule",
       "status": "deprecated",
@@ -3332,7 +3347,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-273",
+      "id": "chinaclear-rule-00000000-277",
       "title": "<4D6963726F736F667420576F7264202D20B9D8D3DAB7A2B2BCC9EECAD0A1B6D4BCB6A8B9BABBD8CABDD6A4C8AFBDBBD2D7BCB0B5C7BCC7BDE1CBE3D2B5CEF1B0ECB7A8A1B7B5C4CDA8D6AA>",
       "type": "rule",
       "status": "deprecated",
@@ -3344,7 +3359,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-274",
+      "id": "chinaclear-rule-00000000-278",
       "title": "«打印份数»",
       "type": "rule",
       "status": "deprecated",
@@ -3356,7 +3371,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20050725-275",
+      "id": "chinaclear-rule-20050725-279",
       "title": "untitled",
       "type": "rule",
       "status": "active",
@@ -3367,7 +3382,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-276",
+      "id": "chinaclear-rule-00000000-280",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -3379,7 +3394,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-277",
+      "id": "chinaclear-rule-00000000-281",
       "title": "中国结算上海分公司境内外证券交易所互联互通存托凭证登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3390,7 +3405,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-278",
+      "id": "chinaclear-rule-00000000-282",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -3403,7 +3418,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-279",
+      "id": "chinaclear-rule-00000000-283",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -3417,7 +3432,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-280",
+      "id": "chinaclear-rule-00000000-284",
       "title": "中国结算深圳分公司H股“全流通”业务指南",
       "type": "rule",
       "status": "active",
@@ -3429,7 +3444,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-281",
+      "id": "chinaclear-rule-00000000-285",
       "title": "中国结算深圳分公司创新企业境内发行存托凭证登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3441,7 +3456,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-282",
+      "id": "chinaclear-rule-00000000-286",
       "title": "中国结算深圳分公司境内外证券交易所互联互通存托凭证登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3453,7 +3468,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-283",
+      "id": "chinaclear-rule-00000000-287",
       "title": "B股交易席位批量转托管办法   ",
       "type": "rule",
       "status": "active",
@@ -3464,7 +3479,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-284",
+      "id": "chinaclear-rule-00000000-288",
       "title": "B股业务登记结算服务指南.doc",
       "type": "rule",
       "status": "active",
@@ -3475,7 +3490,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-285",
+      "id": "chinaclear-rule-00000000-289",
       "title": "B 股结算会员买空卖空处理试行办法  发表时间：2003-11-5 ",
       "type": "rule",
       "status": "active",
@@ -3486,7 +3501,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-286",
+      "id": "chinaclear-rule-00000000-290",
       "title": "人民币特种股票结算登记业务规则",
       "type": "rule",
       "status": "active",
@@ -3498,7 +3513,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-287",
+      "id": "chinaclear-rule-00000000-291",
       "title": "中国证券登记结算有限责任公司",
       "type": "rule",
       "status": "active",
@@ -3510,7 +3525,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-288",
+      "id": "chinaclear-rule-00000000-292",
       "title": "中国证券登记结算有限责任公司 上海证券交易所B转H业务实施细则（2025年3月修订）",
       "type": "rule",
       "status": "active",
@@ -3521,7 +3536,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-289",
+      "id": "chinaclear-rule-00000000-293",
       "title": "中国证券登记结算有限责任公司上海分公司B股清算交收业务指南",
       "type": "rule",
       "status": "active",
@@ -3532,7 +3547,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-290",
+      "id": "chinaclear-rule-00000000-294",
       "title": "中国证券登记结算有限责任公司上海分公司B转H登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3543,7 +3558,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-291",
+      "id": "chinaclear-rule-00000000-295",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -3557,7 +3572,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-292",
+      "id": "chinaclear-rule-00000000-296",
       "title": "中国证券登记结算有限责任公司上海分公司港股通存管结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3569,7 +3584,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-293",
+      "id": "chinaclear-rule-00000000-297",
       "title": "中国证券登记结算有限责任公司境内外证券交易所互联互通存托凭证登记结算业务实施细则",
       "type": "rule",
       "status": "active",
@@ -3580,7 +3595,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-294",
+      "id": "chinaclear-rule-00000000-298",
       "title": "中国证券登记结算有限责任公司新增港股通交易日交易结算风险管理实施办法",
       "type": "rule",
       "status": "active",
@@ -3592,7 +3607,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-295",
+      "id": "chinaclear-rule-00000000-299",
       "title": "中国证券登记结算有限责任公司深圳分公司B转H登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3603,7 +3618,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-296",
+      "id": "chinaclear-rule-00000000-300",
       "title": "中国证券登记结算(香港)有限公司签报纸",
       "type": "rule",
       "status": "active",
@@ -3614,7 +3629,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-297",
+      "id": "chinaclear-rule-00000000-301",
       "title": "中国结算上海分公司人民币特种股票业务试行规则（中文）",
       "type": "rule",
       "status": "active",
@@ -3625,7 +3640,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-298",
+      "id": "chinaclear-tech-00000000-302",
       "title": "关于发布《H股“全流通”业务实施细则》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3636,7 +3651,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-299",
+      "id": "chinaclear-rule-00000000-303",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -3650,7 +3665,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-300",
+      "id": "chinaclear-tech-00000000-304",
       "title": "关于改进B股风险基金缴纳方式的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3661,7 +3676,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-301",
+      "id": "chinaclear-rule-00000000-305",
       "title": "内地与香港股票市场交易互联互通机制登记、存管、结算业务实施细则",
       "type": "rule",
       "status": "active",
@@ -3673,7 +3688,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-302",
+      "id": "chinaclear-rule-00000000-306",
       "title": "存托凭证登记结算业务规则（试行）",
       "type": "rule",
       "status": "active",
@@ -3685,7 +3700,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-303",
+      "id": "chinaclear-rule-00000000-307",
       "title": "深圳证券交易所中国证券登记结算有限责任公司B转H业务实施细则（2025年修订）",
       "type": "rule",
       "status": "active",
@@ -3696,7 +3711,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-304",
+      "id": "chinaclear-rule-00000000-308",
       "title": "结算银行港股通跨境资金结算业务指引",
       "type": "rule",
       "status": "active",
@@ -3708,7 +3723,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-305",
+      "id": "chinaclear-rule-00000000-309",
       "title": "上海证券交易所、中国证券登记结算有限责任公司证券交易资金前端风险控制业务实施细则",
       "type": "rule",
       "status": "active",
@@ -3721,7 +3736,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-306",
+      "id": "chinaclear-rule-00000000-310",
       "title": "上海证券交易所、深圳证券交易所、中国证券登记结算有限责任公司证券交易资金前端风险控制业务规则",
       "type": "rule",
       "status": "active",
@@ -3734,7 +3749,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20130515-307",
+      "id": "chinaclear-rule-20130515-311",
       "title": "中国结算上海分公司协助托管银行冻结、解冻、划转违约客户证券业务指南",
       "type": "rule",
       "status": "active",
@@ -3746,7 +3761,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-308",
+      "id": "chinaclear-rule-00000000-312",
       "title": "中国结算上海分公司结算保证金业务指南",
       "type": "rule",
       "status": "active",
@@ -3759,7 +3774,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-309",
+      "id": "chinaclear-rule-00000000-313",
       "title": "中国结算深圳分公司证券资金结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3773,7 +3788,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-310",
+      "id": "chinaclear-rule-00000000-314",
       "title": "中国证券登记结算有限责任公司上海分公司上海证券交易所大宗交易系统专场业务结算指南（试行）",
       "type": "rule",
       "status": "active",
@@ -3784,7 +3799,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-311",
+      "id": "chinaclear-rule-00000000-315",
       "title": "中国证券登记结算有限责任公司上海分公司结算账户管理及资金结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3798,7 +3813,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-312",
+      "id": "chinaclear-rule-00000000-316",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -3811,7 +3826,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-313",
+      "id": "chinaclear-rule-00000000-317",
       "title": "中国证券登记结算有限责任公司北京分公司证券资金结算业务指南",
       "type": "rule",
       "status": "active",
@@ -3824,7 +3839,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-314",
+      "id": "chinaclear-rule-00000000-318",
       "title": "中国证券登记结算有限责任公司待处分证券处置业务实施细则",
       "type": "rule",
       "status": "active",
@@ -3837,7 +3852,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-315",
+      "id": "chinaclear-rule-00000000-319",
       "title": "<4D6963726F736F667420576F7264202D20D6D0B9FABDE1CBE3C9EEDBDAB7D6B9ABCBBED0ADD6FACDD0B9DCD2F8D0D0B6B3BDE1A1A2BDE2B6B3A1A2BBAED7AAA1A2BBAEBBD8CEA5D4BCBFCDBBA7D6A4C8AFD2B5CEF1D6B8C4CF>",
       "type": "rule",
       "status": "active",
@@ -3849,7 +3864,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20161129-316",
+      "id": "chinaclear-rule-20161129-320",
       "title": "中国证券登记结算有限责任公司结算参与人管理工作指引",
       "type": "rule",
       "status": "active",
@@ -3863,7 +3878,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-317",
+      "id": "chinaclear-rule-00000000-321",
       "title": "中国证券登记结算有限责任公司结算参与人管理规则（2014年修订版）",
       "type": "rule",
       "status": "active",
@@ -3876,7 +3891,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-318",
+      "id": "chinaclear-rule-00000000-322",
       "title": "中国证券登记结算有限责任公司结算备付金管理办法（2023年8月修订版）",
       "type": "rule",
       "status": "active",
@@ -3890,7 +3905,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-319",
+      "id": "chinaclear-rule-00000000-323",
       "title": "中国证券登记结算有限责任公司结算规则",
       "type": "rule",
       "status": "active",
@@ -3904,7 +3919,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-320",
+      "id": "chinaclear-rule-00000000-324",
       "title": "中国证券登记结算有限责任公司证券结算保证金管理办法",
       "type": "rule",
       "status": "active",
@@ -3916,7 +3931,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-321",
+      "id": "chinaclear-rule-00000000-325",
       "title": "<4D6963726F736F667420576F7264202D203130BACFB2A2BDE1CBE3CAD4D0D0B0ECB7A82E646F63>",
       "type": "rule",
       "status": "active",
@@ -3927,7 +3942,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-322",
+      "id": "chinaclear-tech-00000000-326",
       "title": "关于发布《中国证券登记结算有限责任公司结算银行证券资金结算业务管理办法（2016 年修订版）》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3940,7 +3955,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-323",
+      "id": "chinaclear-tech-00000000-327",
       "title": "关于发布《交收担保品管理办法》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3952,7 +3967,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-324",
+      "id": "chinaclear-tech-00000000-328",
       "title": "关于发布实施《中国结算协助托管银行冻结、解冻、划转、划回违约客户证券的业务流程》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3963,7 +3978,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-325",
+      "id": "chinaclear-tech-00000000-329",
       "title": "关于科创板存托凭证纳入证券交易资金前端风险控制实施范围的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3975,7 +3990,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-326",
+      "id": "chinaclear-tech-00000000-330",
       "title": "关于证券公司托管证券投资基金所涉及的场内结算业务有关事项的通知",
       "type": "technical_notice",
       "status": "active",
@@ -3986,7 +4001,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-327",
+      "id": "chinaclear-rule-00000000-331",
       "title": "深圳证券交易所、中国证券登记结算有限责任公司证券交易资金前端风险控制业务实施细则",
       "type": "rule",
       "status": "active",
@@ -3999,7 +4014,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-328",
+      "id": "chinaclear-rule-00000000-332",
       "title": "D字头账户清理及补登记业务指南",
       "type": "rule",
       "status": "active",
@@ -4010,7 +4025,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-329",
+      "id": "chinaclear-tech-00000000-333",
       "title": "关于印发《上市公司流通股协议转让业务办理暂行规则》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4021,7 +4036,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-330",
+      "id": "chinaclear-rule-00000000-334",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4032,7 +4047,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-331",
+      "id": "chinaclear-rule-00000000-335",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4043,7 +4058,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-332",
+      "id": "chinaclear-rule-00000000-336",
       "title": "中国结算上海分公司上市公司收购及现金选择权登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4055,7 +4070,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-333",
+      "id": "chinaclear-rule-00000000-337",
       "title": "<4D6963726F736F667420576F7264202D20D6D0B9FABDE1CBE3C9CFBAA3B7D6B9ABCBBEBBE1D4B1D2B5CEF1D6B8C4CFA3A8D6A4C8AFB9ABCBBED7D4D3AAB9C9C6B1D6CAD1BAA3A92E646F63>",
       "type": "rule",
       "status": "active",
@@ -4067,61 +4082,11 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-334",
+      "id": "chinaclear-rule-00000000-338",
       "title": "中国结算上海分公司约定购回式证券交易登记结算业务指南",
       "type": "rule",
       "status": "active",
       "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-335",
-      "title": "«打印份数»",
-      "type": "rule",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-336",
-      "title": "中国结算北京分公司全国股转系统证券做市登记结算业务指南",
-      "type": "rule",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "做市商"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-00000000-337",
-      "title": "中国结算北京分公司全国股转系统证券发行人业务指南",
-      "type": "rule",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "chinaclear",
-        "business_rule",
-        "债券",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "chinaclear-rule-20250725-338",
-      "title": "中国结算北京分公司投资者业务指南",
-      "type": "rule",
-      "status": "active",
-      "public_date": "2025-07-25",
       "tags": [
         "chinaclear",
         "business_rule",
@@ -4137,42 +4102,45 @@
       "tags": [
         "chinaclear",
         "business_rule",
-        "注册制"
+        "债券"
       ]
     },
     {
       "id": "chinaclear-rule-00000000-340",
-      "title": "中国结算北京分公司要约收购登记结算业务指南",
+      "title": "中国结算北京分公司全国股转系统证券做市登记结算业务指南",
       "type": "rule",
       "status": "active",
       "public_date": null,
       "tags": [
         "chinaclear",
         "business_rule",
-        "债券"
+        "做市商"
       ]
     },
     {
       "id": "chinaclear-rule-00000000-341",
-      "title": "中国结算北京分公司退市板块证券登记结算业务指南",
+      "title": "中国结算北京分公司全国股转系统证券发行人业务指南",
       "type": "rule",
       "status": "active",
       "public_date": null,
       "tags": [
         "chinaclear",
         "business_rule",
-        "债券"
+        "债券",
+        "做市商",
+        "期权"
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-342",
-      "title": "中国证券登记结算有限责任公司深圳分公司",
+      "id": "chinaclear-rule-20250725-342",
+      "title": "中国结算北京分公司投资者业务指南",
       "type": "rule",
       "status": "active",
-      "public_date": null,
+      "public_date": "2025-07-25",
       "tags": [
         "chinaclear",
-        "business_rule"
+        "business_rule",
+        "债券"
       ]
     },
     {
@@ -4184,23 +4152,24 @@
       "tags": [
         "chinaclear",
         "business_rule",
-        "债券"
+        "注册制"
       ]
     },
     {
       "id": "chinaclear-rule-00000000-344",
-      "title": "证券公司股票报盘质押指引",
+      "title": "中国结算北京分公司要约收购登记结算业务指南",
       "type": "rule",
       "status": "active",
       "public_date": null,
       "tags": [
         "chinaclear",
-        "business_rule"
+        "business_rule",
+        "债券"
       ]
     },
     {
       "id": "chinaclear-rule-00000000-345",
-      "title": "中国证券登记结算有限责任公司深圳分公司",
+      "title": "中国结算北京分公司退市板块证券登记结算业务指南",
       "type": "rule",
       "status": "active",
       "public_date": null,
@@ -4212,6 +4181,52 @@
     },
     {
       "id": "chinaclear-rule-00000000-346",
+      "title": "中国证券登记结算有限责任公司深圳分公司",
+      "type": "rule",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-347",
+      "title": "«打印份数»",
+      "type": "rule",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-348",
+      "title": "证券公司股票报盘质押指引",
+      "type": "rule",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-349",
+      "title": "中国证券登记结算有限责任公司深圳分公司",
+      "type": "rule",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "chinaclear",
+        "business_rule",
+        "债券"
+      ]
+    },
+    {
+      "id": "chinaclear-rule-00000000-350",
       "title": "中国结算深圳分公司证券非交易过户业务指南",
       "type": "rule",
       "status": "active",
@@ -4223,7 +4238,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-347",
+      "id": "chinaclear-rule-00000000-351",
       "title": "中国证券登记结算有限责任公司上市公司员工持股计划试点登记结算业务指引",
       "type": "rule",
       "status": "active",
@@ -4234,7 +4249,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-348",
+      "id": "chinaclear-rule-00000000-352",
       "title": "中国证券登记结算有限责任公司上海分公司参与人证券托管业务指南",
       "type": "rule",
       "status": "active",
@@ -4247,7 +4262,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-20210625-349",
+      "id": "chinaclear-rule-20210625-353",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4259,7 +4274,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-350",
+      "id": "chinaclear-rule-00000000-354",
       "title": "中国证券登记结算有限责任公司上海分公司证券发行人业务指南",
       "type": "rule",
       "status": "active",
@@ -4273,7 +4288,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-351",
+      "id": "chinaclear-rule-00000000-355",
       "title": "中国证券登记结算有限责任公司上海分公司质押式报价回购登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4285,7 +4300,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-352",
+      "id": "chinaclear-rule-00000000-356",
       "title": "中国证券登记结算有限责任公司优先股试点登记结算业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4297,7 +4312,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-353",
+      "id": "chinaclear-rule-00000000-357",
       "title": "中国证券登记结算有限责任公司关于北京证券交易所上市公司转板证券跨市场转登记业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4308,7 +4323,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-354",
+      "id": "chinaclear-rule-00000000-358",
       "title": "中国证券登记结算有限责任公司关于北京证券交易所上市公司转板证券跨市场转登记业务指南",
       "type": "rule",
       "status": "active",
@@ -4320,7 +4335,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-355",
+      "id": "chinaclear-tech-00000000-359",
       "title": "中国证券登记结算有限责任公司关于落实上市公司股息红利差别化个人所得税政策的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4332,7 +4347,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-356",
+      "id": "chinaclear-rule-00000000-360",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4346,7 +4361,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-357",
+      "id": "chinaclear-rule-00000000-361",
       "title": "中国证券登记结算有限责任公司境外上市公司非境外上市股份登记存管业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4357,7 +4372,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-358",
+      "id": "chinaclear-rule-00000000-362",
       "title": "中国证券登记结算有限责任公司投资者证券查询业务指南",
       "type": "rule",
       "status": "active",
@@ -4371,7 +4386,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-359",
+      "id": "chinaclear-rule-00000000-363",
       "title": "中国证券登记结算有限责任公司深圳分公司证券发行人业务指南",
       "type": "rule",
       "status": "active",
@@ -4385,7 +4400,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-360",
+      "id": "chinaclear-rule-00000000-364",
       "title": "中国证券登记结算有限责任公司深圳分公司证券转托管业务指南",
       "type": "rule",
       "status": "active",
@@ -4398,7 +4413,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-361",
+      "id": "chinaclear-rule-00000000-365",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4409,7 +4424,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-362",
+      "id": "chinaclear-rule-00000000-366",
       "title": "中国证券登记结算有限责任公司证券持有人名册业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4421,7 +4436,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-363",
+      "id": "chinaclear-rule-00000000-367",
       "title": "中国证券登记结算有限责任公司证券登记规则",
       "type": "rule",
       "status": "active",
@@ -4433,7 +4448,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-364",
+      "id": "chinaclear-rule-00000000-368",
       "title": "中国证券登记结算有限责任公司证券质押登记业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4445,7 +4460,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-365",
+      "id": "chinaclear-rule-00000000-369",
       "title": "中国证券登记结算有限责任公司证券非交易过户业务实施细则（适用于继承、捐赠等情形）",
       "type": "rule",
       "status": "active",
@@ -4457,7 +4472,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-366",
+      "id": "chinaclear-tech-00000000-370",
       "title": "关于修订并发布深圳市场《约定购回式证券交易登记结算业务指南》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4469,7 +4484,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-367",
+      "id": "chinaclear-tech-00000000-371",
       "title": "关于发布《非上市公众公司股份登记存管业务实施细则（试行）》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4480,7 +4495,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-368",
+      "id": "chinaclear-rule-00000000-372",
       "title": "_________  _______     ?    ?",
       "type": "rule",
       "status": "active",
@@ -4492,7 +4507,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-369",
+      "id": "chinaclear-rule-00000000-373",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4503,7 +4518,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-370",
+      "id": "chinaclear-rule-00000000-374",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4514,7 +4529,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-371",
+      "id": "chinaclear-rule-00000000-375",
       "title": "NO.20211220",
       "type": "rule",
       "status": "active",
@@ -4526,7 +4541,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-372",
+      "id": "chinaclear-rule-00000000-376",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4537,7 +4552,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-373",
+      "id": "chinaclear-rule-00000000-377",
       "title": "创业板上市公司股东询价和配售方式转让股份业务指引（2025年修订）",
       "type": "rule",
       "status": "active",
@@ -4548,7 +4563,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-374",
+      "id": "chinaclear-rule-00000000-378",
       "title": "北京证券交易所上市公司股份协议转让细则",
       "type": "rule",
       "status": "active",
@@ -4559,7 +4574,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-375",
+      "id": "chinaclear-rule-00000000-379",
       "title": "科创板上市公司股东以向特定机构投资者询价转让和配售方式减持股份业务指引",
       "type": "rule",
       "status": "active",
@@ -4571,7 +4586,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-376",
+      "id": "chinaclear-rule-00000000-380",
       "title": "约定购回式证券交易及登记结算业务办法（沪市，2025年3月修订）",
       "type": "rule",
       "status": "active",
@@ -4583,7 +4598,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-377",
+      "id": "chinaclear-rule-00000000-381",
       "title": "约定购回式证券交易及登记结算业务办法（深市，2025年修订）",
       "type": "rule",
       "status": "active",
@@ -4595,7 +4610,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-378",
+      "id": "chinaclear-rule-00000000-382",
       "title": "上海证券交易所会议纪要",
       "type": "rule",
       "status": "active",
@@ -4607,7 +4622,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-379",
+      "id": "chinaclear-rule-00000000-383",
       "title": "股票质押式回购交易及登记结算业务办法（深市，2025年修订）",
       "type": "rule",
       "status": "active",
@@ -4619,7 +4634,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-380",
+      "id": "chinaclear-rule-00000000-384",
       "title": "质押式报价回购登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4631,7 +4646,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-381",
+      "id": "chinaclear-rule-00000000-385",
       "title": "非上市公众公司股份登记存管业务指南",
       "type": "rule",
       "status": "active",
@@ -4642,7 +4657,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-382",
+      "id": "chinaclear-rule-00000000-386",
       "title": "中国结算深圳分公司股票期权试点结算业务指南（2025年12月24日起施行）",
       "type": "rule",
       "status": "active",
@@ -4654,7 +4669,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-383",
+      "id": "chinaclear-rule-00000000-387",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4667,7 +4682,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-384",
+      "id": "chinaclear-rule-00000000-388",
       "title": "中国证券登记结算有限责任公司结算参与人期权结算业务管理指引",
       "type": "rule",
       "status": "active",
@@ -4679,7 +4694,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-385",
+      "id": "chinaclear-rule-00000000-389",
       "title": "中国证券登记结算有限责任公司结算银行期权资金结算业务指引",
       "type": "rule",
       "status": "active",
@@ -4691,7 +4706,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-386",
+      "id": "chinaclear-tech-00000000-390",
       "title": "关于发布《上海证券交易所、中国证券登记结算有限责任公司股票期权组合策略业务指引》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4703,7 +4718,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-387",
+      "id": "chinaclear-rule-00000000-391",
       "title": "中国结算上海分公司融资融券登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4717,7 +4732,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-388",
+      "id": "chinaclear-rule-00000000-392",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4731,7 +4746,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-389",
+      "id": "chinaclear-rule-00000000-393",
       "title": "中国结算深圳分公司证券出借及转融通登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4745,7 +4760,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-390",
+      "id": "chinaclear-rule-00000000-394",
       "title": "中国证券登记结算有限责任公司北京分公司融资融券登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4758,7 +4773,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-391",
+      "id": "chinaclear-rule-00000000-395",
       "title": "中国证券登记结算有限责任公司深圳分公司融资融券登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4771,7 +4786,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-392",
+      "id": "chinaclear-rule-00000000-396",
       "title": "中国证券登记结算有限责任公司融资融券登记结算业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4784,7 +4799,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-393",
+      "id": "chinaclear-rule-00000000-397",
       "title": "中国证券金融股份有限公司 上海证券交易所 中国证券登记结算有限责任公司科创板做市借券业务细则",
       "type": "rule",
       "status": "active",
@@ -4797,7 +4812,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-394",
+      "id": "chinaclear-tech-00000000-398",
       "title": "关于发布《中国证券登记结算有限责任公司担保品管理业务实施细则(适用于转融通)》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4809,7 +4824,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-395",
+      "id": "chinaclear-tech-00000000-399",
       "title": "关于发布《网络征集证券持有人会议投票意见业务指南（适用于转融通）》的通知",
       "type": "technical_notice",
       "status": "active",
@@ -4821,7 +4836,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-396",
+      "id": "chinaclear-rule-00000000-400",
       "title": "证券出借及转融通登记结算业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4833,7 +4848,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-397",
+      "id": "chinaclear-rule-00000000-401",
       "title": "《深圳市场首次公开发行股票网上发行实施细则（2018年修订）》",
       "type": "rule",
       "status": "active",
@@ -4845,7 +4860,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-398",
+      "id": "chinaclear-rule-00000000-402",
       "title": "上海市场首次公开发行股票网上发行实施细则（2025年3月修订）",
       "type": "rule",
       "status": "active",
@@ -4859,7 +4874,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-399",
+      "id": "chinaclear-rule-00000000-403",
       "title": "上海市场首次公开发行股票网下发行\r\n实施细则（2024年修订）",
       "type": "rule",
       "status": "active",
@@ -4871,7 +4886,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-400",
+      "id": "chinaclear-rule-00000000-404",
       "title": "中国结算上海分公司首次公开发行股票登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4885,7 +4900,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-401",
+      "id": "chinaclear-rule-00000000-405",
       "title": "中国结算北京分公司股票向不特定合格投资者公开发行登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4897,7 +4912,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-402",
+      "id": "chinaclear-rule-00000000-406",
       "title": "中国证券登记结算有限责任公司深圳分公司首次公开发行股票登记结算业务指南",
       "type": "rule",
       "status": "active",
@@ -4909,7 +4924,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-403",
+      "id": "chinaclear-rule-00000000-407",
       "title": "北京证券交易所股票向不特定合格投资者公开发行与承销业务实施细则",
       "type": "rule",
       "status": "active",
@@ -4920,7 +4935,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-404",
+      "id": "chinaclear-rule-00000000-408",
       "title": "深圳市场首次公开发行股票网下发行实施细则（2025年修订）",
       "type": "rule",
       "status": "active",
@@ -4932,7 +4947,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-405",
+      "id": "chinaclear-rule-00000000-409",
       "title": "中国证券登记结算有限责任公司开户代理机构管理业务指南",
       "type": "rule",
       "status": "active",
@@ -4945,7 +4960,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-406",
+      "id": "chinaclear-rule-00000000-410",
       "title": "中国证券登记结算有限责任公司特殊机构及产品证券账户业务指南",
       "type": "rule",
       "status": "active",
@@ -4959,7 +4974,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-407",
+      "id": "chinaclear-rule-00000000-411",
       "title": "中国证券登记结算有限责任公司证券账户业务指南",
       "type": "rule",
       "status": "active",
@@ -4973,7 +4988,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-408",
+      "id": "chinaclear-rule-00000000-412",
       "title": "中国证券登记结算有限责任公司证券账户管理规则",
       "type": "rule",
       "status": "active",
@@ -4984,7 +4999,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-409",
+      "id": "chinaclear-rule-00000000-413",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -4995,7 +5010,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-410",
+      "id": "chinaclear-rule-00000000-414",
       "title": "«打印份数»",
       "type": "rule",
       "status": "active",
@@ -5006,7 +5021,7 @@
       ]
     },
     {
-      "id": "chinaclear-rule-00000000-411",
+      "id": "chinaclear-rule-00000000-415",
       "title": "中国结算办字〔2002〕60号",
       "type": "rule",
       "status": "active",
@@ -5017,7 +5032,7 @@
       ]
     },
     {
-      "id": "chinaclear-tech-00000000-412",
+      "id": "chinaclear-tech-00000000-416",
       "title": "关于进一步加强证券账户日常管理的通知",
       "type": "technical_notice",
       "status": "active",

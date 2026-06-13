@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-121",
+  "type": "technical_notice",
+  "title": "关于做好启用交易网关技术准备的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072589/files/41fdf3efd405436a8ebc4cd84bed60c5.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:158f93142b80595c40e525dce54f9386decd979ed3189f9affcb16916fcdbcdb",
+  "content_markdown": "关于做好启用交易网关技术准备的通知\n各期权市场参与者：\n为提升交易服务水平，上海证券交易所（以下简称“本所”）自\n主研发了基于流式接口的报盘软件---交易网关（期权）（以下简\n称“交易网关”）。交易网关作为现有报盘软件EzSTEP 的升级产\n品，具有高性能、低时延、跨平台、开放易用等优点，支持多实\n例部署，提供集中监控功能。\n交易网关应用涉及到市场参与者端期权相关技术系统改造、\n部署、测试、运维与应急等工作。为便于期权市场参与者做好相\n关技术准备工作，本所制订了《交易网关（期权）市场参与者技\n术实施指南》（技术开发稿）（以下简称“技术实施指南”）、《交易网\n关（期权）及专用证书开通申请指南》（以下简称“申请指南”），现\n予以发布。\n为实现平稳切换，本次交易网关升级拟采取分阶段分批次的\n上线方式。第一阶段，期权市场参与者仍保持以EzSTEP 为主用\n报盘，部署一主一备交易网关并行运行。安排如下：2020 年12\n月为市场参与者提供全天候全真测试环境，完成技术准备的市场\n参与者可自主选择上线批次，参考申请指南，申请证书。2021\n年1-2 月组织全网测试，2021 年3-4 月分两批次组织通关测试并\n上线。第二阶段，在安全运行的基础上，各期权市场参与者切换\n到以交易网关为主用报盘，EzSTEP 为备用报盘的运行模式。\n请各期权市场参与者参考技术实施指南，认真做好技术准备，\n充分参与测试验证。交易网关0.8.5（测试版）及相关文档电子版\n\n本可通过本所官方网站“交易技术支持专区”下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二○年十二月九日\n\n<metadata>\n{\n  \"title\": \"20201215_关于做好启用交易网关技术准备的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20201215_关于做好启用交易网关技术准备的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于做好启用交易网关技术准备的通知.md\",\n  \"file_hash\": \"sha256:158f93142b80595c40e525dce54f9386decd979ed3189f9affcb16916fcdbcdb\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.131197+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

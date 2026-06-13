@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-tech-00000000-306",
+  "title": "关于发布第一版CPXX下线市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072478/files/78fbe5c42bd841789a7d45fa4a839f5d.pdf",
+  "analysis_date": "2026-06-13T17:46:55.272820+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

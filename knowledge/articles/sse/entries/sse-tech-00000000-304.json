@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-304",
+  "type": "technical_notice",
+  "title": "关于发布竞价撮合平台EzOES_2022（回退版）版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072410/files/58e06c35bdf64684b14a59d8e08a273c.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "EzOES",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:74abdd086680aefa99e9232ed235e16e22ebebf64ceb68f2b54cd64773c41a52",
+  "content_markdown": "关于发布竞价撮合平台EzOES_2022（回退版）\n软件版本的通知\n各市场参与人：\n上海证券交易所（以下简称本所）根据交易网关（竞价）上\n线工作安排，拟发布竞价撮合平台EzOES_2022（回退版）软件\n版本。请市场参与者充分测试，做好上线前的各项技术准备工作。\n本次发布的软件版本为支持交易网关（竞价）上线，保障竞\n价撮合平台申报业务的正常开展，支持申报TDGW已报未确认或撤\n销TDGW已报订单功能，可通过配置修改，支持spl server驱动升\n级。\n请市场参与者认真仔细阅读用户手册（见软件安装包），并\n做好测试充分验证。软件安装包可通过本所官方网站 “ 交易技术\n支持专区 ” 相关 栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年七月十三日\n\n<metadata>\n{\n  \"title\": \"20220713_关于发布竞价撮合平台EzOES_2022（回退版）版本的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220713_关于发布竞价撮合平台EzOES_2022（回退版）版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布竞价撮合平台EzOES_2022（回退版）版本的通知.md\",\n  \"file_hash\": \"sha256:74abdd086680aefa99e9232ed235e16e22ebebf64ceb68f2b54cd64773c41a52\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.348799+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

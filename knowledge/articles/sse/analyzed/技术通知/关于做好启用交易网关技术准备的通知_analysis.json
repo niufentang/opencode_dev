@@ -1,0 +1,24 @@
+{
+  "doc_id": "sse-tech-00000000-121",
+  "title": "关于做好启用交易网关技术准备的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072589/files/41fdf3efd405436a8ebc4cd84bed60c5.pdf",
+  "analysis_date": "2026-06-13T17:46:54.637995+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "期权"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-323",
+  "type": "technical_notice",
+  "title": "关于发布证通云盘V1.7",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10651404/files/79f59c3b486e467d8d96237c5885522b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：1.7。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": "1.7",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": null,
+  "content_markdown": "关于发布证通云盘V1.7.230621客户端软件\n版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升市场参与者对客户\n端软件的使用体验，拟于9月16日发布ztDisk-V1.7.230621客户\n端软件版本，全天候和生产环境同时支持新版本。\n本次版本变更内容为客户端 ” 用户管理 ” 和 ” pbu权限管理 ” 等\n功能迁移至网页版、历史问题修复及安全优化等。\n请市场参与者仔细阅读用户使用手册（见软件安装包），并\n尽快升级到最新客户端版本，从而提升使用体验。云盘后续也将\n限制老版本客户端的使用，具体时间待后续通知。软件安装包可\n通过老版客户端 “ 关于 ” -> ” 软件下载 ” 栏目下载。\n请市场参与者登录云盘网页版（地址见用户使用手册）完善\n联系人信息，该信息将用于应急联系，请确认信息的正确性。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年9 月15 日\n\n<metadata>\n{\n  \"title\": \"20230915_关于发布证通云盘V1.7\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230915_关于发布证通云盘V1.7.230621客户端软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布证通云盘V1.7.230621客户端软件版本的通知.md\",\n  \"file_hash\": \"sha256:06d801be5cf623858fbdfc6acf5b1af3ddc3e82e1be4163ac72346fc5bae1e5a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": \"1.7\",\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.827863+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,24 @@
+{
+  "doc_id": "sse-tech-00000000-138",
+  "title": "关于发布ETF细分类型调整、IOPV精度调整相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072370/files/8475524c175740b399e6c1852d7cb8ce.pdf",
+  "analysis_date": "2026-06-13T17:46:54.693474+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS118",
+    "报盘软件"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

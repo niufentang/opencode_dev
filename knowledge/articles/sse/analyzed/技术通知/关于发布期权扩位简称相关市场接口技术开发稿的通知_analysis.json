@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-288",
+  "title": "关于发布期权扩位简称相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072430/files/e91bf0e4ff3b45a7bfc28c45c5046e0e.pdf",
+  "analysis_date": "2026-06-13T17:46:55.212131+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS113",
+    "期权"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

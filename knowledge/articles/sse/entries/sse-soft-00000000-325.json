@@ -1,0 +1,25 @@
+{
+  "id": "sse-soft-00000000-325",
+  "type": "software",
+  "title": "关于发布证通云盘客户端软件V1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072488/files/7c39d906fc044fdea09abe2228682123.pdf",
+  "summary": "初始版本，无历史变更。文档类型：software，版本：1。",
+  "tags": [
+    "sse",
+    "software",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": null,
+  "content_markdown": "关于发布证通云盘客户端软件V1.6 版本的\n通知\n各市场参与者：\n为提升市场参与者对证通云盘的使用体验，上海证券交易\n所（以下简称“本所”）拟向市场发布证通云盘V1.6 版本。\n本次证通云盘软件版本变更主要为云盘的性能优化，解决在\n自动下载时发生失败的问题。增加软件版本提示功能，提示用户\n对软件版本及时更新。\n上述软件安装包可通过本所官方网站 “ 交易技术支持专区 ”\n下载。\n技术咨询电话：4009003600 ，技术支持邮箱：\ntech_support@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二一年十二月三日\n\n<metadata>\n{\n  \"title\": \"20211203_关于发布证通云盘客户端软件V1\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20211203_关于发布证通云盘客户端软件V1.6版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布证通云盘客户端软件V1.6版本的通知.md\",\n  \"file_hash\": \"sha256:3c21299d7df4e4a408658a293ee5e35739b9a5d72f8851cb94339eb2a9ac80f9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"software\",\n  \"version\": \"1\",\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.801604+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sse-iface-00000000-297",
+  "type": "interface_spec",
+  "title": "关于发布科创板可转债相关业务市场参与者接口规格说明书技术开发稿及技术实施指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10747420/files/7de2908822044399832f1124909438f1.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "科创板"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:40811a97aabb89032de8d21c1c6c1261a4d72a475059e143977921ac071c954b",
+  "content_markdown": "关于发布科创板可转债相关业务市场参与\n者接口规格说明书技术开发稿及技术实施\n指南的通知\n各会员、其他市场参与主体：\n根据科创板可转债相关业务整体工作安排，上海证券交易所\n（以下简称本所）发布《IS101_上海证券交易所竞价撮合平台市\n场参与者接口规格说明书1.50 版（科创板可转债技术开发稿）\n_20201215》和《科创板可转债相关业务市场参与者技术实施指\n南》，以供市场参与者提前做好技术就绪准备工作。\n此次市场接口调整主要是为配合科创板可转债相关业务需\n求，在竞价撮合平台市场参与者接口规格说明书修订了产品基础\n信息文件，增加科创板可转债产品细分类别属性信息。在技术实\n施指南中明确市场参与者应通过产品基础信息文件标识出科创\n板可转债，做好投资者科创板可转债相关业务的适当性管理。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二○年十二月二十九日\n\n<metadata>\n{\n  \"title\": \"20210106_关于发布科创板可转债相关业务市场参与者接口规格说明书技术开发稿及技术实施指南的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210106_关于发布科创板可转债相关业务市场参与者接口规格说明书技术开发稿及技术实施指南的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布科创板可转债相关业务市场参与者接口规格说明书技术开发稿及技术实施指南的通知.md\",\n  \"file_hash\": \"sha256:40811a97aabb89032de8d21c1c6c1261a4d72a475059e143977921ac071c954b\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.177765+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

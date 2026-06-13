@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-348",
+  "title": "关于开展竞价、综业、固收等平台相关业务技术通关测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072557/files/2559089f0da34ff0ac6b0354618b244d.pdf",
+  "analysis_date": "2026-06-13T17:46:55.433821+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关",
+    "债券",
+    "期权"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

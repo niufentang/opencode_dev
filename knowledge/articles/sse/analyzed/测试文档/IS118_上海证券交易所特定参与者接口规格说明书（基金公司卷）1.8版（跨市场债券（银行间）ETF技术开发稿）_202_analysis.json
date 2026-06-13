@@ -1,0 +1,296 @@
+{
+  "doc_id": "sse-iface-00000000-387",
+  "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
+  "analysis_date": "2026-06-13T17:46:55.649818+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》 发布说明 2022 月修订内容： 配合跨市场债券（银行间） 定义文件 确认文件 版相关描 交易系统和基金管理公司之间交换的文件如无特殊说明，均为 GB18030 编码，并必须遵循本章定义 的统一的文件结构。交易系统和基金管理公司之间交换的所有文件都为",
+      "detail": "《上海证券交易所特定参与者接口规格说明书（基金公司卷）》\n发布说明\n2022\n月修订内容：\n配合跨市场债券（银行间）\n定义文件\n确认文件\n版相关描\n交易系统和基金管理公司之间交换的文件如无特殊说明，均为\nGB18030\n编码，并必须遵循本章定义\n的统一的文件结构。交易系统和基金管理公司之间交换的所有文件都为",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "编码的文本，并必须遵 循本章定义的统一的文件结构。 交易系统支持",
+      "detail": "编码的文本，并必须遵\n循本章定义的统一的文件结构。\n交易系统支持",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本，其中 版本仅为特殊类型",
+      "detail": "版本，其中\n版本仅为特殊类型",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "特殊的， UTF-8 编码格式。 如果字段必选项为 ，则该字段允许为空。如果某一字段为空，则该字段 标签不应出现。 如非特别说明，交易系统和基金管理公司之间交换的文件遵循以下命名规范： ：定义文件文件命名规范（ etfd",
+      "detail": "特殊的，\nUTF-8\n编码格式。\n如果字段必选项为\n，则该字段允许为空。如果某一字段为空，则该字段\n标签不应出现。\n如非特别说明，交易系统和基金管理公司之间交换的文件遵循以下命名规范：\n：定义文件文件命名规范（\netfd",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "产品代码 二级市场交易代码。",
+      "detail": "产品代码\n二级市场交易代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "版本每个字段为变长字段，字段不足最大长度左右两端无需补空。 版本文件结构",
+      "detail": "版本每个字段为变长字段，字段不足最大长度左右两端无需补空。\n版本文件结构",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "参见附录二。 （文件行数） （除跨市场债券（银行间） 2.3.6.3 etfd******yyyymmdd001.xml ****** 功能描述 该文件用于描述 产品类型 跨市场债券（银行间） 时间和频率",
+      "detail": "参见附录二。\n（文件行数）\n（除跨市场债券（银行间）\n2.3.6.3\netfd******yyyymmdd001.xml\n******\n功能描述\n该文件用于描述\n产品类型\n跨市场债券（银行间）\n时间和频率",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "业务流程变更",
+      "summary": "一节描述的流程发送，直至双方确认。",
+      "detail": "一节描述的流程发送，直至双方确认。",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "关联文件 数据格式",
+      "detail": "关联文件\n数据格式",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "字段类型",
+      "detail": "字段类型",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "Version",
+      "detail": "Version",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "每日传递的版本号，从",
+      "detail": "每日传递的版本号，从",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "开始，供比较用，必 须递增（可以不连续） ISINCode",
+      "detail": "开始，供比较用，必\n须递增（可以不连续）\nISINCode",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "产品国际代码",
+      "detail": "产品国际代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "FundInstrumentID",
+      "detail": "FundInstrumentID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "基金二级市场交易代码",
+      "detail": "基金二级市场交易代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "最大支持 InvestorAccountID 基金在申购 赎回中使用的投资者账户 若为空，则表示与前一交易日相同 PBUID 投资者账户指定的 ，可以是联通 FundName 基金名称 FundCompanyName 基金公司名称 UnderlyingIndex",
+      "detail": "最大支持\nInvestorAccountID\n基金在申购\n赎回中使用的投资者账户\n若为空，则表示与前一交易日相同\nPBUID\n投资者账户指定的\n，可以是联通\nFundName\n基金名称\nFundCompanyName\n基金公司名称\nUnderlyingIndex",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "标的指数代码",
+      "detail": "标的指数代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "UnderlyingIndexISINCode",
+      "detail": "UnderlyingIndexISINCode",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "标的指数国际代码",
+      "detail": "标的指数国际代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "CreationRedemptionUnit 每个篮子（最小申购、赎回单位）对应的 必须大于 ，最大支持 TradingDay 当前交易日 PreTradingDay 前一交易日，具体由业务含义约定 NAVperCU N19(5) 前一日最小申赎单位净值 位小数精度， 位总长（包含小数点） 前一日基金份额净值",
+      "detail": "CreationRedemptionUnit\n每个篮子（最小申购、赎回单位）对应的\n必须大于\n，最大支持\nTradingDay\n当前交易日\nPreTradingDay\n前一交易日，具体由业务含义约定\nNAVperCU\nN19(5)\n前一日最小申赎单位净值\n位小数精度，\n位总长（包含小数点）\n前一日基金份额净值",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "PreCashComponent 前一日现金差额 CashDividend 最小基金单位现金分红 EstimatedCashComponent 日每个篮子的预估现金差额 MaxCashRatio N7(5) 总的现金替代比例，总长为 位（包括小数点）， 小数点后 位，例如： 5.551 ％在文件中用",
+      "detail": "PreCashComponent\n前一日现金差额\nCashDividend\n最小基金单位现金分红\nEstimatedCashComponent\n日每个篮子的预估现金差额\nMaxCashRatio\nN7(5)\n总的现金替代比例，总长为\n位（包括小数点），\n小数点后\n位，例如：\n5.551\n％在文件中用",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "0.05551 必须大于等于 CreationLimit 当日申购限额 必须大于等于每个篮子对应的 表示不做控制 RedemptionLimit 当日赎回限额 Creation Redemption Unit PublishIOPVFlag 用以表示单位净参考值是否需要公布的标志位 交易系统不计算 IOPV",
+      "detail": "0.05551\n必须大于等于\nCreationLimit\n当日申购限额\n必须大于等于每个篮子对应的\n表示不做控制\nRedemptionLimit\n当日赎回限额\nCreation\nRedemption Unit\nPublishIOPVFlag\n用以表示单位净参考值是否需要公布的标志位\n交易系统不计算\nIOPV",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，但要通过行情发布 ，也无需通过行情发布 CreationRedemptionSwitch 赎回切换 不允许申购 申购和赎回皆允许 仅允许申购 仅允许赎回 RecordNumber 成份证券的数目 1-999 ，且与后续成份证券数量相同 ComponentList 成份证券列表 Component 成分证券",
+      "detail": "，但要通过行情发布\n，也无需通过行情发布\nCreationRedemptionSwitch\n赎回切换\n不允许申购\n申购和赎回皆允许\n仅允许申购\n仅允许赎回\nRecordNumber\n成份证券的数目\n1-999\n，且与后续成份证券数量相同\nComponentList\n成份证券列表\nComponent\n成分证券",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "国际产品代码",
+      "detail": "国际产品代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "InstrumentID InstrumentName 证券简称 支持最多 个汉字或 Quantity 该证券数量 成份证券为债券的，单位为千元面额（ 1000 行面值） UnderlyingSecurityID 105 = 外汇交易中心 SubstitutionFlag 替代标志。表示该成份证券是否可被现金替代",
+      "detail": "InstrumentID\nInstrumentName\n证券简称\n支持最多\n个汉字或\nQuantity\n该证券数量\n成份证券为债券的，单位为千元面额（\n1000\n行面值）\nUnderlyingSecurityID\n105 =\n外汇交易中心\nSubstitutionFlag\n替代标志。表示该成份证券是否可被现金替代",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "银行间市场不可现金替代 通过主用通道和应急通道上传的定义文件，校验规则一致。 以上信息，由基金公司保证上传数据的准确性。",
+      "detail": "银行间市场不可现金替代\n通过主用通道和应急通道上传的定义文件，校验规则一致。\n以上信息，由基金公司保证上传数据的准确性。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "交易系统以最后一次上传版本为准。",
+      "detail": "交易系统以最后一次上传版本为准。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "定义文件上传时间约定 基金公司上传下一交易日使用的 定义文件，上传时间为 18:00-24:00 及下一交易日的 0:00-6:00 周五的情况也适用。（考虑到交易所周末测试等因素，建议基金公司节假日后第一个交易日的定义文件在 当天早上上传） 定义文件可以多次上传，但交易系统以最后收到且校验成功的文件为准。",
+      "detail": "定义文件上传时间约定\n基金公司上传下一交易日使用的\n定义文件，上传时间为\n18:00-24:00\n及下一交易日的\n0:00-6:00\n周五的情况也适用。（考虑到交易所周末测试等因素，建议基金公司节假日后第一个交易日的定义文件在\n当天早上上传）\n定义文件可以多次上传，但交易系统以最后收到且校验成功的文件为准。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "交易系统获得该文件后，需要对该文件进行有效性检查。通过检查后，需要生成一个 文件的处 理确认文件（见 版，无标志文件）及 公告文件 ，无标志文件），并将 个文件发送给基金管理公司。 若交易系统在开市后发现系统中无某 的定义文件，则自动暂停该 的申购赎回业务，但 交易业务可以进行。",
+      "detail": "交易系统获得该文件后，需要对该文件进行有效性检查。通过检查后，需要生成一个\n文件的处\n理确认文件（见\n版，无标志文件）及\n公告文件\n，无标志文件），并将\n个文件发送给基金管理公司。\n若交易系统在开市后发现系统中无某\n的定义文件，则自动暂停该\n的申购赎回业务，但\n交易业务可以进行。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "业务流程变更",
+      "summary": "应急流程",
+      "detail": "应急流程",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "基金公司使用应急通道上传定义文件后，交易系统不会返回确认文件及公告文件，但在定义文件通 过校验后会生成并向市场发布 版及其标志文件。 例外事件 2.3.7.3 etfd******yyyymmdd_checkresult.xml 处理类型 交易系统使用该文件向基金管理公司发送对收到的 版的验证和确认结果。",
+      "detail": "基金公司使用应急通道上传定义文件后，交易系统不会返回确认文件及公告文件，但在定义文件通\n过校验后会生成并向市场发布\n版及其标志文件。\n例外事件\n2.3.7.3\netfd******yyyymmdd_checkresult.xml\n处理类型\n交易系统使用该文件向基金管理公司发送对收到的\n版的验证和确认结果。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "每次收到 秒之内，在规定的目录下生成本文件。 ，返回文件如下： ValidationResult 验证结果 代表通过验证 代表未通过验证",
+      "detail": "每次收到\n秒之内，在规定的目录下生成本文件。\n，返回文件如下：\nValidationResult\n验证结果\n代表通过验证\n代表未通过验证",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "每日传递的版本号",
+      "detail": "每日传递的版本号",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "投资者账户 前一交易日 总的现金替代比例 替代标志 基金管理公司需要将该文件的内容与原 定义文件的内容进行比较，如果发现有错误，则需要生 成一个新的 定义文件，并通过 定义文件上传工具重新上传。 如果基金管理公司发现收到的文件内容与此前发送的 定义文件内容一致，则需要进行确认。 2.3.7.32.3.7.4",
+      "detail": "投资者账户\n前一交易日\n总的现金替代比例\n替代标志\n基金管理公司需要将该文件的内容与原\n定义文件的内容进行比较，如果发现有错误，则需要生\n成一个新的\n定义文件，并通过\n定义文件上传工具重新上传。\n如果基金管理公司发现收到的文件内容与此前发送的\n定义文件内容一致，则需要进行确认。\n2.3.7.32.3.7.4",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.3.7.42.3.7.5 格式定义文件的 “FundInstrumentID” 字段获得； 版定义文件字段 仅对跨市场债券（银行 启用，其他类 2.3.7.52.3.7.6 F124 定义文件： <?xml version=\"1.0\" encoding=\"UTF-8\"?> <ETFDefinition>",
+      "detail": "2.3.7.42.3.7.5\n格式定义文件的\n“FundInstrumentID”\n字段获得；\n版定义文件字段\n仅对跨市场债券（银行\n启用，其他类\n2.3.7.52.3.7.6\nF124\n定义文件：\n<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<ETFDefinition>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "<Version>1</Version> <RecordNumber>12< RecordNumber> <ComponentList> <Component> <InstrumentID>111111111</InstrumentID> →→→… </Component> <InstrumentID>222222222</InstrumentID>",
+      "detail": "<Version>1</Version>\n<RecordNumber>12<\nRecordNumber>\n<ComponentList>\n<Component>\n<InstrumentID>111111111</InstrumentID>\n→→→…\n</Component>\n<InstrumentID>222222222</InstrumentID>",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "</ComponentList> </ETFDefinition> 确认文件： <ETFComfirmation> < ValidationResult >Y</ ValidationResult > </ETFComfirmation>",
+      "detail": "</ComponentList>\n</ETFDefinition>\n确认文件：\n<ETFComfirmation>\n< ValidationResult >Y</ ValidationResult >\n</ETFComfirmation>",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS103",
+    "IS104",
+    "IS105",
+    "IS118",
+    "债券",
+    "期权",
+    "科创板",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及38项变更。 规则条款变更: 24项。 版本升级: 5项。 业务流程变更: 2项。 接口字段变更: 7项。",
+  "confidence": 0.95
+}

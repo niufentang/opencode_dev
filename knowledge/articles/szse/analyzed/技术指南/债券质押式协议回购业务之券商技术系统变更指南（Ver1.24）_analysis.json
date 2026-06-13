@@ -1,0 +1,23 @@
+{
+  "doc_id": "szse-guide-20150526-074",
+  "title": "债券质押式协议回购业务之券商技术系统变更指南（Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020230307349558092191.pdf",
+  "analysis_date": "2026-06-13T17:46:57.117782+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "guide",
+    "STEP",
+    "交易网关",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：1。",
+  "confidence": 0.75
+}

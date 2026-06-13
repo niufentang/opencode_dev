@@ -1,0 +1,24 @@
+{
+  "id": "szse-tech-00000000-030",
+  "type": "technical_notice",
+  "title": "中国电信专线业务申请资料",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467408351813.zip",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "szse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "zip",
+  "file_hash": "sha256:ec7f91e8d0a280155a635c32d8151e3f45e763067962aa602ab0c2057f2383f9",
+  "content_markdown": "*[ZIP archive: 20171214_中国电信专线业务申请资料.zip — needs recursive extraction]*\n\n<metadata>\n{\n  \"title\": \"20171214_中国电信专线业务申请资料\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\szse\\\\技术公告\\\\20171214_中国电信专线业务申请资料.zip\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\szse\\\\markdown\\\\技术公告\\\\中国电信专线业务申请资料.md\",\n  \"file_hash\": \"sha256:ec7f91e8d0a280155a635c32d8151e3f45e763067962aa602ab0c2057f2383f9\",\n  \"file_format\": \"zip\",\n  \"page_count\": 0,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:45.237626+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

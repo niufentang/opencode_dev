@@ -1,9 +1,9 @@
 {
-  "doc_id": "szse-iface-00000000-225",
+  "doc_id": "szse-iface-00000000-161",
   "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
   "source": "szse",
   "source_url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250328368855912431.pdf",
-  "analysis_date": "2026-05-02T02:03:07.115168+00:00",
+  "analysis_date": "2026-06-13T17:46:57.660097+00:00",
   "status": "active",
   "version": "1",
   "previous_version": null,

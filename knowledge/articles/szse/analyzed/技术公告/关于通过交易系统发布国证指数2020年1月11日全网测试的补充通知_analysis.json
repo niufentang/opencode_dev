@@ -1,0 +1,34 @@
+{
+  "doc_id": "szse-tech-00000000-041",
+  "title": "关于通过交易系统发布国证指数2020年1月11日全网测试的补充通知",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020200110575777121171.pdf",
+  "analysis_date": "2026-06-13T17:46:56.879275+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "8、测试完成后，在确保技术系统和业务运营均安全运行的前提 下，各市场参与者可根据自身实际情况自行安排国证指数相关技术系 统的上线，深交所将另行通知交易系统转发国证指数的后续全网测试 和业务启动等相关工作安排。近期将推出国证指数相关ETF 产品，请 各会员及相关单位高度重视。",
+      "detail": "8、测试完成后，在确保技术系统和业务运营均安全运行的前提\n下，各市场参与者可根据自身实际情况自行安排国证指数相关技术系\n统的上线，深交所将另行通知交易系统转发国证指数的后续全网测试\n和业务启动等相关工作安排。近期将推出国证指数相关ETF 产品，请\n各会员及相关单位高度重视。",
+      "severity": "critical",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "technical_notice",
+    "STEP",
+    "交易网关",
+    "期权",
+    "港股通",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

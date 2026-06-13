@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-tech-00000000-301",
+  "title": "关于发布竞价交易网关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072468/files/8368304bbcda4f2da99b9ae65ac344d4.pdf",
+  "analysis_date": "2026-06-13T17:46:55.255419+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "tech_support@sse.com.cn；技术支持服务QQ 群：298643611 https://survey.sse.com.cn/q/vX2JnX",
+      "detail": "tech_support@sse.com.cn；技术支持服务QQ\n群：298643611\nhttps://survey.sse.com.cn/q/vX2JnX",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "EzOES",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

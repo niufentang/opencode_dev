@@ -1,0 +1,40 @@
+{
+  "doc_id": "szse-guide-20121115-078",
+  "title": "SZSE999999-TG07报价回购业务之券商技术系统变更指南（Ver1.10）",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020180328467282093099.pdf",
+  "analysis_date": "2026-06-13T17:46:57.142980+00:00",
+  "status": "active",
+  "version": "1.10",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "券商系统申报当期产品的提前购回交易 结算系统完成提前购回交易的清算、交收 券商系统无需申报当期产品的购回交易 结算系统自动完成当期产品的到期清算、交收 券商系统申报新一期产品续做部分的初始交易 券商系统申报 首期产品的初始交易",
+      "detail": "券商系统申报当期产品的提前购回交易\n结算系统完成提前购回交易的清算、交收\n券商系统无需申报当期产品的购回交易\n结算系统自动完成当期产品的到期清算、交收\n券商系统申报新一期产品续做部分的初始交易\n券商系统申报\n首期产品的初始交易",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "附件二、报价回购业务的结算数据接口 修订说明 附件三、 报价回购业务数据报送指南 ssegcb@szse.cn szjsb@chinaclear.com.cn www.chinaclear.cn",
+      "detail": "附件二、报价回购业务的结算数据接口\n修订说明\n附件三、\n报价回购业务数据报送指南\nssegcb@szse.cn\nszjsb@chinaclear.com.cn\nwww.chinaclear.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "交易网关",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,40 @@
+{
+  "doc_id": "szse-guide-20200722-076",
+  "title": "PowerPoint 演示文稿",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020200723499457187861.pdf",
+  "analysis_date": "2026-06-13T17:46:57.130398+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "100万 红筹企业股票 无论主板、中小板还是创业板，都应区分 发行为市 值信用申购、增发为现金申购，请注意控制生产风险 使用新接口 仍使用老接口 生产数据 测试数据 务必参与 17:00 业务启用 创业板核准制股票 （300859）：7.27网上发行，8月上旬上市 暂不启动 正式启用 日通关测试完成后",
+      "detail": "100万\n红筹企业股票\n无论主板、中小板还是创业板，都应区分\n发行为市\n值信用申购、增发为现金申购，请注意控制生产风险\n使用新接口\n仍使用老接口\n生产数据\n测试数据\n务必参与\n17:00\n业务启用\n创业板核准制股票\n（300859）：7.27网上发行，8月上旬上市\n暂不启动\n正式启用\n日通关测试完成后",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为期三周 在7月27日至31日的每天21:00之前 首批注册制下 创业板股票上市首日",
+      "detail": "为期三周\n在7月27日至31日的每天21:00之前\n首批注册制下\n创业板股票上市首日",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "交易网关",
+    "注册制",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

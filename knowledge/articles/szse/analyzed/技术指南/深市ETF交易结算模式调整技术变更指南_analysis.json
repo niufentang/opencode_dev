@@ -1,0 +1,115 @@
+{
+  "doc_id": "szse-guide-00000000-111",
+  "title": "深市ETF交易结算模式调整技术变更指南",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020190509694341952426.pdf",
+  "analysis_date": "2026-06-13T17:46:57.331370+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "SGDZ 通过中国结算总部申购的 现金替代 SHDZ 通过中国结算总部赎回的 、商品期货 、现金债 、商品期 、现金债券 现金申购份 现金申购现 现金赎回份 SHXF （通过中国结算总部 现金替代） 结算账号 备付金账户 ‘01’ ‘SGDZ’ ‘SHDZ’ 交易单元 托管单元 证券账户 订单编号",
+      "detail": "SGDZ\n通过中国结算总部申购的\n现金替代\nSHDZ\n通过中国结算总部赎回的\n、商品期货\n、现金债\n、商品期\n、现金债券\n现金申购份\n现金申购现\n现金赎回份\nSHXF\n（通过中国结算总部\n现金替代）\n结算账号\n备付金账户\n‘01’\n‘SGDZ’\n‘SHDZ’\n交易单元\n托管单元\n证券账户\n订单编号",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "营业部代码",
+      "detail": "营业部代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "业务流水号 ‘EF’ 证券子类别 货币代号 负数，应付申购现金替代 正数，应收赎回现金替代 成交日期 ‘05’",
+      "detail": "业务流水号\n‘EF’\n证券子类别\n货币代号\n负数，应付申购现金替代\n正数，应收赎回现金替代\n成交日期\n‘05’",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "组合券代码（若基金公司",
+      "detail": "组合券代码（若基金公司",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "不提供，可能为空） 对于通过总部申赎的跨市 ，填写空。 执行编号 的现金申购份额 的现金申购现金替代 的现金赎回份额 的现金赎回现金替代 通过中国结算总部申购的跨市场 购现金替代 回现金替代 （中国结算总部申 购的跨市场 代收付） JGJSBZ ‘N’,",
+      "detail": "不提供，可能为空）\n对于通过总部申赎的跨市\n，填写空。\n执行编号\n的现金申购份额\n的现金申购现金替代\n的现金赎回份额\n的现金赎回现金替代\n通过中国结算总部申购的跨市场\n购现金替代\n回现金替代\n（中国结算总部申\n购的跨市场\n代收付）\nJGJSBZ\n‘N’,",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "组合券代码",
+      "detail": "组合券代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如基金公司 不提供，则为空 现金申购份额 现金申购现金替代 现金赎回份额 QSZQDM",
+      "detail": "如基金公司\n不提供，则为空\n现金申购份额\n现金申购现金替代\n现金赎回份额\nQSZQDM",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码（单市场",
+      "detail": "证券代码（单市场",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、跨市场 ）。成交日期 清算日期， 交收日期 清算日期 现金申购 通过中国结算总部",
+      "detail": "、跨市场\n）。成交日期\n清算日期，\n交收日期\n清算日期\n现金申购\n通过中国结算总部",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码（跨市场",
+      "detail": "证券代码（跨市场",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "申购），成交日期为空，清算日期为当日，交收 买入和卖出各下发一条记录。买入记录中的卖 出金额为 ，卖出记录中的买入金额为 赎回），成交日期为空，清算日期为当日，交收 SGSZ SHSZ EFXC EFTB SGFY SHFY 担保模式 通过中国结算总部申购",
+      "detail": "申购），成交日期为空，清算日期为当日，交收\n买入和卖出各下发一条记录。买入记录中的卖\n出金额为\n，卖出记录中的买入金额为\n赎回），成交日期为空，清算日期为当日，交收\nSGSZ\nSHSZ\nEFXC\nEFTB\nSGFY\nSHFY\n担保模式\n通过中国结算总部申购",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码",
+      "detail": "证券代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "通过中国结算总部赎回 对托管人托管产品的数据 为对应产品的股东代 结算账户的申购赎回数据，为 算账号；其他情况本字段为空",
+      "detail": "通过中国结算总部赎回\n对托管人托管产品的数据\n为对应产品的股东代\n结算账户的申购赎回数据，为\n算账号；其他情况本字段为空",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "债券",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及13项变更。 规则条款变更: 7项。 接口字段变更: 6项。",
+  "confidence": 0.95
+}

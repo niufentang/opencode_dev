@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-182",
+  "type": "technical_notice",
+  "title": "关于发布交易网关TDGW_0.10",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072480/files/e4c12138fdde4bd694abd0e3afd6f660.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关",
+    "债券",
+    "期权"
+  ],
+  "status": "active",
+  "version": "10.7",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:397aa4252a7ea7658c5133fd89d11b9137188843708023eae07bb39e7918ffc5",
+  "content_markdown": "关于发布交易网关TDGW_0.10.7版本的通知\n各市场参与者：\n为更好地向市场参与者提供服务，上海证券交易所（以下简\n称本所）拟向市场发布交易网关 TDGW_0.10.7 版本。\n本次交易网关软件版本变更主要为优化新债券敲门功能，该\n版本还支持期权平台使用。 同时，本次版本支持Apache Log4j\n2.15.0 的漏洞修复。\n请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试。\n上述软件安装包可通过本所官方网站“交易技术支持专区”\n下载。 技 术 咨 询 电 话 ： 4009003600 ， 技 术 支 持 邮\n箱 ： tech_support@sse.com.cn，技术支持服务 QQ 群：\n298643611。\n特此通知。\n上海证券交易所\n二 〇 二二年一月六日\n\n<metadata>\n{\n  \"title\": \"20220106_关于发布交易网关TDGW_0.10\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220106_关于发布交易网关TDGW_0.10.7版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布交易网关TDGW_0.10.7版本的通知.md\",\n  \"file_hash\": \"sha256:397aa4252a7ea7658c5133fd89d11b9137188843708023eae07bb39e7918ffc5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.857628+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

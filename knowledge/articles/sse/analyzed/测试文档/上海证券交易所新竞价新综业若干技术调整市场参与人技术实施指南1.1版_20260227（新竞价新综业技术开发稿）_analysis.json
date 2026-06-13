@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-guide-20260227-167",
+  "doc_id": "sse-guide-20260227-457",
   "title": "上海证券交易所新竞价新综业若干技术调整市场参与人技术实施指南1",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10817288/files/5423c05c361a4c9f98525a36650c74aa.pdf",
-  "analysis_date": "2026-05-02T02:03:06.831648+00:00",
+  "analysis_date": "2026-06-13T17:46:56.400243+00:00",
   "status": "active",
   "version": null,
   "previous_version": null,
@@ -67,6 +67,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及6项变更。 接口字段变更: 1项。 规则条款变更: 5项。",
+  "summary": "本次涉及6项变更。 规则条款变更: 5项。 接口字段变更: 1项。",
   "confidence": 0.95
 }

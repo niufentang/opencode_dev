@@ -1,0 +1,380 @@
+{
+  "doc_id": "sse-iface-20210415-423",
+  "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（竞价平台）0",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
+  "analysis_date": "2026-06-13T17:46:56.140094+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2023-07-12 0.56 根据技术规划，要约（要约预受、要约撤销） 现金选择权、 开放式基金相关业务（申赎、分红选择、份额转出）、融 资融券非交易业务（余券划转、还券划转、担保品划入、 担保品划出、券源划入、券源划出）、网络密码服务（密 码激活（注销）），将从竞价撮合平台迁移至互联网交易",
+      "detail": "2023-07-12\n0.56\n根据技术规划，要约（要约预受、要约撤销）\n现金选择权、\n开放式基金相关业务（申赎、分红选择、份额转出）、融\n资融券非交易业务（余券划转、还券划转、担保品划入、\n担保品划出、券源划入、券源划出）、网络密码服务（密\n码激活（注销）），将从竞价撮合平台迁移至互联网交易",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除相关申报填写说明，待迁移业务的申报说明，请",
+      "detail": "删除相关申报填写说明，待迁移业务的申报说明，请",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "IS122 STEP 接口规格说 明书（互联网交易平台） 1.13 版（技术开发稿）》。",
+      "detail": "IS122\nSTEP\n接口规格说\n明书（互联网交易平台）\n1.13\n版（技术开发稿）》。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除待下线业务的填写说明，包括开放式基金认购",
+      "detail": "删除待下线业务的填写说明，包括开放式基金认购",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（含货币市场基金实时申赎业务的认购）。",
+      "detail": "（含货币市场基金实时申赎业务的认购）。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除待迁移业务的填写说明，待迁移业务在互联网交",
+      "detail": "删除待迁移业务的填写说明，待迁移业务在互联网交",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2023-09-26 0.57 易平台的填写说明，请参见《 接口规格说明书（互联网交易平台） 1.14 价非交易迁移互联网 技术开发稿）》。 保留开放式基金相关业务和融资融券非交易业务的 业务字段（开放式基金转托管的目标方代理人、分红选择",
+      "detail": "2023-09-26\n0.57\n易平台的填写说明，请参见《\n接口规格说明书（互联网交易平台）\n1.14\n价非交易迁移互联网\n技术开发稿）》。\n保留开放式基金相关业务和融资融券非交易业务的\n业务字段（开放式基金转托管的目标方代理人、分红选择",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "方式、转入的标的产品代码），调整为预留字段，暂不启",
+      "detail": "方式、转入的标的产品代码），调整为预留字段，暂不启",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "要约收购 现金选择权的登记及注销、开放 式基金业务（申购、赎回、认购、转托管、 分红设置、转换）、余券划转、还券划转、 担保品划转、券源划转、网络密码服务 注：开放式基金认购，其中包括货币市场基金实时申赎业务的认购。 要约预受/ 现金选择 300030 要约撤销/ 300031 开放式基 300040",
+      "detail": "要约收购\n现金选择权的登记及注销、开放\n式基金业务（申购、赎回、认购、转托管、\n分红设置、转换）、余券划转、还券划转、\n担保品划转、券源划转、网络密码服务\n注：开放式基金认购，其中包括货币市场基金实时申赎业务的认购。\n要约预受/\n现金选择\n300030\n要约撤销/\n300031\n开放式基\n300040",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "300041 300050 金转托管 300060 金分红设 300070 300080 余券划转 300090 还券划转 300091 担保品划 300092 300093 券源划入 300094 券源划出 300095 网络密码 300100 注2：网络密码服务业务，申报消息不进行重单校验，申报响应消息不进执行报告；",
+      "detail": "300041\n300050\n金转托管\n300060\n金分红设\n300070\n300080\n余券划转\n300090\n还券划转\n300091\n担保品划\n300092\n300093\n券源划入\n300094\n券源划出\n300095\n网络密码\n300100\n注2：网络密码服务业务，申报消息不进行重单校验，申报响应消息不进执行报告；",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "3.2.2.3 网络密码服务 5010 开放式基金转托管 的目标方代理人，对 方对应的销售人代 码，取值 000-999 位左侧补 0.ApplID= “开放式基 金转托管”时有效",
+      "detail": "3.2.2.3\n网络密码服务\n5010\n开放式基金转托管\n的目标方代理人，对\n方对应的销售人代\n码，取值\n000-999\n位左侧补\n0.ApplID=\n“开放式基\n金转托管”时有效",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "留字段，暂不启用。",
+      "detail": "留字段，暂不启用。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，表示当 PartyID 的取值为 的目标方代理人。 分红选择方式， ApplID= “开放式基金分红”时有 U’=红利转投；’C’=现金分红",
+      "detail": "，表示当\nPartyID\n的取值为\n的目标方代理人。\n分红选择方式，\nApplID=\n“开放式基金分红”时有\nU’=红利转投；’C’=现金分红",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "段，暂不启用。",
+      "detail": "段，暂不启用。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "转入的标的产品代码，前",
+      "detail": "转入的标的产品代码，前",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位有效。 式基金基金转换”、“余 券划转”、“还券划转”、 “担保品划转”、“券源 划转”时有效。",
+      "detail": "位有效。\n式基金基金转换”、“余\n券划转”、“还券划转”、\n“担保品划转”、“券源\n划转”时有效。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预留字段， 暂不启用。",
+      "detail": "预留字段，\n暂不启用。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "706***（“非交易业务类 型”=“FS”），与股票",
+      "detail": "706***（“非交易业务类\n型”=“FS”），与股票",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "代码没有直接对应关系，",
+      "detail": "代码没有直接对应关系，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "需要根据上交所在要约收 只需填写必须字 收购数量 购/现金选择权业务开始 之前发布的公告决定。卖 出转义为对对应的股票进 行要约收购/现金选择权 型”=“FC”），买入转 义为对对应的股票进行要 约收购/现金选择权注 519***（“非交易业务类 型”=“OC”），买入转 义为对对应的开放式基金 额，单位",
+      "detail": "需要根据上交所在要约收\n只需填写必须字\n收购数量\n购/现金选择权业务开始\n之前发布的公告决定。卖\n出转义为对对应的股票进\n行要约收购/现金选择权\n型”=“FC”），买入转\n义为对对应的股票进行要\n约收购/现金选择权注\n519***（“非交易业务类\n型”=“OC”），买入转\n义为对对应的开放式基金\n额，单位",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "为元。目 前不支持 型”=“OR”），卖出转 为份。目 521***（“非交易业务类 型”=“OS”），买入转 522***（“非交易业务类 型”=“OT”），卖出转 的转托管转出 523***（“非交易业务类 固定填1 型”=“OD”），买入转 DividendSelect",
+      "detail": "为元。目\n前不支持\n型”=“OR”），卖出转\n为份。目\n521***（“非交易业务类\n型”=“OS”），买入转\n522***（“非交易业务类\n型”=“OT”），卖出转\n的转托管转出\n523***（“非交易业务类\n固定填1\n型”=“OD”），买入转\nDividendSelect",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "必填，U=红利转",
+      "detail": "必填，U=红利转",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "投，C=现金分红 设置分红方式 524***（“非交易业务类 DestSecurity 填 写标的证券 型”=“OV”），卖出转 转换为其他基金 划转数量, 799981（“非交易业务类 型”=“ST”）,买入转义 为标的证券从“证券公司 划转数量 允许零散 融券专用账户”过户到 “证券公司信用交易担保",
+      "detail": "投，C=现金分红\n设置分红方式\n524***（“非交易业务类\nDestSecurity 填\n写标的证券\n型”=“OV”），卖出转\n转换为其他基金\n划转数量,\n799981（“非交易业务类\n型”=“ST”）,买入转义\n为标的证券从“证券公司\n划转数量\n允许零散\n融券专用账户”过户到\n“证券公司信用交易担保",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "证券账户”。仅允许投资 者信用账户（E 字头账 户）申报。 799982（“非交易业务类 型”=“SR”），卖出转 义为标的证券从“证券公 司信用交易担保证券账 户”过户到“证券公司融 券专用账户”。仅允许投 资者信用账户（E 字头账 799983（“非交易业务类 型”=“CI”），买入转 义为标的证券从“投资者",
+      "detail": "证券账户”。仅允许投资\n者信用账户（E 字头账\n户）申报。\n799982（“非交易业务类\n型”=“SR”），卖出转\n义为标的证券从“证券公\n司信用交易担保证券账\n户”过户到“证券公司融\n券专用账户”。仅允许投\n资者信用账户（E 字头账\n799983（“非交易业务类\n型”=“CI”），买入转\n义为标的证券从“投资者",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "普通证券账户”过户到 型”=“CO”），卖出转 户”过户到“投资者普通 799984（“非交易业务类 型”=“SI”），买入转 司融券专用账户”过户到 “证券公司自营账户”。 仅允许证券公司自营证券 账户申报。 型”=“SO”），卖出转 司自营账户”过户到“证 券公司融券专用账户”。 开放式基金转托",
+      "detail": "普通证券账户”过户到\n型”=“CO”），卖出转\n户”过户到“投资者普通\n799984（“非交易业务类\n型”=“SI”），买入转\n司融券专用账户”过户到\n“证券公司自营账户”。\n仅允许证券公司自营证券\n账户申报。\n型”=“SO”），卖出转\n司自营账户”过户到“证\n券公司融券专用账户”。\n开放式基金转托",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "管的目标方代理 人，对方对应的销",
+      "detail": "管的目标方代理\n人，对方对应的销",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "售人代码，取值",
+      "detail": "售人代码，取值",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "“开放式基金转 托管”时有效",
+      "detail": "“开放式基金转\n托管”时有效",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "字段，暂不启用。",
+      "detail": "字段，暂不启用。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "值为开放式基金 转托管的目标方 代理人。 分红选择方式，ApplID=“开放式基金分红” 时有效，。",
+      "detail": "值为开放式基金\n转托管的目标方\n代理人。\n分红选择方式，ApplID=“开放式基金分红”\n时有效，。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预留字段，暂不启用。",
+      "detail": "预留字段，暂不启用。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "转入的标的产品代码，",
+      "detail": "转入的标的产品代码，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "前6 位有效。ApplID= “开放式基金基金转 换”、“余券划转”、 “还券划转”、“担保 品划转”、“券源划转 的划转标的证券”时有",
+      "detail": "前6 位有效。ApplID=\n“开放式基金基金转\n换”、“余券划转”、\n“还券划转”、“担保\n品划转”、“券源划转\n的划转标的证券”时有",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "预留字段，暂不启",
+      "detail": "预留字段，暂不启",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "应用消息 4.4.1 网络密码服务申报 字段描述 MsgType = U006 1180 ApplID 业务类型 ClOrdID 会员内部订单编号 SecurityID",
+      "detail": "应用消息\n4.4.1\n网络密码服务申报\n字段描述\nMsgType = U006\n1180\nApplID\n业务类型\nClOrdID\n会员内部订单编号\nSecurityID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "产品代码",
+      "detail": "产品代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OwnerType 订单所有者类型 TransactTime 订单申报时间 ntime Text 用户私有信息，前 Side 1=激活；2=注销 8539 ValidationCode 投资者在上交所网站注册时所获得的激活 码，取值仅在Side=1 时有意义。 NoPartyIDs 参与方个数，取值",
+      "detail": "OwnerType\n订单所有者类型\nTransactTime\n订单申报时间\nntime\nText\n用户私有信息，前\nSide\n1=激活；2=注销\n8539\nValidationCode\n投资者在上交所网站注册时所获得的激活\n码，取值仅在Side=1 时有意义。\nNoPartyIDs\n参与方个数，取值",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "，后接重复组，依次包含 发起方投资者账户、发起方业务交易单元号、",
+      "detail": "，后接重复组，依次包含\n发起方投资者账户、发起方业务交易单元号、",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方营业部代码。",
+      "detail": "发起方营业部代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发起方投资者帐户 PartyRole ，表示当前 发起方投资者帐户。",
+      "detail": "发起方投资者帐户\nPartyRole\n，表示当前\n发起方投资者帐户。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方业务交易单元代码，填写",
+      "detail": "发起方业务交易单元代码，填写",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位业务交易单元号。 发起方业务交易单元号。",
+      "detail": "位业务交易单元号。\n发起方业务交易单元号。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "发起方营业部代码",
+      "detail": "发起方营业部代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "4001",
+      "detail": "4001",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "为发起方的营业部代码。",
+      "detail": "为发起方的营业部代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "暂不启用。 网络密码服务申报响应 MsgType = U008",
+      "detail": "暂不启用。\n网络密码服务申报响应\nMsgType = U008",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "证券代码",
+      "detail": "证券代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "OrdRejReason 订单拒绝码，当申报成功响应时返回‘0’ TradeDate 交易日期 date 回报时间 用户私有信息，前12 位有效 投资者在上交所网站注册时所获得的激活码 发起方投资者账户、发起方业务交易单元、发",
+      "detail": "OrdRejReason\n订单拒绝码，当申报成功响应时返回‘0’\nTradeDate\n交易日期\ndate\n回报时间\n用户私有信息，前12 位有效\n投资者在上交所网站注册时所获得的激活码\n发起方投资者账户、发起方业务交易单元、发",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "起方营业部代码。",
+      "detail": "起方营业部代码。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的取值为发 起方投资者帐户。 发起方业务交易单元。 起方业务交易单元。 种证券划转业务（余券划转、还券划转、担保品划入、担保品划",
+      "detail": "的取值为发\n起方投资者帐户。\n发起方业务交易单元。\n起方业务交易单元。\n种证券划转业务（余券划转、还券划转、担保品划入、担保品划",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "科创板",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及50项变更。 删除: 3项。 规则条款变更: 34项。 接口字段变更: 13项。",
+  "confidence": 0.95
+}

@@ -138,8 +138,8 @@ class PipelineState:
             try:
                 return json.loads(self.path.read_text(encoding="utf-8"))
             except (json.JSONDecodeError, OSError):
-                return {"version": 1, "last_run": None, "files": {}}
-        return {"version": 1, "last_run": None, "files": {}}
+                return {"version": 1, "last_run": None, "last_crawl_date": {}, "files": {}}
+        return {"version": 1, "last_run": None, "last_crawl_date": {}, "files": {}}
 
     def save(self):
         self.data["last_run"] = datetime.now(timezone.utc).isoformat()
@@ -148,9 +148,18 @@ class PipelineState:
         )
 
     def reset(self):
-        self.data = {"version": 1, "last_run": None, "files": {}}
+        self.data = {"version": 1, "last_run": None, "last_crawl_date": {}, "files": {}}
         if self.path.exists():
             self.path.unlink()
+
+    def get_last_crawl_date(self, source: str) -> str | None:
+        return self.data.get("last_crawl_date", {}).get(source)
+
+    def set_last_crawl_date(self, source: str, crawl_date: str):
+        if "last_crawl_date" not in self.data:
+            self.data["last_crawl_date"] = {}
+        self.data["last_crawl_date"][source] = crawl_date
+        self.save()
 
     def get_file_state(self, path: str) -> dict | None:
         return self.data["files"].get(path)
@@ -247,17 +256,16 @@ class PipelineRunner:
         ok = fail = 0
         sources_detail = {}
 
-        meta_path = RAW_DIR / "crawl_metadata.json"
-        if self.config.incremental and meta_path.exists():
-            logger.info("  [增量] crawl_metadata.json 已存在，跳过 Collect")
-            return StepResult(
-                step=Step.COLLECT, status="skipped",
-                duration=time.time() - t0,
-                detail={"skipped_reason": "crawl_metadata.json exists"},
-            )
-
         for source in self.config.sources:
             logger.info("  采集 %s...", source)
+
+            since_date_str = None
+            check_file_exists = False
+            if self.config.incremental:
+                since_date_str = self.state.get_last_crawl_date(source)
+                if since_date_str is None:
+                    check_file_exists = True  # 无 last_crawl_date，尝试文件存在性截断
+
             try:
                 all_items = {}
                 if source == "sse":
@@ -266,19 +274,29 @@ class PipelineRunner:
                     )
                     result = fetch_all_categories(
                         max_pages_per_category=None, max_items_per_category=self.config.limit,
+                        since_date=since_date_str,
+                        check_file_exists=check_file_exists,
                     )
                     all_items = {k: [it.to_dict() for it in v] for k, v in result.items()}
                 elif source == "szse":
                     from utils.szse_tech_service_doc_api import (
                         fetch_all_categories, download_category, SzseDocItem,
                     )
-                    result = fetch_all_categories(max_items_per_category=self.config.limit)
+                    result = fetch_all_categories(
+                        max_items_per_category=self.config.limit,
+                        since_date=since_date_str,
+                        check_file_exists=check_file_exists,
+                    )
                     all_items = {k: [it.to_dict() for it in v] for k, v in result.items()}
                 elif source == "chinaclear":
                     from utils.csdc_biz_rule_doc_api import (
                         fetch_all_subcategories, download_subcategory, CsdcDocItem,
                     )
-                    result = fetch_all_subcategories(max_items_per_sub=self.config.limit)
+                    result = fetch_all_subcategories(
+                        max_items_per_sub=self.config.limit,
+                        since_date=since_date_str,
+                        check_file_exists=check_file_exists,
+                    )
                     all_items = {k: [it.to_dict() for it in v] for k, v in result.items()}
                 else:
                     logger.warning("    未知数据源: %s", source)
@@ -341,6 +359,10 @@ class PipelineRunner:
 
                 sources_detail[source] = source_detail
                 ok += 1
+
+                if self.config.incremental and not self.config.dry_run:
+                    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+                    self.state.set_last_crawl_date(source, today)
             except Exception as e:
                 logger.error("    %s 采集失败: %s", source, e)
                 sources_detail[source] = {"status": "failed", "error": str(e)}

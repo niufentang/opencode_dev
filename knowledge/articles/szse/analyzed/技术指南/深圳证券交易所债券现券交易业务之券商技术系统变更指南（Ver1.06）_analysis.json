@@ -1,0 +1,28 @@
+{
+  "doc_id": "szse-guide-20210430-089",
+  "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020230904549038313109.pdf",
+  "analysis_date": "2026-06-13T17:46:57.208937+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "交易网关",
+    "债券",
+    "做市商",
+    "港股通",
+    "融资融券",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：1。",
+  "confidence": 0.75
+}

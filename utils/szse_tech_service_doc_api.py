@@ -98,6 +98,18 @@ def _safe_filename(item: SzseDocItem) -> str:
     return f"{date_part}_{safe_title}.{item.file_format}"
 
 
+def _all_files_exist(items: list[SzseDocItem], storage_dir: Path = RAW_STORAGE) -> bool:
+    """检查一页文档对应的本地文件是否均已存在。"""
+    for item in items:
+        if not _is_downloadable(item):
+            continue
+        category_dir = storage_dir / item.category
+        filename = _safe_filename(item)
+        if not (category_dir / filename).exists():
+            return False
+    return True
+
+
 def _infer_file_format(url: str) -> str:
     ext = url.rsplit(".", 1)[-1].split("?")[0].lower()
     known = {"pdf", "doc", "docx", "xls", "xlsx", "zip", "rar", "txt", "html"}
@@ -220,6 +232,8 @@ def fetch_category(
     max_pages: int | None = None,
     max_items: int | None = None,
     request_delay: float = 0.5,
+    since_date: str | None = None,
+    check_file_exists: bool = False,
 ) -> list[SzseDocItem]:
     """采集指定栏目的文档列表。.
 
@@ -231,6 +245,7 @@ def fetch_category(
         max_pages: 最大爬取页数。不指定则爬取所有页。
         max_items: 最大爬取条目数。
         request_delay: 请求间隔（秒）。
+        since_date: 增量模式起始日期（YYYY-MM-DD），仅爬取该日期及之后的文档。
 
     Returns:
         文档项列表。
@@ -267,6 +282,23 @@ def fetch_category(
             category_name, len(page_items), len(all_items), total_pages,
         )
 
+        if since_date is not None:
+            valid_dates = [it.publish_date for it in page_items if it.publish_date]
+            if valid_dates and all(d < since_date for d in valid_dates):
+                logger.info(
+                    "增量模式: %s 后无更新 [%s]，停止翻页",
+                    since_date, category_name,
+                )
+                return all_items
+
+        if since_date is None and check_file_exists:
+            if _all_files_exist(page_items):
+                logger.info(
+                    "文件存在性检查: 本页文件均已存在 [%s]，停止翻页",
+                    category_name,
+                )
+                return all_items
+
         if max_items and len(all_items) >= max_items:
             return all_items[:max_items]
 
@@ -295,6 +327,23 @@ def fetch_category(
                 category_name, page, len(page_items), len(all_items),
             )
 
+            if since_date is not None:
+                valid_dates = [it.publish_date for it in page_items if it.publish_date]
+                if valid_dates and all(d < since_date for d in valid_dates):
+                    logger.info(
+                        "增量模式: %s 后无更新 [%s]，停止翻页",
+                        since_date, category_name,
+                    )
+                    break
+
+            if since_date is None and check_file_exists:
+                if _all_files_exist(page_items):
+                    logger.info(
+                        "文件存在性检查: 本页文件均已存在 [%s]，停止翻页",
+                        category_name,
+                    )
+                    break
+
             if max_items and len(all_items) >= max_items:
                 return all_items[:max_items]
 
@@ -307,8 +356,13 @@ def fetch_all_categories(
     max_pages_per_category: int | None = None,
     max_items_per_category: int | None = None,
     request_delay: float = 0.5,
+    since_date: str | None = None,
+    check_file_exists: bool = False,
 ) -> dict[str, list[SzseDocItem]]:
     """采集所有栏目的文档列表。.
+
+    Args:
+        since_date: 增量模式起始日期（YYYY-MM-DD）。
 
     Returns:
         {栏目名: [文档项, ...]} 字典。
@@ -322,6 +376,8 @@ def fetch_all_categories(
             max_pages=max_pages_per_category,
             max_items=max_items_per_category,
             request_delay=request_delay,
+            since_date=since_date,
+            check_file_exists=check_file_exists,
         )
     return result
 

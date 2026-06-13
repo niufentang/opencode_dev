@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-105",
+  "type": "technical_notice",
+  "title": "关于8月20日开展深圳灾备环境连通性测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072398/files/535a920c29334b2995201684b519dc3e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:e61c90d18f32ccbfdf37418fb8ea2cc36270ce221906c8bd15e42265085885ff",
+  "content_markdown": "关于开展深圳灾备环境连通性测试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）定于2022 年8 月20 日（周\n六）09:15-12:00，组织开展深圳灾备环境连通性测试（测试文\n档详见会员专区），使用竞价撮合平台40 环境、期权交易平台43\n环境。\n请已申请灾备线路的市场参与者参加测试。因故不能参加的，\n请填写测试反馈表说明原因。各参测单位务必高度重视，安排专\n人负责测试工作，测试前做好线上系统和数据环境保护工作，测\n试后做好技术系统和数据环境恢复工作，确保下一交易日生产系\n统正常运行。测试过程中，请各参测单位详细记录测试现象与结\n果，检查业务正确性；如发现异常现象，请及时报告。测试结束\n后，请于8 月20 日（周六）13:00 前，通过测试方案中的在线\n反馈链接提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二二年八月十六日\n\n<metadata>\n{\n  \"title\": \"20220817_关于8月20日开展深圳灾备环境连通性测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220817_关于8月20日开展深圳灾备环境连通性测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于8月20日开展深圳灾备环境连通性测试的通知.md\",\n  \"file_hash\": \"sha256:e61c90d18f32ccbfdf37418fb8ea2cc36270ce221906c8bd15e42265085885ff\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.432973+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

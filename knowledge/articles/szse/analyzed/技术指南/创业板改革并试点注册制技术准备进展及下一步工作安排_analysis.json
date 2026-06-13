@@ -1,0 +1,49 @@
+{
+  "doc_id": "szse-guide-20200701-077",
+  "title": "创业板改革并试点注册制技术准备进展及下一步工作安排",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020200702512027402408.pdf",
+  "analysis_date": "2026-06-13T17:46:57.136070+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "相关基金 15万股 10万股 30万股 ①相关内容已删除 暂不作为股票质押式 回购及约定购回交易标的证券",
+      "detail": "相关基金\n15万股\n10万股\n30万股\n①相关内容已删除\n暂不作为股票质押式\n回购及约定购回交易标的证券",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "“35+证券代码的后四位",
+      "detail": "“35+证券代码的后四位",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "涨跌20% ±20% 支持首只注册制 下创业板股票发行 日优先选择周一，周中作为备选 首批注册制下 创业板股票上市首日 Y或N， 发空文件 申报07的 委托会被拒绝 发送盘后定价交易业务参数，含创业板股票及 存托",
+      "detail": "涨跌20%\n±20%\n支持首只注册制\n下创业板股票发行\n日优先选择周一，周中作为备选\n首批注册制下\n创业板股票上市首日\nY或N，\n发空文件\n申报07的\n委托会被拒绝\n发送盘后定价交易业务参数，含创业板股票及 存托",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "STEP",
+    "交易网关",
+    "债券",
+    "注册制",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 2项。 接口字段变更: 1项。",
+  "confidence": 0.95
+}

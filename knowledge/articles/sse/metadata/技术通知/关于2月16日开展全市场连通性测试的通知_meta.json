@@ -1,0 +1,18 @@
+{
+  "title": "上海证券交易所邮件审批单",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\技术通知\\20210208_关于2月16日开展全市场连通性测试的通知.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\技术通知\\关于2月16日开展全市场连通性测试的通知.md",
+  "file_hash": "sha256:72e35cd6755f0f653906f0f23cd5d72449f62a2e4a0c7e88d8d212a88e455dc3",
+  "file_format": "pdf",
+  "page_count": 1,
+  "doc_type": "technical_notice",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": false,
+  "parse_status": "success",
+  "parse_date": "2026-06-13T17:45:25.266300+00:00",
+  "sub_category": null
+}

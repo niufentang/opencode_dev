@@ -160,7 +160,7 @@ T+2 日日终，本公司与中国结算完成证券交收，以及交易资
   "effective_date": null,
   "has_changes": false,
   "parse_status": "success",
-  "parse_date": "2026-05-19T11:26:22.406872+00:00",
+  "parse_date": "2026-06-13T17:46:44.670314+00:00",
   "sub_category": "涉外与跨境业务"
 }
 </metadata>

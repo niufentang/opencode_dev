@@ -1,0 +1,25 @@
+{
+  "id": "sse-guide-00000000-276",
+  "type": "guide",
+  "title": "关于发布新港股通交易系统市场参与者技术实施指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10742485/files/278c1c4a915b41cc878ae8d1c4e8b361.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:fbfb239c66531990c8326c1dd56973ce0dd4d39988ed5521d2b9b6e65e5e97d6",
+  "content_markdown": "关于发布新港股通交易系统\n市场参与者技术实施指南的通知\n各市场参与人：\n上海证券交易所（以下简称本所）根据新港股通交易系\n统的上线安排，拟发布《上海证券交易所新港股通交易系统\n市场参与者技术实施指南》，以供市场参与者提前做好技术\n就绪准备工作。\n此次市场技术实施指南主要为港股通报盘机接入地址\n调整和新老港股通系统差异等。\n相关文件电子版本可通过本所会员专区下载。\n技术咨询电话：4008888400 转2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年9 月22 日\n\n<metadata>\n{\n  \"title\": \"20230922_关于发布新港股通交易系统市场参与者技术实施指南的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230922_关于发布新港股通交易系统市场参与者技术实施指南的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布新港股通交易系统市场参与者技术实施指南的通知.md\",\n  \"file_hash\": \"sha256:fbfb239c66531990c8326c1dd56973ce0dd4d39988ed5521d2b9b6e65e5e97d6\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.838372+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

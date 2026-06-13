@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-365",
+  "type": "technical_notice",
+  "title": "关于陆家嘴数据中心核心交易系统搬迁的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072520/files/2146810948f8416c871a042a29caf9d1.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:f2e426041472b0886fb73b0cf355e28bfc0126126457b81ab25a7a9b55973288",
+  "content_markdown": "关于陆家嘴数据中心核心交易系统搬迁\n的通知\n各市场参与者：\n上交所技术公司计划在2021 年10 月1 日-7 日将陆家嘴数\n据中心核心交易系统（包括竞价、期权、沪港通、综业、指数五\n个系统）搬迁至金桥数据中心。\n为确保本次搬迁工作有序开展和维护证券市场的平稳运行，\n我司计划于10 月6 日邀请全市场用户进行全网测试，以检验市\n场各方技术系统运行状态。\n请各市场用户务必高度重视，组织专人负责验证测试，具体\n测试方案另行通知。\n特此通知。\n上海证券交易所\n二 〇 二一年九月八日\n\n<metadata>\n{\n  \"title\": \"20210909_关于陆家嘴数据中心核心交易系统搬迁的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210909_关于陆家嘴数据中心核心交易系统搬迁的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于陆家嘴数据中心核心交易系统搬迁的通知.md\",\n  \"file_hash\": \"sha256:f2e426041472b0886fb73b0cf355e28bfc0126126457b81ab25a7a9b55973288\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.656665+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

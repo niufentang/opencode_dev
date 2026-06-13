@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-20180309-124",
+  "doc_id": "sse-iface-20180309-408",
   "title": "IS120_上海证券交易所行情网关STEP数据接口规范",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813254/files/6408af5f86f945bf90888128cb9c68a7.pdf",
-  "analysis_date": "2026-05-02T02:03:06.223933+00:00",
+  "analysis_date": "2026-06-13T17:46:55.829469+00:00",
   "status": "active",
   "version": null,
   "previous_version": null,

@@ -1,0 +1,28 @@
+{
+  "id": "sse-iface-00000000-190",
+  "type": "interface_spec",
+  "title": "关于发布交易网关接口规格说明书竞价撮合平台技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072523/files/4c9877b13d3946f69f2d5c007c0d645c.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:790838a6709bd8853a7e1e75ec2b8419a8cbb45cabd0b6d7098559511a9b48a2",
+  "content_markdown": "关于发布交易网关接口规格说明书\n竞价撮合平台技术开发稿的通知\n各会员、其他市场参与者：\n为进一步提高上海证券交易所（以下简称“本所”）交易服\n务及安全运行水平，提升用户体验。本所拟发布《IS122_上海证\n券交易所交易网关Binary 接口规格说明书0.50 版（竞价平台技\n术开发稿）20210830》、《IS122_上海证券交易所交易网关STEP\n接口规格说明书0.50 版（竞价平台技术开发稿）20210830》、\n《交易网关（竞价）市场参与者技术实施指南 V0.20_20210830》，\n请各市场参与者据此开展支持本所竞价撮合业务流模式接口的\n技术准备工作。\n此次发布的市场接口仅适用于本所竞价撮合平台业务。主要\n描述了会员等市场参与者与交易网关之间以流模式进行交易数\n据交换时所采用的交互机制、数据格式和数据内容。交易网关客\n户端报盘软件及相关安排将另行发布。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年八月三十一日\n\n<metadata>\n{\n  \"title\": \"20210831_关于发布交易网关接口规格说明书竞价撮合平台技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210831_关于发布交易网关接口规格说明书竞价撮合平台技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布交易网关接口规格说明书竞价撮合平台技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:790838a6709bd8853a7e1e75ec2b8419a8cbb45cabd0b6d7098559511a9b48a2\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.635117+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

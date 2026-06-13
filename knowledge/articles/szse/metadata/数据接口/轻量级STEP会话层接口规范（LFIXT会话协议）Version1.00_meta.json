@@ -1,0 +1,18 @@
+{
+  "title": "接口设计报告",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\szse\\数据接口\\20150901_轻量级STEP会话层接口规范（LFIXT会话协议）Version1.00.pdf",
+  "markdown_path": "knowledge\\articles\\szse\\markdown\\数据接口\\轻量级STEP会话层接口规范（LFIXT会话协议）Version1.00.md",
+  "file_hash": "sha256:613093aa0f46e3c9d3c9e19039d555fcf30734bdbd50dbc890fe1b47601a66f7",
+  "file_format": "pdf",
+  "page_count": 43,
+  "doc_type": "interface_spec",
+  "version": null,
+  "previous_version": null,
+  "public_date": "2015-08-28",
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-06-13T17:45:53.009018+00:00",
+  "sub_category": null
+}

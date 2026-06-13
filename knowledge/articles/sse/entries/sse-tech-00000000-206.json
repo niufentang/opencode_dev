@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-206",
+  "type": "technical_notice",
+  "title": "关于发布先行赔付市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635135/files/3218672b43504dca89d0d10dacaea612.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b409f891eb68eaa321b03740583b5f8bfe5c0f5160f39ea24a59ba3f43994106",
+  "content_markdown": "关于发布先行赔付市场接口技术开发稿的\n通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS105_上海证券\n交易所综合业务平台市场参与者接口规格说明书1.53 版（先行\n赔付技术开发稿）_20230425》、《上海证券交易所先行赔付市\n场参与者技术实施指南》，请市场参与者做好技术准备工作。\n本次技术接口主要变更内容在综合业务平台市场参与者接\n口规格说明书中，调整网络投票申报描述，增加先行赔付“赔付\n金额”填写说明。调整bghXXXXX.dbf 中“备注”字段描述，增\n加先行赔付申报结果信息。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二三年四月二十八日\n\n<metadata>\n{\n  \"title\": \"20230428_关于发布先行赔付市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230428_关于发布先行赔付市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布先行赔付市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:b409f891eb68eaa321b03740583b5f8bfe5c0f5160f39ea24a59ba3f43994106\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.667563+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

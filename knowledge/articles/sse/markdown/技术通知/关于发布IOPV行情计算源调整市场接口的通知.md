@@ -35,7 +35,7 @@ tech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。
   "effective_date": null,
   "has_changes": false,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:47:40.436001+00:00",
+  "parse_date": "2026-06-13T17:45:27.126583+00:00",
   "sub_category": null
 }
 </metadata>

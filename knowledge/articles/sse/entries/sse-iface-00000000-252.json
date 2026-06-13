@@ -1,0 +1,27 @@
+{
+  "id": "sse-iface-00000000-252",
+  "type": "interface_spec",
+  "title": "关于发布定向可转债业务市场参与者接口规格说明书的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072587/files/b2ba729568d2402696585fe3d2e0bc6d.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS105",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:02146bb069d15f691a0b0be181dce5e21da9174b7e39eb77ed432af6d63ffcfc",
+  "content_markdown": "关于发布定向可转债业务市场参与者\n接口规格说明书的通知\n各会员、其他市场参与主体：\n根据定向可转债业务整体工作安排，上海证券交易所（以下\n简称本所）拟发布《IS105_上海证券交易所综合业务平台市场参\n与者接口规格说明书1.45 版_20201204》和《IS101_上海证券交\n易所竞价撮合平台市场参与者接口规格说明书1.49 版\n_20201204》，以供市场参与者提前做好技术就绪准备工作。\n此次市场接口调整主要是在综合业务平台增加了定向可转\n债转让业务、定向可转债转股业务和定向可转债回售业务，同时\n启用了债券非交易基础信息接口（zfjyyyyymmdd.xml），并在闭\n市后的过户数据接口（dghXXXXXYYYYMMDD.dbf）中包含了定向可\n转债转让申报成交数据。为配合定向可转债业务需求，在竞价撮\n合平台市场参与者接口规格说明书修订了产品基础信息文件\n（cpxxMMDD.txt），增加了相关证券子类别。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二○年十二月十八日\n\n<metadata>\n{\n  \"title\": \"20201218_关于发布定向可转债业务市场参与者接口规格说明书的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20201218_关于发布定向可转债业务市场参与者接口规格说明书的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布定向可转债业务市场参与者接口规格说明书的通知.md\",\n  \"file_hash\": \"sha256:02146bb069d15f691a0b0be181dce5e21da9174b7e39eb77ed432af6d63ffcfc\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.139517+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

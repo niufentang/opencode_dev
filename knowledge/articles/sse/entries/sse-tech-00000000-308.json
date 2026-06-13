@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-308",
+  "type": "technical_notice",
+  "title": "关于发布综业平台EzSTEP_2050001版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072444/files/cf30430439d34a02840b73656dc61878.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：2050001。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": "2050001",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": null,
+  "content_markdown": "关于发布综合业务平台EzSTEP_2050001\n版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布综合业务平台\nEzSTEP_2050001版本。本次软件版本升级的主要功能为优化综业\n平台交易稳定性，对开盘轮询精度进行提升，加强了软件完整性\n校验等功能。\n请市场参与者认真仔细阅读用户手册（见软件安装包），并\n根据《关于5月14日开展竞价、综业、新债券、期权、港股通、\n固收等平台相关业务通关测试的通知》参与测试。\n软件安装包可通过本所官方网站“交易技术支持专区”相关\n栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年五月十三日\n\n<metadata>\n{\n  \"title\": \"20220513_关于发布综业平台EzSTEP_2050001版本的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220513_关于发布综业平台EzSTEP_2050001版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布综业平台EzSTEP_2050001版本的通知.md\",\n  \"file_hash\": \"sha256:72b80110a91be5698427e91f53d45e08173db129deaa7299d70649312f62e6b7\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": \"2050001\",\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.145542+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

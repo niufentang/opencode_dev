@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-086",
+  "type": "technical_notice",
+  "title": "关于5月29日开展固定收益平台相关业务通关测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072548/files/f4ede4e4671642d7bf7198593bd41098.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:82d8542c1598fb850fc90195961cd48a7d8c5eb10f8a2c83abd05794b1f9bae9",
+  "content_markdown": "关于 5 月 29 日开展固定收益平台相关业务\n通关测试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有\n限公司上海分公司定于2021 年5 月29 日（周六）9：15-15：\n30，组织开展固收生产环境相关业务通关测试（测试文档详见会\n员专区）。本次测试使用竞价撮合平台00 环境、综合业务平台01\n环境及固收平台生产环境。\n请各参测单位务必高度重视，安排专人负责测试工作，测试\n前做好线上系统和数据环境保护工作，测试后做好技术系统和数\n据环境恢复工作，确保下一交易日生产系统正常运行。测试过程\n中，请各参测单位详细记录测试现象与结果，检查业务正确性；\n如发现异常现象，请及时报告。测试结束后，请于5 月29 日（周\n六）17:00 前，在会员专区提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年五月二十七日\n\n<metadata>\n{\n  \"title\": \"20210527_关于5月29日开展固定收益平台相关业务通关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210527_关于5月29日开展固定收益平台相关业务通关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于5月29日开展固定收益平台相关业务通关测试的通知.md\",\n  \"file_hash\": \"sha256:82d8542c1598fb850fc90195961cd48a7d8c5eb10f8a2c83abd05794b1f9bae9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.468186+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

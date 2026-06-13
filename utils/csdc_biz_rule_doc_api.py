@@ -105,6 +105,18 @@ def _safe_filename(item: CsdcDocItem) -> str:
     return f"{date_part}_{safe_title}.{item.file_format}"
 
 
+def _all_files_exist(items: list[CsdcDocItem], storage_dir: Path = RAW_STORAGE) -> bool:
+    """检查一页文档对应的本地文件是否均已存在。"""
+    for item in items:
+        if not _is_downloadable(item):
+            continue
+        sub_dir = storage_dir / item.sub_category
+        filename = _safe_filename(item)
+        if not (sub_dir / filename).exists():
+            return False
+    return True
+
+
 def _infer_file_format(url: str) -> str:
     ext = url.rsplit(".", 1)[-1].split("?")[0].lower()
     known = {"pdf", "doc", "docx", "xls", "xlsx", "zip", "rar", "txt", "html", "shtml"}
@@ -175,6 +187,8 @@ def _fetch_paginated(
     max_pages: int | None,
     max_items: int | None,
     request_delay: float,
+    since_date: str | None = None,
+    check_file_exists: bool = False,
 ) -> list[CsdcDocItem]:
     """带分页的内部采集逻辑。"""
     all_items: list[CsdcDocItem] = []
@@ -206,6 +220,23 @@ def _fetch_paginated(
             if not items:
                 logger.info("无更多条目 [%s] page=%d，停止", sub_category_name, page)
                 break
+
+            if since_date is not None:
+                valid_dates = [it.publish_date for it in items if it.publish_date]
+                if valid_dates and all(d < since_date for d in valid_dates):
+                    logger.info(
+                        "增量模式: %s 后无更新 [%s]，停止翻页",
+                        since_date, sub_category_name,
+                    )
+                    break
+
+            if since_date is None and check_file_exists:
+                if _all_files_exist(items):
+                    logger.info(
+                        "文件存在性检查: 本页文件均已存在 [%s]，停止翻页",
+                        sub_category_name,
+                    )
+                    break
 
             all_items.extend(items)
             logger.info(
@@ -240,6 +271,8 @@ def fetch_subcategory(
     max_pages: int | None = None,
     max_items: int | None = None,
     request_delay: float = 1.0,
+    since_date: str | None = None,
+    check_file_exists: bool = False,
 ) -> list[CsdcDocItem]:
     """采集指定二级子栏目的规则列表。.
 
@@ -248,6 +281,7 @@ def fetch_subcategory(
         max_pages: 最大爬取页数。不指定则爬取所有页。
         max_items: 最大爬取条目数。
         request_delay: 请求间隔（秒）。
+        since_date: 增量模式起始日期（YYYY-MM-DD），仅爬取该日期及之后的文档。
 
     Returns:
         文档项列表。
@@ -267,6 +301,8 @@ def fetch_subcategory(
         max_pages,
         max_items,
         request_delay,
+        since_date=since_date,
+        check_file_exists=check_file_exists,
     )
 
 
@@ -274,8 +310,13 @@ def fetch_all_subcategories(
     max_pages_per_sub: int | None = None,
     max_items_per_sub: int | None = None,
     request_delay: float = 1.0,
+    since_date: str | None = None,
+    check_file_exists: bool = False,
 ) -> dict[str, list[CsdcDocItem]]:
     """采集所有业务规则子栏目。.
+
+    Args:
+        since_date: 增量模式起始日期（YYYY-MM-DD）。
 
     Returns:
         {子栏目名: [文档项, ...]} 字典。
@@ -289,6 +330,8 @@ def fetch_all_subcategories(
             max_pages=max_pages_per_sub,
             max_items=max_items_per_sub,
             request_delay=request_delay,
+            since_date=since_date,
+            check_file_exists=check_file_exists,
         )
     return result
 

@@ -1,0 +1,24 @@
+{
+  "doc_id": "sse-tech-00000000-330",
+  "title": "关于发布跨市场债券（银行间）ETF业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072385/files/85205fe687bb4bba885cdea44c879c35.pdf",
+  "analysis_date": "2026-06-13T17:46:55.364140+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

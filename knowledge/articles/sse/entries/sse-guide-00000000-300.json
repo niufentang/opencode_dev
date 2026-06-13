@@ -1,0 +1,26 @@
+{
+  "id": "sse-guide-00000000-300",
+  "type": "guide",
+  "title": "关于发布竞价交易网关市场参与者技术实施指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072431/files/93ce22efbfa94199b3fe5e45c0e64e72.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "EzOES",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:6ba635e01db19a8f4a3902fdde35d8442c7ec77c982f58faa69e37798e5079ca",
+  "content_markdown": "关于发布竞价交易网关市场参与者相关技\n术实施指南的通知\n各市场参与人：\n上海证券交易所（以下简称本所）根据竞价交易网关上线的\n整体工作安排，拟发布《交易网关（竞价）市场参与者技术实施\n指南（第三版）》，《交易网关（竞价）回退EzOES 市场参与者\n技术实施指南》，以供市场参与者提前做好技术就绪准备工作。\n此次市场技术实施指南更新内容主要是在交易网关（竞价）\n市场参与者技术实施指南中，新增回退版EzOES的介绍说明，新\n增盘后重拉历史数据的说明，调整系统上线安排的部分说明，修\n订开启业务流水影响的表述等相关内容。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年六月八日\n\n<metadata>\n{\n  \"title\": \"20220609_关于发布竞价交易网关市场参与者技术实施指南的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220609_关于发布竞价交易网关市场参与者技术实施指南的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布竞价交易网关市场参与者技术实施指南的通知.md\",\n  \"file_hash\": \"sha256:6ba635e01db19a8f4a3902fdde35d8442c7ec77c982f58faa69e37798e5079ca\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.214027+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

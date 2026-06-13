@@ -1,0 +1,20 @@
+{
+  "doc_id": "szse-guide-00000000-201",
+  "title": "深圳证券交易所交易系统文件网关配置指南",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/serveGuide/P020191121320752999628.pdf",
+  "analysis_date": "2026-06-13T17:46:57.886285+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "guide"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

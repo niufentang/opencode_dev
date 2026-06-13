@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-331",
+  "title": "关于发布跨沪深京ETF相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072451/files/339e8c53464b4d0e8e6704019da4804e.pdf",
+  "analysis_date": "2026-06-13T17:46:55.367328+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

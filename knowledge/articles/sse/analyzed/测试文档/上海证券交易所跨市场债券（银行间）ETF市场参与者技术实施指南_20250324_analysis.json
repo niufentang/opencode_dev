@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-guide-20250324-171",
+  "doc_id": "sse-guide-20250324-461",
   "title": "上海证券交易所跨市场债券（银行间）ETF市场参与者技术实施指南_20250324",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781331/files/e5b5fa83aa2644a79a617806e04ed1c4.pdf",
-  "analysis_date": "2026-05-02T02:03:06.850376+00:00",
+  "analysis_date": "2026-06-13T17:46:56.426682+00:00",
   "status": "deprecated",
   "version": null,
   "previous_version": null,
@@ -68,6 +68,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及6项变更。 废止: 1项。 规则条款变更: 4项。 新增: 1项。 其中重大变更1项。",
+  "summary": "本次涉及6项变更。 规则条款变更: 4项。 新增: 1项。 废止: 1项。 其中重大变更1项。",
   "confidence": 0.95
 }

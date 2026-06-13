@@ -903,7 +903,7 @@ c) 接收者收到 MDDP 分片包后，对 MDDP 分片包的校验和进行校�
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:48:56.856657+00:00",
+  "parse_date": "2026-06-13T17:46:20.687779+00:00",
   "sub_category": null
 }
 </metadata>

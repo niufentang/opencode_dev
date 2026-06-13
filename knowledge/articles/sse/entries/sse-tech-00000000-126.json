@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-126",
+  "type": "technical_notice",
+  "title": "关于发布B转H业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072486/files/698e6d3c52c14e51880b9275950b2aab.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS122",
+    "IS419",
+    "STEP",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:9e07d462d96432246bac547dc7682a9f2a308e194b054473d3b798e2e6fda408",
+  "content_markdown": "关于发布B 转H 业务市场接口技术开发稿的\n通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS122_上海证\n券交易所交易网关STEP 接口规格说明书0.20 版本（互联网交易\n平台技术开发稿）_20211209》、《IS419_上海证券交易所互联网\n交易平台市场参与者接口规格说明书0.30 版本（跨境业务卷技\n术开发稿）_20211209》，以供市场参与者提前做好技术就绪准备\n工作。\n此次市场接口调整主要变更内容为：在交易网关STEP 接口\n规格说明书中，补充了TargetCompID 填写说明，新增了结算机\n构代码及港股自动撤单时执行回报的说明。在互联网交易平台接\n口规格说明书（跨境业务卷）中，对执行报告的成交金额及港股\n自动撤单时的处理方式进行了详细说明。\n上相关文件电子版本可通过本所官方网站“交易技术支持专\n区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年十二月十日\n\n<metadata>\n{\n  \"title\": \"20211210_关于发布B转H业务市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20211210_关于发布B转H业务市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布B转H业务市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:9e07d462d96432246bac547dc7682a9f2a308e194b054473d3b798e2e6fda408\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.814553+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

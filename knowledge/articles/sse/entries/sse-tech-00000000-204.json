@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-204",
+  "type": "technical_notice",
+  "title": "关于发布债券盘中停牌公告文件调整市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072401/files/9b05d0ab16b54f77a7ece92cc52c0e8a.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS124",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:1177b0dab500b741201bfe91790bc88a885f4499449bdfa5837e8f9c25f25474",
+  "content_markdown": "关于发布债券盘中停牌公告文件调整市场\n接口的通知\n各市场参与人：\n为配合可转债交易机制优化业务，上海证券交易所（以下简\n称本所）拟发布《IS124_上海证券交易所市场数据文件交换接口\n规格说明书1.60 版_20220801（债券盘中停牌公告文件调整）》、\n《债券盘中停牌公告文件调整市场参与者技术实施指南V1.0》，\n请市场参与人做好相关准备工作。\n本次市场接口的更新内容主要在市场数据文件交换接口规\n格说明书中，调整债券盘中停牌公告文件ztxxxxhhmmss.txt中可\n转债触发停牌的公告模板（停牌公告模板三和停牌公告模板四）\n的描述说明。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年八月五日\n\n<metadata>\n{\n  \"title\": \"20220805_关于发布债券盘中停牌公告文件调整市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220805_关于发布债券盘中停牌公告文件调整市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布债券盘中停牌公告文件调整市场接口的通知.md\",\n  \"file_hash\": \"sha256:1177b0dab500b741201bfe91790bc88a885f4499449bdfa5837e8f9c25f25474\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.395696+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

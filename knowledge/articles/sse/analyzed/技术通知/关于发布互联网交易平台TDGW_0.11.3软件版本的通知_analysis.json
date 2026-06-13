@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-tech-00000000-179",
+  "title": "关于发布互联网交易平台TDGW_0.11",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072463/files/0a2c7573120e49b99fd8d280c7494e16.pdf",
+  "analysis_date": "2026-06-13T17:46:54.826570+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

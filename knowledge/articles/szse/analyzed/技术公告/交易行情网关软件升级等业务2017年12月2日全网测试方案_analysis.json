@@ -1,0 +1,75 @@
+{
+  "doc_id": "szse-test-00000000-033",
+  "title": "交易行情网关软件升级等业务2017年12月2日全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467401015048.pdf",
+  "analysis_date": "2026-06-13T17:46:56.824274+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2017",
+      "detail": "2017",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "日收市后升级交易网关、行情网关的参测",
+      "detail": "日收市后升级交易网关、行情网关的参测",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "单位应对程序所在目录进行完整备份",
+      "detail": "单位应对程序所在目录进行完整备份",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "www.sscc.com",
+      "detail": "www.sscc.com",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "请各会员单位、 Level2 行情服务商，以及计划在",
+      "detail": "请各会员单位、\nLevel2\n行情服务商，以及计划在",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "日收市后升级部分或全部交易网关、行情网关的市场参与人务必",
+      "detail": "日收市后升级部分或全部交易网关、行情网关的市场参与人务必",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "参加本次测试。 应使用与 日生产系统相同的软硬件环境开展测",
+      "detail": "参加本次测试。\n应使用与\n日生产系统相同的软硬件环境开展测",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "港股通",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及7项变更。 规则条款变更: 5项。 技术架构变更: 2项。",
+  "confidence": 0.95
+}

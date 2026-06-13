@@ -1,0 +1,27 @@
+{
+  "doc_id": "sse-tech-00000000-255",
+  "title": "关于发布开放式基金等非交易业务迁移市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10743569/files/544f0c4d9f9146509c932b0466ac810d.pdf",
+  "analysis_date": "2026-06-13T17:46:55.104208+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "融资融券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

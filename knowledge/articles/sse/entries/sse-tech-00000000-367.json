@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-367",
+  "type": "technical_notice",
+  "title": "证券信息技术研究发展中心（上海）2022年度行业共研课题征集公告",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072435/files/f6db8c28e25743e39cc015d30f9122e0.zip",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "zip",
+  "file_hash": "sha256:7b27e9e2e25c62ca414385c9bb7c11d55b8158776fea0cee3c33c30558c4c04d",
+  "content_markdown": "*[ZIP archive: 20220606_证券信息技术研究发展中心（上海）2022年度行业共研课题征集公告.zip — needs recursive extraction]*\n\n<metadata>\n{\n  \"title\": \"20220606_证券信息技术研究发展中心（上海）2022年度行业共研课题征集公告\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220606_证券信息技术研究发展中心（上海）2022年度行业共研课题征集公告.zip\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\证券信息技术研究发展中心（上海）2022年度行业共研课题征集公告.md\",\n  \"file_hash\": \"sha256:7b27e9e2e25c62ca414385c9bb7c11d55b8158776fea0cee3c33c30558c4c04d\",\n  \"file_format\": \"zip\",\n  \"page_count\": 0,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.194197+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

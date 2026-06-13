@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-288",
+  "type": "technical_notice",
+  "title": "关于发布期权扩位简称相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072430/files/e91bf0e4ff3b45a7bfc28c45c5046e0e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS113",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:192c4e0a8982748b158e82ea38603f9af08d017f2fb878bab521a4347c5f5a27",
+  "content_markdown": "关于发布期权扩位简称相关市场接口\n技术开发稿的通知\n各市场参与人：\n上海证券交易所（以下简称本所）拟发布《IS113_上海证券\n交易所股票期权市场参与者接口规格说明书1.4 版本（技术开发\n稿）_20220422》，以供市场参与者提前做好技术就绪准备工作。\n此次市场接口的更新内容主要是在股票期权市场参与者接\n口规格说明书中，新增期权基础信息第二版文件\n（reff0302YYYYMMDD.xml）。后续新期权基础信息文件发布后，\n将不再向市场提供原期权基础信息文件（reff03MMDD.txt）文件，\n请市场参与者做好切换就绪的准备工作。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年六月八日\n\n<metadata>\n{\n  \"title\": \"20220609_关于发布期权扩位简称相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220609_关于发布期权扩位简称相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布期权扩位简称相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:192c4e0a8982748b158e82ea38603f9af08d017f2fb878bab521a4347c5f5a27\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.207736+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

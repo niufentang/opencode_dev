@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-tech-00000000-227",
+  "title": "关于发布固定收益平台交易端7.8.2.0与EzDA1.8",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10645593/files/262ff466a3194788a2c488c6c4955fb3.pdf",
+  "analysis_date": "2026-06-13T17:46:55.001810+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "REITs"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

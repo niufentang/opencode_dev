@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-327",
+  "type": "technical_notice",
+  "title": "关于发布调整债券产品信息文件市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10743565/files/147d4fcfb2e14d15aa3b7026c044d6fc.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS124",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b1accc8ebf77305ba79d059caab03a725e7663c4bafc58f6cc9d51458d48097e",
+  "content_markdown": "关于发布调整债券产品信息文件市场接口\n的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为贯彻落实党中央、\n国务院关于机构改革的决策部署，根据公司债券（含企业债\n券）相关业务规则整体安排，拟发布《IS124_上海证券交易\n所市场数据文件交换接口规格说明书1.90 版_20231017》，\n并于2023 年10 月23 日盘后生成新接口文件，请市场参与\n者做好相关技术准备。\n本次市场接口主要变更内容为：1）“债券类型（15）”\n字段：新增枚举值“16”，表示新企业债券；2）“发行人\n类型（19）”字段：调整枚举值描述；3）“特殊债券类型\n（25）”字段：调整字段描述。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年10 月23 日\n\n<metadata>\n{\n  \"title\": \"20231023_关于发布调整债券产品信息文件市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20231023_关于发布调整债券产品信息文件市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布调整债券产品信息文件市场接口的通知.md\",\n  \"file_hash\": \"sha256:b1accc8ebf77305ba79d059caab03a725e7663c4bafc58f6cc9d51458d48097e\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.853888+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

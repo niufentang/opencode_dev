@@ -1,0 +1,25 @@
+{
+  "id": "sse-guide-00000000-266",
+  "type": "guide",
+  "title": "关于发布新债券交易系统市场参与者切换上线实施指南技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072560/files/7c32860697f1443bbc3a9eee2b8cef30.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b5ca4db882feecc58ff34c779f254131408f2aad4803e32aa39e448eaf7a2cc9",
+  "content_markdown": "关于发布新债券交易系统市场参与者\n切换上线实施指南技术开发稿的通知\n各市场参与者：\n为便利市场机构做好新债券交易系统上线的业务、技术就绪\n工作，上海证券交易所（以下简称“本所”）制订了《新债券交\n易系统市场参与者切换上线实施指南》（技术开发稿）（以下简称\n“实施指南”），现予以发布。\n本次新债券交易系统建设涉及债券交易规则优化及市场参\n与者端相关技术系统改造、部署、测试、运维与应急等工作。请\n各市场参与者认真做好新债券交易规则的学习和相关技术准备\n工作，充分参与测试验证。\n实施指南电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年三月三十日\n\n<metadata>\n{\n  \"title\": \"20210330_关于发布新债券交易系统市场参与者切换上线实施指南技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210330_关于发布新债券交易系统市场参与者切换上线实施指南技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布新债券交易系统市场参与者切换上线实施指南技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:b5ca4db882feecc58ff34c779f254131408f2aad4803e32aa39e448eaf7a2cc9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.367095+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

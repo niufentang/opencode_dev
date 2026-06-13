@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-tech-00000000-232",
+  "title": "关于发布固定收益平台新增公募可转债市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072526/files/0322e247ae1644eb9a9db9c58d44453a.pdf",
+  "analysis_date": "2026-06-13T17:46:55.021433+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS109"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

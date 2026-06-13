@@ -1,0 +1,30 @@
+{
+  "id": "sse-tech-00000000-316",
+  "type": "technical_notice",
+  "title": "关于发布行情网关增加基金通行情市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10649521/files/75532fb1c8cf43379bbb988284924115.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS120",
+    "IS124",
+    "STEP",
+    "做市商",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:fe346407e40423460297dab63ab0aef099461a2a2fc6f665ae42cfd29fc90773",
+  "content_markdown": "关于发布行情网关增加基金通行情\n市场接口技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升客户端软件服务能\n力，行情网关增加发送基金通行情，拟发布《IS124_上海证券交\n易所市场数据文件交换接口规格说明书1.80 版_20230711（行情\n网关增加发送基金通行情 技术开发稿）》、《IS120_上海证券\n交易所行情网关BINARY 数据接口规范0.57 版_20230711（行情\n网关增加发送基金通行情 技术开发稿）》、《IS120_上海证券\n交易所行情网关STEP 数据接口规范0.57 版_20230711（行情网\n关增加发送基金通行情 技术开发稿）》，《上海证券交易所基\n金通业务做市商市场参与者技术实施指南（技术开发稿）V1.2》\n请市场参与者做好相关技术准备。\n本次市场接口主要变更内容为：在市场数据文件交换接口规\n格说明书、行情网关BINARY 及STEP 数据接口规范及指南中，增\n加行情网关作为基金通行情mktdt06.txt 的发送渠道。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n\n上海证券交易所\n2023 年8 月17 日\n\n<metadata>\n{\n  \"title\": \"20230817_关于发布行情网关增加基金通行情市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230817_关于发布行情网关增加基金通行情市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布行情网关增加基金通行情市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:fe346407e40423460297dab63ab0aef099461a2a2fc6f665ae42cfd29fc90773\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.765302+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

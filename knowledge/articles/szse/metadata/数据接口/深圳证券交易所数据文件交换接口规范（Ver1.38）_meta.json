@@ -1,0 +1,18 @@
+{
+  "title": "20240809_深圳证券交易所数据文件交换接口规范（Ver1",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\szse\\数据接口\\20240809_深圳证券交易所数据文件交换接口规范（Ver1.38）.pdf",
+  "markdown_path": "knowledge\\articles\\szse\\markdown\\数据接口\\深圳证券交易所数据文件交换接口规范（Ver1.38）.md",
+  "file_hash": "sha256:212488c656dd77a2357064a5823ccda02618c4b9f9dbd4d633c51cf7c60c017a",
+  "file_format": "pdf",
+  "page_count": 69,
+  "doc_type": "interface_spec",
+  "version": "1",
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-06-13T17:46:18.300926+00:00",
+  "sub_category": null
+}

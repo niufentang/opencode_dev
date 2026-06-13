@@ -115,7 +115,7 @@ tech_support@sse.com.cn
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:48:29.677234+00:00",
+  "parse_date": "2026-06-13T17:45:43.059808+00:00",
   "sub_category": null
 }
 </metadata>

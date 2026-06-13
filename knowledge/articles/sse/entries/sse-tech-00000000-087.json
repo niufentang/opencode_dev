@@ -1,15 +1,15 @@
 {
   "id": "sse-tech-00000000-087",
   "type": "technical_notice",
-  "title": "关于更新发布相关市场接口（正式稿）的通知",
+  "title": "关于5月5日开展全市场连通性及竞价平台相关测试的通知",
   "source": "sse",
-  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10801494/files/44331911c160410ca3f3c9092363ca32.pdf",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072553/files/73a0eaf8e9ba468b94c33a5f132f49d4.pdf",
   "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
   "tags": [
     "sse",
     "technical_notice",
-    "IS109",
-    "IS124"
+    "期权",
+    "港股通"
   ],
   "status": "active",
   "version": null,
@@ -21,6 +21,6 @@
   "superseded_by": null,
   "related_ids": [],
   "file_format": "pdf",
-  "file_hash": "sha256:607ff1468d7335ab38139703dce301215748c7d4aee3aa3a0f741e720cbb23d2",
-  "content_markdown": "关于更新发布相关市场接口（正式稿）\n的通知\n各市场参与人：\n根据工作安排，现发布《 IS109_ 上海证券交易所固定收\n益平台外部数据接口规范 3.29 版 _20251205 》《 IS124_ 上海\n证券交易所市场数据文件交换接口规格说明书 3.00 版\n_20251205 》。\n市场参与人可通过本所官方网站 “ 交易技术支持专区 ” 或\n登录市场技术服务平台“技术支持与信息管理 - 软件与技术文\n档”相关栏目获取上述材料。本次变更内容详见上述各文档\n内修订记录。请做好技术就绪准备。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 12 月 12 日\n\n<metadata>\n{\n  \"title\": \"20251212_关于更新发布相关市场接口（正式稿）的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20251212_关于更新发布相关市场接口（正式稿）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于更新发布相关市场接口（正式稿）的通知.md\",\n  \"file_hash\": \"sha256:607ff1468d7335ab38139703dce301215748c7d4aee3aa3a0f741e720cbb23d2\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:44.904301+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+  "file_hash": "sha256:d332b9b2a6c73f6161373152592337f2f6678545708ffa675be6fdcea55cd4c5",
+  "content_markdown": "关于5 月5 日开展全市场连通性及竞价平台\n相关测试的通知\n各市场参与者：\n为做好全市场五一长假后开机准备，提供连通性验证环境，\n上海证券交易所（以下简称本所）定于2021 年5 月5 日（周三）\n9：15-12：00 组织开展全市场连通性及竞价平台相关业务测试。\n测试环境为竞价撮合平台（88 环境）、综合业务平台（89 环境）、\n期权交易平台（83 环境）、港股通系统（84 环境）及固定收益平\n台（生产环境）。测试行情文件为mktdt88.txt、mktdt89.txt、\nmktdt91.txt，不进行闭市批处理、不发送盘后数据。测试方案\n可在本所会员专区下载。\n请各参测单位落实专人负责，做好测试准备。测试完成后，\n请务必做好系统和数据恢复工作，保证下一交易日交易和结算业\n务的正常开展。\n上海证券交易所\n二 〇 二 一 年四月二十八日\n\n<metadata>\n{\n  \"title\": \"20210428_关于5月5日开展全市场连通性及竞价平台相关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210428_关于5月5日开展全市场连通性及竞价平台相关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于5月5日开展全市场连通性及竞价平台相关测试的通知.md\",\n  \"file_hash\": \"sha256:d332b9b2a6c73f6161373152592337f2f6678545708ffa675be6fdcea55cd4c5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.426119+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
 }

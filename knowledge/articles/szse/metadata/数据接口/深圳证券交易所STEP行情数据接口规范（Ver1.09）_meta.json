@@ -1,0 +1,18 @@
+{
+  "title": "20210430_深圳证券交易所STEP行情数据接口规范（Ver1",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\szse\\数据接口\\20210430_深圳证券交易所STEP行情数据接口规范（Ver1.09）.pdf",
+  "markdown_path": "knowledge\\articles\\szse\\markdown\\数据接口\\深圳证券交易所STEP行情数据接口规范（Ver1.09）.md",
+  "file_hash": "sha256:ec8888105d3dfb12c654fdf1442600b6b2ba7b713df07f0ec8dd11f1dac502fb",
+  "file_format": "pdf",
+  "page_count": 41,
+  "doc_type": "interface_spec",
+  "version": "1",
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": false,
+  "parse_status": "success",
+  "parse_date": "2026-06-13T17:45:54.705060+00:00",
+  "sub_category": null
+}

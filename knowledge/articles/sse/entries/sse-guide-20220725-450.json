@@ -1,0 +1,30 @@
+{
+  "id": "sse-guide-20220725-450",
+  "type": "guide",
+  "title": "上海证券交易所提高IOPV行情精度市场参与者技术实施指南（技术开发稿）_20220725",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10781342/files/15c9f1cecbdd460fae2e4fb06142e438.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS101",
+    "IS118",
+    "IS120",
+    "STEP",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": "2022-07-25",
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:d9daf3bf7f944e50e7cb510a468c7d2fa1aff0429012f5c810454326b5ddc0ba",
+  "content_markdown": "市场参与者技术实施指南\n上海证券交易所技术文档\n上海证券交易所\n提高 IOPV 行情精度\n市场参与者技术实施指南\n1.0 版\n上海证券交易所\n二〇二二年七月\n\n市场参与者技术实施指南\n文档摘要\n本文档是上海证券交易所（以下简称 “ 本所 ” ）提高 IOPV 行情精度的市场\n参与者技术实施指南 。\n特别申明 ：\n 本指南为技术实施指南，所涉相关业务规定以本所业务规则为准。\n 本指南根据本所相关规则、业务方案、公告通知制定。\n 本所保留对本指南的解释与修改权。\n联系方式\n技术服务 QQ 群： 298643611\n技术服务电话： 4009003600(8:00-20:00)\n电子邮件： tech_support@sse.com.cn\n技术服务微信公众号： SSE-TechService\n\n市场参与者技术实施指南\n1 简介\n本文档为上海证券交易所提高 IOPV 行情精度的市场参与者技术实施指南，\n对市场参与者相关的技术实施提出建议 。\n2 市场接口调整说明\n《 IS118_ 上海证券交易所特定参与者接口规格说明书（基金公司卷） 1.8\n版 _20220623 （提高 IOPV 发布精度技术开发稿）》：提高 IOPV 发布精度至小\n数点后 4 位。\n3 业务调整说明\n为提升市场参与者的 ETF 申赎体验，降底二级市场折溢价率、服务广大\n投资者，将本所 IOPV 发布精度从小数点后 3 位扩展至后 4 位。\n4 市场参与者技术实施建议及注意事项\nIOPV 实时行情通过 竞价撮合平台行情文件接口（ mktdt00.txt ）及行情网关\n流式接口（包括 BINARY 和 STEP 两种格式）发布。 行情文件中 IOPV 字段最\n大支持 3 位小数，故行情文件不做调整；行情网关流式接口的 IOPV 字段最大\n支持 5 位小数，因此在变更实施后，行情网关流式接口中 IOPV 值会由小数点\n后 3 位调整为 4 位。具体变化详见下表：\nIOPV 行情发布渠道\n变更前\n变更后\n行情文件接口\n小数点后 3 位精度\n小数点后 3 位精度\n行情网关流式接口\n小数点后 3 位精度\n小数点后 4 位精度\n市场参与者应充分评估上述变更对交易、行情等相关技术系统的影响，做\n好相关技术系统维护、改造工作，根据本所要求利用本所提供的测试环境进行\n充分测试验证；根据自身需求，对于不同渠道的行情接收做出合理安排。\n第 1 页 共 2 页\n\n市场参与者技术实施指南\n5 相关技术文档\n《 IS118_ 上海证券交易所特定参与者接口规格说明书（基金公司卷） 1.8 版\n_20220725 （提高 IOPV 发布精度技术开发稿）》\n《 IS120_ 上海证券交易所行情网关 BINARY 数据接口规范》\n《 IS120_ 上海证券交易所行情网关 STEP 数据接口规范》\n《 IS101_ 上海证券交易所竞价撮合平台市场参与者接口规格说明书》\n第 2 页 共 2 页\n\n<metadata>\n{\n  \"title\": \"20220823_上海证券交易所提高IOPV行情精度市场参与者技术实施指南（技术开发稿）_20220725\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\测试文档\\\\20220823_上海证券交易所提高IOPV行情精度市场参与者技术实施指南（技术开发稿）_20220725.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\测试文档\\\\上海证券交易所提高IOPV行情精度市场参与者技术实施指南（技术开发稿）_20220725.md\",\n  \"file_hash\": \"sha256:d9daf3bf7f944e50e7cb510a468c7d2fa1aff0429012f5c810454326b5ddc0ba\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 4,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:30.662881+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

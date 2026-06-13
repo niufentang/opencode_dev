@@ -1,398 +1,45 @@
 {
   "source": "szse",
-  "last_updated": "2026-05-02T02:17:07+00:00",
-  "total_entries": 60,
+  "last_updated": "2026-06-13T17:47:04+00:00",
+  "total_entries": 204,
   "entries": [
     {
-      "id": "szse-guide-20170516-231",
-      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1",
-      "type": "guide",
-      "status": "active",
-      "public_date": "2017-05-16",
-      "tags": [
-        "szse",
-        "guide",
-        "交易网关",
-        "行情网关"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-222",
-      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-223",
-      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "STEP",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-224",
-      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-225",
-      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "STEP",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-226",
-      "title": "深圳证券交易所基金公司数据接口规范(Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "BINARY",
-        "STEP",
-        "交易网关"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-227",
-      "title": "深圳证券交易所数据文件交换接口规范(Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "BINARY",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-228",
-      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "BINARY",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-229",
-      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "BINARY",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-iface-00000000-230",
-      "title": "深圳证券交易所组播行情数据分发协议（Ver1",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": null,
-      "tags": [
-        "szse",
-        "interface_spec",
-        "行情网关"
-      ]
-    },
-    {
-      "id": "szse-iface-20220521-210",
-      "title": "深市债券市场投资者适当性管理规则变更暨结算系统数据接口调整等业务2022年5月21日全网测试方案",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": "2022-05-21",
-      "tags": [
-        "szse",
-        "interface_spec",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-iface-20220528-217",
-      "title": "深市结算系统数据接口调整2022年5月28日全网测试方案",
-      "type": "interface_spec",
-      "status": "active",
-      "public_date": "2022-05-28",
-      "tags": [
-        "szse",
-        "interface_spec",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-tech-20220905-199",
-      "title": "关于深市期权新品种仿真测试的通知",
+      "id": "szse-tech-20250328-001",
+      "title": "t20260424_620191",
       "type": "technical_notice",
       "status": "active",
-      "public_date": "2022-09-05",
+      "public_date": "2025-03-28",
+      "tags": [
+        "szse",
+        "technical_notice"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-002",
+      "title": "深圳证券交易所首次公开发行证券发行与承销业务实施细则修订说明",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
       "tags": [
         "szse",
         "technical_notice",
-        "交易网关",
-        "期权"
+        "科创板"
       ]
     },
     {
-      "id": "szse-tech-20230506-184",
-      "title": "2023年5月6日股票期权做市商服务费用支付方式优化暨扩充部分债券品种证券代码区间等业务通关方案",
+      "id": "szse-tech-00000000-003",
+      "title": "深圳证券交易所首次公开发行证券发行与承销业务实施细则（2026年修订）",
       "type": "technical_notice",
-      "status": "active",
-      "public_date": "2023-05-06",
-      "tags": [
-        "szse",
-        "technical_notice",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-00000000-189",
-      "title": "2023年7月15日深圳证券交易所内部测试方案",
-      "type": "test_doc",
       "status": "active",
       "public_date": null,
       "tags": [
         "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220611-173",
-      "title": "2022年6月11日深市港股通按金优化业务通关测试暨ETF纳入港股通标的、深市互联互通全球存托凭证等业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-06-11",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20220625-206",
-      "title": "深市交易结算系统福田中心单中心运行2022年6月25日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-06-25",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20220702-197",
-      "title": "ETF纳入港股通标的业务2022年7月2日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-07-02",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220709-204",
-      "title": "可转债交易机制优化暨债券借贷等业务2022年7月9日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-07-09",
-      "tags": [
-        "szse",
-        "test_doc",
-        "REITs",
-        "交易网关",
+        "technical_notice",
         "债券"
       ]
     },
     {
-      "id": "szse-test-20220716-203",
-      "title": "可转债交易机制优化暨债券借贷等业务2022年7月16日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-07-16",
-      "tags": [
-        "szse",
-        "test_doc",
-        "REITs",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20220723-198",
-      "title": "债券借贷暨现金债券ETF业务2022年7月23日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-07-23",
-      "tags": [
-        "szse",
-        "test_doc",
-        "REITs",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20220730-202",
-      "title": "可转债交易机制优化业务2022年7月30日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-07-30",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20220806-218",
-      "title": "深市转板股票上市业务2022年8月6日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-08-06",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220813-200",
-      "title": "协议交易业务参考信息文件发布内容调整2022年8月13日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-08-13",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220820-201",
-      "title": "协议交易业务参考信息文件发布内容调整2022年8月20日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-08-20",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220827-221",
-      "title": "跨市场股票ETF（含北交所股票）业务2022年8月27日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-08-27",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220910-213",
-      "title": "深市期权新品种2022年9月10日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-09-10",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20220917-214",
-      "title": "深市期权新品种2022年9月17日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-09-17",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20221029-172",
+      "id": "szse-test-20221029-004",
       "title": "2022年10月29日深市现金债券ETF通用质押式回购业务通关测试暨配合港交所启用新版交易网关全网测试方案",
       "type": "test_doc",
       "status": "active",
@@ -406,67 +53,11 @@
       ]
     },
     {
-      "id": "szse-test-20221203-209",
-      "title": "深市债券交易规则实施二期业务暨港股交易费用调整2022年12月3日全网测试方案",
+      "id": "szse-test-20220611-005",
+      "title": "2022年6月11日深市港股通按金优化业务通关测试暨ETF纳入港股通标的、深市互联互通全球存托凭证等业务全网测试方案",
       "type": "test_doc",
       "status": "active",
-      "public_date": "2022-12-03",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20221210-219",
-      "title": "深证100ETF期权2022年12月10日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-12-10",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20221217-207",
-      "title": "深市债券交易规则实施二期业务暨全面实施扩位证券简称2022年12月17日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2022-12-17",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20230107-208",
-      "title": "深市债券交易规则实施二期业务暨全面实施扩位证券简称2023年1月7日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-01-07",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20230204-205",
-      "title": "深市交易结算系统南方中心单中心运行2023年2月4日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-02-04",
+      "public_date": "2022-06-11",
       "tags": [
         "szse",
         "test_doc",
@@ -476,315 +67,7 @@
       ]
     },
     {
-      "id": "szse-test-20230211-215",
-      "title": "深市港股通交易日历优化业务2023年2月11日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-02-11",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230225-178",
-      "title": "2023年2月25日深市全面实行股票发行注册制改革摸底测试暨配合港交所启用新版交易网关全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-02-25",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20230318-179",
-      "title": "2023年3月18日深市全面实行股票发行注册制改革发行业务通关测试及上市交易等业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-03-18",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20230325-211",
-      "title": "深市全面实行股票发行注册制改革2023年3月25日至26日全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-03-25",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20230401-216",
-      "title": "深市港股通交易日历优化暨全面实行股票发行注册制2023年4月1日测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-04-01",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20230408-212",
-      "title": "深市全面实行股票发行注册制改革2023年4月8日通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-04-08",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20230422-180",
-      "title": "2023年4月22日深市港股通交易日历优化业务通关测试暨股票期权做市商服务费用支付方式优化业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-04-22",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230513-181",
-      "title": "2023年5月13日深市股票期权行情订阅功能全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-05-13",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230520-182",
-      "title": "2023年5月20日深圳证券交易所内部测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-05-20",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230527-183",
-      "title": "2023年5月27日深市股票期权行情订阅功能通关测试暨债券质押式协议回购业务风险控制、北交所证券纳入跨市场指数计算等业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-05-27",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "债券",
-        "做市商"
-      ]
-    },
-    {
-      "id": "szse-test-20230610-185",
-      "title": "2023年6月10日北交所证券纳入跨市场指数计算业务通关测试暨可转债退市整理期等业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-06-10",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230617-186",
-      "title": "2023年6月17日可转债退市整理期业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-06-17",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230617-187",
-      "title": "2023年6月17日港股通股票越秀地产派送越秀房产信托基金全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-06-17",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230624-188",
-      "title": "2023年6月24日港股通股票越秀地产派送越秀房产信托基金通关测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-06-24",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230708-191",
-      "title": "2023年7月8日调整Level 1行情发送带宽全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-07-08",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230722-190",
-      "title": "2023年7月22日调整Level 1行情发送带宽全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-07-22",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230729-220",
-      "title": "证券期货业第十三次网络安全联合应急演练（深圳证券交易所部分）测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-07-29",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "港股通"
-      ]
-    },
-    {
-      "id": "szse-test-20230812-192",
-      "title": "2023年8月12日深市调整Level 1行情发送带宽暨债券质押式协议回购业务风险控制全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-08-12",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20230819-193",
-      "title": "2023年8月19日深市调整Level 1行情发送带宽暨债券质押式协议回购业务风险控制全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-08-19",
-      "tags": [
-        "szse",
-        "test_doc",
-        "STEP",
-        "交易网关",
-        "债券"
-      ]
-    },
-    {
-      "id": "szse-test-20230826-194",
-      "title": "2023年8月26日深市ETF申赎权限开通流程优化暨行情网关软件升级等业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-08-26",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230909-195",
-      "title": "2023年9月9日深市ETF申赎权限开通流程优化暨行情网关软件升级等业务全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-09-09",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20230909-196",
-      "title": "2023年9月9日深市交易结算异地灾备系统（上海）全网测试方案",
-      "type": "test_doc",
-      "status": "active",
-      "public_date": "2023-09-09",
-      "tags": [
-        "szse",
-        "test_doc",
-        "交易网关",
-        "做市商",
-        "期权"
-      ]
-    },
-    {
-      "id": "szse-test-20231014-174",
+      "id": "szse-test-20231014-006",
       "title": "2023年10月14日现金债券ETF申购赎回清单优化暨扩充ETF证券代码区间等业务全网测试方案",
       "type": "test_doc",
       "status": "active",
@@ -798,7 +81,7 @@
       ]
     },
     {
-      "id": "szse-test-20231028-175",
+      "id": "szse-test-20231028-007",
       "title": "2023年10月28日融券保证金比例调整等业务全网测试方案",
       "type": "test_doc",
       "status": "active",
@@ -812,7 +95,7 @@
       ]
     },
     {
-      "id": "szse-test-20231111-176",
+      "id": "szse-test-20231111-008",
       "title": "2023年11月11日深圳证券交易所全网测试方案",
       "type": "test_doc",
       "status": "active",
@@ -826,7 +109,7 @@
       ]
     },
     {
-      "id": "szse-test-20231223-177",
+      "id": "szse-test-20231223-009",
       "title": "2023年12月23日深市交易结算系统南方中心单中心运行全网测试方案",
       "type": "test_doc",
       "status": "active",
@@ -837,6 +120,2690 @@
         "交易网关",
         "债券",
         "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230225-010",
+      "title": "2023年2月25日深市全面实行股票发行注册制改革摸底测试暨配合港交所启用新版交易网关全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-02-25",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230318-011",
+      "title": "2023年3月18日深市全面实行股票发行注册制改革发行业务通关测试及上市交易等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-03-18",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230422-012",
+      "title": "2023年4月22日深市港股通交易日历优化业务通关测试暨股票期权做市商服务费用支付方式优化业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-04-22",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230513-013",
+      "title": "2023年5月13日深市股票期权行情订阅功能全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-05-13",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230520-014",
+      "title": "2023年5月20日深圳证券交易所内部测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-05-20",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230527-015",
+      "title": "2023年5月27日深市股票期权行情订阅功能通关测试暨债券质押式协议回购业务风险控制、北交所证券纳入跨市场指数计算等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-05-27",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-tech-20230506-016",
+      "title": "2023年5月6日股票期权做市商服务费用支付方式优化暨扩充部分债券品种证券代码区间等业务通关方案",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": "2023-05-06",
+      "tags": [
+        "szse",
+        "technical_notice",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230610-017",
+      "title": "2023年6月10日北交所证券纳入跨市场指数计算业务通关测试暨可转债退市整理期等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-10",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230617-018",
+      "title": "2023年6月17日可转债退市整理期业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230617-019",
+      "title": "2023年6月17日港股通股票越秀地产派送越秀房产信托基金全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230624-020",
+      "title": "2023年6月24日港股通股票越秀地产派送越秀房产信托基金通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-06-24",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-021",
+      "title": "2023年7月15日深圳证券交易所内部测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230722-022",
+      "title": "2023年7月22日调整Level 1行情发送带宽全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-07-22",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230708-023",
+      "title": "2023年7月8日调整Level 1行情发送带宽全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-07-08",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230812-024",
+      "title": "2023年8月12日深市调整Level 1行情发送带宽暨债券质押式协议回购业务风险控制全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-08-12",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230819-025",
+      "title": "2023年8月19日深市调整Level 1行情发送带宽暨债券质押式协议回购业务风险控制全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-08-19",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230826-026",
+      "title": "2023年8月26日深市ETF申赎权限开通流程优化暨行情网关软件升级等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-08-26",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230909-027",
+      "title": "2023年9月9日深市ETF申赎权限开通流程优化暨行情网关软件升级等业务全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-09-09",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230909-028",
+      "title": "2023年9月9日深市交易结算异地灾备系统（上海）全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-09-09",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220702-029",
+      "title": "ETF纳入港股通标的业务2022年7月2日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-02",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-030",
+      "title": "中国电信专线业务申请资料",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-031",
+      "title": "中国移动专线业务申请资料",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-032",
+      "title": "中国联通专线业务申请资料",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-033",
+      "title": "交易行情网关软件升级等业务2017年12月2日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "港股通",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-test-20220723-034",
+      "title": "债券借贷暨现金债券ETF业务2022年7月23日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-23",
+      "tags": [
+        "szse",
+        "test_doc",
+        "REITs",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-035",
+      "title": "关于做好大宗交易减持股份等相关技术准备的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice",
+        "STEP"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-036",
+      "title": "关于做好欣泰电气欺诈发行先行赔付实施相关技术准备的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice",
+        "STEP"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-037",
+      "title": "关于做好质押式回购行情增加发布加权平均利率等信息的技术准备通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice",
+        "STEP",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-038",
+      "title": "关于创业板改革并试点注册制相关交易业务启动并开展2020年8月22日通关测试的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice",
+        "STEP",
+        "交易网关",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-039",
+      "title": "关于深圳证券交易所2020年11月28日进行内部测试的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice",
+        "期权",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-tech-20220905-040",
+      "title": "关于深市期权新品种仿真测试的通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": "2022-09-05",
+      "tags": [
+        "szse",
+        "technical_notice",
+        "交易网关",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-tech-00000000-041",
+      "title": "关于通过交易系统发布国证指数2020年1月11日全网测试的补充通知",
+      "type": "technical_notice",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "technical_notice",
+        "STEP",
+        "交易网关",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-042",
+      "title": "创业板改革并试点注册制业务2020年7月11至12日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-043",
+      "title": "创业板改革并试点注册制业务2020年7月4至5日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-044",
+      "title": "创业板改革并试点注册制相关交易业务启动2020年8月22日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20220813-045",
+      "title": "协议交易业务参考信息文件发布内容调整2022年8月13日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-13",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220820-046",
+      "title": "协议交易业务参考信息文件发布内容调整2022年8月20日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-20",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220730-047",
+      "title": "可转债交易机制优化业务2022年7月30日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-30",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220716-048",
+      "title": "可转债交易机制优化暨债券借贷等业务2022年7月16日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-16",
+      "tags": [
+        "szse",
+        "test_doc",
+        "REITs",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20220709-049",
+      "title": "可转债交易机制优化暨债券借贷等业务2022年7月9日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-07-09",
+      "tags": [
+        "szse",
+        "test_doc",
+        "REITs",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-050",
+      "title": "合并深交所主板与中小板相关业务2021年4月3日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-051",
+      "title": "政府支持债券上市交易暨交易行情网关软件升级等业务2017年11月25至26日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-052",
+      "title": "深圳证券交易所交易系统同城灾备中心切换2018年3月24日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-053",
+      "title": "深圳证券交易所交易系统同城灾备中心切换暨向市场发布股票市场整体质押比例信息等业务2018年2月10至11日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-054",
+      "title": "深圳证券交易所交易终端用户手册（测试用稿）",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230204-055",
+      "title": "深市交易结算系统南方中心单中心运行2023年2月4日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-02-04",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220625-056",
+      "title": "深市交易结算系统福田中心单中心运行2022年6月25日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-06-25",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20221217-057",
+      "title": "深市债券交易规则实施二期业务暨全面实施扩位证券简称2022年12月17日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-12-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20230107-058",
+      "title": "深市债券交易规则实施二期业务暨全面实施扩位证券简称2023年1月7日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-01-07",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-test-20221203-059",
+      "title": "深市债券交易规则实施二期业务暨港股交易费用调整2022年12月3日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-12-03",
+      "tags": [
+        "szse",
+        "test_doc",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-20220521-060",
+      "title": "深市债券市场投资者适当性管理规则变更暨结算系统数据接口调整等业务2022年5月21日全网测试方案",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2022-05-21",
+      "tags": [
+        "szse",
+        "interface_spec",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230325-061",
+      "title": "深市全面实行股票发行注册制改革2023年3月25日至26日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-03-25",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20230408-062",
+      "title": "深市全面实行股票发行注册制改革2023年4月8日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-04-08",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220910-063",
+      "title": "深市期权新品种2022年9月10日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-09-10",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20220917-064",
+      "title": "深市期权新品种2022年9月17日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-09-17",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230211-065",
+      "title": "深市港股通交易日历优化业务2023年2月11日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-02-11",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230401-066",
+      "title": "深市港股通交易日历优化暨全面实行股票发行注册制2023年4月1日测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-04-01",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-20220528-067",
+      "title": "深市结算系统数据接口调整2022年5月28日全网测试方案",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2022-05-28",
+      "tags": [
+        "szse",
+        "interface_spec",
+        "交易网关",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-test-20220806-068",
+      "title": "深市转板股票上市业务2022年8月6日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-06",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20221210-069",
+      "title": "深证100ETF期权2022年12月10日通关测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-12-10",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-test-20230729-070",
+      "title": "证券期货业第十三次网络安全联合应急演练（深圳证券交易所部分）测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2023-07-29",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-test-20220827-071",
+      "title": "跨市场股票ETF（含北交所股票）业务2022年8月27日全网测试方案",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": "2022-08-27",
+      "tags": [
+        "szse",
+        "test_doc",
+        "交易网关",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-guide-20180523-072",
+      "title": "债券质押式三方回购业务之券商技术系统变更指南(Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2018-05-23",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20150526-073",
+      "title": "深圳证券交易所ETF业务券商技术系统变更指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2015-05-26",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20150526-074",
+      "title": "债券质押式协议回购业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2015-05-26",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20200429-075",
+      "title": "PowerPoint 演示文稿",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-04-29",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20200722-076",
+      "title": "PowerPoint 演示文稿",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-07-22",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "注册制",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-20200701-077",
+      "title": "创业板改革并试点注册制技术准备进展及下一步工作安排",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-07-01",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20121115-078",
+      "title": "SZSE999999-TG07报价回购业务之券商技术系统变更指南（Ver1.10）",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2012-11-15",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20171026-079",
+      "title": "支持临时停市债券质押式回购业务结算暂行办法之券商技术系统变更指南(Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-10-26",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-080",
+      "title": "深圳证券交易所交易回报数据接收方式调整券商技术系统变更指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-081",
+      "title": "深圳证券交易所交易系统接口规范开发指南（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20210722-082",
+      "title": "深圳证券交易所ETF业务券商技术系统变更指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-07-22",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-083",
+      "title": "深圳证券交易所债券回售转售业务之券商技术系统变更指南 （Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-084",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20210430-085",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-04-30",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20210430-086",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-04-30",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20210430-087",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-04-30",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20210430-088",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-04-30",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20210430-089",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-04-30",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20210430-090",
+      "title": "深圳证券交易所债券现券交易业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2021-04-30",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20230201-091",
+      "title": "深圳证券交易所全面实行股票发行注册制改革之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2023-02-01",
+      "tags": [
+        "szse",
+        "guide",
+        "注册制",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-20200423-092",
+      "title": "深圳证券交易所创业板改革并试点注册制市场参与者技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-04-23",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "债券",
+        "注册制"
+      ]
+    },
+    {
+      "id": "szse-guide-20200423-093",
+      "title": "深圳证券交易所创业板改革并试点注册制市场参与者技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-04-23",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "债券",
+        "注册制"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-094",
+      "title": "深圳证券交易所协议交易询价申报之券商技术系统变更指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-095",
+      "title": "深圳证券交易所协议交易询价申报之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-20201013-096",
+      "title": "深圳证券交易所成交汇总文件接口市场参与者技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-10-13",
+      "tags": [
+        "szse",
+        "guide",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-guide-20201013-097",
+      "title": "深圳证券交易所成交汇总文件接口市场参与者技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-10-13",
+      "tags": [
+        "szse",
+        "guide",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-098",
+      "title": "深圳证券交易所新一代交易系统上线市场参与者实施指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-099",
+      "title": "深圳证券交易所新一代交易系统接口规范开发指南",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-test-00000000-100",
+      "title": "深圳证券交易所新一代交易系统行情用户测试环境接入指南",
+      "type": "test_doc",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "test_doc",
+        "BINARY",
+        "STEP",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-guide-20150801-101",
+      "title": "深圳证券交易所港股通业务市场参与者技术系统变更指南（Ver1.02）",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2015-08-01",
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-guide-20200417-102",
+      "title": "深圳证券交易所盘后定价交易业务之券商技术系统变更指南(Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-04-17",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-103",
+      "title": "深圳证券交易所网络投票业务之券商技术系统开发指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-104",
+      "title": "接口设计报告",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-105",
+      "title": "深圳证券交易所股票期权市场参与者技术系统建设指南(Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-106",
+      "title": "深圳证券交易所股票期权市场参与者技术系统建设指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "做市商",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-guide-20160226-107",
+      "title": "深圳证券交易所融资融券业务数据申报通道变更指南(Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2016-02-26",
+      "tags": [
+        "szse",
+        "guide",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-108",
+      "title": "深圳证券交易所跨市场股票ETF全实物申赎之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-guide-20200921-109",
+      "title": "深圳证券交易所跨深沪港股票ETF业务之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2020-09-21",
+      "tags": [
+        "szse",
+        "guide",
+        "债券",
+        "港股通"
+      ]
+    },
+    {
+      "id": "szse-guide-20170119-110",
+      "title": "深圳证券市场交易结算异地灾备系统用户接入指引",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-01-19",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-111",
+      "title": "深市ETF交易结算模式调整技术变更指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "债券",
+        "融资融券"
+      ]
+    },
+    {
+      "id": "szse-guide-20121207-112",
+      "title": "SZSE999999-TG06约定购回业务之券商技术系统变更指南（Ver1.10）",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2012-12-07",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20130311-113",
+      "title": "附件3：SZSE999999-TG13股票质押式回购交易业务之券商技术系统变更指南（Ver1.11）.doc",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2013-03-11",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-114",
+      "title": "附件4：SZSE999999-TG15资产管理计划份额转让业务之券商技术系统变更指南（Ver1.21）.doc",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20220809-115",
+      "title": "跨银行间实物债券ETF之券商技术系统变更指南（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2022-08-09",
+      "tags": [
+        "szse",
+        "guide",
+        "BINARY",
+        "STEP",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-116",
+      "title": "深圳证券交易所Binary交易数据接口规范 (Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-117",
+      "title": "深圳证券交易所Binary交易数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-118",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-119",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-120",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-121",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-122",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-123",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-124",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-125",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-126",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-127",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-128",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-129",
+      "title": "深圳证券交易所Binary交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-130",
+      "title": "深圳证券交易所Binary行情数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-131",
+      "title": "深圳证券交易所Binary行情数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-132",
+      "title": "深圳证券交易所Binary行情数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-133",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-134",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-135",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-136",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-137",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-138",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-139",
+      "title": "深圳证券交易所Binary行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-140",
+      "title": "深圳证券交易所STEP交易数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-141",
+      "title": "深圳证券交易所STEP交易数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-142",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-143",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-144",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-145",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-146",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-147",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-148",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-149",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-150",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-151",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-152",
+      "title": "深圳证券交易所STEP交易数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "交易网关",
+        "债券"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-153",
+      "title": "深圳证券交易所STEP行情数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-154",
+      "title": "深圳证券交易所STEP行情数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-155",
+      "title": "深圳证券交易所STEP行情数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-156",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-157",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-158",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-159",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-160",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-161",
+      "title": "深圳证券交易所STEP行情数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-162",
+      "title": "深圳证券交易所上市公司股东大会数据接口（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-163",
+      "title": "深圳证券交易所企业标准组播行情数据分发协议规范",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-164",
+      "title": "深圳证券交易所基金公司数据接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-165",
+      "title": "深圳证券交易所基金公司数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-166",
+      "title": "深圳证券交易所基金公司数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-167",
+      "title": "深圳证券交易所基金公司数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-168",
+      "title": "深圳证券交易所基金公司数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-169",
+      "title": "深圳证券交易所基金公司数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-170",
+      "title": "深圳证券交易所基金公司数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-171",
+      "title": "深圳证券交易所基金通业务数据接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "STEP",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-172",
+      "title": "深圳证券交易所委托申报拒绝原因代码表（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-173",
+      "title": "深圳证券交易所委托申报拒绝原因代码表（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-174",
+      "title": "深圳证券交易所委托申报拒绝原因代码表（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP",
+        "债券",
+        "期权"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-175",
+      "title": "深圳证券交易所数据文件交换接口规范 (Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-176",
+      "title": "深圳证券交易所数据文件交换接口规范 （Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-177",
+      "title": "深圳证券交易所数据文件交换接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-178",
+      "title": "深圳证券交易所数据文件交换接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-179",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-180",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-181",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-182",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-183",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-184",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-185",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-186",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-187",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-188",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-189",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-190",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-191",
+      "title": "深圳证券交易所数据文件交换接口规范（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "BINARY",
+        "债券",
+        "做市商"
+      ]
+    },
+    {
+      "id": "szse-iface-00000000-192",
+      "title": "深圳证券交易所组播行情数据分发协议（Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "interface_spec",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-iface-20170515-193",
+      "title": "深圳证券市场接入服务网关监控接口规范(Ver1",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2017-05-15",
+      "tags": [
+        "szse",
+        "interface_spec",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-iface-20150828-194",
+      "title": "接口设计报告",
+      "type": "interface_spec",
+      "status": "active",
+      "public_date": "2015-08-28",
+      "tags": [
+        "szse",
+        "interface_spec",
+        "STEP"
+      ]
+    },
+    {
+      "id": "szse-guide-20170516-195",
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver 1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-05-16",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20170516-196",
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver 1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-05-16",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20170516-197",
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-05-16",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20170516-198",
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-05-16",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20170516-199",
+      "title": "会员及其他相关单位访问深交所交易系统接入服务技术规范（Ver1",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-05-16",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-20170119-200",
+      "title": "深圳证券交易所交易异地灾备系统用户接入指引 Version（20181204）",
+      "type": "guide",
+      "status": "active",
+      "public_date": "2017-01-19",
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关",
+        "期权",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-201",
+      "title": "深圳证券交易所交易系统文件网关配置指南",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-202",
+      "title": "深圳证券交易所成交汇总服务接入指引",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "交易网关"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-203",
+      "title": "深圳证券交易所网关部署及接入指引",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "行情网关"
+      ]
+    },
+    {
+      "id": "szse-guide-00000000-204",
+      "title": "深圳证券交易所网关部署及接入指引（V1",
+      "type": "guide",
+      "status": "active",
+      "public_date": null,
+      "tags": [
+        "szse",
+        "guide",
+        "STEP",
+        "交易网关",
+        "债券"
       ]
     }
   ]

@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-test-20240312-449",
+  "title": "上海证券交易所市场数据文件交换",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/policy/c/10787347/files/69e55d852443442ab6a89dc354f42f44.pdf",
+  "analysis_date": "2026-06-13T17:46:56.364385+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "test_doc",
+    "EzOES",
+    "IS101",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "债券",
+    "期权",
+    "融资融券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

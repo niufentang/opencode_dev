@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-338",
+  "type": "technical_notice",
+  "title": "关于外高桥数据中心核心交易系统搬迁的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635138/files/bbf3949abacc43eab8dc984f19c29a16.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:59a08e6fb4a95c314c92ce890f58422cfc262aed6a3fc84ff38dd46ada0653d1",
+  "content_markdown": "关于外高桥数据中心核心交易系统搬迁的\n通知\n各市场参与者：\n根据上海证券交易所整体工作安排，计划在2023 年4 月29\n日-5 月3 日将外高桥数据中心核心交易系统（包括竞价、期权、\n沪港通、综业、新债券、固收、指数、轻型化通信服务器八个系\n统）搬迁至陆家嘴数据中心。\n为确保本次搬迁工作有序开展和维护证券市场的平稳运行，\n本所计划于5 月2 日邀请全市场参与者进行全网测试，以检验市\n场各方技术系统运行状态。\n请各市场参与者务必高度重视，组织专人负责验证测试，具\n体测试方案另行通知。\n特此通知。\n上海证券交易所\n二 〇 二三年四月十三日\n\n<metadata>\n{\n  \"title\": \"20230413_关于外高桥数据中心核心交易系统搬迁的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230413_关于外高桥数据中心核心交易系统搬迁的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于外高桥数据中心核心交易系统搬迁的通知.md\",\n  \"file_hash\": \"sha256:59a08e6fb4a95c314c92ce890f58422cfc262aed6a3fc84ff38dd46ada0653d1\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.662807+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

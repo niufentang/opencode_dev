@@ -1,0 +1,26 @@
+{
+  "doc_id": "sse-tech-00000000-192",
+  "title": "关于发布交易网关（竞价）相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072409/files/f70c8fb55f9849688456a6fc1e0e92db.pdf",
+  "analysis_date": "2026-06-13T17:46:54.875951+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件",
+    "科创板"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

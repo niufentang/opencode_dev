@@ -1353,7 +1353,7 @@ IOPV 文件及其 flag 文件需符合《深圳证券交易所数据接口规范
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:49:00.590273+00:00",
+  "parse_date": "2026-06-13T17:46:23.317402+00:00",
   "sub_category": null
 }
 </metadata>

@@ -1,6 +1,6 @@
 {
   "id": "chinaclear-rule-20050906-047",
-  "type": "business_rule",
+  "type": "rule",
   "title": "上市公司股权分置改革业务操作指引(2005-09-06)",
   "source": "chinaclear",
   "source_url": null,
@@ -20,5 +20,5 @@
   "related_ids": [],
   "file_format": "pdf",
   "file_hash": "sha256:3e792bc861b8ec6b44ba388be56e70d516d2c95744531bb9c9ecc5e2ad8a1906",
-  "content_markdown": "*[无法从 PDF 提取文本 — 可能是扫描件: 20061118_上市公司股权分置改革业务操作指引(2005-09-06).pdf]*\n\n<metadata>\n{\n  \"title\": \"20061118_上市公司股权分置改革业务操作指引(2005-09-06)\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\其他\\\\20061118_上市公司股权分置改革业务操作指引(2005-09-06).pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\其他\\\\上市公司股权分置改革业务操作指引(2005-09-06).md\",\n  \"file_hash\": \"sha256:3e792bc861b8ec6b44ba388be56e70d516d2c95744531bb9c9ecc5e2ad8a1906\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 8,\n  \"doc_type\": \"business_rule\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": \"2005-09-06\",\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-19T11:26:00.929404+00:00\",\n  \"sub_category\": \"其他\"\n}\n</metadata>"
+  "content_markdown": "*[无法从 PDF 提取文本 — 可能是扫描件: 20061118_上市公司股权分置改革业务操作指引(2005-09-06).pdf]*\n\n<metadata>\n{\n  \"title\": \"20061118_上市公司股权分置改革业务操作指引(2005-09-06)\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\其他\\\\20061118_上市公司股权分置改革业务操作指引(2005-09-06).pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\其他\\\\上市公司股权分置改革业务操作指引(2005-09-06).md\",\n  \"file_hash\": \"sha256:3e792bc861b8ec6b44ba388be56e70d516d2c95744531bb9c9ecc5e2ad8a1906\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 8,\n  \"doc_type\": \"business_rule\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": \"2005-09-06\",\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:46:29.513608+00:00\",\n  \"sub_category\": \"其他\"\n}\n</metadata>"
 }

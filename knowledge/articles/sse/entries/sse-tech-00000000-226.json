@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-226",
+  "type": "technical_notice",
+  "title": "关于发布固定收益平台交易端7.7.3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635144/files/9c98cda25cdc4627967556e35ac1ff80.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "注册制"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:7a0abcb0b3c27ba46b45c9e297ce2563c3acb0ca4b6a0626ca21728cceca9b76",
+  "content_markdown": "关于发布固定收益平台交易端7.7.3.5 软件\n版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升市场参与者对客户\n端软件的使用体验，拟发布Bond_7.7.3.5客户端软件版本。\n前期，因交易端界面会小概率触发“not a valid date”的报\n错信息。本次版本升级对交易端的协议回购到期续做界面进行优\n化，本方全量确定报价可通过确定报价查询窗口查看。本次升级\n为自动升级。\n请市场参与者仔细阅读用户手册（见软件安装包），并根据\n《关于2023 年3 月25 日开展沪市全面实行注册制交易业务全网\n测试的通知》做好上线前的测试准备。软件安装包可通过本所官\n方网站 “ 交易技术支持专区 ” 相关栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二三年三月二十四日\n\n<metadata>\n{\n  \"title\": \"20230324_关于发布固定收益平台交易端7.7.3\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230324_关于发布固定收益平台交易端7.7.3.5软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益平台交易端7.7.3.5软件版本的通知.md\",\n  \"file_hash\": \"sha256:7a0abcb0b3c27ba46b45c9e297ce2563c3acb0ca4b6a0626ca21728cceca9b76\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.640504+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

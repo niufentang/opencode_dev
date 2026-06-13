@@ -1,0 +1,22 @@
+{
+  "doc_id": "sse-tech-00000000-075",
+  "title": "上海证券交易所邮件审批单",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072573/files/18d7b17170b34be28a42ec2ed142a653.pdf",
+  "analysis_date": "2026-06-13T17:46:54.474281+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权",
+    "港股通"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

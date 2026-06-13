@@ -1,0 +1,20 @@
+{
+  "doc_id": "szse-tech-00000000-030",
+  "title": "中国电信专线业务申请资料",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467408351813.zip",
+  "analysis_date": "2026-06-13T17:46:56.808336+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "technical_notice"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

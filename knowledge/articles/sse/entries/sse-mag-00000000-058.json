@@ -1,0 +1,24 @@
+{
+  "id": "sse-mag-00000000-058",
+  "type": "magazine",
+  "title": "《交易技术前沿》总第四十二期文章（网络安全防护专刊）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10071286/files/41d65941b6354e229b31a5a9018ee009.zip",
+  "summary": "初始版本，无历史变更。文档类型：magazine，版本：无。",
+  "tags": [
+    "sse",
+    "magazine"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "zip",
+  "file_hash": "sha256:3008b4740e58debefe7019c7d932731e9fbafa448ee17299c196d0eeeeeb687b",
+  "content_markdown": "*[ZIP archive: 20210806_《交易技术前沿》总第四十二期文章（网络安全防护专刊）.zip — needs recursive extraction]*\n\n<metadata>\n{\n  \"title\": \"20210806_《交易技术前沿》总第四十二期文章（网络安全防护专刊）\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术杂志\\\\20210806_《交易技术前沿》总第四十二期文章（网络安全防护专刊）.zip\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术杂志\\\\《交易技术前沿》总第四十二期文章（网络安全防护专刊）.md\",\n  \"file_hash\": \"sha256:3008b4740e58debefe7019c7d932731e9fbafa448ee17299c196d0eeeeeb687b\",\n  \"file_format\": \"zip\",\n  \"page_count\": 0,\n  \"doc_type\": \"magazine\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:44:42.149177+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

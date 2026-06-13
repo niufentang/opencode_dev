@@ -1,0 +1,30 @@
+{
+  "id": "sse-tech-00000000-305",
+  "type": "technical_notice",
+  "title": "关于发布竞价非交易业务迁移市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10753556/files/5bfd59c99a004f71aea6f11ba88694f0.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:5faa53af938cc76f9526443c6529b152efd1559a613144df84e1902cfebadf68",
+  "content_markdown": "关于发布竞价非交易业务迁移市场接口\n技术开发稿的通知\n各市场参与人：\n上海证券交易所（以下简称本所）拟发布《 IS101_ 上海\n证券交易所竞价撮合平台市场参与者接口规格说明书 1.66\n版（竞价非交易迁移互联网 _ 技术开发稿） _20240312 》、\n《 IS122_ 上海证券交易所交易网关 STEP 接口规格说明书\n（互联网交易平台） 1.15 版（竞价非交易迁移互联网 _ 技术\n开发稿） 20240312 》、《 IS111_ 上海证券交易所报盘软件错\n误代码表 _V3.29 (技术开发稿) _20240312 》、《上海证券交\n易所开放式基金等非交易迁移市场参与者技术实施指南\n_V1.2_20240312 》。请市场参与人做好相关技术准备工作。\n本次主要变更内容为：在竞价撮合平台市场参与者接口\n规格说明书中，1）修订申报接口 ordwth ；2）修订产品非交\n易基础信息接口 fjyYYYYMMDD.txt ；3）修订开放式基金交\n易确认接口 kghXXXXX.txt ；4）修订产品基础信息第二版第\n一批次文件接口 cpxx0201MMDD.txt 。在交易网关 STEP 接\n口规格说明书（互联网交易平台）中，增加对申报订单中参\n与方信息重复申报的说明，增加发起方营业部代码范围更新，\n在新订单申报中结算会员代码、 OrdType 字段调整为非必填；\n执行报告中结算会员代码字段调整为非必填。\n相关文件电子版本可通过本所官方网站“交易技术支持\n\n专区”相关栏目下载。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2024 年 3 月 29 日\n\n<metadata>\n{\n  \"title\": \"20240329_关于发布竞价非交易业务迁移市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20240329_关于发布竞价非交易业务迁移市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布竞价非交易业务迁移市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:5faa53af938cc76f9526443c6529b152efd1559a613144df84e1902cfebadf68\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.927917+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

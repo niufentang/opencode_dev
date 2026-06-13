@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-260",
+  "type": "technical_notice",
+  "title": "关于发布指定关系统一接入相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072453/files/d5f2b6f6c53a4200b8f962358620ff35.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:c5f861f52dcc0567867bf77e55bd7122bbf671ed573c9191de0b16c7835e0c4a",
+  "content_markdown": "关于发布指定关系统一接入相关市场接口\n技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS101_上海证券\n交易所竞价撮合平台市场参与者接口规格说明书1.57 版（指定\n交易技术开发稿）_20220318》、《IS105_上海证券交易所综合\n业务平台市场参与者接口规格说明书1.50 版（指定交易技术开\n发稿）_20220323》、《上海证券交易所指定交易迁移市场参与\n者技术实施指南》，以供市场参与者做好技术就绪准备工作。\n本次市场接口的变更主要在竞价撮合平台市场参与者接口\n说明书中，根据指定交易迁移计划，指定登记和指定撤销业务迁\n移至综合业务平台进行申报；删除申报接口ordwth 中相关描述；\n删除fjyYYYYMMDD.txt 中指定登记和指定撤销的非交易记录；\ncpxx0201.txt 中增加指定登记和指定撤销的产品记录。在综合\n业务平台市场参与者接口规格说明书中，新增指定交易申报接口，\n调整指定关系生效说明。\n以上接口文件的电子版本可通过本所官方网站“交易技术支\n持专区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年四月一日\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20220401_关于发布指定关系统一接入相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220401_关于发布指定关系统一接入相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布指定关系统一接入相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:c5f861f52dcc0567867bf77e55bd7122bbf671ed573c9191de0b16c7835e0c4a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.042491+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

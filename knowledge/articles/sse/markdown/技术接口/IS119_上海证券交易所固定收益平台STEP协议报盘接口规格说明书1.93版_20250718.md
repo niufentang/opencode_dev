@@ -9958,7 +9958,7 @@ STEP 协议报盘接口规格说明书
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:47:04.073894+00:00",
+  "parse_date": "2026-06-13T17:43:52.226590+00:00",
   "sub_category": null
 }
 </metadata>

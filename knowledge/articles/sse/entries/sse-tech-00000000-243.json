@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-243",
+  "type": "technical_notice",
+  "title": "关于发布固收平台交易端软件新版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072368/files/df5e97a2954a407cb1051ed348730f5e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "REITs",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:11a15a3026fe0b46dc2fa7c18607c1fbdf9e63d87044399315e216f16c38daf5",
+  "content_markdown": "关于发布固收平台交易端软件新版本的\n通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升市场参与者对客户\n端软件的使用体验，拟发布固收平台交易端Bond_7.7.3.2 软件\n版本。请市场参与者做好技术准备工作。\n本次软件版本强制升级，变更内容为1)CDX意向申报增加批\n量导入功能;2)REITs协议回购支持扩募限售份额， “ 限售期限\n（月） ” 可以选择6/12/18。\n请根据《关于12 月3 日开展竞价、综业、新债券、期权、\n港股通、固收等平台相关业务通关测试的方案》参与测试。软件\n安装包可通过本所官方网站 “ 交易技术支持专区 ” 相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年十二月二日\n\n<metadata>\n{\n  \"title\": \"20221202_关于发布固收平台交易端软件新版本的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20221202_关于发布固收平台交易端软件新版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固收平台交易端软件新版本的通知.md\",\n  \"file_hash\": \"sha256:11a15a3026fe0b46dc2fa7c18607c1fbdf9e63d87044399315e216f16c38daf5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.582639+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

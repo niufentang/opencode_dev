@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-228",
+  "type": "technical_notice",
+  "title": "关于发布固定收益平台交易端7.9.0",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10649512/files/105cd2c24d2040bcb4e7a73f3707f3c6.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:ed8c572e5edc244b2b47846e304598371a05c45c0887906c25ff7bd8cc3ea4fa",
+  "content_markdown": "关于发布固定收益平台交易端7.9.0.0 软件\n版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升市场参与者对客户\n端软件的使用体验，拟发布Bond_7.9.0.0客户端软件版本。\n本次版本变更为取消协议交易申报接口的功能，版本升级为\n自动升级。\n请市场参与者仔细阅读用户手册（见软件安装包），并根据\n《关于9 月9 日开展竞价、综业、新债券、期权、港股通、固收\n等平台相关业务通关测试的通知》做好上线前的测试准备。软件\n安装包可通过本所官方网站 “ 交易技术支持专区 ” 相关 栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年9 月8 日\n\n<metadata>\n{\n  \"title\": \"20230908_关于发布固定收益平台交易端7.9.0\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230908_关于发布固定收益平台交易端7.9.0.0软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益平台交易端7.9.0.0软件版本的通知.md\",\n  \"file_hash\": \"sha256:ed8c572e5edc244b2b47846e304598371a05c45c0887906c25ff7bd8cc3ea4fa\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.790012+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

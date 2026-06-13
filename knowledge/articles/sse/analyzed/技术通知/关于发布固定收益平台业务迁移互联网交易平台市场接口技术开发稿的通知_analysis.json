@@ -1,0 +1,28 @@
+{
+  "doc_id": "sse-tech-00000000-222",
+  "title": "关于发布固定收益平台业务迁移互联网交易平台市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10767368/files/497a65bb2a3c4fe18ae20f95d4220b72.pdf",
+  "analysis_date": "2026-06-13T17:46:54.984621+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "债券",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

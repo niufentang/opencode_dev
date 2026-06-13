@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-147",
+  "type": "technical_notice",
+  "title": "关于发布IOPV描述调整市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10645583/files/59cb6825d97b44c883fb6ef0975a0634.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS101",
+    "IS120",
+    "STEP",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:1a1957d780ce36309aeeba24e62bd36a54c235e8fc3f912396d817dbf4fa4fa0",
+  "content_markdown": "关于发布IOPV 描述调整市场接口\n技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）根据技术系统发展，拟发\n布《IS101_上海证券交易所竞价撮合平台市场参与者接口规格说\n明书1.65 版_20230705（IOPV 描述调整技术开发稿）》、\n《IS120_\n上海证券交易所行情网关BINARY 数据接口规范0.57 版\n_20230705（IOPV 描述调整技术开发稿）》、《IS120_上海证\n券交易所行情网关STEP 数据接口规范0.57 版_20230705（IOPV\n描述调整技术开发稿）》，请市场参与者做好相关技术准备。\n本次市场接口主要变更内容为：在竞价撮合平台接口规格说\n明书中，修订行情接口mktdt00.txt，明确基金T-1 日收盘时刻\nIOPV、基金IOPV 字段适用范围以及和ETF 公告文件的关联关系，\n更正行情时间及时间戳描述；删除已下线的行情数据库STEP 接\n口相关描述；删除申报接口中已下线的买入回购注销业务相关描\n述；修订申报确认接口remark 字段取值说明。在行情网关BINARY\n与STEP 数据接口规范文档中，明确基金T-1 日收盘时刻IOPV、\n基金IOPV 字段适用范围以及和ETF 公告文件的关联关系。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\n\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年8 月4 日\n\n<metadata>\n{\n  \"title\": \"20230804_关于发布IOPV描述调整市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230804_关于发布IOPV描述调整市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布IOPV描述调整市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:1a1957d780ce36309aeeba24e62bd36a54c235e8fc3f912396d817dbf4fa4fa0\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.743422+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

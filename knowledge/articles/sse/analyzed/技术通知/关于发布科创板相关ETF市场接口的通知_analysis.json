@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-298",
+  "title": "关于发布科创板相关ETF市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072542/files/fb2e940fcd9e47b18547544a254ed196.pdf",
+  "analysis_date": "2026-06-13T17:46:55.245465+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS118",
+    "科创板"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

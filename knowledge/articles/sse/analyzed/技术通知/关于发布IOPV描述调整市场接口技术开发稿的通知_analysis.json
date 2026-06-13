@@ -1,0 +1,25 @@
+{
+  "doc_id": "sse-tech-00000000-147",
+  "title": "关于发布IOPV描述调整市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10645583/files/59cb6825d97b44c883fb6ef0975a0634.pdf",
+  "analysis_date": "2026-06-13T17:46:54.720548+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS101",
+    "IS120",
+    "STEP",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

@@ -1,0 +1,30 @@
+{
+  "doc_id": "szse-tech-00000000-036",
+  "title": "关于做好欣泰电气欺诈发行先行赔付实施相关技术准备的通知",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467356378274.pdf",
+  "analysis_date": "2026-06-13T17:46:56.843149+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "http://wltp.cninfo.com.cn",
+      "detail": "http://wltp.cninfo.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "technical_notice",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

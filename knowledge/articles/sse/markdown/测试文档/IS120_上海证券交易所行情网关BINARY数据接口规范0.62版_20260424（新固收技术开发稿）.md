@@ -1396,7 +1396,7 @@ return (uint32)checksum;
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:48:33.678765+00:00",
+  "parse_date": "2026-06-13T17:45:44.200160+00:00",
   "sub_category": null
 }
 </metadata>

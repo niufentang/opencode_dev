@@ -1,0 +1,30 @@
+{
+  "id": "szse-tech-00000000-041",
+  "type": "technical_notice",
+  "title": "关于通过交易系统发布国证指数2020年1月11日全网测试的补充通知",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020200110575777121171.pdf",
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "tags": [
+    "szse",
+    "technical_notice",
+    "STEP",
+    "交易网关",
+    "期权",
+    "港股通",
+    "行情网关",
+    "has_changes"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:82070c3669abcb4440c6a0643ba728bde0eced3808db6bcaebbe35179c113e10",
+  "content_markdown": "关于通过交易系统发布国证指数 2020 年 1 月 11 日全网测试\n的补充通知\n各会员单位、期权经营机构、基金管理公司、行情服务商及相关单位：\n为确保市场各方的生产系统在下一交易日（2020 年1 月13 日）\n正确运行，现对全网测试补充通知如下：\n1、2020 年1 月11 日全网测试完成后暂不通过交易系统发布国\n证指数，即自2020 年1 月13 日起深交所交易系统暂不向市场参与者\n发布国证指数信息文件cnindex_YYYYMMDD.xml 和国证指数实时行情\n快照（Binary: 309011, STEP: W, 行情类别为920，行情发布频道\n0011）。2020 年1 月11 日全网测试除了照原计划进行外，还在当天\n21:30 至22:30 期间组织恢复验证测试。\n2、请各会员、期权经营机构、基金管理公司、行情服务商及相\n关单位务必参加测试，全网测试过程中做好自身技术系统正确适应性\n的确认工作，若有任何异常，请务必及时报告深交所。调整过生产环\n境交易网关、行情网关配置参数的参测单位，务必参加恢复验证测试。\n因故不能参加测试者，请务必填写反馈表（参见测试方案之附件1）\n说明原因，并在2020 年1 月11 日12:00 前通知深交所。\n3、暂不接收国证指数实时行情的市场参与者应根据业务仿真测\n试结果，仔细评估国证指数对自身技术系统和业务运行的影响情况。\n若国证指数影响贵司技术系统和业务运行，请在全网测试前调整行情\n网关的配置参数（具体方法见本通知之附件），以便行情网关暂不接\n\n收国证指数实时行情，并在全网测试过程中充分验证、全面确认自身\n技术系统的正确适应性。\n4、恢复验证测试时间为2020 年1 月11 日（星期六）21:30 至\n22:30，模拟市场参与各方恢复下一交易日（2020 年1 月13 日）生\n产数据后深市证券交易及行情相关业务运行（模拟日期2020 年1 月\n11 日，不发送国证指数相关数据及文件,不发送衍生品证券收盘行情\n文件derivativesecurityclosemd），恢复验证测试期间结算系统不\n发送任何结算数据及文件,港股通业务为非交易日非结算日。\n本次测试以 2020 年 1 月 10 日（星期五）深市所有证券的收盘行\n情、收市后的股份数据作为交易的起始数据（包括期权合约持仓）。\n5、测试完成后，各参测会员单位应在2020 年1 月11 日23:00\n之前登录深交所“会员业务专区”首页底部“友情链接―在线调查表”\n栏目填写并提交测试反馈表（参见测试方案之附件1）；请非会员单\n位将填报好的反馈表发送至sseyxb@szse.cn、\nszjsb@chinaclear.com.cn，邮件名为“参测单位名称+深港通南向投\n资者识别码等业务2020 年1 月11 日全网测试反馈表”。\n6、测试当日的所有数据仅为模拟测试数据，与实际业务无任何\n关系，不能作为任何交易、非交易、账户等业务的依据。请会员及相\n关单位做好向投资者的宣传提示工作。\n7、各参测单位测试前务必做好线上系统和数据环境的备份工作，\n测试完成后做好线上系统和数据环境的恢复工作，确保下一交易日\n（2020 年1 月13 日）生产系统的正确运行。\n\n<span style=\"color:red\">8、测试完成后，在确保技术系统和业务运营均安全运行的前提</span>\n<span style=\"color:red\">下，各市场参与者可根据自身实际情况自行安排国证指数相关技术系</span>\n<span style=\"color:red\">统的上线，深交所将另行通知交易系统转发国证指数的后续全网测试</span>\n<span style=\"color:red\">和业务启动等相关工作安排。近期将推出国证指数相关ETF 产品，请</span>\n<span style=\"color:red\">各会员及相关单位高度重视。</span>\n9、2020 年1 月13 日交易生产期间，请各会员、期权经营机构、\n基金管理公司、行情服务商及相关单位做好运维保障，密切监控自身\n交易及行情相关系统的运行情况，若有任何异常请立即启动应急处置\n流程，及时向深交所报告。\n10、测试联系电话\n深圳证券交易所：0755-82083510\n深圳证券通信有限公司：0755-83182222\n深圳证券信息有限公司：0755-83990296\n特此通知\n深圳证券交易所\n2020 年1 月10 日\n\n附件：通过调整配置参数行情网关暂不接收国证指数实时行情的技术指引\n 对于卫星线路Level 1 行情网关\n若行情网关的配置频道使用*（全部频道）等通配符默认可收到国\n证指数实时行情，将对应行情网关mdgw 配置文件cfg/config.xml 中的\naccess_user->realtime_service_list->realtime_service->user_cha\nnnel_list 配置项调整如下（无需变更mdgw 应用程序），相应行情网关\n即可暂不接收国证指数实时行情：\n<user_channel_list>\n<channel>?</channel>\n<channel>10</channel>\n<channel>1???</channel>\n<channel>300?</channel>\n<channel>5001</channel>\n</user_channel_list>\n 对于地面线路Level 1 行情网关\n若行情网关的配置频道使用*（全部频道）等通配符默认可收到国\n证指数实时行情，将对应行情网关mdgw 配置文件cfg/config.xml 中的\naccess_user->realtime_service_list->realtime_service->user_cha\nnnel_list 配置项调整如下（无需变更mdgw 应用程序），相应行情网关\n即可暂不接收国证指数实时行情：\n<user_channel_list>\n<channel>?</channel>\n\n<channel>10</channel>\n<channel>1???</channel>\n<channel>300?</channel>\n<channel>400?</channel>\n<channel>5001</channel>\n</user_channel_list>\n 对于Level 2（包括Level 2-1 和Level 2-2）行情网关\n若行情网关的配置频道使用*（全部频道）等通配符默认可收到国\n证指数实时行情，将对应行情网关mdgw 配置文件cfg/config.xml 中的\naccess_user->realtime_service_list->realtime_service->user_cha\nnnel_list 配置项调整如下（无需变更mdgw 应用程序），相应行情网关\n即可暂不接收国证指数实时行情：\n<user_channel_list>\n<channel>?</channel>\n<channel>10</channel>\n<channel>1???</channel>\n<channel>2???</channel>\n<channel>300?</channel>\n<channel>400?</channel>\n<channel>5001</channel>\n</user_channel_list>\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20200110_关于通过交易系统发布国证指数2020年1月11日全网测试的补充通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\szse\\\\技术公告\\\\20200110_关于通过交易系统发布国证指数2020年1月11日全网测试的补充通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\szse\\\\markdown\\\\技术公告\\\\关于通过交易系统发布国证指数2020年1月11日全网测试的补充通知.md\",\n  \"file_hash\": \"sha256:82070c3669abcb4440c6a0643ba728bde0eced3808db6bcaebbe35179c113e10\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 5,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:45.368140+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

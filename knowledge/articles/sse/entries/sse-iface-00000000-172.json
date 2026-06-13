@@ -1,0 +1,26 @@
+{
+  "id": "sse-iface-00000000-172",
+  "type": "interface_spec",
+  "title": "关于发布上海证券交易所特定参与者接口规格说明书1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072570/files/634c11e501574df48e004e4dbe589ffd.pdf",
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS118",
+    "科创板"
+  ],
+  "status": "active",
+  "version": "1.1",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:9844c73c89c989637df6e1c3da1636766e033a861a741757b401646d0628dd0e",
+  "content_markdown": "关于发布上海证券交易所特定参与者接口\n规格说明书1.1 版（基金公司卷）的通知\n各会员、其他市场参与主体：\n为加强基金定义文件的内容管理，进一步明确部分参数可取\n值范围，上交所将发布《IS118 上海证券交易所特定参与者接口\n规格说明书1.1 版（基金公司卷）_20201229》。\n此次市场接口文档调整不涉及技术接口变化，主要是在文字\n描述上进行了更新，明确了单位净参考值是否需要公布的标志位\n（Publish IOPV Flag）参数的可取值范围，明确了上交所仅支\n持计算单市场股票ETF、科创板ETF 的单位净参考值（IOPV）。\n调整了IOPV 计算说明。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年二月四日\n\n<metadata>\n{\n  \"title\": \"20210210_关于发布上海证券交易所特定参与者接口规格说明书1\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210210_关于发布上海证券交易所特定参与者接口规格说明书1.1版（基金公司卷）的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布上海证券交易所特定参与者接口规格说明书1.1版（基金公司卷）的通知.md\",\n  \"file_hash\": \"sha256:9844c73c89c989637df6e1c3da1636766e033a861a741757b401646d0628dd0e\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"interface_spec\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.282752+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

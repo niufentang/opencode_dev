@@ -108,7 +108,7 @@ FISP 平台仅对通过平台流转的电子信息进行格式检查，不
   "effective_date": null,
   "has_changes": false,
   "parse_status": "success",
-  "parse_date": "2026-05-19T11:26:02.524826+00:00",
+  "parse_date": "2026-06-13T17:46:30.228006+00:00",
   "sub_category": "基金与资产管理业务"
 }
 </metadata>

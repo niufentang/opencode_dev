@@ -82,7 +82,7 @@ hghXXXXX.zip
   "effective_date": null,
   "has_changes": false,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:47:33.525588+00:00",
+  "parse_date": "2026-06-13T17:45:27.000090+00:00",
   "sub_category": null
 }
 </metadata>

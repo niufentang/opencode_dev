@@ -1,0 +1,30 @@
+{
+  "doc_id": "sse-tech-00000000-118",
+  "title": "关于上海证券交易所债券非交易业务迁移至综合业务平台有关安排的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072550/files/76001f050a734de99f6b6f0a6735580b.pdf",
+  "analysis_date": "2026-06-13T17:46:54.629053+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "https://iitp.uap.sse.com.cn/otcbnt/ http://180.7.37.3/otcbnt/ http://180.7.167.3/otcbnt/",
+      "detail": "https://iitp.uap.sse.com.cn/otcbnt/\nhttp://180.7.37.3/otcbnt/\nhttp://180.7.167.3/otcbnt/",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,20 @@
+{
+  "doc_id": "sse-tech-00000000-237",
+  "title": "关于发布固定收益证券综合电子平台交易端_V7.2.3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072527/files/6ca8a7e13239498a93287abe2cee746d.pdf",
+  "analysis_date": "2026-06-13T17:46:55.040261+00:00",
+  "status": "active",
+  "version": "7.2.3",
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：7.2.3。",
+  "confidence": 0.75
+}

@@ -1,0 +1,32 @@
+{
+  "id": "sse-tech-00000000-248",
+  "type": "technical_notice",
+  "title": "关于发布基金通业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072466/files/993c5b3c011045fead357d0d588a2c65.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS111",
+    "IS122",
+    "IS124",
+    "IS419",
+    "STEP",
+    "交易网关",
+    "做市商",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:670d493b961fd9fd2da02857f2a8adb74a7efe3703a88c42cedcf839adcf9493",
+  "content_markdown": "关于发布基金通业务市场接口\n技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS124_上海证\n券交易所市场数据文件交换接口规格说明书0.21 版（互联网交\n易平台基金通业务技术开发稿）_20220216.pdf》、《IS419_上海\n证券交易所互联网交易平台市场参与者接口规格说明书0.21 版\n（互联网交易平台基金通业务销售机构卷技术开发稿）\n_20220216.pdf》、\n《IS122_上海证券交易所交易网关STEP 接口规\n格说明书0.30 版本（互联网交易平台基金通业务技术开发稿）\n_20220216.pdf》、《上海证券交易所基金通业务做市商市场参与\n者技术实施指南（技术开发稿）20220216.pdf》、《上海证券交易\n所基金通业务销售机构市场参与者技术实施指南（技术开发稿）\n20220216.pdf》、《IIS111 上海证券交易所报盘软件错误代码表\n3.20 版_（互联网交易平台技术开发稿）_20220217》，以供市场\n参与者做好技术就绪准备工作。\n本次基金通业务市场接口均新增了基金通业务接口，现对各\n接口文档的接口变动进行说明：在交易网关STEP 接口规格说明\n书中，更新消息头说明并对订单申报填写进行了说明。在市场数\n据文件交换接口规格说明书中，基金通行情文件版本号为\nFEX1.00,盘前加载产品基础信息文件为第二版第一批次文件。在\n互联网交易平台市场参与者接口说明书中，增加了关于公共报文\n头、订单查询等8 项的字段说明。\n\n以上相关文件电子版本可通过本所官方网站“交易技术支持\n专区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年二月十八日\n\n<metadata>\n{\n  \"title\": \"20220218_关于发布基金通业务市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220218_关于发布基金通业务市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布基金通业务市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:670d493b961fd9fd2da02857f2a8adb74a7efe3703a88c42cedcf839adcf9493\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.969960+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

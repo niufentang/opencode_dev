@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-329",
+  "type": "technical_notice",
+  "title": "关于发布调整成交数据发送频率市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10649515/files/2d42d5ca01814d12a9638f9e32af7667.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS109"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:f02e0409fb7144482fe2d36998b5112ccf6c705e3f69ae8fa5c17a7f7437df63",
+  "content_markdown": "关于发布调整成交数据发送频率市场接口\n的通知\n各市场参与者：\n上海证券交易所拟发布《IS109_上海证券交易所固定收益平\n台外部数据接口规范3.28 版_20230704》，请市场参与者做好技\n术准备工作。\n本次技术接口主要变动如下：\n1、文档描述调整：本方成交数据文件（zghXXX.txt）中\ntrade_no 调整为实际实现值\n11 位；确定报价文件\n（ZQ_QDBJyyyymmdd.txt）买入报价时间和卖出报价时间字段调\n整为实际实现值6 位；单向卫星应用系统已下线，调整为证通云\n盘发送等。\n2.为减少系统卡顿，本方成交数据文件（zghXXX.txt）更新\n默认时间调整为60 秒。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年9 月8 日\n\n<metadata>\n{\n  \"title\": \"20230908_关于发布调整成交数据发送频率市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230908_关于发布调整成交数据发送频率市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布调整成交数据发送频率市场接口的通知.md\",\n  \"file_hash\": \"sha256:f02e0409fb7144482fe2d36998b5112ccf6c705e3f69ae8fa5c17a7f7437df63\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.821847+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

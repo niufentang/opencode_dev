@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-187",
+  "type": "technical_notice",
+  "title": "关于发布交易网关TDGW_1.2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072414/files/fa53dbbfbf0a4934bd8fa0adbe8925be.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:29aefafa5c56ff2453fd9d7c50ad0bee9bb250b018b7916fb7dc8d9ee809913d",
+  "content_markdown": "关于发布交易网关TDGW_1.2.4 软件版本的\n通知\n各市场参与者：\n上海证券交易所（以下简称本所）根据竞价交易网关上线工\n作安排，拟发布交易网关TDGW_1.2.4 软件版本。请市场参与者\n充分测试，做好上线前的各项技术准备工作。\n本次发布的TDGW_1.2.4软件版本支持本所竞价撮合平台、期\n权平台、新债券平台的业务申报，其中竞价撮合平台上线交易网\n关后，将做版本控制，低于TDGW_1.2.4版本将无法接入竞价撮合\n平台。TDGW_1.2.4版本主要优化了流水日志文件、新增辅助升级\n工具、取消了竞价平台定时启停PBU功能以及其他技术优化与问\n题修复。\n请市场参与者认真仔细阅读用户手册（见软件安装包），并\n根据《关于7 月9 日开展竞价、综业、新债券、固收等平台相关\n业务全网测试的通知》参与全网测试。 软件安装包可通过本所\n官方网站 “ 交易技术支持专区 ” 相关 栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年七月八日\n\n<metadata>\n{\n  \"title\": \"20220708_关于发布交易网关TDGW_1.2\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220708_关于发布交易网关TDGW_1.2.4软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布交易网关TDGW_1.2.4软件版本的通知.md\",\n  \"file_hash\": \"sha256:29aefafa5c56ff2453fd9d7c50ad0bee9bb250b018b7916fb7dc8d9ee809913d\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.333389+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

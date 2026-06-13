@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-118",
+  "type": "technical_notice",
+  "title": "关于上海证券交易所债券非交易业务迁移至综合业务平台有关安排的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072550/files/76001f050a734de99f6b6f0a6735580b.pdf",
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "has_changes"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:841bc97863ccf0e37d0c524d31115ef2c461bf331f4e762614d36ef4a865b804",
+  "content_markdown": "关于上海证券交易所债券非交易业务迁移至\n综合业务平台有关安排的通知\n各市场参与者：\n为促进债券市场发展，完善债券交易基础设施, 上海证券交\n易所（以下简称本所）将于2021 年5 月24 日（周一）起将债券\n非交易业务（含质押式回购出入库、债券回售、可转债转股、可\n交换债换股、债券ETF 申赎等）从现有竞价撮合平台迁移到综合\n业务平台上开展。现就具体安排通知如下。\n一、 业务开展平台安排\n自5 月24 日（含）起，债券质押式回购出入库、债券回售、\n可转债回售、可转债转股、可交换债换股、债券ETF 申赎等业务\n在综合业务平台上开展。本所竞价撮合业务平台不再接收上述业\n务的相关申报。原先在固定收益平台上开展的债券非交易类业务\n不受影响。对于综合业务平台上开展的债券回售业务，投资者可\n通过在固定收益平台提交申报的方式进行回售撤销。\n二、 申报要素安排\n迁移后，债券非交易业务从辅助证券代码申报方式调整成\n“现券代码+业务类型”方式申报。申报要素中，业务类型的具\n体取值如下：债券质押式回购入库为“BPD”，债券质押式回购\n出库为“BPW”，债券回售、可转债回售为“BSB”，可转债转股\n为“BES”，可交换债换股为“BSS”，债券ETF 申购为“IEC”，\n债券ETF 赎回为“IER”。\n三、 备用申报通道安排\n为确保债券非交易业务平稳切换，本所为相关债券非交易业\n\n务提供以下备用申报方式：\n一是债券质押式回购出入库、可转债回售、可转债转股、可\n交换债换股、债券ETF 申赎，可通过本所债券非交易信息填报系\n统提交申报。\n二是债券回售，可通过本所债券非交易信息填报系统和固定\n收益平台提交申报。\n非交易信息填报系统为本所临时提供的网页版债券非交易\n业务备用申报通道，其下线时间另行通知。采用非交易信息填报\n系统进行申报的，需自行做好后续结算环节的相关安排。债券非\n交易信息填报系统入口如下：\n互联网访问： <span style=\"color:blue\">https://iitp.uap.sse.com.cn/otcbnt/</span>\n专网访问： <span style=\"color:blue\">http://180.7.37.3/otcbnt/</span> （陆家嘴站点）\n<span style=\"color:blue\">http://180.7.167.3/otcbnt/</span> （外高桥站点）\n四、 服务支持\n业务服务QQ 群：756446249。\n联系人：张佩宁，电话：021-68602053。\n技术服务QQ 群：537459844。\n技术支持：张永剑，电话：021-68800067、18918500842。\n技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年五月十四日\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20210514_关于上海证券交易所债券非交易业务迁移至综合业务平台有关安排的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210514_关于上海证券交易所债券非交易业务迁移至综合业务平台有关安排的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于上海证券交易所债券非交易业务迁移至综合业务平台有关安排的通知.md\",\n  \"file_hash\": \"sha256:841bc97863ccf0e37d0c524d31115ef2c461bf331f4e762614d36ef4a865b804\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.451343+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

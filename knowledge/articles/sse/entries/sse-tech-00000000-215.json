@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-215",
+  "type": "technical_notice",
+  "title": "关于发布单一股票担保物比例信息市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635133/files/52ea514454d944f5927aaaece2d45f20.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS124"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:d5fd609f3c9ff4b69c2b6459321231c3d9318143f3ffd11dab13054074dd68c7",
+  "content_markdown": "关于发布单一股票担保物比例信息\n市场接口技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS124_上海证券\n交易所市场数据文件交换接口规格说明书1.70 版_20230504（单\n一股票担保物比例信息技术开发稿）》，请市场参与者做好技术\n准备工作。\n本次技术接口主要变更内容为揭示沪市单一A 股股票及存\n托凭证作为信用账户担保物总量（持仓数量）占其上市可流通量\n的比例，新增单一股票担保物比例信息接口。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年5 月12 日\n\n<metadata>\n{\n  \"title\": \"20230512_关于发布单一股票担保物比例信息市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230512_关于发布单一股票担保物比例信息市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布单一股票担保物比例信息市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:d5fd609f3c9ff4b69c2b6459321231c3d9318143f3ffd11dab13054074dd68c7\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.677864+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

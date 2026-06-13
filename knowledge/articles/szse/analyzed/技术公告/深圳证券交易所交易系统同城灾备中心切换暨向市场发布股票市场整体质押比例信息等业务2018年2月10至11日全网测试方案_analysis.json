@@ -1,0 +1,76 @@
+{
+  "doc_id": "szse-test-00000000-053",
+  "title": "深圳证券交易所交易系统同城灾备中心切换暨向市场发布股票市场整体质押比例信息等业务2018年2月10至11日全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467438711834.pdf",
+  "analysis_date": "2026-06-13T17:46:56.982947+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "T 日、T+1 日深交所交易系统将模拟福田中心为主用中心，南方中 心为灾备中心的场景。市场参与各方按现有生产系统配置连接交易及 相关系统， 深交所交易系统同城灾备中心切换到南方中心后，市场参与人",
+      "detail": "T 日、T+1 日深交所交易系统将模拟福田中心为主用中心，南方中\n心为灾备中心的场景。市场参与各方按现有生产系统配置连接交易及\n相关系统，\n深交所交易系统同城灾备中心切换到南方中心后，市场参与人",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "业务流程变更",
+      "summary": "无须变更应用系统的线上参数，其中南方中心的接入参数与现有生产",
+      "detail": "无须变更应用系统的线上参数，其中南方中心的接入参数与现有生产",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "系统的滨海中心相同。",
+      "detail": "系统的滨海中心相同。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "市场参与人的交易网关、行情网关、文件网关、交易终端等设施 可通过福田通信线路、滨海通信线路、南方通信线路接入。深交所交",
+      "detail": "市场参与人的交易网关、行情网关、文件网关、交易终端等设施\n可通过福田通信线路、滨海通信线路、南方通信线路接入。深交所交",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "易系统同城灾备中心切换到南方中心后，滨海中心将另做它用，故各",
+      "detail": "易系统同城灾备中心切换到南方中心后，滨海中心将另做它用，故各",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "市场参与人的通信线路应尽快接入南方中心。",
+      "detail": "市场参与人的通信线路应尽快接入南方中心。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本次测试福田、南方双中心运行时，单向卫星线路、双向卫星线 路均可用。恢复验证测试时，各参测单位也应验证单向卫星线路、双 向卫星线路的可用性。",
+      "detail": "本次测试福田、南方双中心运行时，单向卫星线路、双向卫星线\n路均可用。恢复验证测试时，各参测单位也应验证单向卫星线路、双\n向卫星线路的可用性。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "债券",
+    "港股通",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及7项变更。 规则条款变更: 4项。 业务流程变更: 1项。 技术架构变更: 2项。 其中重大变更1项。",
+  "confidence": 0.95
+}

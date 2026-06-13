@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-176",
+  "type": "technical_notice",
+  "title": "关于发布上海证券交易所行情网关0.7",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072535/files/396111cbc9eb40118af908b9c5eeaa41.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": "7.0",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:f3e9c99b7c0f01acde2c4fad3105445a5cf53668f492c958d0d4e7a422e61990",
+  "content_markdown": "关于发布上海证券交易所行情网关0.7.0 版\n本的通知\n各市场机构参与者：\n为进一步提升上海证券交易所（以下简称本所）交易便利性，\n降低市场运营成本，更好地为市场提供行情数据文件服务，本所\n拟向市场发布行情网关软件MDGW_0.7.0 版本。\nMDGW_0.7.0 版本对统一监控等用户体验功能进行了优化，\n并新增单机多实例部署、通过TCP 协议同时分发行情信息给多个\n下游系统等功能。本次版本发布上线后，行情网关将正式替代行\n情接收客户端（EzSR），后续本所将择机推进EzSR 的下线。\n请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试后，开展行情网关的升级部署。软件\n安装包可通过本所官方网站“交易技术支持专区”下载。\n技术咨询电话：4009003600，技术支持邮箱：tech_support\n@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二一年七月二十三日\n\n<metadata>\n{\n  \"title\": \"20210723_关于发布上海证券交易所行情网关0.7\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210723_关于发布上海证券交易所行情网关0.7.0版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布上海证券交易所行情网关0.7.0版本的通知.md\",\n  \"file_hash\": \"sha256:f3e9c99b7c0f01acde2c4fad3105445a5cf53668f492c958d0d4e7a422e61990\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.555133+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

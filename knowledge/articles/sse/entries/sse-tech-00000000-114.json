@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-114",
+  "type": "technical_notice",
+  "title": "关于9月4日开展新债券相关业务全网测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072522/files/0bf5f7913a5843a4b4b2a2e5b5af774b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:54528e997baab36e061cd4377ab90c9445236680d1f70a085eb2f63d04b409dd",
+  "content_markdown": "关于9 月4 日开展新债券相关业务全网测试\n的通知\n各市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有\n限公司上海分公司定于2021 年9 月4 日（周六）13:15-15:30，\n组织开展竞价撮合平台、综合业务平台、固定收益平台、新债券\n交易平台全网测试（测试文档详见会员专区），使用竞价撮合平\n台00 环境、综合业务平台01 环境、新债券交易平台02 环境、固\n定收益平台环境等。\n本次测试，请各参测单位务必高度重视，安排专人负责测试\n工作，测试前做好线上系统和数据环境保护工作，测试后做好技\n术系统和数据环境恢复工作，确保下一交易日生产系统正常运行。\n测试过程中，请各参测单位详细记录测试现象与结果，检查业务\n正确性；如发现异常现象，请及时报告。测试结束后，请于9 月\n4 日（周六）17:30 前，通过测试方案中的在线反馈链接提交测\n试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年八月三十一日\n\n<metadata>\n{\n  \"title\": \"20210901_关于9月4日开展新债券相关业务全网测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210901_关于9月4日开展新债券相关业务全网测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于9月4日开展新债券相关业务全网测试的通知.md\",\n  \"file_hash\": \"sha256:54528e997baab36e061cd4377ab90c9445236680d1f70a085eb2f63d04b409dd\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.642618+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

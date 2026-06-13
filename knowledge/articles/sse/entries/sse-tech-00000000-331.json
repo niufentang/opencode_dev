@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-331",
+  "type": "technical_notice",
+  "title": "关于发布跨沪深京ETF相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072451/files/339e8c53464b4d0e8e6704019da4804e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:41b5e9e4bff539a61ed1e1d13e90b2f20478149c46f94d20f023aa75065bf074",
+  "content_markdown": "关于发布跨沪深京ETF 相关市场接口技术开\n发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS101_上海证券\n交易所竞价撮合平台市场参与者接口规格说明书1.58 版（北交\n所相关ETF 技术开发稿）_20220330》、《IS105_上海证券交易\n所综合业务平台市场参与者接口规格说明书1.51 版（北交所相\n关ETF 技术开发稿）_20220330》、《IS118_上海证券交易所特\n定参与者接口规格说明书（基金公司卷）1.7 版（北交所相关ETF\n技术开发稿）_20220330》，以供市场参与者做好技术就绪准备\n工作。\n本次市场接口的变更主要在竞价撮合平台市场参与者接口\n说明书中，配合北交所股票纳入ETF 成分证券范围，调整ETF 细\n分类别相关描述。在综合业务平台市场参与者接口规格说明书中，\n配合北交所股票纳入ETF 成分证券范围，调整现金替代类别描述，\n调整ETF 类别描述。在特定参与者接口规格说明书中，配合北交\n所股票纳入ETF 成分证券范围，调整定义文件相关字段描述。\n以上接口文件的电子版本可通过本所官方网站“交易技术支\n持专区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n\n二○二二年四月八日\n\n<metadata>\n{\n  \"title\": \"20220408_关于发布跨沪深京ETF相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220408_关于发布跨沪深京ETF相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布跨沪深京ETF相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:41b5e9e4bff539a61ed1e1d13e90b2f20478149c46f94d20f023aa75065bf074\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.066817+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

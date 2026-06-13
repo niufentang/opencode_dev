@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-122",
+  "type": "technical_notice",
+  "title": "Microsoft Word - 关于关闭竞价撮合平台指定交易业务申报通道的通知.docx",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072374/files/4041dc1fb94c48bb93206bdf7816dd04.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:f6b5fa95022fb3c50c618a046f570f95d0bb8d0e02c932fd19893232b5abb8f7",
+  "content_markdown": "关于关闭竞价撮合平台指定交易业务申报\n通道的通知\n各会员单位、其他交易参与人：\n为做好指定交易业务迁移切换上线工作，上海证券交易\n所（以下简称本所）近期发布了《关于上海证券交易所指定\n交易业务迁移切换上线有关事项的通知》，对涉及市场机构\n的有关事项进行了安排和重点提醒。根据前述通知，自2022\n年11 月21 日起，将由本所综合业务平台和互联网交易平台\n提供指定交易业务申报服务，届时，竞价撮合平台将关闭指\n定交易业务申报通道。\n请各相关市场参与人提前做好相关业务技术系统就绪\n准备，并积极参加2022 年11 月19 日本所组织的通关测试。\n若有异常，及时向本所报告。\n特此通知。\n上海证券交易所\n〇\n二\n二二年十一月十六日\n\n<metadata>\n{\n  \"title\": \"Microsoft Word - 关于关闭竞价撮合平台指定交易业务申报通道的通知.docx\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20221118_关于关闭竞价撮合平台指定交易业务申报通道的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于关闭竞价撮合平台指定交易业务申报通道的通知.md\",\n  \"file_hash\": \"sha256:f6b5fa95022fb3c50c618a046f570f95d0bb8d0e02c932fd19893232b5abb8f7\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.566049+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

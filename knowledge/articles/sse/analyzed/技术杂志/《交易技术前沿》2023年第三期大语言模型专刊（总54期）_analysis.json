@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-mag-00000000-041",
+  "title": "《交易技术前沿》2023年第三期大语言模型专刊（总54期）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10749524/files/c45ed706e6434f4ab5d16b1be6ae0da8.pdf",
+  "analysis_date": "2026-06-13T17:46:54.305293+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "0.8343 0.9063 0.9278",
+      "detail": "0.8343\n0.9063\n0.9278",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "magazine",
+    "做市商",
+    "期权",
+    "科创板",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

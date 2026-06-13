@@ -1,0 +1,49 @@
+{
+  "doc_id": "sse-iface-20220321-038",
+  "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（跨境业务卷）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072251/files/942068681e9242d3b4236a31f8e42c18.pdf",
+  "analysis_date": "2026-06-13T17:46:54.288162+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "成交明细文件中成交价格增加整数部分不超过 2022-01 V0.31 位的限制 2022-03",
+      "detail": "成交明细文件中成交价格增加整数部分不超过\n2022-01\nV0.31\n位的限制\n2022-03",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "V1.00",
+      "detail": "V1.00",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "01.00.30 ，整数部分不超过",
+      "detail": "01.00.30\n，整数部分不超过",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS122",
+    "IS419",
+    "STEP",
+    "交易网关",
+    "证通云盘",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 2项。 版本升级: 1项。",
+  "confidence": 0.95
+}

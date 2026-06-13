@@ -668,7 +668,7 @@ B 转 H 交收日：上交所 B 股和香港结算 H 股的共同交
   "effective_date": null,
   "has_changes": false,
   "parse_status": "success",
-  "parse_date": "2026-05-19T11:26:23.321474+00:00",
+  "parse_date": "2026-06-13T17:46:45.716233+00:00",
   "sub_category": "涉外与跨境业务"
 }
 </metadata>

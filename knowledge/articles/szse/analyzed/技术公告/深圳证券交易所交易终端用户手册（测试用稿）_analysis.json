@@ -1,0 +1,44 @@
+{
+  "doc_id": "szse-test-00000000-054",
+  "title": "深圳证券交易所交易终端用户手册（测试用稿）",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020200308436672182531.pdf",
+  "analysis_date": "2026-06-13T17:46:56.992137+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "点击进入用户编辑页面 点击进入重置密码页面 点击获取详细信息 点击进入成交委托申报页面 点击进入盘后定价交易申报页面 点击进入初始交易申报页面 点击进入 撤单页面 正回购初始交易区域 确认、拒 逆回购初始交易区域 点击查看质押篮子/券详情 点击进入入库页面 点击进入出库页面 担保品列表区域 出入库委托列表区域",
+      "detail": "点击进入用户编辑页面\n点击进入重置密码页面\n点击获取详细信息\n点击进入成交委托申报页面\n点击进入盘后定价交易申报页面\n点击进入初始交易申报页面\n点击进入\n撤单页面\n正回购初始交易区域\n确认、拒\n逆回购初始交易区域\n点击查看质押篮子/券详情\n点击进入入库页面\n点击进入出库页面\n担保品列表区域\n出入库委托列表区域",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "点击添加入库证券 勾选拟出库 的担保品 点击添加出库证券 查询条件区域 点击展开 详细信息 点击收起 点击查看当日申报历史 发起方交易区域 接收方交易区域",
+      "detail": "点击添加入库证券\n勾选拟出库\n的担保品\n点击添加出库证券\n查询条件区域\n点击展开\n详细信息\n点击收起\n点击查看当日申报历史\n发起方交易区域\n接收方交易区域",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "sseyxb@szse.cn",
+      "detail": "sseyxb@szse.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

@@ -4669,7 +4669,7 @@ MIN（股份数量3+股份
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:49:00.241240+00:00",
+  "parse_date": "2026-06-13T17:46:23.252960+00:00",
   "sub_category": null
 }
 </metadata>

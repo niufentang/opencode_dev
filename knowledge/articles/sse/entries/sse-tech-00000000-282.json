@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-282",
+  "type": "technical_notice",
+  "title": "关于发布期权交易系统市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10649513/files/9855a24e2e214e7cb97813ac193a2e76.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS113",
+    "IS122",
+    "交易网关",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:60407bcf5cbadb41c4489a12c51c08b2f0cef5270a5e6cbd884d315e3bf6d7a8",
+  "content_markdown": "关于发布期权交易系统市场接口的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS113_上海证券\n交易所股票期权市场参与者接口规格说明书1.5 版本\n_20230908》、《IS122_上海证券交易所交易网关接口规格说明\n书（期权平台）1.0 版_20230908》。本次技术接口主要调整内\n容为：\n1. 新增期权结算价试算结果文件(prest1p03YYYYMMDD.xml），该\n文件中为试算结果，存在调整的可能。最终结算价格信息以\n期权收盘价格文件（clpr03MMDD.txt）中的“期权参考结算\n价（Sett1Price）”字段为准。该文件仅适用于时间要求较\n高，需尽早进行风险试算的情况，不可用于实际清算业务。\n2. 交易网关接口说明中删除执行报告分区划分相关描述，调整\n执行报告分区编号分配规则说明，并增加执行报告数据持久\n化说明。执行报告分区信息、执行报告分区与业务类型的对\n应关系，存在优化变动的可能，市场参与者在使用执行报告\n分区编号时，应避免使用固定编号。\n后续，本所将择机启用以下调整，包含：\n1、盘后，不再更新行情文件接口（mktdt03.txt）、Binary/Step\n行情快照的今日结算价计算结果，相关字段取值为0。\n2、盘后，行情文件接口（mktdt03.txt）、Binary/Step 行情\n\n快照中的总持仓量为持仓余额轧差之前的数值，行情中不发送持\n仓余额轧差之后的数值。\n请市场参与者做好相关技术准备工作，相关文件电子版本可\n通过本所官方网站“交易技术支持专区”相关栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年9 月8 日\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20230908_关于发布期权交易系统市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230908_关于发布期权交易系统市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布期权交易系统市场接口的通知.md\",\n  \"file_hash\": \"sha256:60407bcf5cbadb41c4489a12c51c08b2f0cef5270a5e6cbd884d315e3bf6d7a8\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.806939+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

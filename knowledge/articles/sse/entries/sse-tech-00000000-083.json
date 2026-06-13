@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-083",
+  "type": "technical_notice",
+  "title": "关于5月21日开展竞价、综业、新债券、期权、固收、互联网等平台相关业务全网测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072437/files/554234640ef04b3286d0794ba44a9a4c.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:c0c57ded7129b1ad2caa91968721e31332a37cd3a287c1d6b647c40034ab8df5",
+  "content_markdown": "关于5 月21 日开展竞价、综业、新债券、\n期权、固收、互联网等平台相关业务\n全网测试的通知\n各市场参与人：\n上海证券交易所（以下简称本所）会同中国证券登记结算有\n限公司上海分公司定于2022 年5 月21 日（周六）9:00-15:30，\n组织开展竞价撮合、综合业务、新债券交易、期权交易、固收、\n互联网交易等平台相关业务全网测试（测试文档详见会员专区），\n使用竞价撮合平台00 环境、综合业务平台01 环境、新债券交易平\n台02 环境、期权交易平台03 环境、固定收益平台环境、互联网交\n易环境等。\n本次测试，请各参测单位务必高度重视，安排专人负责测试\n工作，测试前做好线上系统和数据环境保护工作，测试后做好技\n术系统和数据环境恢复工作，确保下一交易日生产系统正常运行。\n测试过程中，请各参测单位详细记录测试现象与结果，检查业务\n正确性；如发现异常现象，请及时报告。测试结束后，请于5 月\n21 日（周六）17:00 前，通过测试方案中的在线反馈链接提交测\n试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二二年五月十八日\n\n<metadata>\n{\n  \"title\": \"20220518_关于5月21日开展竞价、综业、新债券、期权、固收、互联网等平台相关业务全网测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220518_关于5月21日开展竞价、综业、新债券、期权、固收、互联网等平台相关业务全网测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于5月21日开展竞价、综业、新债券、期权、固收、互联网等平台相关业务全网测试的通知.md\",\n  \"file_hash\": \"sha256:c0c57ded7129b1ad2caa91968721e31332a37cd3a287c1d6b647c40034ab8df5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.167266+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

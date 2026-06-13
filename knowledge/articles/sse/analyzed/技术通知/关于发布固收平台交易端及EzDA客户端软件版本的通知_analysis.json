@@ -1,0 +1,24 @@
+{
+  "doc_id": "sse-tech-00000000-242",
+  "title": "关于发布固收平台交易端及EzDA客户端软件版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072420/files/728df0048df843039290a1d71473503f.pdf",
+  "analysis_date": "2026-06-13T17:46:55.059070+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

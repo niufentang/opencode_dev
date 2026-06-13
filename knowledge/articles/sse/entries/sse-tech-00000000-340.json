@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-340",
+  "type": "technical_notice",
+  "title": "关于市场技术服务平台网关及专用数字证书申请一站式服务上线的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072484/files/0095df8f6cce4b5fbd4d30fb734f1739.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b7b989e30e72c412b5b6e0f69c1e7004e973c0175cbc865a0dc16802d1314edf",
+  "content_markdown": "关于市场技术服务平台网关及专用数字\n证书申请一站式服务上线的通知\n各市场参与人：\n为进一步提升上海证券交易所（以下简称本所）股票市场交\n易服务水平，为市场机构带来交易便捷性，基于本所下属上交所\n技术有限责任公司（以下简称技术公司）证通云的市场技术服务\n平台，自12 月20 日起面向市场机构正式推出交易网关、行情网\n关及专用数字证书申请一站式电子化业务办理服务。通过业务流\n程数字化，实现办理进度可跟踪、办理结果可提醒、历史业务可\n查询等功能。\n申请服务指南等文档可通过本所技术公司官方网站的“产品\n服务”相关栏目下载获取。\n技术咨询电话：4009003600；技术支持邮箱:tech_support\n@sse.com.cn;技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二一年十二月十六日\n\n<metadata>\n{\n  \"title\": \"20211216_关于市场技术服务平台网关及专用数字证书申请一站式服务上线的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20211216_关于市场技术服务平台网关及专用数字证书申请一站式服务上线的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于市场技术服务平台网关及专用数字证书申请一站式服务上线的通知.md\",\n  \"file_hash\": \"sha256:b7b989e30e72c412b5b6e0f69c1e7004e973c0175cbc865a0dc16802d1314edf\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.830105+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

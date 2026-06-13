@@ -1,0 +1,24 @@
+{
+  "id": "szse-tech-00000000-032",
+  "type": "technical_notice",
+  "title": "中国联通专线业务申请资料",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467412365144.zip",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "szse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "zip",
+  "file_hash": "sha256:6386aff991f7610e0957d2da690b7fd992af106381fc60932d49567fb298a551",
+  "content_markdown": "*[ZIP archive: 20171214_中国联通专线业务申请资料.zip — needs recursive extraction]*\n\n<metadata>\n{\n  \"title\": \"20171214_中国联通专线业务申请资料\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\szse\\\\技术公告\\\\20171214_中国联通专线业务申请资料.zip\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\szse\\\\markdown\\\\技术公告\\\\中国联通专线业务申请资料.md\",\n  \"file_hash\": \"sha256:6386aff991f7610e0957d2da690b7fd992af106381fc60932d49567fb298a551\",\n  \"file_format\": \"zip\",\n  \"page_count\": 0,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:45.251114+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

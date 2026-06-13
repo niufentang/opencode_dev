@@ -1,0 +1,33 @@
+{
+  "doc_id": "szse-guide-20121207-112",
+  "title": "SZSE999999-TG06约定购回业务之券商技术系统变更指南（Ver1.10）",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020180328467280517742.pdf",
+  "analysis_date": "2026-06-13T17:46:57.337616+00:00",
+  "status": "active",
+  "version": "1.10",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "附件二、约定购回业务的结算数据接口 修订说明 附件三、 约定购回业务数据报送指南 ssegcb@szse.cn szjsb@chinaclear.com.cn www.chinaclear.cn",
+      "detail": "附件二、约定购回业务的结算数据接口\n修订说明\n附件三、\n约定购回业务数据报送指南\nssegcb@szse.cn\nszjsb@chinaclear.com.cn\nwww.chinaclear.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "交易网关",
+    "债券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

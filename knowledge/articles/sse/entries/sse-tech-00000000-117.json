@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-117",
+  "type": "technical_notice",
+  "title": "关于上交所陆家嘴数据中心轻型化通信服务器搬迁的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072517/files/8c39e1caa7494ebf88d281478f435ac4.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:060ff4464851068f5d30ece0c62c42d2770653b8b3cefcbcdb0148f4753fd0cc",
+  "content_markdown": "关于上交所陆家嘴数据中心轻型化通信\n服务器搬迁的通知\n各市场参与者：\n上海证券交易所（以下简称本所）定于2021 年9 月18 日-19\n日将陆家嘴数据中心的轻型化通信服务器（EZCS）搬迁至金桥数\n据中心。\n为确保本次搬迁工作有序开展和维护证券市场的平稳运行，\n请各市场参与者务必高度重视，组织专人负责做好以下事宜：\n1、参与9 月20 日本所组织的全市场用户测试，检验市场各\n方技术系统运行状态，具体测试方案另行通知。\n2、做好9 月22 日首个交易日保障工作，上午8:00 前完成\n各系统登录，并做好业务监测及应急准备工作。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年九月十七日\n\n<metadata>\n{\n  \"title\": \"20210917_关于上交所陆家嘴数据中心轻型化通信服务器搬迁的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210917_关于上交所陆家嘴数据中心轻型化通信服务器搬迁的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于上交所陆家嘴数据中心轻型化通信服务器搬迁的通知.md\",\n  \"file_hash\": \"sha256:060ff4464851068f5d30ece0c62c42d2770653b8b3cefcbcdb0148f4753fd0cc\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.676725+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

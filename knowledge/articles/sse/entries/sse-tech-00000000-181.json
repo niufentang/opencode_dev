@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-181",
+  "type": "technical_notice",
+  "title": "关于发布交易网关TDGW_0.10",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072512/files/aa756d3762974bb7b8cb6718e03aef12.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关",
+    "债券",
+    "期权"
+  ],
+  "status": "active",
+  "version": "10.5",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:04463524ae23101c46881fa1f841279d7c99cab8c7f1b842656c6e83ac4d0635",
+  "content_markdown": "关于发布交易网关TDGW_0.10.5版本的通知\n各市场参与者：\n为更好地为市场参与者提供服务，上海证券交易所（以下简\n称本所）拟向市场发布交易网关TDGW_0.10.5 版本。\n本次交易网关软件版本变更主要为支持新债券订单申报、回\n报接收、PBU 订阅和敲门等功能，将新债券平台接入集中监控，\n并升级开源组件，同时，本次版本将支持期权平台与债券平台使\n用。\n请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试。\n上述软件安装包可通过本所官方网站“交易技术支持专区”\n下载。\n技术咨询电话：4009003600 ，技术支持邮箱：\ntech_support@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二一年九月二十四日\n\n<metadata>\n{\n  \"title\": \"20210924_关于发布交易网关TDGW_0.10\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210924_关于发布交易网关TDGW_0.10.5版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布交易网关TDGW_0.10.5版本的通知.md\",\n  \"file_hash\": \"sha256:04463524ae23101c46881fa1f841279d7c99cab8c7f1b842656c6e83ac4d0635\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.697108+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

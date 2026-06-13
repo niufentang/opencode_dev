@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-183",
+  "type": "technical_notice",
+  "title": "关于发布交易网关TDGW_0.8",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072567/files/d06e46e2a5ae4685ad8f9dfbd7ff5468.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "交易网关",
+    "期权"
+  ],
+  "status": "active",
+  "version": "8.6",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:5e494e297dce6c150ba3dd2bc4c302c0569c733c2a8016fc049c3e49fa71fd36",
+  "content_markdown": "关于发布交易网关TDGW_0.8.6 版本的通知\n各期权市场参与者：\n为提升交易服务水平，上海证券交易所（以下简称“本所”）\n拟对市场发布交易网关TDGW_0.8.6，交易网关作为现有报盘软\n件EzSTEP 的升级产品，支持流式接口，目前支持接入期权交易\n平台。\n请期权市场参与者认真仔细阅读用户手册（见软件安装包），\n在全天候全真测试环境进行充分测试验证，并按测试通知要求参\n与全网测试。\n软件安装包可通过本所网站“交易技术支持专区”下载。\n技术咨询电话：4009003600，技术支持邮箱：tech_support\n@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年二月二十六日\n\n<metadata>\n{\n  \"title\": \"20210226_关于发布交易网关TDGW_0.8\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210226_关于发布交易网关TDGW_0.8.6版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布交易网关TDGW_0.8.6版本的通知.md\",\n  \"file_hash\": \"sha256:5e494e297dce6c150ba3dd2bc4c302c0569c733c2a8016fc049c3e49fa71fd36\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.316794+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

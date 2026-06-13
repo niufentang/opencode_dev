@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-tech-00000000-216",
+  "title": "关于发布单一股票担保物比例信息市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10642021/files/22d84802968041f49dd5208f800e90ab.pdf",
+  "analysis_date": "2026-06-13T17:46:54.965116+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS124"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

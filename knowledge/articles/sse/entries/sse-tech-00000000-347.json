@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-347",
+  "type": "technical_notice",
+  "title": "关于开展竞价、综业、固收平台相关业务全网测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072558/files/e523c3a1f61744bcafb13389a949ab65.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:70fa2265717d8803de9f95892b0f1f70206c3b1d41c38b92ff5c121114e053b2",
+  "content_markdown": "关于开展竞价、综业、固收平台相关业务全\n网测试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有限公司上海分\n公司定于2021 年4 月17 日（周六）14：15-19:00，组织开展竞价撮合平台、综\n合业务平台、固收生产环境相关业务全网测试（测试文档详见会员专区），使用\n竞价撮合平台88 环境、综合业务平台89 环境、固收平台生产环境。本次测试主要\n验证债券非交易业务迁移后，综合业务平台开展债券非交易业务情况、通过债券\n非交易信息填报系统申报债券非交易业务的可用性以及固定收益平台陆家嘴互\n联网入口通关测试。\n请参与本次测试的市场参与者于4 月14 日前，在本所会员专区报备2 个\n参测账户信息，我们将为报备账户增加相关持仓数据（参与3 月20 日、4 月10\n日全网测试并已报备账户的机构本次可以不报备，我们将为相关账户默认增加相\n关持仓）。各参测单位务必高度重视，安排专人负责测试工作，测试前做好线上\n系统和数据环境保护工作，测试后做好技术系统和数据环境恢复工作，确保下一\n交易日生产系统正常运行。测试过程中，请各参测单位详细记录测试现象与结果，\n检查业务正确性；如发现异常现象，请及时报告。测试结束后，请于4 月17 日\n（周六）20:00 前，在会员专区提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年四月七日\n\n<metadata>\n{\n  \"title\": \"20210414_关于开展竞价、综业、固收平台相关业务全网测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210414_关于开展竞价、综业、固收平台相关业务全网测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于开展竞价、综业、固收平台相关业务全网测试的通知.md\",\n  \"file_hash\": \"sha256:70fa2265717d8803de9f95892b0f1f70206c3b1d41c38b92ff5c121114e053b2\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.384221+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

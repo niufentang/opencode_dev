@@ -1,0 +1,107 @@
+{
+  "doc_id": "sse-guide-20260519-455",
+  "title": "上海证券交易所新固定收益系统市场参与人技术实施指南（技术开发稿）_20260519",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10816480/files/2f6d4773eb954b5e826f6e4d0ee32d12.pdf",
+  "analysis_date": "2026-06-13T17:46:56.390100+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026",
+      "detail": "2026",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "四、回退安排 各市场机构应具备 日为上线切换日）盘前（ 9:00 能力，回退所需的程序或脚本应当提前准备就绪。如上线切换首日出现预期外异 常场景时，需根据交易所通知，配合完成相应回退操作。回退后，各市场机构需 要清除缓存数据，重新登录老固收系统获取参考数据，开展后续业务。 特别地，针对 日回退时，如下场景需关注：",
+      "detail": "四、回退安排\n各市场机构应具备\n日为上线切换日）盘前（\n9:00\n能力，回退所需的程序或脚本应当提前准备就绪。如上线切换首日出现预期外异\n常场景时，需根据交易所通知，配合完成相应回退操作。回退后，各市场机构需\n要清除缓存数据，重新登录老固收系统获取参考数据，开展后续业务。\n特别地，针对\n日回退时，如下场景需关注：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "各市场机构基于交易所提供的新老系统编号映射文件（ se070xfispreversenoyy yymmdd001.txt yyyymmdd",
+      "detail": "各市场机构基于交易所提供的新老系统编号映射文件（\nse070xfispreversenoyy\nyymmdd001.txt\nyyyymmdd",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "为当前交易日日期，仅包含协议回购业务。具体格",
+      "detail": "为当前交易日日期，仅包含协议回购业务。具体格",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "式如下）完成数据转换。 字段说明",
+      "detail": "式如下）完成数据转换。\n字段说明",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "是否必填",
+      "detail": "是否必填",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "编号类型",
+      "detail": "编号类型",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "枚举值：",
+      "detail": "枚举值：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ORDER：订单编号 TRADE ：成交编号 新固收编号 成交/申报日期 老固收编号 转换后生成的老固收编号（仅对 首期和续做有效，其他业务新老 固收编号相同），右对齐 会员内部订单编号 仅对订单编号有效",
+      "detail": "ORDER：订单编号\nTRADE\n：成交编号\n新固收编号\n成交/申报日期\n老固收编号\n转换后生成的老固收编号（仅对\n首期和续做有效，其他业务新老\n固收编号相同），右对齐\n会员内部订单编号\n仅对订单编号有效",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "仅支持协议回购首期新开合约及到期续做新开合约数据回迁至老固收系统，",
+      "detail": "仅支持协议回购首期新开合约及到期续做新开合约数据回迁至老固收系统，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "便于开展后续业务。",
+      "detail": "便于开展后续业务。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS109",
+    "IS111",
+    "IS118",
+    "IS119",
+    "IS120",
+    "IS122",
+    "IS124",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及11项变更。 规则条款变更: 7项。 技术架构变更: 2项。 接口字段变更: 2项。",
+  "confidence": 0.95
+}

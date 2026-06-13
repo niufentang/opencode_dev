@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-131",
+  "type": "technical_notice",
+  "title": "关于发布ETF多码合一市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072461/files/a7c29b1e9dd64f9f9131e4a94ae2f3ba.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b1221c0dea216287a3520e167724da566603e6b3c3c1929d13b95dcef0fe05e4",
+  "content_markdown": "关于发布ETF 多码合一市场接口\n技术开发稿的通知\n各市场参与者：\n为进一步提高上海证券交易所（以下简称“本所”）交易服\n务，便利市场参与，本所拟推动沪市ETF“多码合一”，并将ETF\n申赎业务由竞价撮合平台迁移至综合业务平台。本所拟发布\n《IS101_上海证券交易所竞价撮合平台市场参与者接口规格说\n明书1.57 版_20220228（ETF 多码合一&ETF 细分类别技术开发\n稿）》、《IS105_上海证券交易所综合业务平台市场参与者接口\n规格说明书1.50 版_20220228（ETF 多码合一技术开发稿）》、\n《IS118_上海证券交易所特定参与者接口规格说明书（基金公司\n卷）1.6 版_20220228（多码合一技术开发稿）》、《ETF 多码\n合一相关业务市场参与者技术实施指南(技术开发稿)1.1 版》，\n以供市场参与者做好技术就绪准备工作。\n本次市场接口的调整内容主要是统一ETF 实物申赎/ETF 现\n金申赎/黄金ETF 实物申赎实时接口，删除ETF 现金申赎和黄金\nETF 实物申赎业务实时相关接口说明；删除过户数据接口中关于\nETF 现金申赎和黄金ETF 实物申赎的相关说明，并将申赎业务过\n户记录合并到基金过户数据接口，调整ETF 实物申赎过户记录相\n关说明。\n以上相关文件电子版本可通过本所官方网站“交易技术支持\n专区”相关栏目下载。\n\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年三月一日\n\n<metadata>\n{\n  \"title\": \"20220302_关于发布ETF多码合一市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220302_关于发布ETF多码合一市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布ETF多码合一市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:b1221c0dea216287a3520e167724da566603e6b3c3c1929d13b95dcef0fe05e4\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.003542+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

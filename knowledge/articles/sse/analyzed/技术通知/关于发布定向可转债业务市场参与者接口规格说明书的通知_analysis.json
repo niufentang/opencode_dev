@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-iface-00000000-252",
+  "title": "关于发布定向可转债业务市场参与者接口规格说明书的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072587/files/b2ba729568d2402696585fe3d2e0bc6d.pdf",
+  "analysis_date": "2026-06-13T17:46:55.094296+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS101",
+    "IS105",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "confidence": 0.75
+}

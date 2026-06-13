@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-357",
+  "type": "technical_notice",
+  "title": "关于竞价撮合平台通信服务器下线相关工作的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072393/files/c5ad09845d184ec39333968cb78df33b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:87ae90ae4e124ada7071fc37ce0a017ea50585f46db20a51c4448802f4a1c499",
+  "content_markdown": "关于竞价撮合平台通信服务器下线\n相关工作的通知\n各市场参与者：\n上海证券交易所（以下简称“本所”）计划于2022 年9 月\n23 日下线所有竞价撮合平台（MTP）通信服务器CS（以下简称\n“CS”），竞价撮合平台CS 下线后，EzTrans、RptGet 和ETFPut\n相关功能一并停止。请各市场参与者根据下线实施计划的时间\n节点做好如下工作：\n1）按照《关于开展上海证券交易所EzTrans、EzSR 等客户\n端软件下线相关工作的通知》的相关要求，停止使用EzTrans、\nRptGet 和ETFPut 软件。\n2）请于9 月24 日参加全市场用户演练，验证通过证通云\n盘进行上传、下载服务，具体测试时间以后续测试通知为准，\n请市场参与者做好相关技术系统验证工作。\n技术咨询电话：4009003600，QQ群：298643611。\n特此通知。\n上交所技术有限责任公司\n二 〇 二二年八月二十五日\n第 1 页\n\n附件：下线CS ip 地址\n序号\n下线CS ip\n1\n180.2.44.1\n2\n180.2.45.1\n3\n180.2.46.1\n4\n180.2.87.1\n5\n180.2.178.1\n6\n180.2.179.1\n7\n180.2.181.1\n8\n180.2.187.1\n第 2 页\n\n<metadata>\n{\n  \"title\": \"20220829_关于竞价撮合平台通信服务器下线相关工作的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220829_关于竞价撮合平台通信服务器下线相关工作的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于竞价撮合平台通信服务器下线相关工作的通知.md\",\n  \"file_hash\": \"sha256:87ae90ae4e124ada7071fc37ce0a017ea50585f46db20a51c4448802f4a1c499\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.474528+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

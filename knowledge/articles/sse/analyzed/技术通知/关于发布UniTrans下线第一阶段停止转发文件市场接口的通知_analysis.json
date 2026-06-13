@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-156",
+  "title": "关于发布UniTrans下线第一阶段停止转发文件市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10749336/files/fc84acf9af31478ab8a6ff6246cbca86.pdf",
+  "analysis_date": "2026-06-13T17:46:54.748748+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS118",
+    "UniTrans",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

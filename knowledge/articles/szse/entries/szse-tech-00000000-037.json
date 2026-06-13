@@ -1,0 +1,26 @@
+{
+  "id": "szse-tech-00000000-037",
+  "type": "technical_notice",
+  "title": "关于做好质押式回购行情增加发布加权平均利率等信息的技术准备通知",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467341094477.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "szse",
+    "technical_notice",
+    "STEP",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:91dbc8563a1c6241269f675c228e1e9b6967b635156ff5d06fbbf45f4f4dd1c8",
+  "content_markdown": "关于做好质押式回购行情增加发布加权平均利\n率等信息的技术准备通知\n各会员、信息服务商及相关单位：\n为进一步完善回购利率形成机制，引导市场参与者正确解读\n交易所回购利率，为市场参与者提供更好的参考指标，深圳证券\n交易所（以下简称“深交所”）拟在质押式回购产品的实时行情快\n照中增加发布加权平均利率等信息。现将有关技术系统准备事项\n通知如下：\n一、深交所每个交易日实时发布的质押式回购产品实时行情\n快照报文（ Binary: 300111 ， STEP: W ，行情类别为 020 ）中增加\n发布以下信息，券商及信息商行情系统应可以正常接收、解析并\n揭示这些信息：\n行情信息\n对应行情条目类别\n说明\n实时加权\n9= 加权平均价\n截止行情发布时点的所\n有成交的成交量加权平\n平均利率\n均利率，精确到 5 位小\n数\n加权平均\nxj= 加权平均价涨跌 BP\n取值为（实时加权平均\n利率涨跌\n利率 - 昨收盘加权平均\nBP\n利率） *100 ，四舍五入\n\n到个位\n昨收盘加\nxk= 昨收盘加权平均价\n昨日收盘加权平均利\n权平均利\n率，精确到 5 位小数\n率\n最近价涨\nx1= 升跌一\n此行情条目为已发布行\n情条目，其取值为最近\n跌 BP\n价 - 昨收价，将此行情条\n目的价格乘以 100 ，四\n舍五入到个位即为最近\n价涨跌 BP\n二、 STEP 和 Binary 行情数据接口规范将升级到 1.02 版本，\n用户使用协议版本号 1.00 、 1.01 、 1.02 都可以收到新增的行情条\n目。\n三、 STEP 行情数据接口最多同时支持 3 个版本，下一次行\n情数据接口升级时将废弃 1.00 版本，届时仍使用 1.00 协议版本\n的用户将无法登录行情网关，建议各会员及相关单位在本次升级\n时使用最新版本号 1.02 。使用 STEP 行情数据接口的用户建议将\n登录行情网关的协议版本号 DefaultCstmApplVerID 修改为\nSTEP1.20_SZ_1.02 ，使用 Binary 行情数据接口的用户建议将登\n录行情网关的协议版本号 DefaultApplVerID 修改为 1.02 。\n四、相关单位可从深交所网站“技术专栏 -> 数据接口”\n（ http://www.szse.cn/main/rule/jszl/ ）下载《深圳证券交易所 STEP\n行情数据接口规范（ Ver1.02 ）》、《深圳证券交易所 Binary 行情数\n据接口规范（ Ver1.02 ）》。\n\n五、请各会员及相关单位根据上述要求，于 2017 年 6 月 9\n日前做好相关技术准备。\n六、深交所将择机组织仿真测试和全网测试，测试通知另行\n发布。\n七、联系电话\n技术： 0755-88668728\n业务： 0755-88668870\n特此通知\n深圳证券交易所\n2017 年 4 月 21 日\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20170425_关于做好质押式回购行情增加发布加权平均利率等信息的技术准备通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\szse\\\\技术公告\\\\20170425_关于做好质押式回购行情增加发布加权平均利率等信息的技术准备通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\szse\\\\markdown\\\\技术公告\\\\关于做好质押式回购行情增加发布加权平均利率等信息的技术准备通知.md\",\n  \"file_hash\": \"sha256:91dbc8563a1c6241269f675c228e1e9b6967b635156ff5d06fbbf45f4f4dd1c8\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 3,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:45.159651+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

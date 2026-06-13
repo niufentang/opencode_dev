@@ -1572,7 +1572,7 @@ HKD1.00/ 股
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-19T11:26:22.865776+00:00",
+  "parse_date": "2026-06-13T17:46:45.378388+00:00",
   "sub_category": "涉外与跨境业务"
 }
 </metadata>

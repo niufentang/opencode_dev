@@ -1,17 +1,16 @@
 {
   "id": "sse-tech-00000000-082",
   "type": "technical_notice",
-  "title": "关于发布行情网关MDGW_1.2",
+  "title": "关于5月15日开展竞价、综业平台通关测试的通知",
   "source": "sse",
-  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10792147/files/9d3951fb7ed2492cab9af98048aba569.pdf",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072551/files/1512ccc6268a4fc79b7447f9274df5a8.pdf",
   "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
   "tags": [
     "sse",
-    "technical_notice",
-    "行情网关"
+    "technical_notice"
   ],
   "status": "active",
-  "version": "2.10",
+  "version": null,
   "previous_version": null,
   "public_date": null,
   "crawl_date": null,
@@ -20,6 +19,6 @@
   "superseded_by": null,
   "related_ids": [],
   "file_format": "pdf",
-  "file_hash": "sha256:1f07991d215d97aeadaeb95fd80f29cc00adee96a3a1651872946947f4fd569a",
-  "content_markdown": "关于发布行情网关 MDGW_1.2.10 版本的\n通知\n各市场参与人：\n为更好地为市场提供行情数据文件服务，现发布行情网\n关软件 MDGW_1.2.10 版本。本次行情网关软件版本变更内\n容包括行情任务新增订阅类型“外部源行情”，支持独立流\nIOPV 行情转发，新增行情文件 mktdte.txt 。推荐市场参与人\n进行升级。\n另外提醒，独立 IOPV 行情相关工作分两个阶段开展，\n目前开展第一阶段工作（第一阶段：上海证券交易所向市场\n机构以试运行的形式发布独立 IOPV 行情，各市场机构应保\n持以现有渠道（ SecurityType=1 及 mktdt00.txt ）接收 IOPV 行\n情，独立 IOPV 行情数据仅供参考，不应用做正式用途。第\n二阶段：正式发布外部源 IOPV 行情，市场机构应切换外部\n源 IOPV 行情为生产使用）。第二阶段工作将另行通知。\n请各市场参与人仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试后，开展行情网关的升级部署。\n上述软件安装包可通过市场技术服务平台“技术支持与信息\n管理” > “软件与技术文档” > “软件下载”栏目进行下载。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n\n上海证券交易所\n2025 年 9 月 19 日\n\n<metadata>\n{\n  \"title\": \"20250919_关于发布行情网关MDGW_1.2\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250919_关于发布行情网关MDGW_1.2.10版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布行情网关MDGW_1.2.10版本的通知.md\",\n  \"file_hash\": \"sha256:1f07991d215d97aeadaeb95fd80f29cc00adee96a3a1651872946947f4fd569a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:42.670308+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+  "file_hash": "sha256:b695d86e04e963cbc6f8fef3cbf9242c2e6bc714b9fa83f289b0fef7dc1da3e8",
+  "content_markdown": "关于开展竞价平台相关业务通关测试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）定于2021 年5 月15 日（周\n六）9：15-12：00 组织开展竞价平台相关业务测试。测试环境\n为竞价撮合平台（00 环境）、综合业务平台（01 环境）。测试行\n情文件为mktdt00.txt、mktdt01.txt。测试方案可在本所会员\n专区下载。\n请各参测单位落实专人负责，做好测试准备。测试完成后，\n请务必做好系统和数据恢复工作，保证下一交易日交易和结算业\n务的正常开展。\n上海证券交易所\n二 〇 二 一 年五月十一日\n\n<metadata>\n{\n  \"title\": \"20210511_关于5月15日开展竞价、综业平台通关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210511_关于5月15日开展竞价、综业平台通关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于5月15日开展竞价、综业平台通关测试的通知.md\",\n  \"file_hash\": \"sha256:b695d86e04e963cbc6f8fef3cbf9242c2e6bc714b9fa83f289b0fef7dc1da3e8\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.441213+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
 }

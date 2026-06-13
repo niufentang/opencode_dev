@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-20250317-144",
+  "doc_id": "sse-iface-20250317-431",
   "title": "IS124_上海证券交易所市场数据文件交换接口规格说明书",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10816475/files/275f7b21a4d640c29ce2f25a4e84b5f0.pdf",
-  "analysis_date": "2026-05-02T02:03:06.695620+00:00",
+  "analysis_date": "2026-06-13T17:46:56.248822+00:00",
   "status": "deprecated",
   "version": null,
   "previous_version": null,
@@ -47,6 +47,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及3项变更。 废止: 1项。 规则条款变更: 2项。",
+  "summary": "本次涉及3项变更。 规则条款变更: 2项。 废止: 1项。",
   "confidence": 0.95
 }

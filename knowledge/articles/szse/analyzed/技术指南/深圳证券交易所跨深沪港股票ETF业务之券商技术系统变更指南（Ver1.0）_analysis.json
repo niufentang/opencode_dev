@@ -1,0 +1,38 @@
+{
+  "doc_id": "szse-guide-20200921-109",
+  "title": "深圳证券交易所跨深沪港股票ETF业务之券商技术系统变更指南（Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020200929598298261671.pdf",
+  "analysis_date": "2026-06-13T17:46:57.319236+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "市组合券赎回现金替代） 港市组合券赎回现金替 执行编号 （仅跨市场 港市组合 券赎回现金替代填写） ‘03’ 港市组合券赎回现金 港市组合券赎 回现金替代 合券赎回现金替代填 港市组合券 赎回现金替代）",
+      "detail": "市组合券赎回现金替代）\n港市组合券赎回现金替\n执行编号\n（仅跨市场\n港市组合\n券赎回现金替代填写）\n‘03’\n港市组合券赎回现金\n港市组合券赎\n回现金替代\n合券赎回现金替代填\n港市组合券\n赎回现金替代）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ssegcb@szse.cn szjsb@chinaclear.com.cn",
+      "detail": "ssegcb@szse.cn\nszjsb@chinaclear.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "债券",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

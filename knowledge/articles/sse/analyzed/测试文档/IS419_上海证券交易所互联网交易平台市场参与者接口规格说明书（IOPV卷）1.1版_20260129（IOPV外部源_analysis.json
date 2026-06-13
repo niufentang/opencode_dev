@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-20250815-153",
+  "doc_id": "sse-iface-20250815-440",
   "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（IOPV卷）1",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072251/files/942068681e9242d3b4236a31f8e42c18.pdf",
-  "analysis_date": "2026-05-02T02:03:06.776282+00:00",
+  "analysis_date": "2026-06-13T17:46:56.328215+00:00",
   "status": "active",
   "version": null,
   "previous_version": null,
@@ -242,6 +242,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及32项变更。 接口字段变更: 2项。 规则条款变更: 23项。 修改: 2项。 版本升级: 2项。 技术架构变更: 3项。 其中重大变更3项。",
+  "summary": "本次涉及32项变更。 接口字段变更: 2项。 技术架构变更: 3项。 规则条款变更: 23项。 修改: 2项。 版本升级: 2项。 其中重大变更3项。",
   "confidence": 0.95
 }

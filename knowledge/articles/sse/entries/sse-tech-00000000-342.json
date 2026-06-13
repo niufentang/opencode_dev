@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-342",
+  "type": "technical_notice",
+  "title": "关于开展EzTrans、EzSR等客户端软件下线相关工作的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072394/files/cd10a53b64b3485bb438b329e382519e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权",
+    "行情网关",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:641e394cb3c093cfa88378f5999d08749593c6271e35d2df09b5145a1c986ac9",
+  "content_markdown": "关于开展EzTrans、EzSR 等客户端软件\n下线相关工作的通知\n各市场参与者：\n上海证券交易所通用文件传输软件（简称“EzTrans”）和\n行情接收客户端（简称“EzSR”）自2014 年上线以来，平稳运\n行至今。市场参与者可通过EzTrans 下载盘后私有文件，上传报\n表类文件；通过EzSR 接收实时行情文件。\n随着证通云盘和行情网关的上线，EzTrans 和EzSR 的功能\n已被以上软件全部替代，目前证通云盘和行情网关已成为市场参\n与者主用的文件和行情传输软件。另一方面，根据《关于竞价撮\n合平台通信服务器下线相关工作的通知》\n（http://www.sse.com.cn/services/tradingservice/trading\ntech/newnotice/c/SSE_CS_Notice_20210422.pdf）,上交所拟逐\n步关闭EzTrans、RptGet 和ETFPut 软件服务，其中RptGet 和\nETFPut 已停止技术支持。\n为规范和统一上交所文件传输渠道，降低行业运营成本，提\n高市场用户体验，拟下线EzTrans、EzSR、RptGet、ETFPut 等客\n户端软件，请市场参与者做好如下工作：\n1）请市场参与者于9 月8 日前调整贵司相关技术系统配置，\n停止使用EzTrans、RptGet 和ETFPut 软件，上述软件的功能可\n通过证通云盘代替。\n2）根据《关于竞价撮合平台通信服务器下线相关工作的通\n知》，剩余竞价撮合平台CS 下线后，EzTrans、RptGet 和ETFPut\n\n相关功能一并停止。请相关市场参与者根据后续全网和通关测试\n通知要求，安排贵司技术系统进行测试和验证。\n3）请于9 月30 日前调整贵司相关技术系统配置，停止使用\nEzSR 客户端，EzSR 功能可通过行情网关和UT5 代替。EzSR 下线\n全网测试和通关测试时间请以后续测试通知为准，请市场参与者\n做好相关技术系统验证工作。\n4）期权全真测试环境EzSR 和EzTrans 暂不下线。\n请市场参与者于9 月8 日前反馈EzTrans、RptGet 和ETFPut\n软件下线就绪情况，9 月30 日前反馈EzSR 软件下线就绪情况。\nEzTrans 反馈链接：https://survey.sse.com.cn/q/wxQ4l0\nEzSR 反馈链接：https://survey.sse.com.cn/q/p0A8OX\n技术咨询电话：4009003600，QQ群：298643611。\n特此通知。\n上交所技术有限责任公司\n二 〇 二 二 年八月二十五日\n\n<metadata>\n{\n  \"title\": \"20220829_关于开展EzTrans、EzSR等客户端软件下线相关工作的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220829_关于开展EzTrans、EzSR等客户端软件下线相关工作的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于开展EzTrans、EzSR等客户端软件下线相关工作的通知.md\",\n  \"file_hash\": \"sha256:641e394cb3c093cfa88378f5999d08749593c6271e35d2df09b5145a1c986ac9\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.463665+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

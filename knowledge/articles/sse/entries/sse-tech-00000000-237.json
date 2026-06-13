@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-237",
+  "type": "technical_notice",
+  "title": "关于发布固定收益证券综合电子平台交易端_V7.2.3",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072527/files/6ca8a7e13239498a93287abe2cee746d.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：7.2.3。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": "7.2.3",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": null,
+  "content_markdown": "关于发布固定收益证券综合电子平台\n交易端_V7.2.3.4 版的通知\n各会员、其他市场参与主体：\n为更好地为市场参与者提供服务，上海证券交易所（以下简\n称本所）拟对市场发布固定收益证券综合电子平台交易端\n_V7.2.3.4 版。\n本次市场端软件涉及的主要变更为可支持面向部分参与人\n报价、 E 账号权限控制（只能卖不能买）、交易员与证券账户解\n绑等业务功能。\n请各市场参与者在测试环境进行充分测试。\n本次升级为强制升级，软件支持自动升级，也可通过本所网\n站“交易技术支持专区”下载。\n技术咨询电话：4009003600，技术支持邮箱：tech_support\n@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年八月十二日\n\n<metadata>\n{\n  \"title\": \"20210813_关于发布固定收益证券综合电子平台交易端_V7.2.3\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210813_关于发布固定收益证券综合电子平台交易端_V7.2.3.4版的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益证券综合电子平台交易端_V7.2.3.4版的通知.md\",\n  \"file_hash\": \"sha256:472ad6b3571b02b9265cbd44adae6f20f4ed7e9a66f7351aee933f8255ce521a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": \"7.2.3\",\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.614563+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-307",
+  "type": "technical_notice",
+  "title": "关于发布紫晶存储事件先行赔付申报市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10642023/files/5744e579c7544a47a7540110cad210ae.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:0518e2486813b8f6f21e4ab5601ee5a47e28490dcc30b4460d087b57ed8f49fb",
+  "content_markdown": "关于发布紫晶存储事件先行赔付申报市场\n接口的通知\n各市场参与者：\n为配合紫晶存储事件先行赔付专项资金适格投资者赔付实\n施工作，上海证券交易所（以下简称本所）将提供先行赔付申报\n相关服务，拟发布《IS105_上海证券交易所综合业务平台市场参\n与者接口规格说明书1.53 版_20230522》、《上海证券交易所先\n行赔付市场参与者技术实施指南》，请市场参与者做好技术准备\n工作。\n本次技术接口主要变更内容在综合业务平台市场参与者接\n口规格说明书中，调整网络投票申报描述，增加先行赔付“赔付\n金额”填写说明。调整bghXXXXX.dbf 中“备注”字段描述，增\n加先行赔付申报结果信息。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年5 月26 日\n\n<metadata>\n{\n  \"title\": \"20230526_关于发布紫晶存储事件先行赔付申报市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230526_关于发布紫晶存储事件先行赔付申报市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布紫晶存储事件先行赔付申报市场接口的通知.md\",\n  \"file_hash\": \"sha256:0518e2486813b8f6f21e4ab5601ee5a47e28490dcc30b4460d087b57ed8f49fb\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.687479+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,41 @@
+{
+  "doc_id": "sse-iface-20240809-015",
+  "title": "上海证券交易所新一代交易系统市场参与者接口规格说明书",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10760699/files/b11a479ea4a54d91900e44e6dc55122f.pdf",
+  "analysis_date": "2026-06-13T17:46:54.083312+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "文档变更 20240 、为配合沪港通交易信息披露优化业务，修订港股通交易盘实时状态文件（ trdses04.txt ）描述。 http://www.sse.com.cn/ https://www.hkex.com.hk/services/trading/securities/infrastructure/overview?sc_lang=en",
+      "detail": "文档变更\n20240\n、为配合沪港通交易信息披露优化业务，修订港股通交易盘实时状态文件（\ntrdses04.txt\n）描述。\nhttp://www.sse.com.cn/\nhttps://www.hkex.com.hk/services/trading/securities/infrastructure/overview?sc_lang=en",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "当额度用完或其他原因（如全市场暂停 接受买入申报等）全市场禁止买入时， 取值为‘ 当额度可用（即日中剩余额度小于每日 初始额度的 ）时，取值为实际剩余 当额度充足（即日中剩余额度大于或等 于每日初始额度的 ）时，不揭示具 体数值，取值为‘ ：额度充足。",
+      "detail": "当额度用完或其他原因（如全市场暂停\n接受买入申报等）全市场禁止买入时，\n取值为‘\n当额度可用（即日中剩余额度小于每日\n初始额度的\n）时，取值为实际剩余\n当额度充足（即日中剩余额度大于或等\n于每日初始额度的\n）时，不揭示具\n体数值，取值为‘\n：额度充足。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS117",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

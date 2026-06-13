@@ -1,0 +1,24 @@
+{
+  "id": "sse-guide-00000000-356",
+  "type": "guide",
+  "title": "关于更新并发布指定交易迁移技术实施指南的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072396/files/e49aceecc8e24cc9b071eb34bcdfca64.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:cdd4dabf2bf878be5384e3e09ab1b40bac3494b7ecc48af18027e45f0a7065c5",
+  "content_markdown": "关于更新并发布指定交易迁移\n技术实施指南的通知\n各市场参与者：\n为配合指定交易迁移工作，上海证券交易所（以下简称本所）\n拟更新并发布《上海证券交易所指定交易迁移市场参与者技术实\n施指南1.1 版》（以下简称技术实施指南），请市场参与者做好\n技术准备工作。\n本次技术实施指南更新的主要内容是补充说明指定交易迁\n移至综业平台后与现有竞价平台的功能差异，以及异常处置建议\n（本所支持指定交易业务盘中实时回退和盘后回退的应急处置）。\n相关市场参与者接口规格说明书不作调整。请市场参与者根据技\n术实施指南建议，做好技术系统功能就绪工作，并完善异常处置\n流程，保障业务顺利上线。\n文件电子版本可通过本所官方网站“交易技术支持专区”相\n关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年八月二十二日\n\n<metadata>\n{\n  \"title\": \"20220822_关于更新并发布指定交易迁移技术实施指南的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220822_关于更新并发布指定交易迁移技术实施指南的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于更新并发布指定交易迁移技术实施指南的通知.md\",\n  \"file_hash\": \"sha256:cdd4dabf2bf878be5384e3e09ab1b40bac3494b7ecc48af18027e45f0a7065c5\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.447543+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

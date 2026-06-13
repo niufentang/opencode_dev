@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-346",
+  "type": "technical_notice",
+  "title": "关于开展竞价、期权平台相关业务通关测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072569/files/0464c9c9dc3c4277bde8dfb5e480d362.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:9762c28de0f8182ddebf6da5aa7999641585dce49e73d809118256481879597d",
+  "content_markdown": "关于开展竞价、期权平台相关业务通关测试\n的通知\n各期权市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有\n限公司上海分公司定于2021 年2 月27 日（周六）09:15-15:30，\n组织开展竞价撮合平台及期权交易平台相关业务通关测试（测试\n文档详见会员专区），使用竞价撮合平台00 环境、综合业务平台\n01 环境、期权交易平台03 环境、港股通平台04 环境、固定收益平\n台，本次测试主要验证交易网关（期权）业务功能。\n请交易网关（期权）第一批次上线的期权市场参与者参加测\n试，其他期权市场参与者可不参与本次测试。各参测单位务必高\n度重视，安排专人负责测试工作，测试前做好线上系统和数据环\n境保护工作，测试后做好技术系统和数据环境恢复工作，确保下\n一交易日生产系统正常运行。测试过程中，请各参测单位详细记\n录测试现象与结果，检查业务正确性；如发现异常现象，请及时\n报告。测试结束后，请于2 月27 日（周六）17:00 前，在会员\n专区提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年二月二十六日\n\n<metadata>\n{\n  \"title\": \"20210225_关于开展竞价、期权平台相关业务通关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210225_关于开展竞价、期权平台相关业务通关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于开展竞价、期权平台相关业务通关测试的通知.md\",\n  \"file_hash\": \"sha256:9762c28de0f8182ddebf6da5aa7999641585dce49e73d809118256481879597d\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.298652+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

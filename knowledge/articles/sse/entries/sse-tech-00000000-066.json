@@ -1,14 +1,14 @@
 {
   "id": "sse-tech-00000000-066",
   "type": "technical_notice",
-  "title": "关于发布席位联通接口文件下线市场接口的通知",
+  "title": "关于10月9日开展新债券相关业务全网测试的通知",
   "source": "sse",
-  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10781349/files/3e0652cce7d04f27b9d05b25a4483b09.pdf",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072509/files/b8c182f5109d48edb318b4bc96b525d4.pdf",
   "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
   "tags": [
     "sse",
     "technical_notice",
-    "IS101"
+    "债券"
   ],
   "status": "active",
   "version": null,
@@ -20,6 +20,6 @@
   "superseded_by": null,
   "related_ids": [],
   "file_format": "pdf",
-  "file_hash": "sha256:b88ca0a085b04968e4d6f6b4669361f27cc68fb601e1f7ad2f9832c683728e08",
-  "content_markdown": "关于发布席位联通接口文件下线\n市场接口的通知\n各市场参与人：\n根据席位联通接口文件下线相关工作安排，现发布\n《 IS101_ 上海证券交易所竞价撮合平台市场参与者接口规格\n说明书 1.70 版 _20250523 （席位联通接口下线技术开发稿）》。\n市场参与人可登录市场技术服务平台“技术支持与信息管理\n- 软件与技术文档”相关栏目获取上述材料。请提前做好技术\n就绪准备。\n本次主要变更内容：市场参与者接口规格说明书中删除\n席位联通接口 zxwXXXXX.dbf 的相关描述。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2025 年 5 月 28 日\n\n<metadata>\n{\n  \"title\": \"20250528_关于发布席位联通接口文件下线市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20250528_关于发布席位联通接口文件下线市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布席位联通接口文件下线市场接口的通知.md\",\n  \"file_hash\": \"sha256:b88ca0a085b04968e4d6f6b4669361f27cc68fb601e1f7ad2f9832c683728e08\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-05-02T01:47:35.393665+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+  "file_hash": "sha256:6c5708a7c5cd52005fd34a9ec1bba675c44a075f7348212ddf6d793fcc4a900b",
+  "content_markdown": "关于10 月9 日开展新债券相关业务全网测\n试的通知\n各市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有限公司上海分\n公司定于2021 年10 月9 日（周六）13:15-15:30，组织开展竞价撮合平台、综\n合业务平台、固定收益平台、新债券交易平台全网测试（测试文档详见会员专区），\n使用竞价撮合平台00 环境、综合业务平台01 环境、新债券交易平台02 环境、固定\n收益平台环境等。\n本次测试，请各参测单位务必高度重视，安排专人负责测试工作，测试前\n做好线上系统和数据环境保护工作，测试后做好技术系统和数据环境恢复工作，\n确保下一交易日生产系统正常运行。测试过程中，请各参测单位详细记录测试现\n象与结果，检查业务正确性；如发现异常现象，请及时报告。测试结束后，请于\n10 月9 日（周六）18:00 前，通过测试方案中的在线反馈链接提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年九月二十九日\n\n<metadata>\n{\n  \"title\": \"20211008_关于10月9日开展新债券相关业务全网测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20211008_关于10月9日开展新债券相关业务全网测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于10月9日开展新债券相关业务全网测试的通知.md\",\n  \"file_hash\": \"sha256:6c5708a7c5cd52005fd34a9ec1bba675c44a075f7348212ddf6d793fcc4a900b\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.733349+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
 }

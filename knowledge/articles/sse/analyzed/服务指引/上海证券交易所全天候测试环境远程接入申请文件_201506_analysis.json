@@ -1,0 +1,20 @@
+{
+  "doc_id": "sse-test-00000000-369",
+  "title": "上海证券交易所全天候测试环境远程接入申请文件_201506",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/services/c/10072280/files/62f3423920194403b996d5ee52b1c3ae.zip",
+  "analysis_date": "2026-06-13T17:46:55.525353+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "test_doc"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：test_doc，版本：无。",
+  "confidence": 0.75
+}

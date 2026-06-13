@@ -9083,7 +9083,7 @@ TDGW 返回给 OMS 的下行消息中 Text ，取该条下行消息所对应的�
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:47:54.033384+00:00",
+  "parse_date": "2026-06-13T17:45:31.595631+00:00",
   "sub_category": null
 }
 </metadata>

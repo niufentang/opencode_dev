@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-244",
+  "type": "technical_notice",
+  "title": "关于发布固收平台竞买、合并申购业务相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072439/files/f7254c099c2c4613a806c189278e6699.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS109",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:9381bdd5c89f37bf549937185342150bfb93be1d97c423026dfcf7d6d0ecb743",
+  "content_markdown": "关于发布固收平台竞买、合并申购业务相关\n市场接口的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS109_上海证券\n交易所固定收益平台外部数据接口规范3.25 版_20220318》、\n《IS118_上海证券交易所特定参与者接口规格说明书（托管银行\n卷）1.34 版_20220318》，以供市场参与者提前做好技术就绪准\n备工作。\n此次市场接口的更新内容主要是在固定收益平台外部数据\n接口规范中，增加本方成交数据、成交行情、成交明细中增加竞\n买、合并申购业务的相关描述。在特定参与者接口规格说明书（托\n管银行卷）中，增加固收平台成交数据、成交明细行情中增加竞\n买、合并申报业务相关描述。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年五月十三日\n\n<metadata>\n{\n  \"title\": \"20220513_关于发布固收平台竞买、合并申购业务相关市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220513_关于发布固收平台竞买、合并申购业务相关市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固收平台竞买、合并申购业务相关市场接口的通知.md\",\n  \"file_hash\": \"sha256:9381bdd5c89f37bf549937185342150bfb93be1d97c423026dfcf7d6d0ecb743\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.131152+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

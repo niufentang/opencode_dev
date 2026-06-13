@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-20260327-009",
+  "doc_id": "sse-iface-20260327-010",
   "title": "IS105_上海证券交易所综合业务平台市场参与者接口规格说明书",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813258/files/b208985df2924e5e8eefc6ca67cab702.pdf",
-  "analysis_date": "2026-05-02T02:03:05.568216+00:00",
+  "analysis_date": "2026-06-13T17:46:54.059563+00:00",
   "status": "deprecated",
   "version": null,
   "previous_version": null,
@@ -124,6 +124,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及14项变更。 删除: 1项。 废止: 2项。 接口字段变更: 2项。 规则条款变更: 9项。 其中重大变更5项。",
+  "summary": "本次涉及14项变更。 删除: 1项。 规则条款变更: 9项。 废止: 2项。 接口字段变更: 2项。 其中重大变更5项。",
   "confidence": 0.95
 }

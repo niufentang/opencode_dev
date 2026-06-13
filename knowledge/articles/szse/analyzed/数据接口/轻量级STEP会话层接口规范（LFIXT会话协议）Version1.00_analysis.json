@@ -1,0 +1,128 @@
+{
+  "doc_id": "szse-iface-20150828-194",
+  "title": "接口设计报告",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/interface/P020180328467247901955.pdf",
+  "analysis_date": "2026-06-13T17:46:57.841097+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "LFIXT",
+      "detail": "LFIXT",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "会话协议的会话层恢复机制是为了与标准 会话协议兼容，不能作为真正",
+      "detail": "会话协议的会话层恢复机制是为了与标准\n会话协议兼容，不能作为真正",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "的消息恢复机制使用，会话对端应通过应用层的消息恢复机制来获得缺失的数据。 FIXT.1.1 本字段必须填写交易所发布的数据接口规范版 本。如果接入方不提供该字段，接收方将不会允 许接入方接入，并会通过 Logout 消息终止该会话。 该字段暂未启用",
+      "detail": "的消息恢复机制使用，会话对端应通过应用层的消息恢复机制来获得缺失的数据。\nFIXT.1.1\n本字段必须填写交易所发布的数据接口规范版\n本。如果接入方不提供该字段，接收方将不会允\n许接入方接入，并会通过\nLogout\n消息终止该会话。\n该字段暂未启用",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "本字段填写交易所发布的数据协议版",
+      "detail": "本字段填写交易所发布的数据协议版",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本。建议的格式是： STEP",
+      "detail": "本。建议的格式是：\nSTEP",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "市场内部唯一的协议版本号。",
+      "detail": "市场内部唯一的协议版本号。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "市场代码是",
+      "detail": "市场代码是",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "时，代表上海证券交 易所；是 时，代表深圳证券交易所。",
+      "detail": "时，代表上海证券交\n易所；是\n时，代表深圳证券交易所。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "市场内部唯一的协议版本号由各市场",
+      "detail": "市场内部唯一的协议版本号由各市场",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "自行分配。 如果是客户端",
+      "detail": "自行分配。\n如果是客户端",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "发送LOGON 发送 APP_MSG 发送HEART_BEAT 发送 HEART_BEAT 发送SEQRESET_RESET 发送 LOGOUT",
+      "detail": "发送LOGON\n发送 APP_MSG\n发送HEART_BEAT\n发送 HEART_BEAT\n发送SEQRESET_RESET\n发送 LOGOUT",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如果是服务端",
+      "detail": "如果是服务端",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LOGON。 发送LOGOUT 发送REJECT 发送 LOGON(RESET)。",
+      "detail": "LOGON。\n发送LOGOUT\n发送REJECT\n发送 LOGON(RESET)。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "如果出发状态不是 WAIT_FOR_RESET",
+      "detail": "如果出发状态不是\nWAIT_FOR_RESET",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "LOGON(RESET)。",
+      "detail": "LOGON(RESET)。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "interface_spec",
+    "STEP",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及15项变更。 规则条款变更: 10项。 技术架构变更: 4项。 接口字段变更: 1项。",
+  "confidence": 0.95
+}

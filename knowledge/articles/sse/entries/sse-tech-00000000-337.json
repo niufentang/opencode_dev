@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-337",
+  "type": "technical_notice",
+  "title": "关于受理交易网关及专用证书申请的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072582/files/e693b3a3128044048ab4f8a5593d546e.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:3a6b6ef86a2f10b8a25db4734c3ddada44fa5c8e006f0c05099c66193bdc4fe4",
+  "content_markdown": "关于受理交易网关及专用证书申请的通知\n各期权市场参与者：\n上海证券交易所（以下简称“本所”）前期已发布基于流式\n接口的交易网关（期权）（以下简称“交易网关”）测试版，提供\n全天候测试环境与全真测试环境，以便于各期权市场参与者开展\n技术系统改造，进行充分测试验证。\n本所拟从2021 年1 月4 日起受理交易网关及专用证书申请。\n安排如下：\n2021 年1 月4 日起至2021 年1 月15 日，受理第一批次交\n易网关及专用证书申请。预计2021 年1 月下旬起组织第一批次\n全网及通关测试。\n2021 年1 月29 日至2021 年3 月5 日，受理第二批次交易\n网关及专用证书申请。预计2021 年3 月下旬起组织第二批次全\n网及通关测试。\n2021 年3 月29 日起，申请受理进入常态化，各期权市场参\n与者自行申请并安排切换上线。\n各批次全网及通关测试时间与测试方案将另行通知。\n各期权市场参与者应在完成技术准备的基础上，准备好相关\n材料并填写《期权市场参与者交易系统技术改造自查底稿》，向\n本所提交交易网关及专用证书申请。\n相关文档电子版本可通过本所官方网站“交易技术支持专区”\n栏目下载。如有疑问，请及时联系本所技术服务热线：4009003600，\n\n技术服务\nQQ\n群：298643611 ，技术服务邮箱：\ntech_support@sse.com.cn。\n特此通知。\n上海证券交易所\n二○二一年一月四日\n\n<metadata>\n{\n  \"title\": \"20210106_关于受理交易网关及专用证书申请的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210106_关于受理交易网关及专用证书申请的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于受理交易网关及专用证书申请的通知.md\",\n  \"file_hash\": \"sha256:3a6b6ef86a2f10b8a25db4734c3ddada44fa5c8e006f0c05099c66193bdc4fe4\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.187830+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

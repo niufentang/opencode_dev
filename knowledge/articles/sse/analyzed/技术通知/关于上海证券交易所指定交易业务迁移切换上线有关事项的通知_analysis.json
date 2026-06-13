@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-119",
+  "title": "<4D6963726F736F667420576F7264202D20B9D8D3DAC9CFBAA3D6A4C8AFBDBBD2D7CBF9D6B8B6A8BDBBD2D7D2B5CEF1C7A8D2C6C7D0BBBBC9CFCFDFD3D0B9D8CAC2CFEEB5C4CDA8D6AA2E646F6378>",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072377/files/6c48df87069e447ab06c8b6b970e9580.pdf",
+  "analysis_date": "2026-06-13T17:46:54.632454+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

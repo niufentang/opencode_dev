@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-00000000-104",
+  "doc_id": "sse-iface-00000000-388",
   "title": "IS118_上海证券交易所特定参与者接口规格说明书（基金公司卷）",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813257/files/685e1b8323f04615b9dd140021de34ae.pdf",
-  "analysis_date": "2026-05-02T02:03:06.066477+00:00",
+  "analysis_date": "2026-06-13T17:46:55.679180+00:00",
   "status": "active",
   "version": null,
   "previous_version": null,
@@ -788,6 +788,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及109项变更。 接口字段变更: 20项。 规则条款变更: 74项。 业务流程变更: 2项。 版本升级: 11项。 技术架构变更: 2项。 其中重大变更3项。",
+  "summary": "本次涉及109项变更。 接口字段变更: 20项。 技术架构变更: 2项。 规则条款变更: 74项。 版本升级: 11项。 业务流程变更: 2项。 其中重大变更3项。",
   "confidence": 0.95
 }

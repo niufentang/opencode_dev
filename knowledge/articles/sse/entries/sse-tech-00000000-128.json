@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-128",
+  "type": "technical_notice",
+  "title": "关于发布ETF份额合并优化市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10749330/files/3b630cf9b9694959b1a044f1ce03f1f2.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b22371463f7b45885daf834e2b28986928106660f4d237ebb394d700f26876d0",
+  "content_markdown": "关于发布ETF 份额合并优化市场接口技术\n开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS101_上海\n证券交易所竞价撮合平台市场参与者接口规格说明书1.66\n版（ETF 份额合并优化_技术开发稿）_20231201》，请市场\n参与者做好相关技术准备。\n本次竞价撮合平台接口规格说明书主要变更内容为：修\n订产品基础信息第二部第一批次文件接口\ncpxx0201MMDD.txt：调整“除权比例”字段的描述说明，明\n确基金份额折算场景的取值范围。\n相关文件电子版本可通过本所官方网站“交易技术支持\n专区”相关栏目下载。\n技术咨询电话：4008888400 转2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年12 月19 日\n\n<metadata>\n{\n  \"title\": \"20231219_关于发布ETF份额合并优化市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20231219_关于发布ETF份额合并优化市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布ETF份额合并优化市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:b22371463f7b45885daf834e2b28986928106660f4d237ebb394d700f26876d0\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.891036+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

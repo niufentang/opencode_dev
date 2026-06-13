@@ -1,0 +1,33 @@
+{
+  "doc_id": "sse-mag-00000000-055",
+  "title": "《交易技术前沿》总第四十一期文章（2020年12月）",
+  "source": "sse",
+  "source_url": "http://www.sse.com.cn/services/tradingtech/transaction/ITRDC_TechMag_041_202012.pdf",
+  "analysis_date": "2026-06-13T17:46:54.392642+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "TOE0 in TOE0 out TOE1 in TOE1 out 席位多活 客户多活 连接多活",
+      "detail": "TOE0 in\nTOE0 out\nTOE1 in\nTOE1 out\n席位多活\n客户多活\n连接多活",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "magazine",
+    "STEP",
+    "做市商",
+    "期权",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

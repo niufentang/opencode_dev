@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-354",
+  "type": "technical_notice",
+  "title": "关于扩展分配并启用债券相关代码段的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072360/files/0f480e876659492f8bb0ea816377da51.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:d8e0e693827798d22e0d1fbe5327b1c6bb1543c3536e6f16162db76a595235c4",
+  "content_markdown": "关于扩展分配并启用债券\n相关代码段的通知\n各市场参与人：\n为满足市场发展需要，上海证券交易所（以下简称本所）决\n定为地方政府债券扩展分配并启用230000-231999代码段，为公\n开发行公司债券扩展分配并启用240000-241999代码段，为非公\n开发行公司债券扩展分配并启用250000-251999代码段，为资产\n支持证券扩展分配并启用260000-261999代码段，为企业债券扩\n展分配并启用270000-270999代码段，并同步对《上海证券交易\n所证券交易业务指南第4号——证券代码段分配指南》进行修订\n（2023年第1次）。\n上述业务指南现予发布，并自发布之日起施行。业务指南全\n文可至本所官方网站（http://www.sse.com.cn）“规则”下的\n“本所业务指南与流程”栏目查询。请各市场参与人做好相关业\n务准备工作。\n特此通知。\n上海证券交易所\n二○二三年一月二十日\n\n<metadata>\n{\n  \"title\": \"20230120_关于扩展分配并启用债券相关代码段的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230120_关于扩展分配并启用债券相关代码段的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于扩展分配并启用债券相关代码段的通知.md\",\n  \"file_hash\": \"sha256:d8e0e693827798d22e0d1fbe5327b1c6bb1543c3536e6f16162db76a595235c4\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.601073+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

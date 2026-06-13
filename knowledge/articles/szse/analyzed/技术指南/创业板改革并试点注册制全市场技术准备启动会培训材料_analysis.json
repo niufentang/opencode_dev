@@ -1,0 +1,63 @@
+{
+  "doc_id": "szse-guide-20200429-075",
+  "title": "PowerPoint 演示文稿",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020200430321378223581.pdf",
+  "analysis_date": "2026-06-13T17:46:57.124901+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "5个交易日不设涨跌幅限制 首日不设涨跌幅限制 对手方最 10万股 ③融资融券：自上市首日起即可作为融资融 100万股 ③融资融券：符合一定条件后方可作为融资 融券标的 1000股 1000万股 期限1-182天、费率限制 固定期限、固定费率 实时确认 盘后确认 当日可用 次日可用 RMB 50万元 RMB 10万元",
+      "detail": "5个交易日不设涨跌幅限制\n首日不设涨跌幅限制\n对手方最\n10万股\n③融资融券：自上市首日起即可作为融资融\n100万股\n③融资融券：符合一定条件后方可作为融资\n融券标的\n1000股\n1000万股\n期限1-182天、费率限制\n固定期限、固定费率\n实时确认\n盘后确认\n当日可用\n次日可用\nRMB 50万元\nRMB 10万元",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "9:15 100股 纳入深股通 9:30 200股 不纳入沪股通 不低于200股且可按1 100股或其整数倍 股数量递增 ③市价委托支持设置保护限价 暂存于委托簿 不支持市价委托",
+      "detail": "9:15\n100股\n纳入深股通\n9:30\n200股\n不纳入沪股通\n不低于200股且可按1\n100股或其整数倍\n股数量递增\n③市价委托支持设置保护限价\n暂存于委托簿\n不支持市价委托",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "③增加对具有协议控制架构的股票进行标识",
+      "detail": "③增加对具有协议控制架构的股票进行标识",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "④增加对注册制下发行上市的股票进行标识 增加有效范围基准价类 最优买： 9.00 增加四个字 103701 订单响应及撤单 203702 成功执行报告 成交执行报告 203715 行情快照 303711 ConfirmER ExecType=Cancel 场化转融通标志 售股份出借标志 非市场化 尽快上线",
+      "detail": "④增加对注册制下发行上市的股票进行标识\n增加有效范围基准价类\n最优买：\n9.00\n增加四个字\n103701\n订单响应及撤单\n203702\n成功执行报告\n成交执行报告\n203715\n行情快照\n303711\nConfirmER\nExecType=Cancel\n场化转融通标志\n售股份出借标志\n非市场化\n尽快上线",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "全市场技术就绪 ‘12’ （不含盘后定价交易部分） 和盘后定价交易 A111111111 00A111111111 07A111111111 AAAAAAAAAAAAAAAA 出借证券给券商 归还证券给出借人 91355646 137835879 345221331 0755-25946080",
+      "detail": "全市场技术就绪\n‘12’\n（不含盘后定价交易部分）\n和盘后定价交易\nA111111111\n00A111111111\n07A111111111\nAAAAAAAAAAAAAAAA\n出借证券给券商\n归还证券给出借人\n91355646\n137835879\n345221331\n0755-25946080",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "债券",
+    "注册制",
+    "科创板",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及5项变更。 规则条款变更: 4项。 技术架构变更: 1项。",
+  "confidence": 0.95
+}

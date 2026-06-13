@@ -1,0 +1,26 @@
+{
+  "id": "chinaclear-rule-00000000-244",
+  "type": "rule",
+  "title": "上海证券交易所会议纪要",
+  "source": "chinaclear",
+  "source_url": null,
+  "summary": "本次涉及1项变更。 废止: 1项。 其中重大变更1项。",
+  "tags": [
+    "chinaclear",
+    "business_rule",
+    "has_changes",
+    "deprecated"
+  ],
+  "status": "deprecated",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:5b82d7aa297fb5e63b0a4abfc1a237232e7b362808871d9f45be2f20ad735dc1",
+  "content_markdown": "（上证发„2014‟46 号）\n各市场参与人、各结算参与人：\n根据财政部、中国人民银行和中国证券监督管理委员会《关\n于关键期限国债开展预发行试点的通知》（财库„2014‟72 号），\n国债预发行券种由7 年期记账式国债扩大至全部关键期限记账\n式国债（1、3、5、7、10 年期）。上海证券交易所（以下简称“上\n交所”）与中国证券登记结算有限责任公司（以下简称“中国结\n算”）现就有关事项通知如下：\n一、自2014 年7 月31 日起，全部关键期限记账式国债（1、\n3、5、7、10 年期）将均开展国债预发行交易。\n二、各关键期限国债预发行交易的证券代码如下：采用利率\n招标的，1、3、5、7、10 年期关键期限国债预发行交易的证券\n代码分别为751801、751803、751805、751807 和751800；采用\n价格招标的，1、3、5、7、10 年期关键期限国债预发行交易的\n证券代码分别为751811、751813、751815、751817 和751810。\n三、各关键期限国债预发行交易的履约保证金比例如下：\n期限\n履约保证金比例\n1 年期\n1%\n3 年期\n2%\n5 年期\n3%\n7 年期\n4%\n10 年期\n5%\n关于关键期限国债开展预发行（\n－ 1 －\n\n请各市场参与人及结算参与人积极做好相关业务和技术准\n备，确保国债预发行交易及登记结算业务顺利开展。\n上海证券交易所           中国证券登记结算有限责任公司\n二○一四年七月十八日\n－ 2 －\n\n<metadata>\n{\n  \"title\": \"上海证券交易所会议纪要\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\chinaclear\\\\已废止业务规则\\\\20230113_关于关键期限国债开展预发行（试点）交易有关事项的通知（2014年7月21日，已废止）.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\chinaclear\\\\markdown\\\\已废止业务规则\\\\关于关键期限国债开展预发行（试点）交易有关事项的通知（2014年7月21日，已废止）.md\",\n  \"file_hash\": \"sha256:5b82d7aa297fb5e63b0a4abfc1a237232e7b362808871d9f45be2f20ad735dc1\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"business_rule\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:46:30.780066+00:00\",\n  \"sub_category\": \"已废止业务规则\"\n}\n</metadata>"
+}

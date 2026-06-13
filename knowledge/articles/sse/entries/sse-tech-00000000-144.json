@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-144",
+  "type": "technical_notice",
+  "title": "关于发布EzSTEP 2060002客户端软件新版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10645594/files/f95bd9d871794999a3bcbbf781d9baf5.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "债券",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:9fb4cc26d5f7899c457b4cfcd586592dd31c33b9eadc16fd56aee3cf655fd283",
+  "content_markdown": "关于发布EzSTEP 2060002 客户端软件\n新版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升市场参与者对客户\n端软件的使用体验，拟发布EzSTEP 2060002 客户端软件版本。\n请市场参与者做好技术准备工作。\n本次软件版本变更内容为兼容部分信创设备等技术优化。\n请市场参与者自主选择升级时间，在升级前通过本所全天候\n测试环境中做好充分测试工作，认真仔细阅读用户手册（见软件\n安装包），并根据《关于7月1日开展竞价、综业、新债券、期权、\n固收等平台相关业务通关测试的通知》参与测试。软件安装包\n可通过本所官方网站 “ 交易技术支持专区 ” 相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年6 月30 日\n\n<metadata>\n{\n  \"title\": \"20230630_关于发布EzSTEP 2060002客户端软件新版本的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230630_关于发布EzSTEP 2060002客户端软件新版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布EzSTEP 2060002客户端软件新版本的通知.md\",\n  \"file_hash\": \"sha256:9fb4cc26d5f7899c457b4cfcd586592dd31c33b9eadc16fd56aee3cf655fd283\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.707134+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

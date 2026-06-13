@@ -1,0 +1,22 @@
+{
+  "doc_id": "szse-iface-00000000-163",
+  "title": "深圳证券交易所企业标准组播行情数据分发协议规范",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/interface/P020241210337701778397.pdf",
+  "analysis_date": "2026-06-13T17:46:57.668866+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "interface_spec",
+    "BINARY",
+    "STEP"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：interface_spec，版本：无。",
+  "confidence": 0.75
+}

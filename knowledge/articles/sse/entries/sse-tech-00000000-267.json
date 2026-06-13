@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-267",
+  "type": "technical_notice",
+  "title": "关于发布新债券交易系统新业务规则适配（第一批）相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072454/files/fa0e391540c44ad0b65da27b4100f4b0.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS124",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:a9a0b1fe3ad0896889b5dd3f3d721e93494421e798dacfcacbe4b257040604be",
+  "content_markdown": "关于发布债券交易系统新业务规则适配（第\n一批）相关市场接口技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS124_上海证券\n交易所市场数据文件交换接口规格说明书1.40 版（新债券业务\n适应版新规第一批 技术开发稿）_20220321.pdf》，以供市场参\n与者做好技术就绪准备工作。\n在《IS124_上海证券交易所市场数据文件交换接口规格说明\n书1.03 版（新债券业务适应版新规第一批技术开发稿）\n_20220215.pdf》基础上，本次IS124 市场接口的变更主要为调\n整接口文档基线、更新债券产品信息文件接口字段。\n以上接口文件的电子版本可通过本所官方网站“交易技术支\n持专区”相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年四月一日\n\n<metadata>\n{\n  \"title\": \"20220401_关于发布新债券交易系统新业务规则适配（第一批）相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220401_关于发布新债券交易系统新业务规则适配（第一批）相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布新债券交易系统新业务规则适配（第一批）相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:a9a0b1fe3ad0896889b5dd3f3d721e93494421e798dacfcacbe4b257040604be\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.048270+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

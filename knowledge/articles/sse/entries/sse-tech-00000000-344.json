@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-344",
+  "type": "technical_notice",
+  "title": "关于开展竞价、期权平台、综业平台相关业务通关测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072578/files/9a8d5633fc5f4c33b932d57ae160e555.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:f7ec9c3b9bc61130beaf66464f6ebe19f2f72c02d651980e2d2284281561918e",
+  "content_markdown": "关于开展竞价、期权、综业平台相关业务通\n关测试的通知\n各会员单位及市场参与者：\n上海证券交易所（以下简称本所）会同中国证券登记结算有\n限公司上海分公司定于2021 年1 月30 日（周六）09:15-12:00，\n组织开展竞价撮合平台、综合业务交易平台及期权交易平台相关\n业务通关测试（测试文档详见会员专区），使用竞价撮合平台00\n环境、综合业务交易平台01 环境、期权交易平台03 环境。\n请全体市场参与者参加测试。因故不能参加的，请填写测试\n反馈表说明原因。各参测单位务必高度重视，安排专人负责测试\n工作，测试前做好线上系统和数据环境保护工作，测试后做好技\n术系统和数据环境恢复工作，确保下一交易日生产系统正常运行。\n测试过程中，请各参测单位详细记录测试现象与结果，检查业务\n正确性；如发现异常现象，请及时报告。测试结束后，请于1 月\n30 日（周六）14:00 前，在会员专区提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年一月十八日\n\n<metadata>\n{\n  \"title\": \"20210128_关于开展竞价、期权平台、综业平台相关业务通关测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210128_关于开展竞价、期权平台、综业平台相关业务通关测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于开展竞价、期权平台、综业平台相关业务通关测试的通知.md\",\n  \"file_hash\": \"sha256:f7ec9c3b9bc61130beaf66464f6ebe19f2f72c02d651980e2d2284281561918e\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.218178+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-20180309-119",
+  "doc_id": "sse-iface-20180309-403",
   "title": "IS120_上海证券交易所行情网关BINARY数据接口规范0",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
-  "analysis_date": "2026-05-02T02:03:06.204242+00:00",
+  "analysis_date": "2026-06-13T17:46:55.808107+00:00",
   "status": "active",
   "version": null,
   "previous_version": null,

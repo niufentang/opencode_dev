@@ -1,0 +1,49 @@
+{
+  "doc_id": "sse-iface-20220815-039",
+  "title": "IS419_上海证券交易所互联网交易平台市场参与者接口规格说明书（销售机构卷）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072251/files/942068681e9242d3b4236a31f8e42c18.pdf",
+  "analysis_date": "2026-06-13T17:46:54.291878+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "接口字段变更",
+      "summary": "公共报文头产品集字段调整为非必填，其中订单",
+      "detail": "公共报文头产品集字段调整为非必填，其中订单",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "结果查询、询价报价查询接口 setId 2022-08 1.12 询价申报中订单价格上下限字段，增加字段说 明“预留，暂不启用”； 匹配成交中交易数量增加备注，交易数量即为 匹配成交最终确认数量，若未填写则默认按询 价申报的订单数量； 订单结果查询接口、询价报 价查询接口 预留，暂不启用 匹配成交最终确认数量，若",
+      "detail": "结果查询、询价报价查询接口\nsetId\n2022-08\n1.12\n询价申报中订单价格上下限字段，增加字段说\n明“预留，暂不启用”；\n匹配成交中交易数量增加备注，交易数量即为\n匹配成交最终确认数量，若未填写则默认按询\n价申报的订单数量；\n订单结果查询接口、询价报\n价查询接口\n预留，暂不启用\n匹配成交最终确认数量，若",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "未填写则默认按询价申报 的订单数量",
+      "detail": "未填写则默认按询价申报\n的订单数量",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS419",
+    "REITs",
+    "债券",
+    "做市商",
+    "科创板",
+    "证通云盘",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 接口字段变更: 1项。 规则条款变更: 2项。 其中重大变更1项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-123",
+  "type": "technical_notice",
+  "title": "关于单向卫星应用系统服务下线相关工作的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072467/files/8d338d90be8d49d2a44df52aadceafdc.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权",
+    "港股通",
+    "科创板",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:df4c022347e1b70d33528cbacb76a17f931b7f519eb3a27dd282a3e05bd88651",
+  "content_markdown": "关于单向卫星应用系统服务下线\n相关工作的通知\n各市场参与者：\n单向卫星应用系统（简称“SSP 系统”）自2001 年上线以来，\n平稳运行至今。SSP 系统通过单向卫星传输，组播方式传送行情、\n文件及公告，单播方式传送私有文件。市场参与者通过EzSR 中\n的SR 协议接收相关数据。\n随着UT5 和MDGW 的上线，SSP 系统功能逐渐被上述软件替\n代。目前市场用户已基本不再使用SSP 系统相关服务（即EzSR\n中SR 协议和原SR 软件）。为规范和统一行情及文件接收渠道，\n提高市场用户体验,计划下线SSP 系统服务。请各市场参与者根\n据下线实施计划的时间节点做好如下工作：\n一、2022 年2 月26 日前下线组播行情服务\n1） 请使用SSP 服务的用户在2 月18 日前调整单向卫星接\n收系统SR（ Satellite Receiver） 和易神系统行情接收客户端EzSR\n中SR 协议相关配置信息，删除组播行情（230.11.1.1）。相关组\n播行情数据可通过MDGW 和UT5 接收。\n2） 2 月25 日闭市后，原SSP 系统组播行情服务正式下线\n（具体时间请以通关测试通知为准）。请于2 月26 日参加全市场\n用户测试，进行UT5、MDGW 相关业务演练，并于当日通过通关测\n试方案中的链接反馈测试结果。\n二、3 月26 日前下线组播文件、组播行情和单播文件服务\n1） 请使用SSP 服务的用户在2 月18 日前调整单向卫星接\n\n收系统SR（ Satellite Receiver） 和易神系统行情接收客户端EzSR\n中SR 协议相关配置信息，删除组播消息（230.11.1.3）、组播文\n件（230.11.1.4）和单播文件（盘后数据）相关配置信息。相关\n组播和单播文件可通过UT5、MDGW 或证通云盘接收，盘后单播文\n件可通过UT5 接收。\n2） 请于3 月19 日参加全市场用户测试（具体时间请以全\n网测试通知为准），验证SSP 服务下线后行情文件接收无异常，\n并于测试当日通过相关全网测试方案中的链接反馈测试结果。\n3） 3 月25 日闭市后，原SSP 系统组播文件/消息、单播文\n件服务正式下线。请市场参与者于3 月26 日参加全市场用户通\n关测试（具体时间请以通关测试通知为准），验证SSP 服务正式\n下线后行情文件接收无异常，并于测试当日通过相关通关测试方\n案中的链接反馈测试结果。\n请收到此通知的市场参与者于2 月18 日前反馈SSP 下线就\n绪情况，反馈链接： https://survey.sse.com.cn/q/Q0R31x。\n技术咨询电话：4009003600，QQ群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二 二 年二月十一日\n附件：《SSP 系统发送内容清单》\n1）组播行情、单播私有\n\n类别\n文件名\n文件说明\n组播行情 mktdt01.txt\n综合业务平台行情文件\n组播行情 trdses04.txt\n港股通交易盘实时状态\n组播行情 csiYYYYMMDD.txt\n指数通行情文件\n单播文件 xxxx.sse\n基金公司及托管银行数据文件\n单播文件 ghxxxxx.zip\n过户数据\n单播文件 khlxxxxx.zip\n开放式基金分红数据\n单播文件 kyexxxxx.zip\n开放式基金账户对账数据\n单播文件 kghxxxxx.zip\n开放式基金交易确认\n单播文件 dghxxxxx.zip\n综业过户数据\n单播文件 zzhxxxxx.zip\n证券账户资料\n单播文件 zxwxxxxx.zip\n席位联通数据\n单播文件 zqyxxxxx.zip\n证券权益接口\n单播文件 hghxxxxx.zip\n港股通过户数据\n单播文件 tjs04xxxxx.zip\n港股通成交单据文件\n单播文件 oghxxxxx.zip\n期权过户数据\n单播文件 ipoghxxxxx.zip\n新股发行过户数据\n单播文件 jckzxxxxx.zip\n减持控制数据\n单播文件 jyfyxxxxx.zip\n交易费用数据\n2）组播文件、组播消息\n类别\n文件名\n文件说明\n组播消息 *\n紧急通知文件\n组播文件 zxjcMMDD.txt\n港股通最小价差文件\n组播文件 zslwMMDD.txt\n标准券折算率变更公告\n组播文件 zslMMDD.txt\n债券标准券折算率变更接口\n组播文件 zsbxYYMMDD.txt\n重点指数及样本表现\n组播文件 zrtbdMMDD.txt\n转融通标的证券清单\n组播文件 zhcl03MMDD.txt\n期权组合策略\n组播文件 xzslMMDD.txt\n债券标准券折算比率\n组播文件 vtlsMMDD.xml\n网络投票议案结构文件\n组播文件 sfpm01MMDD.txt\nLOF 基金业务参数公告文件\n组播文件 reff04MMDD.txt\n港股基础信息\n组播文件 reff03MMDD.txt\n期权基础信息\n组播文件 mdhghzYYYYMMDD.txt\n买断式回购未到期余额汇总\n组播文件 kxxMMDD.txt\n基金和净值数据\n组播文件 jygkxxMMDD.txt\n交易公开信息\n组播文件 jygkxx02MMDD.txt\n科创板交易公开信息\n组播文件 gzlx.MDD\n国债利息\n组播文件 fjyYYYYMMDD.txt\n产品非交易\n组播文件 fjyMMDD.txt\n产品非交易\n组播文件 exra04MMDD.txt\n港股通参考汇率文件\n\n组播文件 dbpMMDD.txt\n担保品及标的的证券清单\n组播文件 cpxxMMDD.txt\n产品信息文件\n组播文件 cpxx0202MMDD.txt\n产品信息第二版本第二批次\n组播文件 cpxx0201MMDD.txt\n产品信息第二版本第一批次\n组播文件 cpxx0102MMDD.txt\n产品信息第一版本第二批次\n组播文件 clpr03MMDD.txt\n期权收盘价格\n组播文件 bzsl01MMDD.txt\n质押式报价回购折算率文件接口\n组播文件 bjspMMDD.txt\n报价收盘文件\n组播文件 bjqbMMDD.txt\n报价全部文件\n组播文件 bjmxMMDD.txt\n报价明细文件\n组播文件 XXXXXXMMDD.ETF\nETF 公告\n组播文件 XXXXXXMMDD2.ETF\nETF2.1 公告\n组播文件 tpxxxxhhmmss.txt\n停盘公告\n组播文件 qq_XXXX_NN.txt\n期权公告文件\n组播文件 MMDDFNNN.txt,\nMMDDZNNN.txt\n公告摘要\n组播文件 MMDDfNNNN.TXT,\nMMDDzNNNN.TXT\n上市公司公告摘要\n\n<metadata>\n{\n  \"title\": \"20220211_关于单向卫星应用系统服务下线相关工作的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220211_关于单向卫星应用系统服务下线相关工作的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于单向卫星应用系统服务下线相关工作的通知.md\",\n  \"file_hash\": \"sha256:df4c022347e1b70d33528cbacb76a17f931b7f519eb3a27dd282a3e05bd88651\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 4,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.954793+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

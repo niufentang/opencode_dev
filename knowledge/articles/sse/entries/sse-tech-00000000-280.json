@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-280",
+  "type": "technical_notice",
+  "title": "关于发布旧版非交易文件fjyMMDD下线市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10750989/files/6f260c1af175424cac5f98abf67c2917.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:26b3ffb02173eb65cb94a20d2578a8e44046fea354bc3ec3f317ee712ada579c",
+  "content_markdown": "关于发布旧版非交易文件 fjyMMDD 下线\n市场接口技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《 IS101 _上海\n证券交易所竞价撮合平台市场参与者接口规格说明书（下线\nfjyMMDD 技术开发稿）_ 20240109 》、《 IS118 上海证券交\n易所特定参与者接口规格说明书（转发卷） 1.3 版_ 20240123\n（下线 fjyMMDD 技术开发稿）》。旧版非交易文件\n（ fjyMMDD.txt ）下线后，可继续通过新版非交易文件\n（ fjyYYYYMMDD.txt ）获取产品非交易基础信息。请各市\n场参与者于 2024 年 3 月 15 日前完成相关技术准备工作。\n本次主要变更内容为：在竞价撮合平台市场参与者接口\n规格说明书中，删除产品非交易基础信息接口 fjyMMDD.txt\n的相关描述，在特定参与者接口规格说明书（转发卷）中，\n删除产品非交易基础数据报表 fjyMMDD.txt 接口。\n相关文件电子版本可通过本所官方网站“交易技术支持\n专区”相关栏目下载。\n技术咨询电话：4008888400 转2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2024 年2 月2 日\n\n> **变更标注说明**：本文档中已用 `<span style=\"color:...\">` 标注了变更内容（红色=修改/新增，蓝色=其他说明）。\n\n\n<metadata>\n{\n  \"title\": \"20240202_关于发布旧版非交易文件fjyMMDD下线市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20240202_关于发布旧版非交易文件fjyMMDD下线市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布旧版非交易文件fjyMMDD下线市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:26b3ffb02173eb65cb94a20d2578a8e44046fea354bc3ec3f317ee712ada579c\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": true,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.906250+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

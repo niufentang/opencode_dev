@@ -1733,7 +1733,7 @@ return bufCheckSum;
   "effective_date": null,
   "has_changes": true,
   "parse_status": "success",
-  "parse_date": "2026-05-02T01:48:34.067498+00:00",
+  "parse_date": "2026-06-13T17:45:44.272311+00:00",
   "sub_category": null
 }
 </metadata>

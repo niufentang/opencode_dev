@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-236",
+  "type": "technical_notice",
+  "title": "关于发布固定收益证券综合电子平台交易端7.3.2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072511/files/3fe99c52ec4c48b89d5b8095c3f9ca7b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": "2.0",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:8753212e7e6d005e6f7e9c4d366dcf176e83c70f24bf8f5fb2a0858a4969bcfa",
+  "content_markdown": "关于发布固定收益证券综合电子平台\n交易端7.3.2.0 版本的通知\n各市场参与者：\n为更好地为市场参与者提供服务，上海证券交易所（以下简\n称本所）拟向市场发布固收交易端7.3.2.0 版本及对结算接口调\n整的说明。\n(一) 固收交易端\n本次固收交易端软件版本变更主要为支持可转债意向申报\n和指定对手方申报功能。\n请各市场参与者在测试环境进行充分测试。\n上述软件安装包可通过本所官方网站“交易技术支持专区”\n下载。\n（二）结算数据接口调整说明\n在参与人结算数据接口中结算明细文件（JSMX）的“交易方\n式（JYFS）”字段取值由“002：大宗交易”调整为“101：固定\n收益综合电子平台”，“业务类型（YWLX）”字段取值由“004：企\n债交易”调整为“611：公司债现券交易”，其余字段填写方式不\n变。具体变化请参照中国结算公司发布的《登记结算数据接口规\n范（结算参与人版V3.70）》。\n技术咨询电话：4009003600 ，技术支持邮箱：\ntech_support@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二一年九月二十四日\n\n<metadata>\n{\n  \"title\": \"20210924_关于发布固定收益证券综合电子平台交易端7.3.2\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210924_关于发布固定收益证券综合电子平台交易端7.3.2.0版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益证券综合电子平台交易端7.3.2.0版本的通知.md\",\n  \"file_hash\": \"sha256:8753212e7e6d005e6f7e9c4d366dcf176e83c70f24bf8f5fb2a0858a4969bcfa\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.705018+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

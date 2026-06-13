@@ -1,0 +1,47 @@
+{
+  "doc_id": "sse-iface-20120326-011",
+  "title": "<4D6963726F736F667420576F7264202D20B8BDBCFEB6FE20495331303820C9CFBAA3D6A4C8AFBDBBD2D7CBF9CAD0B3A1B2CED3EBD5DF20457A53544550CDA8D3C3CAFDBEDDBFE2BDD3BFDAB9E6B8F1CBB5C3F7CAE9312E303020B0E65F3230313230333236>",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10072271/files/98a815f154b04923a9c402762fa83d66.pdf",
+  "analysis_date": "2026-06-13T17:46:54.064473+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.sse.com.cn/ 数据格式约定 通用数据库接口规范 公共数据表 pubdata 请求及响应接口表 reqresp 执行报告表 execreport STEP 消息约定 消息文本结构",
+      "detail": "http://www.sse.com.cn/\n数据格式约定\n通用数据库接口规范\n公共数据表\npubdata\n请求及响应接口表\nreqresp\n执行报告表\nexecreport\nSTEP 消息约定\n消息文本结构",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "必须连续递增 转融通非指定对手方申报 转融通指定对手方申报 该字段为 reqtext 消息包中对应 字段的重复，取值必须与 字段相同，该字段用于订单唯一性 标识，也可方便市场参与者数据库检索使用。 该字段用于订单发送路由，取值必须与 中对应字段相同。 该字段用于订单唯一性标识，取值必须与 取值待定 该字段与",
+      "detail": "必须连续递增\n转融通非指定对手方申报\n转融通指定对手方申报\n该字段为\nreqtext\n消息包中对应\n字段的重复，取值必须与\n字段相同，该字段用于订单唯一性\n标识，也可方便市场参与者数据库检索使用。\n该字段用于订单发送路由，取值必须与\n中对应字段相同。\n该字段用于订单唯一性标识，取值必须与\n取值待定\n该字段与",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "resptext 中相关字段重复，取值相同，交易所反馈的数据以 为准，该字段仅供方便市场参与者数据库检索使用。 （即不含本字段后面的 分隔符）",
+      "detail": "resptext\n中相关字段重复，取值相同，交易所反馈的数据以\n为准，该字段仅供方便市场参与者数据库检索使用。\n（即不含本字段后面的\n分隔符）",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS108",
+    "IS111",
+    "STEP",
+    "报盘软件",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

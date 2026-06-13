@@ -1,0 +1,47 @@
+{
+  "doc_id": "szse-guide-00000000-104",
+  "title": "接口设计报告",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020220107557489880560.pdf",
+  "analysis_date": "2026-06-13T17:46:57.290348+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "第13 至18 位共六位表示 根据合约调整次数依次 期权行权价格， 改为“A”,“B”等，第13 至17 为表",
+      "detail": "第13 至18 位共六位表示\n根据合约调整次数依次\n期权行权价格，\n改为“A”,“B”等，第13\n至17 为表",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "版本升级",
+      "summary": "第19 位表示合约版本号，未调整时为空",
+      "detail": "第19 位表示合约版本号，未调整时为空",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "示期权执行价格 格字符，依合约调整次数依次改为“A”, “B”等 10000001 90000001",
+      "detail": "示期权执行价格\n格字符，依合约调整次数依次改为“A”,\n“B”等\n10000001\n90000001",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "BINARY",
+    "STEP",
+    "做市商",
+    "期权",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 2项。 版本升级: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

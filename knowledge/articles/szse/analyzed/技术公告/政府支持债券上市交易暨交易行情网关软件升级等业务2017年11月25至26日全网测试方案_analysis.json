@@ -1,0 +1,55 @@
+{
+  "doc_id": "szse-test-00000000-051",
+  "title": "政府支持债券上市交易暨交易行情网关软件升级等业务2017年11月25至26日全网测试方案",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/notice/P020180328467398503848.pdf",
+  "analysis_date": "2026-06-13T17:46:56.962302+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "参测单位应在 日测试前对程序所在目录进行完整备份",
+      "detail": "参测单位应在\n日测试前对程序所在目录进行完整备份",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "日测试完成后，参测单位必须将交易网关、行情网关及网",
+      "detail": "日测试完成后，参测单位必须将交易网关、行情网关及网",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "业务流程变更",
+      "summary": "关监控程序恢复为线上生产系统的版本，否则",
+      "detail": "关监控程序恢复为线上生产系统的版本，否则",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "日测试期间及 日交易生产期间将无法连接深交所交易系统。",
+      "detail": "日测试期间及\n日交易生产期间将无法连接深交所交易系统。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "交易网关",
+    "债券",
+    "港股通",
+    "融资融券",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及4项变更。 规则条款变更: 2项。 业务流程变更: 1项。 技术架构变更: 1项。",
+  "confidence": 0.95
+}

@@ -1,0 +1,22 @@
+{
+  "doc_id": "szse-guide-20170119-110",
+  "title": "深圳证券市场交易结算异地灾备系统用户接入指引",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020211220505761556112.pdf",
+  "analysis_date": "2026-06-13T17:46:57.324035+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "szse",
+    "guide",
+    "交易网关",
+    "行情网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

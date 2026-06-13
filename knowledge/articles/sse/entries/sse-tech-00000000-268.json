@@ -1,0 +1,32 @@
+{
+  "id": "sse-tech-00000000-268",
+  "type": "technical_notice",
+  "title": "关于发布新债券交易系统新业务规则适配（第一批）相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072454/files/fa0e391540c44ad0b65da27b4100f4b0.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS101",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:c547969afaffacb9016d40747e9f84a35f67e261eee8a22e9d4176cc67cce53f",
+  "content_markdown": "关于发布新债券交易系统新业务规则适配\n（第一批）相关市场接口的通知\n各市场参与者：\n根据新债券交易系统（以下简称新债券）新业务规则适配\n工作安排，上海证券交易所（以下简称本所）拟发布《IS101_\n上海证券交易所竞价撮合平台市场参与者接口规格说明书1.57\n版（新债券业务适应版新规第一批 技术开发稿）_20220111》、\n《 IS122_上海证券交易所交易网关Binary 接口规格说明书（债\n券平台）1.93 版（新债券业务适应版新规第一批 技术开发稿）\n_20220111》、\n《IS122_上海证券交易所交易网关STEP 接口规格说\n明书（债券平台）1.93 版（新债券业务适应版新规第一批 技术\n开发稿）_20220111》、《IS124_上海证券交易所市场数据文件交\n换接口规格说明书1.01 版（新债券业务适应版新规第一批及第\n一版CPXX 下线 技术开发稿）_20220111》、《IS120_上海证券交\n易所行情网关BINARY 数据接口规范0.53 版（新债券业务适应版\n新规第一批 技术开发稿）_20220111》、《IS120_上海证券交易所\n行情网关STEP 数据接口规范0.53 版（新债券业务适应版新规第\n一批 技术开发稿）_20220111》，以供市场参与者提前做好技术\n就绪准备工作。\n此次市场接口调整主要是在竞价撮合平台接口规格说明书\n中，调整调整债券相关数量单位为千元面额；移除行情接口\nmktdt00.txt 中“市场行情状态”字段第5位债券质押回购行情\n结束标志相关描述。在新债券平台交易网关BINARY数据接口规范\n\n及STEP数据接口规范中更新债券现券竞价交易、债券质押式回购\n交易的申报数量单位描述。在行情网关BINARY数据接口规范及\nSTEP数据接口规范中，调整了行情接口中债券指数、债券和回购\n的数量单位；调整了STEP行情接口中“成交金额”字段长度；移\n除市场行情状态（SecurityType = 1）中债券质押回购行情结束\n标志信息。在IS124市场数据文件交换接口中调整债券行情文件、\n债券过户数据文件中债券相关数量单位为“千元面额”；调整债\n券盘中停牌公告文件模板，区分可转债和其他债券现券的停牌公\n告模板；新增债券产品信息文件接口。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。 技 术 咨 询 电 话 ： 4009003600 ； 技 术 支\n持 邮 箱 ： tech_support@sse.com.cn；技术支持服务 QQ 群：\n298643611。\n特此通知。\n上海证券交易所\n二○二二年一月十三日\n\n<metadata>\n{\n  \"title\": \"20220113_关于发布新债券交易系统新业务规则适配（第一批）相关市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220113_关于发布新债券交易系统新业务规则适配（第一批）相关市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布新债券交易系统新业务规则适配（第一批）相关市场接口的通知.md\",\n  \"file_hash\": \"sha256:c547969afaffacb9016d40747e9f84a35f67e261eee8a22e9d4176cc67cce53f\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.882487+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-208",
+  "type": "technical_notice",
+  "title": "关于发布全面实行注册制发行业务相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635148/files/216e527b102045379fbcadf6b41ff820.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "注册制"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:d9966316d49d6419ceb22c177c8118070e9b6c39b4f69f73c9471376b0efc319",
+  "content_markdown": "关于发布全面实行注册制发行业务相关\n市场接口的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS101_上海证券\n交易所竞价撮合平台市场参与者接口规格说明书1.63 版\n_20230317》（以下简称技术接口），请市场参与者做好技术准\n备工作。\n本次技术接口一是修订了申报接口ordwth 中非交易发行业\n务的填写说明；二是调整了产品基础信息第二版第一批次文件接\n口（cpxx0201MMDD.txt）中，“产品状态标志”字段第8 位和第\n9 位的适用范围，并启用第11 位表示“注册制股票（含存托凭\n证）”的标签位。\n自2023 年3 月20 日起，技术接口中 证券权益接口\n（zqyXXXXX.dbf）的“zbqy（主板权益）”为按照“每5000 元市值\n一个申购单位，一个申购单位500 股”计算后的值。产品非交易基础\n信息接口（fjyYYYYMMDD.txt）中主板股票发行的“非交易订单整手\n数”和“非交易订单最小订单数量”改为500。\n上述文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n\n上海证券交易所\n二○二三年三月十七日\n\n<metadata>\n{\n  \"title\": \"20230317_关于发布全面实行注册制发行业务相关市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230317_关于发布全面实行注册制发行业务相关市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布全面实行注册制发行业务相关市场接口的通知.md\",\n  \"file_hash\": \"sha256:d9966316d49d6419ceb22c177c8118070e9b6c39b4f69f73c9471376b0efc319\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.618424+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

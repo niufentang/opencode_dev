@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-00000000-131",
+  "doc_id": "sse-iface-00000000-417",
   "title": "IS122_上海证券交易所交易网关STEP接口规格说明书（互联网交易平台）2",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10800223/files/36886e5e6b7144478c7da9e181dd8c91.pdf",
-  "analysis_date": "2026-05-02T02:03:06.357738+00:00",
+  "analysis_date": "2026-06-13T17:46:55.984881+00:00",
   "status": "active",
   "version": null,
   "previous_version": null,
@@ -2307,6 +2307,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及326项变更。 技术架构变更: 21项。 删除: 2项。 接口字段变更: 116项。 规则条款变更: 187项。 其中重大变更20项。",
+  "summary": "本次涉及326项变更。 删除: 2项。 规则条款变更: 187项。 技术架构变更: 21项。 接口字段变更: 116项。 其中重大变更20项。",
   "confidence": 0.95
 }

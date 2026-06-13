@@ -1,0 +1,23 @@
+{
+  "doc_id": "sse-tech-00000000-239",
+  "title": "关于发布固收交易机制优化相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072513/files/096955e8f7624c7c981b9014c8f0b769.pdf",
+  "analysis_date": "2026-06-13T17:46:55.048134+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS109",
+    "IS118",
+    "债券"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

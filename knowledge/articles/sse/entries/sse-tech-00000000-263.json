@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-263",
+  "type": "technical_notice",
+  "title": "关于发布支持xml版ETF定义文件市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10752501/files/51bfc121c9694e709f1834ce13e7cb49.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105",
+    "IS118"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:fa9b16cb59e00ccf2ddbb47008a81088408c29972f52f9ce688fa93dc03239b1",
+  "content_markdown": "关于发布支持 xml 版 ETF 定义文件市场接口\n技术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为支持 xml 版 ETF 定\n义文件，拟发布《 IS105_ 上海证券交易所综合业务平台市场\n参与者接口规格说明书 1.55 版 _20240306 （支持 ETF 定义文\n件 xml 版技术开发稿）》、《 IS118_ 上海证券交易所特定参\n与者接口规格说明书（基金公司卷） 1.9 版 _20240306 （支持\nETF 定义文件 xml 版技术开发稿）》、《 IS118 上海证券交\n易所特定参与者接口规格说明书（转发卷） 1.3 版 _20240306\n（支持 ETF 定义文件 xml 版技术开发稿）》、《上海证券交\n易所支持 xml 版 ETF 定义文件市场参与者技术实施指南\n20240306 》。待 ETF 定义文件支持 xml 版后，将不支持 ETF\n定义文件 2.1 版。请各市场参与者做好技术就绪准备工作。\n本次主要变更内容为：在综合业务平台市场参与者接口\n规格说明书中，新增 ETF 公告文件 xml 版相关描述，下线\nETF 公告文件 2.1 版，删除相关描述。在特定参与者接口规\n格说明书（基金公司卷）中，新增 ETF 定义文件 xml 版、 ETF\n确认文件 xml 版、 ETF 公告文件 xml 版相关描述，下线 ETF\n定义文件 2.1 版、 ETF 确认文件 2.1 版、 ETF 公告文件 2.1 版。\n在特定参与者接口规格说明书（转发卷）中，下线 ETF 公告\n文件 2.1 版，删除相关描述。。\n相关文件电子版本可通过本所官方网站 “ 交易技术支持\n\n专区 ” 相关栏目下载。\n技术咨询电话： 4008888400 转 2 ；技术支持邮箱：\ntech_support@sse.com.cn ；技术支持服务 QQ 群： 298643611 。\n特此通知。\n上海证券交易所\n2024 年 3 月 22 日\n\n<metadata>\n{\n  \"title\": \"20240322_关于发布支持xml版ETF定义文件市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20240322_关于发布支持xml版ETF定义文件市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布支持xml版ETF定义文件市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:fa9b16cb59e00ccf2ddbb47008a81088408c29972f52f9ce688fa93dc03239b1\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.916280+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-180",
+  "type": "technical_notice",
+  "title": "关于发布互联网交易平台TDGW_I_1.4",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072366/files/f255c6673370494c9c4b1ced93886c4f.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:b8cb8c2f3de77fddc7872922119b793101cc1c28943cfe5816f1914965234831",
+  "content_markdown": "关于发布互联网交易平台TDGW_I_1.4.2 软\n件版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）为提升市场参与者对客户\n端软件的使用体验，拟发布TDGW_I_1.4.2 客户端软件版本。请\n市场参与者做好技术准备工作。\n本次软件版本变更内容为支持OpenJDK或国产开源JDK、支持\nArm架构操作系统等技术优化。上述版本推荐市场参与者进行升\n级。\n请市场参与者自主选择升级时间，并在升级前，在本所全天\n候测试环境中做好充分测试工作。软件安装包可通过本所官方网\n站 “ 交易技术支持专区 ” 相关 栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年十二月九日\n\n<metadata>\n{\n  \"title\": \"20221209_关于发布互联网交易平台TDGW_I_1.4\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20221209_关于发布互联网交易平台TDGW_I_1.4.2软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布互联网交易平台TDGW_I_1.4.2软件版本的通知.md\",\n  \"file_hash\": \"sha256:b8cb8c2f3de77fddc7872922119b793101cc1c28943cfe5816f1914965234831\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.589352+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

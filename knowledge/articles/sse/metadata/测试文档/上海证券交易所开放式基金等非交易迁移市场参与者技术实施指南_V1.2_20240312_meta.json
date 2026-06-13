@@ -1,0 +1,18 @@
+{
+  "title": "上海证券交易所市场数据文件交换",
+  "source_url": null,
+  "raw_path": "knowledge\\raw\\sse\\测试文档\\20240329_上海证券交易所开放式基金等非交易迁移市场参与者技术实施指南_V1.2_20240312.pdf",
+  "markdown_path": "knowledge\\articles\\sse\\markdown\\测试文档\\上海证券交易所开放式基金等非交易迁移市场参与者技术实施指南_V1.2_20240312.md",
+  "file_hash": "sha256:598ce1a9f1e2eb3aca9c0b07da37de2e71efbe24e0bec5eb345d9838e812a42c",
+  "file_format": "pdf",
+  "page_count": 6,
+  "doc_type": "test_doc",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "effective_date": null,
+  "has_changes": true,
+  "parse_status": "success",
+  "parse_date": "2026-06-13T17:45:31.333950+00:00",
+  "sub_category": null
+}

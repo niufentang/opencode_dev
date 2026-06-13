@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-361",
+  "type": "technical_notice",
+  "title": "关于调整现有指数行情刷新频率的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072443/files/67c99d035a654be382a3757099459e22.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:eda441cf8001e70dc5925dc7681708863df2293764114f47202b18553c655aea",
+  "content_markdown": "关于调整现有指数行情刷新频率的通知\n各市场参与者：\n上海证券交易所（以下简称“本所”）为提升行情数据质量，\n拟从5 月16 日起，对现有部分行情的刷新频率进行调整（包含\n部分指数和部分IOPV），由5 秒一幅提高至3 秒一幅，保持与个\n股行情刷新频率一致。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二 〇 二二年五月十三日\n\n<metadata>\n{\n  \"title\": \"20220513_关于调整现有指数行情刷新频率的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220513_关于调整现有指数行情刷新频率的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于调整现有指数行情刷新频率的通知.md\",\n  \"file_hash\": \"sha256:eda441cf8001e70dc5925dc7681708863df2293764114f47202b18553c655aea\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.159771+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

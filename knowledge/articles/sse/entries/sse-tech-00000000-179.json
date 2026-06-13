@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-179",
+  "type": "technical_notice",
+  "title": "关于发布互联网交易平台TDGW_0.11",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072463/files/0a2c7573120e49b99fd8d280c7494e16.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:29732a935cf4e6c56b7495c3a3c2b206b09401ecb81aa85ab62acb20d9fd73fe",
+  "content_markdown": "关于发布互联网交易平台TDGW_0.11.3软件\n版本的通知\n各市场参与者：\n上海证券交易所（以下简称本所）根据基金通业务的整体\n上线工作安排，拟向市场发布互联网交易平台TDGW_0.11.3 软件\n版本。\n本次交易网关软件版本支持基金通业务的申报和成交回报\n的接收功能。\n请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试。\n上述软件安装包可通过本所官方网站“交易技术支持专区”\n下载。技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年二月二十五日\n\n<metadata>\n{\n  \"title\": \"20220225_关于发布互联网交易平台TDGW_0.11\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220225_关于发布互联网交易平台TDGW_0.11.3软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布互联网交易平台TDGW_0.11.3软件版本的通知.md\",\n  \"file_hash\": \"sha256:29732a935cf4e6c56b7495c3a3c2b206b09401ecb81aa85ab62acb20d9fd73fe\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.990253+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

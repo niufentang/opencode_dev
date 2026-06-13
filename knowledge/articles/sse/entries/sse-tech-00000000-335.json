@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-335",
+  "type": "technical_notice",
+  "title": "关于发布部分ETF申购支持RTGS模式市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072565/files/16be582e3aee4e6f831349a14fe0eb0d.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS105"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:7fc58b17dcd9e8dc2bae01a23e96a805e4266774cfe50ca6aa62c3c57e666de2",
+  "content_markdown": "关于发布部分ETF 申购支持RTGS 模式\n市场接口技术开发稿的 通知\n各会员、其他市场参与主体：\n根据部分ETF 申购支持RTGS 模式整体工作安排，上海证券\n交易所（以下简称本所）拟发布《IS105_上海证券交易所综合业\n务平台市场参与者接口规格说明书1.46 版（RTGS 技术开发稿）\n_20210226》，以供市场参与者提前做好技术就绪准备工作。\n此次综合业务平台市场接口主要是根据部分以全现金为对\n价申购的ETF 产品支持RTGS 申购模式的业务需求，调整了ETF\n现金申赎相关接口说明。\n文件电子版本可通过本所官方网站“交易技术支持专区”下\n载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年三月二日\n\n<metadata>\n{\n  \"title\": \"20210305_关于发布部分ETF申购支持RTGS模式市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210305_关于发布部分ETF申购支持RTGS模式市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布部分ETF申购支持RTGS模式市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:7fc58b17dcd9e8dc2bae01a23e96a805e4266774cfe50ca6aa62c3c57e666de2\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.333888+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

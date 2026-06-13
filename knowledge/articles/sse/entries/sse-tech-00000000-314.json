@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-314",
+  "type": "technical_notice",
+  "title": "关于发布行情网关MDGW_1.1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10645584/files/a348183c152b4d689b1b1a284bb4f5e1.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "行情网关"
+  ],
+  "status": "active",
+  "version": "1.1",
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:686f53344628a1d37821807f60a3d992ca34a451e53a71931495ad4b7c277805",
+  "content_markdown": "关于发布行情网关MDGW_1.1.1 版本的通知\n各市场参与者：\n为更好地为市场提供行情数据文件服务，上海证券交易所\n（以下简称本所）拟发布行情网关软件MDGW_1.1.1 版本。\n本次行情网关软件版本进行了部分技术优化，推荐市场参与\n者升级。请各市场参与者认真仔细阅读用户手册（见软件安装包），\n并在测试环境进行充分测试后，开展行情网关的升级部署。\n上述软件安装包可通过本所官方网站 “ 交易技术支持专区 ”\n下载。技术咨询电话：4008888400 按键2，技术支持邮箱：\ntech_support@sse.com.cn，技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年7 月21 日\n\n<metadata>\n{\n  \"title\": \"20230721_关于发布行情网关MDGW_1.1\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230721_关于发布行情网关MDGW_1.1.1版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布行情网关MDGW_1.1.1版本的通知.md\",\n  \"file_hash\": \"sha256:686f53344628a1d37821807f60a3d992ca34a451e53a71931495ad4b7c277805\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.738364+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

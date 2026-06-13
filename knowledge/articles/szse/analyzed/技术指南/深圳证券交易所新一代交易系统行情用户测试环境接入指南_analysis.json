@@ -1,0 +1,41 @@
+{
+  "doc_id": "szse-test-00000000-100",
+  "title": "深圳证券交易所新一代交易系统行情用户测试环境接入指南",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020180328467267271783.pdf",
+  "analysis_date": "2026-06-13T17:46:57.269715+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "不同行情服务产品最终支持的行情类型请以深交所网站公布的信息为准。",
+      "detail": "不同行情服务产品最终支持的行情类型请以深交所网站公布的信息为准。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.ssscc.com.cn/main/xzzq/SJSWJCSXT/2015090130520.shtml http://www.szse.cn/main/rule/jysywzn/stsv5/",
+      "detail": "http://www.ssscc.com.cn/main/xzzq/SJSWJCSXT/2015090130520.shtml\nhttp://www.szse.cn/main/rule/jysywzn/stsv5/",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "test_doc",
+    "BINARY",
+    "STEP",
+    "债券",
+    "期权",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及2项变更。 规则条款变更: 2项。",
+  "confidence": 0.95
+}

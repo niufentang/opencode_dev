@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-077",
+  "type": "technical_notice",
+  "title": "关于2月6日开展全市场连通性测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072470/files/1a116cb4c93c42f8a0fd466885f8afee.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:85b5eff037cb3e8358fb87ca150ac82fe48529ca300b44047439a2907220788f",
+  "content_markdown": "关于2 月6 日开展全市场连通性测试的通知\n各市场参与人：\n上海证券交易所（以下简称本所）定于2022 年2 月6 日\n9:15-12:00，组织开展竞价撮合平台、综合业务平台、新债券交\n易平台、期权交易平台、港股通系统、固收生产环境等相关内容\n全网测试（测试文档详见会员专区），使用竞价撮合平台88 环境、\n综合业务平台89 环境、新债券交易平台82 环境、期权交易平台83\n环境、港股通系统84 环境(测试日港交所不参测，港股通测试场\n景仅登陆连通、无申报等功能验证)、固收平台生产环境。\n本次测试，请各参测单位务必高度重视，安排专人负责测试\n工作，测试前做好相关系统和数据环境保护工作，测试后做好技\n术系统和数据环境恢复工作，确保下一交易日生产系统正常运行。\n测试过程中，请各参测单位详细记录测试现象与结果，检查业务\n正确性；如发现异常现象，请及时报告。测试结束后，请于2 月\n6 日14:00 前，通过测试方案中的在线反馈链接提交测试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二二年一月二十五日\n\n<metadata>\n{\n  \"title\": \"20220125_关于2月6日开展全市场连通性测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220125_关于2月6日开展全市场连通性测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于2月6日开展全市场连通性测试的通知.md\",\n  \"file_hash\": \"sha256:85b5eff037cb3e8358fb87ca150ac82fe48529ca300b44047439a2907220788f\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.930109+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

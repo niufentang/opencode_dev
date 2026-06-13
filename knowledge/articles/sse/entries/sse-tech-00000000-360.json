@@ -1,0 +1,24 @@
+{
+  "id": "sse-tech-00000000-360",
+  "type": "technical_notice",
+  "title": "关于调整互联网交易平台市场参与人交易专网访问地址的通知",
+  "source": "sse",
+  "source_url": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:aa7b779fde60bdd1803650344874b9e5d091933bace9e8a5eab008fe81ed9aa6",
+  "content_markdown": "关于调整互联网交易平台市场参与人交易\n专网访问地址的通知\n各市场参与人：\n根据工作安排，上海证券交易所（以下简称本所）生产\n环境互联网交易平台计划启用新的交易专网访问地址，并停\n用现有交易专网访问地址。现就相关事项通知如下：\n一、本次新增两个交易专网访问地址，并于即日起正式\n生效，现有地址将于 6 月 5 日盘后下线。\n二、交易专网新地址访问说明\n本次启用的新地址，访问方式和业务规则与现有地址保\n持不变。基金通业务销售商可在交易专网中使用新地址接入\n互联网交易平台 API 网关并进行业务操作；互联网交易平台\n其他业务相关交易参与人也可通过新地址访问互联网交易\n平台 Web 端进行业务操作。\n已就绪的市场参与人后续可直接连接新地址；对未就绪\n的市场参与人，本所提供并行期至 6 月 5 日盘后，请在现有\n地址 6 月 5 日正式下线前完成就绪工作。\n请市场参与人在正式下线前检查网络连通性并切换至\n新地址。\n如有疑问，请及时联系本所技术服务热线 4008888400\n按键 2 。\n特此通知。\n\n上交所技术有限责任公司\n2026 年 5 月 28 日\n\n<metadata>\n{\n  \"title\": \"20260528_关于调整互联网交易平台市场参与人交易专网访问地址的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20260528_关于调整互联网交易平台市场参与人交易专网访问地址的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于调整互联网交易平台市场参与人交易专网访问地址的通知.md\",\n  \"file_hash\": \"sha256:aa7b779fde60bdd1803650344874b9e5d091933bace9e8a5eab008fe81ed9aa6\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:27.298189+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

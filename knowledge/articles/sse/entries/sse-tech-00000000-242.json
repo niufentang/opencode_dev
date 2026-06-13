@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-242",
+  "type": "technical_notice",
+  "title": "关于发布固收平台交易端及EzDA客户端软件版本的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072420/files/728df0048df843039290a1d71473503f.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:5a0446e2d99eae57c50af1d3ffb16e4f30dcfe54e5d814ed92bd4758eeb694f1",
+  "content_markdown": "关于发布固收平台交易端及EzDA 客户端软\n件版本的通知\n各市场参与人：\n上海证券交易所（以下简称本所）为支持固收交易平台待定\n报价业务功能，拟发布固收平台交易客户端Bond_7.6.3.0 及\nEzDA_1.7.2 软件版本。请市场参与者做好技术准备工作。\n本次软件版本升级的主要功能在STEP协议报盘接口中新增\n待定报价功能，支持待定报价申报、撤销，待定报价回复、撤销，\n待定报价成交确认、拒绝，待定报价行情，待定报价订单状态，\n成交执行报告查询等功能。\n本次发布软件版本中，EzDA不做强制升级，请市场参与人自\n主选择升级时间，并在升级前，在本所全天候测试环境中做好充\n分测试工作。\n请市场参与人认真仔细阅读用户手册（见软件安装包），并\n根据《关于7 月2 日开展竞价、综业、新债券、期权、港股通、\n固收等平台相关业务通关测试的通知》参与测试。 软件安装包\n可通过本所官方网站 “ 交易技术支持专区 ” 相关 栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年七月一日\n\n<metadata>\n{\n  \"title\": \"20220701_关于发布固收平台交易端及EzDA客户端软件版本的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220701_关于发布固收平台交易端及EzDA客户端软件版本的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固收平台交易端及EzDA客户端软件版本的通知.md\",\n  \"file_hash\": \"sha256:5a0446e2d99eae57c50af1d3ffb16e4f30dcfe54e5d814ed92bd4758eeb694f1\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.288610+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

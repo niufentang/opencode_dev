@@ -1,0 +1,51 @@
+{
+  "doc_id": "sse-iface-20191218-034",
+  "title": "IS122_上海证券交易所交易网关接口规格说明书（期权平台）1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10649699/files/62301c6e3b754ba996c2c1abdb79f138.pdf",
+  "analysis_date": "2026-06-13T17:46:54.248750+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2023-09-08 补充“执行报告”的相关描述，增加数据持久化的 补充“执行报告”中分区（ SetID ）的相关描述，删 除本文档中业务类型与分区的固定对应关系描述，实际 的分区信息应以执行报告信息 ExecRtpInfo 推送的数据 其产生的回报以不同的执行报告分区（ 划分为多个逻辑上相互独立的数据流。",
+      "detail": "2023-09-08\n补充“执行报告”的相关描述，增加数据持久化的\n补充“执行报告”中分区（\nSetID\n）的相关描述，删\n除本文档中业务类型与分区的固定对应关系描述，实际\n的分区信息应以执行报告信息\nExecRtpInfo\n推送的数据\n其产生的回报以不同的执行报告分区（\n划分为多个逻辑上相互独立的数据流。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "(SetID) ；同一个业务也可以属于多个分区，通过 多个执行报告流发送 区列表信息，由后台交易系统确定，可能随后台优化而调整。 应避免自行配置固定分 区信息，影响系统的灵活性和兼容性。 TDGW 推送的执行报告进行数据持久化操作，以减少 异常时从交易系统 恢复的执行报告数量。同时， 应具备识别重复执行报告的能力，避免重复处理。",
+      "detail": "(SetID)\n；同一个业务也可以属于多个分区，通过\n多个执行报告流发送\n区列表信息，由后台交易系统确定，可能随后台优化而调整。\n应避免自行配置固定分\n区信息，影响系统的灵活性和兼容性。\nTDGW\n推送的执行报告进行数据持久化操作，以减少\n异常时从交易系统\n恢复的执行报告数量。同时，\n应具备识别重复执行报告的能力，避免重复处理。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "平台内分区号（ ），取值由交易系统后台决定，可能随后台优化而调整，建议 ExecRptInfo 推送的数据为准，保持灵活的兼容性。",
+      "detail": "平台内分区号（\n），取值由交易系统后台决定，可能随后台优化而调整，建议\nExecRptInfo\n推送的数据为准，保持灵活的兼容性。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "IS111",
+    "IS113",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "做市商",
+    "报盘软件",
+    "期权",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及3项变更。 规则条款变更: 3项。",
+  "confidence": 0.95
+}

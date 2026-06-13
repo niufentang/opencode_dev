@@ -1,0 +1,34 @@
+{
+  "doc_id": "sse-mag-00000000-052",
+  "title": "《交易技术前沿》总第三十六期文章（2019年9月）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10071292/files/bb88ac541e134c9c8171f0d4bc78619d.pdf",
+  "analysis_date": "2026-06-13T17:46:54.373033+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "SPAN",
+      "detail": "SPAN",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "magazine",
+    "债券",
+    "做市商",
+    "期权",
+    "科创板",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及1项变更。 规则条款变更: 1项。",
+  "confidence": 0.95
+}

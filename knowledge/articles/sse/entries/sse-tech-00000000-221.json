@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-221",
+  "type": "technical_notice",
+  "title": "关于发布固定收益平台STEP协议报盘市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10645592/files/5369e8f74a5d4acead4f782dbc8d29a7.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS119",
+    "STEP",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:a6b1c7ec1cc82f3dbe3da21050510d8cd14a415ea631fc32a215c8bd5aa96f74",
+  "content_markdown": "关于发布固定收益平台STEP 协议报盘市场\n接口的通知\n各市场参与者：\n上海证券交易所（以下简称本所）拟发布《IS119_上海证券\n交易所固定收益平台STEP 协议报盘接口规格说明书1.82 版\n_20230525》，请市场参与者做好技术准备工作。\n本次技术接口主要调整内容为：增加合并申报、回售撤销电\n子接口；确定报价、询价和指定对手方报价新增结算方式字段；\n支持协商成交对手方申报要素和参考收益率查询；调整点击成交\n申报数量可为固定成交单位的整数倍；同时根据债券交易规则，\n本接口文档删除最优价成交和可转换成交相关描述。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 转2 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n2023 年6 月30 日\n\n<metadata>\n{\n  \"title\": \"20230630_关于发布固定收益平台STEP协议报盘市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230630_关于发布固定收益平台STEP协议报盘市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布固定收益平台STEP协议报盘市场接口的通知.md\",\n  \"file_hash\": \"sha256:a6b1c7ec1cc82f3dbe3da21050510d8cd14a415ea631fc32a215c8bd5aa96f74\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.711520+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

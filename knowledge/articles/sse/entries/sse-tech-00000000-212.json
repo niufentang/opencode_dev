@@ -1,0 +1,32 @@
+{
+  "id": "sse-tech-00000000-212",
+  "type": "technical_notice",
+  "title": "关于发布公募REITs业务等相关市场接口的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072561/files/da700660336c4da393a8b09bb40ea04b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "BINARY",
+    "IS101",
+    "IS105",
+    "IS109",
+    "IS118",
+    "IS119",
+    "IS120",
+    "REITs"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:ac7be48d5d4c07100bf766f9c70e9a846692780498f35f7595c7696e749dd43a",
+  "content_markdown": "关于发布公募REITs 业务等相关市场接口的\n通知\n各会员、其他市场参与主体：\n根据公开募集基础设施证券投资基金（以下简称公募REITs）\n业务整体工作安排，上海证券交易所（以下简称本所）将发布\n《IS101_上海证券交易所竞价撮合平台市场参与者接口规格说\n明书1.51 版_20210315》、\n《IS105_上海证券交易所综合业务平台\n市场参与者接口规格说明书1.46 版_20210315》、\n《IS120_上海证\n券交易所行情网关BINARY 数据接口规范0.42 版_20210315》、\n《IS120_上海证券交易所行情网关STEP 数据接口规范0.42 版\n_20210315》、《IS109_上海证券交易所固定收益平台外部数据接\n口规范3.22 版_20210315》、\n《IS118_上海证券交易所特定参与者\n接口规格说明书（托管银行卷）1.31 版_20210315》和《IS119_\n上海证券交易所固定收益平台STEP 协议报盘接口规格说明书\n1.51 版_20210315》，以供市场参与者做好技术就绪准备工作。\n此次市场接口调整主要是在竞价撮合平台市场参与者接口\n规格说明书中，为配合公募REITs 等业务需求，修订了产品基础\n信息文件，增加公募REITs 证券类别；增加科创板可转债产品细\n分类别属性信息；补充了产品基础信息文件备注字段关于股票产\n品流通总量信息的说明等。在综合业务平台市场参与者接口规格\n说明书中，调整了基金参数文件，添加公募 REITs 的类型；补\n充了过户数据接口成交价格字段溢出的说明。在行情网关BINARY\n数据接口规范和行情网关STEP 数据接口规范行情快照消息中增\n加公募REITs 相关描述。在固定收益平台外部数据接口规范中修\n\n订了确定报价行情记录说明，增加了公募REITs 产品及相关说明。\n在特定参与者接口规格说明书（托管银行卷）中修订了成交明细\n行情、确定报价行情和成交数据文件格式说明，增加公募REITs\n产品相关说明，将创新创业债更名为双非可转债。在固定收益平\n台STEP 协议报盘接口规格说明书中创新创业债更名为双非可转\n债，增加公募REITs 产品相关说明。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年三月二十六日\n\n<metadata>\n{\n  \"title\": \"20210329_关于发布公募REITs业务等相关市场接口的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210329_关于发布公募REITs业务等相关市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布公募REITs业务等相关市场接口的通知.md\",\n  \"file_hash\": \"sha256:ac7be48d5d4c07100bf766f9c70e9a846692780498f35f7595c7696e749dd43a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.362185+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

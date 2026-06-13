@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-330",
+  "type": "technical_notice",
+  "title": "关于发布跨市场债券（银行间）ETF业务市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072385/files/85205fe687bb4bba885cdea44c879c35.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101",
+    "IS105",
+    "IS118",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:c25eacd68dad120ecaa6fb4e86dd18c3166c32cb197f5cc9baf09d121352c28a",
+  "content_markdown": "关于发布跨市场债券（银行间）ETF 业务\n市场接口技术开发稿的通知\n各市场参与人：\n根据跨市场债券（银行间）ETF 业务的整体工作安排，上海\n证券交易所（以下简称本所）拟发布《IS101_上海证券交易所竞\n价撮合平台市场参与者接口规格说明书1.60 版_20220808（跨市\n场债券（银行间）ETF 技术开发稿）》、《IS105_上海证券交易\n所综合业务平台市场参与者接口规格说明书1.51 版_20220808\n（跨市场债券（银行间）ETF 技术开发稿）》、《IS118_上海证\n券交易所特定参与者接口规格说明书（基金公司卷）1.8 版\n_20220823（跨市场债券（银行间）ETF 技术开发稿）》、《上\n海证券交易所跨市场债券（银行间）ETF 市场参与者技术实施指\n南_20220908》，请市场参与者做好上线前的技术准备工作。\n本次市场接口主要变更为竞价撮合平台市场参与者接口规\n格说明书中，在产品基础信息中增加跨市场债券（银行间）ETF\n产品，对应增加ETF 细分类别。在综合业务平台市场参与者接口\n规格说明书中，增加跨市场债券（银行间）ETF 实物申赎业务类\n型，调整ETF 申赎申报消息，启用订单中备注字段用于填写中央\n结算公司提供的业务标识号，调整执行报告相关描述，在基金过\n户数据与基金非交易基础信息接口中，增加跨市场债券（银行间）\nETF 的相关描述。在特定参与者接口规格说明书中，新增ETF 定\n义文件xml 版、ETF 确认文件xml 版相关描述。\n\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年九月十六日\n\n<metadata>\n{\n  \"title\": \"20220916_关于发布跨市场债券（银行间）ETF业务市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220916_关于发布跨市场债券（银行间）ETF业务市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布跨市场债券（银行间）ETF业务市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:c25eacd68dad120ecaa6fb4e86dd18c3166c32cb197f5cc9baf09d121352c28a\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.507694+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

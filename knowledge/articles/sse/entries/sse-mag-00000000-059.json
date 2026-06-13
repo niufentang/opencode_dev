@@ -1,0 +1,24 @@
+{
+  "id": "sse-mag-00000000-059",
+  "type": "magazine",
+  "title": "《交易技术前沿》总第四十五期文章（2021年6月）",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/transaction/c/10071283/files/fac5d49db64342fba489aa148f3e1443.zip",
+  "summary": "初始版本，无历史变更。文档类型：magazine，版本：无。",
+  "tags": [
+    "sse",
+    "magazine"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "zip",
+  "file_hash": "sha256:eb5aa0de92530cd9debca92de63b5302b8e00b8042996b20dfdb1f8395e54704",
+  "content_markdown": "*[ZIP archive: 20210809_《交易技术前沿》总第四十五期文章（2021年6月）.zip — needs recursive extraction]*\n\n<metadata>\n{\n  \"title\": \"20210809_《交易技术前沿》总第四十五期文章（2021年6月）\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术杂志\\\\20210809_《交易技术前沿》总第四十五期文章（2021年6月）.zip\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术杂志\\\\《交易技术前沿》总第四十五期文章（2021年6月）.md\",\n  \"file_hash\": \"sha256:eb5aa0de92530cd9debca92de63b5302b8e00b8042996b20dfdb1f8395e54704\",\n  \"file_format\": \"zip\",\n  \"page_count\": 0,\n  \"doc_type\": \"magazine\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:44:42.204952+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

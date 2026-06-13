@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-guide-00000000-368",
+  "title": "上海证券交易所会员管理规则适用指引第5号——会员交易及相关系统接入与应用管理",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/services/c/10761335/files/e7093fcfabbb4089ae059feb0cb6a848.pdf",
+  "analysis_date": "2026-06-13T17:46:55.521893+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "guide",
+    "交易网关"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "confidence": 0.75
+}

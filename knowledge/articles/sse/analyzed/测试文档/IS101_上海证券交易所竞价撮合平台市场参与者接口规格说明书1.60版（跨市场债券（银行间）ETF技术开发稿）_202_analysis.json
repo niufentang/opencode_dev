@@ -1,0 +1,79 @@
+{
+  "doc_id": "sse-iface-00000000-372",
+  "title": "IS101_上海证券交易所竞价撮合平台市场参与者接口规格说明书1",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/development/c/10789328/files/3c6ccdac26eb4639919413594d2d3d62.pdf",
+  "analysis_date": "2026-06-13T17:46:55.538391+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "http://www.sse.com.cn/",
+      "detail": "http://www.sse.com.cn/",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "《市场参与者接口规格说明书》 1.60 版发布说明 2022 月进行了修订，主要有：",
+      "detail": "《市场参与者接口规格说明书》\n1.60\n版发布说明\n2022\n月进行了修订，主要有：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增支持跨市场债券（银行间）",
+      "detail": "新增支持跨市场债券（银行间）",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "细分类别。",
+      "detail": "细分类别。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "https://istock.ssetech.com.cn/wiki/doku.php?id=ssesystem:software:sdep",
+      "detail": "https://istock.ssetech.com.cn/wiki/doku.php?id=ssesystem:software:sdep",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "F124 ”表示跨市场债券（银行间）",
+      "detail": "F124\n”表示跨市场债券（银行间）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "tech_support@sse.com.cn",
+      "detail": "tech_support@sse.com.cn",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "EzOES",
+    "IS101",
+    "IS111",
+    "REITs",
+    "STEP",
+    "债券",
+    "报盘软件",
+    "期权",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及7项变更。 规则条款变更: 6项。 新增: 1项。 其中重大变更1项。",
+  "confidence": 0.95
+}

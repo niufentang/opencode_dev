@@ -1,0 +1,61 @@
+{
+  "doc_id": "szse-guide-20200423-092",
+  "title": "深圳证券交易所创业板改革并试点注册制市场参与者技术系统变更指南（Ver1",
+  "source": "szse",
+  "source_url": "https://www.szse.cn/marketServices/technicalservice/guide/P020200529561741145481.pdf",
+  "analysis_date": "2026-06-13T17:46:57.228307+00:00",
+  "status": "active",
+  "version": "1",
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "新增",
+      "summary": "新增专用于标识盘后定价交易的交易",
+      "detail": "新增专用于标识盘后定价交易的交易",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "含盘后定价交易部分）",
+      "detail": "含盘后定价交易部分）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增专用于标识盘后定价交易的交易方式‘",
+      "detail": "新增专用于标识盘后定价交易的交易方式‘",
+      "severity": "major",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MXJYFS ‘12’ （不含盘后定价交易部分） ’：盘后定价交 经深交所 和盘后定价交易 市场化转融通 证券划转 若为市场化转融通的转融券指令， 填写执行编号；否则填空。 ‘00’ 股份性质 ：非担保交收 ：无条件过户 收付净额 JGJSBZ 出借方参与人 49-50 位填写对手方股份性质。 54-55",
+      "detail": "MXJYFS\n‘12’\n（不含盘后定价交易部分）\n’：盘后定价交\n经深交所\n和盘后定价交易\n市场化转融通\n证券划转\n若为市场化转融通的转融券指令，\n填写执行编号；否则填空。\n‘00’\n股份性质\n：非担保交收\n：无条件过户\n收付净额\nJGJSBZ\n出借方参与人\n49-50\n位填写对手方股份性质。\n54-55",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "位为对手方股份性质。",
+      "detail": "位为对手方股份性质。",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "szse",
+    "guide",
+    "STEP",
+    "债券",
+    "注册制",
+    "融资融券",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及5项变更。 规则条款变更: 3项。 新增: 2项。 其中重大变更2项。",
+  "confidence": 0.95
+}

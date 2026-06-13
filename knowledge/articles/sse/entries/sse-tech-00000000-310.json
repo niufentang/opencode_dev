@@ -1,0 +1,26 @@
+{
+  "id": "sse-tech-00000000-310",
+  "type": "technical_notice",
+  "title": "关于发布股票期权基础信息文件（reff03MMDD",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072402/files/52fdcddcee3e40c6a48b753e7669f25d.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS113",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:dd9710ecc8bebc0d4c6cca6211a47b3902f6a30c85567726696c6a0618ab91f2",
+  "content_markdown": "关于发布股票期权基础信息文件\n（reff03MMDD.txt）下线\n市场接口技术开发稿的通知\n各市场参与人：\n根据股票期权基础信息文件下线工作安排，上海证券交易所\n（以下简称本所）拟发布《IS113_上海证券交易所股票期权市场\n参与者接口规格说明书1.5 版本（技术开发稿）_20220805》，\n请市场参与者于2022 年9 月底前做好技术就绪准备工作。\n此次市场接口主要变动是取消期权基础信息文件\n（reff03MMDD.txt）。市场参与者通过本所提供的期权基础信息\n第二版文件（reff0302YYYYMMDD.xml）获取期权基础信息。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年八月五日\n\n<metadata>\n{\n  \"title\": \"20220805_关于发布股票期权基础信息文件（reff03MMDD\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220805_关于发布股票期权基础信息文件（reff03MMDD.txt）下线市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布股票期权基础信息文件（reff03MMDD.txt）下线市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:dd9710ecc8bebc0d4c6cca6211a47b3902f6a30c85567726696c6a0618ab91f2\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.402314+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

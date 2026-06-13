@@ -1,0 +1,32 @@
+{
+  "id": "sse-guide-00000000-269",
+  "type": "guide",
+  "title": "关于发布新债券交易系统相关市场接口及切换上线实施指南技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072539/files/2fd0b60911bf46fa9cb9ba3d413db533.pdf",
+  "summary": "初始版本，无历史变更。文档类型：guide，版本：无。",
+  "tags": [
+    "sse",
+    "guide",
+    "BINARY",
+    "IS101",
+    "IS120",
+    "IS122",
+    "IS124",
+    "STEP",
+    "交易网关",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:853166251d1ec5f3a1d32d8b751c87b73318c9ca4f0f302593d848c50f964de0",
+  "content_markdown": "关于发布新债券交易系统相关市场接口及\n切换上线实施指南技术开发稿的通知\n各会员、其他市场参与主体：\n根据新债券交易系统（以下简称新债券）建设整体工作安排，\n上海证券交易所（以下简称本所）拟发布《新债券交易系统市场\n参与者切换上线实施指南（技术开发稿）》、《IS101_上海证券交\n易所竞价撮合平台市场参与者接口规格说明书1.54 版（新债券\n技术开发稿）20210624》、《IS120_上海证券交易所行情网关\nBINARY 数据接口规范0.51 版（新债券技术开发稿）20210324》、\n《IS120_上海证券交易所行情网关STEP 数据接口规范0.51 版\n（新债券技术开发稿）20210324》、《IS122_上海证券交易所交易\n网关Binary 接口规格说明书1.90 版（新债券技术开发稿）\n20210624》、《IS122_上海证券交易所交易网关STEP 接口规格说\n明书1.90 版（新债券技术开发稿）20210705》、《IS124_上海证\n券交易所市场数据文件交换接口规格说明书0.80 版（新债券技\n术开发稿）20210324》，以供市场参与者提前做好技术就绪准备\n工作。\n此次市场接口调整主要是在竞价撮合平台市场参与者接口规格\n说明书中，为配合新债券交易系统上线，调整、移除行情接口中\n债券相关的行情数据说明。在行情网关BINARY 数据接口规范和\n行情网关STEP 数据接口规范中,调整股票产品（含指数）全市场\n行情状态中债券质押回购行情结束标志的相关描述。在交易网关\nBINARY 数据接口规范中，补充UserInfo 字段说明；在申报响应\n\n及撤单成功响应消息中，增加OrigOrdCnfmID 字段（原始交易所\n订单编号）；增加OMS 对执行报告的数据持久化以及对重复执行\n报告的识别。在交易网关STEP 数据接口规范中，补充“用户私\n有信息”字段说明；在申报响应及撤单成功响应消息中，增加\nRefOrderID 字段（被撤订单交易所订单编号）；调整业务类型字\n段（ApplID）的长度；增加OMS 对执行报告的数据持久化以及\n对重复执行报告的识别；调整执行报告编号（ReportIndex）的\ntag 值。在市场数据文件交换接口规格说明书中，调整交易申报\n错误码信息文件的发布渠道：移除UT 发布渠道。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年七月六日\n\n<metadata>\n{\n  \"title\": \"20210706_关于发布新债券交易系统相关市场接口及切换上线实施指南技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210706_关于发布新债券交易系统相关市场接口及切换上线实施指南技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布新债券交易系统相关市场接口及切换上线实施指南技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:853166251d1ec5f3a1d32d8b751c87b73318c9ca4f0f302593d848c50f964de0\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"guide\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.530871+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

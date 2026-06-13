@@ -1,0 +1,29 @@
+{
+  "id": "sse-tech-00000000-247",
+  "type": "technical_notice",
+  "title": "关于发布基金通2",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072391/files/481f08dfa5b243148d97755a1759942d.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS111",
+    "IS122",
+    "IS419",
+    "STEP",
+    "交易网关"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:591720b511dc597954f8189a3ab08b711ea5f7618d8751c9146658653817b0f0",
+  "content_markdown": "关于发布基金通2.0 平台询价业务\n市场接口的通知\n各市场参与人：\n为提升基金通2.0 平台市场服务体验，上海证券交易所（以\n下简称本所）拟发布《IS122_上海证券交易所交易网关STEP 接\n口规格说明书（互联网交易平台）1.12 版_20220818》、《IS419_\n上海证券交易所互联网交易平台市场参与者接口规格说明书（销\n售机构卷）1.12 版_20220815》、《IS111_上海证券交易所报盘\n软件错误码表3.24 版本_20220810（互联网交易平台）》，请市\n场参与者做好上线准备工作。\n本次市场接口主要变更为交易网关STEP 接口规格说明书中，\n增加询价业务类接口，部分字段修订，补充字段说明；增加订阅\n机制；消息流图调整。在互联网交易平台市场参与者接口规格说\n明书中，调整公共报文头产品集字段调整为非必填；增加询价申\n报、询价报价查询、报价回复接口，并补充部分字段说明；份额\n过户文件补充说明，包含询价交易。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二二年九月二日\n\n<metadata>\n{\n  \"title\": \"20220902_关于发布基金通2\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220902_关于发布基金通2.0平台询价业务市场接口的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布基金通2.0平台询价业务市场接口的通知.md\",\n  \"file_hash\": \"sha256:591720b511dc597954f8189a3ab08b711ea5f7618d8751c9146658653817b0f0\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.496558+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

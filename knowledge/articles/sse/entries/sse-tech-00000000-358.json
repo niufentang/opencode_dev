@@ -1,0 +1,28 @@
+{
+  "id": "sse-tech-00000000-358",
+  "type": "technical_notice",
+  "title": "关于证通云盘全量静态文件推送服务正式上线的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072473/files/24f310798c774d8d97d3123609d7253b.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券",
+    "期权",
+    "港股通",
+    "证通云盘"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:4bd09626e237fbd64e545f43dcc8042487009ba1af105e493f30f4ccddd4b968",
+  "content_markdown": "关于证通云盘全量静态文件推送服务\n正式上线的通知\n各市场参与人：\n证通云盘（以下简称“云盘”）全量静态文件推送已于2021\n年12 月份技术上线，试运行情况良好。根据试运行情况，云盘\n拟于2022 年1 月24 日，正式向市场提供全量静态文件推送服务，\n具体文件清单请见附件。\n请各市场参与者认真阅读用户手册，做好技术准备工作。技\n术咨询电话：4009003600 ，技术支持邮箱：\ntech_support@sse.com.cn，技术支持服务QQ 群：298643611.\n特此通知。\n上海证券交易所\n二○二二年一月二十一日\n\n附件：证通云盘静态文件清单\n第二版一批次产品信息文件\ncpxx0201MMDD.txt\n第二版二批次产品信息文件\ncpxx0202MMDD.txt\n产品非交易基础数据1\nfjyYYYYMMDD.txt\n产品非交易基础数据\nfjyMMDD.txt\n基金和净值数据\nkxxMMDD.txt\n国债利息\ngzlx.MDD\n基金非交易基础信息接口\njfjyyyyymmdd.xml\n债券非交易基础信息接口\nzfjyyyyymmdd.xml\n债券标准券折算比率接口\nxzslMMDD.txt\n债券标准折算率变更公告\nzslwMMDD.txt\n交易公开信息公告\njygkxxMMDD.txt\n交易公开信息公告2\njygkxx02MMDD.txt\n权证信息接口\nqzxxMMDD.txt\n债券标准折算率变更接口\nzslMMDD.txt\nETF 公告\n*MMDD.ETF\nETF2.1 公告\n*MMDD2.ETF\nLOF 公告\nsfpm01MMDD.txt\n临时停牌公告new\ntp??????????.txt\n司法执行公告文件\nsf????????.pdf\n担保品及标的证券清单公告\ndbpMMDD.txt\n紧急通知\n*.*\n公告摘要文件1\nMMDDF???.TXT\n公告摘要文件2\nMMDDF????.TXT\n公告摘要文件3\nMMDDZ???.TXT\n公告摘要文件4\nMMDDZ????.TXT\n重点指数及样本表现\nzsbxYYMMDD.txt\n固定收益平台报价收盘\nbjspMMDD.txt\n固定收益平台报价明细\nbjmxMMDD.txt\n转融通标的证券清单文件\nzrtbdMMDD.txt\n第三方折算率文件\nbzsl01MMDD.txt\n港股基础信息\nreff04MMDD.txt\n港股通参考汇率文件\nexra04MMDD.txt\n最小价差文件\nzxjcMMDD.txt\n期权基础信息文件\nreff03MMDD.txt\n组合策略文件\nzhcl03MMDD.txt\n期权收盘价文件\nclpr03MMDD.txt\n投票文件\nvtlsMMDD.xml\n固定收益平台报价全部\nbjqbMMDD.txt\n\n<metadata>\n{\n  \"title\": \"20220121_关于证通云盘全量静态文件推送服务正式上线的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220121_关于证通云盘全量静态文件推送服务正式上线的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于证通云盘全量静态文件推送服务正式上线的通知.md\",\n  \"file_hash\": \"sha256:4bd09626e237fbd64e545f43dcc8042487009ba1af105e493f30f4ccddd4b968\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.922929+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

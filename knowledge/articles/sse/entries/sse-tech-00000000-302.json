@@ -1,0 +1,30 @@
+{
+  "id": "sse-tech-00000000-302",
+  "type": "technical_notice",
+  "title": "关于发布竞价平台交易网关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072504/files/66545c3c36c945ecb35726a692f1d263.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "EzOES",
+    "IS111",
+    "IS122",
+    "STEP",
+    "交易网关",
+    "报盘软件"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:2e97f0f725f1d0156ade56a6822132d2f6864fb323ef49f99b463a4b140baaea",
+  "content_markdown": "关于发布竞价平台交易网关市场接口\n技术开发稿的通知\n各会员、其他市场参与者：\n根据上海证券交易所（以下简称“本所”）竞价平台交易网\n关整体上线安排，本所拟发布《IS122 上海证券交易所交易网关\nBinary 接口规格说明书（竞价平台技术开发稿）V0.50_20211029》、\n《IS122 上海证券交易所交易网关STEP 接口规格说明书（竞价\n平台技术开发稿）V0.50_20211029》、《交易网关（竞价）市场\n参与者技术实施指南(技术开发稿)V0.2.0_20211012》、《交易\n网关TDGW 接口开发指南_1.2(技术开发稿)_20211102》、《TDGW\n竞价交易接口与EzOES 协议差异点》、《IS111 上海证券交易所\n报盘软件错误代码表3.19 版（竞价交易网关技术开发稿）\n_20211029》，请各市场参与者据此开展支持本所竞价撮合业务\n流模式接口的技术准备工作。\n此次市场接口调整主要是在交易网关Binary 接口规格说明\n书、交易网关STEP 接口规格说明书中，分别对开放式基金分红\n设置取值、BCAN 信息填写、结算会员代码、申报数量取值等进\n行说明。在报盘软件错误代码表中增加了对竞价平台错误代码的\n说明。\n相关文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4009003600 ；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二一年十一月五日\n\n<metadata>\n{\n  \"title\": \"20211105_关于发布竞价平台交易网关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20211105_关于发布竞价平台交易网关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布竞价平台交易网关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:2e97f0f725f1d0156ade56a6822132d2f6864fb323ef49f99b463a4b140baaea\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.767248+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

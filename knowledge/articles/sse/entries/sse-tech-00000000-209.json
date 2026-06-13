@@ -1,0 +1,27 @@
+{
+  "id": "sse-tech-00000000-209",
+  "type": "technical_notice",
+  "title": "关于发布全面实行注册制相关市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10635146/files/c698da96e3214edf8c9d8f76159b7576.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "EzOES",
+    "IS105",
+    "注册制"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:4ea399df1f13ce2ace4c30a237c0c07b219b67041c5751576fae435ed9bc34f6",
+  "content_markdown": "关于发布全面实行注册制相关市场接口技\n术开发稿的通知\n各市场参与者：\n上海证券交易所（以下简称本所）根据全面实行注册制相关\n工作安排，拟发布《IS105_上海证券交易所综合业务平台市场参\n与者接口规格说明书1.52 版（全面注册制改革技术开发稿）\n_20230316》（以下简称技术接口）、《上海证券交易所全面注\n册制改革市场参与者技术实施指南1.1 版_20230316》（以下简\n称实施指南），请市场参与者做好技术准备工作。\n本次技术接口删除了转融通公共数据消息中约定申报成交\n汇总的相关接口说明。在实施指南中，对转融通证券出借业务中，\n取消揭示约定申报实时成交总量；同时，对继续使用上交所易神\n系统报盘子系统EzOES 申报竞价平台市价订单的，要求软件版\n本应使用EzOES_2019 及以上版本。\n上述文件电子版本可通过本所官方网站“交易技术支持专区”\n相关栏目下载。\n技术咨询电话：4008888400 按键2；技术支持邮箱：\ntech_support@sse.com.cn；技术支持服务QQ 群：298643611。\n特此通知。\n上海证券交易所\n二○二三年三月二十一日\n\n<metadata>\n{\n  \"title\": \"20230322_关于发布全面实行注册制相关市场接口技术开发稿的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20230322_关于发布全面实行注册制相关市场接口技术开发稿的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于发布全面实行注册制相关市场接口技术开发稿的通知.md\",\n  \"file_hash\": \"sha256:4ea399df1f13ce2ace4c30a237c0c07b219b67041c5751576fae435ed9bc34f6\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.630598+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

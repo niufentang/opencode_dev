@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-101",
+  "type": "technical_notice",
+  "title": "关于7月31日开展期权相关业务全网测试的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072531/files/e76d64d7940e4ad1bf7b65397c62ad6c.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "期权"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:75401a6fa98bb4525662e43d987e12e4b9288ab4a1c86aba01b924dd434ef13e",
+  "content_markdown": "关于7 月31 日开展期权相关业务全网测试\n的通知\n各市场参与者：\n上海证券交易所（以下简称本所）定于2021 年7 月31 日（周\n六）11:15-14:00，组织开展竞价撮合平台、期权交易平台相关\n业务全网测试（测试文档详见会员专区），使用竞价撮合平台00\n环境、期权交易平台03 等环境。\n本次测试，请各参测单位务必高度重视，安排专人负责测试\n工作，测试前做好线上系统和数据环境保护工作，测试后做好技\n术系统和数据环境恢复工作，确保下一交易日生产系统正常运行。\n测试过程中，请各参测单位详细记录测试现象与结果，检查业务\n正确性；如发现异常现象，请及时报告。测试结束后，请于8 月\n7 日（周六）15:00 前，通过测试方案中的在线反馈链接提交测\n试反馈表。\n如有疑问，请及时联系本所技术服务热线：4009003600。\n特此通知。\n上海证券交易所\n二○二一年七月二十八日\n\n<metadata>\n{\n  \"title\": \"20210728_关于7月31日开展期权相关业务全网测试的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20210728_关于7月31日开展期权相关业务全网测试的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于7月31日开展期权相关业务全网测试的通知.md\",\n  \"file_hash\": \"sha256:75401a6fa98bb4525662e43d987e12e4b9288ab4a1c86aba01b924dd434ef13e\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 1,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:25.582653+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

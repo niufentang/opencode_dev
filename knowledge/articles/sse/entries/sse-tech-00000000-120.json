@@ -1,0 +1,25 @@
+{
+  "id": "sse-tech-00000000-120",
+  "type": "technical_notice",
+  "title": "关于做好债券代码段扩展准备工作的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072397/files/08a9448460f94f9c826efe4ee8075a29.pdf",
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "tags": [
+    "sse",
+    "technical_notice",
+    "债券"
+  ],
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "public_date": null,
+  "crawl_date": null,
+  "effective_date": null,
+  "deprecated_date": null,
+  "superseded_by": null,
+  "related_ids": [],
+  "file_format": "pdf",
+  "file_hash": "sha256:3f0f16ccd7a6f09768a4be2ee16156231606f2dfeca58e045077d209dfcdbc93",
+  "content_markdown": "关于做好债券代码段扩展准备工作的通知\n各市场参与人：\n为满足市场发展需要，上海证券交易所（以下简称本所）将\n对债券代码段进行扩展，对现用于债券回购业务的“2”开头代\n码段的用途进行调整，划分230000-299999 代码段用于债券现券\n业务；200000-229999 代码段用途保持不变，仍用于债券回购业\n务。为确保债券代码段扩展工作顺利推进，请各市场参与人于\n2022 年10 月底前做好各项相关业务及技术准备。本所将择机组\n织开展相关测试工作（测试安排另行通知）。\n业务咨询：\n刘雨薇、张正喜，电话：021-68601301、021-68601990，\n邮箱： ywliu@sse.com.cn ， zxzhang@sse.com.cn\n技术咨询：\n张永剑，电话：021-68602791，\n邮箱： yongjianzhang@sse.com.cn\n网站咨询：\n季晓娟，电话：021-68607557，\n邮箱： xjji@sse.com.cn\n\n特此通知。\n上海证券交易所\n二 〇 二二年八月十九日\n\n<metadata>\n{\n  \"title\": \"20220819_关于做好债券代码段扩展准备工作的通知\",\n  \"source_url\": null,\n  \"raw_path\": \"knowledge\\\\raw\\\\sse\\\\技术通知\\\\20220819_关于做好债券代码段扩展准备工作的通知.pdf\",\n  \"markdown_path\": \"knowledge\\\\articles\\\\sse\\\\markdown\\\\技术通知\\\\关于做好债券代码段扩展准备工作的通知.md\",\n  \"file_hash\": \"sha256:3f0f16ccd7a6f09768a4be2ee16156231606f2dfeca58e045077d209dfcdbc93\",\n  \"file_format\": \"pdf\",\n  \"page_count\": 2,\n  \"doc_type\": \"technical_notice\",\n  \"version\": null,\n  \"previous_version\": null,\n  \"public_date\": null,\n  \"effective_date\": null,\n  \"has_changes\": false,\n  \"parse_status\": \"success\",\n  \"parse_date\": \"2026-06-13T17:45:26.441379+00:00\",\n  \"sub_category\": null\n}\n</metadata>"
+}

@@ -1,9 +1,9 @@
 {
-  "doc_id": "sse-iface-00000000-116",
+  "doc_id": "sse-iface-00000000-400",
   "title": "固定收益平台STEP协议报盘接口规格说明书V1.0版（开发测试稿）",
   "source": "sse",
   "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10785858/files/fb5f5c3bd1284a74a2e0e616c2b308af.pdf",
-  "analysis_date": "2026-05-02T02:03:06.194244+00:00",
+  "analysis_date": "2026-06-13T17:46:55.792701+00:00",
   "status": "active",
   "version": "1.0",
   "previous_version": null,
@@ -45,6 +45,6 @@
   "related_ids": [],
   "deprecated_date": null,
   "superseded_by": null,
-  "summary": "本次涉及3项变更。 技术架构变更: 1项。 规则条款变更: 2项。",
+  "summary": "本次涉及3项变更。 规则条款变更: 2项。 技术架构变更: 1项。",
   "confidence": 0.95
 }

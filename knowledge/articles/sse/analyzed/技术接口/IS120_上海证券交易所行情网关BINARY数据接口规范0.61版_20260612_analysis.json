@@ -1,0 +1,338 @@
+{
+  "doc_id": "sse-iface-20260511-023",
+  "title": "IS120_上海证券交易所行情网关BINARY数据接口规范",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/data/c/10813255/files/9bf23a55ad764018a13d9c2e46f11b3a.pdf",
+  "analysis_date": "2026-06-13T17:46:54.145772+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [
+    {
+      "type": "规则条款变更",
+      "summary": "2026-05-11 0.61 会话机制交互图拆分为业务消息和重传消息。 、原应用信息章节抽取逐笔行情和快照行情通用规则组成 2.5.1 应用信息通用约定章节。 、添加了固收迁移互联网平台后新增行情信息（含债券非匹配 成交快照行情及各类逐笔行情等）。 、移除原固收文件行情接口包括： se015cjhqYYYMMDD001.txt",
+      "detail": "2026-05-11\n0.61\n会话机制交互图拆分为业务消息和重传消息。\n、原应用信息章节抽取逐笔行情和快照行情通用规则组成\n2.5.1\n应用信息通用约定章节。\n、添加了固收迁移互联网平台后新增行情信息（含债券非匹配\n成交快照行情及各类逐笔行情等）。\n、移除原固收文件行情接口包括：\nse015cjhqYYYMMDD001.txt",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（固收成交行情文件）、 se015cjmxYYYMMDD001.txt （固收成交 明细文件）、 se015qdbjYYYMMDD001.txt （固收确定报价文件） se015zqxxYYYMMDD001.txt （固收证券信息文件）。",
+      "detail": "（固收成交行情文件）、\nse015cjmxYYYMMDD001.txt\n（固收成交\n明细文件）、\nse015qdbjYYYMMDD001.txt\n（固收确定报价文件）\nse015zqxxYYYMMDD001.txt\n（固收证券信息文件）。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增接收",
+      "detail": "新增接收",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "products_yyyymmdd.xml （证券产品基础信息文件）、 bondmbrs_yyyymmdd.xml （债券交易参与人信息文件）和 bondtrdrs_yyyymmdd.xml （债券交易员信息文件）。 （业务消息） BINARY",
+      "detail": "products_yyyymmdd.xml\n（证券产品基础信息文件）、\nbondmbrs_yyyymmdd.xml\n（债券交易参与人信息文件）和\nbondtrdrs_yyyymmdd.xml\n（债券交易员信息文件）。\n（业务消息）\nBINARY",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议交互图（重传消息）",
+      "detail": "协议交互图（重传消息）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "快照消息不支持重传，逐笔行情消息支持 重传应用消息不支持重传 或逐笔行情消息 公共消息 2.4.1 频道心跳（ MsgType=P001 逐笔行情支持在数据发送的空闲期间每 秒发送一次心跳，如数据一直处于发送忙状态，则 可能出现频道心跳超过 标准消息头 uint8 SecurityType 证券类型",
+      "detail": "快照消息不支持重传，逐笔行情消息支持\n重传应用消息不支持重传\n或逐笔行情消息\n公共消息\n2.4.1\n频道心跳（\nMsgType=P001\n逐笔行情支持在数据发送的空闲期间每\n秒发送一次心跳，如数据一直处于发送忙状态，则\n可能出现频道心跳超过\n标准消息头\nuint8\nSecurityType\n证券类型",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "13 = 债券（非匹配成交） ChannelNO uint16, N4 100 = 非匹配成交逐笔行情 该频道已发布的最大消息记 ApplLastSeqNum uint64 频道结束标志 行情更新已结束 EndOfChannel char[1] 行情更新未结束 标准消息尾 2.4.2 重传消息（ MsgType=P002",
+      "detail": "13 =\n债券（非匹配成交）\nChannelNO\nuint16, N4\n100 =\n非匹配成交逐笔行情\n该频道已发布的最大消息记\nApplLastSeqNum\nuint64\n频道结束标志\n行情更新已结束\nEndOfChannel\nchar[1]\n行情更新未结束\n标准消息尾\n2.4.2\n重传消息（\nMsgType=P002",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "重传消息用于请求可重传频道下的行情数据。 针对可重传的应用类消息(各类逐笔行情消息)，若应用类消息缺失，用户可向上发送重传消 息，代表重传请求。上游以“请求-应答”的方式处理重传请求，根据重传消息中指定的起始、 结束序号返回需要重传的数据，并在重传完成后返回一个重传消息，告知重传完成；若重传失 败，则返回一个重传消息，告知重传失败。上游系统仅支持一个缺口消息正在重传，当上游收",
+      "detail": "重传消息用于请求可重传频道下的行情数据。\n针对可重传的应用类消息(各类逐笔行情消息)，若应用类消息缺失，用户可向上发送重传消\n息，代表重传请求。上游以“请求-应答”的方式处理重传请求，根据重传消息中指定的起始、\n结束序号返回需要重传的数据，并在重传完成后返回一个重传消息，告知重传完成；若重传失\n败，则返回一个重传消息，告知重传失败。上游系统仅支持一个缺口消息正在重传，当上游收",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "到多个重传请求时，其他请求消息会返回重传失败。",
+      "detail": "到多个重传请求时，其他请求消息会返回重传失败。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "对于逐笔行情数据可通过频道代码和消息记录号判断是否有消息丢失，当收到的消息记录",
+      "detail": "对于逐笔行情数据可通过频道代码和消息记录号判断是否有消息丢失，当收到的消息记录",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "本频道已经收到的最大消息记录号时，说明已经收到过该消息，此时应忽略该消息。当收 到的消息记录号 已经收到的最大消息记录号 （如已收的最大消息记录号 =100 ，新的消息记录 =102 ）说明发生了消息丢失，此时应通过发送重传请求恢复丢失的数据。 uint16, 重传类别 ResendType 逐笔行情",
+      "detail": "本频道已经收到的最大消息记录号时，说明已经收到过该消息，此时应忽略该消息。当收\n到的消息记录号\n已经收到的最大消息记录号\n（如已收的最大消息记录号\n=100\n，新的消息记录\n=102\n）说明发生了消息丢失，此时应通过发送重传请求恢复丢失的数据。\nuint16,\n重传类别\nResendType\n逐笔行情",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "重传起始消息记录号 ApplBegSeqNum 取值大于 重传结束消息记录号 当取值为 时，交易所会将此字段设置为该频道已发布的最大消息 ApplEndSeqNum 记录号；应答时取值为实际传输的最大消息记录号。 仅在重传应答消息中有效，取值如下： 全部完成 ResendStatus 部分完成（有部分请求的数据未返回）",
+      "detail": "重传起始消息记录号\nApplBegSeqNum\n取值大于\n重传结束消息记录号\n当取值为\n时，交易所会将此字段设置为该频道已发布的最大消息\nApplEndSeqNum\n记录号；应答时取值为实际传输的最大消息记录号。\n仅在重传应答消息中有效，取值如下：\n全部完成\nResendStatus\n部分完成（有部分请求的数据未返回）",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "数据不可用 重传请求正在处理中 99 = 仅在重传应答消息中有效。 RejectText char[32] 填写重传拒绝的原因（如有）。 应主动缓存逐笔消息，避免频繁发送重传请求，禁止定时或不必要的反复进行重传数据行为。 、建议每次请求回补的数据不大于 、当收到 ResendStatus=2 的重传应答时，建议对于未传输数据重新发起重传请求。",
+      "detail": "数据不可用\n重传请求正在处理中\n99 =\n仅在重传应答消息中有效。\nRejectText\nchar[32]\n填写重传拒绝的原因（如有）。\n应主动缓存逐笔消息，避免频繁发送重传请求，禁止定时或不必要的反复进行重传数据行为。\n、建议每次请求回补的数据不大于\n、当收到\nResendStatus=2\n的重传应答时，建议对于未传输数据重新发起重传请求。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "、对于无效字段，字符类型字段填空格，数值类型字段填 应用消息通用约定 字段无意义或无该字段行情数据时，字符填空格，数值填 ；数值字段取值超过约定格式最大值时， 取最大值，如 9999999999 行情类别 (MDStreamID) 及其扩展字段如下： MDStreamID MD001 指数类产品 MD002",
+      "detail": "、对于无效字段，字符类型字段填空格，数值类型字段填\n应用消息通用约定\n字段无意义或无该字段行情数据时，字符填空格，数值填\n；数值字段取值超过约定格式最大值时，\n取最大值，如\n9999999999\n行情类别\n(MDStreamID)\n及其扩展字段如下：\nMDStreamID\nMD001\n指数类产品\nMD002",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "股）类产品 MD003 债券分销类产品 MD004 基金类产品（含公募 REITs MD301 期权类产品 MD101 国债预发行产品 MD102 盘后固定价格 MD201 债券匹配成交快照行情 MD210 债券非匹配成交快照行情 MD211 确定报价逐笔委托行情 MD212 待定报价逐笔委托行情 MD213",
+      "detail": "股）类产品\nMD003\n债券分销类产品\nMD004\n基金类产品（含公募\nREITs\nMD301\n期权类产品\nMD101\n国债预发行产品\nMD102\n盘后固定价格\nMD201\n债券匹配成交快照行情\nMD210\n债券非匹配成交快照行情\nMD211\n确定报价逐笔委托行情\nMD212\n待定报价逐笔委托行情\nMD213",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "现券意向申报逐笔委托行情 MD214",
+      "detail": "现券意向申报逐笔委托行情\nMD214",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "协议回购意向申报逐笔委托行情",
+      "detail": "协议回购意向申报逐笔委托行情",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MD215 三方回购意向申报逐笔委托行情 MD216 竞买逐笔委托行情 MD217 债券非匹配成交逐笔成交行情 MDE01 IOPV 对数量单位说明如下： 产品价格、金额单位，除",
+      "detail": "MD215\n三方回购意向申报逐笔委托行情\nMD216\n竞买逐笔委托行情\nMD217\n债券非匹配成交逐笔成交行情\nMDE01\nIOPV\n对数量单位说明如下：\n产品价格、金额单位，除",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "股为美元外，其他为人民币元。特别地，对于协议回购或三方回购，",
+      "detail": "股为美元外，其他为人民币元。特别地，对于协议回购或三方回购，",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "产品价格字段表示回购利率，单位为 的各类行情，其价格表示净价 还是全价则以证券产品基础信息文件（ ）中该产品的计价方式为准。 指数的成交数量 (TradeVolume) 为参与计算相应指数的交易数量，股票指数交易数量单位是 股，基金指数的交易数量单位是 份，债券指数的交易数量单位是千元面额；指数成交金额",
+      "detail": "产品价格字段表示回购利率，单位为\n的各类行情，其价格表示净价\n还是全价则以证券产品基础信息文件（\n）中该产品的计价方式为准。\n指数的成交数量\n(TradeVolume)\n为参与计算相应指数的交易数量，股票指数交易数量单位是\n股，基金指数的交易数量单位是\n份，债券指数的交易数量单位是千元面额；指数成交金额",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "(TotalValueTraded) 为参与计算相应指数的成交金额； 各类产品数量与成交数量单位，股票为股，基金、公募 为份，债券与回购为千元面额，期 权合约的数量单位为张； 对于债券分销，成交金额为每笔成交的 *10” 的总和；对于债券现券，成交金额为每笔 的总和；对于通用质押式回购，成交金额为 100*",
+      "detail": "(TotalValueTraded)\n为参与计算相应指数的成交金额；\n各类产品数量与成交数量单位，股票为股，基金、公募\n为份，债券与回购为千元面额，期\n权合约的数量单位为张；\n对于债券分销，成交金额为每笔成交的\n*10”\n的总和；对于债券现券，成交金额为每笔\n的总和；对于通用质押式回购，成交金额为\n100*",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "成交数量 包含债券现券匹配成交及质押式回购类产品。",
+      "detail": "成交数量\n包含债券现券匹配成交及质押式回购类产品。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "包含债券现券非匹配成交、协议回购、三方回购产品。",
+      "detail": "包含债券现券非匹配成交、协议回购、三方回购产品。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "（匹配成交） SecurityType = 13 表示债券市场启动期间（开市前） 表示债券市场处于交易期间（含中间休市） 表示债券市场处于闭市期间 表示债券市场行情结束标志，未结束取 表示债券现券（可转债）行情结束标志，未结束取",
+      "detail": "（匹配成交）\nSecurityType = 13\n表示债券市场启动期间（开市前）\n表示债券市场处于交易期间（含中间休市）\n表示债券市场处于闭市期间\n表示债券市场行情结束标志，未结束取\n表示债券现券（可转债）行情结束标志，未结束取",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "技术架构变更",
+      "summary": "表示协议回购、三方回购、债券现券（除可转债）等行情结束标志，未结束取 时，债券市场（非匹配成交）包含债券现券、协议回购、三方回购等。",
+      "detail": "表示协议回购、三方回购、债券现券（除可转债）等行情结束标志，未结束取\n时，债券市场（非匹配成交）包含债券现券、协议回购、三方回购等。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "；数值字段取值超过约定格式最大值时，取最 大值，如 ExtendFields 2.4.2.1 2.4.2.2 债券类产品 股为美元外，其他为人民币元； 金指数的交易数量单位是 为份，债券与回购为千元面额，期权合 约的数量单位为张； 的总和；对于债券现券，成交金额为每笔成交 的总和；对于质押式回购，成交金额为",
+      "detail": "；数值字段取值超过约定格式最大值时，取最\n大值，如\nExtendFields\n2.4.2.1\n2.4.2.2\n债券类产品\n股为美元外，其他为人民币元；\n金指数的交易数量单位是\n为份，债券与回购为千元面额，期权合\n约的数量单位为张；\n的总和；对于债券现券，成交金额为每笔成交\n的总和；对于质押式回购，成交金额为",
+      "severity": "cosmetic",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecurityType = 13, MDStreamID= MD210 表示当前处于停牌状态 表示当前未处于停牌状态 集中竞价类 ＝当日成交均价 昨日成交均价 行情条目类别为 MDEntryPx 表示债券非匹配成交的当日成交均价；行情条目类别为 表示债券非匹配成交的昨日成交均价； 对债券非匹配成交快照行情（",
+      "detail": "SecurityType = 13, MDStreamID= MD210\n表示当前处于停牌状态\n表示当前未处于停牌状态\n集中竞价类\n＝当日成交均价\n昨日成交均价\n行情条目类别为\nMDEntryPx\n表示债券非匹配成交的当日成交均价；行情条目类别为\n表示债券非匹配成交的昨日成交均价；\n对债券非匹配成交快照行情（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MDStreamID=MD210 扩展字段中仅最新成交价、今开盘价、今收盘 价、当日最高成交价、当日最低成交价、当日成交均价和昨日成交均价有意义，均仅计入债券非匹配 成交（含点击成交、询价成交、竞买成交和协商成交）的交易；基础字段中前收盘价对于双边挂牌产 品填写其匹配成交收盘价，单边挂牌产品填写其非匹配成交参考价。",
+      "detail": "MDStreamID=MD210\n扩展字段中仅最新成交价、今开盘价、今收盘\n价、当日最高成交价、当日最低成交价、当日成交均价和昨日成交均价有意义，均仅计入债券非匹配\n成交（含点击成交、询价成交、竞买成交和协商成交）的交易；基础字段中前收盘价对于双边挂牌产\n品填写其匹配成交收盘价，单边挂牌产品填写其非匹配成交参考价。",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于公募可转债和公募 ，无当日成交均价、昨日成交均价和今收盘价信息，其今收盘价参考对 应匹配成交行情或盘后文件 2.5.4 逐笔行情消息（ MsgType=M201 逐笔行情包括逐笔委托行情和逐笔成交行情，两者按照发生的顺序在一个数据流中发送。 同一个频道内的逐笔委托和逐笔成交消息的消息记录号（ ApplSeqNum",
+      "detail": "对于公募可转债和公募\n，无当日成交均价、昨日成交均价和今收盘价信息，其今收盘价参考对\n应匹配成交行情或盘后文件\n2.5.4\n逐笔行情消息（\nMsgType=M201\n逐笔行情包括逐笔委托行情和逐笔成交行情，两者按照发生的顺序在一个数据流中发送。\n同一个频道内的逐笔委托和逐笔成交消息的消息记录号（\nApplSeqNum",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "）统一连续编号， 通过逐笔序号的连续性判断是否丢包，并通过 连接向上发起重传请求。 消息格式如下： unit16, N4 消息记录号，从 开始计数 uint64, N18 char[5] SecurityID",
+      "detail": "）统一连续编号，\n通过逐笔序号的连续性判断是否丢包，并通过\n连接向上发起重传请求。\n消息格式如下：\nunit16, N4\n消息记录号，从\n开始计数\nuint64, N18\nchar[5]\nSecurityID",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "产品代码",
+      "detail": "产品代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "char[8] TransactTime 委托或成交的行情生成时间： HHMMSSsss uint32,N9 对于逐笔委托：",
+      "detail": "char[8]\nTransactTime\n委托或成交的行情生成时间：\nHHMMSSsss\nuint32,N9\n对于逐笔委托：",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "新增",
+      "summary": "新增委托订单",
+      "detail": "新增委托订单",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExecType",
+      "detail": "ExecType",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "删除",
+      "summary": "删除委托订单",
+      "detail": "删除委托订单",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "对于逐笔成交： 逐笔委托时表示委托价格，如意向申报时未 填写价格或删除委托订单时，则为 Price uint64,N13(5) 逐笔成交时表示成交价格 逐笔委托时表示委托数量，如意向申报时未 填写数量或删除委托订单时，则为 OrderQty uint64,N15(3) 逐笔成交时表示成交数量 扩展字段",
+      "detail": "对于逐笔成交：\n逐笔委托时表示委托价格，如意向申报时未\n填写价格或删除委托订单时，则为\nPrice\nuint64,N13(5)\n逐笔成交时表示成交价格\n逐笔委托时表示委托数量，如意向申报时未\n填写数量或删除委托订单时，则为\nOrderQty\nuint64,N15(3)\n逐笔成交时表示成交数量\n扩展字段",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "2.5.4.1 逐笔委托行情扩展字段 买卖方向 Side char[18] 订单编号，删除委托时表示被删除订单的 QuoteID 订单编号",
+      "detail": "2.5.4.1\n逐笔委托行情扩展字段\n买卖方向\nSide\nchar[18]\n订单编号，删除委托时表示被删除订单的\nQuoteID\n订单编号",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "接口字段变更",
+      "summary": "报价方交易参与人机构代码",
+      "detail": "报价方交易参与人机构代码",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "MemberID char[12] 如发起方选择匿名，填空 报价交易员一债通账户 TraderCode 是否全额成交 FullAmountTrade uint8, N1 结算方式 SettlType 净额结算 RTGS 折算比例（ ），如发起方未填写此字段， ContractMultiplier uint32,N5(2)",
+      "detail": "MemberID\nchar[12]\n如发起方选择匿名，填空\n报价交易员一债通账户\nTraderCode\n是否全额成交\nFullAmountTrade\nuint8, N1\n结算方式\nSettlType\n净额结算\nRTGS\n折算比例（\n），如发起方未填写此字段，\nContractMultiplier\nuint32,N5(2)",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "ExpirationDays 期限（天），如发起方未填写此字段，填 uint16,N3 TotalValueTraded 成交金额，如发起方未填写此字段，填 uint64,N16(2) 篮子信息 左起顺序代表第 号篮子。例如 BasketID char[16] 号篮子，填 “1100100000000000”",
+      "detail": "ExpirationDays\n期限（天），如发起方未填写此字段，填\nuint16,N3\nTotalValueTraded\n成交金额，如发起方未填写此字段，填\nuint64,N16(2)\n篮子信息\n左起顺序代表第\n号篮子。例如\nBasketID\nchar[16]\n号篮子，填\n“1100100000000000”",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "InvestorName 投资者名称 竞买申报类别 竞买预约 BidTransType 竞买申报 单一主体中标应价申报 竞买申报方式 单一主体中标 BidExecInstType 多主体单一价格中标 多主体多重价格中标 ExpireDate 竞买日期： YYYYMMDD uint32,N8 应价申报对应的订单编号（也即竞买申报",
+      "detail": "InvestorName\n投资者名称\n竞买申报类别\n竞买预约\nBidTransType\n竞买申报\n单一主体中标应价申报\n竞买申报方式\n单一主体中标\nBidExecInstType\n多主体单一价格中标\n多主体多重价格中标\nExpireDate\n竞买日期：\nYYYYMMDD\nuint32,N8\n应价申报对应的订单编号（也即竞买申报",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "SecondaryOrderID MinQty 最低成交数量，预留 uint64,N12 注：新增委托订单时扩展字段与业务的对照关系参见下表，删除委托订单时仅 有效（其他字段均无意义） 不同竞买委托方式可根据 字段进行区分。 仅适用于竞买单一主体中标应价申报。 2.5.4.2 逐笔成交行情扩展字段 买方订单编号（",
+      "detail": "SecondaryOrderID\nMinQty\n最低成交数量，预留\nuint64,N12\n注：新增委托订单时扩展字段与业务的对照关系参见下表，删除委托订单时仅\n有效（其他字段均无意义）\n不同竞买委托方式可根据\n字段进行区分。\n仅适用于竞买单一主体中标应价申报。\n2.5.4.2\n逐笔成交行情扩展字段\n买方订单编号（",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "BidApplSeqNum 无对应委托时填空 卖方订单编号（ OfferApplSeqNum 成交金额 仅适用于竞买多主体中标（含单一价格或多重价格中标）。 成交方式 匹配成交（预留） 确定报价点击成交 待定报价点击成交 询价成交 TradeMethod uint8,N2 协商成交（含合并申报） 竞买单一主体成交",
+      "detail": "BidApplSeqNum\n无对应委托时填空\n卖方订单编号（\nOfferApplSeqNum\n成交金额\n仅适用于竞买多主体中标（含单一价格或多重价格中标）。\n成交方式\n匹配成交（预留）\n确定报价点击成交\n待定报价点击成交\n询价成交\nTradeMethod\nuint8,N2\n协商成交（含合并申报）\n竞买单一主体成交",
+      "severity": "minor",
+      "source": "parser_span"
+    },
+    {
+      "type": "规则条款变更",
+      "summary": "10 = 竞买多主体单一价格成交 11 = 竞买多主体多重价格成交 边际价格 MarginPrice 仅适用于竞买多主体成交 证券产品基础信息文件 债券交易参与人信息文件 债券交易员信息文件 固收成交行情文件 固收成交明细文件 固收确定报价文件 固收证券信息文件",
+      "detail": "10 =\n竞买多主体单一价格成交\n11 =\n竞买多主体多重价格成交\n边际价格\nMarginPrice\n仅适用于竞买多主体成交\n证券产品基础信息文件\n债券交易参与人信息文件\n债券交易员信息文件\n固收成交行情文件\n固收成交明细文件\n固收确定报价文件\n固收证券信息文件",
+      "severity": "minor",
+      "source": "parser_span"
+    }
+  ],
+  "tags": [
+    "sse",
+    "interface_spec",
+    "BINARY",
+    "IS120",
+    "REITs",
+    "STEP",
+    "债券",
+    "期权",
+    "港股通",
+    "行情网关",
+    "has_changes"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "本次涉及44项变更。 删除: 1项。 接口字段变更: 3项。 技术架构变更: 5项。 规则条款变更: 33项。 新增: 2项。",
+  "confidence": 0.95
+}

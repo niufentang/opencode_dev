@@ -607,7 +607,7 @@ B 转 H 登记结算业务指南》同步废止。
   "effective_date": null,
   "has_changes": false,
   "parse_status": "success",
-  "parse_date": "2026-05-19T11:26:22.383577+00:00",
+  "parse_date": "2026-06-13T17:46:44.642559+00:00",
   "sub_category": "涉外与跨境业务"
 }
 </metadata>

@@ -1,0 +1,21 @@
+{
+  "doc_id": "sse-tech-00000000-137",
+  "title": "关于发布ETF细分类别市场接口技术开发稿的通知",
+  "source": "sse",
+  "source_url": "https://www.sse.com.cn/services/tradingtech/notice/c/10072491/files/9ea0cf7eaa534961b559b3605361cbad.pdf",
+  "analysis_date": "2026-06-13T17:46:54.689808+00:00",
+  "status": "active",
+  "version": null,
+  "previous_version": null,
+  "changes": [],
+  "tags": [
+    "sse",
+    "technical_notice",
+    "IS101"
+  ],
+  "related_ids": [],
+  "deprecated_date": null,
+  "superseded_by": null,
+  "summary": "初始版本，无历史变更。文档类型：technical_notice，版本：无。",
+  "confidence": 0.75
+}

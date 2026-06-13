@@ -1,9 +1,9 @@
 {
-  "doc_id": "szse-iface-00000000-230",
+  "doc_id": "szse-iface-00000000-192",
   "title": "深圳证券交易所组播行情数据分发协议（Ver1",
   "source": "szse",
   "source_url": "https://www.szse.cn/marketServices/technicalservice/interface/P020250219508489616817.pdf",
-  "analysis_date": "2026-05-02T02:03:07.146826+00:00",
+  "analysis_date": "2026-06-13T17:46:57.828246+00:00",
   "status": "active",
   "version": "1",
   "previous_version": null,
