@@ -16,6 +16,27 @@
 - 依赖管理: pip + requirements.txt
 - 版本控制: Git
 
+## 本地开发环境
+
+### 前置条件
+
+- 安装 [Miniconda](https://docs.anaconda.com/miniconda/)（Python 3.12，轻量级 conda 发行版）
+- 安装 Git
+
+### 环境初始化
+
+```bash
+# 1. 检查环境是否已存在，不存在则创建
+conda info --envs | findstr llm_exchg
+conda create -n llm_exchg python=3.12 -y   # 仅当不存在时执行
+
+# 2. 激活环境
+conda activate llm_exchg
+
+# 3. 检查并安装项目依赖（仅安装缺失或版本不匹配的包）
+pip install -r requirements.txt
+```
+
 ## 编码规范
 
 - 遵循 PEP 8，使用 ruff 格式化

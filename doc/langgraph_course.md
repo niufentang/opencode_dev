@@ -1,0 +1,1 @@
+langgraph course：https://academy.langchain.com/courses/intro-to-langgraph
