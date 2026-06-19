@@ -1,38 +1,26 @@
 """LangGraph 工作流共享状态定义。
 
-┌────────────  写入  ┌────────────────────┐
-│  Collect    │ ───→ │ sources: dict      │ → knowledge/raw/
-└────────────       │ (doc_id → meta)    │
-                    └────────────────────┘
-                           │ Analyze 读
-                           ▼
-┌────────────  写入  ┌────────────────────┐
-│  Parse      │ ───→ │ (无字段，走文件系统) │ → knowledge/articles/
-└────────────       │ {markdown,metadata} │   {markdown, metadata}/
-                    └────────────────────┘
-                           │ Analyze 读
-                           ▼
-┌────────────  写入  ┌────────────────────┐
-│  Analyze    │ ───→ │ analyses: dict     │ → knowledge/articles/
-└────────────       │ (doc_id → result)  │   analyzed/
-                    └────────────────────┘
-                           │ Organize 读
-                           ▼
-┌────────────  写入  ┌────────────────────┐
-│  Organize   │ ───→ │ articles: dict     │ → knowledge/articles/
-└────────────       │ (doc_id → entry)   │   entries/
-                    └────────────────────┘
-                           │ Save + Review 读
-                           ▼
-┌────────────  写入  ┌────────────────────┐
-│  Save       │ ───→ │ save_report: dict  │ → 分发通知
-└────────────       │ (摘要报告)          │
-                    └────────────────────┘
+ 写入文件:      raw/     markdown,   analyzed/    entries/    分发通知
+                     metadata/
+                │          │           │            │
+ Pipeline:  [Collect] → [Parse] → [Analyze] → [Organize] → [Save]
+                │          │           │            │
+ State:       sources    (无字段)    analyses     articles   save_report
+                │                     ▲            ▲
+                │                     │            │
+                                   [Review] ───────────┐
+                                      │                │
+                                   ┌──┴────────────────┴──────┐
+                                   │ 退回 Analyze 退回 Organize│
+                                   └──────────┬───────────────┘
+                                              │[>3]
+                                       human_review → END
 
-审核循环: Review 节点读 analyses + articles
-  ├─ 退回 Analyze  → 重写 analyses
-  ├─ 退回 Organize → 重写 articles
-  └─ 通过 → Save 节点执行
+图例:
+  [方括号] = Pipeline 节点（执行动作）
+  无括号   = State 字段（数据）
+  竖线 │   = 写关系（写入文件 → Pipeline / Pipeline → State）
+  三角 ▲   = 读关系（Review ▲ analyses + articles）
 
 遵循"报告式通信"原则：状态字段存储的是结构化摘要，
 而非原始数据。原始数据通过文件系统路径引用（knowledge/raw/）。
